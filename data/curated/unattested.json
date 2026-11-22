@@ -1743,7 +1743,11 @@
    "btu:2reg.19.22",
    "btu:2reg.19.23",
    "btu:2reg.19.24",
-   "btu:2reg.19.25"
+   "btu:2reg.19.25",
+   "btu:2reg.16.18",
+   "btu:2reg.17.2",
+   "btu:2reg.17.28",
+   "btu:2reg.17.33"
   ],
   "bpers:benadad.tabremmonis-filius": [
    "btu:2par.14.8",
@@ -1777,7 +1781,8 @@
    "btu:2par.16.6",
    "btu:2par.16.8",
    "btu:2par.16.9",
-   "btu:2par.16.10"
+   "btu:2par.16.10",
+   "btu:2par.15.2"
   ],
   "bpers:benammi": [
    "btu:dt.2.19",
@@ -4959,7 +4964,59 @@
    "btu:mt.3.8",
    "btu:mt.3.9",
    "btu:act.13.23",
-   "btu:io.3.30"
+   "btu:io.3.30",
+   "btu:lc.1.39",
+   "btu:os.2.16",
+   "btu:ier.2.2",
+   "btu:is.40.3",
+   "btu:2reg.2.6",
+   "btu:mal.3.23",
+   "btu:2reg.1.8",
+   "btu:mt.3.5",
+   "btu:mt.3.2",
+   "btu:ier.3.6",
+   "btu:ier.3.8",
+   "btu:ier.3.9",
+   "btu:ier.3.10",
+   "btu:ier.3.11",
+   "btu:ier.3.12",
+   "btu:ier.3.13",
+   "btu:ier.3.14",
+   "btu:ez.33.11",
+   "btu:os.14.2",
+   "btu:il.2.12",
+   "btu:ion.3.8",
+   "btu:mal.3.24",
+   "btu:mt.4.17",
+   "btu:ex.32.30",
+   "btu:dn.9.4",
+   "btu:ex.29.4",
+   "btu:ex.30.17",
+   "btu:ex.40.30",
+   "btu:lv.16.4",
+   "btu:2reg.5.10",
+   "btu:lc.3.9",
+   "btu:lc.3.10",
+   "btu:lc.3.11",
+   "btu:lc.3.14",
+   "btu:mt.3.10",
+   "btu:lc.3.22",
+   "btu:lc.3.23",
+   "btu:mc.1.7",
+   "btu:io.1.27",
+   "btu:io.1.30",
+   "btu:lc.4.1",
+   "btu:lc.4.14",
+   "btu:mt.14.5",
+   "btu:mt.11.6",
+   "btu:mt.11.8",
+   "btu:mc.6.26",
+   "btu:mc.6.28",
+   "btu:mt.14.12",
+   "btu:act.19.1",
+   "btu:act.19.2",
+   "btu:act.19.6",
+   "btu:act.19.7"
   ],
   "bpers:ioannes.apostolus": [
    "btu:mc.10.37",
@@ -5611,6 +5668,9 @@
    "btu:1par.26.25",
    "btu:ne.11.7",
    "btu:esd.8.7"
+  ],
+  "bpers:isbaal": [
+   "btu:1sam.14.49"
   ],
   "bpers:ismael.filius-abrahae": [
    "btu:gn.16.6",
@@ -16411,7 +16471,12 @@
    "btu:ez.47.4",
    "btu:ez.47.8",
    "btu:ez.47.10",
-   "btu:ez.47.11"
+   "btu:ez.47.11",
+   "btu:ez.47.5",
+   "btu:ez.47.6",
+   "btu:ez.47.7",
+   "btu:ez.47.9",
+   "btu:ez.47.12"
   ],
   "bplace:sichar": [
    "btu:io.4.40",
@@ -17260,7 +17325,23 @@
    "btu:mt.23.33",
    "btu:mc.9.48",
    "btu:mt.27.3",
-   "btu:mt.27.9"
+   "btu:mt.27.9",
+   "btu:2reg.18.17",
+   "btu:il.4.2",
+   "btu:il.4.12",
+   "btu:il.4.14"
+  ],
+  "bplace:vallis-gad": [
+   "btu:dt.2.36"
+  ],
+  "bplace:vallis-iosaphat": [
+   "btu:2par.20.16"
+  ],
+  "bplace:vallis-regis": [
+   "btu:is.22.5",
+   "btu:is.22.7",
+   "btu:il.4.2",
+   "btu:il.4.14"
   ],
   "bplace:vallis-sorec": [
    "btu:idc.13.25"

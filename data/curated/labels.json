@@ -618,6 +618,16 @@
      "VGCL": "regem Israël"
     }
    },
+   "btu:1reg.22.33": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "il re d'Israele",
+     "DRB": "the king of Israel",
+     "NABRE": "the king of Israel",
+     "NVBSE": "rex Isræl",
+     "VGCL": "rex Israël"
+    }
+   },
    "btu:1reg.22.34": {
     "as": "designation",
     "editions": {
@@ -3900,6 +3910,36 @@
    }
   },
   "bpers:ioannes-baptista": {
+   "btu:lc.1.80": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Il bambino",
+     "DRB": "the child",
+     "NABRE": "The child",
+     "NVBSE": "Puer",
+     "VGCL": "Puer"
+    }
+   },
+   "btu:mc.1.2": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "il mio messaggero",
+     "DRB": "my angel",
+     "NABRE": "my messenger",
+     "NVBSE": "angelum meum",
+     "VGCL": "angelum meum"
+    }
+   },
+   "btu:mt.11.10": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "il mio messaggero",
+     "DRB": "my angel",
+     "NABRE": "my messenger",
+     "NVBSE": "angelum meum",
+     "VGCL": "angelum meum"
+    }
+   },
    "btu:mt.11.9": {
     "as": "designation",
     "editions": {
@@ -9059,6 +9099,15 @@
     }
    }
   },
+  "bplace:gadgad": {
+   "btu:nm.33.33": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "Or-Ghidgad",
+     "NABRE": "Mount Gidgad"
+    }
+   }
+  },
   "bplace:galilaea": {
    "btu:mt.4.16": {
     "as": "designation",
@@ -10902,6 +10951,48 @@
      "NABRE": "the city",
      "NVBSE": "urbem",
      "VGCL": "urbe"
+    }
+   }
+  },
+  "bplace:porta-vallis": {
+   "btu:2par.26.9": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "porta della Valle",
+     "DRB": "the gate of the valley",
+     "NABRE": "the Valley Gate",
+     "NVBSE": "portam Vallis",
+     "VGCL": "portam vallis"
+    }
+   },
+   "btu:ne.2.13": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "la porta della Valle",
+     "DRB": "the gate of the valley",
+     "NABRE": "the Valley Gate",
+     "NVBSE": "portam Vallis",
+     "VGCL": "portam vallis"
+    }
+   },
+   "btu:ne.2.15": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "la porta della Valle",
+     "DRB": "the gate of the valley",
+     "NABRE": "the Valley Gate",
+     "NVBSE": "portam Vallis",
+     "VGCL": "portam vallis"
+    }
+   },
+   "btu:ne.3.13": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "la porta della Valle",
+     "DRB": "the gate of the valley",
+     "NABRE": "The Valley Gate",
+     "NVBSE": "Portam Vallis",
+     "VGCL": "portam vallis"
     }
    }
   },
