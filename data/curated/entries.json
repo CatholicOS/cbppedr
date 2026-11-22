@@ -44198,6 +44198,41 @@
      ]
     }
    ]
+  },
+  "bpers:iacobus.minor": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iacobus minor",
+   "it": "Giacomo il minore",
+   "en": "James the Less",
+   "descr_it": "figlio di Maria e fratello di Ioses, presente con la madre alla croce",
+   "descr_en": "son of Mary and brother of Joses, whose mother stood at the cross",
+   "attested": [
+    "btu:mc.15.40",
+    "btu:mc.16.1",
+    "btu:mt.27.56",
+    "btu:lc.24.10"
+   ],
+   "evidence": [
+    "nv:btu:mc.15.40",
+    "nv:btu:mt.27.56"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:maria.mater-iacobi",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:ioses.filius-mariae",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    }
+   ]
   }
  }
 }

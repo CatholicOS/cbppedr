@@ -3736,7 +3736,8 @@
    "btu:1cor.9.5",
    "btu:gal.1.18",
    "btu:act.11.30",
-   "btu:act.15.4"
+   "btu:act.15.4",
+   "btu:mc.15.40"
   ],
   "bpers:iacobus.pater-iudae": [
    "btu:mt.10.3",
@@ -17484,6 +17485,10 @@
   ],
   "bplace:ziph.urbs": [
    "btu:1par.11.8"
+  ],
+  "bpers:iacobus.alphaei-filius": [
+   "btu:mc.16.1",
+   "btu:mt.27.56"
   ]
  }
 }

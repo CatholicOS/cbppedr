@@ -2289,6 +2289,69 @@
      "summary": "Archaeologists sought the Kedesh of Judg 4:11 at Tell Abu Qudeis; the topography fits Khirbet el-Qadish better."
     }
    ]
+  },
+  {
+   "source": "bpers:iacobus.minor",
+   "rel": "possibly_same_as",
+   "target": "bpers:iacobus.frater-domini",
+   "opinions": [
+    {
+     "by": "bj:note:Mt.13,55-56",
+     "says": "identifies",
+     "summary": "The brothers James and Joseph are sons of the Mary of Mt 27:56 and Mk 15:40, not Jesus' mother."
+    },
+    {
+     "by": "ndeib:FRATELLI DI GESÙ",
+     "says": "doubts",
+     "summary": "Jerome's chain making the brothers sons of the Mary at the cross is acute but unconvincing."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iacobus.minor",
+   "rel": "possibly_same_as",
+   "target": "bpers:iacobus.alphaei-filius",
+   "opinions": [
+    {
+     "by": "ndeib:GIACOMO#2",
+     "says": "doubts",
+     "summary": "That the son of Alphaeus is James the Less cannot be proved."
+    },
+    {
+     "by": "ndeib:FRATELLI DI GESÙ",
+     "says": "doubts",
+     "summary": "Jerome's identification of James the Less with James of Alphaeus is acute but unconvincing."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iacobus.alphaei-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:iacobus.frater-domini",
+   "opinions": [
+    {
+     "by": "bj:note:At.1,13#p2616",
+     "says": "doubts",
+     "summary": "There is no need to identify the apostle James son of Alphaeus with the Lord's brother."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioses.filius-mariae",
+   "rel": "possibly_same_as",
+   "target": "bpers:ioses.frater-domini",
+   "opinions": [
+    {
+     "by": "bj:note:Mt.13,55-56",
+     "says": "identifies",
+     "summary": "The brothers James and Joseph are sons of the Mary of Mt 27:56 and Mk 15:40, not Jesus' mother."
+    },
+    {
+     "by": "ndeib:FRATELLI DI GESÙ",
+     "says": "doubts",
+     "summary": "Jerome's chain making the brothers sons of the Mary at the cross is acute but unconvincing."
+    }
+   ]
   }
  ]
 }
