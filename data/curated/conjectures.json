@@ -1311,6 +1311,18 @@
    ]
   },
   {
+   "source": "bplace:babylon.roma",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1pe.5.13",
+   "opinions": [
+    {
+     "by": "ndeib:BABILONIA (CITTÀ)#3",
+     "says": "suggests",
+     "summary": "The Babylon of 1 Peter is more probably Rome than the city on the Euphrates"
+    }
+   ]
+  },
+  {
    "source": "bplace:baloth.iuda",
    "rel": "possibly_same_as",
    "target": "bplace:baalathbeer",
@@ -1998,7 +2010,7 @@
    "opinions": [
     {
      "by": "ndeib:RIBLA#2",
-     "says": "suggests",
+     "says": "doubts",
      "summary": "Perhaps the same Riblah, though most place this border further south or read Arbela."
     }
    ]

@@ -1869,15 +1869,7 @@
     "btu:1sam.4.1",
     "btu:1sam.29.1"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:antipatris",
-     "evidence": [
-      "ndeib:AFEK, AFEKA#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -4471,22 +4463,18 @@
    "attested": [
     "btu:apc.14.8",
     "btu:apc.18.2",
-    "btu:is.21.9",
-    "btu:ier.51.8",
     "btu:apc.17.9",
     "btu:apc.16.19",
     "btu:apc.17.5",
     "btu:apc.18.10",
-    "btu:apc.18.21",
-    "btu:1pe.5.13"
+    "btu:apc.18.21"
    ],
    "relations": [
     {
      "rel": "same_as",
      "target": "bplace:roma",
      "evidence": [
-      "ndeib:BABILONIA (CITTÀ)#2",
-      "ndeib:BABILONIA (CITTÀ)#3"
+      "ndeib:BABILONIA (CITTÀ)#2"
      ]
     }
    ],
@@ -4508,7 +4496,21 @@
       "VGCL": "mulier"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1pe.5.13",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BABILONIA (CITTÀ)#3",
+       "says": "suggests",
+       "summary": "The Babylon of 1 Peter is more probably Rome than the city on the Euphrates"
+      }
+     ]
+    }
+   ]
   },
   "bplace:babylon.urbs": {
    "type": "place",
@@ -4539,14 +4541,17 @@
     "btu:2par.33.11",
     "btu:2reg.24.1",
     "btu:dn.4.27",
-    "btu:2par.36.7"
+    "btu:2par.36.7",
+    "btu:is.21.9",
+    "btu:ier.51.8"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BABELE",
-    "ndeib:BABILONIA (CITTÀ)#0"
+    "ndeib:BABILONIA (CITTÀ)#0",
+    "nv:btu:is.21.9"
    ],
    "labels": {
     "btu:gn.11.4": {
@@ -13413,17 +13418,7 @@
     "btu:ios.15.7",
     "btu:ios.22.10"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:galgala.in-finibus-iudae",
-     "evidence": [
-      "ndeib:GHELILOT",
-      "nv:btu:ios.18.17",
-      "nv:btu:ios.15.7"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -19238,17 +19233,7 @@
     "btu:idc.1.25",
     "btu:idc.1.26"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:bethel",
-     "evidence": [
-      "ndeib:LUZ",
-      "nv:btu:gn.28.19",
-      "nv:btu:idc.1.23"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -26360,11 +26345,11 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:rebla.emath",
-     "status": "supported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:RIBLA#2",
-       "says": "suggests",
+       "says": "doubts",
        "summary": "Perhaps the same Riblah, though most place this border further south or read Arbela."
       }
      ]
@@ -27235,8 +27220,8 @@
     "en": "Secacah"
    },
    "description": {
-    "it": "località del deserto di Giuda, forse Qumran",
-    "en": "town in the Judean wilderness, probably Qumran"
+    "it": "località del deserto di Giuda, identificata con Qumran",
+    "en": "town in the Judean wilderness, identified with Qumran"
    },
    "attested": [
     "btu:ios.15.61"

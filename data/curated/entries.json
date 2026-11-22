@@ -23392,19 +23392,7 @@
     "nv:btu:2par.21.2"
    ]
   },
-  "bpers:michaia.mater-abiae": {
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:maacha.uxor-roboam",
-     "evidence": [
-      "nv:btu:2par.13.2",
-      "nv:btu:2par.11.20",
-      "nv:btu:2par.11.22"
-     ]
-    }
-   ]
-  },
+  "bpers:michaia.mater-abiae": {},
   "bpers:misaam": {
    "type": "person",
    "kind": "individual",
@@ -39160,18 +39148,7 @@
     "nv:btu:2sam.19.41"
    ]
   },
-  "bplace:galiloth": {
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:galgala.in-finibus-iudae",
-     "evidence": [
-      "nv:btu:ios.18.17",
-      "nv:btu:ios.15.7"
-     ]
-    }
-   ]
-  },
+  "bplace:galiloth": {},
   "bplace:gamzo": {
    "type": "place",
    "kind": "city",
@@ -40235,18 +40212,7 @@
     "nv:btu:ier.48.5"
    ]
   },
-  "bplace:luza": {
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:bethel",
-     "evidence": [
-      "nv:btu:gn.28.19",
-      "nv:btu:idc.1.23"
-     ]
-    }
-   ]
-  },
+  "bplace:luza": {},
   "bplace:macedonia": {
    "type": "place",
    "kind": "region",
@@ -43835,6 +43801,15 @@
    ],
    "evidence": [
     "nv:btu:nm.34.9"
+   ]
+  },
+  "bplace:babylon.urbs": {
+   "attested": [
+    "btu:is.21.9",
+    "btu:ier.51.8"
+   ],
+   "evidence": [
+    "nv:btu:is.21.9"
    ]
   }
  }

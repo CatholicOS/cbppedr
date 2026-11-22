@@ -2385,13 +2385,7 @@
    "en": "Aphek",
    "descr_it": "città presso le sorgenti dello Iarkon, poi Antipatride",
    "descr_en": "city at the Yarkon springs, later Antipatris",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Antipatride",
-     "target_key": "ANTIPATRIDE"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -7446,18 +7440,7 @@
    "en": "Babylon",
    "descr_it": "nome simbolico di Roma nell'Apocalisse e in 1 Pietro",
    "descr_en": "symbolic name for Rome in Revelation and 1 Peter",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Roma",
-     "target_key": null
-    },
-    {
-     "rel": "same_as",
-     "target": "Babilonia",
-     "target_key": "BABILONIA (CITTÀ)#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -21541,13 +21524,7 @@
    "en": "Geliloth",
    "descr_it": "luogo sul confine di Beniamino di fronte alla salita di Adummim",
    "descr_en": "place on Benjamin's border facing the ascent of Adummim",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Gàlgala",
-     "target_key": "GALGALA#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -30515,13 +30492,7 @@
    "en": "Luz",
    "descr_it": "antico nome di Betel",
    "descr_en": "ancient name of Bethel",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Betel",
-     "target_key": null
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -41728,8 +41699,8 @@
    "latin": "Sachacha",
    "it": "Secacà",
    "en": "Secacah",
-   "descr_it": "località del deserto di Giuda, forse Qumran",
-   "descr_en": "town in the Judean wilderness, probably Qumran",
+   "descr_it": "località del deserto di Giuda, identificata con Qumran",
+   "descr_en": "town in the Judean wilderness, identified with Qumran",
    "relations": [
     {
      "rel": "same_as",

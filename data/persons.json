@@ -65820,10 +65820,7 @@
      "rel": "same_as",
      "target": "bpers:maacha.uxor-roboam",
      "evidence": [
-      "ndeib:MICHEA",
-      "nv:btu:2par.13.2",
-      "nv:btu:2par.11.20",
-      "nv:btu:2par.11.22"
+      "ndeib:MICHEA"
      ]
     }
    ],

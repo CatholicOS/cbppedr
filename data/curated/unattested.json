@@ -12097,7 +12097,10 @@
    "btu:1par.14.10"
   ],
   "bplace:babylon.roma": [
-   "btu:apc.17.10"
+   "btu:apc.17.10",
+   "btu:is.21.9",
+   "btu:ier.51.8",
+   "btu:1pe.5.13"
   ],
   "bplace:babylon.urbs": [
    "btu:gn.11.1",
