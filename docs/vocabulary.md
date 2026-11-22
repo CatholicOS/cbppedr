@@ -14,7 +14,7 @@ A catalog statement says **where an entry is** (its verses) or **who it is** (it
 
 A statement at a lower level never changes one at a higher level. Rule of the whole catalog: **better unidentified than misidentified.**
 
-Of the 34 `same_as` links, 24 rest on the text (`nv:` evidence: a verse that equates the names, a parallel passage with the same parents, office and events, a renaming), 16 of them also cited to the dictionary; the other 10 rest on the dictionary alone, which states each as fact ("identico", "è lo stesso"). Every link the dictionary only hedged ("forse", "probabilmente"), or that an authoritative source doubts, is a conjecture instead: 17 were moved there on review, among them Ben-hadad I = the Ben-hadad of Ahab's wars (two kings, say the Jerusalem Bible's notes), Seba = Sheba, Riblah on the border = Riblah of Hamath, Thaddaeus = Judas son of James.
+Of the 34 `same_as` links, 24 rest on the text (`nv:` evidence: a verse that equates the names, a parallel passage with the same parents, office and events, a renaming), 16 of them also cited to the dictionary; the other 10 rest on the dictionary alone, which states each as fact ("identico", "è lo stesso"). Every link the dictionary only hedged ("forse", "probabilmente"), or that an authoritative source doubts, is a conjecture instead: 16 were moved there on review, among them Ben-hadad I = the Ben-hadad of Ahab's wars (two kings, say the Jerusalem Bible's notes), Seba = Sheba, Riblah on the border = Riblah of Hamath, Thaddaeus = Judas son of James.
 
 ## Identifiers
 
