@@ -49,7 +49,7 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 ## Status
 
 Baseline (round 1), built from the dictionary's headwords, the Jerusalem Bible's Herodian tree, and the persons the dictionary covers only in a book's article (the prophets of the Twelve, Ezekiel, Matthew, Judith, Tobit and Tobias), curated by hand. 49 headwords listing many bearers of one name (Shemaiah, Shimei, Hananiah, Jonathan…), whose first review kept only some, were reviewed again for the rest:
-1,712 persons, 708 places and 22 events, validated with no problems. 337 entries have a Wikidata
+3,150 persons, 1,093 places and 22 events (with round 2 so far), validated with no problems. 337 entries have a Wikidata
 item matched automatically (2 more set by a reviewer): a candidate of the class "human biblical figure", or the only fitting candidate
 whose description is explicitly biblical. The rest list their candidates for review. A relation
 is resolved only by its sense key, or by a name no homonym shares. The others stay unresolved,
@@ -57,7 +57,7 @@ not guessed.
 
 Round 2 will cover:
 
-- the names TIPNR has and the baseline lacks (`docs/stepbible-gaps.md`): begun with the 118 names TIPNR cites in six or more verses, each established from the Nova Vulgata text itself (`nv:` evidence); the rest remain;
+- the names TIPNR has and the baseline lacks (`docs/stepbible-gaps.md`): done but for 448: each name checked against the Nova Vulgata text itself (`nv:` evidence), 1,911 new entries and 119 extended; most of the rest are TIPNR individuals the Nova Vulgata does not name (an unnamed wife or son, a common noun such as "the guard"), or already covered under the Nova Vulgata's verse numbering;
 - verses that a dictionary citation attached to an entry but that do not refer to it: done for every verse no edition names the entry in, by an audit against five editions' text (`scripts/audit_attested.py`) and a verse-by-verse review. 15,202 verses are removed (`data/curated/unattested.json`): whole chapters cited for one person, a neighbouring headword's verses taken for the previous one (Netophah got the verses on snow, the Italian *neve*), mistyped references (Job at Is 14:14 for Ez 14:14, now corrected), and verses that refer to their entry only by a pronoun. A verse that designates its entry by a title the context ties to it ("the king of Israel" in the Joram narrative) is kept;
 - other names an entry bears in the text (Saul for Paul, Cephas for Peter, Azariah for Abednego), not yet recorded, and probable duplicate entries the audit found (Joshua, Rabbah, Barnabas, Jehoahaz/Shallum);
 - the 1,069 relations left unresolved, and the 260 entries marked uncertain;
