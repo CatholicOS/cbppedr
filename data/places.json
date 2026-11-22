@@ -18,13 +18,18 @@
     "btu:dt.32.49",
     "btu:dt.34.1",
     "btu:nm.23.28",
-    "btu:nm.33.49"
+    "btu:nm.33.49",
+    "btu:nm.27.12",
+    "btu:nm.33.47",
+    "btu:nm.33.48"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ABARIM"
+    "ndeib:ABARIM",
+    "nv:btu:nm.27.12",
+    "nv:btu:dt.32.49"
    ]
   },
   "bplace:abdon": {
@@ -739,14 +744,28 @@
     "btu:soph.3.10",
     "btu:2par.21.16",
     "btu:act.8.27",
-    "btu:ps.68.32"
+    "btu:ps.68.32",
+    "btu:gn.2.13",
+    "btu:idt.1.10",
+    "btu:est.3.13a",
+    "btu:est.8.12d",
+    "btu:iob.28.19",
+    "btu:is.11.11",
+    "btu:is.43.3",
+    "btu:is.45.14",
+    "btu:ez.29.10",
+    "btu:ez.30.5",
+    "btu:ez.30.9",
+    "btu:ez.38.5"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CUS",
-    "ndeib:ETIOPIA"
+    "ndeib:ETIOPIA",
+    "nv:btu:ez.30.4",
+    "nv:btu:is.20.3"
    ]
   },
   "bplace:ahion": {
@@ -1429,6 +1448,44 @@
    ],
    "review": "uncertain"
   },
+  "bplace:ar": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Ar",
+    "it": "Ar",
+    "en": "Ar"
+   },
+   "description": {
+    "it": "città di Moab, data da Dio ai figli di Lot",
+    "en": "city of Moab, given by God to the sons of Lot"
+   },
+   "attested": [
+    "btu:nm.21.15",
+    "btu:nm.21.28",
+    "btu:dt.2.9",
+    "btu:dt.2.18",
+    "btu:dt.2.29",
+    "btu:is.15.1"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:dt.2.18",
+      "nv:btu:is.15.1"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:dt.2.18",
+    "nv:btu:dt.2.9",
+    "nv:btu:nm.21.28"
+   ]
+  },
   "bplace:ara": {
    "type": "place",
    "kind": "other",
@@ -1833,12 +1890,38 @@
     "it": "torrente a est del Mar Morto, confine tra Moab e Amorrei",
     "en": "wadi east of the Dead Sea, boundary of Moab"
    },
-   "attested": [],
+   "attested": [
+    "btu:nm.21.13",
+    "btu:nm.21.14",
+    "btu:nm.21.24",
+    "btu:nm.21.26",
+    "btu:nm.21.28",
+    "btu:nm.22.36",
+    "btu:dt.2.24",
+    "btu:dt.2.36",
+    "btu:dt.3.8",
+    "btu:dt.3.12",
+    "btu:dt.3.16",
+    "btu:dt.4.48",
+    "btu:ios.12.1",
+    "btu:ios.12.2",
+    "btu:ios.13.9",
+    "btu:ios.13.16",
+    "btu:idc.11.13",
+    "btu:idc.11.18",
+    "btu:idc.11.22",
+    "btu:idc.11.26",
+    "btu:2reg.10.33",
+    "btu:is.16.2",
+    "btu:ier.48.20"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ARNON"
+    "ndeib:ARNON",
+    "nv:btu:nm.21.13",
+    "nv:btu:idc.11.18"
    ]
   },
   "bplace:aroer.ammon": {
@@ -2203,13 +2286,34 @@
    },
    "attested": [
     "btu:act.19.38",
-    "btu:act.19.31"
+    "btu:act.19.31",
+    "btu:act.2.9",
+    "btu:act.6.9",
+    "btu:act.16.6",
+    "btu:act.19.10",
+    "btu:act.19.22",
+    "btu:act.19.26",
+    "btu:act.19.27",
+    "btu:act.20.16",
+    "btu:act.20.18",
+    "btu:act.21.27",
+    "btu:act.24.19",
+    "btu:act.27.2",
+    "btu:rom.16.5",
+    "btu:1cor.16.19",
+    "btu:2cor.1.8",
+    "btu:2tim.1.15",
+    "btu:1pe.1.1",
+    "btu:apc.1.4"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ASIA"
+    "ndeib:ASIA",
+    "nv:btu:act.19.10",
+    "nv:btu:act.19.26",
+    "nv:btu:act.20.16"
    ]
   },
   "bplace:asiongaber": {
@@ -3071,13 +3175,39 @@
    },
    "attested": [
     "btu:ios.11.17",
-    "btu:ios.13.6"
+    "btu:ios.13.6",
+    "btu:ios.12.7",
+    "btu:ios.13.5"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BAAL-GAD"
+    "ndeib:BAAL-GAD",
+    "nv:btu:ios.13.5",
+    "nv:btu:ios.11.17"
+   ]
+  },
+  "bplace:baalhamon": {
+   "type": "place",
+   "kind": "site",
+   "names": {
+    "la": "Baalhamon",
+    "it": "Baal-Amon",
+    "en": "Baal-hamon"
+   },
+   "description": {
+    "it": "luogo della vigna di Salomone nel Cantico",
+    "en": "place of Solomon's vineyard in the Song of Songs"
+   },
+   "attested": [
+    "btu:ct.8.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ct.8.11"
    ]
   },
   "bplace:baalhasor": {
@@ -4429,13 +4559,17 @@
     "btu:1mac.3.16",
     "btu:1mac.3.24",
     "btu:1mac.7.39",
-    "btu:ne.2.10"
+    "btu:ne.2.10",
+    "btu:ios.18.13",
+    "btu:1reg.9.17"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BET-ORON"
+    "ndeib:BET-ORON",
+    "nv:btu:ios.18.13",
+    "nv:btu:1reg.9.17"
    ]
   },
   "bplace:bethoron.superior": {
@@ -5217,13 +5351,18 @@
     "btu:nm.33.49",
     "btu:nm.33.50",
     "btu:dt.34.1",
-    "btu:dt.34.8"
+    "btu:dt.34.8",
+    "btu:nm.35.1",
+    "btu:nm.36.13",
+    "btu:ios.13.32"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ARABA#3"
+    "ndeib:ARABA#3",
+    "nv:btu:nm.22.1",
+    "nv:btu:nm.36.13"
    ],
    "review": "uncertain"
   },
@@ -5551,6 +5690,42 @@
    ],
    "review": "uncertain"
   },
+  "bplace:cariathaim.ruben": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Cariathaim",
+    "it": "Kiriatàim",
+    "en": "Kiriathaim"
+   },
+   "description": {
+    "it": "città di Ruben a est del Mar Morto, poi moabita",
+    "en": "Reubenite town east of the Dead Sea, later Moabite"
+   },
+   "attested": [
+    "btu:nm.32.37",
+    "btu:ios.13.19",
+    "btu:ier.48.1",
+    "btu:ier.48.23",
+    "btu:ez.25.9"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:ruben",
+     "evidence": [
+      "nv:btu:ios.13.15",
+      "nv:btu:ios.13.19"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.32.37",
+    "nv:btu:ier.48.1"
+   ]
+  },
   "bplace:cariatharbe": {
    "type": "place",
    "kind": "city",
@@ -5571,15 +5746,7 @@
     "btu:idc.1.10",
     "btu:ne.11.25"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:hebron",
-     "evidence": [
-      "ndeib:KIRIAT-ARBA"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -5703,6 +5870,38 @@
    "evidence": [
     "ndeib:CAZOR",
     "ndeib:KERIOT-CHEZRON"
+   ]
+  },
+  "bplace:carioth.moab": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Carioth",
+    "it": "Keriòt",
+    "en": "Kerioth"
+   },
+   "description": {
+    "it": "città di Moab minacciata da Geremia e Amos",
+    "en": "Moabite town threatened by Jeremiah and Amos"
+   },
+   "attested": [
+    "btu:ier.48.24",
+    "btu:am.2.2"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:am.2.2"
+     ]
+    }
+   ],
+   "qid": "Q2903488",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:ier.48.24",
+    "nv:btu:am.2.2"
    ]
   },
   "bplace:carmel.iudae": {
@@ -6504,6 +6703,44 @@
    ],
    "review": "uncertain"
   },
+  "bplace:chobar": {
+   "type": "place",
+   "kind": "river",
+   "names": {
+    "la": "Chobar",
+    "it": "Chebar",
+    "en": "Chebar"
+   },
+   "description": {
+    "it": "fiume nella terra dei Caldei dove Ezechiele ebbe le visioni",
+    "en": "river in the land of the Chaldeans where Ezekiel saw visions"
+   },
+   "attested": [
+    "btu:ez.1.1",
+    "btu:ez.1.3",
+    "btu:ez.3.15",
+    "btu:ez.3.23",
+    "btu:ez.10.15",
+    "btu:ez.10.20",
+    "btu:ez.10.22",
+    "btu:ez.43.3"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:chaldaea",
+     "evidence": [
+      "nv:btu:ez.1.3"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ez.1.1",
+    "nv:btu:ez.1.3"
+   ]
+  },
   "bplace:chorazin": {
    "type": "place",
    "kind": "city",
@@ -6666,13 +6903,18 @@
     "btu:2reg.3.25",
     "btu:2reg.3.27",
     "btu:is.16.11",
-    "btu:is.15.1"
+    "btu:is.15.1",
+    "btu:is.16.7",
+    "btu:ier.48.31",
+    "btu:ier.48.36"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:KIR-CARESET"
+    "ndeib:KIR-CARESET",
+    "nv:btu:is.16.7",
+    "nv:btu:ier.48.31"
    ]
   },
   "bplace:cison": {
@@ -7505,6 +7747,101 @@
     "ndeib:SIN, DESERTO DI S"
    ]
   },
+  "bplace:desertum-sinai": {
+   "type": "place",
+   "kind": "desert",
+   "names": {
+    "la": "desertum Sinai",
+    "it": "deserto del Sinai",
+    "en": "wilderness of Sinai"
+   },
+   "description": {
+    "it": "deserto davanti al monte Sinai dove Israele rimase accampato",
+    "en": "wilderness before Mount Sinai where Israel camped and was counted"
+   },
+   "attested": [
+    "btu:ex.19.1",
+    "btu:ex.19.2",
+    "btu:lv.7.38",
+    "btu:nm.1.1",
+    "btu:nm.1.19",
+    "btu:nm.3.4",
+    "btu:nm.3.14",
+    "btu:nm.9.1",
+    "btu:nm.9.5",
+    "btu:nm.10.12",
+    "btu:nm.26.64",
+    "btu:nm.33.15",
+    "btu:nm.33.16"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ex.19.2",
+    "nv:btu:nm.10.12"
+   ]
+  },
+  "bplace:dibon.moab": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Dibon",
+    "it": "Dibon",
+    "en": "Dibon"
+   },
+   "description": {
+    "it": "città di Moab a nord dell'Arnon, ricostruita dai Gaditi",
+    "en": "Moabite city north of the Arnon, rebuilt by the Gadites"
+   },
+   "attested": [
+    "btu:nm.21.30",
+    "btu:nm.32.3",
+    "btu:nm.32.34",
+    "btu:nm.33.45",
+    "btu:ios.13.9",
+    "btu:ios.13.17",
+    "btu:is.15.2",
+    "btu:ier.48.18",
+    "btu:ier.48.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.32.34",
+    "nv:btu:ier.48.18",
+    "nv:btu:ios.13.9"
+   ]
+  },
+  "bplace:domus-saltus-libani": {
+   "type": "place",
+   "kind": "building",
+   "names": {
+    "la": "domus Saltus Libani",
+    "it": "palazzo della Foresta del Libano",
+    "en": "House of the Forest of Lebanon"
+   },
+   "description": {
+    "it": "edificio di Salomone con colonne di cedro, deposito di scudi d'oro",
+    "en": "Solomon's cedar-pillared hall where the gold shields were kept"
+   },
+   "attested": [
+    "btu:1reg.7.2",
+    "btu:1reg.10.17",
+    "btu:1reg.10.21",
+    "btu:2par.9.16",
+    "btu:2par.9.20",
+    "btu:is.22.8"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:1reg.7.2",
+    "nv:btu:1reg.10.17"
+   ]
+  },
   "bplace:dor": {
    "type": "place",
    "kind": "city",
@@ -8164,6 +8501,36 @@
     "ndeib:EMMAUS"
    ]
   },
+  "bplace:engaddi": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Engaddi",
+    "it": "Engàddi",
+    "en": "En-gedi"
+   },
+   "description": {
+    "it": "città di Giuda presso il Mar Morto, detta anche Asasontamar",
+    "en": "town of Judah by the Dead Sea, also called Hazazon-tamar"
+   },
+   "attested": [
+    "btu:gn.14.7",
+    "btu:ios.15.62",
+    "btu:1sam.24.1",
+    "btu:1sam.24.2",
+    "btu:2par.20.2",
+    "btu:ct.1.14",
+    "btu:eccli.24.18",
+    "btu:ez.47.10"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:2par.20.2",
+    "nv:btu:ios.15.62"
+   ]
+  },
   "bplace:engannim.issachar": {
    "type": "place",
    "kind": "city",
@@ -8556,6 +8923,42 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ESTAOL"
+   ]
+  },
+  "bplace:esthemo.in-montanis": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Esthemo",
+    "it": "Estemòa",
+    "en": "Eshtemoa"
+   },
+   "description": {
+    "it": "città dei monti di Giuda, data ai figli di Aronne",
+    "en": "town in Judah's hill country, given to Aaron's descendants"
+   },
+   "attested": [
+    "btu:ios.15.50",
+    "btu:ios.21.14",
+    "btu:1sam.30.28",
+    "btu:1par.6.43"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:iuda",
+     "evidence": [
+      "nv:btu:ios.15.20",
+      "nv:btu:ios.15.50"
+     ]
+    }
+   ],
+   "qid": "Q64363172",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:ios.15.50",
+    "nv:btu:ios.21.14",
+    "nv:btu:1sam.30.28"
    ]
   },
   "bplace:etam.iuda": {
@@ -9885,13 +10288,22 @@
    },
    "attested": [
     "btu:1sam.28.4",
-    "btu:2sam.1.21"
+    "btu:2sam.1.21",
+    "btu:idc.7.3",
+    "btu:1sam.31.1",
+    "btu:1sam.31.8",
+    "btu:2sam.1.6",
+    "btu:2sam.21.12",
+    "btu:1par.10.1",
+    "btu:1par.10.8"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GELBOE"
+    "ndeib:GELBOE",
+    "nv:btu:1sam.31.1",
+    "nv:btu:2sam.21.12"
    ]
   },
   "bplace:gennesaret.terra": {
@@ -11304,13 +11716,20 @@
     "btu:mc.8.29",
     "btu:mt.17.1",
     "btu:mc.9.2",
-    "btu:idc.7.1"
+    "btu:idc.7.1",
+    "btu:ios.11.3",
+    "btu:ios.12.1",
+    "btu:ps.29.6",
+    "btu:ps.89.13",
+    "btu:eccli.24.17"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ERMON"
+    "ndeib:ERMON",
+    "nv:btu:dt.3.9",
+    "nv:btu:ios.12.1"
    ]
   },
   "bplace:hesebon": {
@@ -11560,6 +11979,29 @@
    ],
    "review": "uncertain"
   },
+  "bplace:hor.septentrionalis": {
+   "type": "place",
+   "kind": "mountain",
+   "names": {
+    "la": "Hor",
+    "it": "Or",
+    "en": "Mount Hor"
+   },
+   "description": {
+    "it": "monte sul confine settentrionale della terra, verso Camat",
+    "en": "mountain on the land's northern border, toward Lebo-hamath"
+   },
+   "attested": [
+    "btu:nm.34.7"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.34.7",
+    "nv:btu:nm.34.8"
+   ]
+  },
   "bplace:horma": {
    "type": "place",
    "kind": "city",
@@ -11649,7 +12091,15 @@
     "btu:1sam.11.10",
     "btu:1sam.11.11",
     "btu:1sam.11.12",
-    "btu:1sam.11.13"
+    "btu:1sam.11.13",
+    "btu:1sam.31.11",
+    "btu:1sam.31.12",
+    "btu:1sam.31.13",
+    "btu:2sam.2.4",
+    "btu:2sam.2.5",
+    "btu:2sam.21.12",
+    "btu:1par.10.11",
+    "btu:1par.10.12"
    ],
    "relations": [
     {
@@ -11663,7 +12113,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:IABES DI GALAAD"
+    "ndeib:IABES DI GALAAD",
+    "nv:btu:1sam.31.11",
+    "nv:btu:2sam.2.4"
    ]
   },
   "bplace:iaboc": {
@@ -13302,12 +13754,18 @@
     "it": "penisola italiana, meta del viaggio di Paolo",
     "en": "the Italian peninsula, destination of Paul's voyage"
    },
-   "attested": [],
+   "attested": [
+    "btu:act.18.2",
+    "btu:act.27.1",
+    "btu:act.27.6",
+    "btu:heb.13.24"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ITALIA"
+    "ndeib:ITALIA",
+    "nv:btu:act.27.1"
    ],
    "review": "uncertain"
   },
@@ -13822,12 +14280,15 @@
     "it": "regione a ovest dell'Egitto presso Cirene",
     "en": "region west of Egypt around Cyrene"
    },
-   "attested": [],
+   "attested": [
+    "btu:act.2.10"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:LIBIA"
+    "ndeib:LIBIA",
+    "nv:btu:act.2.10"
    ]
   },
   "bplace:lobna.urbs": {
@@ -14116,6 +14577,48 @@
     "ndeib:MAKKEDA"
    ]
   },
+  "bplace:macedonia": {
+   "type": "place",
+   "kind": "region",
+   "names": {
+    "la": "Macedonia",
+    "it": "Macedonia",
+    "en": "Macedonia"
+   },
+   "description": {
+    "it": "regione e provincia romana della Grecia settentrionale, con Filippi e Tessalonica",
+    "en": "northern Greek region and Roman province, with Philippi and Thessalonica"
+   },
+   "attested": [
+    "btu:act.16.9",
+    "btu:act.16.10",
+    "btu:act.16.12",
+    "btu:act.18.5",
+    "btu:act.19.21",
+    "btu:act.19.22",
+    "btu:act.20.1",
+    "btu:act.20.3",
+    "btu:rom.15.26",
+    "btu:1cor.16.5",
+    "btu:2cor.1.16",
+    "btu:2cor.2.13",
+    "btu:2cor.7.5",
+    "btu:2cor.8.1",
+    "btu:2cor.11.9",
+    "btu:phil.4.15",
+    "btu:1thess.1.7",
+    "btu:1thess.1.8",
+    "btu:1thess.4.10",
+    "btu:1tim.1.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:act.16.12",
+    "nv:btu:1thess.1.7"
+   ]
+  },
   "bplace:maceloth": {
    "type": "place",
    "kind": "other",
@@ -14238,15 +14741,7 @@
     "btu:gn.50.13",
     "btu:act.7.16"
    ],
-   "relations": [
-    {
-     "rel": "located_in",
-     "target": "bplace:hebron",
-     "evidence": [
-      "ndeib:MACPELA"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -14347,6 +14842,28 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MADON"
+   ]
+  },
+  "bplace:magadan": {
+   "type": "place",
+   "kind": "region",
+   "names": {
+    "la": "Magadan",
+    "it": "Magadàn",
+    "en": "Magadan"
+   },
+   "description": {
+    "it": "territorio dove Gesù giunse in barca dopo la seconda moltiplicazione",
+    "en": "district Jesus reached by boat after feeding the four thousand"
+   },
+   "attested": [
+    "btu:mt.15.39"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:mt.15.39"
    ]
   },
   "bplace:magdala": {
@@ -14642,15 +15159,7 @@
     "btu:gn.18.1",
     "btu:gn.35.27"
    ],
-   "relations": [
-    {
-     "rel": "located_in",
-     "target": "bplace:hebron",
-     "evidence": [
-      "ndeib:MAMRE (E#0"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": "Q2143048",
    "qid_status": "auto",
    "evidence": [
@@ -14768,6 +15277,45 @@
     "ndeib:MARA"
    ]
   },
+  "bplace:mare-magnum": {
+   "type": "place",
+   "kind": "sea",
+   "names": {
+    "la": "mare Magnum",
+    "it": "Mare Grande",
+    "en": "Great Sea"
+   },
+   "description": {
+    "it": "il Mediterraneo, confine occidentale della terra promessa",
+    "en": "the Mediterranean, western border of the promised land"
+   },
+   "attested": [
+    "btu:nm.34.5",
+    "btu:nm.34.6",
+    "btu:nm.34.7",
+    "btu:ios.1.4",
+    "btu:ios.5.1",
+    "btu:ios.9.1",
+    "btu:ios.15.4",
+    "btu:ios.15.11",
+    "btu:ios.15.47",
+    "btu:ios.16.3",
+    "btu:ios.23.4",
+    "btu:ez.47.10",
+    "btu:ez.47.15",
+    "btu:ez.47.19",
+    "btu:ez.47.20",
+    "btu:ez.48.28"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.34.6",
+    "nv:btu:ios.1.4",
+    "nv:btu:ios.23.4"
+   ]
+  },
   "bplace:mare-mortuum": {
    "type": "place",
    "kind": "sea",
@@ -14840,13 +15388,23 @@
     "btu:2par.20.27",
     "btu:2par.20.28",
     "btu:2par.20.29",
-    "btu:2par.20.30"
+    "btu:2par.20.30",
+    "btu:nm.34.3",
+    "btu:nm.34.12",
+    "btu:dt.3.17",
+    "btu:ios.3.16",
+    "btu:ios.12.3",
+    "btu:ios.15.2",
+    "btu:ios.15.5",
+    "btu:ios.18.19"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:MAR MORTO"
+    "ndeib:MAR MORTO",
+    "nv:btu:dt.3.17",
+    "nv:btu:ios.3.16"
    ]
   },
   "bplace:mare-rubrum": {
@@ -15801,13 +16359,16 @@
     "btu:ios.8.32",
     "btu:ios.8.33",
     "btu:ios.8.34",
-    "btu:ios.8.35"
+    "btu:ios.8.35",
+    "btu:dt.11.29"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:EBAL, MONTE"
+    "ndeib:EBAL, MONTE",
+    "nv:btu:dt.11.29",
+    "nv:btu:dt.27.13"
    ]
   },
   "bplace:mons-hor.edom": {
@@ -15836,13 +16397,16 @@
     "btu:nm.33.39",
     "btu:dt.32.50",
     "btu:dt.10.6",
-    "btu:nm.21.4"
+    "btu:nm.21.4",
+    "btu:nm.33.41"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2915115",
+   "qid_status": "reviewed",
    "evidence": [
-    "ndeib:COR#0"
+    "ndeib:COR#0",
+    "nv:btu:nm.33.37",
+    "nv:btu:nm.33.41"
    ]
   },
   "bplace:mons-hor.libani": {
@@ -16244,6 +16808,73 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NAAMA"
+   ]
+  },
+  "bplace:nabo.moab": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Nabo",
+    "it": "Nebo",
+    "en": "Nebo"
+   },
+   "description": {
+    "it": "città transgiordanica ricostruita dai Rubeniti, poi moabita",
+    "en": "Transjordanian town rebuilt by Reubenites, later Moabite"
+   },
+   "attested": [
+    "btu:nm.32.3",
+    "btu:nm.32.38",
+    "btu:1par.5.8",
+    "btu:is.15.2",
+    "btu:ier.48.1",
+    "btu:ier.48.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.32.38",
+    "nv:btu:ier.48.1"
+   ]
+  },
+  "bplace:nabo.mons": {
+   "type": "place",
+   "kind": "mountain",
+   "names": {
+    "la": "Nabo",
+    "it": "Nebo",
+    "en": "Mount Nebo"
+   },
+   "description": {
+    "it": "monte di Moab di fronte a Gerico, dove Mosè vide la terra",
+    "en": "Moabite mountain facing Jericho, where Moses viewed the land"
+   },
+   "attested": [
+    "btu:dt.32.49",
+    "btu:dt.34.1"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:abarim",
+     "evidence": [
+      "nv:btu:dt.32.49"
+     ]
+    },
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:dt.32.49"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:dt.32.49",
+    "nv:btu:dt.34.1"
    ]
   },
   "bplace:nageb": {
@@ -17137,7 +17768,15 @@
     "btu:gn.31.18",
     "btu:gn.24.10",
     "btu:dt.23.5",
-    "btu:idc.3.8"
+    "btu:idc.3.8",
+    "btu:gn.28.5",
+    "btu:gn.28.6",
+    "btu:gn.28.7",
+    "btu:gn.33.18",
+    "btu:gn.35.9",
+    "btu:gn.35.26",
+    "btu:gn.46.15",
+    "btu:gn.48.7"
    ],
    "relations": [
     {
@@ -17151,7 +17790,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:PADDAN, PADDAN-ARAM"
+    "ndeib:PADDAN, PADDAN-ARAM",
+    "nv:btu:gn.28.2",
+    "nv:btu:gn.28.5"
    ]
   },
   "bplace:palaestina": {
@@ -17521,6 +18162,40 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:PERGE"
+   ]
+  },
+  "bplace:persis.regio": {
+   "type": "place",
+   "kind": "region",
+   "names": {
+    "la": "Persis",
+    "it": "Persia",
+    "en": "Persia"
+   },
+   "description": {
+    "it": "regione e regno dei Persiani, a est della Babilonia",
+    "en": "land and kingdom of the Persians, east of Babylonia"
+   },
+   "attested": [
+    "btu:idt.1.7",
+    "btu:dn.11.2",
+    "btu:1mac.3.31",
+    "btu:1mac.6.1",
+    "btu:1mac.6.5",
+    "btu:1mac.6.56",
+    "btu:1mac.14.2",
+    "btu:2mac.1.13",
+    "btu:2mac.1.19",
+    "btu:2mac.1.20",
+    "btu:2mac.9.1",
+    "btu:2mac.9.21"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:dn.11.2",
+    "nv:btu:1mac.6.1"
    ]
   },
   "bplace:petra": {
@@ -17951,7 +18626,15 @@
     "btu:act.20.4",
     "btu:phil.4.3"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:macedonia",
+     "evidence": [
+      "ndeib:FILIPPI"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -17970,7 +18653,16 @@
     "it": "territorio costiero delle cinque città dei Filistei",
     "en": "coastal land of the five Philistine cities"
    },
-   "attested": [],
+   "attested": [
+    "btu:ex.15.14",
+    "btu:ps.60.10",
+    "btu:ps.83.8",
+    "btu:ps.87.4",
+    "btu:ps.108.10",
+    "btu:is.14.29",
+    "btu:is.14.31",
+    "btu:il.4.4"
+   ],
    "relations": [
     {
      "rel": "land_of",
@@ -17983,7 +18675,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:FILISTEA, FILISTEI#0"
+    "ndeib:FILISTEA, FILISTEI#0",
+    "nv:btu:is.14.29",
+    "nv:btu:il.4.4"
    ]
   },
   "bplace:phinon": {
@@ -18780,14 +19474,41 @@
     "btu:1cor.15.47",
     "btu:1cor.15.48",
     "btu:1cor.15.49",
-    "btu:2cor.4.7"
+    "btu:2cor.4.7",
+    "btu:2reg.8.29",
+    "btu:2reg.9.4",
+    "btu:2reg.9.14"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:RAMA",
-    "ndeib:RAMOT DI GALAAD#0"
+    "ndeib:RAMOT DI GALAAD#0",
+    "nv:btu:2reg.8.28",
+    "nv:btu:2reg.8.29"
+   ]
+  },
+  "bplace:ramothmaspha": {
+   "type": "place",
+   "kind": "site",
+   "names": {
+    "la": "Ramothmaspha",
+    "it": "Ramat-Mispe",
+    "en": "Ramath-mizpeh"
+   },
+   "description": {
+    "it": "luogo sul confine del territorio di Gad",
+    "en": "place on the boundary of Gad's territory"
+   },
+   "attested": [
+    "btu:ios.13.26"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ios.13.26"
    ]
   },
   "bplace:raphidim": {
@@ -19287,12 +20008,34 @@
     "it": "capitale dell'impero romano",
     "en": "capital of the Roman Empire"
    },
-   "attested": [],
+   "attested": [
+    "btu:1mac.1.10",
+    "btu:1mac.7.1",
+    "btu:1mac.8.17",
+    "btu:1mac.8.19",
+    "btu:1mac.8.26",
+    "btu:1mac.8.28",
+    "btu:1mac.12.1",
+    "btu:1mac.12.3",
+    "btu:1mac.14.16",
+    "btu:1mac.14.24",
+    "btu:1mac.15.15",
+    "btu:act.18.2",
+    "btu:act.19.21",
+    "btu:act.23.11",
+    "btu:act.28.14",
+    "btu:act.28.16",
+    "btu:rom.1.7",
+    "btu:rom.1.15",
+    "btu:2tim.1.17"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ROMA#0"
+    "ndeib:ROMA#0",
+    "nv:btu:act.28.16",
+    "nv:btu:rom.1.7"
    ]
   },
   "bplace:ruben": {
@@ -19852,6 +20595,87 @@
     "ndeib:SAMO"
    ]
   },
+  "bplace:sancta-sanctorum.habitaculi": {
+   "type": "place",
+   "kind": "building",
+   "names": {
+    "la": "Sancta sanctorum",
+    "it": "Santo dei Santi",
+    "en": "Most Holy Place"
+   },
+   "description": {
+    "it": "parte interna della Dimora, oltre il velo, con l'arca",
+    "en": "inner part of the Tabernacle beyond the veil, holding the ark"
+   },
+   "attested": [
+    "btu:ex.26.33",
+    "btu:ex.26.34",
+    "btu:heb.9.3"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:habitaculum",
+     "evidence": [
+      "nv:btu:ex.26.33"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ex.26.33",
+    "nv:btu:heb.9.3"
+   ]
+  },
+  "bplace:sancta-sanctorum.templi": {
+   "type": "place",
+   "kind": "building",
+   "names": {
+    "la": "Sancta sanctorum",
+    "it": "Santo dei Santi",
+    "en": "Most Holy Place"
+   },
+   "description": {
+    "it": "cella interna (Debir) del tempio di Salomone, dove stava l'arca",
+    "en": "inner room (Debir) of Solomon's temple, housing the ark"
+   },
+   "attested": [
+    "btu:1reg.6.5",
+    "btu:1reg.6.16",
+    "btu:1reg.6.19",
+    "btu:1reg.6.20",
+    "btu:1reg.6.21",
+    "btu:1reg.6.22",
+    "btu:1reg.6.23",
+    "btu:1reg.6.31",
+    "btu:1reg.7.49",
+    "btu:1reg.7.50",
+    "btu:1reg.8.6",
+    "btu:1reg.8.8",
+    "btu:2par.3.8",
+    "btu:2par.3.10",
+    "btu:2par.4.20",
+    "btu:2par.4.22",
+    "btu:2par.5.7",
+    "btu:2par.5.9"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:templum",
+     "evidence": [
+      "nv:btu:1reg.6.16"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:1reg.6.16",
+    "nv:btu:1reg.8.6"
+   ]
+  },
   "bplace:saraa": {
    "type": "place",
    "kind": "city",
@@ -20000,6 +20824,28 @@
     "ndeib:SARON#2"
    ]
   },
+  "bplace:savecariathaim": {
+   "type": "place",
+   "kind": "other",
+   "names": {
+    "la": "Savecariathaim",
+    "it": "Save-Kiriatàim",
+    "en": "Shaveh-kiriathaim"
+   },
+   "description": {
+    "it": "luogo dove Chedorlaomer sconfisse gli Emim",
+    "en": "place where Chedorlaomer defeated the Emim"
+   },
+   "attested": [
+    "btu:gn.14.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:gn.14.5"
+   ]
+  },
   "bplace:seboim.beniamin": {
    "type": "place",
    "kind": "city",
@@ -20143,13 +20989,43 @@
     "btu:ez.25.8",
     "btu:gn.36.20",
     "btu:dt.2.12",
-    "btu:1par.4.42"
+    "btu:1par.4.42",
+    "btu:dt.1.2",
+    "btu:dt.2.1",
+    "btu:dt.2.5",
+    "btu:2par.20.10",
+    "btu:2par.20.22",
+    "btu:2par.20.23",
+    "btu:ez.35.2",
+    "btu:ez.35.3",
+    "btu:ez.35.7",
+    "btu:gn.33.14",
+    "btu:gn.33.16",
+    "btu:gn.36.6",
+    "btu:gn.36.8",
+    "btu:gn.36.9",
+    "btu:gn.36.30",
+    "btu:dt.1.44",
+    "btu:dt.2.4",
+    "btu:dt.2.8",
+    "btu:dt.2.22",
+    "btu:dt.2.29",
+    "btu:dt.33.2",
+    "btu:ios.11.17",
+    "btu:ios.12.7",
+    "btu:ios.24.4",
+    "btu:idc.5.4",
+    "btu:eccli.50.28",
+    "btu:is.21.11"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:SEIR"
+    "ndeib:SEIR",
+    "nv:btu:gn.36.8",
+    "nv:btu:dt.2.5",
+    "nv:btu:ez.35.15"
    ]
   },
   "bplace:seir.iudae": {
@@ -22034,12 +22910,20 @@
     "it": "monte isolato a est di Nazaret sopra la pianura di Izreel",
     "en": "isolated mountain east of Nazareth above the Jezreel plain"
    },
-   "attested": [],
+   "attested": [
+    "btu:idc.4.6",
+    "btu:idc.4.12",
+    "btu:idc.4.14",
+    "btu:ps.89.13",
+    "btu:ier.46.18"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:TABOR, MONTE"
+    "ndeib:TABOR, MONTE",
+    "nv:btu:idc.4.6",
+    "nv:btu:ier.46.18"
    ]
   },
   "bplace:thabor.oppidum": {
@@ -22535,6 +23419,36 @@
     "ndeib:TIRZA#2"
    ]
   },
+  "bplace:thesbi": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Thesbi",
+    "it": "Tisbe",
+    "en": "Tishbe"
+   },
+   "description": {
+    "it": "luogo di Galaad, patria del profeta Elia",
+    "en": "place in Gilead, home of the prophet Elijah"
+   },
+   "attested": [
+    "btu:1reg.17.1"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:galaad",
+     "evidence": [
+      "nv:btu:1reg.17.1"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:1reg.17.1"
+   ]
+  },
   "bplace:thessalonica": {
    "type": "place",
    "kind": "city",
@@ -22606,7 +23520,15 @@
     "btu:act.20.4",
     "btu:act.20.5"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:macedonia",
+     "evidence": [
+      "ndeib:TESSALONICA"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -23483,6 +24405,36 @@
     "ndeib:GIOSAFAT, VALLE DI G"
    ],
    "review": "uncertain"
+  },
+  "bplace:vallis-raphaim": {
+   "type": "place",
+   "kind": "valley",
+   "names": {
+    "la": "vallis Raphaim",
+    "it": "valle dei Refaìm",
+    "en": "Valley of Rephaim"
+   },
+   "description": {
+    "it": "valle presso Gerusalemme, sul confine di Giuda, dove Davide vinse i Filistei",
+    "en": "valley by Jerusalem on Judah's border, where David beat the Philistines"
+   },
+   "attested": [
+    "btu:ios.15.8",
+    "btu:ios.18.16",
+    "btu:2sam.5.18",
+    "btu:2sam.5.22",
+    "btu:2sam.23.13",
+    "btu:1par.11.15",
+    "btu:1par.14.9",
+    "btu:is.17.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ios.15.8",
+    "nv:btu:2sam.5.18"
+   ]
   },
   "bplace:vallis-regis": {
    "type": "place",
