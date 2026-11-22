@@ -12759,7 +12759,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:OR-GHIDGAD"
-   ]
+   ],
+   "labels": {
+    "btu:nm.33.33": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Or-Ghidgad",
+      "NABRE": "Mount Gidgad"
+     }
+    }
+   }
   },
   "bplace:gaiah": {
    "type": "place",
@@ -24860,7 +24869,49 @@
    "evidence": [
     "nv:btu:2par.26.9",
     "nv:btu:ne.2.13"
-   ]
+   ],
+   "labels": {
+    "btu:2par.26.9": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "porta della Valle",
+      "DRB": "the gate of the valley",
+      "NABRE": "the Valley Gate",
+      "NVBSE": "portam Vallis",
+      "VGCL": "portam vallis"
+     }
+    },
+    "btu:ne.2.13": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "la porta della Valle",
+      "DRB": "the gate of the valley",
+      "NABRE": "the Valley Gate",
+      "NVBSE": "portam Vallis",
+      "VGCL": "portam vallis"
+     }
+    },
+    "btu:ne.2.15": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "la porta della Valle",
+      "DRB": "the gate of the valley",
+      "NABRE": "the Valley Gate",
+      "NVBSE": "portam Vallis",
+      "VGCL": "portam vallis"
+     }
+    },
+    "btu:ne.3.13": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "la porta della Valle",
+      "DRB": "the gate of the valley",
+      "NABRE": "The Valley Gate",
+      "NVBSE": "Portam Vallis",
+      "VGCL": "portam vallis"
+     }
+    }
+   }
   },
   "bplace:porta-vetus": {
    "type": "place",
@@ -28457,12 +28508,7 @@
     "en": "valley watered by the temple spring in Joel"
    },
    "attested": [
-    "btu:il.4.18",
-    "btu:ez.47.5",
-    "btu:ez.47.6",
-    "btu:ez.47.7",
-    "btu:ez.47.9",
-    "btu:ez.47.12"
+    "btu:il.4.18"
    ],
    "relations": [],
    "qid": null,
@@ -31958,7 +32004,6 @@
    "attested": [
     "btu:ios.15.8",
     "btu:ier.19.2",
-    "btu:2reg.18.17",
     "btu:ier.7.31",
     "btu:2par.28.3",
     "btu:2par.33.6",
@@ -31966,10 +32011,7 @@
     "btu:2reg.23.10",
     "btu:ier.7.32",
     "btu:ier.19.6",
-    "btu:is.30.33",
-    "btu:il.4.2",
-    "btu:il.4.12",
-    "btu:il.4.14"
+    "btu:is.30.33"
    ],
    "relations": [
     {
@@ -32011,8 +32053,7 @@
     "en": "valley near Aroer where David's census began"
    },
    "attested": [
-    "btu:2sam.24.5",
-    "btu:dt.2.36"
+    "btu:2sam.24.5"
    ],
    "relations": [],
    "qid": null,
@@ -32083,9 +32124,7 @@
     "it": "valle del giudizio delle nazioni annunciata da Gioele",
     "en": "valley of the nations' judgment foretold by Joel"
    },
-   "attested": [
-    "btu:2par.20.16"
-   ],
+   "attested": [],
    "relations": [
     {
      "rel": "located_in",
@@ -32170,11 +32209,7 @@
    },
    "attested": [
     "btu:gn.14.17",
-    "btu:2sam.18.18",
-    "btu:is.22.5",
-    "btu:is.22.7",
-    "btu:il.4.2",
-    "btu:il.4.14"
+    "btu:2sam.18.18"
    ],
    "relations": [],
    "qid": null,

@@ -3306,6 +3306,16 @@
       "VGCL": "regem Israël"
      }
     },
+    "btu:1reg.22.33": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il re d'Israele",
+      "DRB": "the king of Israel",
+      "NABRE": "the king of Israel",
+      "NVBSE": "rex Isræl",
+      "VGCL": "rex Israël"
+     }
+    },
     "btu:1reg.22.34": {
      "as": "designation",
      "editions": {
@@ -17846,11 +17856,7 @@
     "btu:2reg.13.24",
     "btu:2reg.13.25",
     "btu:2reg.14.10",
-    "btu:2reg.16.18",
-    "btu:2reg.17.2",
-    "btu:2reg.17.28",
-    "btu:2reg.17.31",
-    "btu:2reg.17.33"
+    "btu:2reg.17.31"
    ],
    "relations": [
     {
@@ -17881,7 +17887,6 @@
    },
    "attested": [
     "btu:1reg.15.18",
-    "btu:2par.15.2",
     "btu:2par.16.2",
     "btu:2par.16.4",
     "btu:2par.16.7"
@@ -49873,93 +49878,41 @@
     "en": "son of Zechariah, forerunner of Jesus"
    },
    "attested": [
-    "btu:lc.1.39",
     "btu:lc.1.80",
     "btu:lc.3.2",
     "btu:mt.3.1",
     "btu:io.1.28",
-    "btu:os.2.16",
-    "btu:ier.2.2",
-    "btu:is.40.3",
-    "btu:2reg.2.6",
-    "btu:mal.3.23",
     "btu:mt.3.4",
-    "btu:2reg.1.8",
-    "btu:mt.3.5",
-    "btu:mt.3.2",
-    "btu:ier.3.6",
-    "btu:ier.3.8",
-    "btu:ier.3.9",
-    "btu:ier.3.10",
-    "btu:ier.3.11",
-    "btu:ier.3.12",
-    "btu:ier.3.13",
-    "btu:ier.3.14",
-    "btu:ez.33.11",
-    "btu:os.14.2",
-    "btu:il.2.12",
-    "btu:ion.3.8",
-    "btu:mal.3.24",
-    "btu:mt.4.17",
     "btu:mt.3.6",
-    "btu:ex.32.30",
-    "btu:dn.9.4",
-    "btu:ex.29.4",
-    "btu:ex.30.17",
-    "btu:ex.40.30",
-    "btu:lv.16.4",
-    "btu:2reg.5.10",
     "btu:mt.3.7",
     "btu:mc.1.5",
     "btu:lc.3.7",
-    "btu:lc.3.9",
-    "btu:lc.3.10",
-    "btu:lc.3.11",
     "btu:lc.3.12",
-    "btu:lc.3.14",
-    "btu:mt.3.10",
     "btu:mt.3.11",
     "btu:io.1.33",
     "btu:mc.1.2",
     "btu:lc.3.21",
-    "btu:lc.3.22",
-    "btu:lc.3.23",
     "btu:io.1.6",
     "btu:act.10.37",
     "btu:mt.3.14",
-    "btu:mc.1.7",
     "btu:lc.3.16",
-    "btu:io.1.27",
-    "btu:io.1.30",
     "btu:io.1.32",
     "btu:mt.3.16",
-    "btu:lc.4.1",
-    "btu:lc.4.14",
     "btu:io.3.23",
-    "btu:mt.14.5",
     "btu:mt.11.2",
     "btu:mt.11.11",
-    "btu:mt.11.6",
     "btu:mt.11.7",
-    "btu:mt.11.8",
     "btu:mt.11.9",
     "btu:mt.11.10",
     "btu:mt.11.12",
     "btu:mc.6.24",
     "btu:mc.6.25",
-    "btu:mc.6.26",
     "btu:mc.6.27",
-    "btu:mc.6.28",
     "btu:mc.6.29",
     "btu:mt.14.8",
-    "btu:mt.14.12",
-    "btu:act.19.1",
-    "btu:act.19.2",
     "btu:act.19.3",
     "btu:act.19.4",
     "btu:act.19.5",
-    "btu:act.19.6",
-    "btu:act.19.7",
     "btu:io.3.26"
    ],
    "relations": [],
@@ -49971,6 +49924,26 @@
     "nv:btu:io.3.26"
    ],
    "labels": {
+    "btu:lc.1.80": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Il bambino",
+      "DRB": "the child",
+      "NABRE": "The child",
+      "NVBSE": "Puer",
+      "VGCL": "Puer"
+     }
+    },
+    "btu:mc.1.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mio messaggero",
+      "DRB": "my angel",
+      "NABRE": "my messenger",
+      "NVBSE": "angelum meum",
+      "VGCL": "angelum meum"
+     }
+    },
     "btu:mt.11.9": {
      "as": "designation",
      "editions": {
@@ -49979,6 +49952,16 @@
       "NABRE": "more than a prophet",
       "NVBSE": "plus quam prophetam",
       "VGCL": "plus quam prophetam"
+     }
+    },
+    "btu:mt.11.10": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mio messaggero",
+      "DRB": "my angel",
+      "NABRE": "my messenger",
+      "NVBSE": "angelum meum",
+      "VGCL": "angelum meum"
      }
     }
    }
@@ -55418,7 +55401,6 @@
    "attested": [
     "btu:1par.8.33",
     "btu:1par.9.39",
-    "btu:1sam.14.49",
     "btu:2sam.2.8",
     "btu:2sam.2.10",
     "btu:2sam.2.12",
