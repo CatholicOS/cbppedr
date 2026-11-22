@@ -110,6 +110,31 @@ def match(eid: str, entry: dict, search: Search, get: Get) -> tuple[str | None, 
     return None, "unresolved", cands
 
 
+def rejected_of(prev: dict) -> list[str]:
+    """The items a reviewer judged wrong for an entry (a lone string is read as one item)."""
+    r = prev.get("rejected") or []
+    return [r] if isinstance(r, str) else list(r)
+
+
+def needs_match(prev: dict, rematch: bool) -> bool:
+    """An entry judged in an earlier run is judged again on --rematch, after an error, when its item was
+    rejected, or when dedupe cleared its pick (the clash may be gone)."""
+    return rematch or bool(prev.get("error")) or bool(prev.get("deduped")) or prev.get("qid") in rejected_of(prev)
+
+
+def judge(eid: str, entry: dict, prev: dict, search: Search, get: Get) -> dict:
+    """The entry's new record; a reviewer's rejected items are kept whether or not Wikidata answers."""
+    try:
+        qid, status, cands = match(eid, dict(entry, _rejected=rejected_of(prev)), search, get)
+        rec = {"qid": qid, "status": status, "candidates": cands[:10] + ([qid] if qid and qid not in cands[:10] else [])}
+    except RuntimeError as err:
+        print(err, file=sys.stderr)
+        rec = {"qid": None, "status": "unresolved", "candidates": [], "error": True}
+    if rejected_of(prev):
+        rec["rejected"] = rejected_of(prev)
+    return rec
+
+
 def dedupe(qids: dict[str, dict]) -> None:
     """An item auto-matched to two entries, or to an entry while another has it reviewed, fits neither for sure."""
     holders: dict[str, list[str]] = {}
@@ -120,7 +145,7 @@ def dedupe(qids: dict[str, dict]) -> None:
         if len(eids) > 1:
             for eid in eids:
                 if qids[eid]["status"] == "auto":
-                    qids[eid].update(qid=None, status="unresolved")
+                    qids[eid].update(qid=None, status="unresolved", deduped=True)
 
 
 # --- network, cached ---------------------------------------------------------
@@ -181,24 +206,18 @@ def main() -> int:
         "$comment": "Wikidata items of the entries. auto: passed the evidence bar (scripts/wikidata.py); "
                     "reviewed: decided by a person; unresolved: candidates listed for review.",
         "qids": {}}
+    done = 0
     for eid, e in by_id.items():
         if curated["qids"].get(eid, {}).get("status") == "reviewed":
             continue
         prev = curated["qids"].get(eid, {})
-        e = dict(e, _rejected=prev.get("rejected", []), _rel_names=[(by_id.get(r["target"]) or {}).get("names", {}).get(n) or ""
-                                for r in e["relations"] for n in ("en", "it")])
-        if eid in curated["qids"] and not curated["qids"][eid].get("error") and not rematch:
+        if prev and not needs_match(prev, rematch):
             continue  # done in an earlier run
-        try:
-            qid, status, cands = match(eid, e, search, get)
-            kept = cands[:10] + ([qid] if qid and qid not in cands[:10] else [])
-            curated["qids"][eid] = {"qid": qid, "status": status, "candidates": kept}
-            if prev.get("rejected"):
-                curated["qids"][eid]["rejected"] = prev["rejected"]
-        except RuntimeError as err:
-            print(err, file=sys.stderr)
-            curated["qids"][eid] = {"qid": None, "status": "unresolved", "candidates": [], "error": True}
-        if len(curated["qids"]) % 100 == 0:
+        e = dict(e, _rel_names=[(by_id.get(r["target"]) or {}).get("names", {}).get(n) or ""
+                                for r in e["relations"] for n in ("en", "it")])
+        curated["qids"][eid] = judge(eid, e, prev, search, get)
+        done += 1
+        if done % 100 == 0:  # a checkpoint, so an interrupted run keeps its work
             path.write_text(json.dumps(curated, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     curated["qids"] = {k: v for k, v in curated["qids"].items() if k in by_id or v.get("status") == "reviewed"}
     dedupe(curated["qids"])

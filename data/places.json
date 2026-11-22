@@ -742,8 +742,8 @@
     "btu:2par.11.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6998782",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:2par.11.9"
    ]
@@ -924,8 +924,8 @@
     "btu:idc.1.31"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6595658",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:idc.1.31"
    ]
@@ -1539,8 +1539,8 @@
     "btu:ios.15.50"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4750540",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ios.11.21",
     "nv:btu:ios.15.50"
@@ -1584,8 +1584,8 @@
     "btu:ne.11.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4751403",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ne.11.32"
    ]
@@ -3307,8 +3307,8 @@
     "btu:ios.19.35"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q8071489",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ios.19.35"
    ]
@@ -7938,8 +7938,8 @@
     "btu:idc.8.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6371349",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:idc.8.10"
    ]
@@ -11685,8 +11685,8 @@
     "btu:ps.83.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q431722",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ios.17.11",
     "nv:btu:1sam.28.7"
@@ -11828,8 +11828,8 @@
     "btu:io.3.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5977371",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:io.3.23"
    ]
@@ -18051,8 +18051,8 @@
     "btu:2par.13.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q22948654",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:2par.13.19"
    ]
@@ -18180,8 +18180,8 @@
     "btu:1par.6.43"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q11978271",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ios.15.48",
     "nv:btu:ios.21.14"
@@ -21551,8 +21551,8 @@
     "btu:idc.5.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4894801",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:idc.5.23"
    ]
@@ -21822,8 +21822,8 @@
     "btu:ios.12.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127598738",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ios.11.17",
     "nv:btu:ios.12.7"
@@ -25120,8 +25120,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140421708",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ne.3.28",
     "nv:btu:ier.31.40"
@@ -28028,8 +28028,8 @@
     "btu:1reg.11.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6737832",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:1reg.11.26"
    ]
@@ -32211,8 +32211,8 @@
     "btu:2sam.10.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3435114",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:idc.11.3",
     "nv:btu:2sam.10.6"

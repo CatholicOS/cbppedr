@@ -51,8 +51,8 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 ## Status
 
 Baseline (round 1), built from the dictionary's headwords, the Jerusalem Bible's Herodian tree, and the persons the dictionary covers only in a book's article (the prophets of the Twelve, Ezekiel, Matthew, Judith, Tobit and Tobias), curated by hand. 49 headwords listing many bearers of one name (Shemaiah, Shimei, Hananiah, Jonathan…), whose first review kept only some, were reviewed again for the rest:
-3,171 persons, 1,094 places and 22 events (with round 2 so far), validated with no problems. 337 entries have a Wikidata
-item matched automatically (2 more set by a reviewer): a candidate of the class "human biblical figure", or the only fitting candidate
+3,171 persons, 1,094 places and 22 events (with round 2 so far), validated with no problems. 778 entries have a Wikidata
+item matched automatically (11 more set by a reviewer): a candidate of the class "human biblical figure", or the only fitting candidate
 whose description is explicitly biblical. The rest list their candidates for review. A relation
 is resolved only by its sense key, or by a name no homonym shares. The others stay unresolved,
 not guessed.

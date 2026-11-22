@@ -1,6 +1,6 @@
 import unittest
 
-from wikidata import match
+from wikidata import judge, match, needs_match
 
 ENTITIES = {
     "Q1": {"id": "Q1", "descriptions": {"en": {"value": "son of Herod the Great and Mariamne II"}},
@@ -65,6 +65,7 @@ class DedupeTest(unittest.TestCase):
         self.assertIsNone(q["bplace:libna.castra"]["qid"])
         self.assertEqual(q["bpers:x"]["status"], "unresolved")
         self.assertEqual(q["bpers:y"]["qid"], "Q5")
+        self.assertTrue(q["bpers:x"]["deduped"])
 
 
 def _ent(qid, descr, *kinds):
@@ -112,6 +113,43 @@ class StrictnessTest(unittest.TestCase):
         r = self.run_match("bpers:abdias", "person", ents)
         self.assertEqual(r[0], "Q99")
         self.assertIn("Q99", r[2])
+
+
+class NeedsMatchTest(unittest.TestCase):
+    def test_a_rejected_item_is_judged_again(self):
+        self.assertTrue(needs_match({"qid": "Q1", "status": "auto", "rejected": ["Q1"]}, rematch=False))
+
+    def test_a_kept_item_is_not(self):
+        self.assertFalse(needs_match({"qid": "Q1", "status": "auto", "rejected": ["Q2"]}, rematch=False))
+        self.assertFalse(needs_match({"qid": None, "status": "unresolved"}, rematch=False))
+
+    def test_a_lone_string_is_one_rejected_item(self):
+        self.assertFalse(needs_match({"qid": "Q1", "status": "auto", "rejected": "Q12"}, rematch=False))
+
+    def test_a_deduped_entry_is_judged_again(self):
+        self.assertTrue(needs_match({"qid": None, "status": "unresolved", "deduped": True}, rematch=False))
+
+    def test_errors_and_rematch_are(self):
+        self.assertTrue(needs_match({"qid": None, "error": True}, rematch=False))
+        self.assertTrue(needs_match({"qid": "Q1"}, rematch=True))
+
+
+class JudgeTest(unittest.TestCase):
+    ENTRY = {"type": "person", "names": {"en": "Othni"}, "relations": []}
+
+    def test_rejected_survives_a_failed_lookup(self):
+        def down(text, lang):
+            raise RuntimeError("Wikidata did not answer")
+        rec = judge("bpers:othni", self.ENTRY, {"qid": "Q1", "rejected": ["Q1"]}, down, lambda ids: {})
+        self.assertTrue(rec["error"])
+        self.assertEqual(rec["rejected"], ["Q1"])
+
+    def test_rejected_is_kept_and_never_picked(self):
+        ents = {"Q1": _ent("Q1", "human biblical figure", "Q5"), "Q2": _ent("Q2", "human biblical figure", "Q5")}
+        rec = judge("bpers:othni", self.ENTRY, {"qid": "Q1", "rejected": "Q1"},
+                    lambda text, lang: ["Q1", "Q2"], lambda ids: {q: ents[q] for q in ids})
+        self.assertEqual(rec["rejected"], ["Q1"])
+        self.assertEqual(rec["qid"], "Q2")
 
 
 class PlaceAndRejectTest(unittest.TestCase):
