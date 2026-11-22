@@ -74914,7 +74914,7 @@
      ]
     },
     {
-     "rel": "land_of",
+     "rel": "people_of",
      "target": "bplace:phatures",
      "evidence": [
       "ndeib:PATROS, PATROSITI"
@@ -78640,6 +78640,13 @@
      "evidence": [
       "ndeib:RUBEN#1"
      ]
+    },
+    {
+     "rel": "eponym_of",
+     "target": "bpers:ruben.tribus",
+     "evidence": [
+      "ndeib:RUBEN#2"
+     ]
     }
    ],
    "qid": "Q625661",
@@ -78688,15 +78695,7 @@
     "btu:ez.48.7",
     "btu:apc.7.5"
    ],
-   "relations": [
-    {
-     "rel": "people_of",
-     "target": "bpers:ruben.iacob-filius",
-     "evidence": [
-      "ndeib:RUBEN#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [

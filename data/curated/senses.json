@@ -37613,7 +37613,7 @@
        "target_key": "MISRAIM"
       },
       {
-       "rel": "land_of",
+       "rel": "people_of",
        "target": "Patros",
        "target_key": null
       }
@@ -40209,13 +40209,7 @@
      "en": "Reuben",
      "descr_it": "tribù israelita stanziata in Transgiordania",
      "descr_en": "Israelite tribe settled east of the Jordan",
-     "relations": [
-      {
-       "rel": "people_of",
-       "target": "Ruben",
-       "target_key": "RUBEN#1"
-      }
-     ],
+     "relations": [],
      "certain": true
     },
     {

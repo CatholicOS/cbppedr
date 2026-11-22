@@ -1,6 +1,6 @@
 import unittest
 
-from validate import problems, unnamed_problems
+from validate import conjecture_problems, problems, unnamed_problems
 
 
 def cat(entries):
@@ -87,6 +87,19 @@ class UnnamedTest(unittest.TestCase):
                    relations=[{"rel": "child_of", "target": "bpers:a", "evidence": ["wiki:x"]}])
         p = problems({"persons": cat({"bpers:a": e}), "places": cat({}), "events": cat({})})
         self.assertEqual(len(p), 2, p)
+
+
+class ConjectureTest(unittest.TestCase):
+    def test_conjecture_rules(self):
+        src = {"bj": {}, "tipnr": {}}
+        good = {"rel": "possibly_same_as", "target": "bpers:b", "status": "supported",
+                "opinions": [{"by": "bj:note:1Sam.14,49#p597", "says": "identifies", "summary": "Ishvi is Ishbaal"}]}
+        self.assertEqual(conjecture_problems("bpers:a", {"conjectures": [good]}, {"bpers:a", "bpers:b"}, src), [])
+        at = {"rel": "possibly_attested_at", "unit": "btu:gn.29.34", "status": "unsupported",
+              "opinions": [{"by": "tipnr:Levi@Gen.29.34", "says": "suggests", "summary": "a lead"}]}
+        self.assertEqual(conjecture_problems("bpers:a", {"conjectures": [at]}, {"bpers:a"}, src), [])
+        bad = dict(good, status="maybe", opinions=[{"by": "wiki:x", "says": "thinks", "summary": ""}])
+        self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [bad]}, {"bpers:a", "bpers:b"}, src)), 4)
 
 
 class EvidenceTest(unittest.TestCase):

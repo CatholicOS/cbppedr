@@ -1,0 +1,4 @@
+{
+ "$comment": "Scholarly conjectures the Bible text does not settle: possibly_same_as (two entries may be one; not same_as) and possibly_attested_at (an unnamed figure in a verse may be the entry; not attested), with each opinion for or against, by source location (see sources.json). Built into the source entry's `conjectures`, with a status: supported (an authoritative source identifies or suggests it, none rejects it), disputed (authoritative sources disagree), rejected (authoritative sources only doubt or reject it), unsupported (only non-authoritative opinions). A conjecture never changes attested verses or same_as.",
+ "conjectures": []
+}

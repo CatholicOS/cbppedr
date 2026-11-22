@@ -1,5 +1,7 @@
 # Data format
 
+The structure of every file. What each term means (types, kinds, relations, `same_as` and `possibly_same_as`, labels, evidence, sources, statuses) is in [vocabulary.md](vocabulary.md).
+
 ## Catalogs
 
 `data/persons.json`, `data/places.json`, `data/events.json`: each is
@@ -13,6 +15,7 @@
   "attested": ["btu:mt.14.3", "…"],
   "labels": {"btu:gal.2.9": {"as": "name", "editions": {"NVBSE": "Cephas", "CEI2008": "Cefa", "NABRE": "Kephas"}}},
   "relations": [{"rel": "child_of", "target": "<id>", "evidence": ["ndeib:FILIPPO#1", "bj:herodian-tree"]}],
+  "conjectures": [{"rel": "possibly_same_as", "target": "<id>", "status": "supported", "opinions": ["…"]}],
   "qid": "Q… | null",
   "qid_status": "auto | reviewed | unresolved",
   "evidence": ["ndeib:FILIPPO#1"],
@@ -21,11 +24,30 @@
 ```
 
 - **Identifiers:** `bpers:`, `bplace:`, `bevent:` + the Nova Vulgata Latin name as a lowercase ASCII slug, words joined by `-`, plus `.` and a short Latin discriminator when the name is shared (`bpers:philippus.tetrarcha`). Drafts until `v1.0.0`.
-- **attested:** the [CBTUDR](https://github.com/CatholicOS/cbtudr) units where the sources place the entry, in the order cited. They locate the entry, edition-independently; they are not yet the list of every mention (that is the next project: mentions with offsets per edition).
+- **attested:** the [CBTUDR](https://github.com/CatholicOS/cbtudr) units where the entry appears, by name or by a designation the context ties to it, edition-independently, in the order the sources cite them. Verses that refer to it only by a pronoun, or not at all, are not attested. They are not yet the list of every mention (that is the next project: mentions with offsets per edition).
 - **labels** (only where needed): for an attested unit where the entry is not called by its catalogued names, how each edition names it there: `as` is `name` (another name the entry bears: Cephas, Saul, Zion) or `designation` (a title or description the context ties to it: "the king of Israel" in the Joram narrative); `editions` maps each edition that carries it (`NVBSE`, `VGCL`, `CEI2008`, `NABRE`, `DRB`) to the label as printed, at most six words. An edition missing from the map does not name or designate the entry in that verse (e.g. "the prophet" in 2 Kgs 2:24 is only the NABRE's), so an application can keep only the units its edition supports.
-- **relations:** `child_of`, `parent_of`, `spouse_of`, `sibling_of`, `eponym_of`, `people_of`, `land_of`, `located_in`, `part_of`, `participant`, `same_as`; stated one way, as the source states it.
+- **relations:** `child_of`, `parent_of`, `spouse_of`, `sibling_of`, `eponym_of`, `people_of`, `land_of`, `located_in`, `part_of`, `participant`, `same_as`; stated one way, from the entry to `target`, as the evidence states it. Each relation's meaning and the types of its source and target: [vocabulary.md](vocabulary.md#relations).
+- **conjectures** (only where any): identities and attestations the text does not settle; see [Conjectures](#conjectures).
+- **qid / qid_status:** the entry's Wikidata item and how it was set (`auto`, `reviewed`, `unresolved`).
 - **evidence:** locations, never text. `ndeib:<HEADWORD>#<sense>` is a sense of the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* (`~n` numbers a repeated headword or a restarted numbering); `bj:herodian-tree` the Jerusalem Bible's Hasmonean and Herodian family tree, curated as explicit relations between ids in `data/curated/bj-tree.json`. `nv:<unit>` (e.g. `nv:btu:ne.12.36`) is a verse of the Nova Vulgata, cited where the Bible text alone establishes the entry or tells it from its homonyms (a patronym, an office, a place, a time); STEPBible's TIPNR may point to such verses, but is never itself the evidence.
 - **review: "uncertain":** the reviewer could not settle the identity from the source (for example, whether two senses are one person).
+
+## Conjectures
+
+The catalog states an identity (`same_as`) or an attestation only when the Bible text establishes it, or an authoritative source states it as fact ([levels of certainty](vocabulary.md#how-sure-is-a-statement)). What the text leaves open but scholars propose is recorded as a **conjecture** on the entry, with each opinion for or against it and whose opinion it is:
+
+```json
+"conjectures": [
+  {"rel": "possibly_attested_at", "unit": "btu:1sam.14.49", "status": "supported",
+   "opinions": [{"by": "bj:note:1Sam.14,49#p597", "says": "identifies", "summary": "Ishvi is another form of the name Ishbaal"},
+                {"by": "tipnr:Ishvi@1Sa.14.49", "says": "identifies", "summary": "listed as the same person, without a reference"}]}]
+```
+
+- **rel:** `possibly_same_as` (with `target`, another entry: the two may be one) or `possibly_attested_at` (with `unit`: a figure in that verse, unnamed or named otherwise, may be this entry).
+- **opinions:** `by` is a source location, `says` one of `identifies`, `suggests`, `doubts`, `rejects`, and `summary` a few words of our own (never the source's text).
+- **Sources** (`data/curated/sources.json`) say whose opinion it is and how much it weighs. *Authoritative*: a published scholarly work cited by location, such as a note or a book's introduction in the Jerusalem Bible (`bj:note:<Book>.<ref>#p<page>`, `bj:intro:<section>#p<page>`) or a sense of the dictionary (`ndeib:<KEY>`). *Non-authoritative*: a claim without references, such as STEPBible's TIPNR (`tipnr:<name>`), or a reviewer's inference (`reviewer:<round>`), kept as a lead until an authoritative source is found.
+- **status**, computed by the build from the authoritative opinions only: `supported` (one identifies or suggests it, none doubts or rejects it), `disputed` (they disagree), `rejected` (they only doubt or reject it), `unsupported` (no authoritative opinion yet).
+- A conjecture never changes `attested` or `same_as`.
 
 ## Unnamed persons
 
@@ -45,14 +67,32 @@
 
 ## Curated inputs
 
-- `data/curated/senses.json`: the reviewed decision for every dictionary sense (type, identifier, names, descriptions, relations; `parts` when one sense covers several entities).
-- `data/curated/part-units.json`: for a sense with several entities, the units of each.
-- `data/curated/qids.json`: the Wikidata matches, with candidates kept for unresolved ones.
-- `data/curated/unit-corrections.json`: a sense's corrected units, where the units it cites are not where the entity appears (by sense key and id).
-- `data/curated/entries.json`: entries curated by hand, with explicit ids, units (the Nova Vulgata verses that name them), evidence and relations; an entry already built from a sense is extended. First use: the persons the dictionary treats only in a book's article, a sense classified as the book (`none`).
-- `data/curated/bj-tree.json`: the Herodian tree's entries and relations.
-- `data/curated/labels.json`: by id and unit, the reviewed labels (see **labels** above).
-- `data/curated/unattested.json`: by id, the units a citation attached to an entry but that, on review, do not refer to it (a whole passage cited for one person, a misread reference, a homonym's verse). They are removed after the curated entries are applied, so a reviewed removal always wins; a removal that a curated entry contradicts is listed in the build report (`conflicting removals`).
+The reviewed decisions the catalogs are built from, in `data/curated/`. Ids are as in the catalogs; units are CBTUDR units.
+
+| File | Holds | Shape |
+|---|---|---|
+| `senses.json` | the reviewed decision for every dictionary sense: type, id, names, descriptions, relations by name; `parts` when one sense covers several entities; `certain: false` marks an entry `review: uncertain`. Hand-maintained: never regenerate it with `consolidate.py`. | `{"decisions": [{"key": "ABARIM", "type": "place", "kind": "mountain", "id": "bplace:abarim", "latin", "it", "en", "descr_it", "descr_en", "relations": [{"rel": "located_in", "target": "Moab", "target_key": null}], "certain": true}]}` |
+| `part-units.json` | for a sense with several entities, the units of each (generated by `part_units.py` from the private reviews) | `{"parts": {"<sense key>": {"<id>": ["btu:…"]}}}` |
+| `unit-corrections.json` | a sense's corrected units, where the units it cites are not where the entity appears; overrides `part-units.json` | `{"units": {"FILIPPO#2": {"bpers:philippus.tetrarcha": ["btu:lc.3.1"]}}}` |
+| `entries.json` | entries curated by hand, with their own units, evidence and relations by id. An id not built from a sense is created (then `type`, `kind`, `latin`, `it`, `en`, `descr_it`, `descr_en` are required); an existing one is extended. | `{"entries": {"bpers:aasbai": {"type": "person", "kind": "individual", "latin": "Aasbai", "it": "Acasbài", "en": "Ahasbai", "descr_it", "descr_en", "attested": ["btu:2sam.23.34"], "evidence": ["nv:btu:2sam.23.34"], "relations": [{"rel": "parent_of", "target": "<id>", "evidence": ["nv:btu:2sam.23.34"]}]}}}` |
+| `bj-tree.json` | the Jerusalem Bible's Herodian tree: its entries, and its relations between ids | `{"entries": {"<id>": {"type", "kind", "latin", "it", "en", "descr_it", "descr_en"}}, "relations": [{"source": "<id>", "rel": "spouse_of", "target": "<id>"}]}` |
+| `unattested.json` | by id, the units a citation attached to an entry that, on review, do not refer to it. Applied after the curated entries, so a review always wins; a removal a curated entry contradicts is reported. | `{"entries": {"<id>": ["btu:…"]}}` |
+| `labels.json` | by id and unit, how each edition names or designates the entry where it is not called by its catalogued names | `{"entries": {"<id>": {"btu:2reg.2.24": {"as": "designation", "editions": {"NABRE": "The prophet"}}}}}` |
+| `conjectures.json` | the conjectures, with every opinion; the build adds each to its source entry with a computed `status` | `{"conjectures": [{"source": "<id>", "rel": "possibly_same_as", "target": "<id>", "opinions": [{"by": "bj:note:…", "says": "suggests", "summary": "…"}]}, {"source": "<id>", "rel": "possibly_attested_at", "unit": "btu:…", "opinions": […]}]}` |
+| `sources.json` | the register of sources conjectures may cite: whose opinion, its authority, its locator format | `{"sources": {"bj": {"title", "authority": "authoritative", "locator"}}}` |
+| `qids.json` | the Wikidata matches, with the candidates kept for review and the items judged wrong | `{"qids": {"<id>": {"qid": "Q… \| null", "status": "auto \| reviewed \| unresolved", "candidates": ["Q…"], "rejected": ["Q…"]}}}` |
+
+## Build report
+
+`docs/build-report.md`, regenerated by every build, lists what it could not settle or apply:
+
+- **Merged:** ids several senses were merged into.
+- **Unresolved relations:** relations whose target could not be identified (its name is shared, or the types do not fit the relation).
+- **Type conflicts:** an id given two types (by two senses, or by a sense and a curated entry).
+- **Uncertain:** entries marked `review: uncertain`.
+- **Stale removals / stale labels:** removals or labels for units the entry no longer has.
+- **Conflicting removals:** a reviewed removal of a unit that a curated entry adds.
+- **Unresolved conjectures:** a conjecture whose entry, target or unit is missing.
 
 ## Pipeline
 
@@ -64,6 +104,6 @@ All scripts in `scripts/`; the private inputs (the two books, and intermediates 
 4. `build_catalog.py` (also reads the curated corrections, entries and tree) → the catalogs and `docs/build-report.md`.
 5. `wikidata.py` → `data/curated/qids.json`; rebuild to apply.
 6. `validate.py`, `stepbible_check.py` → `docs/stepbible-gaps.md`, `generate_registry.py` → `registry/`.
-7. `audit_attested.py`: the attested verses that no edition's text (Nova Vulgata, Clementine Vulgate, CEI 2008, NABRE, Douay-Rheims, exported by unit from the BibleGet database, private) names the entry in; the list is reviewed, and the verses that do not refer to the entry go to `unattested.json`.
+7. `export_texts.py` → the editions' text by unit (private), then `audit_attested.py`: the attested verses that no edition's text (Nova Vulgata, Clementine Vulgate, CEI 2008, NABRE, Douay-Rheims, exported by unit from the BibleGet database, private) names the entry in; the list is reviewed: the verses that do not refer to the entry go to `unattested.json`, the others get their `labels`. A verse with a label is accounted for, so a clean catalog has none flagged.
 
 Tests: `cd scripts && uv run --with lxml python -m unittest discover -s .`

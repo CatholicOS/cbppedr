@@ -28737,6 +28737,17 @@
     }
    ]
   },
+  "bpers:ruben.iacob-filius": {
+   "relations": [
+    {
+     "rel": "eponym_of",
+     "target": "bpers:ruben.tribus",
+     "evidence": [
+      "ndeib:RUBEN#2"
+     ]
+    }
+   ]
+  },
   "bpers:rufus.electus": {
    "type": "person",
    "kind": "individual",

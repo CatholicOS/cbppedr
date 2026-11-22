@@ -40,9 +40,11 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 | Path | What it holds |
 |---|---|
 | `data/persons.json`, `data/places.json`, `data/events.json` | the three catalogs |
+| `data/unnamed.json` | persons the Bible mentions but no edition names, kept apart until one does |
 | `data/curated/` | the reviewed decisions the catalogs are built from: senses, per-entity verse lists and corrections, entries curated by hand, the Herodian tree's relations, Wikidata items |
 | `registry/` | the catalogs as readable tables, generated |
-| `docs/schema.md` | the format of an entry and the build pipeline |
+| `docs/vocabulary.md` | every term the data uses: types and kinds, relations (`same_as`…), labels, conjectures (`possibly_same_as`…), evidence and sources, statuses |
+| `docs/schema.md` | the format of every file, the build report and the pipeline |
 | `docs/build-report.md`, `docs/stepbible-gaps.md` | what the last build merged or left open, and the names it still misses |
 | `scripts/` | the build, validation, Wikidata matching and report scripts (Python, `python -m unittest`) |
 
