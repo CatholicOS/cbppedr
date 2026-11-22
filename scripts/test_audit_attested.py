@@ -18,6 +18,11 @@ class AuditTest(unittest.TestCase):
         self.assertTrue(named(norm("in monte Hor"), keys))
         self.assertFalse(named(norm("in hora illa"), keys))
 
+    def test_place_matches_on_its_head_word(self):
+        keys = stems({"type": "place", "names": {"la": "Bethania trans Iordanem", "en": "Bethany beyond the Jordan"}})
+        self.assertFalse(named(norm("baptizatus est in Iordane"), keys))
+        self.assertTrue(named(norm("in Bethania trans Iordanem"), keys))
+
     def test_inflection(self):
         keys = stems({"names": {"la": "Abner"}})
         self.assertTrue(named(norm("dixit Abneri filio Ner"), keys))
@@ -29,6 +34,12 @@ class AuditTest(unittest.TestCase):
         texts = [{"btu:act.23.24": "ad Felicem praesidem", "btu:act.21.27": "Iudaei ab Asia"},
                  {"btu:act.21.27": "the Jews from Asia"}]
         self.assertEqual([(i, u) for i, u, _ in audit(entries, texts)], [("bpers:felix", "btu:act.21.27")])
+
+
+    def test_labelled_unit_accounted_for(self):
+        entries = {"bpers:petrus": {"type": "person", "names": {"la": "Petrus"}, "attested": ["btu:gal.2.9"],
+                                    "labels": {"btu:gal.2.9": {"as": "name", "editions": {"NVBSE": "Cephas"}}}}}
+        self.assertEqual(audit(entries, [{"btu:gal.2.9": "Iacobus et Cephas"}]), [])
 
 
 class ExportTest(unittest.TestCase):

@@ -169,7 +169,19 @@
     "ndeib:ABEL",
     "nv:btu:gn.50.10",
     "nv:btu:gn.50.11"
-   ]
+   ],
+   "labels": {
+    "btu:gn.50.10": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "aia di Atad",
+      "DRB": "the threshingfloor of Atad",
+      "NABRE": "Goren-ha-atad",
+      "NVBSE": "Gorenatad",
+      "VGCL": "Aream Atad"
+     }
+    }
+   }
   },
   "bplace:abenezer.lapis": {
    "type": "place",
@@ -470,7 +482,17 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ACZIB#1"
-   ]
+   ],
+   "labels": {
+    "btu:gn.38.5": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Chezìb",
+      "NABRE": "Chezib",
+      "NVBSE": "Chasib"
+     }
+    }
+   }
   },
   "bplace:acrabbim": {
    "type": "place",
@@ -531,8 +553,7 @@
     "en": "place of the mourning in the plain of Megiddo"
    },
    "attested": [
-    "btu:zach.12.11",
-    "btu:2reg.5.18"
+    "btu:zach.12.11"
    ],
    "relations": [],
    "qid": null,
@@ -1079,7 +1100,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AIN"
-   ]
+   ],
+   "labels": {
+    "btu:ne.11.29": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "En-Rimmon",
+      "DRB": "Remmon",
+      "NABRE": "En-rimmon",
+      "NVBSE": "Remmon",
+      "VGCL": "Remmon"
+     }
+    }
+   }
   },
   "bplace:alexandria": {
    "type": "place",
@@ -1307,7 +1340,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CAMMAT"
-   ]
+   ],
+   "labels": {
+    "btu:1par.6.61": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Cammon",
+      "DRB": "Hamon",
+      "NABRE": "Hammon",
+      "NVBSE": "Hamon",
+      "VGCL": "Hamon"
+     }
+    }
+   }
   },
   "bplace:ammatha": {
    "type": "place",
@@ -1610,7 +1655,19 @@
     "ndeib:ANTIOCHIA (PISIDIA)",
     "nv:btu:act.14.21",
     "nv:btu:2tim.3.11"
-   ]
+   ],
+   "labels": {
+    "btu:act.13.50": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    }
+   }
   },
   "bplace:antiochia.syriae": {
    "type": "place",
@@ -1703,7 +1760,59 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ANTONIA (FORTEZZA)"
-   ]
+   ],
+   "labels": {
+    "btu:act.21.34": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "fortezza",
+      "DRB": "the castle",
+      "NABRE": "the compound",
+      "NVBSE": "castra",
+      "VGCL": "castra"
+     }
+    },
+    "btu:act.21.37": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "fortezza",
+      "DRB": "the castle",
+      "NABRE": "the compound",
+      "NVBSE": "castra",
+      "VGCL": "castra"
+     }
+    },
+    "btu:act.22.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "fortezza",
+      "DRB": "the castle",
+      "NABRE": "the compound",
+      "NVBSE": "castra",
+      "VGCL": "castra"
+     }
+    },
+    "btu:act.23.10": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "fortezza",
+      "DRB": "the castle",
+      "NABRE": "the compound",
+      "NVBSE": "castra",
+      "VGCL": "castra"
+     }
+    },
+    "btu:act.23.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "fortezza",
+      "DRB": "the castle",
+      "NABRE": "the compound",
+      "NVBSE": "castra",
+      "VGCL": "castra"
+     }
+    }
+   }
   },
   "bplace:aphec.aser": {
    "type": "place",
@@ -2411,7 +2520,29 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:ARIMATEA"
-   ]
+   ],
+   "labels": {
+    "btu:1sam.1.1": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Ramatàim",
+      "DRB": "Ramathaimsophim",
+      "NABRE": "Ramathaim",
+      "NVBSE": "Ramathaim",
+      "VGCL": "Ramathaimsophim"
+     }
+    },
+    "btu:1mac.11.34": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Ramatàim",
+      "DRB": "Ramatha",
+      "NABRE": "Ramathaim",
+      "NVBSE": "Ramathaim",
+      "VGCL": "Ramathan"
+     }
+    }
+   }
   },
   "bplace:arnon": {
    "type": "place",
@@ -2622,8 +2753,7 @@
    },
    "attested": [
     "btu:ios.15.42",
-    "btu:1par.6.44",
-    "btu:1sam.30.30"
+    "btu:1par.6.44"
    ],
    "relations": [],
    "qid": null,
@@ -3379,7 +3509,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ASTAROT-KARNAIM"
-   ]
+   ],
+   "labels": {
+    "btu:1mac.5.43": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Karnàin",
+      "DRB": "Carnaim",
+      "NABRE": "Carnaim",
+      "NVBSE": "Carnain",
+      "VGCL": "Carnaim"
+     }
+    },
+    "btu:1mac.5.44": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Karnàin",
+      "DRB": "Carnaim",
+      "NABRE": "Carnaim",
+      "NVBSE": "Carnain",
+      "VGCL": "Carnaim"
+     }
+    }
+   }
   },
   "bplace:atarim": {
    "type": "place",
@@ -3586,29 +3738,23 @@
    "attested": [
     "btu:mt.26.57",
     "btu:mt.26.58",
-    "btu:mt.26.59",
     "btu:mt.26.62",
     "btu:mt.26.63",
     "btu:mt.26.65",
     "btu:mt.26.69",
     "btu:mt.26.71",
-    "btu:mt.27.1",
     "btu:mc.14.53",
     "btu:mc.14.54",
-    "btu:mc.14.55",
     "btu:mc.14.60",
     "btu:mc.14.61",
     "btu:mc.14.63",
     "btu:mc.14.66",
     "btu:mc.14.68",
-    "btu:mc.15.1",
     "btu:lc.22.54",
     "btu:lc.22.55",
-    "btu:lc.22.66",
     "btu:io.18.13",
     "btu:io.18.15",
     "btu:io.18.16",
-    "btu:io.18.17",
     "btu:io.18.19",
     "btu:io.18.20",
     "btu:io.18.22",
@@ -3631,7 +3777,55 @@
    "evidence": [
     "ndeib:PALAZZO DEL SOMMO SACERDOTE"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:mt.26.69": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "cortile",
+      "DRB": "the court",
+      "NABRE": "the courtyard",
+      "NVBSE": "atrio",
+      "VGCL": "atrio"
+     }
+    },
+    "btu:mt.26.71": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "l'atrio",
+      "DRB": "the gate",
+      "NABRE": "the gate",
+      "NVBSE": "ianuam",
+      "VGCL": "januam"
+     }
+    },
+    "btu:mc.14.68": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "l'ingresso",
+      "DRB": "the court",
+      "NABRE": "the outer court",
+      "NVBSE": "atrium",
+      "VGCL": "atrium"
+     }
+    },
+    "btu:lc.22.55": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "cortile",
+      "DRB": "the hall",
+      "NABRE": "the courtyard",
+      "NVBSE": "atrio",
+      "VGCL": "atrii"
+     }
+    },
+    "btu:io.18.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "casa di Caifa"
+     }
+    }
+   }
   },
   "bplace:auran": {
    "type": "place",
@@ -3978,7 +4172,19 @@
    "evidence": [
     "nv:btu:ios.19.8",
     "nv:btu:1par.4.33"
-   ]
+   ],
+   "labels": {
+    "btu:1par.4.33": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Baal",
+      "DRB": "Baal",
+      "NABRE": "Baal",
+      "NVBSE": "Baal",
+      "VGCL": "Baal"
+     }
+    }
+   }
   },
   "bplace:baalgad": {
    "type": "place",
@@ -4129,7 +4335,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BAAL-MEON"
-   ]
+   ],
+   "labels": {
+    "btu:ier.48.23": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Bet-Meon",
+      "DRB": "Bethmaon",
+      "NABRE": "Beth-meon",
+      "NVBSE": "Bethmaon",
+      "VGCL": "Bethmaon"
+     }
+    }
+   }
   },
   "bplace:baalpharasim": {
    "type": "place",
@@ -4153,7 +4371,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BAAL-PERAZIM"
-   ]
+   ],
+   "labels": {
+    "btu:is.28.21": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "monte Perasìm",
+      "DRB": "the mountain of divisions",
+      "NABRE": "Mount Perazim",
+      "NVBSE": "monte Pharasim",
+      "VGCL": "monte divisionum"
+     }
+    }
+   }
   },
   "bplace:baalsalisa": {
    "type": "place",
@@ -4239,7 +4469,19 @@
     "ndeib:BABILONIA (CITTÀ)#2",
     "ndeib:BABILONIA (CITTÀ)#3"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:apc.17.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la donna",
+      "DRB": "the woman",
+      "NABRE": "the woman",
+      "NVBSE": "mulier",
+      "VGCL": "mulier"
+     }
+    }
+   }
   },
   "bplace:babylon.urbs": {
    "type": "place",
@@ -4278,7 +4520,49 @@
    "evidence": [
     "ndeib:BABELE",
     "ndeib:BABILONIA (CITTÀ)#0"
-   ]
+   ],
+   "labels": {
+    "btu:gn.11.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una città",
+      "DRB": "a city",
+      "NABRE": "a city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:gn.11.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:gn.11.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:ier.25.26": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sesac",
+      "DRB": "Sesac",
+      "NABRE": "Sheshach",
+      "NVBSE": "Sesach",
+      "VGCL": "Sesach"
+     }
+    }
+   }
   },
   "bplace:babylonia": {
    "type": "place",
@@ -4328,7 +4612,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BABILONIA (REGIONE)#0"
-   ]
+   ],
+   "labels": {
+    "btu:dn.1.2": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "paese di Sinar",
+      "DRB": "the land of Sennaar",
+      "NABRE": "the land of Shinar",
+      "NVBSE": "terram Sennaar",
+      "VGCL": "terram Sennaar"
+     }
+    }
+   }
   },
   "bplace:bahurim": {
    "type": "place",
@@ -4687,8 +4983,7 @@
    "attested": [
     "btu:nm.33.31",
     "btu:nm.33.32",
-    "btu:dt.10.6",
-    "btu:1par.1.42"
+    "btu:dt.10.6"
    ],
    "relations": [],
    "qid": null,
@@ -5011,7 +5306,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BETANIA#1"
-   ]
+   ],
+   "labels": {
+    "btu:io.11.30": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "villaggio",
+      "DRB": "the town",
+      "NABRE": "the village",
+      "NVBSE": "castellum",
+      "VGCL": "castellum"
+     }
+    }
+   }
   },
   "bplace:bethania.trans-iordanem": {
    "type": "place",
@@ -5027,74 +5334,26 @@
    },
    "attested": [
     "btu:io.1.28",
-    "btu:io.1.35",
-    "btu:io.1.36",
-    "btu:io.1.37",
-    "btu:io.1.39",
-    "btu:io.1.40",
-    "btu:io.1.41",
-    "btu:io.1.42",
-    "btu:io.1.43",
-    "btu:io.1.44",
-    "btu:io.1.45",
-    "btu:io.1.48",
-    "btu:io.1.49",
-    "btu:io.1.50",
-    "btu:io.1.51",
-    "btu:act.1.21",
-    "btu:io.10.40",
-    "btu:2reg.2.5",
-    "btu:2reg.2.6",
-    "btu:2reg.2.7",
-    "btu:2reg.2.8",
-    "btu:2reg.2.9",
-    "btu:2reg.2.10",
-    "btu:2reg.2.11",
-    "btu:2reg.2.12",
-    "btu:2reg.2.13",
-    "btu:2reg.2.14",
-    "btu:mt.11.14",
-    "btu:mt.17.12",
-    "btu:mt.17.13",
-    "btu:mc.9.12",
-    "btu:lc.1.17",
-    "btu:ios.13.26",
-    "btu:mt.3.1",
-    "btu:mt.3.5",
-    "btu:mc.1.5",
-    "btu:io.1.32",
-    "btu:io.1.33",
-    "btu:io.1.34",
-    "btu:mt.4.18",
-    "btu:mt.4.21",
-    "btu:mc.1.16",
-    "btu:mc.1.19",
-    "btu:mc.1.20",
-    "btu:lc.5.1",
-    "btu:lc.5.2",
-    "btu:lc.5.3",
-    "btu:lc.5.4",
-    "btu:lc.5.5",
-    "btu:lc.5.7",
-    "btu:lc.5.8",
-    "btu:lc.5.9",
-    "btu:lc.5.10",
-    "btu:lc.5.11",
-    "btu:mt.19.1",
-    "btu:mc.10.1",
-    "btu:lc.13.31",
-    "btu:lc.13.32",
-    "btu:lc.13.33",
-    "btu:nm.32.32",
-    "btu:dt.3.8",
-    "btu:io.11.52"
+    "btu:io.10.40"
    ],
    "relations": [],
    "qid": "Q831190",
    "qid_status": "auto",
    "evidence": [
     "ndeib:BETANIA#2"
-   ]
+   ],
+   "labels": {
+    "btu:io.10.40": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "luogo dove prima Giovanni battezzava",
+      "DRB": "place where John was baptizing first",
+      "NABRE": "the place where John first baptized",
+      "NVBSE": "locum, ubi erat Ioannes baptizans",
+      "VGCL": "locum ubi erat Joannes baptizans"
+     }
+    }
+   }
   },
   "bplace:bethanoth": {
    "type": "place",
@@ -5396,6 +5655,28 @@
     "nv:btu:ios.15.41"
    ]
   },
+  "bplace:bethdeblathaim": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Bethdeblathaim",
+    "it": "Bet-Diblatàim",
+    "en": "Beth-diblathaim"
+   },
+   "description": {
+    "it": "città di Moab nell'oracolo di Geremia contro Moab",
+    "en": "town of Moab in Jeremiah's oracle against Moab"
+   },
+   "attested": [
+    "btu:ier.48.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ier.48.22"
+   ]
+  },
   "bplace:betheced": {
    "type": "place",
    "kind": "site",
@@ -5485,7 +5766,69 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:BETEL"
-   ]
+   ],
+   "labels": {
+    "btu:gn.28.11": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "un luogo",
+      "DRB": "a certain place",
+      "NABRE": "a certain place",
+      "NVBSE": "quendam locum",
+      "VGCL": "quemdam locum"
+     }
+    },
+    "btu:gn.28.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo luogo",
+      "DRB": "this place",
+      "NABRE": "this place",
+      "NVBSE": "loco isto",
+      "VGCL": "loco isto"
+     }
+    },
+    "btu:gn.28.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo luogo",
+      "DRB": "this place",
+      "NABRE": "this place",
+      "NVBSE": "locus iste",
+      "VGCL": "locus iste"
+     }
+    },
+    "btu:gn.35.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "dove gli aveva parlato",
+      "DRB": "the place where God had spoken",
+      "NABRE": "the place where God had spoken",
+      "NVBSE": "loco, quo locutus ei fuerat Deus",
+      "VGCL": "loco quo locutus fuerat ei Deus"
+     }
+    },
+    "btu:idc.1.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:idc.1.25": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    }
+   }
   },
   "bplace:bethemec": {
    "type": "place",
@@ -5757,7 +6100,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BETLEMME"
-   ]
+   ],
+   "labels": {
+    "btu:1sam.20.29": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "our city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:gn.35.16": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Èfrata",
+      "DRB": "Ephrata",
+      "NABRE": "Ephrath",
+      "NVBSE": "Ephratham",
+      "VGCL": "Ephratam"
+     }
+    }
+   }
   },
   "bplace:bethlehem.zabulon": {
    "type": "place",
@@ -5798,15 +6163,26 @@
    "attested": [
     "btu:nm.32.36",
     "btu:nm.32.3",
-    "btu:ios.15.6",
-    "btu:ier.48.34"
+    "btu:ios.15.6"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BET-NIMRA"
-   ]
+   ],
+   "labels": {
+    "btu:nm.32.3": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Nimra",
+      "DRB": "Nemra",
+      "NABRE": "Nimrah",
+      "NVBSE": "Nemra",
+      "VGCL": "Nemra"
+     }
+    }
+   }
   },
   "bplace:bethoron.inferior": {
    "type": "place",
@@ -5998,7 +6374,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BETSAIDA"
-   ]
+   ],
+   "labels": {
+    "btu:mc.8.23": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "villaggio",
+      "DRB": "the town",
+      "NABRE": "the village",
+      "NVBSE": "vicum",
+      "VGCL": "vicum"
+     }
+    },
+    "btu:mc.8.26": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "villaggio",
+      "DRB": "the town",
+      "NABRE": "the village",
+      "NVBSE": "vicum",
+      "VGCL": "vicum"
+     }
+    }
+   }
   },
   "bplace:bethsames.aegypti": {
    "type": "place",
@@ -6073,7 +6471,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BET-SEMES#1"
-   ]
+   ],
+   "labels": {
+    "btu:ios.19.41": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Ir-Semes",
+      "DRB": "Hirsemes",
+      "NABRE": "Ir-shemesh",
+      "NVBSE": "Hirsemes",
+      "VGCL": "Hirsemes"
+     }
+    }
+   }
   },
   "bplace:bethsames.nephthali": {
    "type": "place",
@@ -6165,7 +6575,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BETESDA"
-   ]
+   ],
+   "labels": {
+    "btu:io.5.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "piscina",
+      "DRB": "the pond",
+      "NABRE": "the pool",
+      "NVBSE": "piscinam",
+      "VGCL": "piscinam"
+     }
+    }
+   }
   },
   "bplace:bethsetta": {
    "type": "place",
@@ -6397,12 +6819,47 @@
     "btu:ios.15.29",
     "btu:ios.19.3"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:baala.negeb",
+     "evidence": [
+      "nv:btu:ios.15.29",
+      "nv:btu:ios.19.3",
+      "nv:btu:1par.4.29"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BILA"
-   ]
+    "ndeib:BILA",
+    "nv:btu:ios.15.29",
+    "nv:btu:ios.19.3",
+    "nv:btu:1par.4.29"
+   ],
+   "labels": {
+    "btu:ios.15.29": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Baalà",
+      "DRB": "Baala",
+      "NABRE": "Baalah",
+      "NVBSE": "Baala",
+      "VGCL": "Baala"
+     }
+    },
+    "btu:ios.19.3": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Bala",
+      "DRB": "Bala",
+      "NABRE": "Balah",
+      "NVBSE": "Bala",
+      "VGCL": "Bala"
+     }
+    }
+   }
   },
   "bplace:bithynia": {
    "type": "place",
@@ -6493,7 +6950,159 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IACHIN E BOAZ"
-   ]
+   ],
+   "labels": {
+    "btu:2par.3.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne",
+      "DRB": "two pillars",
+      "NABRE": "two columns",
+      "NVBSE": "duas columnas",
+      "VGCL": "duas columnas"
+     }
+    },
+    "btu:2par.3.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:2reg.25.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le colonne di bronzo",
+      "DRB": "the pillars of brass",
+      "NABRE": "The bronze columns",
+      "NVBSE": "Columnas autem æreas",
+      "VGCL": "Columnas autem æreas"
+     }
+    },
+    "btu:1reg.7.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne di bronzo",
+      "DRB": "two pillars in brass",
+      "NABRE": "two bronze columns",
+      "NVBSE": "duas columnas æreas",
+      "VGCL": "duas columnas æreas"
+     }
+    },
+    "btu:1reg.7.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:2reg.25.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "l'altra colonna",
+      "DRB": "the second pillar",
+      "NABRE": "the other column",
+      "NVBSE": "columna secunda",
+      "VGCL": "columna secunda"
+     }
+    },
+    "btu:ier.52.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "l'altra colonna",
+      "DRB": "the second pillar",
+      "NABRE": "the other pillar",
+      "NVBSE": "columnæ secundæ",
+      "VGCL": "columnæ secundæ"
+     }
+    },
+    "btu:1reg.7.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnas"
+     }
+    },
+    "btu:1reg.7.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne",
+      "DRB": "the pillars",
+      "NABRE": "the two columns",
+      "NVBSE": "duarum columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.41": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le due colonne",
+      "DRB": "The two pillars",
+      "NABRE": "two columns",
+      "NVBSE": "columnas duas",
+      "VGCL": "Columnas duas"
+     }
+    },
+    "btu:1reg.7.42": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:ier.52.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the pillars",
+      "NVBSE": "columnis",
+      "VGCL": "columnis"
+     }
+    }
+   }
   },
   "bplace:borasan": {
    "type": "place",
@@ -6817,12 +7426,7 @@
    "attested": [
     "btu:lc.3.1",
     "btu:mt.16.13",
-    "btu:mt.16.16",
-    "btu:mc.8.27",
-    "btu:io.6.69",
-    "btu:mt.9.22",
-    "btu:mc.5.34",
-    "btu:lc.8.48"
+    "btu:mc.8.27"
    ],
    "relations": [],
    "qid": null,
@@ -6929,9 +7533,7 @@
     "en": "spot on Pisgah where Balaam viewed Israel"
    },
    "attested": [
-    "btu:nm.23.14",
-    "btu:is.52.8",
-    "btu:is.56.10"
+    "btu:nm.23.14"
    ],
    "relations": [],
    "qid": null,
@@ -7216,7 +7818,29 @@
     "ndeib:CAREM#1",
     "ndeib:CAREM#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:ier.6.1": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Bet-Cherem",
+      "DRB": "Bethacarem",
+      "NABRE": "Beth-haccherem",
+      "NVBSE": "Bethcharem",
+      "VGCL": "Bethacarem"
+     }
+    },
+    "btu:ne.3.14": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Bet-Cherem",
+      "DRB": "Bethacharam",
+      "NABRE": "Beth-haccherem",
+      "NVBSE": "Bethcharem",
+      "VGCL": "Bethacharam"
+     }
+    }
+   }
   },
   "bplace:cariathaim.ruben": {
    "type": "place",
@@ -7306,7 +7930,6 @@
     "btu:esd.2.25",
     "btu:ne.7.29",
     "btu:ps.132.6",
-    "btu:ios.15.10",
     "btu:nm.32.37",
     "btu:gn.14.5",
     "btu:ier.48.1",
@@ -7319,7 +7942,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KIRIAT-IARIM"
-   ]
+   ],
+   "labels": {
+    "btu:ps.132.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "campi di Iaar",
+      "DRB": "the fields of the wood",
+      "NABRE": "the fields of Jaar",
+      "NVBSE": "campis Iaar",
+      "VGCL": "campis silvæ"
+     }
+    }
+   }
   },
   "bplace:cariathusoth": {
    "type": "place",
@@ -7465,7 +8100,15 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CARMELO"
-   ]
+   ],
+   "labels": {
+    "btu:1reg.18.44": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the mountain"
+     }
+    }
+   }
   },
   "bplace:cartha": {
    "type": "place",
@@ -7511,7 +8154,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KARTAN"
-   ]
+   ],
+   "labels": {
+    "btu:1par.6.61": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Kiriatàim",
+      "DRB": "Cariathaim",
+      "NABRE": "Kiriathaim",
+      "NVBSE": "Cariathaim",
+      "VGCL": "Cariathaim"
+     }
+    }
+   }
   },
   "bplace:castra-dan.cariathiarim": {
    "type": "place",
@@ -7882,15 +8537,26 @@
    },
    "attested": [
     "btu:ios.19.12",
-    "btu:ios.19.18",
-    "btu:1par.6.62"
+    "btu:ios.19.18"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CHISLOT"
-   ]
+   ],
+   "labels": {
+    "btu:ios.19.18": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Chesullòt",
+      "DRB": "Casaloth",
+      "NABRE": "Chesulloth",
+      "NVBSE": "Chasaloth",
+      "VGCL": "Casaloth"
+     }
+    }
+   }
   },
   "bplace:cesil": {
    "type": "place",
@@ -8004,7 +8670,29 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:KABUL"
-   ]
+   ],
+   "labels": {
+    "btu:1reg.9.11": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "venti città",
+      "DRB": "twenty cities",
+      "NABRE": "twenty cities",
+      "NVBSE": "viginti oppida",
+      "VGCL": "viginti oppida"
+     }
+    },
+    "btu:1reg.9.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le città",
+      "DRB": "the towns",
+      "NABRE": "the cities",
+      "NVBSE": "oppida",
+      "VGCL": "oppida"
+     }
+    }
+   }
   },
   "bplace:chalanne.sennaar": {
    "type": "place",
@@ -8447,7 +9135,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CORAZIN"
-   ]
+   ],
+   "labels": {
+    "btu:mt.11.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le città",
+      "DRB": "the cities",
+      "NABRE": "the towns",
+      "NVBSE": "civitatibus",
+      "VGCL": "civitatibus"
+     }
+    }
+   }
   },
   "bplace:chusan": {
    "type": "place",
@@ -8668,7 +9368,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KISON"
-   ]
+   ],
+   "labels": {
+    "btu:ios.19.11": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il torrente",
+      "DRB": "the torrent",
+      "NABRE": "the wadi",
+      "NVBSE": "torrentem",
+      "VGCL": "torrentem"
+     }
+    }
+   }
   },
   "bplace:cisterna-sira": {
    "type": "place",
@@ -8950,7 +9662,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CIPRO"
-   ]
+   ],
+   "labels": {
+    "btu:act.13.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tutta l'isola",
+      "DRB": "the whole island",
+      "NABRE": "the whole island",
+      "NVBSE": "universam insulam",
+      "VGCL": "universam insulam"
+     }
+    }
+   }
   },
   "bplace:cyrene": {
    "type": "place",
@@ -9156,7 +9880,17 @@
     "ndeib:DAMASCO#1",
     "ndeib:DAMASCO#2",
     "ndeib:DAMASCO#3"
-   ]
+   ],
+   "labels": {
+    "btu:act.9.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "NABRE": "the city",
+      "NVBSE": "civitatem"
+     }
+    }
+   }
   },
   "bplace:dan-iaan": {
    "type": "place",
@@ -9334,10 +10068,6 @@
    "attested": [
     "btu:is.21.13",
     "btu:ez.27.20",
-    "btu:gn.10.7",
-    "btu:1par.1.9",
-    "btu:gn.25.3",
-    "btu:1par.1.32",
     "btu:ez.38.13",
     "btu:ier.25.23",
     "btu:ier.49.8",
@@ -9665,7 +10395,39 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:DOTAN"
-   ]
+   ],
+   "labels": {
+    "btu:2reg.6.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:2reg.6.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:2reg.6.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the wrong city",
+      "NVBSE": "civitas",
+      "VGCL": "civitas"
+     }
+    }
+   }
   },
   "bplace:duma.iuda": {
    "type": "place",
@@ -9857,7 +10619,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EDEN, GIARDINO"
-   ]
+   ],
+   "labels": {
+    "btu:gn.2.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "giardino",
+      "DRB": "paradise",
+      "NABRE": "the garden",
+      "NVBSE": "paradisi",
+      "VGCL": "paradisi"
+     }
+    },
+    "btu:gn.3.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "giardino",
+      "DRB": "paradise",
+      "NABRE": "the garden",
+      "NVBSE": "paradisi",
+      "VGCL": "paradisi"
+     }
+    }
+   }
   },
   "bplace:eder": {
    "type": "place",
@@ -9916,7 +10700,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EDOM, EDOMITI"
-   ]
+   ],
+   "labels": {
+    "btu:gn.36.6": {
+     "as": "name",
+     "editions": {
+      "NABRE": "the land of Seir",
+      "NVBSE": "terram Seir"
+     }
+    }
+   }
   },
   "bplace:edrai.basan": {
    "type": "place",
@@ -10285,7 +11078,6 @@
    },
    "attested": [
     "btu:nm.33.46",
-    "btu:ier.48.22",
     "btu:nm.33.47"
    ],
    "relations": [],
@@ -10470,7 +11262,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EMMAUS"
-   ]
+   ],
+   "labels": {
+    "btu:lc.24.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "villaggio",
+      "DRB": "the town",
+      "NABRE": "the village",
+      "NVBSE": "castello",
+      "VGCL": "castello"
+     }
+    }
+   }
   },
   "bplace:emmer": {
    "type": "place",
@@ -10746,7 +11550,6 @@
    "attested": [
     "btu:ne.11.29",
     "btu:ios.19.7",
-    "btu:1par.4.32",
     "btu:ios.15.32"
    ],
    "relations": [],
@@ -10853,7 +11656,18 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EFRAIM (LOCALITÀ)"
-   ]
+   ],
+   "labels": {
+    "btu:1mac.11.34": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Afèrema",
+      "DRB": "Apherema",
+      "NABRE": "Aphairema",
+      "NVBSE": "Apherema"
+     }
+    }
+   }
   },
   "bplace:ephraim.regio": {
    "type": "place",
@@ -10974,7 +11788,49 @@
    "evidence": [
     "ndeib:EFRON"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:1mac.5.47": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:1mac.5.50": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "that city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem illam",
+      "VGCL": "civitatem illam"
+     }
+    },
+    "btu:1mac.5.51": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:2mac.12.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    }
+   }
   },
   "bplace:ephron.mons": {
    "type": "place",
@@ -11406,7 +12262,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CAROD"
-   ]
+   ],
+   "labels": {
+    "btu:idc.7.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "acqua",
+      "DRB": "the waters",
+      "NABRE": "the water",
+      "NVBSE": "aquas",
+      "VGCL": "aquas"
+     }
+    },
+    "btu:idc.7.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "acqua",
+      "DRB": "the waters",
+      "NABRE": "the water",
+      "NVBSE": "aquas",
+      "VGCL": "aquas"
+     }
+    }
+   }
   },
   "bplace:fons-iacob": {
    "type": "place",
@@ -11677,8 +12555,7 @@
     "btu:1par.9.35",
     "btu:ier.41.12",
     "btu:ne.3.7",
-    "btu:2sam.2.13",
-    "btu:io.19.13"
+    "btu:2sam.2.13"
    ],
    "relations": [],
    "qid": "Q889398",
@@ -11778,7 +12655,19 @@
    "evidence": [
     "ndeib:GAD#2",
     "nv:btu:2reg.10.33"
-   ]
+   ],
+   "labels": {
+    "btu:ios.13.25": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il territorio",
+      "DRB": "The border",
+      "NABRE": "Their territory",
+      "NVBSE": "terminus",
+      "VGCL": "Terminus"
+     }
+    }
+   }
   },
   "bplace:gadaam": {
    "type": "place",
@@ -11824,7 +12713,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GADARA"
-   ]
+   ],
+   "labels": {
+    "btu:mt.8.33": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the town",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:mt.8.34": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Tutta la città",
+      "DRB": "the whole city",
+      "NABRE": "the whole town",
+      "NVBSE": "tota civitas",
+      "VGCL": "tota civitas"
+     }
+    }
+   }
   },
   "bplace:gadgad": {
    "type": "place",
@@ -12095,7 +13006,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GALILEA"
-   ]
+   ],
+   "labels": {
+    "btu:mt.4.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "regione e ombra di morte",
+      "DRB": "the shadow of death",
+      "NABRE": "a land overshadowed by death",
+      "NVBSE": "regione et umbra mortis",
+      "VGCL": "regione umbræ mortis"
+     }
+    }
+   }
   },
   "bplace:galiloth": {
    "type": "place",
@@ -12246,7 +13169,19 @@
     "ndeib:GARIZIM",
     "nv:btu:dt.27.12",
     "nv:btu:dt.11.29"
-   ]
+   ],
+   "labels": {
+    "btu:io.4.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo monte",
+      "DRB": "this mountain",
+      "NABRE": "this mountain",
+      "NVBSE": "monte hoc",
+      "VGCL": "monte hoc"
+     }
+    }
+   }
   },
   "bplace:gaver": {
    "type": "place",
@@ -12303,7 +13238,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GAZA"
-   ]
+   ],
+   "labels": {
+    "btu:idc.16.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "NABRE": "the city"
+     }
+    }
+   }
   },
   "bplace:gazer": {
    "type": "place",
@@ -12632,7 +13576,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GENEZARET (LOCALITÀ)"
-   ]
+   ],
+   "labels": {
+    "btu:ios.11.2": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Chinaròt",
+      "DRB": "Ceneroth",
+      "NABRE": "Chinneroth",
+      "NVBSE": "Chenereth",
+      "VGCL": "Ceneroth"
+     }
+    },
+    "btu:1reg.15.20": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Chinaròt",
+      "DRB": "Cenneroth",
+      "NABRE": "Chinnereth",
+      "NVBSE": "Chenereth",
+      "VGCL": "Cenneroth"
+     }
+    },
+    "btu:mt.14.35": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "luogo",
+      "DRB": "that place",
+      "NABRE": "that place",
+      "NVBSE": "loci illius",
+      "VGCL": "loci illius"
+     }
+    }
+   }
   },
   "bplace:geon": {
    "type": "place",
@@ -12741,7 +13717,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GOSEN"
-   ]
+   ],
+   "labels": {
+    "btu:gn.47.11": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "territorio di Ramses",
+      "DRB": "Ramesses",
+      "NABRE": "the region of Rameses",
+      "NVBSE": "terra Ramesses",
+      "VGCL": "Ramesses"
+     }
+    }
+   }
   },
   "bplace:gessur": {
    "type": "place",
@@ -12817,7 +13805,17 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GAT"
-   ]
+   ],
+   "labels": {
+    "btu:1sam.5.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "NABRE": "the city",
+      "NVBSE": "civitatem"
+     }
+    }
+   }
   },
   "bplace:gethhepher": {
    "type": "place",
@@ -12912,7 +13910,29 @@
    "evidence": [
     "ndeib:GETSEMANI",
     "nv:btu:mt.26.36"
-   ]
+   ],
+   "labels": {
+    "btu:io.18.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "un giardino",
+      "DRB": "a garden",
+      "NABRE": "a garden",
+      "NVBSE": "hortus",
+      "VGCL": "hortus"
+     }
+    },
+    "btu:io.18.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quel luogo",
+      "DRB": "the place",
+      "NABRE": "the place",
+      "NVBSE": "locum",
+      "VGCL": "locum"
+     }
+    }
+   }
   },
   "bplace:getthaim": {
    "type": "place",
@@ -13089,7 +14109,6 @@
     "btu:io.19.17",
     "btu:lc.23.33",
     "btu:io.19.20",
-    "btu:heb.13.12",
     "btu:io.19.41"
    ],
    "relations": [
@@ -13105,7 +14124,39 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GOLGOTA"
-   ]
+   ],
+   "labels": {
+    "btu:lc.23.33": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Cranio",
+      "DRB": "Calvary",
+      "NABRE": "the Skull",
+      "NVBSE": "Calvariæ",
+      "VGCL": "Calvariæ"
+     }
+    },
+    "btu:io.19.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il luogo dove Gesù fu crocifisso",
+      "DRB": "the place where Jesus was crucified",
+      "NABRE": "the place where Jesus was crucified",
+      "NVBSE": "locus, ubi crucifixus est Iesus",
+      "VGCL": "locus, ubi crucifixus est Jesus"
+     }
+    },
+    "btu:io.19.41": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "luogo dove era stato crocifisso",
+      "DRB": "the place where he was crucified",
+      "NABRE": "the place",
+      "NVBSE": "loco, ubi crucifixus est",
+      "VGCL": "loco, ubi crucifixus est"
+     }
+    }
+   }
   },
   "bplace:gomorra": {
    "type": "place",
@@ -13326,7 +14377,19 @@
     "ndeib:TENDA DEL CONVEGNO#1",
     "ndeib:TENDA DEL CONVEGNO#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:ex.26.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tenda",
+      "DRB": "the roof",
+      "NABRE": "the tent",
+      "NVBSE": "tecti",
+      "VGCL": "tecti"
+     }
+    }
+   }
   },
   "bplace:habor": {
    "type": "place",
@@ -13377,7 +14440,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AIN"
-   ]
+   ],
+   "labels": {
+    "btu:act.1.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "un campo",
+      "DRB": "a field",
+      "NABRE": "a parcel of land",
+      "NVBSE": "agrum",
+      "VGCL": "agrum"
+     }
+    },
+    "btu:mt.27.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Campo del vasaio",
+      "DRB": "the potter’s field",
+      "NABRE": "the potter’s field",
+      "NVBSE": "agrum Figuli",
+      "VGCL": "agrum figuli"
+     }
+    },
+    "btu:mt.27.10": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "campo del vasaio",
+      "DRB": "the potter’s field",
+      "NABRE": "the potter’s field",
+      "NVBSE": "agrum Figuli",
+      "VGCL": "agrum figuli"
+     }
+    }
+   }
   },
   "bplace:hachila": {
    "type": "place",
@@ -13589,7 +14684,96 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:AGUZZINO"
-   ]
+   ],
+   "labels": {
+    "btu:is.10.28": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Aiàt",
+      "DRB": "Aiath",
+      "NABRE": "Aiath",
+      "NVBSE": "Aiath",
+      "VGCL": "Ajath"
+     }
+    },
+    "btu:ios.8.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:ios.8.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    },
+    "btu:ios.8.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbe",
+      "VGCL": "urbe"
+     }
+    },
+    "btu:ios.8.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:ios.8.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "NABRE": "the city"
+     }
+    },
+    "btu:ios.8.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:ios.8.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:ios.8.27": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "that city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    }
+   }
   },
   "bplace:hala": {
    "type": "place",
@@ -13852,7 +15036,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:VILLAGGI DI IAIR"
-   ]
+   ],
+   "labels": {
+    "btu:1par.2.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "ventitré città",
+      "DRB": "three and twenty cities",
+      "NABRE": "twenty-three cities",
+      "NVBSE": "viginti tres civitates",
+      "VGCL": "viginti tres civitates"
+     }
+    }
+   }
   },
   "bplace:hebron": {
    "type": "place",
@@ -13964,7 +15160,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CHELKAT"
-   ]
+   ],
+   "labels": {
+    "btu:1par.6.60": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Cukok",
+      "DRB": "Hucac",
+      "NABRE": "Hilkath",
+      "NVBSE": "Hucoc",
+      "VGCL": "Hucac"
+     }
+    }
+   }
   },
   "bplace:heleph": {
    "type": "place",
@@ -14123,7 +15331,27 @@
     "ndeib:ERMON",
     "nv:btu:dt.3.9",
     "nv:btu:ios.12.1"
-   ]
+   ],
+   "labels": {
+    "btu:ez.27.5": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Senir",
+      "DRB": "Sanir",
+      "NABRE": "Senir",
+      "NVBSE": "Sanir",
+      "VGCL": "Sanir"
+     }
+    },
+    "btu:ps.29.6": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sirion",
+      "NABRE": "Sirion",
+      "NVBSE": "Sarion"
+     }
+    }
+   }
   },
   "bplace:hesebon": {
    "type": "place",
@@ -14243,7 +15471,19 @@
    "evidence": [
     "ndeib:AVILA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:gn.2.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quella regione",
+      "DRB": "that land",
+      "NABRE": "that land",
+      "NVBSE": "terræ illius",
+      "VGCL": "terræ illius"
+     }
+    }
+   }
   },
   "bplace:hierapolis": {
    "type": "place",
@@ -14682,7 +15922,159 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IACHIN E BOAZ"
-   ]
+   ],
+   "labels": {
+    "btu:2par.3.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne",
+      "DRB": "two pillars",
+      "NABRE": "two columns",
+      "NVBSE": "duas columnas",
+      "VGCL": "duas columnas"
+     }
+    },
+    "btu:2par.3.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:2reg.25.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le colonne di bronzo",
+      "DRB": "the pillars of brass",
+      "NABRE": "The bronze columns",
+      "NVBSE": "Columnas",
+      "VGCL": "Columnas"
+     }
+    },
+    "btu:1reg.7.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne di bronzo",
+      "DRB": "two pillars",
+      "NABRE": "two bronze columns",
+      "NVBSE": "duas columnas æreas",
+      "VGCL": "duas columnas æreas"
+     }
+    },
+    "btu:1reg.7.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:2reg.25.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una colonna",
+      "DRB": "One pillar",
+      "NABRE": "Each of the columns",
+      "NVBSE": "columna una",
+      "VGCL": "columna una"
+     }
+    },
+    "btu:ier.52.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "l'altra colonna",
+      "DRB": "the second pillar",
+      "NABRE": "the one pillar",
+      "NVBSE": "columnæ secundæ",
+      "VGCL": "columnæ secundæ"
+     }
+    },
+    "btu:1reg.7.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnas"
+     }
+    },
+    "btu:1reg.7.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "due colonne",
+      "DRB": "the pillars",
+      "NABRE": "the two columns",
+      "NVBSE": "duarum columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:1reg.7.41": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "le due colonne",
+      "DRB": "The two pillars",
+      "NABRE": "two columns",
+      "NVBSE": "columnas duas",
+      "VGCL": "Columnas duas"
+     }
+    },
+    "btu:1reg.7.42": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the columns",
+      "NVBSE": "columnarum",
+      "VGCL": "columnarum"
+     }
+    },
+    "btu:ier.52.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colonne",
+      "DRB": "the pillars",
+      "NABRE": "the pillars",
+      "NVBSE": "columnis",
+      "VGCL": "columnis"
+     }
+    }
+   }
   },
   "bplace:iagur": {
    "type": "place",
@@ -14818,7 +16210,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IARMUT#2"
-   ]
+   ],
+   "labels": {
+    "btu:ios.19.21": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Remet",
+      "DRB": "Rameth",
+      "NABRE": "Remeth",
+      "NVBSE": "Rameth",
+      "VGCL": "Rameth"
+     }
+    },
+    "btu:1par.6.58": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Ramot",
+      "DRB": "Ramoth",
+      "NABRE": "Ramoth",
+      "NVBSE": "Ramoth",
+      "VGCL": "Ramoth"
+     }
+    }
+   }
   },
   "bplace:iaraphel": {
    "type": "place",
@@ -15073,7 +16487,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IABNEEL, IABNE"
-   ]
+   ],
+   "labels": {
+    "btu:2mac.12.9": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Iàmnia",
+      "DRB": "the Jamnites",
+      "NABRE": "the Jamnians",
+      "NVBSE": "Iamnitis",
+      "VGCL": "Jamnitis"
+     }
+    },
+    "btu:2mac.12.8": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Iàmnia",
+      "DRB": "Jamnia",
+      "NABRE": "Jamnia",
+      "NVBSE": "Iamniæ",
+      "VGCL": "Jamniæ"
+     }
+    }
+   }
   },
   "bplace:iecethel.in-iuda": {
    "type": "place",
@@ -15302,7 +16738,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GERICO"
-   ]
+   ],
+   "labels": {
+    "btu:idc.3.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città delle palme",
+      "DRB": "the city of palm trees",
+      "NABRE": "the City of Palms",
+      "NVBSE": "urbem Palmarum",
+      "VGCL": "urbem palmarum"
+     }
+    },
+    "btu:idc.1.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città delle palme",
+      "DRB": "the city of palms",
+      "NABRE": "the City of Palms",
+      "NVBSE": "civitate Palmarum",
+      "VGCL": "civitate palmarum"
+     }
+    },
+    "btu:2reg.2.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    }
+   }
   },
   "bplace:ierimoth.iuda": {
    "type": "place",
@@ -15541,7 +17009,554 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GERUSALEMME"
-   ]
+   ],
+   "labels": {
+    "btu:is.48.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città santa",
+      "DRB": "the holy city",
+      "NABRE": "the holy city",
+      "NVBSE": "civitate enim sancta",
+      "VGCL": "civitate enim sancta"
+     }
+    },
+    "btu:dn.9.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la tua santa città",
+      "DRB": "thy holy city",
+      "NABRE": "your holy city",
+      "NVBSE": "urbem sanctam tuam",
+      "VGCL": "urbem sanctam tuam"
+     }
+    },
+    "btu:idc.19.11": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Gebus",
+      "DRB": "Jebus",
+      "NABRE": "Jebus",
+      "NVBSE": "Iebus",
+      "VGCL": "Jebus"
+     }
+    },
+    "btu:ios.18.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Gebusei",
+      "DRB": "the Jebusite",
+      "NABRE": "the Jebusites",
+      "NVBSE": "Iebusæi",
+      "VGCL": "Jebusæi"
+     }
+    },
+    "btu:2sam.5.7": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sion",
+      "DRB": "Sion",
+      "NABRE": "Zion",
+      "NVBSE": "Sion",
+      "VGCL": "Sion"
+     }
+    },
+    "btu:2sam.5.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "The city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "Civitatem David",
+      "VGCL": "civitatem David"
+     }
+    },
+    "btu:ps.2.6": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sion",
+      "DRB": "Sion",
+      "NABRE": "Zion",
+      "NVBSE": "Sion",
+      "VGCL": "Sion"
+     }
+    },
+    "btu:1reg.9.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitate David",
+      "VGCL": "civitate David"
+     }
+    },
+    "btu:1reg.11.27": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitatis David",
+      "VGCL": "civitatis David"
+     }
+    },
+    "btu:is.22.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitatis David",
+      "VGCL": "civitatis David"
+     }
+    },
+    "btu:2par.32.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitate David",
+      "VGCL": "civitate David"
+     }
+    },
+    "btu:is.22.11": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city’s"
+     }
+    },
+    "btu:2par.32.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    },
+    "btu:eccli.48.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la sua città",
+      "DRB": "his city",
+      "NABRE": "his city",
+      "NVBSE": "civitatem suam",
+      "VGCL": "civitatem suam"
+     }
+    },
+    "btu:2reg.20.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:2reg.19.32": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa città",
+      "DRB": "this city",
+      "NABRE": "this city",
+      "NVBSE": "urbem hanc",
+      "VGCL": "urbem hanc"
+     }
+    },
+    "btu:2reg.19.33": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa città",
+      "DRB": "this city",
+      "NABRE": "this city",
+      "NVBSE": "civitatem hanc",
+      "VGCL": "civitatem hanc"
+     }
+    },
+    "btu:2reg.19.34": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa città",
+      "DRB": "this city",
+      "NABRE": "this city",
+      "NVBSE": "urbem hanc",
+      "VGCL": "urbem hanc"
+     }
+    },
+    "btu:ne.3.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitate David",
+      "VGCL": "civitate David"
+     }
+    },
+    "btu:ne.12.37": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitatis David",
+      "VGCL": "civitatis David"
+     }
+    },
+    "btu:2par.33.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "the city of David",
+      "NABRE": "the City of David",
+      "NVBSE": "civitatem David",
+      "VGCL": "civitatem David"
+     }
+    },
+    "btu:ier.31.38": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitas",
+      "VGCL": "civitas"
+     }
+    },
+    "btu:eccli.50.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "NABRE": "the city"
+     }
+    },
+    "btu:2mac.5.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:2mac.5.26": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:1mac.1.33": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Città di Davide",
+      "DRB": "city of David",
+      "NABRE": "City of David",
+      "NVBSE": "civitatem David",
+      "VGCL": "civitatem David"
+     }
+    },
+    "btu:1mac.4.60": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "monte Sion",
+      "DRB": "mount Sion",
+      "NABRE": "Mount Zion",
+      "NVBSE": "montem Sion",
+      "VGCL": "montem Sion"
+     }
+    },
+    "btu:1mac.4.37": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "monte Sion",
+      "DRB": "mount Sion",
+      "NABRE": "Mount Zion",
+      "NVBSE": "montem Sion",
+      "VGCL": "montem Sion"
+     }
+    },
+    "btu:ne.2.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:mt.4.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città santa",
+      "DRB": "the holy city",
+      "NABRE": "the holy city",
+      "NVBSE": "sanctam civitatem",
+      "VGCL": "sanctam civitatem"
+     }
+    },
+    "btu:mt.21.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:act.22.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa città",
+      "DRB": "this city",
+      "NABRE": "this city",
+      "NVBSE": "ista civitate",
+      "VGCL": "ista civitate"
+     }
+    },
+    "btu:act.21.29": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:act.21.30": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tutta la città",
+      "DRB": "whole city",
+      "NABRE": "The whole city",
+      "NVBSE": "civitas tota",
+      "VGCL": "civitas tota"
+     }
+    },
+    "btu:lc.19.41": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:mich.4.11": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sion",
+      "DRB": "Sion",
+      "NABRE": "Zion’s",
+      "NVBSE": "Sion",
+      "VGCL": "Sion"
+     }
+    },
+    "btu:ps.15.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tua santa montagna",
+      "DRB": "thy holy hill",
+      "NABRE": "your holy mountain",
+      "NVBSE": "monte sancto tuo",
+      "VGCL": "monte sancto tuo"
+     }
+    },
+    "btu:is.56.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mio monte santo",
+      "DRB": "my holy mount",
+      "NABRE": "my holy mountain",
+      "NVBSE": "montem sanctum meum",
+      "VGCL": "montem sanctum meum"
+     }
+    },
+    "btu:ps.9.12": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sion",
+      "DRB": "Sion",
+      "NABRE": "Zion",
+      "NVBSE": "Sion",
+      "VGCL": "Sion"
+     }
+    },
+    "btu:ps.43.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tua santa montagna",
+      "DRB": "thy holy hill",
+      "NABRE": "your holy mountain",
+      "NVBSE": "montem sanctum tuum",
+      "VGCL": "montem sanctum tuum"
+     }
+    },
+    "btu:ier.31.40": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city"
+     }
+    },
+    "btu:is.25.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo monte",
+      "DRB": "this mountain",
+      "NABRE": "this mountain",
+      "NVBSE": "monte hoc",
+      "VGCL": "monte hoc"
+     }
+    },
+    "btu:is.25.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo monte",
+      "DRB": "this mountain",
+      "NABRE": "this mountain",
+      "NVBSE": "monte isto",
+      "VGCL": "monte isto"
+     }
+    },
+    "btu:rom.11.26": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sion",
+      "DRB": "Sion",
+      "NABRE": "Zion",
+      "NVBSE": "Sion",
+      "VGCL": "Sion"
+     }
+    },
+    "btu:mich.4.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il monte del tempio del Signore",
+      "DRB": "the mountain of the house",
+      "NABRE": "mount of the Lord ’s house",
+      "NVBSE": "mons domus Domini",
+      "VGCL": "mons domus Domini"
+     }
+    },
+    "btu:apc.21.22": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city"
+     }
+    },
+    "btu:apc.11.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "grande città",
+      "DRB": "the great city",
+      "NABRE": "the great city",
+      "NVBSE": "civitatis magnæ",
+      "VGCL": "civitatis magnæ"
+     }
+    },
+    "btu:apc.11.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città santa",
+      "DRB": "the holy city",
+      "NABRE": "the holy city",
+      "NVBSE": "civitatem sanctam",
+      "VGCL": "civitatem sanctam"
+     }
+    },
+    "btu:apc.14.1": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "monte Sion",
+      "DRB": "mount Sion",
+      "NABRE": "Mount Zion",
+      "NVBSE": "montem Sion",
+      "VGCL": "montem Sion"
+     }
+    },
+    "btu:apc.21.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitas",
+      "VGCL": "civitas"
+     }
+    },
+    "btu:apc.21.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:apc.21.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:apc.21.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:apc.21.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "La città",
+      "DRB": "the city",
+      "NABRE": "The city",
+      "NVBSE": "civitas",
+      "VGCL": "civitas"
+     }
+    },
+    "btu:apc.21.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:is.54.11": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Afflitta",
+      "DRB": "poor little one",
+      "NABRE": "afflicted one",
+      "NVBSE": "Paupercula",
+      "VGCL": "Paupercula"
+     }
+    }
+   }
   },
   "bplace:iesana": {
    "type": "place",
@@ -15724,7 +17739,6 @@
     "btu:2reg.8.29",
     "btu:2reg.9.25",
     "btu:2reg.9.30",
-    "btu:2reg.9.31",
     "btu:2reg.9.36",
     "btu:2reg.9.37",
     "btu:2reg.10.1",
@@ -15738,7 +17752,15 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IZREEL"
-   ]
+   ],
+   "labels": {
+    "btu:2reg.10.8": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city"
+     }
+    }
+   }
   },
   "bplace:iezrahel.in-iuda": {
    "type": "place",
@@ -16290,7 +18312,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LACAI-ROI, POZZO DI L"
-   ]
+   ],
+   "labels": {
+    "btu:gn.16.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una sorgente d'acqua nel deserto",
+      "DRB": "a fountain of water",
+      "NABRE": "a spring in the wilderness",
+      "NVBSE": "fontem aquæ in deserto",
+      "VGCL": "fontem aquæ in solitudine"
+     }
+    }
+   }
   },
   "bplace:laisa": {
    "type": "place",
@@ -16609,8 +18643,8 @@
    "kind": "city",
    "names": {
     "la": "Lodabar",
-    "it": "Debir",
-    "en": "Debir"
+    "it": "Lodebàr",
+    "en": "Lo-debar"
    },
    "description": {
     "it": "località nel nord del territorio di Gad",
@@ -16693,7 +18727,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LUZ"
-   ]
+   ],
+   "labels": {
+    "btu:idc.1.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitate",
+      "VGCL": "civitate"
+     }
+    },
+    "btu:idc.1.25": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    }
+   }
   },
   "bplace:lycaonia": {
    "type": "place",
@@ -16821,7 +18877,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LISTRA"
-   ]
+   ],
+   "labels": {
+    "btu:act.14.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    }
+   }
   },
   "bplace:maacha": {
    "type": "place",
@@ -17076,7 +19144,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MACPELA"
-   ]
+   ],
+   "labels": {
+    "btu:gn.49.31": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "del campo e della caverna",
+      "NABRE": "the field and the cave"
+     }
+    }
+   }
   },
   "bplace:madian": {
    "type": "place",
@@ -17113,9 +19190,6 @@
     "en": "Moabite town in Jeremiah's oracle"
    },
    "attested": [
-    "btu:ios.15.31",
-    "btu:1par.2.49",
-    "btu:is.10.31",
     "btu:ier.48.2"
    ],
    "relations": [],
@@ -17240,7 +19314,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MIGDAL-EDER"
-   ]
+   ],
+   "labels": {
+    "btu:mich.4.8": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "torre del gregge",
+      "DRB": "cloudy tower of the flock",
+      "NABRE": "tower of the flock",
+      "NVBSE": "turris gregis",
+      "VGCL": "turris gregis nebulosa"
+     }
+    }
+   }
   },
   "bplace:magdalel": {
    "type": "place",
@@ -17700,7 +19786,75 @@
     "ndeib:MAR MORTO",
     "nv:btu:dt.3.17",
     "nv:btu:ios.3.16"
-   ]
+   ],
+   "labels": {
+    "btu:ez.47.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare orientale",
+      "DRB": "the east sea",
+      "NABRE": "the eastern sea",
+      "NVBSE": "mare orientale",
+      "VGCL": "mare orientale"
+     }
+    },
+    "btu:zach.14.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare orientale",
+      "DRB": "the east sea",
+      "NABRE": "the eastern sea",
+      "NVBSE": "mare orientale",
+      "VGCL": "mare orientale"
+     }
+    },
+    "btu:dt.4.49": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare dell'Araba",
+      "DRB": "the sea of the wilderness",
+      "NABRE": "the Arabah Sea",
+      "NVBSE": "mare Arabæ",
+      "VGCL": "mare solitudinis"
+     }
+    },
+    "btu:2reg.14.25": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare dell'Araba",
+      "DRB": "the sea of the wilderness",
+      "NABRE": "the sea of the Arabah",
+      "NVBSE": "mare Arabæ",
+      "VGCL": "mare solitudinis"
+     }
+    },
+    "btu:ez.47.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ez.47.10": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "mare"
+     }
+    },
+    "btu:2par.20.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    }
+   }
   },
   "bplace:mare-rubrum": {
    "type": "place",
@@ -17747,7 +19901,139 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MAR ROSSO"
-   ]
+   ],
+   "labels": {
+    "btu:ex.14.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea side",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "maris",
+      "VGCL": "maris"
+     }
+    },
+    "btu:ex.14.23": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "maris",
+      "VGCL": "maris"
+     }
+    },
+    "btu:ex.14.26": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.27": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.14.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.15.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.15.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:ex.15.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:nm.33.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    }
+   }
   },
   "bplace:maresa": {
    "type": "place",
@@ -17978,7 +20264,39 @@
    "evidence": [
     "ndeib:MIZPA, MIZPE, MASFA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:gn.31.46": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "un mucchio",
+      "DRB": "a heap",
+      "NABRE": "a mound",
+      "NVBSE": "tumulum",
+      "VGCL": "tumulum"
+     }
+    },
+    "btu:gn.31.47": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Gal-Ed",
+      "DRB": "The hillock of testimony",
+      "NABRE": "Galeed",
+      "NVBSE": "Galed",
+      "VGCL": "Acervum testimonii"
+     }
+    },
+    "btu:gn.31.48": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Gal-Ed",
+      "DRB": "Galaad",
+      "NABRE": "Galeed",
+      "NVBSE": "Galed",
+      "VGCL": "Galaad"
+     }
+    }
+   }
   },
   "bplace:maspha.hermon": {
    "type": "place",
@@ -18097,24 +20415,9 @@
     "en": "desert site where Israel put the Lord to the test"
    },
    "attested": [
-    "btu:nm.17.7",
-    "btu:ex.17.1",
     "btu:ps.95.8",
     "btu:dt.33.8",
-    "btu:ez.47.19",
-    "btu:nm.20.2",
-    "btu:nm.20.3",
-    "btu:nm.20.4",
-    "btu:nm.20.5",
-    "btu:nm.20.6",
-    "btu:nm.20.7",
-    "btu:nm.20.8",
-    "btu:nm.20.9",
-    "btu:nm.20.10",
-    "btu:nm.20.11",
-    "btu:nm.20.12",
     "btu:nm.20.13",
-    "btu:dt.32.48",
     "btu:ps.106.32",
     "btu:ex.17.7",
     "btu:dt.6.16",
@@ -18136,7 +20439,29 @@
     "ndeib:MERIBA",
     "nv:btu:ex.17.7",
     "nv:btu:dt.6.16"
-   ]
+   ],
+   "labels": {
+    "btu:nm.20.13": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "acque di Merìba",
+      "DRB": "the Water of contradiction",
+      "NABRE": "the waters of Meribah",
+      "NVBSE": "aquæ Meriba",
+      "VGCL": "aqua contradictionis"
+     }
+    },
+    "btu:ps.106.32": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "acque di Merìba",
+      "DRB": "the waters of contradiction",
+      "NABRE": "waters of Meribah",
+      "NVBSE": "aquas Meriba",
+      "VGCL": "aquas contradictionis"
+     }
+    }
+   }
   },
   "bplace:matthana": {
    "type": "place",
@@ -18325,7 +20650,49 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MALTA"
-   ]
+   ],
+   "labels": {
+    "btu:act.27.39": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la terra",
+      "DRB": "the land",
+      "NABRE": "the land",
+      "NVBSE": "terram",
+      "VGCL": "terram"
+     }
+    },
+    "btu:act.28.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "isola",
+      "DRB": "the island",
+      "NABRE": "the island",
+      "NVBSE": "insulæ",
+      "VGCL": "insulæ"
+     }
+    },
+    "btu:act.28.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "isola",
+      "DRB": "the island",
+      "NABRE": "the island",
+      "NVBSE": "insula",
+      "VGCL": "insula"
+     }
+    },
+    "btu:act.27.26": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "qualche isola",
+      "DRB": "a certain island",
+      "NABRE": "some island",
+      "NVBSE": "insulam",
+      "VGCL": "insulam"
+     }
+    }
+   }
   },
   "bplace:mello.ierusalem": {
    "type": "place",
@@ -18777,7 +21144,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MOAB"
-   ]
+   ],
+   "labels": {
+    "btu:ier.48.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la pianura",
+      "DRB": "the plains",
+      "NABRE": "the plateau",
+      "NVBSE": "campestria",
+      "VGCL": "campestria"
+     }
+    }
+   }
   },
   "bplace:mochona": {
    "type": "place",
@@ -18943,7 +21322,19 @@
     "ndeib:COR#0",
     "nv:btu:nm.33.37",
     "nv:btu:nm.33.41"
-   ]
+   ],
+   "labels": {
+    "btu:nm.20.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mountain",
+      "NABRE": "the mountain",
+      "NVBSE": "montis",
+      "VGCL": "montis"
+     }
+    }
+   }
   },
   "bplace:mons-hor.libani": {
    "type": "place",
@@ -19034,7 +21425,59 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:MONTE DEGLI ULIVI"
-   ]
+   ],
+   "labels": {
+    "btu:2sam.15.32": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mountain",
+      "NABRE": "the top",
+      "NVBSE": "montis",
+      "VGCL": "montis"
+     }
+    },
+    "btu:2sam.16.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the hill",
+      "NABRE": "the top",
+      "NVBSE": "montis",
+      "VGCL": "montis"
+     }
+    },
+    "btu:1reg.11.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the hill",
+      "NABRE": "the mountain opposite Jerusalem",
+      "NVBSE": "monte, qui est contra Ierusalem",
+      "VGCL": "monte qui est contra Jerusalem"
+     }
+    },
+    "btu:2reg.23.13": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "monte della Perdizione",
+      "DRB": "the Mount of Offence",
+      "NABRE": "the Mount of the Destroyer",
+      "NVBSE": "montis Perditionis",
+      "VGCL": "montis offensionis"
+     }
+    },
+    "btu:ez.11.23": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain east of the city",
+      "NVBSE": "montem, qui est ad orientem urbis",
+      "VGCL": "montem qui est ad orientem urbis"
+     }
+    }
+   }
   },
   "bplace:mons-sepher": {
    "type": "place",
@@ -19127,7 +21570,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MORE#1"
-   ]
+   ],
+   "labels": {
+    "btu:gn.35.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la quercia",
+      "DRB": "the turpentine tree",
+      "NABRE": "the oak",
+      "NVBSE": "Quercum",
+      "VGCL": "terebinthum"
+     }
+    },
+    "btu:idc.9.6": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Quercia della Stele",
+      "DRB": "the oak",
+      "NABRE": "the terebinth",
+      "NVBSE": "quercum",
+      "VGCL": "quercum"
+     }
+    }
+   }
   },
   "bplace:moresethgeth": {
    "type": "place",
@@ -19184,7 +21649,19 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:MORIA"
-   ]
+   ],
+   "labels": {
+    "btu:gn.22.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quel luogo",
+      "DRB": "the place",
+      "NABRE": "the place",
+      "NVBSE": "locum",
+      "VGCL": "locum"
+     }
+    }
+   }
   },
   "bplace:mosa": {
    "type": "place",
@@ -19554,7 +22031,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NAIN"
-   ]
+   ],
+   "labels": {
+    "btu:lc.7.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    }
+   }
   },
   "bplace:naioth": {
    "type": "place",
@@ -19620,7 +22109,59 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NAZARET"
-   ]
+   ],
+   "labels": {
+    "btu:mt.13.54": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "sua patria",
+      "DRB": "his own country",
+      "NABRE": "his native place",
+      "NVBSE": "patriam suam",
+      "VGCL": "patriam suam"
+     }
+    },
+    "btu:mc.6.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "sua patria",
+      "DRB": "his own country",
+      "NABRE": "his native place",
+      "NVBSE": "patriam suam",
+      "VGCL": "patriam suam"
+     }
+    },
+    "btu:lc.4.23": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "tua patria",
+      "DRB": "thy own country",
+      "NABRE": "your native place",
+      "NVBSE": "patria tua",
+      "VGCL": "patria tua"
+     }
+    },
+    "btu:lc.4.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "sua patria",
+      "DRB": "his own country",
+      "NABRE": "his own native place",
+      "NVBSE": "patria sua",
+      "VGCL": "patria sua"
+     }
+    },
+    "btu:lc.4.29": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la loro città",
+      "DRB": "their city",
+      "NABRE": "their town",
+      "NVBSE": "civitas illorum",
+      "VGCL": "civitas illorum"
+     }
+    }
+   }
   },
   "bplace:neapolis": {
    "type": "place",
@@ -19900,14 +22441,44 @@
     "btu:gn.41.17",
     "btu:gn.41.18",
     "btu:2reg.19.24",
-    "btu:is.37.25"
+    "btu:is.37.25",
+    "btu:ier.2.18"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:NILO"
-   ]
+    "ndeib:NILO",
+    "nv:btu:ier.2.18"
+   ],
+   "labels": {
+    "btu:is.19.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il fiume",
+      "DRB": "the river",
+      "NABRE": "the river",
+      "NVBSE": "fluvius",
+      "VGCL": "fluvius"
+     }
+    },
+    "btu:2reg.19.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "i fiumi d'Egitto",
+      "NABRE": "the rivers of Egypt",
+      "NVBSE": "aquas Aegypti"
+     }
+    },
+    "btu:is.37.25": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "i fiumi d'Egitto",
+      "NABRE": "the rivers of Egypt",
+      "NVBSE": "rivos Aegypti"
+     }
+    }
+   }
   },
   "bplace:nineve": {
    "type": "place",
@@ -19940,7 +22511,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NINIVE"
-   ]
+   ],
+   "labels": {
+    "btu:soph.2.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città gaudente",
+      "DRB": "the glorious city",
+      "NABRE": "the exultant city",
+      "NVBSE": "civitas exsultans",
+      "VGCL": "civitas gloriosa"
+     }
+    }
+   }
   },
   "bplace:no": {
    "type": "place",
@@ -20250,7 +22833,17 @@
    "evidence": [
     "ndeib:OFEL"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:mich.4.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "colle della figlia di Sion",
+      "NABRE": "hill of daughter Zion",
+      "NVBSE": "collis filiæ Sion"
+     }
+    }
+   }
   },
   "bplace:opher": {
    "type": "place",
@@ -20414,9 +23007,6 @@
     "btu:gn.25.20",
     "btu:gn.28.2",
     "btu:gn.31.18",
-    "btu:gn.24.10",
-    "btu:dt.23.5",
-    "btu:idc.3.8",
     "btu:gn.28.5",
     "btu:gn.28.6",
     "btu:gn.28.7",
@@ -20472,7 +23062,101 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:PALESTINA"
-   ]
+   ],
+   "labels": {
+    "btu:heb.11.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "terra promessa",
+      "DRB": "the land",
+      "NABRE": "the promised land",
+      "NVBSE": "terra promissionis",
+      "VGCL": "terra repromissionis"
+     }
+    },
+    "btu:zach.2.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "terra santa",
+      "DRB": "the sanctified land",
+      "NABRE": "the holy land",
+      "NVBSE": "terram sanctam",
+      "VGCL": "terra sanctificata"
+     }
+    },
+    "btu:dt.8.7": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una buona terra",
+      "DRB": "a good land",
+      "NABRE": "a good country",
+      "NVBSE": "terram bonam",
+      "VGCL": "terram bonam"
+     }
+    },
+    "btu:dt.8.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "terra di frumento",
+      "DRB": "A land of wheat",
+      "NABRE": "a land of wheat",
+      "NVBSE": "terram frumenti",
+      "VGCL": "terram frumenti"
+     }
+    },
+    "btu:dt.8.9": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "terra",
+      "NABRE": "a land"
+     }
+    },
+    "btu:dt.8.10": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "buona terra",
+      "DRB": "the excellent land",
+      "NABRE": "the good land",
+      "NVBSE": "terra optima",
+      "VGCL": "terra optima"
+     }
+    },
+    "btu:dt.11.10": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la terra",
+      "DRB": "the land",
+      "NABRE": "The land",
+      "NVBSE": "Terra",
+      "VGCL": "Terra"
+     }
+    },
+    "btu:dt.11.11": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la terra",
+      "DRB": "a land of hills and plains",
+      "NABRE": "the land"
+     }
+    },
+    "btu:dt.11.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una terra",
+      "NABRE": "a land"
+     }
+    },
+    "btu:dt.11.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "buona terra",
+      "DRB": "the excellent land",
+      "NABRE": "the good land",
+      "NVBSE": "terra optima",
+      "VGCL": "terra optima"
+     }
+    }
+   }
   },
   "bplace:palmyra": {
    "type": "place",
@@ -20638,7 +23322,19 @@
    "evidence": [
     "ndeib:PEREA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:mt.19.1": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giudea, al di là del Giordano",
+      "DRB": "the coasts of Judea, beyond Jordan",
+      "NABRE": "Judea across the Jordan",
+      "NVBSE": "fines Iudææ trans Iordanem",
+      "VGCL": "fines Judææ trans Jordanem"
+     }
+    }
+   }
   },
   "bplace:pergamum": {
    "type": "place",
@@ -20661,7 +23357,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:PERGAMO"
-   ]
+   ],
+   "labels": {
+    "btu:apc.2.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "dove Satana ha il suo trono",
+      "DRB": "where the seat of Satan is",
+      "NABRE": "where Satan’s throne is",
+      "NVBSE": "ubi thronus est Satanæ",
+      "VGCL": "ubi sedes est Satanæ"
+     }
+    }
+   }
   },
   "bplace:perge": {
    "type": "place",
@@ -21239,7 +23947,35 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:FILIPPI"
-   ]
+   ],
+   "labels": {
+    "btu:act.16.13": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city"
+     }
+    },
+    "btu:act.16.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "nostra città",
+      "DRB": "our city",
+      "NABRE": "our city",
+      "NVBSE": "civitatem nostram",
+      "VGCL": "civitatem nostram"
+     }
+    },
+    "btu:act.16.39": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "urbem",
+      "VGCL": "urbe"
+     }
+    }
+   }
   },
   "bplace:philistaea": {
    "type": "place",
@@ -21293,9 +24029,7 @@
     "en": "Israelite camp in Edom, site of the bronze serpent"
    },
    "attested": [
-    "btu:nm.33.42",
-    "btu:gn.36.41",
-    "btu:1par.1.52"
+    "btu:nm.33.42"
    ],
    "relations": [],
    "qid": "Q2907858",
@@ -22301,7 +25035,36 @@
     "ndeib:TOLEMAIDE (ACCO)#1",
     "ndeib:TOLEMAIDE (ACCO)#2",
     "ndeib:TOLEMAIDE (ACCO)#3"
-   ]
+   ],
+   "labels": {
+    "btu:idc.1.31": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Acco",
+      "DRB": "Accho",
+      "NABRE": "Acco",
+      "NVBSE": "Achcho",
+      "VGCL": "Accho"
+     }
+    },
+    "btu:ios.19.30": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Acco",
+      "NABRE": "Acco"
+     }
+    },
+    "btu:1mac.10.63": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    }
+   }
   },
   "bplace:puteoli": {
    "type": "place",
@@ -22382,9 +25145,7 @@
     "en": "place near Bethel where Saul received a sign"
    },
    "attested": [
-    "btu:1sam.10.3",
-    "btu:1sam.10.2",
-    "btu:gn.35.8"
+    "btu:1sam.10.3"
    ],
    "relations": [],
    "qid": null,
@@ -22447,7 +25208,35 @@
     "ndeib:RABBA#1",
     "ndeib:RABBI, RABBUNI#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:2sam.12.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:2sam.12.30": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatis",
+      "VGCL": "civitatis"
+     }
+    },
+    "btu:2sam.12.31": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "the city"
+     }
+    }
+   }
   },
   "bplace:rabba.ammonitarum": {
    "type": "place",
@@ -22465,11 +25254,24 @@
     "btu:ier.49.2",
     "btu:ez.25.5"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:rabba",
+     "evidence": [
+      "nv:btu:dt.3.11",
+      "nv:btu:2sam.12.26",
+      "nv:btu:ier.49.2"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:FIGLIO, FIGLIO DI DIO#1"
+    "ndeib:FIGLIO, FIGLIO DI DIO#1",
+    "nv:btu:dt.3.11",
+    "nv:btu:2sam.12.26",
+    "nv:btu:ier.49.2"
    ]
   },
   "bplace:rabbith": {
@@ -22904,71 +25706,17 @@
    },
    "attested": [
     "btu:mt.8.28",
-    "btu:mt.8.29",
-    "btu:mt.8.31",
-    "btu:mt.8.32",
-    "btu:mt.8.33",
     "btu:mt.8.34",
     "btu:mc.5.1",
-    "btu:mc.5.2",
-    "btu:mc.5.3",
-    "btu:mc.5.4",
-    "btu:mc.5.5",
-    "btu:mc.5.7",
-    "btu:mc.5.8",
     "btu:mc.5.10",
-    "btu:mc.5.11",
-    "btu:mc.5.12",
-    "btu:mc.5.13",
     "btu:mc.5.14",
-    "btu:mc.5.15",
-    "btu:mc.5.16",
     "btu:mc.5.17",
-    "btu:mc.5.18",
-    "btu:mc.5.19",
-    "btu:mc.5.20",
     "btu:lc.8.26",
-    "btu:lc.8.27",
-    "btu:lc.8.28",
-    "btu:lc.8.29",
-    "btu:lc.8.31",
-    "btu:lc.8.32",
-    "btu:lc.8.33",
     "btu:lc.8.34",
-    "btu:lc.8.35",
-    "btu:lc.8.36",
     "btu:lc.8.37",
-    "btu:lc.8.38",
-    "btu:lc.8.39",
     "btu:dt.3.14",
-    "btu:mt.15.32",
-    "btu:mt.15.33",
-    "btu:mt.15.35",
-    "btu:mt.15.36",
-    "btu:mt.15.37",
     "btu:mt.15.38",
-    "btu:mt.15.39",
-    "btu:mc.8.1",
-    "btu:mc.8.2",
-    "btu:mc.8.3",
-    "btu:mc.8.4",
-    "btu:mc.8.6",
-    "btu:mc.8.7",
-    "btu:mc.8.8",
-    "btu:mc.8.10",
-    "btu:mt.10.2",
-    "btu:mt.10.3",
-    "btu:mt.10.4",
-    "btu:mc.3.13",
-    "btu:mc.3.16",
-    "btu:mc.3.17",
-    "btu:mc.3.18",
-    "btu:lc.6.12",
-    "btu:lc.6.15",
-    "btu:lc.6.16",
-    "btu:lc.3.1",
-    "btu:ios.12.5",
-    "btu:ez.39.11"
+    "btu:lc.3.1"
    ],
    "relations": [],
    "qid": null,
@@ -22976,7 +25724,29 @@
    "evidence": [
     "ndeib:GERASENI"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "labels": {
+    "btu:mt.8.34": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "loro territorio",
+      "DRB": "their coasts",
+      "NABRE": "their district",
+      "NVBSE": "finibus eorum",
+      "VGCL": "finibus eorum"
+     }
+    },
+    "btu:mc.5.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "loro territorio",
+      "DRB": "their coasts",
+      "NABRE": "their district",
+      "NVBSE": "finibus eorum",
+      "VGCL": "finibus eorum"
+     }
+    }
+   }
   },
   "bplace:regma.terra": {
    "type": "place",
@@ -23064,8 +25834,7 @@
     "btu:ios.19.7",
     "btu:1par.4.32",
     "btu:ios.15.32",
-    "btu:ne.11.29",
-    "btu:nm.33.19"
+    "btu:ne.11.29"
    ],
    "relations": [],
    "qid": null,
@@ -23584,12 +26353,6 @@
    "attested": [
     "btu:1reg.10.1",
     "btu:2par.9.1",
-    "btu:gn.10.7",
-    "btu:1par.1.9",
-    "btu:gn.10.28",
-    "btu:1par.1.22",
-    "btu:gn.25.3",
-    "btu:1par.1.32",
     "btu:iob.1.15",
     "btu:ps.72.15",
     "btu:is.60.6",
@@ -24123,7 +26886,46 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SAMARIA"
-   ]
+   ],
+   "labels": {
+    "btu:1reg.20.2": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:1reg.20.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:1reg.20.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "NABRE": "the city",
+      "NVBSE": "urbe"
+     }
+    },
+    "btu:act.8.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quella città",
+      "NABRE": "that city",
+      "NVBSE": "illa civitate",
+      "VGCL": "illa civitate"
+     }
+    }
+   }
   },
   "bplace:samir.ephraim": {
    "type": "place",
@@ -24657,7 +27459,19 @@
     "nv:btu:ios.3.16",
     "nv:btu:1reg.7.46",
     "nv:btu:2par.4.17"
-   ]
+   ],
+   "labels": {
+    "btu:2par.4.17": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Seredà",
+      "DRB": "Saredatha",
+      "NABRE": "Zeredah",
+      "NVBSE": "Saredatha",
+      "VGCL": "Saredatha"
+     }
+    }
+   }
   },
   "bplace:savecariathaim": {
    "type": "place",
@@ -24856,7 +27670,29 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:ZOAR"
-   ]
+   ],
+   "labels": {
+    "btu:gn.19.20": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quella città",
+      "DRB": "this city",
+      "NABRE": "this town",
+      "NVBSE": "civitas hæc",
+      "VGCL": "civitas hæc"
+     }
+    },
+    "btu:gn.19.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the town",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    }
+   }
   },
   "bplace:sehesima": {
    "type": "place",
@@ -24898,7 +27734,6 @@
     "btu:gn.32.4",
     "btu:nm.24.18",
     "btu:ez.25.8",
-    "btu:gn.36.20",
     "btu:dt.2.12",
     "btu:1par.4.42",
     "btu:dt.1.2",
@@ -25515,34 +28350,14 @@
     "en": "burial place of Judah's kings in the City of David"
    },
    "attested": [
-    "btu:1reg.2.10",
-    "btu:1reg.11.43",
-    "btu:1reg.14.31",
-    "btu:1reg.15.8",
-    "btu:1reg.15.24",
-    "btu:1reg.22.51",
-    "btu:2reg.8.24",
     "btu:2reg.9.28",
-    "btu:2reg.12.22",
-    "btu:2reg.14.20",
-    "btu:2reg.15.7",
-    "btu:2reg.15.38",
-    "btu:2reg.16.20",
     "btu:2par.21.20",
     "btu:2par.24.25",
     "btu:2par.26.23",
     "btu:2par.28.27",
-    "btu:ne.3.15",
     "btu:act.2.29",
     "btu:2par.32.33",
-    "btu:act.6.9",
-    "btu:2sam.18.18",
-    "btu:2reg.21.18",
-    "btu:2reg.21.26",
-    "btu:ez.43.7",
-    "btu:ez.43.8",
-    "btu:ez.43.9",
-    "btu:act.11.28"
+    "btu:2reg.21.26"
    ],
    "relations": [
     {
@@ -25709,7 +28524,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SICAR, POZZO DI GIACOBBE"
-   ]
+   ],
+   "labels": {
+    "btu:io.4.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the town",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:io.4.28": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the town",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    },
+    "btu:io.4.39": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quella città",
+      "DRB": "that city",
+      "NABRE": "that town",
+      "NVBSE": "civitate autem illa",
+      "VGCL": "civitate autem illa"
+     }
+    }
+   }
   },
   "bplace:sichem": {
    "type": "place",
@@ -25748,7 +28595,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SICHEM"
-   ]
+   ],
+   "labels": {
+    "btu:gn.34.25": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the unsuspecting city",
+      "NVBSE": "urbem",
+      "VGCL": "urbem"
+     }
+    }
+   }
   },
   "bplace:sidon": {
    "type": "place",
@@ -25946,7 +28805,129 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SINAI"
-   ]
+   ],
+   "labels": {
+    "btu:ex.3.1": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Oreb",
+      "DRB": "Horeb",
+      "NABRE": "Horeb",
+      "NVBSE": "Horeb",
+      "VGCL": "Horeb"
+     }
+    },
+    "btu:ex.19.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montem",
+      "VGCL": "montem"
+     }
+    },
+    "btu:ex.19.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montis",
+      "VGCL": "montis"
+     }
+    },
+    "btu:ex.20.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montemque",
+      "VGCL": "montemque"
+     }
+    },
+    "btu:dt.4.10": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Oreb",
+      "DRB": "Horeb",
+      "NABRE": "Horeb",
+      "NVBSE": "Horeb",
+      "VGCL": "Horeb"
+     }
+    },
+    "btu:dt.5.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mountain",
+      "NABRE": "the mountain",
+      "NVBSE": "montem",
+      "VGCL": "montem"
+     }
+    },
+    "btu:dt.5.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mountain",
+      "NABRE": "the mountain",
+      "NVBSE": "monte",
+      "VGCL": "monte"
+     }
+    },
+    "btu:ex.19.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montem",
+      "VGCL": "montem"
+     }
+    },
+    "btu:ex.19.12": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montem",
+      "VGCL": "montem"
+     }
+    },
+    "btu:ex.3.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "suolo santo",
+      "DRB": "holy ground",
+      "NABRE": "holy ground",
+      "NVBSE": "terra sancta",
+      "VGCL": "terra sancta"
+     }
+    },
+    "btu:dt.4.15": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Oreb",
+      "DRB": "Horeb",
+      "NABRE": "Horeb",
+      "NVBSE": "Horeb",
+      "VGCL": "Horeb"
+     }
+    },
+    "btu:ex.24.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "monte",
+      "DRB": "the mount",
+      "NABRE": "the mountain",
+      "NVBSE": "montis",
+      "VGCL": "montis"
+     }
+    }
+   }
   },
   "bplace:sior": {
    "type": "place",
@@ -26232,7 +29213,196 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GENEZARET, LAGO DI G"
-   ]
+   ],
+   "labels": {
+    "btu:nm.34.11": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Chinneret",
+      "DRB": "sea of Cenereth",
+      "NABRE": "Sea of Chinnereth",
+      "NVBSE": "maris Chenereth",
+      "VGCL": "mare Cenereth"
+     }
+    },
+    "btu:dt.3.17": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Chinneret",
+      "DRB": "Cenereth",
+      "NABRE": "Chinnereth",
+      "NVBSE": "Chenereth",
+      "VGCL": "Cenereth"
+     }
+    },
+    "btu:ios.12.3": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Chinaròt",
+      "DRB": "sea of Ceneroth",
+      "NABRE": "Sea of Chinnereth",
+      "NVBSE": "mare Chenereth",
+      "VGCL": "mare Ceneroth"
+     }
+    },
+    "btu:ios.13.27": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Chinneret",
+      "DRB": "sea of Cenereth",
+      "NABRE": "Sea of Chinnereth",
+      "NVBSE": "maris Chenereth",
+      "VGCL": "maris Cenereth"
+     }
+    },
+    "btu:mt.4.18": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Galilea",
+      "DRB": "sea of Galilee",
+      "NABRE": "Sea of Galilee",
+      "NVBSE": "mare Galilææ",
+      "VGCL": "mare Galilææ"
+     }
+    },
+    "btu:mt.15.29": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Galilea",
+      "DRB": "sea of Galilee",
+      "NABRE": "Sea of Galilee",
+      "NVBSE": "mare Galilææ",
+      "VGCL": "mare Galilææ"
+     }
+    },
+    "btu:mc.1.16": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Galilea",
+      "DRB": "sea of Galilee",
+      "NABRE": "Sea of Galilee",
+      "NVBSE": "mare Galilææ",
+      "VGCL": "mare Galilææ"
+     }
+    },
+    "btu:mc.7.31": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Galilea",
+      "DRB": "sea of Galilee",
+      "NABRE": "Sea of Galilee",
+      "NVBSE": "mare Galilææ",
+      "VGCL": "mare Galilææ"
+     }
+    },
+    "btu:mt.8.26": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mari",
+      "VGCL": "mari"
+     }
+    },
+    "btu:mt.8.32": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:mc.4.39": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mari",
+      "VGCL": "mari"
+     }
+    },
+    "btu:mc.5.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:io.21.1": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "mare di Tiberìade",
+      "DRB": "sea of Tiberias",
+      "NABRE": "Sea of Tiberias",
+      "NVBSE": "mare Tiberiadis",
+      "VGCL": "mare Tiberiadis"
+     }
+    },
+    "btu:io.6.19": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    },
+    "btu:mt.8.24": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mari",
+      "VGCL": "mari"
+     }
+    },
+    "btu:io.6.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il mare",
+      "DRB": "the sea",
+      "NABRE": "The sea",
+      "NVBSE": "Mare",
+      "VGCL": "Mare"
+     }
+    },
+    "btu:mt.14.24": {
+     "as": "designation",
+     "editions": {
+      "DRB": "the sea",
+      "VGCL": "mari"
+     }
+    },
+    "btu:mc.6.47": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mari",
+      "VGCL": "mari"
+     }
+    },
+    "btu:mc.6.48": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mare",
+      "DRB": "the sea",
+      "NABRE": "the sea",
+      "NVBSE": "mare",
+      "VGCL": "mare"
+     }
+    }
+   }
   },
   "bplace:sual.terra": {
    "type": "place",
@@ -26682,7 +29852,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TENDA DEL CONVEGNO#0"
-   ]
+   ],
+   "labels": {
+    "btu:ex.25.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "un santuario",
+      "DRB": "a sanctuary",
+      "NABRE": "a sanctuary",
+      "NVBSE": "sanctuarium",
+      "VGCL": "sanctuarium"
+     }
+    }
+   }
   },
   "bplace:tanis": {
    "type": "place",
@@ -27021,7 +30203,171 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TEMPIO"
-   ]
+   ],
+   "labels": {
+    "btu:io.2.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "casa del Padre mio",
+      "DRB": "the house of my Father",
+      "NABRE": "my Father’s house",
+      "NVBSE": "domum Patris mei",
+      "VGCL": "domum patris mei"
+     }
+    },
+    "btu:act.6.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo luogo santo",
+      "DRB": "the holy place",
+      "NABRE": "[this] holy place",
+      "NVBSE": "locum sanctum",
+      "VGCL": "locum sanctum"
+     }
+    },
+    "btu:1reg.8.27": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa casa",
+      "DRB": "this house",
+      "NABRE": "this house",
+      "NVBSE": "domus hæc",
+      "VGCL": "domus hæc"
+     }
+    },
+    "btu:ps.26.8": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la casa dove tu dimori",
+      "DRB": "thy house",
+      "NABRE": "your house",
+      "NVBSE": "domus tuæ",
+      "VGCL": "domus tuæ"
+     }
+    },
+    "btu:1reg.9.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa casa",
+      "DRB": "this house",
+      "NABRE": "this house",
+      "NVBSE": "domum hanc",
+      "VGCL": "domum hanc"
+     }
+    },
+    "btu:1reg.8.29": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questa casa",
+      "DRB": "this house",
+      "NABRE": "this house",
+      "NVBSE": "domum hanc",
+      "VGCL": "domum hanc"
+     }
+    },
+    "btu:1reg.8.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una casa eccelsa",
+      "DRB": "a house",
+      "NABRE": "a princely house",
+      "NVBSE": "domum",
+      "VGCL": "domum"
+     }
+    },
+    "btu:esd.4.3": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una casa al nostro Dio",
+      "DRB": "a house to our God",
+      "NABRE": "a house for our God",
+      "NVBSE": "domum Deo nostro",
+      "VGCL": "domum Deo nostro"
+     }
+    },
+    "btu:ag.1.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la casa del Signore",
+      "DRB": "the house of the Lord",
+      "NABRE": "the house of the LORD",
+      "NVBSE": "domo Domini",
+      "VGCL": "domo Domini"
+     }
+    },
+    "btu:esd.5.4": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "questo edificio",
+      "DRB": "that building",
+      "NABRE": "this structure",
+      "NVBSE": "ædificationis illius",
+      "VGCL": "ædificationis illius"
+     }
+    },
+    "btu:esd.6.14": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la costruzione",
+      "NABRE": "the building",
+      "NVBSE": "ædificationem"
+     }
+    },
+    "btu:1mac.1.21": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "santuario",
+      "NABRE": "the sanctuary",
+      "NVBSE": "sanctificationem"
+     }
+    },
+    "btu:1mac.4.36": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "il santuario",
+      "DRB": "the holy places",
+      "NABRE": "the sanctuary",
+      "NVBSE": "sancta",
+      "VGCL": "sancta"
+     }
+    },
+    "btu:ez.44.15": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "mio santuario",
+      "DRB": "my sanctuary",
+      "NABRE": "my sanctuary",
+      "NVBSE": "sanctuarii mei",
+      "VGCL": "sanctuarii mei"
+     }
+    },
+    "btu:mc.11.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "La mia casa",
+      "DRB": "My house",
+      "NABRE": "My house",
+      "NVBSE": "Domus mea",
+      "VGCL": "domus mea"
+     }
+    },
+    "btu:is.1.13": {
+     "as": "designation",
+     "editions": {
+      "NABRE": "my courts"
+     }
+    },
+    "btu:act.7.47": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "una casa",
+      "DRB": "a house",
+      "NABRE": "a house",
+      "NVBSE": "domum",
+      "VGCL": "domum"
+     }
+    }
+   }
   },
   "bplace:templum-astharoth": {
    "type": "place",
@@ -27664,7 +31010,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TIRZA#2"
-   ]
+   ],
+   "labels": {
+    "btu:1reg.16.18": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitas",
+      "VGCL": "civitas"
+     }
+    }
+   }
   },
   "bplace:thesbi": {
    "type": "place",
@@ -27728,7 +31086,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TESSALONICA"
-   ]
+   ],
+   "labels": {
+    "btu:act.17.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "la città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    }
+   }
   },
   "bplace:thochen": {
    "type": "place",
@@ -27991,13 +31361,9 @@
     "en": "wadi on the southwestern border of the promised land"
    },
    "attested": [
-    "btu:am.8.8",
-    "btu:is.7.18",
     "btu:gn.15.18",
-    "btu:ier.2.18",
     "btu:ios.13.3",
     "btu:1par.13.5",
-    "btu:is.11.15",
     "btu:nm.34.5",
     "btu:ios.15.4",
     "btu:ios.15.47",
@@ -28013,7 +31379,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TORRENTE D'EGITTO"
-   ]
+   ],
+   "labels": {
+    "btu:ios.13.3": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sicor",
+      "DRB": "the troubled river",
+      "NABRE": "the stream adjoining Egypt",
+      "NVBSE": "fluvio Sihor",
+      "VGCL": "fluvio turbido"
+     }
+    },
+    "btu:1par.13.5": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Sicor d'Egitto",
+      "DRB": "Sihor of Egypt",
+      "NABRE": "Shihor of Egypt",
+      "NVBSE": "Sihor Aegypti",
+      "VGCL": "Sihor Ægypti"
+     }
+    }
+   }
   },
   "bplace:torrens-arabae": {
    "type": "place",
@@ -28142,12 +31530,7 @@
     "it": "terre a est del Giordano e del Mar Morto",
     "en": "lands east of the Jordan and Dead Sea"
    },
-   "attested": [
-    "btu:is.16.2",
-    "btu:dt.2.4",
-    "btu:idc.5.4",
-    "btu:nm.20.17"
-   ],
+   "attested": [],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -28360,7 +31743,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TIRO"
-   ]
+   ],
+   "labels": {
+    "btu:ez.26.17": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città famosa",
+      "DRB": "renowned city",
+      "NABRE": "Renowned City",
+      "NVBSE": "urbs inclita",
+      "VGCL": "urbs inclyta"
+     }
+    },
+    "btu:mt.15.22": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "quella regione",
+      "DRB": "those coasts",
+      "NABRE": "that district",
+      "NVBSE": "finibus illis",
+      "VGCL": "finibus illis"
+     }
+    },
+    "btu:act.21.5": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "città",
+      "DRB": "the city",
+      "NABRE": "the city",
+      "NVBSE": "civitatem",
+      "VGCL": "civitatem"
+     }
+    }
+   }
   },
   "bplace:ugarit": {
    "type": "place",
@@ -28420,10 +31835,7 @@
     "btu:gn.11.28",
     "btu:gn.11.31",
     "btu:gn.15.7",
-    "btu:ne.9.7",
-    "btu:act.7.2",
-    "btu:act.7.4",
-    "btu:gn.10.10"
+    "btu:ne.9.7"
    ],
    "relations": [],
    "qid": "Q5373099",
@@ -28547,8 +31959,6 @@
     "btu:ios.15.8",
     "btu:ier.19.2",
     "btu:2reg.18.17",
-    "btu:mt.27.3",
-    "btu:mt.27.9",
     "btu:ier.7.31",
     "btu:2par.28.3",
     "btu:2par.33.6",
@@ -28574,7 +31984,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:INNOM, VALLE DI I"
-   ]
+   ],
+   "labels": {
+    "btu:is.30.33": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Tofet",
+      "DRB": "Topheth",
+      "NABRE": "tophet",
+      "NVBSE": "Topheth",
+      "VGCL": "Topheth"
+     }
+    }
+   }
   },
   "bplace:vallis-gad": {
    "type": "place",
@@ -28827,8 +32249,7 @@
     "en": "valley home of Delilah"
    },
    "attested": [
-    "btu:idc.16.4",
-    "btu:idc.13.25"
+    "btu:idc.16.4"
    ],
    "relations": [],
    "qid": null,
@@ -28946,7 +32367,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ZABULON"
-   ]
+   ],
+   "labels": {
+    "btu:mt.4.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "regione e ombra di morte",
+      "DRB": "region of the shadow of death",
+      "NABRE": "a land overshadowed by death",
+      "NVBSE": "regione et umbra mortis",
+      "VGCL": "regione umbræ mortis"
+     }
+    }
+   }
   },
   "bplace:zanoa.montana": {
    "type": "place",

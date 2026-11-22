@@ -150,6 +150,14 @@ class RemovedUnitsTest(unittest.TestCase):
         self.assertEqual(out["report"]["stale_removals"], ["bpers:philippus.tetrarcha btu:gn.1.1"])
 
 
+class LabelsTest(unittest.TestCase):
+    def test_labels_on_attested_units_only(self):
+        lab = {"as": "designation", "editions": {"NABRE": "the tetrarch"}}
+        out = build(DECISIONS, UNITS, tree={}, labels={"bpers:philippus.tetrarcha": {"btu:lc.3.1": lab, "btu:gn.1.1": lab}})
+        self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["labels"], {"btu:lc.3.1": lab})
+        self.assertEqual(out["report"]["stale_labels"], ["bpers:philippus.tetrarcha btu:gn.1.1"])
+
+
 class CuratedEntriesTest(unittest.TestCase):
     CURATED = {
         "bpers:amos.propheta": {

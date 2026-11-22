@@ -7,6 +7,10 @@
 - names: Italian and English present;
 - evidence: at least one location, each a dictionary sense (ndeib:), the Herodian tree
   (bj:herodian-tree) or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
+- labels: each on an attested unit, `as` name or designation, editions from the known list,
+  each label at most six words;
+- data/unnamed.json (persons no edition names): anon: keys, units and nv: evidence that exist,
+  a tie to an existing entry;
 - kinds from the schema's list for the type; relations from the schema's vocabulary, with a
   target of the type the relation needs; Wikidata items well formed and held by one entry only.
 
@@ -32,6 +36,7 @@ KINDS = {"person": {"individual", "group", "deity", "extra-biblical"},
          "event": {"episode", "battle", "assembly", "other"}}
 QID = re.compile(r"^Q[1-9][0-9]*$")
 EVIDENCE = re.compile(r"^(ndeib:.+|bj:herodian-tree|nv:btu:\S+)$")
+EDITIONS = {"NVBSE", "VGCL", "CEI2008", "NABRE", "DRB"}
 ID = re.compile(r"^(bpers|bplace|bevent):[a-z0-9]+(?:-[a-z0-9]+)*(?:\.[a-z0-9]+(?:-[a-z0-9]+)*)?$")
 
 
@@ -69,6 +74,19 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
             for u in e.get("attested", []):
                 if u not in units:
                     out.append(f"{eid}: unknown unit {u}")
+            for u, lab in (e.get("labels") or {}).items():
+                if u not in e.get("attested", []):
+                    out.append(f"{eid}: label on unattested {u}")
+                if lab.get("as") not in ("name", "designation"):
+                    out.append(f"{eid}: label {u} as {lab.get('as')}")
+                eds = lab.get("editions") or {}
+                if not eds:
+                    out.append(f"{eid}: label {u} in no edition")
+                for ed, text in eds.items():
+                    if ed not in EDITIONS:
+                        out.append(f"{eid}: label {u} unknown edition {ed}")
+                    if not text or len(text.split()) > 6:
+                        out.append(f"{eid}: label {u} {ed} empty or longer than six words")
             if not e.get("evidence"):
                 out.append(f"{eid}: no evidence")
             for ev in e.get("evidence", []):
@@ -98,9 +116,42 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
     return out
 
 
+ANON = re.compile(r"^anon:[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+(?:-[a-z0-9]+)*$")
+TIES = {"spouse_of", "child_of", "parent_of", "sibling_of"}
+
+
+def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
+    """data/unnamed.json: persons no edition names, kept apart from the catalogs."""
+    out: list[str] = []
+    units = _units()
+    ids = {eid for cat in catalogs.values() for eid in cat["entries"]}
+    for key, e in unnamed.items():
+        if not ANON.match(key):
+            out.append(f"{key}: malformed key")
+        if not e.get("attested") and not e.get("implied_by"):
+            out.append(f"{key}: neither attested nor implied")
+        for u in e.get("attested", []) + e.get("implied_by", []):
+            if u not in units:
+                out.append(f"{key}: unknown unit {u}")
+        for ev in e.get("evidence") or [None]:
+            if not ev or not ev.startswith("nv:") or ev[3:] not in units:
+                out.append(f"{key}: evidence {ev}")
+        tie = e.get("tie")
+        if tie and (tie.get("rel") not in TIES or tie.get("target") not in ids):
+            out.append(f"{key}: tie {tie}")
+        for lang in ("it", "en"):
+            d = (e.get("description") or {}).get(lang) or ""
+            if not d or len(d.split()) > 15:
+                out.append(f"{key}: {lang} description missing or too long")
+    return out
+
+
 def main() -> int:
     catalogs = {n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8")) for n in PREFIX}
     p = problems(catalogs)
+    u_path = ROOT / "data/unnamed.json"
+    if u_path.exists():
+        p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)
     for x in p:
         print(x)
     print(f"{sum(len(c['entries']) for c in catalogs.values())} entries, {len(p)} problems")

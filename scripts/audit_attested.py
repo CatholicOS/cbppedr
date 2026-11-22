@@ -10,7 +10,8 @@ name the entry by another name, or not at all.
 Names are compared loosely: accents, case and spelling variants (j/i, v/u, y/i, k/c, ph/f,
 h, double letters) are ignored, and a long word matches by its stem, so Latin inflection
 (Abner, Abneri) is no obstacle. Events are not audited: verses narrate them without naming
-them.
+them. A unit with a reviewed label (data/curated/labels.json: another name or a designation,
+by edition) is accounted for.
 
 Usage: python audit_attested.py [TEXTS_DIR] > audit.tsv   (id, unit, names tried)
 """
@@ -30,7 +31,7 @@ STOP = set("""filius filia filii fili uxor mons montes torrens urbs regio terra 
     turris uallis desertum fons flumen fluuius rex de et in ad of the son daughter wife mount
     river brook city land sea lake gate tower ualley desert spring king il la le lo di del della
     dei degli figlio figlia moglie monte fiume torrente citta terra lago porta torre ualle deserto
-    sorgente re""".split())
+    sorgente re trans iuxta beyond near oltre presso""".split())
 
 
 def norm(s: str) -> str:
@@ -43,12 +44,15 @@ def norm(s: str) -> str:
 
 def stems(entry: dict) -> set[str]:
     """The entry's name words: a short word (three letters or fewer) must match whole,
-    a longer one by its stem (marked with a trailing '*')."""
+    a longer one by its stem (marked with a trailing '*'). A person matches on any word of a
+    name (Simon or Peter); a place only on the name's first word, its head (Bethany, not the
+    Jordan of "Bethany beyond the Jordan")."""
     out = set()
     for name in entry.get("names", {}).values():
-        for tok in norm(name or "").split():
-            if tok in STOP:
-                continue
+        toks = [t for t in norm(name or "").split() if t not in STOP]
+        if entry.get("type") == "place":
+            toks = toks[:1]
+        for tok in toks:
             out.add(tok if len(tok) <= 3 else tok[:max(4, len(tok) - 2)] + "*")
     return out
 
@@ -73,7 +77,10 @@ def audit(entries: dict, texts: list[dict[str, str]]) -> list[tuple[str, str, li
         keys = stems(e)
         if not keys:
             continue
+        labelled = set(e.get("labels") or {})
         for u in e.get("attested", []):
+            if u in labelled:
+                continue
             found = False
             for t, cache in zip(texts, normed):
                 if u not in t:

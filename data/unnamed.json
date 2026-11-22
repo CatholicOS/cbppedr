@@ -1,0 +1,566 @@
+{
+ "$comment": "Persons the Bible mentions or presupposes but no edition checked names; catalog ids need a name, so they are kept apart under provisional anon: keys until an edition or source names them. attested: units that mention or designate them; implied_by: units whose wording presupposes them without mentioning them; tie: their relation to a catalog entry; named_in: editions that give a name (none yet).",
+ "entries": {
+  "anon:ezechiel.uxor": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "moglie del profeta Ezechiele, la cui morte divenne un segno",
+    "en": "wife of the prophet Ezekiel; her death became a sign"
+   },
+   "attested": [
+    "btu:ez.24.16",
+    "btu:ez.24.18"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:ezechiel"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:ez.24.16",
+    "nv:btu:ez.24.18"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:ierameel.uxor-prima": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "prima moglie di Ieracmeèl, presupposta dalla «seconda moglie» Atara",
+    "en": "Jerahmeel's first wife, implied by his taking another wife, Atarah"
+   },
+   "attested": [],
+   "implied_by": [
+    "btu:1par.2.26"
+   ],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:ierameel.hesron-filius"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1par.2.26"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:ioiada-eliasib-filius.filius": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlio di Ioiada, genero di Sanballat, cacciato da Neemia",
+    "en": "son of Joiada, Sanballat's son-in-law, expelled by Nehemiah"
+   },
+   "attested": [
+    "btu:ne.13.28"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:ioiada.eliasib-filius"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:ne.13.28"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:lot.filia-maior": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia maggiore di Lot, madre di Moab",
+    "en": "elder daughter of Lot, mother of Moab"
+   },
+   "attested": [
+    "btu:gn.19.8",
+    "btu:gn.19.15",
+    "btu:gn.19.16",
+    "btu:gn.19.30",
+    "btu:gn.19.31",
+    "btu:gn.19.33",
+    "btu:gn.19.34",
+    "btu:gn.19.36",
+    "btu:gn.19.37"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:lot"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:gn.19.31",
+    "nv:btu:gn.19.37"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:lot.filia-minor": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia minore di Lot, madre di Ben-Ammi",
+    "en": "younger daughter of Lot, mother of Ben-ammi"
+   },
+   "attested": [
+    "btu:gn.19.8",
+    "btu:gn.19.15",
+    "btu:gn.19.16",
+    "btu:gn.19.30",
+    "btu:gn.19.31",
+    "btu:gn.19.34",
+    "btu:gn.19.35",
+    "btu:gn.19.36",
+    "btu:gn.19.38"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:lot"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:gn.19.35",
+    "nv:btu:gn.19.38"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:lot.uxor": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "moglie di Lot, mutata in statua di sale fuggendo da Sodoma",
+    "en": "wife of Lot, turned to salt while fleeing Sodom"
+   },
+   "attested": [
+    "btu:gn.19.15",
+    "btu:gn.19.16",
+    "btu:gn.19.26",
+    "btu:lc.17.32"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:lot"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:gn.19.26",
+    "nv:btu:lc.17.32"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:machir-filius-manasse.filia": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia di Machir, sposata da Chesron, madre di Segub",
+    "en": "daughter of Machir, married to Hezron, mother of Segub"
+   },
+   "attested": [
+    "btu:1par.2.21"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:machir.filius-manasse"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1par.2.21"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:manasses-filius-ioseph.concubina": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "concubina aramea di Manasse, madre di Machir",
+    "en": "Aramean concubine of Manasseh, mother of Machir"
+   },
+   "attested": [
+    "btu:1par.7.14"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:manasses.filius-ioseph"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1par.7.14"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:mosollam-filius-barachiae.filia": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia di Mesullam, moglie di Giovanni figlio di Tobia",
+    "en": "daughter of Meshullam, wife of Tobiah's son Jehohanan"
+   },
+   "attested": [
+    "btu:ne.6.18"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:mosollam.filius-barachiae"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:ne.6.18"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:pharao-oppressionis.filia": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia del faraone, che salvò e adottò Mosè",
+    "en": "Pharaoh's daughter who rescued and adopted Moses"
+   },
+   "attested": [
+    "btu:ex.2.5",
+    "btu:ex.2.7",
+    "btu:ex.2.8",
+    "btu:ex.2.9",
+    "btu:ex.2.10",
+    "btu:act.7.21",
+    "btu:heb.11.24"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:pharao.oppressionis"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:ex.2.5",
+    "nv:btu:ex.2.9",
+    "nv:btu:act.7.21"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:pharao-salomonis-socer.filia": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia del faraone, sposa egiziana di Salomone",
+    "en": "Pharaoh's daughter, Solomon's Egyptian wife"
+   },
+   "attested": [
+    "btu:1reg.3.1",
+    "btu:1reg.7.8",
+    "btu:1reg.9.16",
+    "btu:1reg.9.24",
+    "btu:1reg.11.1",
+    "btu:2par.8.11"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:pharao.salomonis-socer"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1reg.3.1",
+    "nv:btu:1reg.9.16",
+    "nv:btu:2par.8.11"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:phutiel.filia": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "figlia di Putiel, moglie di Eleazaro, madre di Fineès",
+    "en": "daughter of Putiel, Eleazar's wife, mother of Phinehas"
+   },
+   "attested": [
+    "btu:ex.6.25"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "child_of",
+    "target": "bpers:phutiel"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:ex.6.25"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:raphaim.vir-excelsus": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "gigante di Gat con sei dita, discendente di Rafa",
+    "en": "six-fingered giant of Gath, of Rapha's stock"
+   },
+   "attested": [
+    "btu:2sam.21.20",
+    "btu:1par.20.6"
+   ],
+   "implied_by": [],
+   "tie": null,
+   "named_in": {},
+   "evidence": [
+    "nv:btu:2sam.21.20",
+    "nv:btu:2sam.21.21",
+    "nv:btu:1par.20.6"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:sarvia.maritus": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "padre di Asaèl, sepolto a Betlemme",
+    "en": "father of Asahel, buried at Bethlehem"
+   },
+   "attested": [
+    "btu:2sam.2.32"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:sarvia"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:2sam.2.32",
+    "nv:btu:1sam.26.6"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:saul-simeonis-filius.mater": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "donna cananea, madre di Saul figlio di Simeone",
+    "en": "Canaanite woman, mother of Shaul son of Simeon"
+   },
+   "attested": [
+    "btu:gn.46.10",
+    "btu:ex.6.15"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "parent_of",
+    "target": "bpers:saul.simeonis-filius"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:gn.46.10",
+    "nv:btu:ex.6.15"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:simon-petrus.socrus": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "suocera di Pietro, guarita da Gesù dalla febbre",
+    "en": "Peter's mother-in-law, healed of a fever by Jesus"
+   },
+   "attested": [
+    "btu:mt.8.14",
+    "btu:mc.1.30",
+    "btu:lc.4.38"
+   ],
+   "implied_by": [],
+   "tie": null,
+   "named_in": {},
+   "evidence": [
+    "nv:btu:mt.8.14",
+    "nv:btu:mc.1.30",
+    "nv:btu:lc.4.38"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:simon-petrus.uxor": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "moglie di Pietro, che lo accompagnava nei viaggi apostolici",
+    "en": "wife of Peter, who travelled with him in his mission"
+   },
+   "attested": [
+    "btu:1cor.9.5"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "spouse_of",
+    "target": "bpers:simon-petrus"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1cor.9.5",
+    "nv:btu:mt.8.14"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:taphnes.soror": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "sorella della regina Tafnes, moglie di Adad, madre di Ghenubat",
+    "en": "sister of Queen Tahpenes, wife of Hadad, mother of Genubath"
+   },
+   "attested": [
+    "btu:1reg.11.19",
+    "btu:1reg.11.20"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "sibling_of",
+    "target": "bpers:taphnes"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:1reg.11.19",
+    "nv:btu:1reg.11.20"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  },
+  "anon:timotheus.pater": {
+   "type": "person",
+   "kind": "individual",
+   "description": {
+    "it": "padre greco (pagano) di Timoteo",
+    "en": "Greek (Gentile) father of Timothy"
+   },
+   "attested": [
+    "btu:act.16.1",
+    "btu:act.16.3"
+   ],
+   "implied_by": [],
+   "tie": {
+    "rel": "parent_of",
+    "target": "bpers:timotheus"
+   },
+   "named_in": {},
+   "evidence": [
+    "nv:btu:act.16.1",
+    "nv:btu:act.16.3"
+   ],
+   "editions_checked": [
+    "NVBSE",
+    "VGCL",
+    "CEI2008",
+    "NABRE",
+    "DRB"
+   ]
+  }
+ }
+}

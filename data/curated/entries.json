@@ -2294,6 +2294,26 @@
     "nv:btu:ne.7.59"
    ]
   },
+  "bpers:aminadab.caath-filius": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:isaar",
+     "evidence": [
+      "nv:btu:1par.6.7",
+      "nv:btu:1par.6.22",
+      "nv:btu:1par.6.23",
+      "nv:btu:ex.6.21"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:1par.6.7",
+    "nv:btu:1par.6.22",
+    "nv:btu:1par.6.23",
+    "nv:btu:ex.6.21"
+   ]
+  },
   "bpers:amital": {
    "type": "person",
    "kind": "individual",
@@ -3043,6 +3063,25 @@
    ],
    "evidence": [
     "nv:btu:1par.7.19"
+   ]
+  },
+  "bpers:anna.mater-samuelis": {
+   "attested": [
+    "btu:1sam.1.2",
+    "btu:1sam.1.5",
+    "btu:1sam.1.8",
+    "btu:1sam.1.9",
+    "btu:1sam.1.10",
+    "btu:1sam.1.13",
+    "btu:1sam.1.15",
+    "btu:1sam.1.19",
+    "btu:1sam.1.20",
+    "btu:1sam.1.22",
+    "btu:1sam.1.26"
+   ],
+   "evidence": [
+    "nv:btu:1sam.1.2",
+    "nv:btu:1sam.1.20"
    ]
   },
   "bpers:anna.prophetissa": {
@@ -4304,6 +4343,30 @@
     "nv:btu:1par.1.32"
    ]
   },
+  "bpers:asuerus.pater-darii": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Asuerus",
+   "it": "Serse",
+   "en": "Ahasuerus",
+   "descr_it": "padre di Dario il Medo, della stirpe dei Medi",
+   "descr_en": "father of Darius the Mede, of Median descent",
+   "attested": [
+    "btu:dn.9.1"
+   ],
+   "evidence": [
+    "nv:btu:dn.9.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:darius.medus",
+     "evidence": [
+      "nv:btu:dn.9.1"
+     ]
+    }
+   ]
+  },
   "bpers:asuerus.xerxes": {
    "attested": [
     "btu:est.1.1",
@@ -5025,6 +5088,39 @@
     }
    ]
   },
+  "bpers:baal.reaiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Baal",
+   "it": "Baal",
+   "en": "Baal",
+   "descr_it": "rubenita, figlio di Reaià, padre di Beerà",
+   "descr_en": "Reubenite, son of Reaiah, father of Beerah",
+   "attested": [
+    "btu:1par.5.5"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.5",
+    "nv:btu:1par.5.6"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:reaia.rubenita",
+     "evidence": [
+      "nv:btu:1par.5.5"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:beera.princeps-ruben",
+     "evidence": [
+      "nv:btu:1par.5.5",
+      "nv:btu:1par.5.6"
+     ]
+    }
+   ]
+  },
   "bpers:baalhanan.gederites": {
    "type": "person",
    "kind": "individual",
@@ -5105,6 +5201,21 @@
    "evidence": [
     "nv:btu:2sam.4.2",
     "nv:btu:2sam.4.5"
+   ]
+  },
+  "bpers:baana.signator": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Baana",
+   "it": "Baanà",
+   "en": "Baanah",
+   "descr_it": "capo del popolo che firmò l'impegno sotto Neemia",
+   "descr_en": "leader of the people who sealed the pledge under Nehemiah",
+   "attested": [
+    "btu:ne.10.28"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.28"
    ]
   },
   "bpers:bacbacar": {
@@ -5319,6 +5430,15 @@
     }
    ]
   },
+  "bpers:banaia.pharathonites": {
+   "attested": [
+    "btu:2sam.23.30"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.30",
+    "nv:btu:1par.11.31"
+   ]
+  },
   "bpers:banaias.pater-ioiadae": {
    "type": "person",
    "kind": "individual",
@@ -5339,6 +5459,33 @@
      "target": "bpers:ioiada.filius-banaiae",
      "evidence": [
       "nv:btu:1par.27.34"
+     ]
+    }
+   ]
+  },
+  "bpers:banaias.pater-pheltiae": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Banaias",
+   "it": "Benaià",
+   "en": "Benaiah",
+   "descr_it": "padre di Pelatia, capo del popolo nella visione di Ezechiele",
+   "descr_en": "father of Pelatiah, a leader in Ezekiel's vision",
+   "attested": [
+    "btu:ez.11.1",
+    "btu:ez.11.13"
+   ],
+   "evidence": [
+    "nv:btu:ez.11.1",
+    "nv:btu:ez.11.13"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:pheltia.banaiae-filius",
+     "evidence": [
+      "nv:btu:ez.11.1",
+      "nv:btu:ez.11.13"
      ]
     }
    ]
@@ -5702,6 +5849,36 @@
     "nv:btu:act.13.8"
    ]
   },
+  "bpers:baruch.neriae-filius": {
+   "attested": [
+    "btu:ier.32.12",
+    "btu:ier.32.13",
+    "btu:ier.32.16",
+    "btu:ier.36.5",
+    "btu:ier.36.8",
+    "btu:ier.36.10",
+    "btu:ier.36.13",
+    "btu:ier.36.14",
+    "btu:ier.36.15",
+    "btu:ier.36.16",
+    "btu:ier.36.17",
+    "btu:ier.36.18",
+    "btu:ier.36.19",
+    "btu:ier.36.26",
+    "btu:ier.36.27",
+    "btu:ier.36.32",
+    "btu:ier.43.6",
+    "btu:ier.45.1",
+    "btu:ier.45.2",
+    "btu:bar.1.1",
+    "btu:bar.1.3"
+   ],
+   "evidence": [
+    "nv:btu:ier.32.12",
+    "nv:btu:ier.36.32",
+    "nv:btu:bar.1.1"
+   ]
+  },
   "bpers:barzaith": {
    "type": "person",
    "kind": "individual",
@@ -5744,6 +5921,37 @@
      "target": "bpers:melchias.gersonita",
      "evidence": [
       "nv:btu:1par.6.25"
+     ]
+    }
+   ]
+  },
+  "bpers:basemath.elon-filia": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Basemath",
+   "it": "Basmat",
+   "en": "Basemath",
+   "descr_it": "moglie di Esaù, figlia dell'ittita Elon",
+   "descr_en": "wife of Esau, daughter of Elon the Hittite",
+   "attested": [
+    "btu:gn.26.34"
+   ],
+   "evidence": [
+    "nv:btu:gn.26.34"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:elon.hetthaeus",
+     "evidence": [
+      "nv:btu:gn.26.34"
+     ]
+    },
+    {
+     "rel": "spouse_of",
+     "target": "bpers:esau",
+     "evidence": [
+      "nv:btu:gn.26.34"
      ]
     }
    ]
@@ -6258,6 +6466,22 @@
    ],
    "evidence": [
     "nv:btu:ne.3.23"
+   ]
+  },
+  "bpers:bennui.familiae-caput": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:bani.familiae-caput",
+     "evidence": [
+      "nv:btu:esd.2.10",
+      "nv:btu:ne.7.15"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:esd.2.10",
+    "nv:btu:ne.7.15"
    ]
   },
   "bpers:benzoheth": {
@@ -8655,6 +8879,103 @@
     }
    ]
   },
+  "bpers:eleazar.abinadab-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleàzaro",
+   "en": "Eleazar",
+   "descr_it": "figlio di Abinadàb, consacrato custode dell'arca a Kiriat-Iearìm",
+   "descr_en": "son of Abinadab, consecrated to guard the ark at Kiriath-jearim",
+   "attested": [
+    "btu:1sam.7.1"
+   ],
+   "evidence": [
+    "nv:btu:1sam.7.1"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:abinadab.cariathiarim",
+     "evidence": [
+      "nv:btu:1sam.7.1"
+     ]
+    }
+   ]
+  },
+  "bpers:eleazar.dedicatio-muri": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleàzaro",
+   "en": "Eleazar",
+   "descr_it": "partecipante alla dedicazione delle mura di Gerusalemme sotto Neemia",
+   "descr_en": "participant in the dedication of Jerusalem's wall under Nehemiah",
+   "attested": [
+    "btu:ne.12.42"
+   ],
+   "evidence": [
+    "nv:btu:ne.12.42"
+   ]
+  },
+  "bpers:eleazar.dodo-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleàzaro",
+   "en": "Eleazar",
+   "descr_it": "figlio di Dodo, l'acochita, uno dei tre prodi di Davide",
+   "descr_en": "son of Dodo the Ahohite, one of David's Three",
+   "attested": [
+    "btu:2sam.23.9",
+    "btu:1par.11.12"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.9",
+    "nv:btu:1par.11.12"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:dodo.eleazari-pater",
+     "evidence": [
+      "nv:btu:2sam.23.9",
+      "nv:btu:1par.11.12"
+     ]
+    }
+   ]
+  },
+  "bpers:eleazar.eliud-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleazar",
+   "en": "Eleazar",
+   "descr_it": "antenato di Gesù in Matteo, figlio di Eliùd, padre di Mattan",
+   "descr_en": "ancestor of Jesus in Matthew, son of Eliud, father of Matthan",
+   "attested": [
+    "btu:mt.1.15"
+   ],
+   "evidence": [
+    "nv:btu:mt.1.15"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:eliud",
+     "evidence": [
+      "nv:btu:mt.1.15"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:matthan.avus-ioseph",
+     "evidence": [
+      "nv:btu:mt.1.15"
+     ]
+    }
+   ]
+  },
   "bpers:eleazar.filius-pharos": {
    "type": "person",
    "kind": "individual",
@@ -8668,6 +8989,64 @@
    ],
    "evidence": [
     "nv:btu:esd.10.25"
+   ]
+  },
+  "bpers:eleazar.moholi-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleàzaro",
+   "en": "Eleazar",
+   "descr_it": "levita merarita, figlio di Maclì, morto lasciando solo figlie",
+   "descr_en": "Merarite Levite, son of Mahli, died leaving only daughters",
+   "attested": [
+    "btu:1par.23.21",
+    "btu:1par.23.22",
+    "btu:1par.24.28"
+   ],
+   "evidence": [
+    "nv:btu:1par.23.21",
+    "nv:btu:1par.23.22"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:moholi.filius-merari",
+     "evidence": [
+      "nv:btu:1par.23.21"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:cis.nepos-merari",
+     "evidence": [
+      "nv:btu:1par.23.21"
+     ]
+    }
+   ]
+  },
+  "bpers:eleazar.phinees-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Eleazar",
+   "it": "Eleàzaro",
+   "en": "Eleazar",
+   "descr_it": "figlio di Fineès, presente alla pesatura dei beni del tempio con Esdra",
+   "descr_en": "son of Phinehas, present when Ezra's temple treasure was weighed",
+   "attested": [
+    "btu:esd.8.33"
+   ],
+   "evidence": [
+    "nv:btu:esd.8.33"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:phinees.pater-eleazari",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
    ]
   },
   "bpers:eliab.gaddita": {
@@ -8684,6 +9063,24 @@
    ],
    "evidence": [
     "nv:btu:1sam.16.6"
+   ]
+  },
+  "bpers:eliab.samuelis-atavus": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:eliu.samuelis-atavus",
+     "evidence": [
+      "nv:btu:1sam.1.1",
+      "nv:btu:1par.6.12",
+      "nv:btu:1par.6.19"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:1sam.1.1",
+    "nv:btu:1par.6.12",
+    "nv:btu:1par.6.19"
    ]
   },
   "bpers:eliaba": {
@@ -8886,6 +9283,22 @@
    ],
    "evidence": [
     "nv:btu:nm.34.21"
+   ]
+  },
+  "bpers:eliel.toach-filius": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:eliu.samuelis-atavus",
+     "evidence": [
+      "nv:btu:1sam.1.1",
+      "nv:btu:1par.6.19"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:1sam.1.1",
+    "nv:btu:1par.6.19"
    ]
   },
   "bpers:eliezer.filius-harim": {
@@ -11369,6 +11782,22 @@
     "nv:btu:ier.32.9"
    ]
   },
+  "bpers:hanan.signator-alter": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Hanan",
+   "it": "Canan",
+   "en": "Hanan",
+   "descr_it": "secondo Canan tra i capi firmatari dell'impegno sotto Neemia",
+   "descr_en": "second Hanan among the leaders sealing Nehemiah's pledge",
+   "attested": [
+    "btu:ne.10.27"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.27",
+    "nv:btu:ne.10.23"
+   ]
+  },
   "bpers:hanani.heman-filius": {
    "type": "person",
    "kind": "individual",
@@ -13603,6 +14032,39 @@
      "evidence": [
       "nv:btu:1par.8.19",
       "nv:btu:1par.8.21"
+     ]
+    }
+   ]
+  },
+  "bpers:iacob.pater-ioseph": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iacob",
+   "it": "Giacobbe",
+   "en": "Jacob",
+   "descr_it": "antenato di Gesù in Matteo, figlio di Mattan, padre di Giuseppe",
+   "descr_en": "ancestor of Jesus in Matthew, son of Matthan, father of Joseph",
+   "attested": [
+    "btu:mt.1.15",
+    "btu:mt.1.16"
+   ],
+   "evidence": [
+    "nv:btu:mt.1.15",
+    "nv:btu:mt.1.16"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:matthan.avus-ioseph",
+     "evidence": [
+      "nv:btu:mt.1.15"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:ioseph.mariae-sponsus",
+     "evidence": [
+      "nv:btu:mt.1.16"
      ]
     }
    ]
@@ -15866,6 +16328,37 @@
    ],
    "evidence": [
     "nv:btu:esd.8.19"
+   ]
+  },
+  "bpers:iesaias.rohobiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iesaias",
+   "it": "Isaia",
+   "en": "Jeshaiah",
+   "descr_it": "levita, figlio di Recabia, padre di Ioram, della linea di Elièzer",
+   "descr_en": "Levite, son of Rehabiah, father of Joram, of Eliezer's line",
+   "attested": [
+    "btu:1par.26.25"
+   ],
+   "evidence": [
+    "nv:btu:1par.26.25"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:rohobia",
+     "evidence": [
+      "nv:btu:1par.26.25"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:ioram.filius-iesaiae",
+     "evidence": [
+      "nv:btu:1par.26.25"
+     ]
+    }
    ]
   },
   "bpers:iesamari": {
@@ -18444,6 +18937,47 @@
     }
    ]
   },
+  "bpers:ionas.propheta": {
+   "attested": [
+    "btu:ion.1.1",
+    "btu:ion.1.3",
+    "btu:ion.1.5",
+    "btu:ion.1.7",
+    "btu:ion.1.15",
+    "btu:ion.2.1",
+    "btu:ion.2.2",
+    "btu:ion.2.11",
+    "btu:ion.3.1",
+    "btu:ion.3.3",
+    "btu:ion.3.4",
+    "btu:ion.4.1",
+    "btu:ion.4.5",
+    "btu:ion.4.6",
+    "btu:ion.4.8",
+    "btu:ion.4.9",
+    "btu:mt.12.39",
+    "btu:mt.12.40",
+    "btu:mt.12.41",
+    "btu:mt.16.4",
+    "btu:lc.11.29",
+    "btu:lc.11.30",
+    "btu:lc.11.32"
+   ],
+   "evidence": [
+    "nv:btu:ion.1.1",
+    "nv:btu:2reg.14.25",
+    "nv:btu:mt.12.39"
+   ]
+  },
+  "bpers:ionathan.filius-sage": {
+   "attested": [
+    "btu:2sam.23.33"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.33",
+    "nv:btu:1par.11.34"
+   ]
+  },
   "bpers:iora": {
    "type": "person",
    "kind": "individual",
@@ -18719,6 +19253,20 @@
     }
    ]
   },
+  "bpers:ioseph.barnabas": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:barnabas",
+     "evidence": [
+      "nv:btu:act.4.36"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:act.4.36"
+   ]
+  },
   "bpers:iosphia": {
    "type": "person",
    "kind": "individual",
@@ -18741,6 +19289,22 @@
       "nv:btu:esd.8.10"
      ]
     }
+   ]
+  },
+  "bpers:iosue": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:iosue.nun-filius",
+     "evidence": [
+      "nv:btu:nm.13.16",
+      "nv:btu:nm.13.8"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:nm.13.16",
+    "nv:btu:nm.13.8"
    ]
   },
   "bpers:iozabad.doctor-legis": {
@@ -20367,6 +20931,53 @@
     }
    ]
   },
+  "bpers:mahalath.ismaelis-filia": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Mahalath",
+   "it": "Macalàt",
+   "en": "Mahalath",
+   "descr_it": "figlia di Ismaele, sorella di Nebaiòt, sposata da Esaù",
+   "descr_en": "daughter of Ishmael, sister of Nebaioth, married by Esau",
+   "attested": [
+    "btu:gn.28.9"
+   ],
+   "evidence": [
+    "nv:btu:gn.28.9",
+    "nv:btu:gn.36.3"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:ismael.filius-abrahae",
+     "evidence": [
+      "nv:btu:gn.28.9"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:nabaioth.ismaelis-filius",
+     "evidence": [
+      "nv:btu:gn.28.9"
+     ]
+    },
+    {
+     "rel": "spouse_of",
+     "target": "bpers:esau",
+     "evidence": [
+      "nv:btu:gn.28.9"
+     ]
+    },
+    {
+     "rel": "same_as",
+     "target": "bpers:basemath.esau-uxor",
+     "evidence": [
+      "nv:btu:gn.28.9",
+      "nv:btu:gn.36.3"
+     ]
+    }
+   ]
+  },
   "bpers:mahalath.uxor-roboam": {
    "type": "person",
    "kind": "individual",
@@ -20801,6 +21412,65 @@
     "nv:btu:1par.2.42"
    ]
   },
+  "bpers:maria.bethaniensis": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Maria",
+   "it": "Maria",
+   "en": "Mary",
+   "descr_it": "di Betania, sorella di Marta e Lazzaro, unse i piedi di Gesù",
+   "descr_en": "of Bethany, sister of Martha and Lazarus, anointed Jesus' feet",
+   "attested": [
+    "btu:lc.10.39",
+    "btu:lc.10.42",
+    "btu:io.11.1",
+    "btu:io.11.2",
+    "btu:io.11.19",
+    "btu:io.11.20",
+    "btu:io.11.28",
+    "btu:io.11.31",
+    "btu:io.11.32",
+    "btu:io.11.45",
+    "btu:io.12.3"
+   ],
+   "evidence": [
+    "nv:btu:io.11.1",
+    "nv:btu:io.11.2",
+    "nv:btu:lc.10.39"
+   ],
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:martha",
+     "evidence": [
+      "nv:btu:lc.10.39",
+      "nv:btu:io.11.1"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:lazarus.bethaniensis",
+     "evidence": [
+      "nv:btu:io.11.2"
+     ]
+    }
+   ]
+  },
+  "bpers:maria.cleophae": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Maria",
+   "it": "Maria",
+   "en": "Mary of Clopas",
+   "descr_it": "Maria di Clèopa, presso la croce di Gesù",
+   "descr_en": "Mary of Clopas, standing by the cross of Jesus",
+   "attested": [
+    "btu:io.19.25"
+   ],
+   "evidence": [
+    "nv:btu:io.19.25"
+   ]
+  },
   "bpers:maria.magdalene": {
    "type": "person",
    "kind": "individual",
@@ -20829,6 +21499,63 @@
     "nv:btu:lc.8.2",
     "nv:btu:mc.16.9",
     "nv:btu:io.20.18"
+   ]
+  },
+  "bpers:maria.mater-iacobi": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Maria",
+   "it": "Maria",
+   "en": "Mary",
+   "descr_it": "madre di Giacomo il minore e di Ioses, presso croce e sepolcro",
+   "descr_en": "mother of James the Less and Joses, witness of cross and tomb",
+   "attested": [
+    "btu:mt.27.56",
+    "btu:mt.27.61",
+    "btu:mt.28.1",
+    "btu:mc.15.40",
+    "btu:mc.15.47",
+    "btu:mc.16.1",
+    "btu:lc.24.10"
+   ],
+   "evidence": [
+    "nv:btu:mt.27.56",
+    "nv:btu:mc.15.40",
+    "nv:btu:mc.15.47"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ioses.filius-mariae",
+     "evidence": [
+      "nv:btu:mc.15.40",
+      "nv:btu:mc.15.47"
+     ]
+    }
+   ]
+  },
+  "bpers:maria.mater-marci": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Maria",
+   "it": "Maria",
+   "en": "Mary",
+   "descr_it": "madre di Giovanni detto Marco; nella sua casa pregava la Chiesa",
+   "descr_en": "mother of John called Mark, whose Jerusalem house hosted the praying church",
+   "attested": [
+    "btu:act.12.12"
+   ],
+   "evidence": [
+    "nv:btu:act.12.12"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:marcus",
+     "evidence": [
+      "nv:btu:act.12.12"
+     ]
+    }
    ]
   },
   "bpers:maria.romana": {
@@ -28156,6 +28883,41 @@
     }
    ]
   },
+  "bpers:saba.regma-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Saba",
+   "it": "Saba",
+   "en": "Sheba",
+   "descr_it": "figlio di Raamà, nipote di Cus, fratello di Dedan",
+   "descr_en": "son of Raamah, grandson of Cush, brother of Dedan",
+   "attested": [
+    "btu:gn.10.7",
+    "btu:1par.1.9"
+   ],
+   "evidence": [
+    "nv:btu:gn.10.7",
+    "nv:btu:1par.1.9"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:regma.chus-filius",
+     "evidence": [
+      "nv:btu:gn.10.7",
+      "nv:btu:1par.1.9"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:dedan.regma-filius",
+     "evidence": [
+      "nv:btu:gn.10.7",
+      "nv:btu:1par.1.9"
+     ]
+    }
+   ]
+  },
   "bpers:sabatha": {
    "type": "person",
    "kind": "individual",
@@ -29774,6 +30536,15 @@
     }
    ]
   },
+  "bpers:sechenias.zorobabel": {
+   "attested": [
+    "btu:1par.3.22"
+   ],
+   "evidence": [
+    "nv:btu:1par.3.21",
+    "nv:btu:1par.3.22"
+   ]
+  },
   "bpers:sechia": {
    "type": "person",
    "kind": "individual",
@@ -30183,6 +30954,24 @@
    ],
    "evidence": [
     "nv:btu:esd.10.24"
+   ]
+  },
+  "bpers:sellum.ioachaz": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:ioachaz.filius-iosiae",
+     "evidence": [
+      "nv:btu:ier.22.11",
+      "nv:btu:2reg.23.30",
+      "nv:btu:2reg.23.34"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:ier.22.11",
+    "nv:btu:2reg.23.30",
+    "nv:btu:2reg.23.34"
    ]
   },
   "bpers:sellum.pater-hanameel": {
@@ -32670,6 +33459,26 @@
     "nv:btu:gn.14.1"
    ]
   },
+  "bpers:thaddaeus": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:iudas.iacobi-filius",
+     "evidence": [
+      "nv:btu:mt.10.3",
+      "nv:btu:mc.3.18",
+      "nv:btu:lc.6.16",
+      "nv:btu:act.1.13"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:mt.10.3",
+    "nv:btu:mc.3.18",
+    "nv:btu:lc.6.16",
+    "nv:btu:act.1.13"
+   ]
+  },
   "bpers:thahath.bared-filius": {
    "type": "person",
    "kind": "individual",
@@ -34579,6 +35388,30 @@
     "nv:btu:2par.17.16"
    ]
   },
+  "bpers:zechri.pater-elisaphat": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zechri",
+   "it": "Zicrì",
+   "en": "Zichri",
+   "descr_it": "padre di Elisafàt, comandante alleato di Ioiadà",
+   "descr_en": "father of Elishaphat, a commander allied with Jehoiada",
+   "attested": [
+    "btu:2par.23.1"
+   ],
+   "evidence": [
+    "nv:btu:2par.23.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:elisaphat",
+     "evidence": [
+      "nv:btu:2par.23.1"
+     ]
+    }
+   ]
+  },
   "bpers:zetham": {
    "type": "person",
    "kind": "individual",
@@ -36338,6 +37171,21 @@
     "nv:btu:ios.15.41"
    ]
   },
+  "bplace:bethdeblathaim": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Bethdeblathaim",
+   "it": "Bet-Diblatàim",
+   "en": "Beth-diblathaim",
+   "descr_it": "città di Moab nell'oracolo di Geremia contro Moab",
+   "descr_en": "town of Moab in Jeremiah's oracle against Moab",
+   "attested": [
+    "btu:ier.48.22"
+   ],
+   "evidence": [
+    "nv:btu:ier.48.22"
+   ]
+  },
   "bplace:betheced": {
    "type": "place",
    "kind": "site",
@@ -36628,6 +37476,24 @@
    ],
    "evidence": [
     "nv:btu:1sam.11.8"
+   ]
+  },
+  "bplace:bilha": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:baala.negeb",
+     "evidence": [
+      "nv:btu:ios.15.29",
+      "nv:btu:ios.19.3",
+      "nv:btu:1par.4.29"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:ios.15.29",
+    "nv:btu:ios.19.3",
+    "nv:btu:1par.4.29"
    ]
   },
   "bplace:boni-portus": {
@@ -40020,6 +40886,14 @@
     "nv:btu:1par.4.23"
    ]
   },
+  "bplace:nilus": {
+   "attested": [
+    "btu:ier.2.18"
+   ],
+   "evidence": [
+    "nv:btu:ier.2.18"
+   ]
+  },
   "bplace:no": {
    "attested": [
     "btu:ier.46.25",
@@ -40925,6 +41799,24 @@
    ],
    "evidence": [
     "nv:btu:gn.35.8"
+   ]
+  },
+  "bplace:rabba.ammonitarum": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:rabba",
+     "evidence": [
+      "nv:btu:dt.3.11",
+      "nv:btu:2sam.12.26",
+      "nv:btu:ier.49.2"
+     ]
+    }
+   ],
+   "evidence": [
+    "nv:btu:dt.3.11",
+    "nv:btu:2sam.12.26",
+    "nv:btu:ier.49.2"
    ]
   },
   "bplace:rabbith": {
