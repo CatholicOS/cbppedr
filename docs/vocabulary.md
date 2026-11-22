@@ -104,6 +104,7 @@ Locations, never text.
 | `nv:` | a verse of the Nova Vulgata, where the Bible text alone establishes the statement (a patronym, an office, a place, a time) | `nv:btu:ne.12.36` |
 | `ndeib:` | a sense of the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* (Piemme 2005) | `ndeib:FILIPPO#1`; a headword without numbered senses has no `#` (`ndeib:IS-BAAL`); `~n` numbers a repeated headword |
 | `bj:herodian-tree` | the Jerusalem Bible's Hasmonean and Herodian family tree | `bj:herodian-tree` |
+| `bj:note:`, `bj:intro:` | a note or a book introduction of the Jerusalem Bible that states the fact (an identity the text implies but does not state) | `bj:note:At.12,12#p2648` (John Mark is the Mark of Col 4:10, Phlm 24, 2 Tim 4:11, 1 Pet 5:13) |
 
 STEPBible's TIPNR may point to a verse or an identity, but is never itself evidence.
 

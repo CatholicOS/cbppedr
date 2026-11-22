@@ -112,7 +112,7 @@ class EvidenceTest(unittest.TestCase):
         return problems({"persons": cat({"bpers:a": person(evidence=ev)}), "places": cat({}), "events": cat({})})
 
     def test_known_kinds_pass(self):
-        self.assertEqual(self.run_p(["ndeib:LEVI#1", "bj:herodian-tree", "nv:btu:gn.29.34"]), [])
+        self.assertEqual(self.run_p(["ndeib:LEVI#1", "bj:herodian-tree", "nv:btu:gn.29.34", "bj:note:At.12,12#p2648"]), [])
 
     def test_unknown_kind_and_unknown_verse(self):
         p = self.run_p(["wiki:Levi", "nv:btu:gn.99.1", "nv:gn.29.34"])

@@ -6,7 +6,7 @@
 - descriptions at most 15 words and 120 characters (our own few words, never source text);
 - names: Italian and English present;
 - evidence: at least one location, each a dictionary sense (ndeib:), the Herodian tree
-  (bj:herodian-tree) or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
+  (bj:herodian-tree), a Jerusalem Bible note or introduction (bj:note:, bj:intro:), or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
 - labels: each on an attested unit, `as` name or designation, editions from the known list,
   each label at most six words;
 - conjectures: a known relation and target, a status, opinions with a source from
@@ -37,7 +37,7 @@ KINDS = {"person": {"individual", "group", "deity", "extra-biblical"},
          "place": {"city", "region", "mountain", "river", "sea", "valley", "desert", "site", "building", "other"},
          "event": {"episode", "battle", "assembly", "other"}}
 QID = re.compile(r"^Q[1-9][0-9]*$")
-EVIDENCE = re.compile(r"^(ndeib:.+|bj:herodian-tree|nv:btu:\S+)$")
+EVIDENCE = re.compile(r"^(ndeib:.+|bj:herodian-tree|bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?|nv:btu:\S+)$")
 EDITIONS = {"NVBSE", "VGCL", "CEI2008", "NABRE", "DRB"}
 ID = re.compile(r"^(bpers|bplace|bevent):[a-z0-9]+(?:-[a-z0-9]+)*(?:\.[a-z0-9]+(?:-[a-z0-9]+)*)?$")
 
