@@ -2241,6 +2241,54 @@
      "summary": "Many take Barak's home for the city of refuge; the context favours the Kedesh by Zaanannim."
     }
    ]
+  },
+  {
+   "source": "bpers:gera.pater-aod",
+   "rel": "possibly_same_as",
+   "target": "bpers:gera.belae-filius",
+   "opinions": [
+    {
+     "by": "ndeib:GHERA",
+     "says": "suggests",
+     "summary": "The fathers of Ehud and of Shimei may be the clan's ancestor, perhaps Benjamin's grandson Gera."
+    }
+   ]
+  },
+  {
+   "source": "bpers:gera.pater-semei",
+   "rel": "possibly_same_as",
+   "target": "bpers:gera.belae-filius",
+   "opinions": [
+    {
+     "by": "ndeib:GHERA",
+     "says": "suggests",
+     "summary": "The fathers of Ehud and of Shimei may be the clan's ancestor, perhaps Benjamin's grandson Gera."
+    }
+   ]
+  },
+  {
+   "source": "bpers:gera.pater-semei",
+   "rel": "possibly_same_as",
+   "target": "bpers:gera.pater-aod",
+   "opinions": [
+    {
+     "by": "ndeib:GHERA",
+     "says": "suggests",
+     "summary": "Ehud's father and Shimei's father may both be the ancestor of one Benjaminite line."
+    }
+   ]
+  },
+  {
+   "source": "bplace:cedes.in-issachar",
+   "rel": "possibly_attested_at",
+   "unit": "btu:idc.4.11",
+   "opinions": [
+    {
+     "by": "ndeib:KEDES",
+     "says": "doubts",
+     "summary": "Archaeologists sought the Kedesh of Judg 4:11 at Tell Abu Qudeis; the topography fits Khirbet el-Qadish better."
+    }
+   ]
   }
  ]
 }

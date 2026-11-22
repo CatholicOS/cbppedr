@@ -44172,42 +44172,31 @@
     "nv:btu:ier.49.2"
    ]
   },
-  "bpers:gera.beniamin-filius": {
-   "type": "person",
-   "kind": "individual",
-   "latin": "Gera",
-   "it": "Ghera",
-   "en": "Gera",
-   "descr_it": "figlio di Beniamino, sceso in Egitto con Giacobbe",
-   "descr_en": "son of Benjamin, who went down to Egypt with Jacob",
-   "attested": [
-    "btu:gn.46.21"
-   ],
-   "evidence": [
-    "nv:btu:gn.46.21"
-   ],
-   "relations": [
-    {
-     "rel": "child_of",
-     "target": "bpers:beniamin.iacob-filius",
-     "evidence": [
-      "nv:btu:gn.46.21"
-     ]
-    }
-   ]
-  },
   "bplace:cedes.saananim": {
    "attested": [
     "btu:idc.4.9",
     "btu:idc.4.10"
    ],
    "evidence": [
-    "nv:btu:idc.4.11"
+    "nv:btu:idc.4.11",
+    "nv:btu:idc.4.9",
+    "nv:btu:idc.4.10"
    ]
   },
   "bpers:ioel.princeps-simeonis": {
    "evidence": [
     "nv:btu:1par.4.35"
+   ]
+  },
+  "bpers:gera.belae-filius": {
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:bela.beniamin-filius",
+     "evidence": [
+      "nv:btu:1par.8.3"
+     ]
+    }
    ]
   }
  }

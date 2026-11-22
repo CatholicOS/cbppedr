@@ -33107,48 +33107,27 @@
     "en": "Gera"
    },
    "description": {
-    "it": "figlio di Bela, nipote di Beniamino",
-    "en": "son of Bela, grandson of Benjamin"
+    "it": "figlio di Beniamino in Gn 46,21, figlio di Bela in 1 Cr 8,3",
+    "en": "son of Benjamin in Gn 46:21, son of Bela in 1 Chr 8:3"
    },
    "attested": [
+    "btu:gn.46.21",
     "btu:1par.8.3",
     "btu:1par.8.5"
-   ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:GHERA"
-   ]
-  },
-  "bpers:gera.beniamin-filius": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Gera",
-    "it": "Ghera",
-    "en": "Gera"
-   },
-   "description": {
-    "it": "figlio di Beniamino, sceso in Egitto con Giacobbe",
-    "en": "son of Benjamin, who went down to Egypt with Jacob"
-   },
-   "attested": [
-    "btu:gn.46.21"
    ],
    "relations": [
     {
      "rel": "child_of",
-     "target": "bpers:beniamin.iacob-filius",
+     "target": "bpers:bela.beniamin-filius",
      "evidence": [
-      "nv:btu:gn.46.21"
+      "nv:btu:1par.8.3"
      ]
     }
    ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "nv:btu:gn.46.21"
+    "ndeib:GHERA"
    ]
   },
   "bpers:gera.ehud-filius": {
@@ -33193,6 +33172,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GHERA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:gera.belae-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GHERA",
+       "says": "suggests",
+       "summary": "The fathers of Ehud and of Shimei may be the clan's ancestor, perhaps Benjamin's grandson Gera."
+      }
+     ]
+    }
    ]
   },
   "bpers:gera.pater-semei": {
@@ -33215,6 +33208,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GHERA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:gera.belae-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GHERA",
+       "says": "suggests",
+       "summary": "The fathers of Ehud and of Shimei may be the clan's ancestor, perhaps Benjamin's grandson Gera."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:gera.pater-aod",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GHERA",
+       "says": "suggests",
+       "summary": "Ehud's father and Shimei's father may both be the ancestor of one Benjaminite line."
+      }
+     ]
+    }
    ]
   },
   "bpers:gergesaei": {

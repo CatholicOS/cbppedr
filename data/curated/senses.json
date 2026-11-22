@@ -19526,22 +19526,7 @@
   },
   {
    "key": "FIGLIO, FIGLIO DI DIO#1",
-   "type": "place",
-   "kind": "city",
-   "id": "bplace:rabba",
-   "latin": "Rabba filiorum Ammon",
-   "it": "Rabba",
-   "en": "Rabbah",
-   "descr_it": "capitale degli Ammoniti, oggi Amman",
-   "descr_en": "capital of the Ammonites, modern Amman",
-   "relations": [
-    {
-     "rel": "located_in",
-     "target": "Ammon",
-     "target_key": null
-    }
-   ],
-   "certain": true
+   "type": "none"
   },
   {
    "key": "FIGLIO, FIGLIO DI DIO#2",
@@ -21534,8 +21519,8 @@
      "latin": "Gera",
      "it": "Ghera",
      "en": "Gera",
-     "descr_it": "figlio di Bela, nipote di Beniamino",
-     "descr_en": "son of Bela, grandson of Benjamin",
+     "descr_it": "figlio di Beniamino in Gn 46,21, figlio di Bela in 1 Cr 8,3",
+     "descr_en": "son of Benjamin in Gn 46:21, son of Bela in 1 Chr 8:3",
      "relations": [],
      "certain": true
     },

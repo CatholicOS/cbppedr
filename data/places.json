@@ -8492,6 +8492,18 @@
        "summary": "Its Kishion record includes the Kedesh of 1 Chr 6."
       }
      ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:idc.4.11",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "doubts",
+       "summary": "Archaeologists sought the Kedesh of Judg 4:11 at Tell Abu Qudeis; the topography fits Khirbet el-Qadish better."
+      }
+     ]
     }
    ]
   },
@@ -8603,7 +8615,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KEDES",
-    "nv:btu:idc.4.11"
+    "nv:btu:idc.4.11",
+    "nv:btu:idc.4.9",
+    "nv:btu:idc.4.10"
    ],
    "review": "uncertain"
   },
@@ -25998,8 +26012,6 @@
     "en": "capital of the Ammonites, modern Amman"
    },
    "attested": [
-    "btu:ier.49.2",
-    "btu:ez.25.5",
     "btu:2sam.12.26",
     "btu:2sam.12.27",
     "btu:2sam.12.28",
@@ -26008,15 +26020,16 @@
     "btu:2sam.12.31",
     "btu:1par.20.1",
     "btu:ez.21.25",
+    "btu:ez.25.5",
     "btu:am.1.14",
     "btu:dt.3.11",
+    "btu:ier.49.2",
     "btu:2sam.11.1"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:FIGLIO, FIGLIO DI DIO#1",
     "ndeib:RABBA#1",
     "ndeib:RABBI, RABBUNI#2",
     "nv:btu:dt.3.11",
