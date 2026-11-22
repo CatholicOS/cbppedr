@@ -48739,10 +48739,12 @@
     "en": "Shemaiah"
    },
    "description": {
-    "it": "levita della stirpe di Asaf alla dedicazione delle mura",
-    "en": "Levite of Asaph's line at the wall dedication"
+    "it": "musico asafita alla dedicazione delle mura, figlio di Gionata",
+    "en": "Asaphite musician at the dedication of the wall, son of Jonathan"
    },
-   "attested": [],
+   "attested": [
+    "btu:ne.12.36"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
