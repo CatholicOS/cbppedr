@@ -231,6 +231,28 @@
     "ndeib:ABILENE"
    ]
   },
+  "bplace:accain": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Accain",
+    "it": "Caino",
+    "en": "Kain"
+   },
+   "description": {
+    "it": "città nel Negheb di Giuda, forse a sud-est di Ebron",
+    "en": "town in southern Judah, perhaps southeast of Hebron"
+   },
+   "attested": [
+    "btu:ios.15.57"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CAINO#1"
+   ]
+  },
   "bplace:accaron": {
    "type": "place",
    "kind": "city",
@@ -2217,6 +2239,74 @@
     "ndeib:EZION-GHEBER"
    ]
   },
+  "bplace:asor.arabiae": {
+   "type": "place",
+   "kind": "region",
+   "names": {
+    "la": "Asor",
+    "it": "Cazor",
+    "en": "Hazor"
+   },
+   "description": {
+    "it": "regni di Arabi seminomadi, colpiti da Nabucodonosor",
+    "en": "realms of semi-nomadic Arabs struck by Nebuchadnezzar"
+   },
+   "attested": [
+    "btu:ier.49.28",
+    "btu:ier.49.30",
+    "btu:ier.49.33"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CAZOR"
+   ]
+  },
+  "bplace:asor.beniamin": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Asor",
+    "it": "Cazor",
+    "en": "Hazor"
+   },
+   "description": {
+    "it": "località beniaminita abitata dopo l'esilio",
+    "en": "Benjaminite town settled after the exile"
+   },
+   "attested": [
+    "btu:ne.11.33"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CAZOR"
+   ]
+  },
+  "bplace:asor.iudae-austri": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Asor",
+    "it": "Cazor",
+    "en": "Hazor"
+   },
+   "description": {
+    "it": "località nel sud di Giuda, posizione sconosciuta",
+    "en": "town in the far south of Judah, site unknown"
+   },
+   "attested": [
+    "btu:ios.15.23"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CAZOR"
+   ]
+  },
   "bplace:asor.nephthali": {
    "type": "place",
    "kind": "city",
@@ -2249,14 +2339,33 @@
     "btu:idc.4.24",
     "btu:1sam.12.9",
     "btu:1reg.9.15",
-    "btu:2reg.15.29",
-    "btu:ios.15.23",
-    "btu:ios.15.25",
-    "btu:ne.11.33"
+    "btu:2reg.15.29"
    ],
    "relations": [],
-   "qid": "Q121255625",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CAZOR"
+   ]
+  },
+  "bplace:asorhadatta": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Asorhadatta",
+    "it": "Cazor-Cadatta",
+    "en": "Hazor-hadattah"
+   },
+   "description": {
+    "it": "«Cazor nuova», nel sud di Giuda, non localizzata",
+    "en": "'New Hazor' in southern Judah, unlocated"
+   },
+   "attested": [
+    "btu:ios.15.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "ndeib:CAZOR"
    ]
@@ -3510,18 +3619,10 @@
    "attested": [
     "btu:ios.18.15",
     "btu:ios.18.28",
-    "btu:ios.15.9",
-    "btu:ios.15.60",
     "btu:ios.18.14",
-    "btu:idc.18.12",
-    "btu:1par.13.6",
-    "btu:1par.2.50",
     "btu:ios.18.13",
     "btu:2par.13.19",
     "btu:1par.8.12",
-    "btu:ier.20.2",
-    "btu:ier.37.13",
-    "btu:zach.14.10",
     "btu:1reg.15.16",
     "btu:2reg.14.11",
     "btu:2reg.23.8",
@@ -4239,7 +4340,6 @@
     "btu:2sam.23.15",
     "btu:lc.2.7",
     "btu:lc.2.8",
-    "btu:gn.35.21",
     "btu:mt.2.16",
     "btu:mt.2.17",
     "btu:mt.2.18",
@@ -5601,6 +5701,7 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:CAZOR",
     "ndeib:KERIOT-CHEZRON"
    ]
   },
@@ -5792,9 +5893,7 @@
    },
    "attested": [
     "btu:1par.6.57",
-    "btu:ios.21.18",
-    "btu:ios.12.22",
-    "btu:idc.4.11"
+    "btu:ios.12.22"
    ],
    "relations": [
     {
@@ -5856,8 +5955,6 @@
     "en": "Kedesh of Naphtali in Galilee, city of refuge"
    },
    "attested": [
-    "btu:idc.4.11",
-    "btu:idc.4.6",
     "btu:ios.20.7",
     "btu:1par.6.61",
     "btu:ios.21.32",
@@ -5865,6 +5962,30 @@
     "btu:2reg.15.29",
     "btu:1mac.11.63",
     "btu:1mac.11.73"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:KEDES"
+   ],
+   "review": "uncertain"
+  },
+  "bplace:cedes.saananim": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Cedes",
+    "it": "Kedes",
+    "en": "Kedesh"
+   },
+   "description": {
+    "it": "presso la quercia di Zaanannim, raduno di Barak in Neftali",
+    "en": "near the oak of Zaanannim, Barak's muster point in Naphtali"
+   },
+   "attested": [
+    "btu:idc.4.11",
+    "btu:idc.4.6"
    ],
    "relations": [],
    "qid": null,
@@ -6327,8 +6448,7 @@
     "btu:gn.30.24",
     "btu:2reg.19.12",
     "btu:is.37.12",
-    "btu:ez.27.23",
-    "btu:1par.2.46"
+    "btu:ez.27.23"
    ],
    "relations": [],
    "qid": null,
@@ -9907,10 +10027,7 @@
     "btu:ex.8.18",
     "btu:ex.9.26",
     "btu:ex.11.2",
-    "btu:ex.12.35",
-    "btu:ios.10.41",
-    "btu:ios.11.16",
-    "btu:ios.15.51"
+    "btu:ex.12.35"
    ],
    "relations": [
     {
@@ -9921,8 +10038,8 @@
      ]
     }
    ],
-   "qid": "Q1261081",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "ndeib:GOSEN"
    ]
@@ -10296,6 +10413,51 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:SODOMA E GOMORRA"
+   ]
+  },
+  "bplace:gosen.oppidum": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Gosen",
+    "it": "Gosen",
+    "en": "Goshen"
+   },
+   "description": {
+    "it": "città della montagna di Giuda, a sud-ovest di Ebron",
+    "en": "town in the hill country of Judah, southwest of Hebron"
+   },
+   "attested": [
+    "btu:ios.15.51"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GOSEN"
+   ]
+  },
+  "bplace:gosen.regio": {
+   "type": "place",
+   "kind": "region",
+   "names": {
+    "la": "Gosen",
+    "it": "Gosen",
+    "en": "Goshen"
+   },
+   "description": {
+    "it": "distretto della Palestina meridionale conquistato da Giosuè",
+    "en": "district of southern Palestine conquered by Joshua"
+   },
+   "attested": [
+    "btu:ios.10.41",
+    "btu:ios.11.16"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GOSEN"
    ]
   },
   "bplace:gozan": {
@@ -13403,6 +13565,28 @@
    ],
    "review": "uncertain"
   },
+  "bplace:laban.deserti": {
+   "type": "place",
+   "kind": "site",
+   "names": {
+    "la": "Laban",
+    "it": "Labano",
+    "en": "Laban"
+   },
+   "description": {
+    "it": "località non identificata nel deserto oltre il Giordano",
+    "en": "unidentified place in the wilderness beyond the Jordan"
+   },
+   "attested": [
+    "btu:dt.1.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:LABANO"
+   ]
+  },
   "bplace:lachis": {
    "type": "place",
    "kind": "city",
@@ -14847,8 +15031,6 @@
     "btu:ier.40.8",
     "btu:ier.40.10",
     "btu:ier.40.12",
-    "btu:ne.3.15",
-    "btu:ne.3.19",
     "btu:1mac.3.46"
    ],
    "relations": [],
@@ -14881,8 +15063,7 @@
     "btu:idc.10.17",
     "btu:idc.11.11",
     "btu:idc.11.34",
-    "btu:idc.11.29",
-    "btu:ios.13.26"
+    "btu:idc.11.29"
    ],
    "relations": [],
    "qid": null,
@@ -17357,10 +17538,7 @@
    "attested": [
     "btu:nm.31.8",
     "btu:2reg.14.7",
-    "btu:2par.25.12",
-    "btu:is.42.11",
-    "btu:is.16.1",
-    "btu:idc.1.36"
+    "btu:2par.25.12"
    ],
    "relations": [],
    "qid": null,
@@ -17370,6 +17548,51 @@
     "ndeib:SELA"
    ],
    "review": "uncertain"
+  },
+  "bplace:petra.deserti": {
+   "type": "place",
+   "kind": "site",
+   "names": {
+    "la": "Petra",
+    "it": "Sela",
+    "en": "Sela"
+   },
+   "description": {
+    "it": "luogo verso il deserto, da cui Moab manda tributo a Sion",
+    "en": "place toward the desert from which Moab sends tribute to Zion"
+   },
+   "attested": [
+    "btu:is.16.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SELA"
+   ],
+   "review": "uncertain"
+  },
+  "bplace:petra.terminus": {
+   "type": "place",
+   "kind": "site",
+   "names": {
+    "la": "Petra",
+    "it": "Sela",
+    "en": "Sela"
+   },
+   "description": {
+    "it": "località non identificata sul confine di Edom (Gdc 1)",
+    "en": "unidentified place on the border of Edom (Judg 1)"
+   },
+   "attested": [
+    "btu:idc.1.36"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SELA"
+   ]
   },
   "bplace:phanuel": {
    "type": "place",
@@ -17934,6 +18157,67 @@
     "ndeib:PONTO"
    ]
   },
+  "bplace:porta-beniamin.superior": {
+   "type": "place",
+   "kind": "building",
+   "names": {
+    "la": "porta Beniamin superior",
+    "it": "Porta superiore di Beniamino",
+    "en": "Upper Benjamin Gate"
+   },
+   "description": {
+    "it": "porta superiore nel recinto del Tempio, dove Geremia fu messo in ceppi",
+    "en": "upper gate in the Temple precinct where Jeremiah was put in stocks"
+   },
+   "attested": [
+    "btu:ier.20.2"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:templum",
+     "evidence": [
+      "ndeib:BENIAMINO"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:BENIAMINO"
+   ]
+  },
+  "bplace:porta-beniamin.urbis": {
+   "type": "place",
+   "kind": "building",
+   "names": {
+    "la": "porta Beniamin",
+    "it": "Porta di Beniamino",
+    "en": "Benjamin Gate"
+   },
+   "description": {
+    "it": "porta delle mura di Gerusalemme, dove Geremia fu arrestato",
+    "en": "gate in the walls of Jerusalem where Jeremiah was arrested"
+   },
+   "attested": [
+    "btu:ier.37.13",
+    "btu:zach.14.10"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:ierusalem",
+     "evidence": [
+      "ndeib:BENIAMINO"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:BENIAMINO"
+   ]
+  },
   "bplace:porticus-salomonis": {
    "type": "place",
    "kind": "building",
@@ -18221,6 +18505,28 @@
     "ndeib:FIGLIO, FIGLIO DI DIO#1"
    ]
   },
+  "bplace:rama.aser": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Rama",
+    "it": "Rama",
+    "en": "Ramah"
+   },
+   "description": {
+    "it": "località sul confine della tribù di Aser",
+    "en": "place on the boundary of the tribe of Asher"
+   },
+   "attested": [
+    "btu:ios.19.29"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:RAMA"
+   ]
+  },
   "bplace:rama.beniamin": {
    "type": "place",
    "kind": "city",
@@ -18247,9 +18553,29 @@
     "btu:is.10.29",
     "btu:ier.31.15",
     "btu:os.5.8",
-    "btu:gn.35.19",
-    "btu:1sam.10.2",
     "btu:mt.2.18"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:RAMA"
+   ]
+  },
+  "bplace:rama.nephthali": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Rama",
+    "it": "Rama",
+    "en": "Ramah"
+   },
+   "description": {
+    "it": "città fortificata della tribù di Neftali",
+    "en": "fortified town of the tribe of Naphtali"
+   },
+   "attested": [
+    "btu:ios.19.36"
    ],
    "relations": [],
    "qid": null,
@@ -18286,6 +18612,29 @@
     "ndeib:RAMA"
    ],
    "review": "uncertain"
+  },
+  "bplace:ramathnageb": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Ramathnageb",
+    "it": "Ramat-Negheb",
+    "en": "Ramath-negeb"
+   },
+   "description": {
+    "it": "località meridionale nel territorio di Simeone",
+    "en": "southern town in the territory of Simeon"
+   },
+   "attested": [
+    "btu:ios.19.8",
+    "btu:1sam.30.27"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:RAMA"
+   ]
   },
   "bplace:ramesses": {
    "type": "place",
@@ -18325,6 +18674,87 @@
     "en": "city of refuge of Gad east of the Jordan"
    },
    "attested": [
+    "btu:2reg.8.28",
+    "btu:2par.22.5",
+    "btu:1reg.4.13",
+    "btu:1reg.22.3",
+    "btu:1reg.22.1",
+    "btu:1reg.22.2",
+    "btu:1reg.22.4",
+    "btu:1reg.22.5",
+    "btu:1reg.22.6",
+    "btu:1reg.22.7",
+    "btu:1reg.22.8",
+    "btu:1reg.22.9",
+    "btu:1reg.22.10",
+    "btu:1reg.22.11",
+    "btu:1reg.22.12",
+    "btu:1reg.22.13",
+    "btu:1reg.22.14",
+    "btu:1reg.22.15",
+    "btu:1reg.22.16",
+    "btu:1reg.22.17",
+    "btu:1reg.22.18",
+    "btu:1reg.22.19",
+    "btu:1reg.22.20",
+    "btu:1reg.22.21",
+    "btu:1reg.22.22",
+    "btu:1reg.22.23",
+    "btu:1reg.22.24",
+    "btu:1reg.22.25",
+    "btu:1reg.22.26",
+    "btu:1reg.22.27",
+    "btu:1reg.22.28",
+    "btu:1reg.22.29",
+    "btu:1reg.22.30",
+    "btu:1reg.22.31",
+    "btu:1reg.22.32",
+    "btu:1reg.22.33",
+    "btu:1reg.22.34",
+    "btu:1reg.22.35",
+    "btu:1reg.22.36",
+    "btu:1reg.22.37",
+    "btu:1reg.22.38",
+    "btu:1reg.22.39",
+    "btu:1reg.22.40",
+    "btu:2par.18.1",
+    "btu:2par.18.2",
+    "btu:2par.18.3",
+    "btu:2par.18.4",
+    "btu:2par.18.5",
+    "btu:2par.18.6",
+    "btu:2par.18.7",
+    "btu:2par.18.8",
+    "btu:2par.18.9",
+    "btu:2par.18.10",
+    "btu:2par.18.11",
+    "btu:2par.18.12",
+    "btu:2par.18.13",
+    "btu:2par.18.14",
+    "btu:2par.18.15",
+    "btu:2par.18.16",
+    "btu:2par.18.17",
+    "btu:2par.18.18",
+    "btu:2par.18.19",
+    "btu:2par.18.20",
+    "btu:2par.18.21",
+    "btu:2par.18.22",
+    "btu:2par.18.23",
+    "btu:2par.18.24",
+    "btu:2par.18.25",
+    "btu:2par.18.26",
+    "btu:2par.18.27",
+    "btu:2par.18.28",
+    "btu:2par.18.29",
+    "btu:2par.18.30",
+    "btu:2par.18.31",
+    "btu:2par.18.32",
+    "btu:2par.18.33",
+    "btu:2par.18.34",
+    "btu:2par.19.1",
+    "btu:2par.19.2",
+    "btu:2par.19.3",
+    "btu:2reg.9.1",
     "btu:dt.4.43",
     "btu:ios.20.8",
     "btu:ios.21.38",
@@ -18356,6 +18786,7 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:RAMA",
     "ndeib:RAMOT DI GALAAD#0"
    ]
   },
@@ -19807,10 +20238,7 @@
    },
    "attested": [
     "btu:1mac.11.8",
-    "btu:act.13.4",
-    "btu:act.14.26",
-    "btu:act.15.30",
-    "btu:act.15.39"
+    "btu:act.13.4"
    ],
    "relations": [],
    "qid": null,

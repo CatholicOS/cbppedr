@@ -10,6 +10,139 @@
    "bpers:nahum": [
     "btu:nah.1.1"
    ]
+  },
+  "ANANIA": {
+   "bpers:hananias.azur-filius": [
+    "btu:ier.28.1",
+    "btu:ier.28.5",
+    "btu:ier.28.10",
+    "btu:ier.28.11",
+    "btu:ier.28.12",
+    "btu:ier.28.13",
+    "btu:ier.28.15",
+    "btu:ier.28.17"
+   ],
+   "bpers:hananias.unguentarius": [
+    "btu:ne.3.8"
+   ],
+   "bpers:hanania.filius-selemiae": [
+    "btu:ne.3.30"
+   ],
+   "bpers:hanania.sacerdos-ieremiae": [
+    "btu:ne.12.12"
+   ],
+   "bpers:hanania.sacerdos-tubicen": [
+    "btu:ne.12.41"
+   ],
+   "bpers:ananias.princeps-sacerdotum": [
+    "btu:act.23.2",
+    "btu:act.24.1"
+   ]
+  },
+  "SERAIA": {
+   "bpers:saraia.filius-azriel": [
+    "btu:ier.36.26"
+   ]
+  },
+  "SIMEI, SIMEITI": {
+   "bpers:semei.levita-esdrae": [
+    "btu:esd.10.23"
+   ],
+   "bpers:semei.de-filiis-hasum": [
+    "btu:esd.10.33"
+   ],
+   "bpers:semei.de-filiis-bennui": [
+    "btu:esd.10.38"
+   ]
+  },
+  "GEREMIA": {
+   "bpers:ieremias.gaddita-quintus": [
+    "btu:1par.12.11"
+   ],
+   "bpers:ieremias.gaddita-decimus": [
+    "btu:1par.12.14"
+   ]
+  },
+  "SEMAIA": {
+   "bpers:semeia.sacerdos-de-filiis-harim": [
+    "btu:esd.10.21"
+   ],
+   "bpers:semeias.laicus-de-filiis-harim": [
+    "btu:esd.10.31"
+   ],
+   "bpers:semeia.sacerdos-dedicationis": [
+    "btu:ne.12.42"
+   ]
+  },
+  "OSEA": {
+   "bpers:osee.propheta": [
+    "btu:os.1.1",
+    "btu:os.1.2"
+   ]
+  },
+  "GIOELE": {
+   "bpers:ioel.propheta": [
+    "btu:il.1.1"
+   ]
+  },
+  "CAZOR": {
+   "bplace:asor.arabiae": [
+    "btu:ier.49.28",
+    "btu:ier.49.30",
+    "btu:ier.49.33"
+   ]
+  },
+  "EMAN": {
+   "bpers:heman.ezrahita": [
+    "btu:ps.88.1"
+   ]
+  },
+  "IOTAM": {
+   "bpers:ioatham.filius-ierobbaal": [
+    "btu:idc.9.5",
+    "btu:idc.9.7",
+    "btu:idc.9.21",
+    "btu:idc.9.57"
+   ]
+  },
+  "ISMAELE": {
+   "bpers:ismael.filius-nathaniae": [
+    "btu:ier.40.7",
+    "btu:ier.40.8",
+    "btu:ier.40.9",
+    "btu:ier.40.10",
+    "btu:ier.40.11",
+    "btu:ier.40.12",
+    "btu:ier.40.13",
+    "btu:ier.40.14",
+    "btu:ier.40.15",
+    "btu:ier.40.16",
+    "btu:ier.41.1",
+    "btu:ier.41.2",
+    "btu:ier.41.3",
+    "btu:ier.41.4",
+    "btu:ier.41.5",
+    "btu:ier.41.6",
+    "btu:ier.41.7",
+    "btu:ier.41.8",
+    "btu:ier.41.9",
+    "btu:ier.41.10",
+    "btu:ier.41.11",
+    "btu:ier.41.12",
+    "btu:ier.41.13",
+    "btu:ier.41.14",
+    "btu:ier.41.15",
+    "btu:ier.41.16",
+    "btu:ier.41.17",
+    "btu:ier.41.18",
+    "btu:2reg.25.23",
+    "btu:2reg.25.25"
+   ]
+  },
+  "SEALTIEL": {
+   "bpers:salamiel": [
+    "btu:idt.8.1"
+   ]
   }
  }
 }

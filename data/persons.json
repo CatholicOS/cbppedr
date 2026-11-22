@@ -267,6 +267,74 @@
     "ndeib:ABDL"
    ]
   },
+  "bpers:abdia.filius-hananiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdia",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "discendente postesilico di Davide, figlio di Anania",
+    "en": "postexilic descendant of David, son of Hananiah"
+   },
+   "attested": [
+    "btu:1par.3.21"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
+  "bpers:abdia.filius-iahiel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdia",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "figlio di Iechiel, del clan di Ioab, rimpatriato con Esdra",
+    "en": "son of Jehiel, of Joab's clan, returned with Ezra"
+   },
+   "attested": [
+    "btu:esd.8.9"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
+  "bpers:abdia.levita-idithun": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdia",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "levita di Gerusalemme, figlio di Semaia, della stirpe di Iedutun",
+    "en": "Levite in Jerusalem, son of Shemaiah, of Jeduthun's line"
+   },
+   "attested": [
+    "btu:1par.9.16",
+    "btu:ne.12.25",
+    "btu:ne.11.17"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
   "bpers:abdias.dispensator-achab": {
    "type": "person",
    "kind": "individual",
@@ -302,6 +370,28 @@
     "ndeib:ABDIA"
    ]
   },
+  "bpers:abdias.gaddita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdias",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "gadita unitosi a Davide a Siklag",
+    "en": "Gadite who joined David at Ziklag"
+   },
+   "attested": [
+    "btu:1par.12.9"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
   "bpers:abdias.levita-merarita": {
    "type": "person",
    "kind": "individual",
@@ -316,6 +406,28 @@
    },
    "attested": [
     "btu:2par.34.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
+  "bpers:abdias.princeps-iosaphat": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdias",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "ufficiale inviato da Giosafat a insegnare la legge",
+    "en": "official sent by Jehoshaphat to teach the Law"
+   },
+   "attested": [
+    "btu:2par.17.7"
    ],
    "relations": [],
    "qid": null,
@@ -345,6 +457,28 @@
    "evidence": [
     "ndeib:ABDIA",
     "ndeib:ABDIA, LIBRO DI A"
+   ]
+  },
+  "bpers:abdias.sacerdos-signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdias",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "sacerdote firmatario dell'impegno sotto Neemia",
+    "en": "priest who sealed the pledge under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
    ]
   },
   "bpers:abdias.zabulonita": {
@@ -2615,12 +2749,14 @@
     "en": "son of Abiathar, priest under David"
    },
    "attested": [
+    "btu:1par.18.16",
     "btu:2sam.8.17"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:ABIMELECH",
     "ndeib:ACHIMELECH"
    ]
   },
@@ -2658,11 +2794,17 @@
     "it": "sacerdote di Nob, ucciso per ordine di Saul",
     "en": "priest of Nob, killed on Saul's orders"
    },
-   "attested": [],
+   "attested": [
+    "btu:1sam.14.3",
+    "btu:1sam.14.18",
+    "btu:1sam.21.2",
+    "btu:1sam.22.9"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:ACHIA#1",
     "ndeib:ACHIMELECH"
    ]
   },
@@ -2764,15 +2906,7 @@
     "btu:2sam.8.17",
     "btu:1par.5.33"
    ],
-   "relations": [
-    {
-     "rel": "child_of",
-     "target": "bpers:amaria.sacerdos-zorobabel",
-     "evidence": [
-      "ndeib:ACHITUB"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": "Q115738592",
    "qid_status": "auto",
    "evidence": [
@@ -3509,6 +3643,31 @@
     "ndeib:ADONIRAM"
    ]
   },
+  "bpers:adoram.filius-thou": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Adoram",
+    "it": "Ioram",
+    "en": "Hadoram"
+   },
+   "description": {
+    "it": "figlio di Tou re di Camat, inviato a Davide",
+    "en": "son of Toi king of Hamath, sent to David"
+   },
+   "attested": [
+    "btu:2sam.8.9",
+    "btu:2sam.8.10",
+    "btu:2sam.8.11",
+    "btu:2sam.8.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IORAM"
+   ]
+  },
   "bpers:adramelech.deus": {
    "type": "person",
    "kind": "deity",
@@ -3807,6 +3966,148 @@
     "ndeib:ACAZ#2"
    ]
   },
+  "bpers:ahia.aod-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Ecud, deportato a Manacat",
+    "en": "Benjaminite, son of Ehud, deported to Manahath"
+   },
+   "attested": [
+    "btu:1par.8.7"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ]
+  },
+  "bpers:ahia.ierameel-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "figlio di Ieracmeel nella genealogia di Giuda",
+    "en": "son of Jerahmeel in the genealogy of Judah"
+   },
+   "attested": [
+    "btu:1par.2.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ],
+   "review": "uncertain"
+  },
+  "bpers:ahia.pater-baasa": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "issacarita, padre del re Baasa",
+    "en": "Issacharite, father of King Baasha"
+   },
+   "attested": [
+    "btu:1reg.15.27",
+    "btu:1reg.15.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:baasa",
+     "evidence": [
+      "ndeib:ACHIA#1"
+     ]
+    }
+   ],
+   "qid": "Q114841071",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ]
+  },
+  "bpers:ahia.phelonites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "il Pelonita, uno dei prodi di Davide",
+    "en": "the Pelonite, one of David's mighty men"
+   },
+   "attested": [
+    "btu:1par.11.36"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ]
+  },
+  "bpers:ahia.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "firmatario del patto al tempo di Neemia",
+    "en": "signatory of the covenant in Nehemiah's time"
+   },
+   "attested": [
+    "btu:ne.10.27"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ]
+  },
+  "bpers:ahia.sisa-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahia",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "figlio di Sisa, scriba alla corte di Salomone",
+    "en": "son of Shisha, scribe at Solomon's court"
+   },
+   "attested": [
+    "btu:1reg.4.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ACHIA#1"
+   ]
+  },
   "bpers:ahialon": {
    "type": "person",
    "kind": "individual",
@@ -3864,19 +4165,7 @@
     "btu:1reg.14.13",
     "btu:1reg.14.14",
     "btu:1reg.14.15",
-    "btu:1reg.14.16",
-    "btu:1sam.14.3",
-    "btu:1sam.14.18",
-    "btu:1sam.21.2",
-    "btu:1sam.22.9",
-    "btu:1reg.4.3",
-    "btu:1reg.15.27",
-    "btu:1reg.15.33",
-    "btu:1par.2.25",
-    "btu:1par.8.7",
-    "btu:1par.11.36",
-    "btu:1par.26.20",
-    "btu:ne.10.27"
+    "btu:1reg.14.16"
    ],
    "relations": [],
    "qid": null,
@@ -4295,6 +4584,28 @@
     "ndeib:AMARIA"
    ]
   },
+  "bpers:amaria.uxorem-dimittens": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Amaria",
+    "it": "Amarìa",
+    "en": "Amariah"
+   },
+   "description": {
+    "it": "israelita che congedò la moglie straniera al tempo di Esdra",
+    "en": "Israelite who sent away his foreign wife in Ezra's time"
+   },
+   "attested": [
+    "btu:esd.10.42"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:AMARIA"
+   ]
+  },
   "bpers:amarias.avus-esdrae": {
    "type": "person",
    "kind": "individual",
@@ -4622,6 +4933,28 @@
     "ndeib:AMASAI"
    ]
   },
+  "bpers:amasias.merarita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Amasias",
+    "it": "Amasìa",
+    "en": "Amaziah"
+   },
+   "description": {
+    "it": "levita discendente di Merari, antenato di Etan",
+    "en": "Levite descended from Merari, ancestor of Ethan"
+   },
+   "attested": [
+    "btu:1par.6.30"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:AMAZIA"
+   ]
+  },
   "bpers:amasias.rex-iudae": {
    "type": "person",
    "kind": "individual",
@@ -4685,6 +5018,28 @@
     "btu:am.7.15",
     "btu:am.7.16",
     "btu:am.7.17"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:AMAZIA"
+   ]
+  },
+  "bpers:amasias.simeonita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Amasias",
+    "it": "Amasìa",
+    "en": "Amaziah"
+   },
+   "description": {
+    "it": "simeonita, padre di Iosa",
+    "en": "Simeonite, father of Joshah"
+   },
+   "attested": [
+    "btu:1par.4.34"
    ],
    "relations": [],
    "qid": null,
@@ -5426,6 +5781,95 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ANAM-MELECH"
+   ]
+  },
+  "bpers:ananias.damascenus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ananias",
+    "it": "Anania",
+    "en": "Ananias"
+   },
+   "description": {
+    "it": "discepolo di Damasco che accolse Saulo convertito",
+    "en": "disciple at Damascus who received the converted Saul"
+   },
+   "attested": [
+    "btu:act.9.10"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:ananias.danielis-socius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "giudeo deportato con Daniele, ribattezzato Sadrach",
+    "en": "Judean exile with Daniel, renamed Shadrach"
+   },
+   "attested": [
+    "btu:dn.1.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:ananias.maritus-sapphirae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ananias",
+    "it": "Anania",
+    "en": "Ananias"
+   },
+   "description": {
+    "it": "cristiano di Gerusalemme morto dopo aver mentito sul ricavato",
+    "en": "Jerusalem Christian who died after lying about the proceeds"
+   },
+   "attested": [
+    "btu:act.5.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:ananias.princeps-sacerdotum": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ananias",
+    "it": "Anania",
+    "en": "Ananias"
+   },
+   "description": {
+    "it": "sommo sacerdote, figlio di Nedebeo, al processo di Paolo",
+    "en": "high priest, son of Nedebaeus, at Paul's hearing"
+   },
+   "attested": [
+    "btu:act.23.2",
+    "btu:act.24.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
    ]
   },
   "bpers:andreas": {
@@ -9507,6 +9951,50 @@
     "ndeib:BEN-AMMI"
    ]
   },
+  "bpers:beniamin.bilhan-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Beniamin",
+    "it": "Beniamino",
+    "en": "Benjamin"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Bilan, discendente di Iedaiel",
+    "en": "Benjaminite, son of Bilhan, descendant of Jediael"
+   },
+   "attested": [
+    "btu:1par.7.10"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:BENIAMINO"
+   ]
+  },
+  "bpers:beniamin.de-filiis-harim": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Beniamin",
+    "it": "Beniamino",
+    "en": "Benjamin"
+   },
+   "description": {
+    "it": "dei figli di Carim, sposò una straniera al tempo di Esdra",
+    "en": "of the sons of Harim, married a foreign wife under Ezra"
+   },
+   "attested": [
+    "btu:esd.10.32"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:BENIAMINO"
+   ]
+  },
   "bpers:beniamin.iacob-filius": {
    "type": "person",
    "kind": "individual",
@@ -9521,9 +10009,7 @@
    },
    "attested": [
     "btu:gn.35.18",
-    "btu:gn.35.24",
-    "btu:gn.46.21",
-    "btu:gn.49.27"
+    "btu:gn.35.24"
    ],
    "relations": [
     {
@@ -9640,12 +10126,6 @@
     "btu:1par.8.28",
     "btu:1reg.12.21",
     "btu:1reg.11.32",
-    "btu:ier.20.2",
-    "btu:ier.37.13",
-    "btu:zach.14.10",
-    "btu:1reg.15.16",
-    "btu:2reg.14.11",
-    "btu:2reg.23.8",
     "btu:ne.11.7"
    ],
    "relations": [],
@@ -10499,10 +10979,7 @@
     "btu:gn.4.13",
     "btu:gn.4.14",
     "btu:gn.4.15",
-    "btu:gn.4.16",
-    "btu:gn.9.12",
-    "btu:gn.9.13",
-    "btu:ios.15.57"
+    "btu:gn.4.16"
    ],
    "relations": [
     {
@@ -11315,6 +11792,28 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CARMI"
+   ]
+  },
+  "bpers:charran.chaleb-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Charran",
+    "it": "Carran",
+    "en": "Haran"
+   },
+   "description": {
+    "it": "giudaita, figlio di Caleb e della concubina Efa",
+    "en": "Judahite, son of Caleb by his concubine Ephah"
+   },
+   "attested": [
+    "btu:1par.2.46"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:CARRAN"
    ]
   },
   "bpers:cherethi": {
@@ -18438,15 +18937,107 @@
     "btu:ier.41.2",
     "btu:ier.41.3",
     "btu:zach.7.5",
-    "btu:zach.8.19",
+    "btu:zach.8.19"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GODOLIA, GHEDALIA#1"
+   ]
+  },
+  "bpers:godolias.avus-sophoniae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Godolias",
+    "it": "Godolìa",
+    "en": "Gedaliah"
+   },
+   "description": {
+    "it": "nonno del profeta Sofonia, figlio di Amaria",
+    "en": "grandfather of the prophet Zephaniah, son of Amariah"
+   },
+   "attested": [
+    "btu:soph.1.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GODOLIA, GHEDALIA#1"
+   ]
+  },
+  "bpers:godolias.filius-idithun": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Godolias",
+    "it": "Godolìa",
+    "en": "Gedaliah"
+   },
+   "description": {
+    "it": "figlio di Iedutun, levita, musico del Tempio",
+    "en": "son of Jeduthun, Levite musician of the Temple"
+   },
+   "attested": [
     "btu:1par.25.3",
-    "btu:1par.25.9",
-    "btu:esd.10.18",
+    "btu:1par.25.9"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:idithun",
+     "evidence": [
+      "ndeib:GODOLIA, GHEDALIA#1"
+     ]
+    }
+   ],
+   "qid": "Q140486002",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:GODOLIA, GHEDALIA#1"
+   ]
+  },
+  "bpers:godolias.filius-phassur": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Godolias",
+    "it": "Godolìa",
+    "en": "Gedaliah"
+   },
+   "description": {
+    "it": "figlio di Pascur, dignitario avverso a Geremia",
+    "en": "son of Pashhur, official hostile to Jeremiah"
+   },
+   "attested": [
     "btu:ier.38.1",
     "btu:ier.38.4",
     "btu:ier.38.5",
-    "btu:ier.38.6",
-    "btu:soph.1.1"
+    "btu:ier.38.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GODOLIA, GHEDALIA#1"
+   ]
+  },
+  "bpers:godolias.sacerdos-esdrae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Godolias",
+    "it": "Godolìa",
+    "en": "Gedaliah"
+   },
+   "description": {
+    "it": "sacerdote che aveva sposato una straniera, sotto Esdra",
+    "en": "priest married to a foreign wife in Ezra's time"
+   },
+   "attested": [
+    "btu:esd.10.18"
    ],
    "relations": [],
    "qid": null,
@@ -19017,6 +19608,116 @@
     "ndeib:CANANI"
    ]
   },
+  "bpers:hanania.beniaminita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanania",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Sesac",
+    "en": "Benjaminite, son of Shashak"
+   },
+   "attested": [
+    "btu:1par.8.24"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hanania.filius-bebai": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanania",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "dei figli di Bebai, sposato con una straniera",
+    "en": "of the sons of Bebai, married to a foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.28"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hanania.filius-selemiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanania",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "figlio di Selemia, restauratore delle mura",
+    "en": "son of Shelemiah, repairer of the wall"
+   },
+   "attested": [
+    "btu:ne.3.30"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hanania.sacerdos-ieremiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanania",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "sacerdote, capo della casa di Geremia sotto Ioiakim",
+    "en": "priest, head of Jeremiah's house under Joiakim"
+   },
+   "attested": [
+    "btu:ne.12.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hanania.sacerdos-tubicen": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanania",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "sacerdote trombettiere alla dedicazione delle mura",
+    "en": "priest trumpeter at the dedication of the wall"
+   },
+   "attested": [
+    "btu:ne.12.41"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
   "bpers:hananias.avus-ieriae": {
    "type": "person",
    "kind": "individual",
@@ -19051,8 +19752,93 @@
     "it": "profeta di Gabaon, figlio di Azzur, avversario di Geremia",
     "en": "prophet from Gibeon, son of Azzur, opponent of Jeremiah"
    },
-   "attested": [],
+   "attested": [
+    "btu:ier.28.1",
+    "btu:ier.28.5",
+    "btu:ier.28.10",
+    "btu:ier.28.11",
+    "btu:ier.28.12",
+    "btu:ier.28.13",
+    "btu:ier.28.15",
+    "btu:ier.28.17"
+   ],
    "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hananias.dux-oziae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "comandante dell'esercito del re Ozia",
+    "en": "army commander of King Uzziah"
+   },
+   "attested": [
+    "btu:2par.26.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hananias.filius-heman": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "levita cantore, figlio di Eman, capo di un turno",
+    "en": "Levite singer, son of Heman, head of a course"
+   },
+   "attested": [
+    "btu:1par.25.4",
+    "btu:1par.25.23"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hananias.filius-zorobabel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "figlio di Zorobabele, della casa di Davide",
+    "en": "son of Zerubbabel, of David's house"
+   },
+   "attested": [
+    "btu:1par.3.19",
+    "btu:1par.3.21"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:zorobabel",
+     "evidence": [
+      "ndeib:ANANIA"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -19073,6 +19859,50 @@
    },
    "attested": [
     "btu:ier.36.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hananias.princeps-arcis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "comandante della cittadella di Gerusalemme sotto Neemia",
+    "en": "commander of Jerusalem's citadel under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.7.2"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ANANIA"
+   ]
+  },
+  "bpers:hananias.unguentarius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hananias",
+    "it": "Anania",
+    "en": "Hananiah"
+   },
+   "description": {
+    "it": "profumiere che restaurò le mura sotto Neemia",
+    "en": "perfumer who repaired the wall under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.3.8"
    ],
    "relations": [],
    "qid": null,
@@ -20134,6 +20964,29 @@
     "ndeib:EMAN"
    ]
   },
+  "bpers:heman.ezrahita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Heman",
+    "it": "Eman",
+    "en": "Heman"
+   },
+   "description": {
+    "it": "l'Ezraita, nominato nel titolo del Salmo 88",
+    "en": "the Ezrahite, named in the title of Psalm 88"
+   },
+   "attested": [
+    "btu:ps.88.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:EMAN"
+   ],
+   "review": "uncertain"
+  },
   "bpers:heman.sapiens": {
    "type": "person",
    "kind": "individual",
@@ -20143,8 +20996,8 @@
     "en": "Heman"
    },
    "description": {
-    "it": "sapiente superato da Salomone, nominato nel titolo del Salmo 88",
-    "en": "sage surpassed by Solomon, named in the title of Psalm 88"
+    "it": "sapiente, figlio di Macol, superato in sapienza da Salomone",
+    "en": "sage, son of Mahol, surpassed in wisdom by Solomon"
    },
    "attested": [
     "btu:1reg.5.11",
@@ -22434,6 +23287,54 @@
     "ndeib:GIASONE"
    ]
   },
+  "bpers:iason.cyrenaeus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iason",
+    "it": "Giàsone di Cirene",
+    "en": "Jason of Cyrene"
+   },
+   "description": {
+    "it": "storico cireneo delle guerre maccabaiche, in cinque libri",
+    "en": "Cyrenian historian of the Maccabean wars, in five books"
+   },
+   "attested": [
+    "btu:2mac.2.23"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIASONE"
+   ]
+  },
+  "bpers:iason.eleazari-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iason",
+    "it": "Giàsone",
+    "en": "Jason"
+   },
+   "description": {
+    "it": "figlio di Eleazaro, inviato a Roma da Giuda Maccabeo",
+    "en": "son of Eleazar, envoy of Judas Maccabeus to Rome"
+   },
+   "attested": [
+    "btu:1mac.8.17",
+    "btu:1mac.8.18",
+    "btu:1mac.8.19",
+    "btu:1mac.8.20",
+    "btu:1mac.8.21"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIASONE"
+   ]
+  },
   "bpers:iason.thessalonicensis": {
    "type": "person",
    "kind": "individual",
@@ -22451,8 +23352,7 @@
     "btu:act.17.6",
     "btu:act.17.7",
     "btu:act.17.8",
-    "btu:act.17.9",
-    "btu:act.17.10"
+    "btu:act.17.9"
    ],
    "relations": [],
    "qid": null,
@@ -23099,6 +23999,94 @@
     "ndeib:IERACMEEL"
    ]
   },
+  "bpers:ieremia.princeps-manasse": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremia",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "capo di un casato di Manasse orientale",
+    "en": "head of a clan of eastern Manasseh"
+   },
+   "attested": [
+    "btu:1par.5.24"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
+  "bpers:ieremias.gaddita-decimus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremias",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "gadita, decimo dei capi unitisi a Davide",
+    "en": "Gadite, tenth of the chiefs who joined David"
+   },
+   "attested": [
+    "btu:1par.12.14"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
+  "bpers:ieremias.gaddita-quintus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremias",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "gadita, quinto dei capi unitisi a Davide",
+    "en": "Gadite, fifth of the chiefs who joined David"
+   },
+   "attested": [
+    "btu:1par.12.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
+  "bpers:ieremias.gederothites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremias",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "beniaminita di Ghedera, unitosi a Davide a Siklag",
+    "en": "Benjaminite Gederathite who joined David at Ziklag"
+   },
+   "attested": [
+    "btu:1par.12.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
   "bpers:ieremias.libnensis": {
    "type": "person",
    "kind": "individual",
@@ -23238,6 +24226,51 @@
     "btu:ier.16.5",
     "btu:ier.36.1",
     "btu:ier.45.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
+  "bpers:ieremias.sacerdos-reditus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremias",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "sacerdote rimpatriato con Zorobabele, capo di una famiglia sacerdotale",
+    "en": "priest who returned with Zerubbabel, head of a priestly house"
+   },
+   "attested": [
+    "btu:ne.12.1",
+    "btu:ne.12.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEREMIA"
+   ]
+  },
+  "bpers:ieremias.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ieremias",
+    "it": "Geremìa",
+    "en": "Jeremiah"
+   },
+   "description": {
+    "it": "sacerdote firmatario del patto al tempo di Neemia",
+    "en": "priest who sealed the covenant under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.3"
    ],
    "relations": [],
    "qid": null,
@@ -25339,6 +26372,29 @@
     "ndeib:IETRO"
    ]
   },
+  "bpers:iezabel.thyatirensis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iezabel",
+    "it": "Gezabele",
+    "en": "Jezebel"
+   },
+   "description": {
+    "it": "sedicente profetessa di Tiatira nell'Apocalisse",
+    "en": "self-styled prophetess at Thyatira in Revelation"
+   },
+   "attested": [
+    "btu:apc.2.20"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GEZABELE"
+   ],
+   "review": "uncertain"
+  },
   "bpers:iezabel.uxor-achab": {
    "type": "person",
    "kind": "individual",
@@ -25381,8 +26437,7 @@
     "btu:1reg.18.40",
     "btu:1reg.21.8",
     "btu:2reg.9.30",
-    "btu:1reg.21.23",
-    "btu:apc.2.20"
+    "btu:1reg.21.23"
    ],
    "relations": [],
    "qid": null,
@@ -25486,6 +26541,50 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IAZANIA, IAAZANIA#3"
+   ]
+  },
+  "bpers:iezrahel.iudaeus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iezrahel",
+    "it": "Izreel",
+    "en": "Jezreel"
+   },
+   "description": {
+    "it": "giudeo della discendenza di Cur, della stirpe di Etam",
+    "en": "Judahite of Hur's line, of the clan of Etam"
+   },
+   "attested": [
+    "btu:1par.4.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IZREEL"
+   ]
+  },
+  "bpers:iezrahel.osee-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iezrahel",
+    "it": "Izreel",
+    "en": "Jezreel"
+   },
+   "description": {
+    "it": "primogenito del profeta Osea, dal nome simbolico",
+    "en": "firstborn of the prophet Hosea, given a symbolic name"
+   },
+   "attested": [
+    "btu:os.1.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IZREEL"
    ]
   },
   "bpers:ioab.familia": {
@@ -26495,9 +27594,9 @@
     "en": "youngest son of Gideon, teller of the fable of the trees"
    },
    "attested": [
-    "btu:idc.9.55",
+    "btu:idc.9.5",
     "btu:idc.9.7",
-    "btu:idc.5.20",
+    "btu:idc.9.21",
     "btu:idc.9.57"
    ],
    "relations": [
@@ -26774,6 +27873,28 @@
    ],
    "review": "uncertain"
   },
+  "bpers:ioel.de-filiis-nabo": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioel",
+    "it": "Gioèle",
+    "en": "Joel"
+   },
+   "description": {
+    "it": "dei figli di Nebo, congedò la moglie straniera",
+    "en": "of the sons of Nebo, dismissed his foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.43"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIOELE"
+   ]
+  },
   "bpers:ioel.frater-nathan": {
    "type": "person",
    "kind": "individual",
@@ -26964,7 +28085,9 @@
     "it": "profeta, figlio di Petuèl",
     "en": "prophet, son of Pethuel"
    },
-   "attested": [],
+   "attested": [
+    "btu:il.1.1"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -26990,6 +28113,28 @@
     "btu:1sam.8.3",
     "btu:1par.6.18",
     "btu:1par.15.17"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIOELE"
+   ]
+  },
+  "bpers:ioel.zechri-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioel",
+    "it": "Gioèle",
+    "en": "Joel"
+   },
+   "description": {
+    "it": "figlio di Zicri, capo dei Beniaminiti a Gerusalemme",
+    "en": "son of Zichri, overseer of Benjaminites in Jerusalem"
+   },
+   "attested": [
+    "btu:ne.11.9"
    ],
    "relations": [],
    "qid": null,
@@ -27426,6 +28571,28 @@
     "ndeib:IOIADA"
    ]
   },
+  "bpers:ioiada.phasea-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioiada",
+    "it": "Ioiada",
+    "en": "Joiada"
+   },
+   "description": {
+    "it": "figlio di Paseach, restaurò la Porta Vecchia",
+    "en": "son of Paseah, repaired the Old Gate"
+   },
+   "attested": [
+    "btu:ne.3.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IOIADA"
+   ]
+  },
   "bpers:ioiada.sacerdos": {
    "type": "person",
    "kind": "individual",
@@ -27449,6 +28616,28 @@
     "btu:2par.24.3",
     "btu:2reg.12.7",
     "btu:2par.24.15"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IOIADA"
+   ]
+  },
+  "bpers:ioiada.sacerdos-ieremiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioiada",
+    "it": "Ioiada",
+    "en": "Jehoiada"
+   },
+   "description": {
+    "it": "sacerdote a Gerusalemme prima dell'esilio, sostituito da Semaia",
+    "en": "priest in Jerusalem before the exile, replaced by Shemaiah"
+   },
+   "attested": [
+    "btu:ier.29.26"
    ],
    "relations": [],
    "qid": null,
@@ -27640,6 +28829,130 @@
    ],
    "review": "uncertain"
   },
+  "bpers:ionathan.filius-caree": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "figlio di Karea, ufficiale venuto da Godolia a Mizpa",
+    "en": "son of Kareah, officer who came to Gedaliah at Mizpah"
+   },
+   "attested": [
+    "btu:ier.40.8"
+   ],
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:iohanan.caree-filius",
+     "evidence": [
+      "ndeib:GIONATA"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.filius-iada": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "giudaita della linea di Ieracmeel, figlio di Iada",
+    "en": "Judahite of Jerahmeel's line, son of Jada"
+   },
+   "attested": [
+    "btu:1par.2.32",
+    "btu:1par.2.33"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.filius-oziae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "figlio di Ozia, amministratore dei depositi reali di Davide",
+    "en": "son of Uzziah, overseer of David's royal stores"
+   },
+   "attested": [
+    "btu:1par.27.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.filius-sage": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "uno dei prodi di Davide, di Arar",
+    "en": "one of David's mighty men, from Harar"
+   },
+   "attested": [
+    "btu:1par.11.34",
+    "btu:2sam.23.32"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.filius-samma": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "figlio di Simea fratello di Davide, uccise un gigante di Gat",
+    "en": "son of David's brother Shimea, killed a giant of Gath"
+   },
+   "attested": [
+    "btu:2sam.21.21",
+    "btu:2sam.21.22",
+    "btu:1par.20.6",
+    "btu:1par.20.7"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ],
+   "review": "uncertain"
+  },
   "bpers:ionathan.gersam-filius": {
    "type": "person",
    "kind": "individual",
@@ -27654,6 +28967,138 @@
    },
    "attested": [
     "btu:idc.18.30"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.levita-iosaphat": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "levita inviato da Giosafat a insegnare la legge",
+    "en": "Levite sent by Jehoshaphat to teach the Law"
+   },
+   "attested": [
+    "btu:2par.17.8"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.pater-ebed": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "padre di Ebed, del clan di Adin",
+    "en": "father of Ebed, of the clan of Adin"
+   },
+   "attested": [
+    "btu:esd.8.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.pater-zachariae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "padre del sacerdote trombettiere Zaccaria",
+    "en": "father of Zechariah, a priestly trumpeter"
+   },
+   "attested": [
+    "btu:ne.12.35"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.patruus-david": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "zio e consigliere di Davide, uomo istruito",
+    "en": "David's uncle and counsellor, a learned man"
+   },
+   "attested": [
+    "btu:1par.27.32"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.sacerdos-milicho": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "sacerdote, capo della casa di Malluc sotto Ioiakim",
+    "en": "priest, head of Malluch's house under Joiakim"
+   },
+   "attested": [
+    "btu:ne.12.14"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIONATA"
+   ]
+  },
+  "bpers:ionathan.sacerdos-semeiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ionathan",
+    "it": "Giònata",
+    "en": "Jonathan"
+   },
+   "description": {
+    "it": "sacerdote, capo della casa di Semaia sotto Ioiakim",
+    "en": "priest, head of Shemaiah's house under Joiakim"
+   },
+   "attested": [
+    "btu:ne.12.18"
    ],
    "relations": [],
    "qid": null,
@@ -28001,6 +29446,28 @@
     "ndeib:IORAM"
    ]
   },
+  "bpers:ioram.filius-iesaiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioram",
+    "it": "Ioram",
+    "en": "Joram"
+   },
+   "description": {
+    "it": "levita, figlio di Isaia, della discendenza di Eliezer",
+    "en": "Levite, son of Jeshaiah, of Eliezer's line"
+   },
+   "attested": [
+    "btu:1par.26.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IORAM"
+   ]
+  },
   "bpers:ioram.filius-iosaphat": {
    "type": "person",
    "kind": "individual",
@@ -28033,6 +29500,28 @@
     "ndeib:IORAM"
    ],
    "review": "uncertain"
+  },
+  "bpers:ioram.sacerdos": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioram",
+    "it": "Ioram",
+    "en": "Jehoram"
+   },
+   "description": {
+    "it": "sacerdote inviato da Giosafat a insegnare la legge",
+    "en": "priest sent by Jehoshaphat to teach the Law"
+   },
+   "attested": [
+    "btu:2par.17.8"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IORAM"
+   ]
   },
   "bpers:iosaphat.ahilud-filius": {
    "type": "person",
@@ -28907,6 +30396,28 @@
     "ndeib:GIOSUÈ#4"
    ]
   },
+  "bpers:iotham.filius-iahaddai": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iotham",
+    "it": "Iotam",
+    "en": "Jotham"
+   },
+   "description": {
+    "it": "figlio di Iadai, della discendenza di Caleb",
+    "en": "son of Jahdai, of Caleb's line"
+   },
+   "attested": [
+    "btu:1par.2.47"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:IOTAM"
+   ]
+  },
   "bpers:iozabad.filius-iesua": {
    "type": "person",
    "kind": "individual",
@@ -29278,6 +30789,50 @@
     "ndeib:IS-BAAL"
    ]
   },
+  "bpers:ismael.asel-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ismael",
+    "it": "Ismaele",
+    "en": "Ishmael"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Azel, discendente di Gionata",
+    "en": "Benjaminite, son of Azel, descendant of Jonathan"
+   },
+   "attested": [
+    "btu:1par.8.38"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ISMAELE"
+   ]
+  },
+  "bpers:ismael.de-filiis-phassur": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ismael",
+    "it": "Ismaele",
+    "en": "Ishmael"
+   },
+   "description": {
+    "it": "sacerdote della casa di Pascur, sposò una straniera",
+    "en": "priest of the house of Pashhur, married a foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ISMAELE"
+   ]
+  },
   "bpers:ismael.filius-abrahae": {
    "type": "person",
    "kind": "individual",
@@ -29313,8 +30868,6 @@
     "btu:gn.21.17",
     "btu:gn.21.18",
     "btu:gn.21.19",
-    "btu:gn.19.20",
-    "btu:gn.19.21",
     "btu:gn.25.9",
     "btu:gn.25.12",
     "btu:gn.25.13",
@@ -29368,10 +30921,6 @@
     "en": "son of Nethaniah, murderer of governor Gedaliah"
    },
    "attested": [
-    "btu:2par.25.22",
-    "btu:2par.25.23",
-    "btu:2par.25.24",
-    "btu:2par.25.25",
     "btu:ier.40.7",
     "btu:ier.40.8",
     "btu:ier.40.9",
@@ -29399,7 +30948,9 @@
     "btu:ier.41.15",
     "btu:ier.41.16",
     "btu:ier.41.17",
-    "btu:ier.41.18"
+    "btu:ier.41.18",
+    "btu:2reg.25.23",
+    "btu:2reg.25.25"
    ],
    "relations": [],
    "qid": null,
@@ -29408,6 +30959,50 @@
     "ndeib:ISMAELE"
    ],
    "review": "uncertain"
+  },
+  "bpers:ismael.iohanan-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ismael",
+    "it": "Ismaele",
+    "en": "Ishmael"
+   },
+   "description": {
+    "it": "figlio di Giovanni, centurione nella congiura contro Atalia",
+    "en": "son of Jehohanan, officer in the plot against Athaliah"
+   },
+   "attested": [
+    "btu:2par.23.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ISMAELE"
+   ]
+  },
+  "bpers:ismael.pater-zabadiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ismael",
+    "it": "Ismaele",
+    "en": "Ishmael"
+   },
+   "description": {
+    "it": "giudeo, padre di Zebadia sotto Giosafat",
+    "en": "Judahite, father of Zebadiah under Jehoshaphat"
+   },
+   "attested": [
+    "btu:2par.19.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ISMAELE"
+   ]
   },
   "bpers:israel.populus": {
    "type": "person",
@@ -30113,9 +31708,7 @@
     "btu:gn.31.52",
     "btu:gn.31.53",
     "btu:gn.31.54",
-    "btu:gn.32.1",
-    "btu:dt.1.1",
-    "btu:nm.33.20"
+    "btu:gn.32.1"
    ],
    "relations": [
     {
@@ -30392,13 +31985,6 @@
     "btu:gn.49.31"
    ],
    "relations": [
-    {
-     "rel": "child_of",
-     "target": "bpers:laban",
-     "evidence": [
-      "ndeib:LIA"
-     ]
-    },
     {
      "rel": "sibling_of",
      "target": "bpers:rachel",
@@ -33361,6 +34947,28 @@
     "ndeib:MAON, MAONITI, MEUNITI#3"
    ]
   },
+  "bpers:micha.atavus-ozi": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Micha",
+    "it": "Mica",
+    "en": "Mica"
+   },
+   "description": {
+    "it": "levita asafita, avo di Uzzi sotto Neemia",
+    "en": "Asaphite Levite, forebear of Uzzi in Nehemiah's time"
+   },
+   "attested": [
+    "btu:ne.11.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
   "bpers:micha.ephraimita": {
    "type": "person",
    "kind": "individual",
@@ -33408,6 +35016,97 @@
    ],
    "review": "uncertain"
   },
+  "bpers:micha.filius-oziel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Micha",
+    "it": "Mica",
+    "en": "Micah"
+   },
+   "description": {
+    "it": "levita, primogenito di Uzziel",
+    "en": "Levite, eldest son of Uzziel"
+   },
+   "attested": [
+    "btu:1par.23.20",
+    "btu:1par.24.24",
+    "btu:1par.24.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
+  "bpers:micha.filius-zechri": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Micha",
+    "it": "Mica",
+    "en": "Mica"
+   },
+   "description": {
+    "it": "levita asafita, padre del cantore Mattania",
+    "en": "Asaphite Levite, father of the singer Mattaniah"
+   },
+   "attested": [
+    "btu:ne.11.17",
+    "btu:1par.9.15"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
+  "bpers:micha.levita-foederis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Micha",
+    "it": "Mica",
+    "en": "Mica"
+   },
+   "description": {
+    "it": "levita firmatario dell'impegno sotto Neemia",
+    "en": "Levite who signed the covenant under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
+  "bpers:micha.rubenita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Micha",
+    "it": "Mica",
+    "en": "Micah"
+   },
+   "description": {
+    "it": "rubenita, figlio di Simei e padre di Reaia",
+    "en": "Reubenite, son of Shimei and father of Reaiah"
+   },
+   "attested": [
+    "btu:1par.5.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
   "bpers:michaeas.filius-gamariae": {
    "type": "person",
    "kind": "individual",
@@ -33434,6 +35133,75 @@
     "ndeib:MICHEA"
    ]
   },
+  "bpers:michaeas.filius-iemla": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michaeas",
+    "it": "Mica",
+    "en": "Micaiah"
+   },
+   "description": {
+    "it": "profeta figlio di Imla, predisse la morte di Acab",
+    "en": "prophet, son of Imlah, foretold Ahab's death"
+   },
+   "attested": [
+    "btu:1reg.22.5",
+    "btu:1reg.22.6",
+    "btu:1reg.22.7",
+    "btu:1reg.22.8",
+    "btu:1reg.22.9",
+    "btu:1reg.22.10",
+    "btu:1reg.22.11",
+    "btu:1reg.22.12",
+    "btu:1reg.22.13",
+    "btu:1reg.22.14",
+    "btu:1reg.22.15",
+    "btu:1reg.22.16",
+    "btu:1reg.22.17",
+    "btu:1reg.22.18",
+    "btu:1reg.22.19",
+    "btu:1reg.22.20",
+    "btu:1reg.22.21",
+    "btu:1reg.22.22",
+    "btu:1reg.22.23",
+    "btu:1reg.22.24",
+    "btu:1reg.22.25",
+    "btu:1reg.22.26",
+    "btu:1reg.22.27",
+    "btu:1reg.22.28",
+    "btu:2par.18.4",
+    "btu:2par.18.5",
+    "btu:2par.18.6",
+    "btu:2par.18.7",
+    "btu:2par.18.8",
+    "btu:2par.18.9",
+    "btu:2par.18.10",
+    "btu:2par.18.11",
+    "btu:2par.18.12",
+    "btu:2par.18.13",
+    "btu:2par.18.14",
+    "btu:2par.18.15",
+    "btu:2par.18.16",
+    "btu:2par.18.17",
+    "btu:2par.18.18",
+    "btu:2par.18.19",
+    "btu:2par.18.20",
+    "btu:2par.18.21",
+    "btu:2par.18.22",
+    "btu:2par.18.23",
+    "btu:2par.18.24",
+    "btu:2par.18.25",
+    "btu:2par.18.26",
+    "btu:2par.18.27"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICA"
+   ]
+  },
   "bpers:michaeas.morasthites": {
    "type": "person",
    "kind": "individual",
@@ -33454,6 +35222,7 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:MICA",
     "ndeib:MICHEA, LIBRO DI M"
    ]
   },
@@ -33534,6 +35303,50 @@
     "ndeib:MICHELE"
    ]
   },
+  "bpers:michael.basaiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "levita della famiglia dei cantori, figlio di Baaseia",
+    "en": "Levite of the singers' family, son of Baaseiah"
+   },
+   "attested": [
+    "btu:1par.6.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
+  "bpers:michael.beriae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Beria",
+    "en": "Benjaminite, son of Beriah"
+   },
+   "attested": [
+    "btu:1par.8.16"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
   "bpers:michael.gadites": {
    "type": "person",
    "kind": "individual",
@@ -33556,6 +35369,110 @@
     "ndeib:MICHELE"
    ]
   },
+  "bpers:michael.iosaphat-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "figlio del re Giosafat, ucciso dal fratello Ioram",
+    "en": "son of King Jehoshaphat, killed by his brother Jehoram"
+   },
+   "attested": [
+    "btu:2par.21.1"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:iosaphat.rex-iudae",
+     "evidence": [
+      "ndeib:MICHELE"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
+  "bpers:michael.izrahiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "issacarita, figlio di Izrachia",
+    "en": "Issacharite, son of Izrahiah"
+   },
+   "attested": [
+    "btu:1par.7.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
+  "bpers:michael.manassites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "manassita passato con Davide contro Saul",
+    "en": "Manassite who joined David against Saul"
+   },
+   "attested": [
+    "btu:1par.12.21"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
+  "bpers:michael.pater-amri": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "padre di Omri, capo di Issacar sotto Davide",
+    "en": "father of Omri, chief of Issachar under David"
+   },
+   "attested": [
+    "btu:1par.27.18"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:amri.michaelis-filius",
+     "evidence": [
+      "ndeib:MICHELE"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
   "bpers:michael.pater-sethur": {
    "type": "person",
    "kind": "individual",
@@ -33570,6 +35487,28 @@
    },
    "attested": [
     "btu:nm.13.13"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHELE"
+   ]
+  },
+  "bpers:michael.pater-zabadiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michael",
+    "it": "Michele",
+    "en": "Michael"
+   },
+   "description": {
+    "it": "dei figli di Sefatia, padre di Zebadia rimpatriato con Esdra",
+    "en": "of the sons of Shephatiah, father of Zebadiah who returned with Ezra"
+   },
+   "attested": [
+    "btu:esd.8.8"
    ],
    "relations": [],
    "qid": null,
@@ -35615,7 +37554,6 @@
     "en": "son of David born in Jerusalem"
    },
    "attested": [
-    "btu:1reg.4.5",
     "btu:2sam.5.14",
     "btu:1par.3.5",
     "btu:1par.14.4",
@@ -35651,6 +37589,50 @@
    },
    "attested": [
     "btu:1par.2.36"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:NATAN"
+   ]
+  },
+  "bpers:nathan.frater-ioel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Nathan",
+    "it": "Natan",
+    "en": "Nathan"
+   },
+   "description": {
+    "it": "fratello di Gioele, prode di Davide",
+    "en": "brother of Joel, one of David's warriors"
+   },
+   "attested": [
+    "btu:1par.11.38"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:NATAN"
+   ]
+  },
+  "bpers:nathan.nuntius-esdrae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Nathan",
+    "it": "Natan",
+    "en": "Nathan"
+   },
+   "description": {
+    "it": "capo mandato da Esdra a Casifia per cercare leviti",
+    "en": "leader Ezra sent to Casiphia to find Levites"
+   },
+   "attested": [
+    "btu:esd.8.16"
    ],
    "relations": [],
    "qid": null,
@@ -35697,9 +37679,29 @@
     "btu:2sam.12.25",
     "btu:2par.29.25",
     "btu:1par.29.29",
-    "btu:2par.9.29",
-    "btu:1reg.4.5",
-    "btu:1par.2.36"
+    "btu:2par.9.29"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:NATAN"
+   ]
+  },
+  "bpers:nathan.uxorem-dimittens": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Nathan",
+    "it": "Natan",
+    "en": "Nathan"
+   },
+   "description": {
+    "it": "dei figli di Binnui, congedò la moglie straniera",
+    "en": "of the sons of Binnui, dismissed his foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.39"
    ],
    "relations": [],
    "qid": null,
@@ -36564,6 +38566,51 @@
     "ndeib:NINFA"
    ]
   },
+  "bpers:obadia.issacharita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Obadia",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "capo di Issacar, figlio di Izrachia",
+    "en": "Issacharite chief, son of Izrahiah"
+   },
+   "attested": [
+    "btu:1par.7.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
+  "bpers:obdia.filius-asel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Obdia",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "beniaminita della discendenza di Saul, figlio di Asel",
+    "en": "Benjaminite of Saul's line, son of Azel"
+   },
+   "attested": [
+    "btu:1par.8.38",
+    "btu:1par.9.44"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA"
+   ]
+  },
   "bpers:obed.booz-filius": {
    "type": "person",
    "kind": "individual",
@@ -37323,7 +39370,10 @@
     "it": "profeta del regno del Nord, figlio di Beeri",
     "en": "prophet of the northern kingdom, son of Beeri"
    },
-   "attested": [],
+   "attested": [
+    "btu:os.1.1",
+    "btu:os.1.2"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -37353,6 +39403,28 @@
     "btu:2reg.17.6",
     "btu:2reg.18.9",
     "btu:2reg.18.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:OSEA"
+   ]
+  },
+  "bpers:osee.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Osee",
+    "it": "Osea",
+    "en": "Hoshea"
+   },
+   "description": {
+    "it": "capo del popolo firmatario dell'impegno sotto Neemia",
+    "en": "lay leader who sealed the pledge under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.24"
    ],
    "relations": [],
    "qid": null,
@@ -37701,6 +39773,28 @@
     "ndeib:UZZI"
    ]
   },
+  "bpers:ozia.astharothites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ozia",
+    "it": "Uzzia",
+    "en": "Uzzia"
+   },
+   "description": {
+    "it": "di Astarot, uno dei prodi di Davide",
+    "en": "the Ashterathite, one of David's mighty men"
+   },
+   "attested": [
+    "btu:1par.11.44"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:OZIA, UZZIA"
+   ]
+  },
   "bpers:ozias.caathita": {
    "type": "person",
    "kind": "individual",
@@ -37724,6 +39818,28 @@
     "ndeib:OZIA, UZZIA"
    ],
    "review": "uncertain"
+  },
+  "bpers:ozias.pater-athaiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ozias",
+    "it": "Ozia",
+    "en": "Uzziah"
+   },
+   "description": {
+    "it": "giudeo, padre di Ataia, rimpatriato a Gerusalemme",
+    "en": "Judahite, father of Athaiah who settled in Jerusalem"
+   },
+   "attested": [
+    "btu:ne.11.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:OZIA, UZZIA"
+   ]
   },
   "bpers:ozias.pater-ionathan": {
    "type": "person",
@@ -37768,8 +39884,6 @@
     "btu:2par.25.27",
     "btu:2par.25.28",
     "btu:2par.26.1",
-    "btu:2reg.14.13",
-    "btu:2par.25.23",
     "btu:2reg.15.2",
     "btu:2par.26.3",
     "btu:2par.26.4",
@@ -39441,41 +41555,6 @@
     "ndeib:PERSIDE"
    ]
   },
-  "bpers:petrus": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Simon",
-    "it": "Simone",
-    "en": "Simon"
-   },
-   "description": {
-    "it": "apostolo, fratello di Andrea, chiamato Pietro",
-    "en": "apostle, brother of Andrew, named Peter"
-   },
-   "attested": [],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:simon-petrus",
-     "evidence": [
-      "ndeib:SIMONE"
-     ]
-    },
-    {
-     "rel": "sibling_of",
-     "target": "bpers:andreas",
-     "evidence": [
-      "ndeib:SIMONE"
-     ]
-    }
-   ],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:SIMONE"
-   ]
-  },
   "bpers:phacee": {
    "type": "person",
    "kind": "individual",
@@ -40091,6 +42170,33 @@
     "ndeib:PASCUR"
    ]
   },
+  "bpers:phassur.familia-sacerdotum": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Phassur",
+    "it": "Pascur",
+    "en": "Pashhur"
+   },
+   "description": {
+    "it": "capostipite di una famiglia sacerdotale tornata dall'esilio",
+    "en": "ancestor of a priestly family that returned from exile"
+   },
+   "attested": [
+    "btu:esd.2.38",
+    "btu:ne.7.41",
+    "btu:esd.10.22",
+    "btu:ne.11.12",
+    "btu:1par.9.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:PASCUR"
+   ],
+   "review": "uncertain"
+  },
   "bpers:phassur.melchiae-filius": {
    "type": "person",
    "kind": "individual",
@@ -40117,12 +42223,7 @@
     "btu:ier.38.10",
     "btu:ier.38.11",
     "btu:ier.38.12",
-    "btu:ier.38.13",
-    "btu:esd.2.38",
-    "btu:ne.7.41",
-    "btu:esd.10.22",
-    "btu:ne.11.12",
-    "btu:1par.9.12"
+    "btu:ier.38.13"
    ],
    "relations": [],
    "qid": null,
@@ -40165,6 +42266,28 @@
     "ndeib:PASCUR"
    ],
    "review": "uncertain"
+  },
+  "bpers:phassur.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Phassur",
+    "it": "Pascur",
+    "en": "Pashhur"
+   },
+   "description": {
+    "it": "sacerdote che sigillò l'impegno al tempo di Neemia",
+    "en": "priest who sealed the pledge in Nehemiah's time"
+   },
+   "attested": [
+    "btu:ne.10.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:PASCUR"
+   ]
   },
   "bpers:phelethi": {
    "type": "person",
@@ -41144,13 +43267,6 @@
    ],
    "relations": [
     {
-     "rel": "child_of",
-     "target": "bpers:laban",
-     "evidence": [
-      "ndeib:RACHELE"
-     ]
-    },
-    {
      "rel": "sibling_of",
      "target": "bpers:lia",
      "evidence": [
@@ -41390,13 +43506,6 @@
     {
      "rel": "spouse_of",
      "target": "bpers:isaac",
-     "evidence": [
-      "ndeib:REBECCA"
-     ]
-    },
-    {
-     "rel": "sibling_of",
-     "target": "bpers:laban",
      "evidence": [
       "ndeib:REBECCA"
      ]
@@ -41788,6 +43897,28 @@
     "ndeib:RECOB"
    ]
   },
+  "bpers:rohob.levita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Rohob",
+    "it": "Recob",
+    "en": "Rehob"
+   },
+   "description": {
+    "it": "levita firmatario del patto al tempo di Neemia",
+    "en": "Levite who sealed the covenant under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:RECOB"
+   ]
+  },
   "bpers:ruben.iacob-filius": {
    "type": "person",
    "kind": "individual",
@@ -42153,7 +44284,9 @@
     "it": "antenato di Giuditta",
     "en": "ancestor of Judith"
    },
-   "attested": [],
+   "attested": [
+    "btu:idt.8.1"
+   ],
    "relations": [],
    "qid": "Q135337943",
    "qid_status": "auto",
@@ -44308,6 +46441,50 @@
     "ndeib:SERAIA"
    ]
   },
+  "bpers:saraia.filius-azriel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Saraia",
+    "it": "Seraià",
+    "en": "Seraiah"
+   },
+   "description": {
+    "it": "figlio di Azriel, mandato da Ioiakim ad arrestare Geremia",
+    "en": "son of Azriel, sent by Jehoiakim to arrest Jeremiah"
+   },
+   "attested": [
+    "btu:ier.36.26"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SERAIA"
+   ]
+  },
+  "bpers:saraia.filius-helciae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Saraia",
+    "it": "Seraià",
+    "en": "Seraiah"
+   },
+   "description": {
+    "it": "sacerdote figlio di Chelkia, preposto alla casa di Dio",
+    "en": "priest, son of Hilkiah, overseer of the house of God"
+   },
+   "attested": [
+    "btu:ne.11.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SERAIA"
+   ]
+  },
   "bpers:saraia.netophathites": {
    "type": "person",
    "kind": "individual",
@@ -44392,6 +46569,30 @@
    },
    "attested": [
     "btu:1par.4.35"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SERAIA"
+   ]
+  },
+  "bpers:saraias.princeps-mansionum": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Saraias",
+    "it": "Seraià",
+    "en": "Seraiah"
+   },
+   "description": {
+    "it": "figlio di Neria, addetto agli alloggi di Sedecia a Babilonia",
+    "en": "son of Neriah, Zedekiah's quartermaster on the Babylon journey"
+   },
+   "attested": [
+    "btu:ier.51.59",
+    "btu:ier.51.60",
+    "btu:ier.51.61"
    ],
    "relations": [],
    "qid": null,
@@ -45206,9 +47407,6 @@
     "btu:ez.11.19",
     "btu:ez.11.20",
     "btu:ez.11.21",
-    "btu:ez.11.22",
-    "btu:ez.11.23",
-    "btu:ez.11.24",
     "btu:ier.27.3",
     "btu:ier.28.2",
     "btu:ier.28.3",
@@ -45255,6 +47453,28 @@
     "btu:ier.52.9",
     "btu:ier.52.10",
     "btu:ier.52.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEDECIA"
+   ]
+  },
+  "bpers:sedecias.signator-foederis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Sedecias",
+    "it": "Sedecìa",
+    "en": "Zedekiah"
+   },
+   "description": {
+    "it": "sacerdote firmatario dell'impegno sotto Neemia",
+    "en": "priest who signed the covenant under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.2"
    ],
    "relations": [],
    "qid": null,
@@ -45844,6 +48064,28 @@
     "ndeib:SEM"
    ]
   },
+  "bpers:semei.avus-mardochaei": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "beniaminita, figlio di Kis, antenato di Mardocheo",
+    "en": "Benjaminite, son of Kish, ancestor of Mordecai"
+   },
+   "attested": [
+    "btu:est.2.5"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
   "bpers:semei.beniaminita": {
    "type": "person",
    "kind": "individual",
@@ -45866,6 +48108,199 @@
     "ndeib:SIMEI, SIMEITI"
    ],
    "review": "uncertain"
+  },
+  "bpers:semei.de-filiis-bennui": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "dei figli di Binnui, con moglie straniera sotto Esdra",
+    "en": "of the sons of Binnui, with a foreign wife under Ezra"
+   },
+   "attested": [
+    "btu:esd.10.38"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.de-filiis-hasum": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "dei figli di Casum, con moglie straniera sotto Esdra",
+    "en": "of the sons of Hashum, with a foreign wife under Ezra"
+   },
+   "attested": [
+    "btu:esd.10.33"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.de-filiis-heman": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "levita della famiglia di Eman, sotto Ezechia",
+    "en": "Levite of Heman's family under Hezekiah"
+   },
+   "attested": [
+    "btu:2par.29.14"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.fautor-salomonis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "rimase con Salomone contro Adonia",
+    "en": "sided with Solomon against Adonijah"
+   },
+   "attested": [
+    "btu:1reg.1.8"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.filius-ela": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "figlio di Ela, prefetto di Salomone in Beniamino",
+    "en": "son of Ela, Solomon's prefect in Benjamin"
+   },
+   "attested": [
+    "btu:1reg.4.18"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.filius-idithun": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "levita, figlio di Iedutun, capo del decimo turno di cantori",
+    "en": "Levite, son of Jeduthun, head of the tenth singers' division"
+   },
+   "attested": [
+    "btu:1par.25.3",
+    "btu:1par.25.17"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:idithun",
+     "evidence": [
+      "ndeib:SIMEI, SIMEITI"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.frater-choneniae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "levita, secondo dopo il fratello Canania nelle offerte",
+    "en": "Levite, second to his brother Conaniah over the offerings"
+   },
+   "attested": [
+    "btu:2par.31.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.frater-zorobabel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "figlio di Pedaia, fratello di Zorobabele",
+    "en": "son of Pedaiah, brother of Zerubbabel"
+   },
+   "attested": [
+    "btu:1par.3.19"
+   ],
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:zorobabel",
+     "evidence": [
+      "ndeib:SIMEI, SIMEITI"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
   },
   "bpers:semei.gera-filius": {
    "type": "person",
@@ -46162,6 +48597,28 @@
     "ndeib:SIMEI, SIMEITI"
    ]
   },
+  "bpers:semei.levita-esdrae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "levita con moglie straniera al tempo di Esdra",
+    "en": "Levite with a foreign wife in Ezra's time"
+   },
+   "attested": [
+    "btu:esd.10.23"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
   "bpers:semei.merarita": {
    "type": "person",
    "kind": "individual",
@@ -46177,6 +48634,72 @@
    "attested": [
     "btu:1par.6.14",
     "btu:1par.6.19"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.pater-uriae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "padre del profeta Uria di Kiriat-Iearim",
+    "en": "father of the prophet Uriah of Kiriath-jearim"
+   },
+   "attested": [
+    "btu:ier.26.20"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semei.ramathites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "di Rama, sovrintendente alle vigne di Davide",
+    "en": "the Ramathite, in charge of David's vineyards"
+   },
+   "attested": [
+    "btu:1par.27.27"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEI, SIMEITI"
+   ]
+  },
+  "bpers:semei.rubenita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semei",
+    "it": "Simei",
+    "en": "Shimei"
+   },
+   "description": {
+    "it": "rubenita, figlio di Gog e padre di Mica",
+    "en": "Reubenite, son of Gog and father of Micah"
+   },
+   "attested": [
+    "btu:1par.5.4"
    ],
    "relations": [],
    "qid": null,
@@ -46207,6 +48730,93 @@
     "ndeib:SIMEI, SIMEITI"
    ]
   },
+  "bpers:semeia.asaphita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "levita della stirpe di Asaf alla dedicazione delle mura",
+    "en": "Levite of Asaph's line at the wall dedication"
+   },
+   "attested": [],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.custos-portae-orientalis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "figlio di Secania, custode della porta orientale sotto Neemia",
+    "en": "son of Shecaniah, keeper of the East Gate under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.3.29"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.merarita": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "levita merarita, figlio di Cassub, a Gerusalemme dopo l'esilio",
+    "en": "Merarite Levite, son of Hasshub, in Jerusalem after the exile"
+   },
+   "attested": [
+    "btu:1par.9.14",
+    "btu:ne.11.15"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.princeps-iudae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "capo di Giuda alla dedicazione delle mura",
+    "en": "leader of Judah at the wall dedication"
+   },
+   "attested": [
+    "btu:ne.12.34"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
   "bpers:semeia.rubenita": {
    "type": "person",
    "kind": "individual",
@@ -46221,6 +48831,163 @@
    },
    "attested": [
     "btu:1par.5.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.sacerdos-de-filiis-harim": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "sacerdote dei figli di Harim, congedò la moglie straniera",
+    "en": "priest of the sons of Harim, dismissed his foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.21"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.sacerdos-dedicationis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "sacerdote presente alla dedicazione delle mura",
+    "en": "priest present at the wall dedication"
+   },
+   "attested": [
+    "btu:ne.12.42"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.sacerdos-reditus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "sacerdote rimpatriato con Zorobabele, capo di una famiglia sacerdotale",
+    "en": "priest who returned with Zerubbabel, head of a priestly house"
+   },
+   "attested": [
+    "btu:ne.12.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "sacerdote firmatario del patto al tempo di Neemia",
+    "en": "priest who sealed the covenant under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.9"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeia.stirpis-zorobabel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeia",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "figlio di Secania, discendente di Zorobabele",
+    "en": "son of Shecaniah, descendant of Zerubbabel"
+   },
+   "attested": [
+    "btu:1par.3.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeias.adonicam": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "dei figli di Adonikam, rimpatriato con Esdra",
+    "en": "of the sons of Adonikam, returned with Ezra"
+   },
+   "attested": [
+    "btu:esd.8.13"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeias.dalaiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "figlio di Delaia, falso profeta assoldato contro Neemia",
+    "en": "son of Delaiah, false prophet hired against Nehemiah"
+   },
+   "attested": [
+    "btu:ne.6.10",
+    "btu:ne.6.11",
+    "btu:ne.6.12",
+    "btu:ne.6.13"
    ],
    "relations": [],
    "qid": null,
@@ -46275,6 +49042,28 @@
     "ndeib:SEMAIA"
    ]
   },
+  "bpers:semeias.laicus-de-filiis-harim": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "israelita dei figli di Harim, congedò la moglie straniera",
+    "en": "Israelite of the sons of Harim, dismissed his foreign wife"
+   },
+   "attested": [
+    "btu:esd.10.31"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
   "bpers:semeias.levita-ezechiae": {
    "type": "person",
    "kind": "individual",
@@ -46319,6 +49108,58 @@
     "ndeib:SEMAIA"
    ]
   },
+  "bpers:semeias.nehelamites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "il Nechelamita, falso profeta in esilio avverso a Geremia",
+    "en": "the Nehelamite, false prophet in exile opposing Jeremiah"
+   },
+   "attested": [
+    "btu:ier.29.24",
+    "btu:ier.29.25",
+    "btu:ier.29.26",
+    "btu:ier.29.27",
+    "btu:ier.29.28",
+    "btu:ier.29.29",
+    "btu:ier.29.30",
+    "btu:ier.29.31",
+    "btu:ier.29.32"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeias.nuntius-esdrae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "capo mandato da Esdra a Casifia per cercare leviti",
+    "en": "leader Ezra sent to Casiphia to find Levites"
+   },
+   "attested": [
+    "btu:esd.8.16"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
   "bpers:semeias.obededom-filius": {
    "type": "person",
    "kind": "individual",
@@ -46335,6 +49176,28 @@
     "btu:1par.26.4",
     "btu:1par.26.6",
     "btu:1par.26.7"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semeias.princeps-levitarum-iosiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semeias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "capo levita che diede vittime per la Pasqua di Giosia",
+    "en": "Levite chief who gave victims for Josiah's Passover"
+   },
+   "attested": [
+    "btu:2par.35.9"
    ],
    "relations": [],
    "qid": null,
@@ -46388,6 +49251,28 @@
    },
    "attested": [
     "btu:1par.24.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SEMAIA"
+   ]
+  },
+  "bpers:semias.pater-dalaiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Semias",
+    "it": "Semaià",
+    "en": "Shemaiah"
+   },
+   "description": {
+    "it": "padre di Delaia, dignitario sotto Ioiakim",
+    "en": "father of Delaiah, official under Jehoiakim"
+   },
+   "attested": [
+    "btu:ier.36.12"
    ],
    "relations": [],
    "qid": null,
@@ -46844,6 +49729,28 @@
     "ndeib:SILA"
    ]
   },
+  "bpers:simeon.antenatus-iesu": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simeon",
+    "it": "Simeone",
+    "en": "Simeon"
+   },
+   "description": {
+    "it": "antenato di Gesù nella genealogia di Luca, padre di Levi",
+    "en": "ancestor of Jesus in Luke's genealogy, father of Levi"
+   },
+   "attested": [
+    "btu:lc.3.30"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEONE"
+   ]
+  },
   "bpers:simeon.iacob-filius": {
    "type": "person",
    "kind": "individual",
@@ -46875,6 +49782,60 @@
    ],
    "qid": "Q1773005",
    "qid_status": "auto",
+   "evidence": [
+    "ndeib:SIMEONE"
+   ]
+  },
+  "bpers:simeon.ierosolymitanus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simeon",
+    "it": "Simeone",
+    "en": "Simeon"
+   },
+   "description": {
+    "it": "giusto di Gerusalemme che accolse Gesù al Tempio",
+    "en": "righteous man of Jerusalem who received Jesus in the Temple"
+   },
+   "attested": [
+    "btu:lc.2.25",
+    "btu:lc.2.26",
+    "btu:lc.2.27",
+    "btu:lc.2.28",
+    "btu:lc.2.29",
+    "btu:lc.2.30",
+    "btu:lc.2.31",
+    "btu:lc.2.32",
+    "btu:lc.2.33",
+    "btu:lc.2.34",
+    "btu:lc.2.35"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMEONE"
+   ]
+  },
+  "bpers:simeon.niger": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simeon",
+    "it": "Simeone",
+    "en": "Simeon"
+   },
+   "description": {
+    "it": "profeta e dottore di Antiochia, detto Niger",
+    "en": "prophet and teacher at Antioch, called Niger"
+   },
+   "attested": [
+    "btu:act.13.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "ndeib:SIMEONE"
    ]
@@ -47352,21 +50313,25 @@
     "btu:act.20.32",
     "btu:act.20.33",
     "btu:act.20.34",
-    "btu:act.20.35"
+    "btu:act.20.35",
+    "btu:act.15.14"
    ],
    "relations": [
     {
      "rel": "sibling_of",
      "target": "bpers:andreas",
      "evidence": [
-      "ndeib:PIETRO"
+      "ndeib:PIETRO",
+      "ndeib:SIMONE"
      ]
     }
    ],
    "qid": "Q33923",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:PIETRO"
+    "ndeib:PIETRO",
+    "ndeib:SIMEONE",
+    "ndeib:SIMONE"
    ]
   },
   "bpers:simon.chananaeus": {
@@ -47394,6 +50359,28 @@
     "ndeib:SIMONE"
    ]
   },
+  "bpers:simon.coriarius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simon",
+    "it": "Simone",
+    "en": "Simon"
+   },
+   "description": {
+    "it": "conciatore di Giaffa, ospite di Pietro",
+    "en": "tanner of Joppa, Peter's host"
+   },
+   "attested": [
+    "btu:act.9.43"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMONE"
+   ]
+  },
   "bpers:simon.cyrenaeus": {
    "type": "person",
    "kind": "individual",
@@ -47407,8 +50394,7 @@
     "en": "man of Cyrene made to carry the cross"
    },
    "attested": [
-    "btu:mc.15.21",
-    "btu:act.13.1"
+    "btu:mc.15.21"
    ],
    "relations": [],
    "qid": null,
@@ -47463,6 +50449,97 @@
    "attested": [
     "btu:mt.26.6",
     "btu:mc.14.3"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMONE"
+   ]
+  },
+  "bpers:simon.magus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simon",
+    "it": "Simone",
+    "en": "Simon"
+   },
+   "description": {
+    "it": "mago di Samaria che volle comprare lo Spirito",
+    "en": "magician of Samaria who tried to buy the Spirit"
+   },
+   "attested": [
+    "btu:act.8.9",
+    "btu:act.8.10",
+    "btu:act.8.11",
+    "btu:act.8.12",
+    "btu:act.8.13",
+    "btu:act.8.14",
+    "btu:act.8.15",
+    "btu:act.8.16",
+    "btu:act.8.17",
+    "btu:act.8.18",
+    "btu:act.8.19",
+    "btu:act.8.20",
+    "btu:act.8.21",
+    "btu:act.8.22",
+    "btu:act.8.23",
+    "btu:act.8.24"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMONE"
+   ]
+  },
+  "bpers:simon.pater-iudae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simon",
+    "it": "Simone Iscariota",
+    "en": "Simon Iscariot"
+   },
+   "description": {
+    "it": "padre di Giuda Iscariota",
+    "en": "father of Judas Iscariot"
+   },
+   "attested": [
+    "btu:io.6.71",
+    "btu:io.12.4",
+    "btu:io.13.2"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iudas-iscariotes",
+     "evidence": [
+      "ndeib:SIMONE"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SIMONE"
+   ]
+  },
+  "bpers:simon.pharisaeus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Simon",
+    "it": "Simone",
+    "en": "Simon"
+   },
+   "description": {
+    "it": "fariseo che invitò Gesù a mensa",
+    "en": "Pharisee who invited Jesus to a meal"
+   },
+   "attested": [
+    "btu:lc.7.36"
    ],
    "relations": [],
    "qid": null,

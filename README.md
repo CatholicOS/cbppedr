@@ -48,8 +48,8 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 
 ## Status
 
-Baseline (round 1), built from the dictionary's headwords, the Jerusalem Bible's Herodian tree, and the persons the dictionary covers only in a book's article (the prophets of the Twelve, Ezekiel, Matthew, Judith, Tobit and Tobias), curated by hand:
-1,513 persons, 669 places and 22 events, validated with no problems. 307 entries have a Wikidata
+Baseline (round 1), built from the dictionary's headwords, the Jerusalem Bible's Herodian tree, and the persons the dictionary covers only in a book's article (the prophets of the Twelve, Ezekiel, Matthew, Judith, Tobit and Tobias), curated by hand. 49 headwords listing many bearers of one name (Shemaiah, Shimei, Hananiah, Jonathan…), whose first review kept only some, were reviewed again for the rest:
+1,647 persons, 685 places and 22 events, validated with no problems. 307 entries have a Wikidata
 item matched automatically: a candidate of the class "human biblical figure", or the only fitting candidate
 whose description is explicitly biblical. The rest list their candidates for review. A relation
 is resolved only by its sense key, or by a name no homonym shares. The others stay unresolved,
@@ -58,7 +58,7 @@ not guessed.
 Round 2 will cover:
 
 - the names TIPNR has and the baseline lacks (`docs/stepbible-gaps.md`);
-- the 1,018 relations left unresolved, and the 253 entries marked uncertain;
+- the 1,085 relations left unresolved, and the 260 entries marked uncertain;
 - evidence keys under the wrong headword, where the dictionary's parser missed a headword
   (e.g. a sense of Nebuchadnezzar cited as NABU);
 - reviewing the Wikidata candidates. Many well-known entries (Jerusalem, the Herods, the Philips) have the right item among their candidates but did not pass the automatic rule.
