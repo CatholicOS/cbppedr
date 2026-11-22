@@ -2725,6 +2725,7 @@
    "btu:1par.1.13": {
     "as": "name",
     "editions": {
+     "CEI2008": "Chet",
      "DRB": "the Hethite",
      "NABRE": "Heth",
      "NVBSE": "Heth",
