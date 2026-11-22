@@ -5575,8 +5575,7 @@
    "btu:lc.3.31",
    "btu:mt.2.23",
    "btu:lc.2.39",
-   "btu:lc.2.51",
-   "btu:mt.13.55"
+   "btu:lc.2.51"
   ],
   "bpers:ioseph.pater-iannae": [
    "btu:lc.3.30"
@@ -10934,7 +10933,9 @@
    "btu:act.20.32",
    "btu:act.20.33",
    "btu:act.20.34",
-   "btu:act.20.35"
+   "btu:act.20.35",
+   "btu:mt.10.4",
+   "btu:lc.6.15"
   ],
   "bpers:simon.frater-domini": [
    "btu:mc.6.2",

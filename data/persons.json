@@ -18486,7 +18486,8 @@
     "btu:gn.35.18",
     "btu:gn.35.24",
     "btu:1par.7.6",
-    "btu:gn.46.21"
+    "btu:gn.46.21",
+    "btu:gn.46.19"
    ],
    "relations": [
     {
@@ -26117,7 +26118,10 @@
    },
    "attested": [
     "btu:nm.1.9",
-    "btu:nm.2.7"
+    "btu:nm.2.7",
+    "btu:nm.7.24",
+    "btu:nm.7.29",
+    "btu:nm.10.16"
    ],
    "relations": [
     {
@@ -26131,7 +26135,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ELIAB"
+    "ndeib:ELIAB",
+    "nv:btu:nm.7.24"
    ]
   },
   "bpers:eliab.isai-filius": {
@@ -29184,13 +29189,15 @@
     "en": "son of Zebulun and clan ancestor"
    },
    "attested": [
-    "btu:gn.46.14"
+    "btu:gn.46.14",
+    "btu:nm.26.26"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ELON"
+    "ndeib:ELON",
+    "nv:btu:nm.26.26"
    ]
   },
   "bpers:elphaal": {
@@ -33947,8 +33954,7 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GRECI",
-    "nv:btu:act.11.20",
-    "nv:btu:act.11.19"
+    "nv:btu:act.11.20"
    ]
   },
   "bpers:graeci.hellenistae": {
@@ -34702,6 +34708,36 @@
    "evidence": [
     "nv:btu:ne.10.27",
     "nv:btu:ne.10.23"
+   ]
+  },
+  "bpers:hanan.zacchur-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Hanan",
+    "it": "Canan",
+    "en": "Hanan"
+   },
+   "description": {
+    "it": "figlio di Zaccur, assistente dei tesorieri dei magazzini sotto Neemia",
+    "en": "son of Zaccur, assistant to the storehouse treasurers under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.13.13"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:zacchur.pater-hanan",
+     "evidence": [
+      "nv:btu:ne.13.13"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.13.13"
    ]
   },
   "bpers:hanani.emmer": {
@@ -40307,7 +40343,8 @@
     "btu:act.7.46",
     "btu:heb.11.9",
     "btu:heb.11.20",
-    "btu:gn.32.29"
+    "btu:gn.32.29",
+    "btu:gn.46.19"
    ],
    "relations": [
     {
@@ -40336,7 +40373,8 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GIACOBBE",
-    "ndeib:ISRAELE#1"
+    "ndeib:ISRAELE#1",
+    "nv:btu:gn.46.19"
    ],
    "labels": {
     "btu:rom.9.12": {
@@ -40478,13 +40516,16 @@
     "btu:mt.10.3",
     "btu:act.1.13",
     "btu:mt.27.56",
-    "btu:mc.16.1"
+    "btu:mc.16.1",
+    "btu:mc.3.18",
+    "btu:lc.6.15"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GIACOMO#2"
+    "ndeib:GIACOMO#2",
+    "nv:btu:mc.3.18"
    ],
    "review": "uncertain"
   },
@@ -40574,7 +40615,9 @@
     "btu:lc.9.54",
     "btu:mc.10.35",
     "btu:act.12.2",
-    "btu:act.1.13"
+    "btu:act.1.13",
+    "btu:mt.10.2",
+    "btu:lc.6.14"
    ],
    "relations": [
     {
@@ -40596,7 +40639,8 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GIACOMO#1",
-    "nv:btu:act.1.13"
+    "nv:btu:act.1.13",
+    "nv:btu:mt.10.2"
    ]
   },
   "bpers:iada": {
@@ -50696,7 +50740,9 @@
     "btu:act.4.13",
     "btu:act.8.14",
     "btu:gal.2.9",
-    "btu:apc.1.9"
+    "btu:apc.1.9",
+    "btu:act.1.13",
+    "btu:lc.6.14"
    ],
    "relations": [
     {
@@ -50727,7 +50773,8 @@
     "ndeib:GIOVANNI, APOSTOLO#0",
     "ndeib:GIOVANNI, APOSTOLO#1",
     "ndeib:GIOVANNI, APOSTOLO#2",
-    "ndeib:GIOVANNI, APOSTOLO#3"
+    "ndeib:GIOVANNI, APOSTOLO#3",
+    "nv:btu:act.1.13"
    ],
    "labels": {
     "btu:mt.20.20": {
@@ -54740,7 +54787,8 @@
     "btu:gn.41.54",
     "btu:gn.41.55",
     "btu:gn.41.56",
-    "btu:gn.41.57"
+    "btu:gn.41.57",
+    "btu:gn.46.19"
    ],
    "relations": [
     {
@@ -54776,7 +54824,8 @@
     "ndeib:GIUSEPPE#4",
     "ndeib:GIUSEPPE#5",
     "ndeib:GIUSEPPE#6",
-    "ndeib:GIUSEPPE#7"
+    "ndeib:GIUSEPPE#7",
+    "nv:btu:gn.46.19"
    ],
    "labels": {
     "btu:gn.30.23": {
@@ -54939,6 +54988,7 @@
     "btu:mt.1.18",
     "btu:mt.1.19",
     "btu:mt.1.24",
+    "btu:mt.13.55",
     "btu:lc.3.23"
    ],
    "relations": [],
@@ -54946,7 +54996,19 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GIUSEPPE#7~2"
-   ]
+   ],
+   "labels": {
+    "btu:mt.13.55": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "falegname",
+      "DRB": "the carpenter",
+      "NABRE": "the carpenter",
+      "NVBSE": "fabri",
+      "VGCL": "fabri"
+     }
+    }
+   }
   },
   "bpers:ioseph.pater-iannae": {
    "type": "person",
@@ -72584,12 +72646,15 @@
     "it": "uomo di Netofa, antenato del capo militare Cheldai",
     "en": "man of Netophah, ancestor of the army officer Heldai"
    },
-   "attested": [],
+   "attested": [
+    "btu:1par.27.15"
+   ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:OTNIEL#2"
+    "ndeib:OTNIEL#2",
+    "nv:btu:1par.27.15"
    ],
    "review": "uncertain"
   },
@@ -76071,13 +76136,15 @@
     "btu:mc.3.18",
     "btu:lc.6.14",
     "btu:io.6.5",
-    "btu:io.14.8"
+    "btu:io.14.8",
+    "btu:act.1.13"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:FILIPPO#3"
+    "ndeib:FILIPPO#3",
+    "nv:btu:act.1.13"
    ]
   },
   "bpers:philippus.evangelista": {
@@ -77586,7 +77653,8 @@
     "btu:gn.35.16",
     "btu:1sam.10.2",
     "btu:ier.31.15",
-    "btu:mt.2.18"
+    "btu:mt.2.18",
+    "btu:gn.46.19"
    ],
    "relations": [
     {
@@ -77600,7 +77668,8 @@
    "qid": "Q207389",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:RACHELE"
+    "ndeib:RACHELE",
+    "nv:btu:gn.46.19"
    ],
    "labels": {
     "btu:gn.29.26": {
@@ -89701,9 +89770,7 @@
     "btu:mc.14.72",
     "btu:mc.1.16",
     "btu:mt.10.2",
-    "btu:mt.10.4",
     "btu:lc.6.14",
-    "btu:lc.6.15",
     "btu:io.1.42",
     "btu:mc.5.37",
     "btu:mc.10.28",
@@ -89773,7 +89840,8 @@
     "btu:gal.2.14",
     "btu:1pe.1.1",
     "btu:2pe.1.1",
-    "btu:act.15.14"
+    "btu:act.15.14",
+    "btu:mc.3.16"
    ],
    "relations": [
     {
@@ -89790,7 +89858,8 @@
    "evidence": [
     "ndeib:PIETRO",
     "ndeib:SIMEONE",
-    "ndeib:SIMONE"
+    "ndeib:SIMONE",
+    "nv:btu:mc.3.16"
    ],
    "labels": {
     "btu:1cor.15.5": {
@@ -97800,13 +97869,22 @@
    "attested": [
     "btu:mc.1.19",
     "btu:mt.27.56",
-    "btu:mc.1.20"
+    "btu:mc.1.20",
+    "btu:mt.4.21",
+    "btu:mt.10.2",
+    "btu:mt.20.20",
+    "btu:mt.26.37",
+    "btu:mc.3.17",
+    "btu:mc.10.35",
+    "btu:lc.5.10",
+    "btu:io.21.2"
    ],
    "relations": [],
    "qid": "Q169363",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:ZEBEDEO"
+    "ndeib:ZEBEDEO",
+    "nv:btu:mt.4.21"
    ]
   },
   "bpers:zebee": {

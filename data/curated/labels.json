@@ -11658,6 +11658,18 @@
      "VGCL": "regione umbræ mortis"
     }
    }
+  },
+  "bpers:ioseph.mariae-sponsus": {
+   "btu:mt.13.55": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "falegname",
+     "DRB": "the carpenter",
+     "NABRE": "the carpenter",
+     "NVBSE": "fabri",
+     "VGCL": "fabri"
+    }
+   }
   }
  }
 }

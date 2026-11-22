@@ -43878,10 +43878,13 @@
   },
   "bpers:iacobus.zebedaei-filius": {
    "attested": [
-    "btu:act.1.13"
+    "btu:act.1.13",
+    "btu:mt.10.2",
+    "btu:lc.6.14"
    ],
    "evidence": [
-    "nv:btu:act.1.13"
+    "nv:btu:act.1.13",
+    "nv:btu:mt.10.2"
    ]
   },
   "bpers:moholi.filius-musi": {
@@ -43895,7 +43898,8 @@
   "bpers:beniamin.iacob-filius": {
    "attested": [
     "btu:1par.7.6",
-    "btu:gn.46.21"
+    "btu:gn.46.21",
+    "btu:gn.46.19"
    ],
    "evidence": [
     "nv:btu:1par.7.6",
@@ -43927,8 +43931,7 @@
     "btu:act.11.20"
    ],
    "evidence": [
-    "nv:btu:act.11.20",
-    "nv:btu:act.11.19"
+    "nv:btu:act.11.20"
    ]
   },
   "bpers:ioas.rex-iudae": {
@@ -44053,6 +44056,129 @@
      "target": "bpers:eliab.helon-filius",
      "evidence": [
       "nv:btu:nm.1.9"
+     ]
+    }
+   ]
+  },
+  "bpers:othoniel.netophathites": {
+   "attested": [
+    "btu:1par.27.15"
+   ],
+   "evidence": [
+    "nv:btu:1par.27.15"
+   ]
+  },
+  "bpers:eliab.helon-filius": {
+   "attested": [
+    "btu:nm.7.24",
+    "btu:nm.7.29",
+    "btu:nm.10.16"
+   ],
+   "evidence": [
+    "nv:btu:nm.7.24"
+   ]
+  },
+  "bpers:elon.zabulon-filius": {
+   "attested": [
+    "btu:nm.26.26"
+   ],
+   "evidence": [
+    "nv:btu:nm.26.26"
+   ]
+  },
+  "bpers:rachel": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:iacob.isaac-filius": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:ioseph.iacob-filius": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:ioannes.apostolus": {
+   "attested": [
+    "btu:act.1.13",
+    "btu:lc.6.14"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
+   ]
+  },
+  "bpers:philippus.apostolus": {
+   "attested": [
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
+   ]
+  },
+  "bpers:iacobus.alphaei-filius": {
+   "attested": [
+    "btu:mc.3.18",
+    "btu:lc.6.15"
+   ],
+   "evidence": [
+    "nv:btu:mc.3.18"
+   ]
+  },
+  "bpers:simon-petrus": {
+   "attested": [
+    "btu:mc.3.16"
+   ],
+   "evidence": [
+    "nv:btu:mc.3.16"
+   ]
+  },
+  "bpers:zebedaeus": {
+   "attested": [
+    "btu:mt.4.21",
+    "btu:mt.10.2",
+    "btu:mt.20.20",
+    "btu:mt.26.37",
+    "btu:mc.3.17",
+    "btu:mc.10.35",
+    "btu:lc.5.10",
+    "btu:io.21.2"
+   ],
+   "evidence": [
+    "nv:btu:mt.4.21"
+   ]
+  },
+  "bpers:hanan.zacchur-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Hanan",
+   "it": "Canan",
+   "en": "Hanan",
+   "descr_it": "figlio di Zaccur, assistente dei tesorieri dei magazzini sotto Neemia",
+   "descr_en": "son of Zaccur, assistant to the storehouse treasurers under Nehemiah",
+   "attested": [
+    "btu:ne.13.13"
+   ],
+   "evidence": [
+    "nv:btu:ne.13.13"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:zacchur.pater-hanan",
+     "evidence": [
+      "nv:btu:ne.13.13"
      ]
     }
    ]
