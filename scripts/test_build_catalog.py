@@ -140,3 +140,34 @@ class SingleSenseOverrideTest(unittest.TestCase):
         units = dict(UNITS, **{"FILIPPO#2": ["btu:lc.3.1", "btu:act.12.1", "btu:mt.16.13"]})
         out = build(DECISIONS, units, tree={}, part_units={"FILIPPO#2": {"bpers:philippus.tetrarcha": ["btu:lc.3.1"]}})
         self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["attested"], ["btu:lc.3.1"])
+
+
+class CuratedEntriesTest(unittest.TestCase):
+    CURATED = {
+        "bpers:amos.propheta": {
+            "type": "person", "kind": "individual", "latin": "Amos", "it": "Amos", "en": "Amos",
+            "descr_it": "profeta", "descr_en": "prophet", "attested": ["btu:am.1.1"],
+            "evidence": ["ndeib:AMOS#0"],
+            "relations": [{"rel": "child_of", "target": "bpers:herodes-magnus", "evidence": ["ndeib:AMOS#0"]},
+                          {"rel": "located_in", "target": "bpers:herodes-magnus", "evidence": ["ndeib:AMOS#0"]}]},
+        "bpers:philippus.tetrarcha": {"attested": ["btu:mc.6.17"], "evidence": ["ndeib:ERODE#1"]},
+    }
+
+    def setUp(self):
+        self.out = build(DECISIONS, UNITS, tree={}, curated=self.CURATED)
+        self.p = self.out["persons"]["entries"]
+
+    def test_new_entry_with_own_units_and_evidence(self):
+        e = self.p["bpers:amos.propheta"]
+        self.assertEqual((e["attested"], e["evidence"], e["names"]["la"]), (["btu:am.1.1"], ["ndeib:AMOS#0"], "Amos"))
+        self.assertEqual(e["relations"], [{"rel": "child_of", "target": "bpers:herodes-magnus",
+                                           "evidence": ["ndeib:AMOS#0"]}])
+
+    def test_wrong_target_type_reported(self):
+        self.assertIn("bpers:amos.propheta located_in bpers:herodes-magnus (curated)",
+                      self.out["report"]["unresolved_relations"])
+
+    def test_existing_entry_extended(self):
+        e = self.p["bpers:philippus.tetrarcha"]
+        self.assertEqual(e["attested"], ["btu:lc.3.1", "btu:mc.6.17"])
+        self.assertEqual(e["evidence"], ["ndeib:FILIPPO#2", "ndeib:ERODE#1"])

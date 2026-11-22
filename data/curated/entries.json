@@ -1,0 +1,366 @@
+{
+ "$comment": "Entries curated by hand, with explicit ids, units, evidence (locations, never text) and relations. First use: the persons a dictionary covers only in a book's article, whose senses are classified as the book (type none). Units are the Nova Vulgata verses that name the person.",
+ "entries": {
+  "bpers:amos.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Amos",
+   "it": "Amos",
+   "en": "Amos",
+   "descr_it": "profeta, pastore di Tekòa, attivo nel regno del Nord sotto Geroboamo II",
+   "descr_en": "prophet, a herdsman from Tekoa, active in the northern kingdom under Jeroboam II",
+   "attested": [
+    "btu:am.1.1",
+    "btu:am.7.8",
+    "btu:am.7.10",
+    "btu:am.7.11",
+    "btu:am.7.12",
+    "btu:am.7.14",
+    "btu:am.8.2",
+    "btu:tb.2.6"
+   ],
+   "evidence": [
+    "ndeib:AMOS#0"
+   ],
+   "relations": []
+  },
+  "bpers:habacuc": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Habacuc",
+   "it": "Abacuc",
+   "en": "Habakkuk",
+   "descr_it": "profeta di Giuda, portato a Babilonia da Daniele nella fossa dei leoni",
+   "descr_en": "prophet of Judah, carried to Daniel in the lions' den in Babylon",
+   "attested": [
+    "btu:hab.1.1",
+    "btu:hab.3.1",
+    "btu:dn.14.33",
+    "btu:dn.14.34",
+    "btu:dn.14.35",
+    "btu:dn.14.37",
+    "btu:dn.14.39"
+   ],
+   "evidence": [
+    "ndeib:ABACUC, LIBRO DI A"
+   ],
+   "relations": []
+  },
+  "bpers:aggaeus": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Aggaeus",
+   "it": "Aggeo",
+   "en": "Haggai",
+   "descr_it": "profeta del ritorno dall'esilio, spinse a ricostruire il Tempio sotto Dario",
+   "descr_en": "post-exilic prophet who urged the rebuilding of the Temple under Darius",
+   "attested": [
+    "btu:esd.5.1",
+    "btu:esd.6.14",
+    "btu:ag.1.1",
+    "btu:ag.1.3",
+    "btu:ag.1.12",
+    "btu:ag.1.13",
+    "btu:ag.2.1",
+    "btu:ag.2.10",
+    "btu:ag.2.13",
+    "btu:ag.2.14",
+    "btu:ag.2.20"
+   ],
+   "evidence": [
+    "ndeib:AGGEO, LIBRO DI A#0",
+    "ndeib:AGGEO, LIBRO DI A#1"
+   ],
+   "relations": []
+  },
+  "bpers:ezechiel": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ezechiel",
+   "it": "Ezechiele",
+   "en": "Ezekiel",
+   "descr_it": "sacerdote, figlio di Buzi, profeta tra i deportati presso il fiume Chebar",
+   "descr_en": "priest, son of Buzi, prophet among the exiles by the river Chebar",
+   "attested": [
+    "btu:ez.1.3",
+    "btu:ez.24.24",
+    "btu:eccli.49.10"
+   ],
+   "evidence": [
+    "ndeib:EZECHIELE, LIBRO DI E"
+   ],
+   "relations": []
+  },
+  "bpers:malachias": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Malachias",
+   "it": "Malachia",
+   "en": "Malachi",
+   "descr_it": "profeta del tempo dopo l'esilio, ultimo dei Dodici",
+   "descr_en": "post-exilic prophet, last of the Twelve",
+   "attested": [
+    "btu:mal.1.1"
+   ],
+   "evidence": [
+    "ndeib:MALACHIA, LIBRO DI M"
+   ],
+   "relations": []
+  },
+  "bpers:sophonias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sophonias",
+   "it": "Sofonia",
+   "en": "Zephaniah",
+   "descr_it": "profeta, figlio di Cusi, attivo sotto il re Giosia",
+   "descr_en": "prophet, son of Cushi, active under King Josiah",
+   "attested": [
+    "btu:soph.1.1"
+   ],
+   "evidence": [
+    "ndeib:SOFONIA, LIBRO DI S"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:chusi.sophoniae-pater",
+     "evidence": [
+      "ndeib:SOFONIA, LIBRO DI S"
+     ]
+    }
+   ]
+  },
+  "bpers:abdias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Abdias",
+   "it": "Abdia",
+   "en": "Obadiah",
+   "descr_it": "profeta, autore dell'oracolo contro Edom",
+   "descr_en": "prophet, author of the oracle against Edom",
+   "attested": [
+    "btu:abd.1.1"
+   ],
+   "evidence": [
+    "ndeib:ABDIA",
+    "ndeib:ABDIA, LIBRO DI A"
+   ],
+   "relations": []
+  },
+  "bpers:michaeas.morasthites": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Michaeas",
+   "it": "Michea",
+   "en": "Micah",
+   "descr_it": "profeta di Moreset, attivo sotto Iotam, Acaz ed Ezechia",
+   "descr_en": "prophet from Moresheth, active under Jotham, Ahaz and Hezekiah",
+   "attested": [
+    "btu:mich.1.1",
+    "btu:ier.26.18"
+   ],
+   "evidence": [
+    "ndeib:MICHEA, LIBRO DI M"
+   ],
+   "relations": []
+  },
+  "bpers:zacharias.filius-addo": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zacharias",
+   "it": "Zaccaria",
+   "en": "Zechariah",
+   "descr_it": "profeta, figlio di Berechia e nipote di Iddo, contemporaneo di Aggeo",
+   "descr_en": "prophet, son of Berechiah and grandson of Iddo, contemporary of Haggai",
+   "attested": [
+    "btu:zach.1.1",
+    "btu:zach.1.7",
+    "btu:zach.7.1",
+    "btu:zach.7.8",
+    "btu:esd.5.1",
+    "btu:esd.6.14"
+   ],
+   "evidence": [
+    "ndeib:ZACCARIA, LIBRO DI Z"
+   ],
+   "relations": []
+  },
+  "bpers:matthaeus": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Matthaeus",
+   "it": "Matteo",
+   "en": "Matthew",
+   "descr_it": "pubblicano chiamato da Gesù, uno dei Dodici apostoli",
+   "descr_en": "tax collector called by Jesus, one of the Twelve apostles",
+   "attested": [
+    "btu:mt.9.9",
+    "btu:mt.10.3",
+    "btu:mc.3.18",
+    "btu:lc.6.15",
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "ndeib:MATTEO, VANGELO DI M"
+   ],
+   "relations": []
+  },
+  "bpers:iudith.filia-merari": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iudith",
+   "it": "Giuditta",
+   "en": "Judith",
+   "descr_it": "vedova di Betulia, figlia di Merari, uccise Oloferne",
+   "descr_en": "widow of Bethulia, daughter of Merari, who killed Holofernes",
+   "attested": [
+    "btu:idt.8.1",
+    "btu:idt.8.4",
+    "btu:idt.8.9",
+    "btu:idt.8.32",
+    "btu:idt.9.1",
+    "btu:idt.10.10",
+    "btu:idt.10.23",
+    "btu:idt.11.5",
+    "btu:idt.12.2",
+    "btu:idt.12.4",
+    "btu:idt.12.14",
+    "btu:idt.12.16",
+    "btu:idt.12.18",
+    "btu:idt.13.2",
+    "btu:idt.13.3",
+    "btu:idt.13.4",
+    "btu:idt.13.11",
+    "btu:idt.14.1",
+    "btu:idt.14.7",
+    "btu:idt.14.8",
+    "btu:idt.14.14",
+    "btu:idt.14.17",
+    "btu:idt.15.8",
+    "btu:idt.15.9",
+    "btu:idt.15.11",
+    "btu:idt.15.14",
+    "btu:idt.16.1",
+    "btu:idt.16.6",
+    "btu:idt.16.19",
+    "btu:idt.16.20",
+    "btu:idt.16.21",
+    "btu:idt.16.25"
+   ],
+   "evidence": [
+    "ndeib:GIUDITTA, LIBRO DI G#1"
+   ],
+   "relations": []
+  },
+  "bpers:thobis": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Thobis",
+   "it": "Tobi",
+   "en": "Tobit",
+   "descr_it": "israelita di Neftali deportato a Ninive, padre di Tobia, colpito da cecità",
+   "descr_en": "Israelite of Naphtali exiled to Nineveh, father of Tobias, struck blind",
+   "attested": [
+    "btu:tb.1.1",
+    "btu:tb.1.3",
+    "btu:tb.2.2",
+    "btu:tb.3.17",
+    "btu:tb.4.1",
+    "btu:tb.5.1",
+    "btu:tb.5.3",
+    "btu:tb.5.9",
+    "btu:tb.5.10",
+    "btu:tb.5.14",
+    "btu:tb.5.17",
+    "btu:tb.5.18",
+    "btu:tb.7.2",
+    "btu:tb.7.4",
+    "btu:tb.7.7",
+    "btu:tb.9.5",
+    "btu:tb.10.1",
+    "btu:tb.10.6",
+    "btu:tb.10.8",
+    "btu:tb.10.10",
+    "btu:tb.10.12",
+    "btu:tb.11.7",
+    "btu:tb.11.10",
+    "btu:tb.11.15",
+    "btu:tb.11.16",
+    "btu:tb.11.17",
+    "btu:tb.12.1",
+    "btu:tb.12.4",
+    "btu:tb.13.1",
+    "btu:tb.14.1",
+    "btu:tb.14.13"
+   ],
+   "evidence": [
+    "ndeib:TOBIA, LIBRO DI T"
+   ],
+   "relations": []
+  },
+  "bpers:thobias.thobis-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Thobias",
+   "it": "Tobia",
+   "en": "Tobias",
+   "descr_it": "figlio di Tobi, viaggiò a Ecbàtana con Raffaele e sposò Sara",
+   "descr_en": "son of Tobit, who travelled to Ecbatana with Raphael and married Sarah",
+   "attested": [
+    "btu:tb.1.9",
+    "btu:tb.1.20",
+    "btu:tb.2.1",
+    "btu:tb.2.2",
+    "btu:tb.2.3",
+    "btu:tb.4.2",
+    "btu:tb.4.3",
+    "btu:tb.5.1",
+    "btu:tb.5.3",
+    "btu:tb.5.4",
+    "btu:tb.5.5",
+    "btu:tb.5.7",
+    "btu:tb.5.9",
+    "btu:tb.5.10",
+    "btu:tb.6.11",
+    "btu:tb.6.14",
+    "btu:tb.6.18",
+    "btu:tb.7.5",
+    "btu:tb.7.7",
+    "btu:tb.7.9",
+    "btu:tb.7.11",
+    "btu:tb.8.2",
+    "btu:tb.8.4",
+    "btu:tb.8.20",
+    "btu:tb.9.1",
+    "btu:tb.9.5",
+    "btu:tb.9.6",
+    "btu:tb.10.7",
+    "btu:tb.10.8",
+    "btu:tb.10.10",
+    "btu:tb.10.12",
+    "btu:tb.10.13",
+    "btu:tb.11.4",
+    "btu:tb.11.7",
+    "btu:tb.11.10",
+    "btu:tb.11.15",
+    "btu:tb.11.18",
+    "btu:tb.12.1",
+    "btu:tb.14.3",
+    "btu:tb.14.12"
+   ],
+   "evidence": [
+    "ndeib:TOBIA, LIBRO DI T"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:thobis",
+     "evidence": [
+      "ndeib:TOBIA, LIBRO DI T"
+     ]
+    }
+   ]
+  }
+ }
+}

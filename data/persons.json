@@ -324,6 +324,29 @@
     "ndeib:ABDIA"
    ]
   },
+  "bpers:abdias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Abdias",
+    "it": "Abdia",
+    "en": "Obadiah"
+   },
+   "description": {
+    "it": "profeta, autore dell'oracolo contro Edom",
+    "en": "prophet, author of the oracle against Edom"
+   },
+   "attested": [
+    "btu:abd.1.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ABDIA",
+    "ndeib:ABDIA, LIBRO DI A"
+   ]
+  },
   "bpers:abdias.zabulonita": {
    "type": "person",
    "kind": "individual",
@@ -3651,6 +3674,39 @@
     "ndeib:AGARENI"
    ]
   },
+  "bpers:aggaeus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Aggaeus",
+    "it": "Aggeo",
+    "en": "Haggai"
+   },
+   "description": {
+    "it": "profeta del ritorno dall'esilio, spinse a ricostruire il Tempio sotto Dario",
+    "en": "post-exilic prophet who urged the rebuilding of the Temple under Darius"
+   },
+   "attested": [
+    "btu:esd.5.1",
+    "btu:esd.6.14",
+    "btu:ag.1.1",
+    "btu:ag.1.3",
+    "btu:ag.1.12",
+    "btu:ag.1.13",
+    "btu:ag.2.1",
+    "btu:ag.2.10",
+    "btu:ag.2.13",
+    "btu:ag.2.14",
+    "btu:ag.2.20"
+   ],
+   "relations": [],
+   "qid": "Q1613144",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:AGGEO, LIBRO DI A#0",
+    "ndeib:AGGEO, LIBRO DI A#1"
+   ]
+  },
   "bpers:agrippa": {
    "type": "person",
    "kind": "individual",
@@ -5139,6 +5195,35 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AMORREI"
+   ]
+  },
+  "bpers:amos.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Amos",
+    "it": "Amos",
+    "en": "Amos"
+   },
+   "description": {
+    "it": "profeta, pastore di Tekòa, attivo nel regno del Nord sotto Geroboamo II",
+    "en": "prophet, a herdsman from Tekoa, active in the northern kingdom under Jeroboam II"
+   },
+   "attested": [
+    "btu:am.1.1",
+    "btu:am.7.8",
+    "btu:am.7.10",
+    "btu:am.7.11",
+    "btu:am.7.12",
+    "btu:am.7.14",
+    "btu:am.8.2",
+    "btu:tb.2.6"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:AMOS#0"
    ]
   },
   "bpers:amram.caath-filius": {
@@ -17280,6 +17365,30 @@
     "ndeib:EZECHIA#1"
    ]
   },
+  "bpers:ezechiel": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ezechiel",
+    "it": "Ezechiele",
+    "en": "Ezekiel"
+   },
+   "description": {
+    "it": "sacerdote, figlio di Buzi, profeta tra i deportati presso il fiume Chebar",
+    "en": "priest, son of Buzi, prophet among the exiles by the river Chebar"
+   },
+   "attested": [
+    "btu:ez.1.3",
+    "btu:ez.24.24",
+    "btu:eccli.49.10"
+   ],
+   "relations": [],
+   "qid": "Q194064",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:EZECHIELE, LIBRO DI E"
+   ]
+  },
   "bpers:ezer.ephraim": {
    "type": "person",
    "kind": "individual",
@@ -18580,6 +18689,34 @@
     "ndeib:ELLENISTI"
    ],
    "review": "uncertain"
+  },
+  "bpers:habacuc": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Habacuc",
+    "it": "Abacuc",
+    "en": "Habakkuk"
+   },
+   "description": {
+    "it": "profeta di Giuda, portato a Babilonia da Daniele nella fossa dei leoni",
+    "en": "prophet of Judah, carried to Daniel in the lions' den in Babylon"
+   },
+   "attested": [
+    "btu:hab.1.1",
+    "btu:hab.3.1",
+    "btu:dn.14.33",
+    "btu:dn.14.34",
+    "btu:dn.14.35",
+    "btu:dn.14.37",
+    "btu:dn.14.39"
+   ],
+   "relations": [],
+   "qid": "Q135106",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:ABACUC, LIBRO DI A"
+   ]
   },
   "bpers:haber.cinaeus": {
    "type": "person",
@@ -29826,6 +29963,59 @@
    ],
    "review": "uncertain"
   },
+  "bpers:iudith.filia-merari": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iudith",
+    "it": "Giuditta",
+    "en": "Judith"
+   },
+   "description": {
+    "it": "vedova di Betulia, figlia di Merari, uccise Oloferne",
+    "en": "widow of Bethulia, daughter of Merari, who killed Holofernes"
+   },
+   "attested": [
+    "btu:idt.8.1",
+    "btu:idt.8.4",
+    "btu:idt.8.9",
+    "btu:idt.8.32",
+    "btu:idt.9.1",
+    "btu:idt.10.10",
+    "btu:idt.10.23",
+    "btu:idt.11.5",
+    "btu:idt.12.2",
+    "btu:idt.12.4",
+    "btu:idt.12.14",
+    "btu:idt.12.16",
+    "btu:idt.12.18",
+    "btu:idt.13.2",
+    "btu:idt.13.3",
+    "btu:idt.13.4",
+    "btu:idt.13.11",
+    "btu:idt.14.1",
+    "btu:idt.14.7",
+    "btu:idt.14.8",
+    "btu:idt.14.14",
+    "btu:idt.14.17",
+    "btu:idt.15.8",
+    "btu:idt.15.9",
+    "btu:idt.15.11",
+    "btu:idt.15.14",
+    "btu:idt.16.1",
+    "btu:idt.16.6",
+    "btu:idt.16.19",
+    "btu:idt.16.20",
+    "btu:idt.16.21",
+    "btu:idt.16.25"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIUDITTA, LIBRO DI G#1"
+   ]
+  },
   "bpers:iulius.centurio": {
    "type": "person",
    "kind": "individual",
@@ -30064,7 +30254,15 @@
    "attested": [
     "btu:mc.2.14"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:matthaeus",
+     "evidence": [
+      "ndeib:LEVI#2"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -31438,6 +31636,28 @@
     "ndeib:MAGI"
    ]
   },
+  "bpers:malachias": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Malachias",
+    "it": "Malachia",
+    "en": "Malachi"
+   },
+   "description": {
+    "it": "profeta del tempo dopo l'esilio, ultimo dei Dodici",
+    "en": "post-exilic prophet, last of the Twelve"
+   },
+   "attested": [
+    "btu:mal.1.1"
+   ],
+   "relations": [],
+   "qid": "Q5767200",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:MALACHIA, LIBRO DI M"
+   ]
+  },
   "bpers:malchus.servus-pontificis": {
    "type": "person",
    "kind": "individual",
@@ -32098,6 +32318,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MARTA"
+   ]
+  },
+  "bpers:matthaeus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Matthaeus",
+    "it": "Matteo",
+    "en": "Matthew"
+   },
+   "description": {
+    "it": "pubblicano chiamato da Gesù, uno dei Dodici apostoli",
+    "en": "tax collector called by Jesus, one of the Twelve apostles"
+   },
+   "attested": [
+    "btu:mt.9.9",
+    "btu:mt.10.3",
+    "btu:mc.3.18",
+    "btu:lc.6.15",
+    "btu:act.1.13"
+   ],
+   "relations": [],
+   "qid": "Q43600",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:MATTEO, VANGELO DI M"
    ]
   },
   "bpers:matthanias.asaphita-ezechiae": {
@@ -33186,6 +33432,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MICHEA"
+   ]
+  },
+  "bpers:michaeas.morasthites": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Michaeas",
+    "it": "Michea",
+    "en": "Micah"
+   },
+   "description": {
+    "it": "profeta di Moreset, attivo sotto Iotam, Acaz ed Ezechia",
+    "en": "prophet from Moresheth, active under Jotham, Ahaz and Hezekiah"
+   },
+   "attested": [
+    "btu:mich.1.1",
+    "btu:ier.26.18"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:MICHEA, LIBRO DI M"
    ]
   },
   "bpers:michaeas.pater-achobor": {
@@ -35297,48 +35566,7 @@
     "en": "prophet from Elkosh who foretold Nineveh's fall"
    },
    "attested": [
-    "btu:nah.1.1",
-    "btu:nah.3.18",
-    "btu:am.7.14",
-    "btu:2par.34.4",
-    "btu:2par.34.5",
-    "btu:2par.34.6",
-    "btu:2par.34.7",
-    "btu:rom.12.19",
-    "btu:act.27.13",
-    "btu:act.27.14",
-    "btu:act.27.15",
-    "btu:act.27.16",
-    "btu:act.27.17",
-    "btu:act.27.18",
-    "btu:act.27.19",
-    "btu:act.27.20",
-    "btu:act.27.21",
-    "btu:act.27.22",
-    "btu:act.27.23",
-    "btu:act.27.24",
-    "btu:act.27.25",
-    "btu:act.27.26",
-    "btu:act.27.27",
-    "btu:act.27.28",
-    "btu:act.27.29",
-    "btu:act.27.30",
-    "btu:act.27.31",
-    "btu:act.27.32",
-    "btu:act.27.33",
-    "btu:act.27.34",
-    "btu:act.27.35",
-    "btu:act.27.36",
-    "btu:act.27.37",
-    "btu:act.27.38",
-    "btu:act.27.39",
-    "btu:act.27.40",
-    "btu:act.27.41",
-    "btu:act.27.42",
-    "btu:act.27.43",
-    "btu:act.27.44",
-    "btu:is.46.1",
-    "btu:2reg.17.6"
+    "btu:nah.1.1"
    ],
    "relations": [],
    "qid": "Q1981722",
@@ -47419,6 +47647,36 @@
     "ndeib:ZOFAR"
    ]
   },
+  "bpers:sophonias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Sophonias",
+    "it": "Sofonia",
+    "en": "Zephaniah"
+   },
+   "description": {
+    "it": "profeta, figlio di Cusi, attivo sotto il re Giosia",
+    "en": "prophet, son of Cushi, active under King Josiah"
+   },
+   "attested": [
+    "btu:soph.1.1"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:chusi.sophoniae-pater",
+     "evidence": [
+      "ndeib:SOFONIA, LIBRO DI S"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:SOFONIA, LIBRO DI S"
+   ]
+  },
   "bpers:sosthenes.archisynagogus": {
    "type": "person",
    "kind": "individual",
@@ -48479,6 +48737,127 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TOBIA#1"
+   ]
+  },
+  "bpers:thobias.thobis-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Thobias",
+    "it": "Tobia",
+    "en": "Tobias"
+   },
+   "description": {
+    "it": "figlio di Tobi, viaggiò a Ecbàtana con Raffaele e sposò Sara",
+    "en": "son of Tobit, who travelled to Ecbatana with Raphael and married Sarah"
+   },
+   "attested": [
+    "btu:tb.1.9",
+    "btu:tb.1.20",
+    "btu:tb.2.1",
+    "btu:tb.2.2",
+    "btu:tb.2.3",
+    "btu:tb.4.2",
+    "btu:tb.4.3",
+    "btu:tb.5.1",
+    "btu:tb.5.3",
+    "btu:tb.5.4",
+    "btu:tb.5.5",
+    "btu:tb.5.7",
+    "btu:tb.5.9",
+    "btu:tb.5.10",
+    "btu:tb.6.11",
+    "btu:tb.6.14",
+    "btu:tb.6.18",
+    "btu:tb.7.5",
+    "btu:tb.7.7",
+    "btu:tb.7.9",
+    "btu:tb.7.11",
+    "btu:tb.8.2",
+    "btu:tb.8.4",
+    "btu:tb.8.20",
+    "btu:tb.9.1",
+    "btu:tb.9.5",
+    "btu:tb.9.6",
+    "btu:tb.10.7",
+    "btu:tb.10.8",
+    "btu:tb.10.10",
+    "btu:tb.10.12",
+    "btu:tb.10.13",
+    "btu:tb.11.4",
+    "btu:tb.11.7",
+    "btu:tb.11.10",
+    "btu:tb.11.15",
+    "btu:tb.11.18",
+    "btu:tb.12.1",
+    "btu:tb.14.3",
+    "btu:tb.14.12"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:thobis",
+     "evidence": [
+      "ndeib:TOBIA, LIBRO DI T"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:TOBIA, LIBRO DI T"
+   ]
+  },
+  "bpers:thobis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Thobis",
+    "it": "Tobi",
+    "en": "Tobit"
+   },
+   "description": {
+    "it": "israelita di Neftali deportato a Ninive, padre di Tobia, colpito da cecità",
+    "en": "Israelite of Naphtali exiled to Nineveh, father of Tobias, struck blind"
+   },
+   "attested": [
+    "btu:tb.1.1",
+    "btu:tb.1.3",
+    "btu:tb.2.2",
+    "btu:tb.3.17",
+    "btu:tb.4.1",
+    "btu:tb.5.1",
+    "btu:tb.5.3",
+    "btu:tb.5.9",
+    "btu:tb.5.10",
+    "btu:tb.5.14",
+    "btu:tb.5.17",
+    "btu:tb.5.18",
+    "btu:tb.7.2",
+    "btu:tb.7.4",
+    "btu:tb.7.7",
+    "btu:tb.9.5",
+    "btu:tb.10.1",
+    "btu:tb.10.6",
+    "btu:tb.10.8",
+    "btu:tb.10.10",
+    "btu:tb.10.12",
+    "btu:tb.11.7",
+    "btu:tb.11.10",
+    "btu:tb.11.15",
+    "btu:tb.11.16",
+    "btu:tb.11.17",
+    "btu:tb.12.1",
+    "btu:tb.12.4",
+    "btu:tb.13.1",
+    "btu:tb.14.1",
+    "btu:tb.14.13"
+   ],
+   "relations": [],
+   "qid": "Q12060123",
+   "qid_status": "auto",
+   "evidence": [
+    "ndeib:TOBIA, LIBRO DI T"
    ]
   },
   "bpers:tholmai.filius-enac": {
@@ -49979,6 +50358,33 @@
     "ndeib:ZACCARIA"
    ],
    "review": "uncertain"
+  },
+  "bpers:zacharias.filius-addo": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Zacharias",
+    "it": "Zaccaria",
+    "en": "Zechariah"
+   },
+   "description": {
+    "it": "profeta, figlio di Berechia e nipote di Iddo, contemporaneo di Aggeo",
+    "en": "prophet, son of Berechiah and grandson of Iddo, contemporary of Haggai"
+   },
+   "attested": [
+    "btu:zach.1.1",
+    "btu:zach.1.7",
+    "btu:zach.7.1",
+    "btu:zach.7.8",
+    "btu:esd.5.1",
+    "btu:esd.6.14"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:ZACCARIA, LIBRO DI Z"
+   ]
   },
   "bpers:zacharias.filius-asaph": {
    "type": "person",
