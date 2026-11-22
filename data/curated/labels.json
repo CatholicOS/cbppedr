@@ -699,28 +699,6 @@
     }
    }
   },
-  "bpers:achimelech.sacerdos-nob": {
-   "btu:1sam.14.18": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Achia",
-     "DRB": "Achias",
-     "NABRE": "Ahijah",
-     "NVBSE": "Ahiam",
-     "VGCL": "Achiam"
-    }
-   },
-   "btu:1sam.14.3": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Achia",
-     "DRB": "Achias",
-     "NABRE": "Ahijah",
-     "NVBSE": "Ahias",
-     "VGCL": "Achias"
-    }
-   }
-  },
   "bpers:achinoam.iezrahelitis": {
    "btu:1sam.30.18": {
     "as": "designation",
@@ -2363,7 +2341,7 @@
   },
   "bpers:ephraim.tribus": {
    "btu:dt.33.13": {
-    "as": "name",
+    "as": "designation",
     "editions": {
      "CEI2008": "Giuseppe",
      "DRB": "Joseph",
@@ -2373,7 +2351,7 @@
     }
    },
    "btu:dt.33.16": {
-    "as": "name",
+    "as": "designation",
     "editions": {
      "CEI2008": "Giuseppe",
      "DRB": "Joseph",
@@ -5260,6 +5238,26 @@
      "NABRE": "the Josephites",
      "NVBSE": "filii Ioseph",
      "VGCL": "filii Joseph"
+    }
+   },
+   "btu:dt.33.13": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
+    }
+   },
+   "btu:dt.33.16": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
     }
    }
   },

@@ -2656,14 +2656,32 @@
     "en": "town in Judah's Negeb southeast of Beersheba"
    },
    "attested": [
-    "btu:1sam.30.28",
-    "btu:1par.11.44"
+    "btu:1sam.30.28"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AROER#2"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1par.11.44",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:AROER#2",
+       "says": "identifies",
+       "summary": "Negeb Aroer sense cites Hotham the Aroerite's sons in 1 Chr 11:44."
+      },
+      {
+       "by": "bj:note:1Cr.11,26-47#p817",
+       "says": "doubts",
+       "summary": "Says the heroes listed after v 41a mostly came from Transjordan."
+      }
+     ]
+    }
    ]
   },
   "bplace:arphad": {
@@ -4285,14 +4303,27 @@
     "en": "mountain east of Lebanon (Judg 3,3)"
    },
    "attested": [
-    "btu:idc.3.3",
-    "btu:1par.5.23"
+    "btu:idc.3.3"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BAAL-ERMON"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1par.5.23",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BAAL-ERMON",
+       "says": "suggests",
+       "summary": "Mountain sense also cites the verse for Manasseh's border, unsure if a sacred spot or a locality."
+      }
+     ]
+    }
    ]
   },
   "bplace:baalhermon.urbs": {
@@ -5582,14 +5613,27 @@
     "en": "place east of Bethel near Ai"
    },
    "attested": [
-    "btu:ios.7.2",
-    "btu:ios.18.12"
+    "btu:ios.7.2"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BET-AVEN"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.18.12",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:BET-AVEN",
+       "says": "doubts",
+       "summary": "Two distinct Beth-avens; impossible to say with certainty which marks Benjamin's northern border."
+      }
+     ]
+    }
    ]
   },
   "bplace:bethaven.machmas": {
@@ -5605,14 +5649,27 @@
     "en": "place near Michmash"
    },
    "attested": [
-    "btu:1sam.13.5",
-    "btu:ios.18.12"
+    "btu:1sam.13.5"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BET-AVEN"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.18.12",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:BET-AVEN",
+       "says": "doubts",
+       "summary": "Same entry: cannot decide whether the Michmash Beth-aven is the border one."
+      }
+     ]
+    }
    ]
   },
   "bplace:bethbera": {
@@ -6247,7 +6304,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BETLEMME"
+    "ndeib:BETLEMME",
+    "ndeib:IBSAN"
    ]
   },
   "bplace:bethnemra": {
@@ -10443,6 +10501,28 @@
     "ndeib:DERBE"
    ]
   },
+  "bplace:desertum-bethaven": {
+   "type": "place",
+   "kind": "desert",
+   "names": {
+    "la": "Bethaven",
+    "it": "Bet-Aven",
+    "en": "Beth-aven"
+   },
+   "description": {
+    "it": "deserto di Bet-Aven sul confine settentrionale di Beniamino",
+    "en": "wilderness of Beth-aven on Benjamin's northern border"
+   },
+   "attested": [
+    "btu:ios.18.12"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ios.18.12"
+   ]
+  },
   "bplace:desertum-sin": {
    "type": "place",
    "kind": "desert",
@@ -13386,14 +13466,12 @@
     "btu:1sam.15.21",
     "btu:1sam.15.33",
     "btu:2sam.19.16",
-    "btu:2reg.2.1",
     "btu:2reg.4.38",
     "btu:am.4.4",
     "btu:am.5.5",
     "btu:os.4.15",
     "btu:os.9.15",
     "btu:os.12.12",
-    "btu:dt.11.30",
     "btu:2sam.19.41"
    ],
    "relations": [],
@@ -13405,6 +13483,98 @@
     "nv:btu:2sam.19.41"
    ],
    "review": "uncertain"
+  },
+  "bplace:galgala.iuxta-more": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Galgala",
+    "it": "Gàlgala",
+    "en": "Gilgal"
+   },
+   "description": {
+    "it": "Gàlgala presso le querce di More, di fronte all'Ebal e al Garizim",
+    "en": "the Gilgal beside the oaks of Moreh, facing Ebal and Gerizim"
+   },
+   "attested": [
+    "btu:dt.11.30"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:dt.11.30"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:galgala.iuxta-iericho",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Dt.11,30#p403",
+       "says": "identifies",
+       "summary": "Treats the phrase as a gloss that relocates a Shechem-area text to the Gilgal near Jericho."
+      },
+      {
+       "by": "bj:note:Gs.4,19-24#p468",
+       "says": "rejects",
+       "summary": "Cites Dt 11:30 among the several localities that bore the name Gilgal."
+      },
+      {
+       "by": "ndeib:GALGALA#3",
+       "says": "suggests",
+       "summary": "Conditionally: if the phrase points to Arabah settlements, it is the historic Jericho Gilgal."
+      }
+     ]
+    }
+   ]
+  },
+  "bplace:galgala.prope-bethel": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Galgala",
+    "it": "Gàlgala",
+    "en": "Gilgal"
+   },
+   "description": {
+    "it": "Gàlgala da cui Elia ed Eliseo scesero a Betel",
+    "en": "the Gilgal from which Elijah and Elisha went down to Bethel"
+   },
+   "attested": [
+    "btu:2reg.2.1"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:2reg.2.1"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:galgala.iuxta-iericho",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:2Re.2,1#p736",
+       "says": "rejects",
+       "summary": "Says this Gilgal lies north of Bethel and differs from the Gilgal of Josh 4:19."
+      },
+      {
+       "by": "bj:note:Gs.4,19-24#p468",
+       "says": "rejects",
+       "summary": "Cites 2 Kgs 2:1 among other places that took the name Gilgal."
+      },
+      {
+       "by": "ndeib:GALGALA#1",
+       "says": "suggests",
+       "summary": "Lists it under the Jericho Gilgal, admits dispute, but thinks Jericho and Jordan mentions favour it."
+      }
+     ]
+    }
+   ]
   },
   "bplace:galilaea": {
    "type": "place",
@@ -26656,7 +26826,6 @@
    "attested": [
     "btu:ios.19.13",
     "btu:1par.6.62",
-    "btu:is.10.27",
     "btu:ios.21.35"
    ],
    "relations": [],
@@ -26666,6 +26835,25 @@
     "ndeib:RIMMON#4",
     "nv:btu:ios.21.35",
     "nv:btu:ios.19.13"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:is.10.27",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:RIMMON#4",
+       "says": "identifies",
+       "summary": "Says the Zebulun Rimmon was the one taken by the Assyrians marching on Jerusalem (Is 10,27)."
+      },
+      {
+       "by": "bj:note:Is.10,27#p1760",
+       "says": "doubts",
+       "summary": "The 'from Rimmon' rendering is a conjecture; an emendation reading Samaria is mentioned."
+      }
+     ]
+    }
    ]
   },
   "bplace:remmonphares": {

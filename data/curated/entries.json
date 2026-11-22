@@ -39191,7 +39191,8 @@
     "btu:2sam.19.41"
    ],
    "evidence": [
-    "nv:btu:2sam.19.41"
+    "nv:btu:2sam.19.41",
+    "ndeib:GALGALA#1"
    ]
   },
   "bplace:galiloth": {},
@@ -44265,6 +44266,371 @@
    ],
    "evidence": [
     "nv:btu:gal.1.19"
+   ]
+  },
+  "bpers:melchias.sacerdos-signator": {
+   "evidence": [
+    "ndeib:MALCHIA"
+   ]
+  },
+  "bpers:aser.iacob-filius": {
+   "evidence": [
+    "ndeib:ASER#0"
+   ]
+  },
+  "bpers:aser.tribus": {
+   "evidence": [
+    "bj:note:Gen.c49#p152"
+   ]
+  },
+  "bpers:bennui.de-filiis-bani": {
+   "evidence": [
+    "ndeib:BINNUI"
+   ]
+  },
+  "bpers:erastus.minister-pauli": {
+   "evidence": [
+    "ndeib:ERASTO#1"
+   ]
+  },
+  "bpers:zacharias.filius-ioiadae": {
+   "evidence": [
+    "bj:note:Mt.23,35",
+    "bj:note:Mt.23,34#p2406",
+    "ndeib:ZACCARIA"
+   ]
+  },
+  "bpers:iohanan.sacerdos-magnus": {
+   "evidence": [
+    "ndeib:GIOVANNI#8"
+   ]
+  },
+  "bpers:matthanias.cantor-nehemiae": {
+   "evidence": [
+    "ndeib:MATTANIA"
+   ]
+  },
+  "bpers:saraia.sacerdos-reditus": {
+   "evidence": [
+    "ndeib:SERAIA"
+   ]
+  },
+  "bpers:hasabias.esdrae-socius": {
+   "evidence": [
+    "ndeib:CASABIA"
+   ]
+  },
+  "bpers:iahiel.elam-filius": {
+   "evidence": [
+    "ndeib:IECHIEL"
+   ]
+  },
+  "bplace:thamna.iuda": {
+   "evidence": [
+    "ndeib:TIMNA"
+   ]
+  },
+  "bplace:baalhermon.urbs": {
+   "evidence": [
+    "ndeib:BAAL-ERMON"
+   ]
+  },
+  "bplace:bethlehem.zabulon": {
+   "evidence": [
+    "ndeib:IBSAN"
+   ]
+  },
+  "bpers:issachar.tribus": {
+   "evidence": [
+    "bj:note:Gen.49,14#p153"
+   ]
+  },
+  "bpers:bani.pater-uzzi": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Bani",
+   "it": "Bani",
+   "en": "Bani",
+   "descr_it": "levita, padre di Uzzi, capo dei leviti a Gerusalemme",
+   "descr_en": "Levite, father of Uzzi the overseer of the Levites in Jerusalem",
+   "attested": [
+    "btu:ne.11.22"
+   ],
+   "evidence": [
+    "nv:btu:ne.11.22"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ozi.filius-bani",
+     "evidence": [
+      "nv:btu:ne.11.22"
+     ]
+    }
+   ]
+  },
+  "bpers:melchias.pater-phassur": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Melchias",
+   "it": "Malchia",
+   "en": "Malchijah",
+   "descr_it": "padre di Pascur, inviato di Sedecia a Geremia",
+   "descr_en": "father of Pashhur, Zedekiah's envoy to Jeremiah",
+   "attested": [
+    "btu:ier.21.1",
+    "btu:ier.38.1"
+   ],
+   "evidence": [
+    "nv:btu:ier.21.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:phassur.melchiae-filius",
+     "evidence": [
+      "nv:btu:ier.38.1"
+     ]
+    }
+   ]
+  },
+  "bpers:urias.cum-esdra": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Urias",
+   "it": "Uria",
+   "en": "Uriah",
+   "descr_it": "uno di quelli che stavano accanto a Esdra alla lettura della legge",
+   "descr_en": "one of those who stood beside Ezra at the reading of the law",
+   "attested": [
+    "btu:ne.8.4"
+   ],
+   "evidence": [
+    "nv:btu:ne.8.4"
+   ]
+  },
+  "bpers:zacharias.cum-esdra": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zacharias",
+   "it": "Zaccaria",
+   "en": "Zechariah",
+   "descr_it": "uno di quelli che stavano accanto a Esdra alla lettura della legge",
+   "descr_en": "one of those who stood beside Ezra at the reading of the law",
+   "attested": [
+    "btu:ne.8.4"
+   ],
+   "evidence": [
+    "nv:btu:ne.8.4"
+   ]
+  },
+  "bpers:ahias.achitob-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ahias",
+   "it": "Achia",
+   "en": "Ahijah",
+   "descr_it": "sacerdote, figlio di Achitub, che portava l'efod presso Saul",
+   "descr_en": "priest, son of Ahitub, who bore the ephod with Saul",
+   "attested": [
+    "btu:1sam.14.3",
+    "btu:1sam.14.18"
+   ],
+   "evidence": [
+    "nv:btu:1sam.14.3"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achitob.phinees-filius",
+     "evidence": [
+      "nv:btu:1sam.14.3"
+     ]
+    }
+   ]
+  },
+  "bplace:galgala.prope-bethel": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Galgala",
+   "it": "Gàlgala",
+   "en": "Gilgal",
+   "descr_it": "Gàlgala da cui Elia ed Eliseo scesero a Betel",
+   "descr_en": "the Gilgal from which Elijah and Elisha went down to Bethel",
+   "attested": [
+    "btu:2reg.2.1"
+   ],
+   "evidence": [
+    "nv:btu:2reg.2.1"
+   ]
+  },
+  "bplace:galgala.iuxta-more": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Galgala",
+   "it": "Gàlgala",
+   "en": "Gilgal",
+   "descr_it": "Gàlgala presso le querce di More, di fronte all'Ebal e al Garizim",
+   "descr_en": "the Gilgal beside the oaks of Moreh, facing Ebal and Gerizim",
+   "attested": [
+    "btu:dt.11.30"
+   ],
+   "evidence": [
+    "nv:btu:dt.11.30"
+   ]
+  },
+  "bplace:desertum-bethaven": {
+   "type": "place",
+   "kind": "desert",
+   "latin": "Bethaven",
+   "it": "Bet-Aven",
+   "en": "Beth-aven",
+   "descr_it": "deserto di Bet-Aven sul confine settentrionale di Beniamino",
+   "descr_en": "wilderness of Beth-aven on Benjamin's northern border",
+   "attested": [
+    "btu:ios.18.12"
+   ],
+   "evidence": [
+    "nv:btu:ios.18.12"
+   ]
+  },
+  "bpers:bennui.pater-noadiae": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Bennui",
+   "it": "Binnui",
+   "en": "Binnui",
+   "descr_it": "levita, padre di Noadia, al ritorno con Esdra",
+   "descr_en": "Levite, father of Noadiah, at the return with Ezra",
+   "attested": [
+    "btu:esd.8.33"
+   ],
+   "evidence": [
+    "nv:btu:esd.8.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:noadia.filius-bennui",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
+   ]
+  },
+  "bpers:sadoc.signator": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sadoc",
+   "it": "Sadoc",
+   "en": "Zadok",
+   "descr_it": "capo del popolo che firmò l'impegno sotto Neemia",
+   "descr_en": "leader of the people who sealed the pledge under Nehemiah",
+   "attested": [
+    "btu:ne.10.22"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.22"
+   ]
+  },
+  "bpers:sadoc.scriba": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sadoc",
+   "it": "Sadoc",
+   "en": "Zadok",
+   "descr_it": "scriba, incaricato dei magazzini sotto Neemia",
+   "descr_en": "scribe put in charge of the storehouses under Nehemiah",
+   "attested": [
+    "btu:ne.13.13"
+   ],
+   "evidence": [
+    "nv:btu:ne.13.13"
+   ]
+  },
+  "bpers:azareel.musicus": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Azareel",
+   "it": "Azarèl",
+   "en": "Azarel",
+   "descr_it": "musicista alla dedicazione delle mura sotto Neemia",
+   "descr_en": "musician at the dedication of the wall under Nehemiah",
+   "attested": [
+    "btu:ne.12.36"
+   ],
+   "evidence": [
+    "nv:btu:ne.12.36"
+   ]
+  },
+  "bpers:zara.pater-iobab": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zara",
+   "it": "Zerach",
+   "en": "Zerah",
+   "descr_it": "di Bosra, padre di Iobab re di Edom",
+   "descr_en": "of Bozrah, father of Jobab king of Edom",
+   "attested": [
+    "btu:gn.36.33",
+    "btu:1par.1.44"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iobab.rex-edom",
+     "evidence": [
+      "nv:btu:gn.36.33"
+     ]
+    }
+   ]
+  },
+  "bpers:azarias.achimaas-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Azarias",
+   "it": "Azarìa",
+   "en": "Azariah",
+   "descr_it": "sacerdote, figlio di Achimaas, nella genealogia dei sommi sacerdoti",
+   "descr_en": "priest, son of Ahimaaz, in the high priests' genealogy",
+   "attested": [
+    "btu:1par.5.35"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.35"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achimaas.sadoc-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iohanan.azariae-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    }
+   ]
+  },
+  "bpers:manasses.tribus": {
+   "attested": [
+    "btu:dt.33.13",
+    "btu:dt.33.16"
+   ],
+   "evidence": [
+    "ndeib:EFRAIM, EFRAIMITI"
+   ]
+  },
+  "bpers:ephraim.tribus": {
+   "evidence": [
+    "ndeib:EFRAIM, EFRAIMITI"
    ]
   }
  }

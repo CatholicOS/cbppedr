@@ -906,7 +906,8 @@
   "bpers:amasa.iether-filius": [
    "btu:2sam.18.6",
    "btu:2sam.18.7",
-   "btu:2sam.18.8"
+   "btu:2sam.18.8",
+   "btu:1par.12.19"
   ],
   "bpers:amasai.princeps-triginta": [
    "btu:1par.12.16",
@@ -1456,7 +1457,8 @@
    "btu:2sam.15.18"
   ],
   "bpers:bani.levites": [
-   "btu:ne.3.7"
+   "btu:ne.3.7",
+   "btu:ne.11.22"
   ],
   "bpers:barabbas": [
    "btu:mc.15.8"
@@ -9335,10 +9337,14 @@
    "btu:eph.4.17"
   ],
   "bpers:sadoc.filius-baana": [
-   "btu:ne.3.29"
+   "btu:ne.3.29",
+   "btu:ne.10.22",
+   "btu:ne.13.13"
   ],
   "bpers:sadoc.filius-immer": [
-   "btu:ne.3.4"
+   "btu:ne.3.4",
+   "btu:ne.10.22",
+   "btu:ne.13.13"
   ],
   "bpers:sadoc.sacerdos-david": [
    "btu:1reg.1.7"
@@ -11950,7 +11956,8 @@
   ],
   "bplace:aroer.negeb": [
    "btu:1sam.30.26",
-   "btu:1sam.30.27"
+   "btu:1sam.30.27",
+   "btu:1par.11.44"
   ],
   "bplace:arphad": [
    "btu:ios.8.32"
@@ -13626,7 +13633,9 @@
    "btu:1sam.15.32",
    "btu:1sam.15.34",
    "btu:1sam.15.35",
-   "btu:2sam.19.40"
+   "btu:2sam.19.40",
+   "btu:2reg.2.1",
+   "btu:dt.11.30"
   ],
   "bplace:galilaea": [
    "btu:ios.19.10",
@@ -16423,7 +16432,8 @@
    "btu:nm.33.19"
   ],
   "bplace:remmon.zabulon": [
-   "btu:ios.21.25"
+   "btu:ios.21.25",
+   "btu:is.10.27"
   ],
   "bplace:rohob.emath": [
    "btu:2sam.10.7"
@@ -17489,6 +17499,51 @@
   "bpers:iacobus.alphaei-filius": [
    "btu:mc.16.1",
    "btu:mt.27.56"
+  ],
+  "bpers:erastus.arcarius": [
+   "btu:2tim.4.20"
+  ],
+  "bplace:baalhermon.mons": [
+   "btu:1par.5.23"
+  ],
+  "bpers:phassur.familia-sacerdotum": [
+   "btu:1par.9.12",
+   "btu:ne.11.12"
+  ],
+  "bpers:melchias.progenitor-adaiae": [
+   "btu:ier.21.1"
+  ],
+  "bpers:urias.pater-meremoth": [
+   "btu:ne.8.4"
+  ],
+  "bpers:zacharias.nuntius-esdrae": [
+   "btu:ne.8.4"
+  ],
+  "bpers:achimelech.sacerdos-nob": [
+   "btu:1sam.14.3",
+   "btu:1sam.14.18"
+  ],
+  "bplace:bethaven.bethel": [
+   "btu:ios.18.12"
+  ],
+  "bplace:bethaven.machmas": [
+   "btu:ios.18.12"
+  ],
+  "bpers:bennui.henadad-filius": [
+   "btu:esd.8.33"
+  ],
+  "bpers:bennui.levites": [
+   "btu:esd.8.33"
+  ],
+  "bpers:azareel.ahazi-filius": [
+   "btu:ne.12.36"
+  ],
+  "bpers:zara.filius-rahuel": [
+   "btu:gn.36.33",
+   "btu:1par.1.44"
+  ],
+  "bpers:azarias.sadoc-filius": [
+   "btu:1par.5.35"
   ]
  }
 }

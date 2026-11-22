@@ -2556,6 +2556,22 @@
     "Q65302941"
    ]
   },
+  "bpers:ahias.achitob-filius": {
+   "qid": "Q18191333",
+   "status": "auto",
+   "candidates": [
+    "Q2590260",
+    "Q14926538",
+    "Q18191333",
+    "Q4695148",
+    "Q14690615",
+    "Q14690493",
+    "Q14690496",
+    "Q14690529",
+    "Q14690586",
+    "Q14690484"
+   ]
+  },
   "bpers:ahias.silonites": {
    "qid": null,
    "status": "unresolved",
@@ -6229,6 +6245,22 @@
     "Q139383580"
    ]
   },
+  "bpers:azareel.musicus": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q139268271",
+    "Q21223657",
+    "Q21263524",
+    "Q21263550",
+    "Q21263563",
+    "Q21263537",
+    "Q21263577",
+    "Q139383428",
+    "Q139383649",
+    "Q139383580"
+   ]
+  },
   "bpers:azareel.princeps-dan": {
    "qid": null,
    "status": "unresolved",
@@ -6243,6 +6275,22 @@
     "Q139383428",
     "Q139383649",
     "Q139383580"
+   ]
+  },
+  "bpers:azarias.achimaas-filius": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q313216",
+    "Q1429777",
+    "Q9163193",
+    "Q4832269",
+    "Q2025510",
+    "Q26234655",
+    "Q2348740",
+    "Q117304605",
+    "Q18346805",
+    "Q793598"
    ]
   },
   "bpers:azarias.cum-zorobabel": {
@@ -7577,6 +7625,22 @@
     "Q76418059"
    ]
   },
+  "bpers:bani.pater-uzzi": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q289460",
+    "Q41732",
+    "Q37498634",
+    "Q1902349",
+    "Q477531",
+    "Q18464157",
+    "Q33663104",
+    "Q3733957",
+    "Q52899122",
+    "Q52904882"
+   ]
+  },
   "bpers:bani.phares": {
    "qid": null,
    "status": "unresolved",
@@ -8575,6 +8639,17 @@
    ]
   },
   "bpers:bennui.levites": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q139602752",
+    "Q139694083",
+    "Q139601774",
+    "Q140133383",
+    "Q65303030"
+   ]
+  },
+  "bpers:bennui.pater-noadiae": {
    "qid": null,
    "status": "unresolved",
    "candidates": [
@@ -28260,6 +28335,17 @@
     "Q6742135"
    ]
   },
+  "bpers:melchias.pater-phassur": {
+   "qid": "Q124334452",
+   "status": "auto",
+   "candidates": [
+    "Q11777062",
+    "Q124334452",
+    "Q117054281",
+    "Q137893578",
+    "Q6742135"
+   ]
+  },
   "bpers:melchias.progenitor-adaiae": {
    "qid": null,
    "status": "unresolved",
@@ -35584,6 +35670,38 @@
     "Q4564665"
    ]
   },
+  "bpers:sadoc.scriba": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q140100",
+    "Q18699268",
+    "Q63485885",
+    "Q109377878",
+    "Q127017394",
+    "Q105455093",
+    "Q141941265",
+    "Q1044766",
+    "Q2459816",
+    "Q4564665"
+   ]
+  },
+  "bpers:sadoc.signator": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q140100",
+    "Q18699268",
+    "Q63485885",
+    "Q109377878",
+    "Q127017394",
+    "Q105455093",
+    "Q141941265",
+    "Q1044766",
+    "Q2459816",
+    "Q4564665"
+   ]
+  },
   "bpers:sadoc.socer-oziae": {
    "qid": null,
    "status": "unresolved",
@@ -42445,6 +42563,22 @@
     "Q2489896"
    ]
   },
+  "bpers:urias.cum-esdra": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q21062",
+    "Q838599",
+    "Q37214643",
+    "Q3120530",
+    "Q12164852",
+    "Q50359640",
+    "Q18429505",
+    "Q104898031",
+    "Q4023116",
+    "Q4006442"
+   ]
+  },
   "bpers:urias.filius-semei": {
    "qid": null,
    "status": "unresolved",
@@ -43268,6 +43402,22 @@
     "Q18437129"
    ]
   },
+  "bpers:zacharias.cum-esdra": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q139464",
+    "Q179769",
+    "Q604259",
+    "Q334726",
+    "Q18643454",
+    "Q18643455",
+    "Q2060131",
+    "Q4023582",
+    "Q46997567",
+    "Q18437129"
+   ]
+  },
   "bpers:zacharias.dedicatio-murorum": {
    "qid": null,
    "status": "unresolved",
@@ -43879,6 +44029,23 @@
     "Q126721920",
     "Q6954713",
     "Q125498418"
+   ]
+  },
+  "bpers:zara.pater-iobab": {
+   "qid": "Q138780026",
+   "status": "auto",
+   "candidates": [
+    "Q3223065",
+    "Q2890045",
+    "Q1193956",
+    "Q2906881",
+    "Q3899788",
+    "Q4024214",
+    "Q114281806",
+    "Q126721920",
+    "Q6954713",
+    "Q125498418",
+    "Q138780026"
    ]
   },
   "bpers:zaraias.filius-ozi": {
@@ -49046,6 +49213,13 @@
     "Q134960294"
    ]
   },
+  "bplace:desertum-bethaven": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q97209977"
+   ]
+  },
   "bplace:desertum-sin": {
    "qid": null,
    "status": "unresolved",
@@ -50372,6 +50546,40 @@
    "deduped": true
   },
   "bplace:galgala.iuxta-iericho": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q2289734",
+    "Q4897571",
+    "Q2748387",
+    "Q20002414",
+    "Q19995995",
+    "Q19995992",
+    "Q19995994",
+    "Q19995993",
+    "Q5518517",
+    "Q32753595"
+   ],
+   "deduped": true
+  },
+  "bplace:galgala.iuxta-more": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q2289734",
+    "Q4897571",
+    "Q2748387",
+    "Q20002414",
+    "Q19995995",
+    "Q19995992",
+    "Q19995994",
+    "Q19995993",
+    "Q5518517",
+    "Q32753595"
+   ],
+   "deduped": true
+  },
+  "bplace:galgala.prope-bethel": {
    "qid": null,
    "status": "unresolved",
    "candidates": [

@@ -3666,8 +3666,6 @@
     "en": "priest of Nob, killed on Saul's orders"
    },
    "attested": [
-    "btu:1sam.14.3",
-    "btu:1sam.14.18",
     "btu:1sam.21.2",
     "btu:1sam.22.9"
    ],
@@ -3677,29 +3675,7 @@
    "evidence": [
     "ndeib:ACHIA#1",
     "ndeib:ACHIMELECH"
-   ],
-   "labels": {
-    "btu:1sam.14.3": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Achia",
-      "DRB": "Achias",
-      "NABRE": "Ahijah",
-      "NVBSE": "Ahias",
-      "VGCL": "Achias"
-     }
-    },
-    "btu:1sam.14.18": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Achia",
-      "DRB": "Achias",
-      "NABRE": "Ahijah",
-      "NVBSE": "Ahiam",
-      "VGCL": "Achiam"
-     }
-    }
-   }
+   ]
   },
   "bpers:achimoth": {
    "type": "person",
@@ -6284,6 +6260,56 @@
     "nv:btu:1par.11.35"
    ]
   },
+  "bpers:ahias.achitob-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahias",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "sacerdote, figlio di Achitub, che portava l'efod presso Saul",
+    "en": "priest, son of Ahitub, who bore the ephod with Saul"
+   },
+   "attested": [
+    "btu:1sam.14.3",
+    "btu:1sam.14.18"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achitob.phinees-filius",
+     "evidence": [
+      "nv:btu:1sam.14.3"
+     ]
+    }
+   ],
+   "qid": "Q18191333",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:1sam.14.3"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:achimelech.sacerdos-nob",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:ACHIA#1",
+       "says": "identifies",
+       "summary": "Ahijah in 1 Sam 14,3.18 is the man elsewhere called Ahimelech, priest of Nob."
+      },
+      {
+       "by": "bj:note:1Sam.21,2#p612",
+       "says": "rejects",
+       "summary": "Ahimelech must be kept apart from Ahijah of 14,3, who is surely his brother."
+      }
+     ]
+    }
+   ]
+  },
   "bpers:ahias.silonites": {
    "type": "person",
    "kind": "individual",
@@ -8073,8 +8099,7 @@
     "en": "son of Jether and Abigail, commander of Absalom's army"
    },
    "attested": [
-    "btu:2sam.17.25",
-    "btu:1par.12.19"
+    "btu:2sam.17.25"
    ],
    "relations": [],
    "qid": null,
@@ -8178,7 +8203,26 @@
    "evidence": [
     "ndeib:AMASAI"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:amasa.iether-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:AMASA",
+       "says": "suggests",
+       "summary": "Says he could be the same man named in 1 Chr 12,19."
+      },
+      {
+       "by": "ndeib:AMASAI",
+       "says": "suggests",
+       "summary": "Entry for Amasai the chief of the Thirty says perhaps the same person as Amasa son of Jether."
+      }
+     ]
+    }
+   ]
   },
   "bpers:amasai.sacerdos-tubicen": {
    "type": "person",
@@ -12916,7 +12960,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ASER#0"
+    "ndeib:ASER#0",
+    "bj:note:Gen.c49#p152"
    ],
    "review": "uncertain"
   },
@@ -13864,8 +13909,7 @@
     "en": "son of Ahzai, father of Amashsai, priestly musician"
    },
    "attested": [
-    "btu:ne.11.13",
-    "btu:ne.12.36"
+    "btu:ne.11.13"
    ],
    "relations": [],
    "qid": null,
@@ -13940,6 +13984,42 @@
     "ndeib:ASAREL#2"
    ]
   },
+  "bpers:azareel.musicus": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Azareel",
+    "it": "Azarèl",
+    "en": "Azarel"
+   },
+   "description": {
+    "it": "musicista alla dedicazione delle mura sotto Neemia",
+    "en": "musician at the dedication of the wall under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.12.36"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.12.36"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:azareel.ahazi-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ASAREL#2",
+       "says": "suggests",
+       "summary": "Ahzai's son Azarel is probably the same man as the musician at the wall dedication."
+      }
+     ]
+    }
+   ]
+  },
   "bpers:azareel.princeps-dan": {
    "type": "person",
    "kind": "individual",
@@ -13960,6 +14040,57 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ASAREL#2"
+   ]
+  },
+  "bpers:azarias.achimaas-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Azarias",
+    "it": "Azarìa",
+    "en": "Azariah"
+   },
+   "description": {
+    "it": "sacerdote, figlio di Achimaas, nella genealogia dei sommi sacerdoti",
+    "en": "priest, son of Ahimaaz, in the high priests' genealogy"
+   },
+   "attested": [
+    "btu:1par.5.35"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achimaas.sadoc-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iohanan.azariae-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:1par.5.35"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:azarias.sadoc-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:AZARIA",
+       "says": "suggests",
+       "summary": "Solomon's minister son of Zadok; cross-references 1 Chr 5:35 with a 'cf.'."
+      }
+     ]
+    }
    ]
   },
   "bpers:azarias.cum-zorobabel": {
@@ -14518,8 +14649,7 @@
     "en": "Solomon's priestly minister, son of Zadok"
    },
    "attested": [
-    "btu:1reg.4.2",
-    "btu:1par.5.35"
+    "btu:1reg.4.2"
    ],
    "relations": [],
    "qid": null,
@@ -16259,8 +16389,7 @@
     "btu:ne.8.7",
     "btu:ne.9.4",
     "btu:ne.9.5",
-    "btu:ne.10.14",
-    "btu:ne.11.22"
+    "btu:ne.10.14"
    ],
    "relations": [],
    "qid": null,
@@ -16319,6 +16448,50 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.3.17"
+   ]
+  },
+  "bpers:bani.pater-uzzi": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Bani",
+    "it": "Bani",
+    "en": "Bani"
+   },
+   "description": {
+    "it": "levita, padre di Uzzi, capo dei leviti a Gerusalemme",
+    "en": "Levite, father of Uzzi the overseer of the Levites in Jerusalem"
+   },
+   "attested": [
+    "btu:ne.11.22"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ozi.filius-bani",
+     "evidence": [
+      "nv:btu:ne.11.22"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.11.22"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:bani.levites",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BANI",
+       "says": "suggests",
+       "summary": "Uzzi's father may be either of the two Levites called Bani; the source leaves it open."
+      }
+     ]
+    }
    ]
   },
   "bpers:bani.phares": {
@@ -18670,8 +18843,7 @@
    },
    "attested": [
     "btu:ne.3.24",
-    "btu:ne.10.10",
-    "btu:esd.8.33"
+    "btu:ne.10.10"
    ],
    "relations": [],
    "qid": null,
@@ -18693,14 +18865,69 @@
     "en": "Levite in Zerubbabel's time"
    },
    "attested": [
-    "btu:ne.12.8",
-    "btu:esd.8.33"
+    "btu:ne.12.8"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BINNUI"
+   ]
+  },
+  "bpers:bennui.pater-noadiae": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Bennui",
+    "it": "Binnui",
+    "en": "Binnui"
+   },
+   "description": {
+    "it": "levita, padre di Noadia, al ritorno con Esdra",
+    "en": "Levite, father of Noadiah, at the return with Ezra"
+   },
+   "attested": [
+    "btu:esd.8.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:noadia.filius-bennui",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:esd.8.33"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:bennui.henadad-filius",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:BINNUI",
+       "says": "doubts",
+       "summary": "States it cannot be determined which Levite Binnui fathered Noadiah."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:bennui.levites",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:BINNUI",
+       "says": "doubts",
+       "summary": "Same statement: neither Levite can be shown to be Noadiah's father."
+      }
+     ]
+    }
    ]
   },
   "bpers:bennui.phahathmoab": {
@@ -29954,7 +30181,7 @@
    ],
    "labels": {
     "btu:dt.33.13": {
-     "as": "name",
+     "as": "designation",
      "editions": {
       "CEI2008": "Giuseppe",
       "DRB": "Joseph",
@@ -29964,7 +30191,7 @@
      }
     },
     "btu:dt.33.16": {
-     "as": "name",
+     "as": "designation",
      "editions": {
       "CEI2008": "Giuseppe",
       "DRB": "Joseph",
@@ -30077,9 +30304,7 @@
     "it": "tesoriere della città di Corinto che saluta i Romani",
     "en": "city treasurer of Corinth who greets the Romans"
    },
-   "attested": [
-    "btu:2tim.4.20"
-   ],
+   "attested": [],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -57073,7 +57298,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ISSACAR"
+    "ndeib:ISSACAR",
+    "bj:note:Gen.49,14#p153"
    ]
   },
   "bpers:isuhaia": {
@@ -61533,13 +61759,16 @@
     "btu:1par.12.20",
     "btu:1par.5.18",
     "btu:1par.5.23",
-    "btu:1par.5.26"
+    "btu:1par.5.26",
+    "btu:dt.33.13",
+    "btu:dt.33.16"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:MANASSE#2"
+    "ndeib:MANASSE#2",
+    "ndeib:EFRAIM, EFRAIMITI"
    ],
    "labels": {
     "btu:ios.17.14": {
@@ -61560,6 +61789,26 @@
       "NABRE": "the Josephites",
       "NVBSE": "filii Ioseph",
       "VGCL": "filii Joseph"
+     }
+    },
+    "btu:dt.33.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
+     }
+    },
+    "btu:dt.33.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
      }
     }
    }
@@ -63938,6 +64187,68 @@
     "ndeib:MALCHIA"
    ]
   },
+  "bpers:melchias.pater-phassur": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Melchias",
+    "it": "Malchia",
+    "en": "Malchijah"
+   },
+   "description": {
+    "it": "padre di Pascur, inviato di Sedecia a Geremia",
+    "en": "father of Pashhur, Zedekiah's envoy to Jeremiah"
+   },
+   "attested": [
+    "btu:ier.21.1",
+    "btu:ier.38.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:phassur.melchiae-filius",
+     "evidence": [
+      "nv:btu:ier.38.1"
+     ]
+    }
+   ],
+   "qid": "Q124334452",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:ier.21.1"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:melchias.progenitor-adaiae",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:MALCHIA",
+       "says": "identifies",
+       "summary": "Lists Jer 21,1 under the Malchijah who is ancestor of the priest Adaiah."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:melchias.filius-regis",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:MALCHIA",
+       "says": "rejects",
+       "summary": "The royal prince is a separate sense, cited only for Jer 38,6."
+      },
+      {
+       "by": "ndeib:PASCUR",
+       "says": "identifies",
+       "summary": "Pashhur entry calls the royal prince owning the cistern the father of this Pashhur."
+      }
+     ]
+    }
+   ]
+  },
   "bpers:melchias.progenitor-adaiae": {
    "type": "person",
    "kind": "individual",
@@ -63951,8 +64262,7 @@
     "en": "ancestor of the priest Adaiah"
    },
    "attested": [
-    "btu:1par.9.12",
-    "btu:ier.21.1"
+    "btu:1par.9.12"
    ],
    "relations": [],
    "qid": null,
@@ -75574,9 +75884,7 @@
    "attested": [
     "btu:esd.2.38",
     "btu:ne.7.41",
-    "btu:esd.10.22",
-    "btu:ne.11.12",
-    "btu:1par.9.12"
+    "btu:esd.10.22"
    ],
    "relations": [],
    "qid": null,
@@ -75584,7 +75892,33 @@
    "evidence": [
     "ndeib:PASCUR"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1par.9.12",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:PASCUR",
+       "says": "suggests",
+       "summary": "Treats the priestly family's ancestor as probably Jeremiah's Pashhur son of Malchiah."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ne.11.12",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:PASCUR",
+       "says": "suggests",
+       "summary": "Treats the priestly family's ancestor as probably Jeremiah's Pashhur son of Malchiah."
+      }
+     ]
+    }
+   ]
   },
   "bpers:phassur.melchiae-filius": {
    "type": "person",
@@ -75607,6 +75941,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:PASCUR"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1par.9.12",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:PASCUR",
+       "says": "suggests",
+       "summary": "Thinks Malchiah's son probably is the same man as the priestly family head; 1 Chr 9:12 parallels Ne 11:12."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ne.11.12",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:PASCUR",
+       "says": "suggests",
+       "summary": "Lists Ne 11:12 under the son-of-Malchiah sense, which it probably equates with the family head."
+      }
+     ]
+    }
    ]
   },
   "bpers:phassur.pater-godoliae": {
@@ -80598,9 +80958,7 @@
     "en": "wall builder under Nehemiah, son of Baana"
    },
    "attested": [
-    "btu:ne.3.4",
-    "btu:ne.10.22",
-    "btu:ne.13.13"
+    "btu:ne.3.4"
    ],
    "relations": [],
    "qid": null,
@@ -80622,9 +80980,7 @@
     "en": "wall builder under Nehemiah, son of Immer"
    },
    "attested": [
-    "btu:ne.3.29",
-    "btu:ne.10.22",
-    "btu:ne.13.13"
+    "btu:ne.3.29"
    ],
    "relations": [],
    "qid": null,
@@ -80661,6 +81017,112 @@
     "ndeib:ZADOK",
     "nv:btu:1reg.2.35",
     "nv:btu:1reg.1.8"
+   ]
+  },
+  "bpers:sadoc.scriba": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Sadoc",
+    "it": "Sadoc",
+    "en": "Zadok"
+   },
+   "description": {
+    "it": "scriba, incaricato dei magazzini sotto Neemia",
+    "en": "scribe put in charge of the storehouses under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.13.13"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.13.13"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sadoc.filius-baana",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZADOK",
+       "says": "suggests",
+       "summary": "One of the wall-builder Zadoks might be Zadok the scribe."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sadoc.filius-immer",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZADOK",
+       "says": "suggests",
+       "summary": "Same: either wall builder might be the scribe, without choosing."
+      }
+     ]
+    }
+   ]
+  },
+  "bpers:sadoc.signator": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Sadoc",
+    "it": "Sadoc",
+    "en": "Zadok"
+   },
+   "description": {
+    "it": "capo del popolo che firmò l'impegno sotto Neemia",
+    "en": "leader of the people who sealed the pledge under Nehemiah"
+   },
+   "attested": [
+    "btu:ne.10.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.10.22"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sadoc.filius-baana",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:ZADOK",
+       "says": "suggests",
+       "summary": "One of the two wall-builder Zadoks could be the signer of Neh 10,22."
+      },
+      {
+       "by": "bj:note:Ne.10,2#p943",
+       "says": "doubts",
+       "summary": "The list is artificial; new names from v 22 on belong to the list's author, later than Nehemiah."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sadoc.filius-immer",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:ZADOK",
+       "says": "suggests",
+       "summary": "Same: either wall builder could be this signer, without choosing."
+      },
+      {
+       "by": "bj:note:Ne.10,2#p943",
+       "says": "doubts",
+       "summary": "Same note: names in vv 22-28 are post-Nehemiah contemporaries of the list's compiler."
+      }
+     ]
+    }
    ]
   },
   "bpers:sadoc.socer-oziae": {
@@ -95468,6 +95930,47 @@
     "nv:btu:esd.10.24"
    ]
   },
+  "bpers:urias.cum-esdra": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Urias",
+    "it": "Uria",
+    "en": "Uriah"
+   },
+   "description": {
+    "it": "uno di quelli che stavano accanto a Esdra alla lettura della legge",
+    "en": "one of those who stood beside Ezra at the reading of the law"
+   },
+   "attested": [
+    "btu:ne.8.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.8.4"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:urias.pater-meremoth",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:URIA#4",
+       "says": "suggests",
+       "summary": "Sense for Meremoth's priestly father refers (with 'cf.') to Neh 8,4."
+      },
+      {
+       "by": "bj:note:Ne.8,4#p936",
+       "says": "rejects",
+       "summary": "Those standing beside Ezra were lay notables, so not a priest."
+      }
+     ]
+    }
+   ]
+  },
   "bpers:urias.filius-semei": {
    "type": "person",
    "kind": "individual",
@@ -95555,8 +96058,7 @@
    "attested": [
     "btu:esd.8.33",
     "btu:ne.3.4",
-    "btu:ne.3.21",
-    "btu:ne.8.4"
+    "btu:ne.3.21"
    ],
    "relations": [],
    "qid": null,
@@ -96874,6 +97376,42 @@
     "ndeib:ZACCARIA"
    ]
   },
+  "bpers:zacharias.cum-esdra": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Zacharias",
+    "it": "Zaccaria",
+    "en": "Zechariah"
+   },
+   "description": {
+    "it": "uno di quelli che stavano accanto a Esdra alla lettura della legge",
+    "en": "one of those who stood beside Ezra at the reading of the law"
+   },
+   "attested": [
+    "btu:ne.8.4"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ne.8.4"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:zacharias.nuntius-esdrae",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZACCARIA",
+       "says": "suggests",
+       "summary": "Sense on the Casiphia envoy says he is perhaps the man standing beside Ezra at the reading."
+      }
+     ]
+    }
+   ]
+  },
   "bpers:zacharias.dedicatio-murorum": {
    "type": "person",
    "kind": "individual",
@@ -97130,7 +97668,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ZACCARIA"
+    "ndeib:ZACCARIA",
+    "bj:note:Mt.23,35",
+    "bj:note:Mt.23,34#p2406"
    ]
   },
   "bpers:zacharias.filius-iosaphat": {
@@ -97259,8 +97799,7 @@
     "en": "leader Ezra sent to Casiphia"
    },
    "attested": [
-    "btu:esd.8.16",
-    "btu:ne.8.4"
+    "btu:esd.8.16"
    ],
    "relations": [],
    "qid": null,
@@ -97821,9 +98360,7 @@
    "attested": [
     "btu:gn.36.13",
     "btu:gn.36.17",
-    "btu:1par.1.37",
-    "btu:gn.36.33",
-    "btu:1par.1.44"
+    "btu:1par.1.37"
    ],
    "relations": [],
    "qid": null,
@@ -97901,6 +98438,51 @@
    "evidence": [
     "ndeib:ZERACH",
     "nv:btu:1par.6.6"
+   ]
+  },
+  "bpers:zara.pater-iobab": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Zara",
+    "it": "Zerach",
+    "en": "Zerah"
+   },
+   "description": {
+    "it": "di Bosra, padre di Iobab re di Edom",
+    "en": "of Bozrah, father of Jobab king of Edom"
+   },
+   "attested": [
+    "btu:gn.36.33",
+    "btu:1par.1.44"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iobab.rex-edom",
+     "evidence": [
+      "nv:btu:gn.36.33"
+     ]
+    }
+   ],
+   "qid": "Q138780026",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:gn.36.33"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:zara.filius-rahuel",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZERACH",
+       "says": "suggests",
+       "summary": "Edomite chief son of Reuel; says this verse probably refers to him too."
+      }
+     ]
+    }
    ]
   },
   "bpers:zaraias.filius-ozi": {
