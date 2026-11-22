@@ -8564,7 +8564,21 @@
    "evidence": [
     "ndeib:KEDES"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:idc.4.6",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "doubts",
+       "summary": "Many take Barak's home for the city of refuge; the context favours the Kedesh by Zaanannim."
+      }
+     ]
+    }
+   ]
   },
   "bplace:cedes.saananim": {
    "type": "place",
@@ -8580,13 +8594,16 @@
    },
    "attested": [
     "btu:idc.4.11",
-    "btu:idc.4.6"
+    "btu:idc.4.6",
+    "btu:idc.4.9",
+    "btu:idc.4.10"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:KEDES"
+    "ndeib:KEDES",
+    "nv:btu:idc.4.11"
    ],
    "review": "uncertain"
   },
@@ -25981,6 +25998,8 @@
     "en": "capital of the Ammonites, modern Amman"
    },
    "attested": [
+    "btu:ier.49.2",
+    "btu:ez.25.5",
     "btu:2sam.12.26",
     "btu:2sam.12.27",
     "btu:2sam.12.28",
@@ -25989,18 +26008,20 @@
     "btu:2sam.12.31",
     "btu:1par.20.1",
     "btu:ez.21.25",
-    "btu:ez.25.5",
     "btu:am.1.14",
     "btu:dt.3.11",
-    "btu:ier.49.2",
     "btu:2sam.11.1"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
+    "ndeib:FIGLIO, FIGLIO DI DIO#1",
     "ndeib:RABBA#1",
-    "ndeib:RABBI, RABBUNI#2"
+    "ndeib:RABBI, RABBUNI#2",
+    "nv:btu:dt.3.11",
+    "nv:btu:2sam.12.26",
+    "nv:btu:ier.49.2"
    ],
    "review": "uncertain",
    "labels": {
@@ -26031,42 +26052,6 @@
      }
     }
    }
-  },
-  "bplace:rabba.ammonitarum": {
-   "type": "place",
-   "kind": "city",
-   "names": {
-    "la": "Rabba filiorum Ammon",
-    "it": "Rabba",
-    "en": "Rabbah"
-   },
-   "description": {
-    "it": "capitale degli Ammoniti, in età ellenistica detta Filadelfia",
-    "en": "capital of the Ammonites, called Philadelphia in Hellenistic times"
-   },
-   "attested": [
-    "btu:ier.49.2",
-    "btu:ez.25.5"
-   ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:rabba",
-     "evidence": [
-      "nv:btu:dt.3.11",
-      "nv:btu:2sam.12.26",
-      "nv:btu:ier.49.2"
-     ]
-    }
-   ],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:FIGLIO, FIGLIO DI DIO#1",
-    "nv:btu:dt.3.11",
-    "nv:btu:2sam.12.26",
-    "nv:btu:ier.49.2"
-   ]
   },
   "bplace:rabbith": {
    "type": "place",

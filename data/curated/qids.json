@@ -15409,6 +15409,22 @@
     "Q367240"
    ]
   },
+  "bpers:gera.beniamin-filius": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q5548818",
+    "Q314548",
+    "Q107442206",
+    "Q117840",
+    "Q170385",
+    "Q22808992",
+    "Q25893297",
+    "Q60471713",
+    "Q2254774",
+    "Q367240"
+   ]
+  },
   "bpers:gera.ehud-filius": {
    "qid": null,
    "status": "unresolved",
@@ -23159,22 +23175,6 @@
     "Q250180"
    ]
   },
-  "bpers:ioel.iosabiae-filius": {
-   "qid": null,
-   "status": "unresolved",
-   "candidates": [
-    "Q45053",
-    "Q18182610",
-    "Q3765046",
-    "Q59260223",
-    "Q3765049",
-    "Q16166545",
-    "Q60218023",
-    "Q4202692",
-    "Q47286613",
-    "Q250180"
-   ]
-  },
   "bpers:ioel.izrahiae-filius": {
    "qid": null,
    "status": "unresolved",
@@ -23240,6 +23240,22 @@
    ]
   },
   "bpers:ioel.phadaiae-filius": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q45053",
+    "Q18182610",
+    "Q3765046",
+    "Q59260223",
+    "Q3765049",
+    "Q16166545",
+    "Q60218023",
+    "Q4202692",
+    "Q47286613",
+    "Q250180"
+   ]
+  },
+  "bpers:ioel.princeps-simeonis": {
    "qid": null,
    "status": "unresolved",
    "candidates": [
@@ -55435,22 +55451,6 @@
    ]
   },
   "bplace:rabba": {
-   "qid": null,
-   "status": "unresolved",
-   "candidates": [
-    "Q133485",
-    "Q64452152",
-    "Q3068266",
-    "Q847351",
-    "Q1476045",
-    "Q31630320",
-    "Q114664687",
-    "Q109659398",
-    "Q721469",
-    "Q1492866"
-   ]
-  },
-  "bplace:rabba.ammonitarum": {
    "qid": null,
    "status": "unresolved",
    "candidates": [

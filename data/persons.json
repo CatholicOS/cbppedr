@@ -33111,7 +33111,6 @@
     "en": "son of Bela, grandson of Benjamin"
    },
    "attested": [
-    "btu:gn.46.21",
     "btu:1par.8.3",
     "btu:1par.8.5"
    ],
@@ -33120,6 +33119,36 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GHERA"
+   ]
+  },
+  "bpers:gera.beniamin-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Gera",
+    "it": "Ghera",
+    "en": "Gera"
+   },
+   "description": {
+    "it": "figlio di Beniamino, sceso in Egitto con Giacobbe",
+    "en": "son of Benjamin, who went down to Egypt with Jacob"
+   },
+   "attested": [
+    "btu:gn.46.21"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:beniamin.iacob-filius",
+     "evidence": [
+      "nv:btu:gn.46.21"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:gn.46.21"
    ]
   },
   "bpers:gera.ehud-filius": {
@@ -51945,28 +51974,6 @@
     "ndeib:GIOELE"
    ]
   },
-  "bpers:ioel.iosabiae-filius": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Ioel",
-    "it": "Gioèle",
-    "en": "Joel"
-   },
-   "description": {
-    "it": "figlio di Iosibia, appartenente a Simeone",
-    "en": "son of Joshibiah, belonging to Simeon"
-   },
-   "attested": [
-    "btu:1par.4.35"
-   ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:GIOELE"
-   ]
-  },
   "bpers:ioel.izrahiae-filius": {
    "type": "person",
    "kind": "individual",
@@ -52077,6 +52084,29 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GIOELE"
+   ]
+  },
+  "bpers:ioel.princeps-simeonis": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ioel",
+    "it": "Gioèle",
+    "en": "Joel"
+   },
+   "description": {
+    "it": "capo di un clan di Simeone al tempo di Ezechia",
+    "en": "Simeonite clan chief in the days of Hezekiah"
+   },
+   "attested": [
+    "btu:1par.4.35"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:GIOELE",
+    "nv:btu:1par.4.35"
    ]
   },
   "bpers:ioel.propheta": {

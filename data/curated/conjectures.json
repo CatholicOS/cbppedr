@@ -2229,6 +2229,18 @@
      "summary": "If Kenath is modern Qanawat, the Nobah of Judg 8:11 is another place, in Gilead."
     }
    ]
+  },
+  {
+   "source": "bplace:cedes.nephthali",
+   "rel": "possibly_attested_at",
+   "unit": "btu:idc.4.6",
+   "opinions": [
+    {
+     "by": "ndeib:KEDES",
+     "says": "doubts",
+     "summary": "Many take Barak's home for the city of refuge; the context favours the Kedesh by Zaanannim."
+    }
+   ]
   }
  ]
 }

@@ -19528,18 +19528,13 @@
    "key": "FIGLIO, FIGLIO DI DIO#1",
    "type": "place",
    "kind": "city",
-   "id": "bplace:rabba.ammonitarum",
+   "id": "bplace:rabba",
    "latin": "Rabba filiorum Ammon",
    "it": "Rabba",
    "en": "Rabbah",
-   "descr_it": "capitale degli Ammoniti, in età ellenistica detta Filadelfia",
-   "descr_en": "capital of the Ammonites, called Philadelphia in Hellenistic times",
+   "descr_it": "capitale degli Ammoniti, oggi Amman",
+   "descr_en": "capital of the Ammonites, modern Amman",
    "relations": [
-    {
-     "rel": "same_as",
-     "target": "Rabba",
-     "target_key": null
-    },
     {
      "rel": "located_in",
      "target": "Ammon",
@@ -22221,12 +22216,12 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:ioel.iosabiae-filius",
+     "id": "bpers:ioel.princeps-simeonis",
      "latin": "Ioel",
      "it": "Gioèle",
      "en": "Joel",
-     "descr_it": "figlio di Iosibia, appartenente a Simeone",
-     "descr_en": "son of Joshibiah, belonging to Simeon",
+     "descr_it": "capo di un clan di Simeone al tempo di Ezechia",
+     "descr_en": "Simeonite clan chief in the days of Hezekiah",
      "relations": [],
      "certain": true
     },
