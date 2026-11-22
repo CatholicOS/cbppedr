@@ -5498,7 +5498,9 @@
    "attested": [
     "btu:1cor.5.5",
     "btu:1tim.1.20",
-    "btu:mc.3.26"
+    "btu:mc.3.26",
+    "btu:mt.12.26",
+    "btu:mc.3.23"
    ],
    "evidence": [
     "nv:btu:1cor.5.5",
@@ -6062,6 +6064,26 @@
    ],
    "evidence": [
     "nv:btu:2par.17.16"
+   ]
+  },
+  "bpers:artaxerxes.longimanus": {
+   "attested": [
+    "btu:esd.4.8",
+    "btu:esd.4.11",
+    "btu:esd.4.23"
+   ],
+   "evidence": [
+    "nv:btu:esd.4.8",
+    "nv:btu:esd.4.11",
+    "nv:btu:esd.4.23"
+   ]
+  },
+  "bplace:azotus": {
+   "attested": [
+    "btu:1sam.5.6"
+   ],
+   "evidence": [
+    "nv:btu:1sam.5.6"
    ]
   },
   "bpers:iethro": {
