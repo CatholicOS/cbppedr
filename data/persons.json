@@ -3495,56 +3495,6 @@
     }
    }
   },
-  "bpers:achias.achitob-filius": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Ahias",
-    "it": "Achia",
-    "en": "Ahijah"
-   },
-   "description": {
-    "it": "sacerdote, figlio di Achitub, che portava l'efod presso Saul",
-    "en": "priest, son of Ahitub, who bore the ephod with Saul"
-   },
-   "attested": [
-    "btu:1sam.14.3",
-    "btu:1sam.14.18"
-   ],
-   "relations": [
-    {
-     "rel": "child_of",
-     "target": "bpers:achitob.phinees-filius",
-     "evidence": [
-      "nv:btu:1sam.14.3"
-     ]
-    }
-   ],
-   "qid": "Q18191333",
-   "qid_status": "auto",
-   "evidence": [
-    "nv:btu:1sam.14.3"
-   ],
-   "conjectures": [
-    {
-     "rel": "possibly_same_as",
-     "target": "bpers:achimelech.sacerdos-nob",
-     "status": "disputed",
-     "opinions": [
-      {
-       "by": "ndeib:ACHIA#1",
-       "says": "identifies",
-       "summary": "Ahijah in 1 Sam 14,3.18 is the man elsewhere called Ahimelech, priest of Nob."
-      },
-      {
-       "by": "bj:note:1Sam.21,2#p612",
-       "says": "rejects",
-       "summary": "Ahimelech must be kept apart from Ahijah of 14,3, who is surely his brother."
-      }
-     ]
-    }
-   ]
-  },
   "bpers:achim": {
    "type": "person",
    "kind": "individual",
@@ -6308,6 +6258,56 @@
    "evidence": [
     "nv:btu:2sam.23.33",
     "nv:btu:1par.11.35"
+   ]
+  },
+  "bpers:ahias.achitob-filius": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Ahias",
+    "it": "Achia",
+    "en": "Ahijah"
+   },
+   "description": {
+    "it": "sacerdote, figlio di Achitub, che portava l'efod presso Saul",
+    "en": "priest, son of Ahitub, who bore the ephod with Saul"
+   },
+   "attested": [
+    "btu:1sam.14.3",
+    "btu:1sam.14.18"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achitob.phinees-filius",
+     "evidence": [
+      "nv:btu:1sam.14.3"
+     ]
+    }
+   ],
+   "qid": "Q18191333",
+   "qid_status": "auto",
+   "evidence": [
+    "nv:btu:1sam.14.3"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:achimelech.sacerdos-nob",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:ACHIA#1",
+       "says": "identifies",
+       "summary": "Ahijah in 1 Sam 14,3.18 is the man elsewhere called Ahimelech, priest of Nob."
+      },
+      {
+       "by": "bj:note:1Sam.21,2#p612",
+       "says": "rejects",
+       "summary": "Ahimelech must be kept apart from Ahijah of 14,3, who is surely his brother."
+      }
+     ]
+    }
    ]
   },
   "bpers:ahias.silonites": {
@@ -12961,7 +12961,7 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ASER#0",
-    "bj:note:Gen.49#p152"
+    "bj:note:Gen.c49#p152"
    ],
    "review": "uncertain"
   },
@@ -14057,7 +14057,22 @@
    "attested": [
     "btu:1par.5.35"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achimaas.sadoc-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iohanan.azariae-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -16450,7 +16465,15 @@
    "attested": [
     "btu:ne.11.22"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ozi.filius-bani",
+     "evidence": [
+      "nv:btu:ne.11.22"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -18866,7 +18889,15 @@
    "attested": [
     "btu:esd.8.33"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:noadia.filius-bennui",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -30102,6 +30133,8 @@
     "en": "Israelite tribe descended from Ephraim son of Joseph"
    },
    "attested": [
+    "btu:dt.33.13",
+    "btu:dt.33.16",
     "btu:dt.33.17",
     "btu:nm.1.33",
     "btu:nm.26.37",
@@ -30147,6 +30180,26 @@
     "ndeib:EFRAIM, EFRAIMITI"
    ],
    "labels": {
+    "btu:dt.33.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
+     }
+    },
+    "btu:dt.33.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
+     }
+    },
     "btu:ios.17.14": {
      "as": "designation",
      "editions": {
@@ -30167,33 +30220,7 @@
       "VGCL": "filii Joseph"
      }
     }
-   },
-   "conjectures": [
-    {
-     "rel": "possibly_attested_at",
-     "unit": "btu:dt.33.13",
-     "status": "supported",
-     "opinions": [
-      {
-       "by": "ndeib:EFRAIM, EFRAIMITI",
-       "says": "suggests",
-       "summary": "In Moses' blessing (Dt 33,13-17) Ephraim and Manasseh are joined as the single tribe of Joseph."
-      }
-     ]
-    },
-    {
-     "rel": "possibly_attested_at",
-     "unit": "btu:dt.33.16",
-     "status": "supported",
-     "opinions": [
-      {
-       "by": "ndeib:EFRAIM, EFRAIMITI",
-       "says": "suggests",
-       "summary": "Cites Moses' blessing 33:13-17 as merging Ephraim and Manasseh within the one tribe of Joseph."
-      }
-     ]
-    }
-   ]
+   }
   },
   "bpers:ephratha.chaleb-uxor": {
    "type": "person",
@@ -55428,29 +55455,6 @@
     "ndeib:GIUSEPPE#4~2"
    ]
   },
-  "bpers:ioseph.tribus": {
-   "type": "person",
-   "kind": "group",
-   "names": {
-    "la": "Ioseph",
-    "it": "Giuseppe",
-    "en": "Joseph"
-   },
-   "description": {
-    "it": "la casa di Giuseppe, Efraim e Manasse insieme, nella benedizione di Mosè",
-    "en": "the house of Joseph, Ephraim and Manasseh together, in Moses' blessing"
-   },
-   "attested": [
-    "btu:dt.33.13",
-    "btu:dt.33.16"
-   ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "nv:btu:dt.33.13"
-   ]
-  },
   "bpers:ioses.filius-mariae": {
    "type": "person",
    "kind": "individual",
@@ -57221,7 +57225,8 @@
    },
    "attested": [
     "btu:gn.30.18",
-    "btu:gn.35.23"
+    "btu:gn.35.23",
+    "btu:gn.49.14"
    ],
    "relations": [
     {
@@ -61754,13 +61759,16 @@
     "btu:1par.12.20",
     "btu:1par.5.18",
     "btu:1par.5.23",
-    "btu:1par.5.26"
+    "btu:1par.5.26",
+    "btu:dt.33.13",
+    "btu:dt.33.16"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:MANASSE#2"
+    "ndeib:MANASSE#2",
+    "ndeib:EFRAIM, EFRAIMITI"
    ],
    "labels": {
     "btu:ios.17.14": {
@@ -61781,6 +61789,26 @@
       "NABRE": "the Josephites",
       "NVBSE": "filii Ioseph",
       "VGCL": "filii Joseph"
+     }
+    },
+    "btu:dt.33.13": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
+     }
+    },
+    "btu:dt.33.16": {
+     "as": "designation",
+     "editions": {
+      "CEI2008": "Giuseppe",
+      "DRB": "Joseph",
+      "NABRE": "Joseph",
+      "NVBSE": "Ioseph",
+      "VGCL": "Joseph"
      }
     }
    }
@@ -64172,11 +64200,20 @@
     "en": "father of Pashhur, Zedekiah's envoy to Jeremiah"
    },
    "attested": [
-    "btu:ier.21.1"
+    "btu:ier.21.1",
+    "btu:ier.38.1"
    ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:phassur.melchiae-filius",
+     "evidence": [
+      "nv:btu:ier.38.1"
+     ]
+    }
+   ],
+   "qid": "Q124334452",
+   "qid_status": "auto",
    "evidence": [
     "nv:btu:ier.21.1"
    ],
@@ -64184,17 +64221,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:melchias.progenitor-adaiae",
-     "status": "disputed",
+     "status": "supported",
      "opinions": [
       {
        "by": "ndeib:MALCHIA",
        "says": "identifies",
        "summary": "Lists Jer 21,1 under the Malchijah who is ancestor of the priest Adaiah."
-      },
-      {
-       "by": "ndeib:PASCUR",
-       "says": "rejects",
-       "summary": "Makes Pashhur's father the king's son Malchijah of Jer 38:6."
       }
      ]
     },
@@ -95927,7 +95959,7 @@
      "opinions": [
       {
        "by": "ndeib:URIA#4",
-       "says": "identifies",
+       "says": "suggests",
        "summary": "Sense for Meremoth's priestly father refers (with 'cf.') to Neh 8,4."
       },
       {

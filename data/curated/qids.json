@@ -1245,22 +1245,6 @@
     "Q288049"
    ]
   },
-  "bpers:achias.achitob-filius": {
-   "qid": "Q18191333",
-   "status": "auto",
-   "candidates": [
-    "Q2590260",
-    "Q14926538",
-    "Q18191333",
-    "Q4695148",
-    "Q14690615",
-    "Q14690493",
-    "Q14690496",
-    "Q14690529",
-    "Q14690586",
-    "Q14690484"
-   ]
-  },
   "bpers:achim": {
    "qid": null,
    "status": "unresolved",
@@ -2570,6 +2554,22 @@
     "Q120169816",
     "Q115606326",
     "Q65302941"
+   ]
+  },
+  "bpers:ahias.achitob-filius": {
+   "qid": "Q18191333",
+   "status": "auto",
+   "candidates": [
+    "Q2590260",
+    "Q14926538",
+    "Q18191333",
+    "Q4695148",
+    "Q14690615",
+    "Q14690493",
+    "Q14690496",
+    "Q14690529",
+    "Q14690586",
+    "Q14690484"
    ]
   },
   "bpers:ahias.silonites": {
@@ -24697,22 +24697,6 @@
     "Q17631178"
    ]
   },
-  "bpers:ioseph.tribus": {
-   "qid": null,
-   "status": "unresolved",
-   "candidates": [
-    "Q128267",
-    "Q145746",
-    "Q15720844",
-    "Q198747",
-    "Q455784",
-    "Q2721201",
-    "Q597539",
-    "Q10308667",
-    "Q3184454",
-    "Q17631178"
-   ]
-  },
   "bpers:ioses.filius-mariae": {
    "qid": null,
    "status": "unresolved",
@@ -28352,8 +28336,8 @@
    ]
   },
   "bpers:melchias.pater-phassur": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q124334452",
+   "status": "auto",
    "candidates": [
     "Q11777062",
     "Q124334452",

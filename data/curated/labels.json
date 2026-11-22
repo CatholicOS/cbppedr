@@ -2340,6 +2340,26 @@
    }
   },
   "bpers:ephraim.tribus": {
+   "btu:dt.33.13": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
+    }
+   },
+   "btu:dt.33.16": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
+    }
+   },
    "btu:ios.17.14": {
     "as": "designation",
     "editions": {
@@ -5218,6 +5238,26 @@
      "NABRE": "the Josephites",
      "NVBSE": "filii Ioseph",
      "VGCL": "filii Joseph"
+    }
+   },
+   "btu:dt.33.13": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
+    }
+   },
+   "btu:dt.33.16": {
+    "as": "designation",
+    "editions": {
+     "CEI2008": "Giuseppe",
+     "DRB": "Joseph",
+     "NABRE": "Joseph",
+     "NVBSE": "Ioseph",
+     "VGCL": "Joseph"
     }
    }
   },

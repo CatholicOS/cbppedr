@@ -44280,7 +44280,7 @@
   },
   "bpers:aser.tribus": {
    "evidence": [
-    "bj:note:Gen.49#p152"
+    "bj:note:Gen.c49#p152"
    ]
   },
   "bpers:bennui.de-filiis-bani": {
@@ -44342,7 +44342,6 @@
   },
   "bpers:issachar.tribus": {
    "evidence": [
-    "ndeib:ISSACAR",
     "bj:note:Gen.49,14#p153"
    ]
   },
@@ -44359,6 +44358,15 @@
    ],
    "evidence": [
     "nv:btu:ne.11.22"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ozi.filius-bani",
+     "evidence": [
+      "nv:btu:ne.11.22"
+     ]
+    }
    ]
   },
   "bpers:melchias.pater-phassur": {
@@ -44370,10 +44378,20 @@
    "descr_it": "padre di Pascur, inviato di Sedecia a Geremia",
    "descr_en": "father of Pashhur, Zedekiah's envoy to Jeremiah",
    "attested": [
-    "btu:ier.21.1"
+    "btu:ier.21.1",
+    "btu:ier.38.1"
    ],
    "evidence": [
     "nv:btu:ier.21.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:phassur.melchiae-filius",
+     "evidence": [
+      "nv:btu:ier.38.1"
+     ]
+    }
    ]
   },
   "bpers:urias.cum-esdra": {
@@ -44406,7 +44424,7 @@
     "nv:btu:ne.8.4"
    ]
   },
-  "bpers:achias.achitob-filius": {
+  "bpers:ahias.achitob-filius": {
    "type": "person",
    "kind": "individual",
    "latin": "Ahias",
@@ -44489,6 +44507,15 @@
    ],
    "evidence": [
     "nv:btu:esd.8.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:noadia.filius-bennui",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
    ]
   },
   "bpers:sadoc.signator": {
@@ -44574,22 +44601,36 @@
    ],
    "evidence": [
     "nv:btu:1par.5.35"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:achimaas.sadoc-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iohanan.azariae-filius",
+     "evidence": [
+      "nv:btu:1par.5.35"
+     ]
+    }
    ]
   },
-  "bpers:ioseph.tribus": {
-   "type": "person",
-   "kind": "group",
-   "latin": "Ioseph",
-   "it": "Giuseppe",
-   "en": "Joseph",
-   "descr_it": "la casa di Giuseppe, Efraim e Manasse insieme, nella benedizione di Mosè",
-   "descr_en": "the house of Joseph, Ephraim and Manasseh together, in Moses' blessing",
+  "bpers:manasses.tribus": {
    "attested": [
     "btu:dt.33.13",
     "btu:dt.33.16"
    ],
    "evidence": [
-    "nv:btu:dt.33.13"
+    "ndeib:EFRAIM, EFRAIMITI"
+   ]
+  },
+  "bpers:ephraim.tribus": {
+   "evidence": [
+    "ndeib:EFRAIM, EFRAIMITI"
    ]
   }
  }

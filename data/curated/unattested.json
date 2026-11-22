@@ -2914,9 +2914,7 @@
    "btu:2sam.2.8",
    "btu:1reg.11.29",
    "btu:ez.37.17",
-   "btu:ez.37.18",
-   "btu:dt.33.13",
-   "btu:dt.33.16"
+   "btu:ez.37.18"
   ],
   "bpers:erastus.minister-pauli": [
    "btu:1cor.4.17"
@@ -5739,8 +5737,7 @@
    "btu:1mac.1.57"
   ],
   "bpers:issachar.filius-iacob": [
-   "btu:gn.49.15",
-   "btu:gn.49.14"
+   "btu:gn.49.15"
   ],
   "bpers:issachar.tribus": [
    "btu:idc.1.30",
