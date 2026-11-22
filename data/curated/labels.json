@@ -5264,6 +5264,16 @@
    }
   },
   "bpers:marcus": {
+   "btu:act.13.13": {
+    "as": "name",
+    "editions": {
+     "CEI2008": "Giovanni",
+     "DRB": "John",
+     "NABRE": "John",
+     "NVBSE": "Ioannes",
+     "VGCL": "Joannes"
+    }
+   },
    "btu:act.13.5": {
     "as": "name",
     "editions": {
