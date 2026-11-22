@@ -1,6 +1,7 @@
 """Build data/persons.json, data/places.json and data/events.json from the reviewed
-sense decisions (data/curated/senses.json), the units each sense cites, and the
-Jerusalem Bible's Herodian tree as curated in data/curated/bj-tree.json (explicit ids).
+sense decisions (data/curated/senses.json), the units each sense cites, the
+Jerusalem Bible's Herodian tree as curated in data/curated/bj-tree.json (explicit ids), and
+the entries curated by hand in data/curated/entries.json (explicit ids, units and evidence).
 
 Facts only: names, kinds, our own short descriptions, units, relations and the
 location of the evidence (ndeib:<KEY>, bj:herodian-tree). No source text.
@@ -55,8 +56,9 @@ def _discriminated(eid: str) -> bool:
 
 def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None = None,
           part_units: dict[str, dict[str, list[str]]] | None = None,
-          qids: dict[str, dict] | None = None) -> dict:
+          qids: dict[str, dict] | None = None, curated: dict[str, dict] | None = None) -> dict:
     part_units = part_units or {}
+    curated = curated or {}
     tree = tree or {}
     qids = qids or {}
     out = {t: {"$comment": COMMENT[t], "entries": {}} for t in TYPES.values()}
@@ -115,6 +117,21 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
         by_id[eid] = entry
         out[t]["entries"][eid] = entry
 
+    curated_relations: list[tuple[str, dict]] = []
+    for eid, e in curated.items():  # explicit entries: own units, evidence and relations by id
+        if eid not in by_id:
+            entry = {"type": e["type"], "kind": e.get("kind"),
+                     "names": {"la": e.get("latin"), "it": e.get("it"), "en": e.get("en")},
+                     "description": {"it": e.get("descr_it"), "en": e.get("descr_en")},
+                     "attested": [], "relations": [], "qid": None, "qid_status": "unresolved",
+                     "evidence": []}
+            by_id[eid] = entry
+            out[TYPES[e["type"]]]["entries"][eid] = entry
+        entry = by_id[eid]
+        for field in ("attested", "evidence"):
+            entry[field] += [x for x in e.get(field, []) if x not in entry[field]]
+        curated_relations += [(eid, r) for r in e.get("relations") or []]
+
     names: dict[str, set[str]] = {}
     for eid, entry in by_id.items():
         for n in (entry["names"]["it"], entry["names"]["la"], entry["names"]["en"]):
@@ -155,6 +172,14 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
         else:
             report["unresolved_relations"].append(f"{src} {r['rel']} {tgt} ({TREE_EVIDENCE})")
 
+    for src, r in curated_relations:
+        tgt = r["target"]
+        if tgt in by_id and src != tgt and fits(src, r["rel"], tgt):
+            for ev in r["evidence"]:
+                _add_relation(by_id[src], r["rel"], tgt, ev)
+        else:
+            report["unresolved_relations"].append(f"{src} {r['rel']} {tgt} (curated)")
+
     for eid, entry in by_id.items():
         if eid in qids:
             entry["qid"], entry["qid_status"] = qids[eid].get("qid"), qids[eid].get("status", "unresolved")
@@ -181,7 +206,9 @@ def main() -> int:
         part_units.setdefault(key, {}).update(fixed)
     q_path = ROOT / "data/curated/qids.json"
     qids = json.loads(q_path.read_text(encoding="utf-8"))["qids"] if q_path.exists() else {}
-    out = build(decisions, units, tree, part_units, qids)
+    c_path = ROOT / "data/curated/entries.json"
+    curated = json.loads(c_path.read_text(encoding="utf-8"))["entries"] if c_path.exists() else {}
+    out = build(decisions, units, tree, part_units, qids, curated)
     report = out.pop("report")
     for t, data in out.items():
         (ROOT / "data" / f"{t}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -30,6 +30,9 @@
 - `data/curated/senses.json`: the reviewed decision for every dictionary sense (type, identifier, names, descriptions, relations; `parts` when one sense covers several entities).
 - `data/curated/part-units.json`: for a sense with several entities, the units of each.
 - `data/curated/qids.json`: the Wikidata matches, with candidates kept for unresolved ones.
+- `data/curated/unit-corrections.json`: a sense's corrected units, where the units it cites are not where the entity appears (by sense key and id).
+- `data/curated/entries.json`: entries curated by hand, with explicit ids, units (the Nova Vulgata verses that name them), evidence and relations; an entry already built from a sense is extended. First use: the persons the dictionary treats only in a book's article, a sense classified as the book (`none`).
+- `data/curated/bj-tree.json`: the Herodian tree's entries and relations.
 
 ## Pipeline
 
@@ -38,7 +41,7 @@ All scripts in `scripts/`; the private inputs (the two books, and intermediates 
 1. `ndeib_senses.py`: the dictionary's senses, their references and units (private).
 2. `bj_evidence.py`: the Jerusalem Bible's index of names, family tree and chronology (private).
 3. Review (briefs in `docs/briefs/`), then `consolidate.py` → `data/curated/senses.json` and `part_units.py` → `data/curated/part-units.json`.
-4. `build_catalog.py` → the catalogs and `docs/build-report.md`.
+4. `build_catalog.py` (also reads the curated corrections, entries and tree) → the catalogs and `docs/build-report.md`.
 5. `wikidata.py` → `data/curated/qids.json`; rebuild to apply.
 6. `validate.py`, `stepbible_check.py` → `docs/stepbible-gaps.md`, `generate_registry.py` → `registry/`.
 
