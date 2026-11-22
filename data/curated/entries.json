@@ -7353,6 +7353,19 @@
     "nv:btu:ez.23.14"
    ]
   },
+  "bpers:chaleb.frater-ierameel": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:chaleb.esrom-filius",
+     "evidence": [
+      "nv:btu:1par.2.9",
+      "nv:btu:1par.2.25",
+      "nv:btu:1par.2.42"
+     ]
+    }
+   ]
+  },
   "bpers:chamaam": {
    "type": "person",
    "kind": "individual",
@@ -7944,6 +7957,19 @@
      "target": "bpers:sellum.ianitor",
      "evidence": [
       "nv:btu:1par.9.19"
+     ]
+    }
+   ]
+  },
+  "bpers:core.caath-nepos": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:core.isaar-filius",
+     "evidence": [
+      "nv:btu:1par.6.22",
+      "nv:btu:1par.6.23",
+      "nv:btu:nm.16.1"
      ]
     }
    ]
@@ -18420,6 +18446,19 @@
     "nv:btu:io.3.26"
    ]
   },
+  "bpers:ioannes-marcus": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:marcus",
+     "evidence": [
+      "nv:btu:act.12.12",
+      "nv:btu:act.12.25",
+      "nv:btu:act.15.37"
+     ]
+    }
+   ]
+  },
   "bpers:ioas.bochor-filius": {
    "type": "person",
    "kind": "individual",
@@ -19891,6 +19930,14 @@
     "nv:btu:ne.11.9"
    ]
   },
+  "bpers:iudas.iacobi-filius": {
+   "attested": [
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
+   ]
+  },
   "bpers:iudas.ioseph-filius": {
    "type": "person",
    "kind": "individual",
@@ -20408,6 +20455,19 @@
     "nv:btu:1par.7.19"
    ]
   },
+  "bpers:levi.alphaei-filius": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:matthaeus",
+     "evidence": [
+      "nv:btu:mc.2.14",
+      "nv:btu:mt.9.9",
+      "nv:btu:lc.5.27"
+     ]
+    }
+   ]
+  },
   "bpers:lois": {
    "type": "person",
    "kind": "individual",
@@ -20504,6 +20564,19 @@
    ],
    "evidence": [
     "nv:btu:act.13.1"
+   ]
+  },
+  "bpers:maacha.mater-asa": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:maacha.uxor-roboam",
+     "evidence": [
+      "nv:btu:1reg.15.2",
+      "nv:btu:1reg.15.10",
+      "nv:btu:1reg.15.13"
+     ]
+    }
    ]
   },
   "bpers:maaddi": {
@@ -23317,6 +23390,19 @@
    ],
    "evidence": [
     "nv:btu:2par.21.2"
+   ]
+  },
+  "bpers:michaia.mater-abiae": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bpers:maacha.uxor-roboam",
+     "evidence": [
+      "nv:btu:2par.13.2",
+      "nv:btu:2par.11.20",
+      "nv:btu:2par.11.22"
+     ]
+    }
    ]
   },
   "bpers:misaam": {
@@ -36379,6 +36465,17 @@
     "nv:btu:ios.19.46"
    ]
   },
+  "bplace:ariel": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:ierusalem",
+     "evidence": [
+      "nv:btu:is.29.1"
+     ]
+    }
+   ]
+  },
   "bplace:arnon": {
    "attested": [
     "btu:nm.21.13",
@@ -36702,6 +36799,17 @@
     "nv:btu:1sam.5.6"
    ]
   },
+  "bplace:baala.cariathiarim": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:cariathiarim",
+     "evidence": [
+      "nv:btu:ios.15.9"
+     ]
+    }
+   ]
+  },
   "bplace:baalath.dan": {
    "type": "place",
    "kind": "city",
@@ -36928,6 +37036,17 @@
    ],
    "evidence": [
     "nv:btu:is.15.8"
+   ]
+  },
+  "bplace:bela": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:segor",
+     "evidence": [
+      "nv:btu:gn.14.2"
+     ]
+    }
    ]
   },
   "bplace:benebarach": {
@@ -37192,6 +37311,18 @@
     "nv:btu:2reg.10.14"
    ]
   },
+  "bplace:bethel": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:luza",
+     "evidence": [
+      "nv:btu:gn.28.19",
+      "nv:btu:idc.1.23"
+     ]
+    }
+   ]
+  },
   "bplace:bethemec": {
    "type": "place",
    "kind": "site",
@@ -37359,6 +37490,14 @@
    ],
    "evidence": [
     "nv:btu:2sam.2.29"
+   ]
+  },
+  "bplace:bethsames.nephthali": {
+   "attested": [
+    "btu:idc.1.33"
+   ],
+   "evidence": [
+    "nv:btu:idc.1.33"
    ]
   },
   "bplace:bethsetta": {
@@ -39001,12 +39140,36 @@
     "nv:btu:2sam.2.24"
    ]
   },
+  "bplace:galgala.in-finibus-iudae": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:galiloth",
+     "evidence": [
+      "nv:btu:ios.15.7",
+      "nv:btu:ios.18.17"
+     ]
+    }
+   ]
+  },
   "bplace:galgala.iuxta-iericho": {
    "attested": [
     "btu:2sam.19.41"
    ],
    "evidence": [
     "nv:btu:2sam.19.41"
+   ]
+  },
+  "bplace:galiloth": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:galgala.in-finibus-iudae",
+     "evidence": [
+      "nv:btu:ios.18.17",
+      "nv:btu:ios.15.7"
+     ]
+    }
    ]
   },
   "bplace:gamzo": {
@@ -39220,6 +39383,18 @@
    ],
    "evidence": [
     "nv:btu:2par.26.7"
+   ]
+  },
+  "bplace:habitaculum": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:tabernaculum-conventus",
+     "evidence": [
+      "nv:btu:ex.40.2",
+      "nv:btu:ex.40.34"
+     ]
+    }
    ]
   },
   "bplace:hachila": {
@@ -40060,6 +40235,18 @@
     "nv:btu:ier.48.5"
    ]
   },
+  "bplace:luza": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:bethel",
+     "evidence": [
+      "nv:btu:gn.28.19",
+      "nv:btu:idc.1.23"
+     ]
+    }
+   ]
+  },
   "bplace:macedonia": {
    "type": "place",
    "kind": "region",
@@ -40894,6 +41081,17 @@
    "evidence": [
     "nv:btu:ier.46.25",
     "nv:btu:nah.3.8"
+   ]
+  },
+  "bplace:nobe": {
+   "relations": [
+    {
+     "rel": "same_as",
+     "target": "bplace:canath",
+     "evidence": [
+      "nv:btu:nm.32.42"
+     ]
+    }
    ]
   },
   "bplace:nopheth": {
@@ -43637,14 +43835,6 @@
    ],
    "evidence": [
     "nv:btu:nm.34.9"
-   ]
-  },
-  "bpers:iudas.iacobi-filius": {
-   "attested": [
-    "btu:act.1.13"
-   ],
-   "evidence": [
-    "nv:btu:act.1.13"
    ]
   }
  }

@@ -8261,13 +8261,7 @@
    "en": "Ben-hadad",
    "descr_it": "re di Aram nemico di Acab, ucciso da Cazael",
    "descr_en": "king of Aram, enemy of Ahab, killed by Hazael",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Ben-Adad I",
-     "target_key": "BEL-ADAD#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -8924,13 +8918,7 @@
    "en": "Beth-shemesh",
    "descr_it": "città fortificata di Neftali",
    "descr_en": "fortified town of Naphtali",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Bet-Semes di Issacar",
-     "target_key": "BET-SEMES#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -11515,13 +11503,7 @@
    "en": "Heled",
    "descr_it": "forma di Cheldai, prode di Davide",
    "descr_en": "variant of Heldai, David's warrior",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Cheldai",
-     "target_key": "CHELDAI"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -11875,13 +11857,7 @@
    "en": "Hilkiah",
    "descr_it": "capo dei sacerdoti tornati con Zorobabele",
    "descr_en": "chief of priests who returned with Zerubbabel",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Chelkia",
-     "target_key": "CHELKIA#5"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -20635,13 +20611,7 @@
    "en": "Beth-gilgal",
    "descr_it": "località da cui vennero cantori per la dedicazione delle mura",
    "descr_en": "village whose singers came to the wall dedication",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Gàlgala",
-     "target_key": "GALGALA#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -25320,13 +25290,7 @@
    "en": "Jashobeam",
    "descr_it": "figlio di Zabdiel, capo della prima divisione dell'esercito",
    "descr_en": "son of Zabdiel, commander of the first army division",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Iasobeam",
-     "target_key": "IASOBEAM#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -27445,11 +27409,6 @@
      "descr_en": "Levitical city of Ephraim, possibly an error for Kibzaim",
      "relations": [
       {
-       "rel": "same_as",
-       "target": "Kibzaim",
-       "target_key": "KIBZAIM"
-      },
-      {
        "rel": "located_in",
        "target": "Efraim",
        "target_key": null
@@ -28970,13 +28929,7 @@
      "en": "Kedesh",
      "descr_it": "località del sud di Giuda al confine con Edom",
      "descr_en": "town in southern Judah on the Edomite border",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Kades-Barnea",
-       "target_key": "KADES#1"
-      }
-     ],
+     "relations": [],
      "certain": false
     },
     {
@@ -28993,11 +28946,6 @@
        "rel": "located_in",
        "target": "Issacar",
        "target_key": "ISSACAR"
-      },
-      {
-       "rel": "same_as",
-       "target": "Kision",
-       "target_key": "KISION"
       }
      ],
      "certain": false
@@ -32334,13 +32282,7 @@
    "en": "Massah and Meribah",
    "descr_it": "località desertica in cui Israele tentò il Signore",
    "descr_en": "desert site where Israel put the Lord to the test",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Meriba",
-     "target_key": "MERIBA"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -32928,13 +32870,7 @@
      "en": "Meribah",
      "descr_it": "luogo presso Refidim, detto Massa e Meriba",
      "descr_en": "place near Rephidim, called Massah and Meribah",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Massa e Meriba",
-       "target_key": "MASSA E MERIBA"
-      }
-     ],
+     "relations": [],
      "certain": true
     }
    ],
@@ -39645,13 +39581,7 @@
    "en": "Riblah",
    "descr_it": "località sul confine nordorientale della terra promessa",
    "descr_en": "place on the northeastern border of the promised land",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Ribla",
-     "target_key": "RIBLA#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -41758,13 +41688,7 @@
      "en": "Seba",
      "descr_it": "paese e popolo dell'Arabia meridionale",
      "descr_en": "land and people of southern Arabia",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Saba",
-       "target_key": "SABA"
-      }
-     ],
+     "relations": [],
      "certain": false
     }
    ],
@@ -44555,13 +44479,7 @@
    "en": "Sosthenes",
    "descr_it": "fratello coautore della prima lettera ai Corinzi",
    "descr_en": "brother, co-sender of First Corinthians",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Sostene",
-     "target_key": "SOSTENE#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {

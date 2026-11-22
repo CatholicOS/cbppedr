@@ -234,6 +234,28 @@
    ]
   },
   {
+   "source": "bpers:benadad.achab-hostis",
+   "rel": "possibly_same_as",
+   "target": "bpers:benadad.tabremmonis-filius",
+   "opinions": [
+    {
+     "by": "ndeib:BEL-ADAD#2",
+     "says": "doubts",
+     "summary": "Weighs a single long-reigning Ben-hadad but finds two successive kings more probable."
+    },
+    {
+     "by": "bj:note:1Re.20,1#p726",
+     "says": "rejects",
+     "summary": "Ahab's foe is Ben-hadad II, successor of Ben-hadad I of 1 Kgs 15:18."
+    },
+    {
+     "by": "bj:note:2Re.8,7#p749",
+     "says": "rejects",
+     "summary": "The king Hazael kills is Ben-hadad II, as in 1 Kgs 20:1."
+    }
+   ]
+  },
+  {
    "source": "bpers:beniamin.de-filiis-harim",
    "rel": "possibly_same_as",
    "target": "bpers:beniamin.dedicatio-muri",
@@ -390,6 +412,18 @@
    ]
   },
   {
+   "source": "bpers:helcias.princeps-sacerdotum",
+   "rel": "possibly_same_as",
+   "target": "bpers:helcia.esdrae-socius",
+   "opinions": [
+    {
+     "by": "ndeib:CHELKIA#6",
+     "says": "suggests",
+     "summary": "Perhaps the same Hilkiah as the one at Ezra's reading of the law."
+    }
+   ]
+  },
+  {
    "source": "bpers:hir.beniaminita",
    "rel": "possibly_same_as",
    "target": "bpers:urai",
@@ -468,6 +502,23 @@
      "by": "reviewer:round2",
      "says": "suggests",
      "summary": "Both head the Hebronites under David, under nearly the same name; a strong lead."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iesbaam.zabdiel-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:iesbaam.hachamonitis",
+   "opinions": [
+    {
+     "by": "ndeib:IASOBEAM#3",
+     "says": "suggests",
+     "summary": "If he is the same as David's chief warrior, 'Hachmonite' may name a remote ancestor."
+    },
+    {
+     "by": "tipnr:Jashobeam@2Sa.23.8-1Ch",
+     "says": "identifies",
+     "summary": "One record covers the Jashobeam of 1 Chr 11:11 and of 1 Chr 27:2."
     }
    ]
   },
@@ -996,6 +1047,28 @@
    ]
   },
   {
+   "source": "bpers:sosthenes.frater",
+   "rel": "possibly_same_as",
+   "target": "bpers:sosthenes.archisynagogus",
+   "opinions": [
+    {
+     "by": "ndeib:SOSTENE#2",
+     "says": "suggests",
+     "summary": "With some probability Paul's co-sender is the synagogue ruler of Acts 18:17."
+    },
+    {
+     "by": "bj:note:At.18,17#p2667",
+     "says": "suggests",
+     "summary": "Perhaps the Sosthenes named in 1 Cor 1:1."
+    },
+    {
+     "by": "tipnr:Sosthenes@Act.18.17-1Co",
+     "says": "identifies",
+     "summary": "A single record for Acts 18:17 and 1 Cor 1:1."
+    }
+   ]
+  },
+  {
    "source": "bpers:sulamitis",
    "rel": "possibly_same_as",
    "target": "bpers:abisag",
@@ -1291,6 +1364,23 @@
    ]
   },
   {
+   "source": "bplace:bethgalgala",
+   "rel": "possibly_same_as",
+   "target": "bplace:galgala.iuxta-iericho",
+   "opinions": [
+    {
+     "by": "ndeib:GALGALA#5",
+     "says": "doubts",
+     "summary": "Cannot be determined whether Nehemiah's Beth-gilgal is the well-known Gilgal by Jericho."
+    },
+    {
+     "by": "tipnr:Gilgal@Deu.11.30-Mic",
+     "says": "identifies",
+     "summary": "Its Gilgal-by-Jericho record includes Neh 12:29."
+    }
+   ]
+  },
+  {
    "source": "bplace:bethsames.iudae",
    "rel": "possibly_attested_at",
    "unit": "btu:ios.19.41",
@@ -1309,6 +1399,18 @@
      "by": "tipnr:Beth-shemesh@Jos.15.10-2Ch",
      "says": "identifies",
      "summary": "Spells Beth-shemesh as Ir-shemesh at Josh 19:41."
+    }
+   ]
+  },
+  {
+   "source": "bplace:bethsames.nephthali",
+   "rel": "possibly_same_as",
+   "target": "bplace:bethsames.issachar",
+   "opinions": [
+    {
+     "by": "ndeib:BET-SEMES#3",
+     "says": "suggests",
+     "summary": "Offers, as the only alternative to an unknown site, that it is Issachar's Beth-shemesh."
     }
    ]
   },
@@ -1370,6 +1472,45 @@
      "by": "tipnr:Kitron@Jos.19.15-Jdg",
      "says": "identifies",
      "summary": "One record holds Kattath of Josh 19:15 and Kitron of Judg 1:30."
+    }
+   ]
+  },
+  {
+   "source": "bplace:cedes.in-issachar",
+   "rel": "possibly_same_as",
+   "target": "bplace:cesion",
+   "opinions": [
+    {
+     "by": "ndeib:KEDES",
+     "says": "suggests",
+     "summary": "In the parallel Levitical list Kedesh takes Kishion's place, perhaps the same site."
+    },
+    {
+     "by": "ndeib:KISION",
+     "says": "suggests",
+     "summary": "Possibly a copying error; more probably Chronicles keeps another name for the same town."
+    },
+    {
+     "by": "tipnr:Kishion@Jos.19.20-1Ch",
+     "says": "identifies",
+     "summary": "Its Kishion record includes the Kedesh of 1 Chr 6."
+    }
+   ]
+  },
+  {
+   "source": "bplace:cedes.in-iuda",
+   "rel": "possibly_same_as",
+   "target": "bplace:cades.barne",
+   "opinions": [
+    {
+     "by": "ndeib:KEDES",
+     "says": "suggests",
+     "summary": "Reports that the Kedesh of Josh 15:23 is usually identified with Kadesh-barnea."
+    },
+    {
+     "by": "tipnr:Kadesh@Gen.14.7-Psa",
+     "says": "identifies",
+     "summary": "Lists Kedesh of Josh 15:23 as a spelling of Kadesh-barnea."
     }
    ]
   },
@@ -1618,6 +1759,28 @@
    ]
   },
   {
+   "source": "bplace:iecmaam.in-ephraim",
+   "rel": "possibly_same_as",
+   "target": "bplace:cibsaim",
+   "opinions": [
+    {
+     "by": "ndeib:IOKMEAM",
+     "says": "suggests",
+     "summary": "Probably a copying error for the similar Hebrew name Kibzaim in the parallel list."
+    },
+    {
+     "by": "ndeib:KIBZAIM",
+     "says": "identifies",
+     "summary": "States that Chronicles writes Kibzaim wrongly as Jokmeam."
+    },
+    {
+     "by": "tipnr:Kibzaim@Jos.21.22-1Ch",
+     "says": "identifies",
+     "summary": "Its Kibzaim record includes 1 Chr 6."
+    }
+   ]
+  },
+  {
    "source": "bplace:iesua",
    "rel": "possibly_same_as",
    "target": "bplace:sama",
@@ -1727,6 +1890,28 @@
    ]
   },
   {
+   "source": "bplace:massa-et-meriba",
+   "rel": "possibly_same_as",
+   "target": "bplace:meriba.cades",
+   "opinions": [
+    {
+     "by": "ndeib:MERIBA",
+     "says": "rejects",
+     "summary": "The Meribah near Kadesh and the one near Rephidim are two different places with similar episodes."
+    },
+    {
+     "by": "bj:note:Nm.20,1-11#p345",
+     "says": "suggests",
+     "summary": "Num 20 is a priestly doublet of Exod 17; its Kadesh setting is secondary."
+    },
+    {
+     "by": "bj:note:Es.17,1-7#p194",
+     "says": "suggests",
+     "summary": "The analogous miracle of Num 20 is the same tradition set elsewhere, at Kadesh."
+    }
+   ]
+  },
+  {
    "source": "bplace:mons-hor.edom",
    "rel": "possibly_same_as",
    "target": "bplace:mosera",
@@ -1803,6 +1988,35 @@
      "by": "ndeib:FONDARE, FONDAMENTO#0",
      "says": "suggests",
      "summary": "Takes the gate in 2 Kgs 11:6 and in its parallel 2 Chr 23:5 as the same entrance."
+    }
+   ]
+  },
+  {
+   "source": "bplace:rebla.finium",
+   "rel": "possibly_same_as",
+   "target": "bplace:rebla.emath",
+   "opinions": [
+    {
+     "by": "ndeib:RIBLA#2",
+     "says": "suggests",
+     "summary": "Perhaps the same Riblah, though most place this border further south or read Arbela."
+    }
+   ]
+  },
+  {
+   "source": "bplace:saba.seba",
+   "rel": "possibly_same_as",
+   "target": "bplace:saba.sabaeorum",
+   "opinions": [
+    {
+     "by": "ndeib:SEBA II",
+     "says": "suggests",
+     "summary": "Seba and Sheba are held to be two forms of one people's name."
+    },
+    {
+     "by": "bj:note:Is.43,3#p1828",
+     "says": "rejects",
+     "summary": "Seba, a region south of Egypt, is distinct from Sheba in Arabia."
     }
    ]
   },
