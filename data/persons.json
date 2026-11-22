@@ -1176,8 +1176,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q9138251",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:ABICAIL"
    ]
@@ -26326,8 +26326,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q12876922",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:ELIAKIM"
    ]
@@ -28301,8 +28301,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q138698783",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:ELSAFAN"
    ]
@@ -30860,8 +30860,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q116729013",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:ATTAI#1"
    ]
@@ -50431,8 +50431,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q25668656",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:GIOVANNI#16"
    ]
@@ -58988,8 +58988,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125295940",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:MAACA#8"
    ]
@@ -69650,8 +69650,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124346862",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:NATANIA"
    ]
@@ -70987,8 +70987,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q116729115",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:OBED"
    ]

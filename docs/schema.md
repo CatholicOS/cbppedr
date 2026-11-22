@@ -81,7 +81,7 @@ The reviewed decisions the catalogs are built from, in `data/curated/`. Ids are 
 | `labels.json` | by id and unit, how each edition names or designates the entry where it is not called by its catalogued names | `{"entries": {"<id>": {"btu:2reg.2.24": {"as": "designation", "editions": {"NABRE": "The prophet"}}}}}` |
 | `conjectures.json` | the conjectures, with every opinion; the build adds each to its source entry with a computed `status` | `{"conjectures": [{"source": "<id>", "rel": "possibly_same_as", "target": "<id>", "opinions": [{"by": "bj:note:…", "says": "suggests", "summary": "…"}]}, {"source": "<id>", "rel": "possibly_attested_at", "unit": "btu:…", "opinions": […]}]}` |
 | `sources.json` | the register of sources conjectures may cite: whose opinion, its authority, its locator format | `{"sources": {"bj": {"title", "authority": "authoritative", "locator"}}}` |
-| `qids.json` | the Wikidata matches, with the candidates kept for review and the items judged wrong | `{"qids": {"<id>": {"qid": "Q… \| null", "status": "auto \| reviewed \| unresolved", "candidates": ["Q…"], "rejected": ["Q…"]}}}` |
+| `qids.json` | the Wikidata matches, with the candidates kept for review and the items judged wrong | `{"qids": {"<id>": {"qid": "Q… \| null", "status": "auto \| reviewed \| unresolved", "candidates": ["Q…"], "rejected": ["Q…"], "deduped": true}}}`; `rejected`: items a reviewer judged wrong, never picked, and an entry holding one is matched again; `deduped`: the automatic pick was cleared because another entry had the same item, so the next run judges it again |
 
 ## Build report
 

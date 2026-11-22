@@ -412,8 +412,7 @@
     "Q33829",
     "Q25350",
     "Q308678",
-    "Q474191",
-    "Q9181"
+    "Q474191"
    ],
    "rejected": [
     "Q9181"
@@ -548,8 +547,8 @@
    ]
   },
   "bpers:abiail.uxor-abisur": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q9138251",
+   "status": "auto",
    "candidates": [
     "Q4667729",
     "Q114752196",
@@ -1361,7 +1360,8 @@
     "Q25101542",
     "Q110826994",
     "Q115053965"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:achinoam.iezrahelitis": {
    "qid": "Q400266",
@@ -1504,7 +1504,8 @@
     "Q4889758",
     "Q22319671",
     "Q4809734"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:ada.esau-uxor": {
    "qid": null,
@@ -4638,8 +4639,7 @@
     "Q2724805",
     "Q2513390",
     "Q2350700",
-    "Q2612735",
-    "Q18237997"
+    "Q2612735"
    ],
    "rejected": [
     "Q18237997"
@@ -5552,7 +5552,8 @@
    "candidates": [
     "Q55856075",
     "Q138972247"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:asarhaddon": {
    "qid": null,
@@ -5775,7 +5776,8 @@
     "Q125499036",
     "Q40169",
     "Q4810454"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:asir.core-filius": {
    "qid": null,
@@ -5791,7 +5793,8 @@
     "Q125499036",
     "Q40169",
     "Q4810454"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:asnaa": {
    "qid": null,
@@ -6142,7 +6145,8 @@
     "Q4889758",
     "Q22319671",
     "Q4809734"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:azania": {
    "qid": "Q139383032",
@@ -7344,7 +7348,8 @@
    "status": "unresolved",
    "candidates": [
     "Q171724"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:balthasar": {
    "qid": null,
@@ -10882,7 +10887,8 @@
     "Q18497950",
     "Q125807040",
     "Q25200"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:daniel.david-filius": {
    "qid": null,
@@ -11664,7 +11670,8 @@
     "Q12693387",
     "Q5340186",
     "Q82112"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:egeus": {
    "qid": "Q5698294",
@@ -12424,8 +12431,8 @@
    ]
   },
   "bpers:eliachim.abiud-filius": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q12876922",
+   "status": "auto",
    "candidates": [
     "Q9252684",
     "Q2916984",
@@ -12436,7 +12443,8 @@
     "Q141585571",
     "Q107308109",
     "Q5360388",
-    "Q1328941"
+    "Q1328941",
+    "Q12876922"
    ]
   },
   "bpers:eliachim.helciae-filius": {
@@ -13373,8 +13381,8 @@
    ]
   },
   "bpers:elisaphan.pharnach-filius": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q138698783",
+   "status": "auto",
    "candidates": [
     "Q6533529",
     "Q138698783",
@@ -14047,7 +14055,8 @@
     "Q2336853",
     "Q81826641",
     "Q24965694"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:eschol": {
    "qid": "Q125022203",
@@ -14388,8 +14397,8 @@
    ]
   },
   "bpers:eththei.ieraa-filius": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q116729013",
+   "status": "auto",
    "candidates": [
     "Q37487090",
     "Q273036",
@@ -18073,7 +18082,8 @@
     "Q311879",
     "Q244345",
     "Q313419"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:herodes.magnus": {
    "qid": null,
@@ -18089,7 +18099,8 @@
     "Q311879",
     "Q244345",
     "Q313419"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:herodiani": {
    "qid": null,
@@ -22608,8 +22619,8 @@
    ]
   },
   "bpers:ioanna.resa-filius": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q25668656",
+   "status": "auto",
    "candidates": [
     "Q125767985",
     "Q25668656",
@@ -24190,7 +24201,8 @@
     "Q21070406",
     "Q4333362",
     "Q1821515"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:iosaba": {
    "qid": null,
@@ -24206,7 +24218,8 @@
     "Q219048",
     "Q12259662",
     "Q16517848"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:iosabhesed": {
    "qid": null,
@@ -25069,7 +25082,8 @@
    "status": "unresolved",
    "candidates": [
     "Q138972247"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:issachar.filius-iacob": {
    "qid": null,
@@ -25230,7 +25244,8 @@
     "Q5907376",
     "Q104370581",
     "Q1691672"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:iuda.levita-esdrae": {
    "qid": null,
@@ -26177,8 +26192,8 @@
    ]
   },
   "bpers:maacha.filius-nachor": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q125295940",
+   "status": "auto",
    "candidates": [
     "Q16574657",
     "Q3841879",
@@ -26189,7 +26204,8 @@
     "Q6720979",
     "Q6720977",
     "Q98536229",
-    "Q98536228"
+    "Q98536228",
+    "Q125295940"
    ]
   },
   "bpers:maacha.mater-asa": {
@@ -26885,7 +26901,8 @@
     "Q14640127",
     "Q14640126",
     "Q115053965"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:mahath.praepositus": {
    "qid": null,
@@ -27038,7 +27055,8 @@
     "Q110191739",
     "Q23848294",
     "Q4280122"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:manahath": {
    "qid": "Q125315789",
@@ -27062,7 +27080,8 @@
     "Q1337389",
     "Q1361819",
     "Q625515"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:manasses.de-filiis-hasum": {
    "qid": null,
@@ -27173,8 +27192,7 @@
     "Q23521208",
     "Q23024922",
     "Q23064157",
-    "Q23384166",
-    "Q125296348"
+    "Q23384166"
    ],
    "rejected": [
     "Q125296348"
@@ -30794,8 +30812,8 @@
    ]
   },
   "bpers:nathania.pater-iudi": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q124346862",
+   "status": "auto",
    "candidates": [
     "Q19893076",
     "Q139543094",
@@ -30806,7 +30824,8 @@
     "Q136656519",
     "Q133785669",
     "Q75402325",
-    "Q76296622"
+    "Q76296622",
+    "Q124346862"
    ]
   },
   "bpers:nathanmelech": {
@@ -31396,8 +31415,8 @@
    ]
   },
   "bpers:obed.ophlal-filius": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q116729115",
+   "status": "auto",
    "candidates": [
     "Q1135791",
     "Q51871161",
@@ -32919,7 +32938,8 @@
     "Q14391777",
     "Q14391781",
     "Q126084760"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:phallu": {
    "qid": "Q65128328",
@@ -33436,7 +33456,8 @@
     "Q14391777",
     "Q14391781",
     "Q126084760"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:phelethi": {
    "qid": null,
@@ -33704,7 +33725,8 @@
     "Q2087893",
     "Q776690",
     "Q7183088"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:philippus.tetrarcha": {
    "qid": null,
@@ -33720,7 +33742,8 @@
     "Q2087893",
     "Q776690",
     "Q7183088"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:philisthim": {
    "qid": null,
@@ -35621,7 +35644,8 @@
     "Q782401",
     "Q532968",
     "Q2640854"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:sallu.odoviae-nepos": {
    "qid": null,
@@ -35637,7 +35661,8 @@
     "Q782401",
     "Q532968",
     "Q2640854"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:sallu.sacerdos": {
    "qid": null,
@@ -37751,7 +37776,8 @@
    "candidates": [
     "Q138835356",
     "Q138835411"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:selec": {
    "qid": null,
@@ -37913,7 +37939,8 @@
    "candidates": [
     "Q138835356",
     "Q138835411"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:sella.uxor-lamech": {
    "qid": null,
@@ -40945,14 +40972,16 @@
    "status": "unresolved",
    "candidates": [
     "Q104783764"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:tabel": {
    "qid": null,
    "status": "unresolved",
    "candidates": [
     "Q104783764"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:tabelias": {
    "qid": "Q139660799",
@@ -41115,7 +41144,8 @@
     "Q137506992",
     "Q33467",
     "Q85854843"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:thadal": {
    "qid": "Q7800767",
@@ -41589,7 +41619,8 @@
     "Q137506992",
     "Q33467",
     "Q85854843"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:thema": {
    "qid": null,
@@ -44248,7 +44279,8 @@
     "Q21733084",
     "Q21733083",
     "Q117054240"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:zimma.filius-semei": {
    "qid": "Q138794179",
@@ -44282,7 +44314,8 @@
     "Q21733084",
     "Q21733083",
     "Q117054240"
-   ]
+   ],
+   "deduped": true
   },
   "bpers:ziph.filius-iallelel": {
    "qid": null,
@@ -45317,7 +45350,8 @@
     "Q9415",
     "Q159904",
     "Q4779536"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:aphec.saron": {
    "qid": null,
@@ -45334,7 +45368,8 @@
     "Q9415",
     "Q159904",
     "Q4779536"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:aphec.transiordanica": {
    "qid": null,
@@ -45351,7 +45386,8 @@
     "Q9415",
     "Q159904",
     "Q4779536"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:apheca.iuda": {
    "qid": null,
@@ -45382,7 +45418,8 @@
     "Q9415",
     "Q159904",
     "Q4779536"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:aphesdommim": {
    "qid": null,
@@ -45716,7 +45753,8 @@
     "Q25016270",
     "Q29526124",
     "Q33686958"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:aroer.arnon": {
    "qid": null,
@@ -45732,7 +45770,8 @@
     "Q25016270",
     "Q29526124",
     "Q33686958"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:aroer.negeb": {
    "qid": null,
@@ -45748,7 +45787,8 @@
     "Q25016270",
     "Q29526124",
     "Q33686958"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:arphad": {
    "qid": null,
@@ -46016,7 +46056,8 @@
     "Q56458298",
     "Q185225",
     "Q121255625"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:asor.beniamin": {
    "qid": null,
@@ -46033,7 +46074,8 @@
     "Q56458298",
     "Q185225",
     "Q121255625"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:asor.iudae-austri": {
    "qid": null,
@@ -46050,7 +46092,8 @@
     "Q56458298",
     "Q185225",
     "Q121255625"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:asor.nephthali": {
    "qid": null,
@@ -46067,7 +46110,8 @@
     "Q56458298",
     "Q185225",
     "Q121255625"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:asorhadatta": {
    "qid": null,
@@ -46479,7 +46523,8 @@
     "Q4837122",
     "Q21548768",
     "Q1348441"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:baalhamon": {
    "qid": null,
@@ -46660,7 +46705,8 @@
     "Q116186340",
     "Q134519",
     "Q32805"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:bascath": {
    "qid": null,
@@ -47597,7 +47643,8 @@
     "Q100699015",
     "Q10542380",
     "Q182687"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:cades.barne": {
    "qid": null,
@@ -47607,7 +47654,8 @@
     "Q2777586",
     "Q106729497",
     "Q113825641"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:caesarea.maritima": {
    "qid": null,
@@ -48584,7 +48632,8 @@
     "Q55604130",
     "Q141455142",
     "Q2289734"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:colossae": {
    "qid": null,
@@ -48813,7 +48862,8 @@
     "Q1804699",
     "Q2715224",
     "Q35"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:dan.urbs": {
    "qid": null,
@@ -48829,7 +48879,8 @@
     "Q1804699",
     "Q2715224",
     "Q35"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:danna": {
    "qid": null,
@@ -49996,7 +50047,8 @@
     "Q91498344",
     "Q141456199",
     "Q60965412"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:fons-invocantis": {
    "qid": null,
@@ -50073,7 +50125,8 @@
     "Q64371108",
     "Q64373078",
     "Q64370941"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gabaa.saul": {
    "qid": null,
@@ -50086,7 +50139,8 @@
     "Q64371108",
     "Q64373078",
     "Q64370941"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gabaon": {
    "qid": "Q889398",
@@ -50233,7 +50287,8 @@
     "Q19995993",
     "Q5518517",
     "Q32753595"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:galgala.in-finibus-iudae": {
    "qid": null,
@@ -50249,7 +50304,8 @@
     "Q19995993",
     "Q5518517",
     "Q32753595"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:galgala.iuxta-iericho": {
    "qid": null,
@@ -50265,7 +50321,8 @@
     "Q19995993",
     "Q5518517",
     "Q32753595"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:galilaea": {
    "qid": null,
@@ -50592,7 +50649,8 @@
     "Q11372534",
     "Q5587161",
     "Q1261081"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gessur": {
    "qid": null,
@@ -50623,7 +50681,8 @@
     "Q272975",
     "Q7436",
     "Q216372"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gethhepher": {
    "qid": null,
@@ -50792,7 +50851,8 @@
     "Q11372534",
     "Q5587161",
     "Q1261081"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gosen.regio": {
    "qid": null,
@@ -50809,7 +50869,8 @@
     "Q11372534",
     "Q5587161",
     "Q1261081"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:gozan": {
    "qid": null,
@@ -51320,7 +51381,8 @@
     "Q29905929",
     "Q8077017",
     "Q110962012"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:hevila.eden": {
    "qid": null,
@@ -51336,7 +51398,8 @@
     "Q29905929",
     "Q8077017",
     "Q110962012"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:hierapolis": {
    "qid": null,
@@ -52168,7 +52231,8 @@
     "Q5907376",
     "Q104370581",
     "Q1691672"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:iudaea": {
    "qid": null,
@@ -52324,7 +52388,8 @@
     "Q111153059",
     "Q109274713",
     "Q137613294"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:lebona": {
    "qid": null,
@@ -52378,7 +52443,8 @@
     "Q11844865",
     "Q726344",
     "Q11349865"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:lesa": {
    "qid": null,
@@ -52442,22 +52508,16 @@
     "Q111153059",
     "Q109274713",
     "Q137613294"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:lodabar": {
    "qid": null,
    "status": "unresolved",
    "candidates": [
-    "Q131755915",
-    "Q4221915",
-    "Q25497407",
-    "Q1206836",
-    "Q5248105",
-    "Q3620148",
-    "Q5815914",
-    "Q132005099",
-    "Q60478460",
-    "Q108110708"
+    "Q14712735",
+    "Q117670111",
+    "Q6663061"
    ]
   },
   "bplace:luith": {
@@ -53140,7 +53200,8 @@
     "Q137965190",
     "Q137973317",
     "Q29365693"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:maspha.galaad": {
    "qid": null,
@@ -53156,7 +53217,8 @@
     "Q137965190",
     "Q137973317",
     "Q29365693"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:maspha.hermon": {
    "qid": null,
@@ -53172,7 +53234,8 @@
     "Q137965190",
     "Q137973317",
     "Q29365693"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:maspha.iuda": {
    "qid": null,
@@ -53188,7 +53251,8 @@
     "Q116408603",
     "Q2890805",
     "Q2776900"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:maspha.moab": {
    "qid": null,
@@ -53204,7 +53268,8 @@
     "Q137965190",
     "Q137973317",
     "Q29365693"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:masreca": {
    "qid": null,
@@ -53427,7 +53492,8 @@
     "Q13042767",
     "Q122686519",
     "Q130760095"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:merom": {
    "qid": null,
@@ -53653,7 +53719,8 @@
     "Q82069695",
     "Q23148",
     "Q2915115"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:mons-iudae": {
    "qid": null,
@@ -55365,7 +55432,8 @@
     "Q59870828",
     "Q59965992",
     "Q19044143"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:rama.beniamin": {
    "qid": null,
@@ -55381,7 +55449,8 @@
     "Q59870828",
     "Q59965992",
     "Q19044143"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:rama.nephthali": {
    "qid": null,
@@ -55397,7 +55466,8 @@
     "Q59870828",
     "Q59965992",
     "Q19044143"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:rama.samuelis": {
    "qid": null,
@@ -55413,14 +55483,16 @@
     "Q59870828",
     "Q59965992",
     "Q19044143"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:ramathlehi": {
    "qid": null,
    "status": "unresolved",
    "candidates": [
     "Q11349865"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:ramathnageb": {
    "qid": null,
@@ -55598,7 +55670,8 @@
     "Q34491693",
     "Q34491720",
     "Q12408028"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:remmon.zabulon": {
    "qid": null,
@@ -55614,7 +55687,8 @@
     "Q34491693",
     "Q34491720",
     "Q12408028"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:remmonphares": {
    "qid": null,
@@ -56469,7 +56543,8 @@
     "Q106548370",
     "Q106548371",
     "Q106548369"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:seboim.civitas-campestris": {
    "qid": null,
@@ -56483,7 +56558,8 @@
     "Q106548370",
     "Q106548371",
     "Q106548369"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:seboim.vallis": {
    "qid": null,
@@ -56497,7 +56573,8 @@
     "Q106548370",
     "Q106548371",
     "Q106548369"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:sechron": {
    "qid": null,
@@ -56968,7 +57045,8 @@
     "Q2280386",
     "Q101118878",
     "Q1679519"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:sichem": {
    "qid": null,
@@ -57185,7 +57263,8 @@
     "Q585992",
     "Q503818",
     "Q2776782"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:socho.montana": {
    "qid": null,
@@ -57202,7 +57281,8 @@
     "Q585992",
     "Q503818",
     "Q2776782"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:socho.rama": {
    "qid": null,
@@ -57235,7 +57315,8 @@
     "Q585992",
     "Q503818",
     "Q2776782"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:sodoma": {
    "qid": "Q3297078",
@@ -58160,7 +58241,8 @@
     "Q612952",
     "Q140499440",
     "Q18527499"
-   ]
+   ],
+   "deduped": true
   },
   "bplace:trans-iordanem": {
    "qid": null,
