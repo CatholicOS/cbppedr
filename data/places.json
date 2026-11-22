@@ -8497,18 +8497,6 @@
        "summary": "Its Kishion record includes the Kedesh of 1 Chr 6."
       }
      ]
-    },
-    {
-     "rel": "possibly_attested_at",
-     "unit": "btu:ios.12.22",
-     "status": "supported",
-     "opinions": [
-      {
-       "by": "ndeib:KEDES",
-       "says": "suggests",
-       "summary": "Placed near Tell Abu Qudeis, this Kedesh may also be the Canaanite royal city of Josh 12:22."
-      }
-     ]
     }
    ]
   },
@@ -8606,6 +8594,42 @@
     "ndeib:KEDES"
    ],
    "review": "uncertain"
+  },
+  "bplace:cedes.urbs-regia": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Cedes",
+    "it": "Kedes",
+    "en": "Kedesh"
+   },
+   "description": {
+    "it": "città cananea il cui re fu vinto da Giosuè",
+    "en": "Canaanite city whose king Joshua defeated"
+   },
+   "attested": [
+    "btu:ios.12.22"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:ios.12.22"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cedes.in-issachar",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "suggests",
+       "summary": "Placed near Tell Abu Qudeis, Kedesh of Issachar may also be the Canaanite royal city of Josh 12:22."
+      }
+     ]
+    }
+   ]
   },
   "bplace:cedron": {
    "type": "place",
@@ -23254,11 +23278,33 @@
    "evidence": [
     "ndeib:NOBACH#2"
    ],
-   "review": "uncertain",
+   "review": "uncertain"
+  },
+  "bplace:nobe.iuxta-iegbaa": {
+   "type": "place",
+   "kind": "city",
+   "names": {
+    "la": "Nobe",
+    "it": "Nobach",
+    "en": "Nobah"
+   },
+   "description": {
+    "it": "località presso Iogbea, sulla via di Gedeone contro i Madianiti",
+    "en": "place beside Jogbehah on Gideon's route against Midian"
+   },
+   "attested": [
+    "btu:idc.8.11"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:idc.8.11"
+   ],
    "conjectures": [
     {
-     "rel": "possibly_attested_at",
-     "unit": "btu:idc.8.11",
+     "rel": "possibly_same_as",
+     "target": "bplace:nobe",
      "status": "doubted",
      "opinions": [
       {
@@ -31271,7 +31317,8 @@
    "evidence": [
     "ndeib:TABOR, MONTE",
     "nv:btu:idc.4.6",
-    "nv:btu:ier.46.18"
+    "nv:btu:ier.46.18",
+    "ndeib:TABOR (LOCALITÀ)"
    ],
    "conjectures": [
     {
