@@ -2375,8 +2375,8 @@
    ]
   },
   "bpers:aher": {
-   "qid": "Q138656270",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q570612",
     "Q105770793",
@@ -2387,7 +2387,9 @@
     "Q141838095",
     "Q245504",
     "Q41524",
-    "Q191087",
+    "Q191087"
+   ],
+   "rejected": [
     "Q138656270"
    ]
   },
@@ -7233,8 +7235,8 @@
    ]
   },
   "bpers:badan": {
-   "qid": "Q4878985",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q28739657",
     "Q4879072",
@@ -7246,6 +7248,9 @@
     "Q23676506",
     "Q22364617",
     "Q127057416"
+   ],
+   "rejected": [
+    "Q4878985"
    ]
   },
   "bpers:bagatha": {
@@ -8302,8 +8307,8 @@
    ]
   },
   "bpers:belsan": {
-   "qid": "Q1136380",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q861856",
     "Q107225713",
@@ -8314,6 +8319,9 @@
     "Q65303025",
     "Q1136380",
     "Q60815059"
+   ],
+   "rejected": [
+    "Q1136380"
    ]
   },
   "bpers:benabinadab": {
@@ -14703,8 +14711,8 @@
    ]
   },
   "bpers:ezri": {
-   "qid": "Q20501924",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q2171485",
     "Q27063854",
@@ -14715,7 +14723,9 @@
     "Q85791661",
     "Q23060822",
     "Q66619369",
-    "Q97063977",
+    "Q97063977"
+   ],
+   "rejected": [
     "Q20501924"
    ]
   },
@@ -18264,8 +18274,8 @@
    ]
   },
   "bpers:hezeci": {
-   "qid": "Q244912",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q244912",
     "Q5102662",
@@ -18277,6 +18287,9 @@
     "Q123877098",
     "Q3138729",
     "Q12407400"
+   ],
+   "rejected": [
+    "Q244912"
    ]
   },
   "bpers:hezion": {
@@ -19367,11 +19380,14 @@
    ]
   },
   "bpers:iahath.semei-filius": {
-   "qid": "Q117054231",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q110372975",
     "Q107230658",
+    "Q117054231"
+   ],
+   "rejected": [
     "Q117054231"
    ]
   },
@@ -19934,8 +19950,8 @@
    ]
   },
   "bpers:iare": {
-   "qid": "Q1687510",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q90179955",
     "Q90267138",
@@ -19947,6 +19963,9 @@
     "Q118873901",
     "Q1086556",
     "Q3177466"
+   ],
+   "rejected": [
+    "Q1687510"
    ]
   },
   "bpers:iareb": {
@@ -20313,8 +20332,8 @@
    ]
   },
   "bpers:iecuthiel": {
-   "qid": "Q6176589",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q1686616",
     "Q6176590",
@@ -20326,6 +20345,9 @@
     "Q140832882",
     "Q131820777",
     "Q130223874"
+   ],
+   "rejected": [
+    "Q6176589"
    ]
   },
   "bpers:iedaia.exsul-tempore-zachariae": {
@@ -20437,11 +20459,14 @@
    ]
   },
   "bpers:iediel": {
-   "qid": "Q25283775",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q25283775",
     "Q11345060"
+   ],
+   "rejected": [
+    "Q25283775"
    ]
   },
   "bpers:iedihel.beniamin-filius": {
@@ -30792,8 +30817,8 @@
    ]
   },
   "bpers:nebai": {
-   "qid": "Q3773487",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q3773487",
     "Q132796037",
@@ -30803,6 +30828,9 @@
     "Q130252965",
     "Q109890197",
     "Q109890803"
+   ],
+   "rejected": [
+    "Q3773487"
    ]
   },
   "bpers:nechao": {
@@ -32052,8 +32080,8 @@
    ]
   },
   "bpers:othni": {
-   "qid": "Q536485",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q653291",
     "Q536485",
@@ -32065,6 +32093,9 @@
     "Q111518978",
     "Q112512822",
     "Q123897209"
+   ],
+   "rejected": [
+    "Q536485"
    ]
   },
   "bpers:otholia": {
@@ -32780,14 +32811,17 @@
    ]
   },
   "bpers:phalaia": {
-   "qid": "Q115858883",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q100152103",
     "Q37129500",
     "Q138648424",
     "Q115858883",
     "Q105159118"
+   ],
+   "rejected": [
+    "Q115858883"
    ]
   },
   "bpers:phalea": {
@@ -39179,8 +39213,8 @@
    ]
   },
   "bpers:seor": {
-   "qid": "Q65124445",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q1622293",
     "Q107445772",
@@ -39191,7 +39225,9 @@
     "Q3487362",
     "Q6485027",
     "Q18583054",
-    "Q6485561",
+    "Q6485561"
+   ],
+   "rejected": [
     "Q65124445"
    ]
   },
@@ -40847,10 +40883,13 @@
    ]
   },
   "bpers:suthala.ephraim-filius": {
-   "qid": "Q139832399",
-   "status": "auto",
+   "qid": null,
+   "status": "unresolved",
    "candidates": [
     "Q85854722",
+    "Q139832399"
+   ],
+   "rejected": [
     "Q139832399"
    ]
   },

@@ -1,6 +1,5 @@
 import unittest
-
-from wikidata import match
+from wikidata import match, needs_match
 
 ENTITIES = {
     "Q1": {"id": "Q1", "descriptions": {"en": {"value": "son of Herod the Great and Mariamne II"}},
@@ -112,6 +111,19 @@ class StrictnessTest(unittest.TestCase):
         r = self.run_match("bpers:abdias", "person", ents)
         self.assertEqual(r[0], "Q99")
         self.assertIn("Q99", r[2])
+
+
+class NeedsMatchTest(unittest.TestCase):
+    def test_a_rejected_item_is_judged_again(self):
+        self.assertTrue(needs_match({"qid": "Q1", "status": "auto", "rejected": ["Q1"]}, rematch=False))
+
+    def test_a_kept_item_is_not(self):
+        self.assertFalse(needs_match({"qid": "Q1", "status": "auto", "rejected": ["Q2"]}, rematch=False))
+        self.assertFalse(needs_match({"qid": None, "status": "unresolved"}, rematch=False))
+
+    def test_errors_and_rematch_are(self):
+        self.assertTrue(needs_match({"qid": None, "error": True}, rematch=False))
+        self.assertTrue(needs_match({"qid": "Q1"}, rematch=True))
 
 
 class PlaceAndRejectTest(unittest.TestCase):

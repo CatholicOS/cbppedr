@@ -110,6 +110,11 @@ def match(eid: str, entry: dict, search: Search, get: Get) -> tuple[str | None, 
     return None, "unresolved", cands
 
 
+def needs_match(prev: dict, rematch: bool) -> bool:
+    """An entry judged in an earlier run is judged again on --rematch, after an error, or when its item was rejected."""
+    return rematch or bool(prev.get("error")) or (prev.get("qid") in prev.get("rejected", []))
+
+
 def dedupe(qids: dict[str, dict]) -> None:
     """An item auto-matched to two entries, or to an entry while another has it reviewed, fits neither for sure."""
     holders: dict[str, list[str]] = {}
@@ -187,7 +192,7 @@ def main() -> int:
         prev = curated["qids"].get(eid, {})
         e = dict(e, _rejected=prev.get("rejected", []), _rel_names=[(by_id.get(r["target"]) or {}).get("names", {}).get(n) or ""
                                 for r in e["relations"] for n in ("en", "it")])
-        if eid in curated["qids"] and not curated["qids"][eid].get("error") and not rematch:
+        if prev and not needs_match(prev, rematch):
             continue  # done in an earlier run
         try:
             qid, status, cands = match(eid, e, search, get)

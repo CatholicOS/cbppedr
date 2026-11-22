@@ -6040,8 +6040,8 @@
      ]
     }
    ],
-   "qid": "Q138656270",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.7.12"
    ]
@@ -15687,8 +15687,8 @@
     "btu:1par.7.17"
    ],
    "relations": [],
-   "qid": "Q4878985",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.7.17"
    ]
@@ -18001,8 +18001,8 @@
     "btu:ne.7.7"
    ],
    "relations": [],
-   "qid": "Q1136380",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:esd.2.2",
     "nv:btu:ne.7.7"
@@ -31511,8 +31511,8 @@
     "btu:1par.27.26"
    ],
    "relations": [],
-   "qid": "Q20501924",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.27.26"
    ]
@@ -38489,8 +38489,8 @@
     "btu:1par.8.17"
    ],
    "relations": [],
-   "qid": "Q244912",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.8.17",
     "nv:btu:1par.8.18"
@@ -40747,8 +40747,8 @@
      ]
     }
    ],
-   "qid": "Q117054231",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.23.10",
     "nv:btu:1par.23.11"
@@ -41852,8 +41852,8 @@
      ]
     }
    ],
-   "qid": "Q1687510",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:gn.10.26",
     "nv:btu:1par.1.20"
@@ -42993,8 +42993,8 @@
      ]
     }
    ],
-   "qid": "Q6176589",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.4.18a",
     "nv:btu:1par.4.18b"
@@ -43281,8 +43281,8 @@
     "btu:1par.5.24"
    ],
    "relations": [],
-   "qid": "Q25283775",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.5.24"
    ]
@@ -69694,8 +69694,8 @@
     "btu:ne.10.20"
    ],
    "relations": [],
-   "qid": "Q3773487",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.10.15",
     "nv:btu:ne.10.20"
@@ -72459,8 +72459,8 @@
      ]
     }
    ],
-   "qid": "Q536485",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.26.4",
     "nv:btu:1par.26.7"
@@ -74029,8 +74029,8 @@
     "btu:ne.10.11"
    ],
    "relations": [],
-   "qid": "Q115858883",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.8.7",
     "nv:btu:ne.10.11"
@@ -88416,8 +88416,8 @@
      ]
     }
    ],
-   "qid": "Q65124445",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:gn.23.8",
     "nv:btu:gn.25.9"
@@ -92002,8 +92002,8 @@
      ]
     }
    ],
-   "qid": "Q139832399",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "nv:btu:nm.26.35",
     "nv:btu:1par.7.20"
