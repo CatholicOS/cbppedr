@@ -144,9 +144,123 @@
      "descr_en": "Merarite Levite, overseer of Temple repairs under Josiah",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdia.filius-hananiae",
+     "latin": "Abdia",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "discendente postesilico di Davide, figlio di Anania",
+     "descr_en": "postexilic descendant of David, son of Hananiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Anania",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:obadia.issacharita",
+     "latin": "Obadia",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "capo di Issacar, figlio di Izrachia",
+     "descr_en": "Issacharite chief, son of Izrahiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:obdia.filius-asel",
+     "latin": "Obdia",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "beniaminita della discendenza di Saul, figlio di Asel",
+     "descr_en": "Benjaminite of Saul's line, son of Azel",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdia.levita-idithun",
+     "latin": "Abdia",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "levita di Gerusalemme, figlio di Semaia, della stirpe di Iedutun",
+     "descr_en": "Levite in Jerusalem, son of Shemaiah, of Jeduthun's line",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdias.gaddita",
+     "latin": "Abdias",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "gadita unitosi a Davide a Siklag",
+     "descr_en": "Gadite who joined David at Ziklag",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdias.princeps-iosaphat",
+     "latin": "Abdias",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "ufficiale inviato da Giosafat a insegnare la legge",
+     "descr_en": "official sent by Jehoshaphat to teach the Law",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdia.filius-iahiel",
+     "latin": "Abdia",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "figlio di Iechiel, del clan di Ioab, rimpatriato con Esdra",
+     "descr_en": "son of Jehiel, of Joab's clan, returned with Ezra",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdias.sacerdos-signator",
+     "latin": "Abdias",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "sacerdote firmatario dell'impegno sotto Neemia",
+     "descr_en": "priest who sealed the pledge under Nehemiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:abdias.propheta",
+     "latin": "Abdias",
+     "it": "Abdia",
+     "en": "Obadiah",
+     "descr_it": "profeta, autore dell'oracolo contro Edom",
+     "descr_en": "prophet, author of the oracle against Edom",
+     "relations": [],
+     "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "ABDIA, LIBRO DI A",
@@ -685,6 +799,18 @@
        "target_key": null
       }
      ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:achimelech.abiathar-filius",
+     "latin": "Achimelech",
+     "it": "Achimèlec",
+     "en": "Ahimelech",
+     "descr_it": "figlio di Ebiatar, sacerdote sotto Davide",
+     "descr_en": "son of Abiathar, priest under David",
+     "relations": [],
      "certain": true
     }
    ],
@@ -1243,15 +1369,141 @@
   {
    "key": "ACHIA#1",
    "type": "person",
-   "kind": "individual",
-   "id": "bpers:ahias.silonites",
-   "latin": "Ahias",
-   "it": "Achia",
-   "en": "Ahijah",
-   "descr_it": "profeta di Silo che annunciò a Geroboamo il regno",
-   "descr_en": "prophet of Shiloh who foretold Jeroboam's kingship",
    "relations": [],
-   "certain": true
+   "parts": [
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahias.silonites",
+     "latin": "Ahias",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "profeta di Silo che annunciò a Geroboamo il regno",
+     "descr_en": "prophet of Shiloh who foretold Jeroboam's kingship",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:achimelech.sacerdos-nob",
+     "latin": "Achimelech",
+     "it": "Achimèlec",
+     "en": "Ahimelech",
+     "descr_it": "sacerdote di Nob, ucciso per ordine di Saul",
+     "descr_en": "priest of Nob, killed on Saul's orders",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Achitub",
+       "target_key": "ACHITUB"
+      },
+      {
+       "rel": "parent_of",
+       "target": "Ebiatar",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.sisa-filius",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "figlio di Sisa, scriba alla corte di Salomone",
+     "descr_en": "son of Shisha, scribe at Solomon's court",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Sisa",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.pater-baasa",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "issacarita, padre del re Baasa",
+     "descr_en": "Issacharite, father of King Baasha",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Baasa",
+       "target_key": "BAASA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.ierameel-filius",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "figlio di Ieracmeel nella genealogia di Giuda",
+     "descr_en": "son of Jerahmeel in the genealogy of Judah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Ieracmeel",
+       "target_key": "IERACMEEL"
+      }
+     ],
+     "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.aod-filius",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "beniaminita, figlio di Ecud, deportato a Manacat",
+     "descr_en": "Benjaminite, son of Ehud, deported to Manahath",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Ecud",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.phelonites",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "il Pelonita, uno dei prodi di Davide",
+     "descr_en": "the Pelonite, one of David's mighty men",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ahia.signator",
+     "latin": "Ahia",
+     "it": "Achia",
+     "en": "Ahijah",
+     "descr_it": "firmatario del patto al tempo di Neemia",
+     "descr_en": "signatory of the covenant in Nehemiah's time",
+     "relations": [],
+     "certain": true
+    }
+   ],
+   "certain": false
   },
   {
    "key": "ACHIKAM",
@@ -2951,6 +3203,18 @@
      "descr_en": "priest who sealed the pledge in Nehemiah's time",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:amaria.uxorem-dimittens",
+     "latin": "Amaria",
+     "it": "Amarìa",
+     "en": "Amariah",
+     "descr_it": "israelita che congedò la moglie straniera al tempo di Esdra",
+     "descr_en": "Israelite who sent away his foreign wife in Ezra's time",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -3098,9 +3362,33 @@
      "descr_en": "priest of Bethel who opposed Amos",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:amasias.simeonita",
+     "latin": "Amasias",
+     "it": "Amasìa",
+     "en": "Amaziah",
+     "descr_it": "simeonita, padre di Iosa",
+     "descr_en": "Simeonite, father of Joshah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:amasias.merarita",
+     "latin": "Amasias",
+     "it": "Amasìa",
+     "en": "Amaziah",
+     "descr_it": "levita discendente di Merari, antenato di Etan",
+     "descr_en": "Levite descended from Merari, ancestor of Ethan",
+     "relations": [],
+     "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "AMEN",
@@ -3547,9 +3835,195 @@
      "descr_en": "grandfather of Irijah, who arrested Jeremiah",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ananias.danielis-socius",
+     "latin": "Ananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "giudeo deportato con Daniele, ribattezzato Sadrach",
+     "descr_en": "Judean exile with Daniel, renamed Shadrach",
+     "relations": [
+      {
+       "rel": "same_as",
+       "target": "Sadrach",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hananias.filius-zorobabel",
+     "latin": "Hananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "figlio di Zorobabele, della casa di Davide",
+     "descr_en": "son of Zerubbabel, of David's house",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Zorobabele",
+       "target_key": "ZOROBABELE"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hanania.beniaminita",
+     "latin": "Hanania",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "beniaminita, figlio di Sesac",
+     "descr_en": "Benjaminite, son of Shashak",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hananias.filius-heman",
+     "latin": "Hananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "levita cantore, figlio di Eman, capo di un turno",
+     "descr_en": "Levite singer, son of Heman, head of a course",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hananias.dux-oziae",
+     "latin": "Hananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "comandante dell'esercito del re Ozia",
+     "descr_en": "army commander of King Uzziah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hananias.princeps-arcis",
+     "latin": "Hananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "comandante della cittadella di Gerusalemme sotto Neemia",
+     "descr_en": "commander of Jerusalem's citadel under Nehemiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hanania.filius-bebai",
+     "latin": "Hanania",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "dei figli di Bebai, sposato con una straniera",
+     "descr_en": "of the sons of Bebai, married to a foreign wife",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hananias.unguentarius",
+     "latin": "Hananias",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "profumiere che restaurò le mura sotto Neemia",
+     "descr_en": "perfumer who repaired the wall under Nehemiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hanania.filius-selemiae",
+     "latin": "Hanania",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "figlio di Selemia, restauratore delle mura",
+     "descr_en": "son of Shelemiah, repairer of the wall",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hanania.sacerdos-ieremiae",
+     "latin": "Hanania",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "sacerdote, capo della casa di Geremia sotto Ioiakim",
+     "descr_en": "priest, head of Jeremiah's house under Joiakim",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:hanania.sacerdos-tubicen",
+     "latin": "Hanania",
+     "it": "Anania",
+     "en": "Hananiah",
+     "descr_it": "sacerdote trombettiere alla dedicazione delle mura",
+     "descr_en": "priest trumpeter at the dedication of the wall",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ananias.maritus-sapphirae",
+     "latin": "Ananias",
+     "it": "Anania",
+     "en": "Ananias",
+     "descr_it": "cristiano di Gerusalemme morto dopo aver mentito sul ricavato",
+     "descr_en": "Jerusalem Christian who died after lying about the proceeds",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ananias.damascenus",
+     "latin": "Ananias",
+     "it": "Anania",
+     "en": "Ananias",
+     "descr_it": "discepolo di Damasco che accolse Saulo convertito",
+     "descr_en": "disciple at Damascus who received the converted Saul",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ananias.princeps-sacerdotum",
+     "latin": "Ananias",
+     "it": "Anania",
+     "en": "Ananias",
+     "descr_it": "sommo sacerdote, figlio di Nedebeo, al processo di Paolo",
+     "descr_en": "high priest, son of Nedebaeus, at Paul's hearing",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Nedebeo",
+       "target_key": null
+      }
+     ],
+     "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "ANATEMA",
@@ -7891,7 +8365,6 @@
   {
    "key": "BENIAMINO",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -7951,6 +8424,72 @@
        "target_key": null
       }
      ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "building",
+     "id": "bplace:porta-beniamin.superior",
+     "latin": "porta Beniamin superior",
+     "it": "Porta superiore di Beniamino",
+     "en": "Upper Benjamin Gate",
+     "descr_it": "porta superiore nel recinto del Tempio, dove Geremia fu messo in ceppi",
+     "descr_en": "upper gate in the Temple precinct where Jeremiah was put in stocks",
+     "relations": [
+      {
+       "rel": "part_of",
+       "target": "Tempio",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "building",
+     "id": "bplace:porta-beniamin.urbis",
+     "latin": "porta Beniamin",
+     "it": "Porta di Beniamino",
+     "en": "Benjamin Gate",
+     "descr_it": "porta delle mura di Gerusalemme, dove Geremia fu arrestato",
+     "descr_en": "gate in the walls of Jerusalem where Jeremiah was arrested",
+     "relations": [
+      {
+       "rel": "part_of",
+       "target": "Gerusalemme",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:beniamin.bilhan-filius",
+     "latin": "Beniamin",
+     "it": "Beniamino",
+     "en": "Benjamin",
+     "descr_it": "beniaminita, figlio di Bilan, discendente di Iedaiel",
+     "descr_en": "Benjaminite, son of Bilhan, descendant of Jediael",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Bilan",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:beniamin.de-filiis-harim",
+     "latin": "Beniamin",
+     "it": "Beniamino",
+     "en": "Benjamin",
+     "descr_it": "dei figli di Carim, sposò una straniera al tempo di Esdra",
+     "descr_en": "of the sons of Harim, married a foreign wife under Ezra",
+     "relations": [],
      "certain": true
     }
    ],
@@ -8506,7 +9045,6 @@
   {
    "key": "BETLEMME",
    "type": "place",
-   "kind": "city",
    "relations": [],
    "parts": [
     {
@@ -9120,28 +9658,53 @@
   {
    "key": "CAINO#1",
    "type": "person",
-   "kind": "individual",
-   "id": "bpers:cain.adae-filius",
-   "latin": "Cain",
-   "it": "Caino",
-   "en": "Cain",
-   "descr_it": "primogenito di Adamo ed Eva, uccise Abele",
-   "descr_en": "firstborn of Adam and Eve, killer of Abel",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "child_of",
-     "target": "Adamo",
-     "target_key": null
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:cain.adae-filius",
+     "latin": "Cain",
+     "it": "Caino",
+     "en": "Cain",
+     "descr_it": "primogenito di Adamo ed Eva, uccise Abele",
+     "descr_en": "firstborn of Adam and Eve, killer of Abel",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Adamo",
+       "target_key": null
+      },
+      {
+       "rel": "child_of",
+       "target": "Eva",
+       "target_key": null
+      },
+      {
+       "rel": "sibling_of",
+       "target": "Abele",
+       "target_key": null
+      }
+     ],
+     "certain": true
     },
     {
-     "rel": "child_of",
-     "target": "Eva",
-     "target_key": null
-    },
-    {
-     "rel": "sibling_of",
-     "target": "Abele",
-     "target_key": null
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:accain",
+     "latin": "Accain",
+     "it": "Caino",
+     "en": "Kain",
+     "descr_it": "città nel Negheb di Giuda, forse a sud-est di Ebron",
+     "descr_en": "town in southern Judah, perhaps southeast of Hebron",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Giuda",
+       "target_key": "GIUDA (AT)"
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": true
@@ -10295,15 +10858,45 @@
   },
   {
    "key": "CARRAN",
-   "type": "place",
-   "kind": "city",
-   "id": "bplace:charran",
-   "latin": "Charran",
-   "it": "Carran",
-   "en": "Haran",
-   "descr_it": "città della Mesopotamia settentrionale dove visse Terach",
-   "descr_en": "north Mesopotamian city where Terah settled",
+   "type": "person",
    "relations": [],
+   "parts": [
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:charran",
+     "latin": "Charran",
+     "it": "Carran",
+     "en": "Haran",
+     "descr_it": "città della Mesopotamia settentrionale dove visse Terach",
+     "descr_en": "north Mesopotamian city where Terah settled",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:charran.chaleb-filius",
+     "latin": "Charran",
+     "it": "Carran",
+     "en": "Haran",
+     "descr_it": "giudaita, figlio di Caleb e della concubina Efa",
+     "descr_en": "Judahite, son of Caleb by his concubine Ephah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Caleb",
+       "target_key": null
+      },
+      {
+       "rel": "child_of",
+       "target": "Efa",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    }
+   ],
    "certain": true
   },
   {
@@ -10598,18 +11191,103 @@
   {
    "key": "CAZOR",
    "type": "place",
-   "kind": "city",
-   "id": "bplace:asor.nephthali",
-   "latin": "Asor",
-   "it": "Cazor",
-   "en": "Hazor",
-   "descr_it": "città fortificata di Neftali, sede del re Iabin",
-   "descr_en": "fortified city of Naphtali, seat of King Jabin",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "located_in",
-     "target": "Neftali",
-     "target_key": null
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:asor.nephthali",
+     "latin": "Asor",
+     "it": "Cazor",
+     "en": "Hazor",
+     "descr_it": "città fortificata di Neftali, sede del re Iabin",
+     "descr_en": "fortified city of Naphtali, seat of King Jabin",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Neftali",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:asor.iudae-austri",
+     "latin": "Asor",
+     "it": "Cazor",
+     "en": "Hazor",
+     "descr_it": "località nel sud di Giuda, posizione sconosciuta",
+     "descr_en": "town in the far south of Judah, site unknown",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Giuda",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:asorhadatta",
+     "latin": "Asorhadatta",
+     "it": "Cazor-Cadatta",
+     "en": "Hazor-hadattah",
+     "descr_it": "«Cazor nuova», nel sud di Giuda, non localizzata",
+     "descr_en": "'New Hazor' in southern Judah, unlocated",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Giuda",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:carioth-esron",
+     "latin": "Carioth Esron",
+     "it": "Keriot-Chezron",
+     "en": "Kerioth-hezron",
+     "descr_it": "località di Giuda nel Negheb, detta anche Cazor",
+     "descr_en": "town of Judah in the Negeb, also called Hazor",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:asor.beniamin",
+     "latin": "Asor",
+     "it": "Cazor",
+     "en": "Hazor",
+     "descr_it": "località beniaminita abitata dopo l'esilio",
+     "descr_en": "Benjaminite town settled after the exile",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Beniamino",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "region",
+     "id": "bplace:asor.arabiae",
+     "latin": "Asor",
+     "it": "Cazor",
+     "en": "Hazor",
+     "descr_it": "regni di Arabi seminomadi, colpiti da Nabucodonosor",
+     "descr_en": "realms of semi-nomadic Arabs struck by Nebuchadnezzar",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": true
@@ -16948,8 +17626,8 @@
      "latin": "Heman",
      "it": "Eman",
      "en": "Heman",
-     "descr_it": "sapiente superato da Salomone, nominato nel titolo del Salmo 88",
-     "descr_en": "sage surpassed by Solomon, named in the title of Psalm 88",
+     "descr_it": "sapiente, figlio di Macol, superato in sapienza da Salomone",
+     "descr_en": "sage, son of Mahol, surpassed in wisdom by Solomon",
      "relations": [],
      "certain": true
     },
@@ -16970,6 +17648,18 @@
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:heman.ezrahita",
+     "latin": "Heman",
+     "it": "Eman",
+     "en": "Heman",
+     "descr_it": "l'Ezraita, nominato nel titolo del Salmo 88",
+     "descr_en": "the Ezrahite, named in the title of Psalm 88",
+     "relations": [],
+     "certain": false
     }
    ],
    "certain": false
@@ -20463,7 +21153,6 @@
   {
    "key": "GEREMIA",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -20477,6 +21166,66 @@
      "descr_en": "prophet from Anathoth, active until Jerusalem's fall",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremias.gederothites",
+     "latin": "Ieremias",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "beniaminita di Ghedera, unitosi a Davide a Siklag",
+     "descr_en": "Benjaminite Gederathite who joined David at Ziklag",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremias.gaddita-quintus",
+     "latin": "Ieremias",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "gadita, quinto dei capi unitisi a Davide",
+     "descr_en": "Gadite, fifth of the chiefs who joined David",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremias.gaddita-decimus",
+     "latin": "Ieremias",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "gadita, decimo dei capi unitisi a Davide",
+     "descr_en": "Gadite, tenth of the chiefs who joined David",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremia.princeps-manasse",
+     "latin": "Ieremia",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "capo di un casato di Manasse orientale",
+     "descr_en": "head of a clan of eastern Manasseh",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremias.libnensis",
+     "latin": "Ieremias",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "di Libna, nonno materno del re Ioacaz",
+     "descr_en": "of Libnah, maternal grandfather of King Jehoahaz",
+     "relations": [],
+     "certain": false
     },
     {
      "type": "person",
@@ -20499,14 +21248,26 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:ieremias.libnensis",
+     "id": "bpers:ieremias.sacerdos-reditus",
      "latin": "Ieremias",
      "it": "Geremìa",
      "en": "Jeremiah",
-     "descr_it": "di Libna, nonno materno del re Ioacaz",
-     "descr_en": "of Libnah, maternal grandfather of King Jehoahaz",
+     "descr_it": "sacerdote rimpatriato con Zorobabele, capo di una famiglia sacerdotale",
+     "descr_en": "priest who returned with Zerubbabel, head of a priestly house",
      "relations": [],
-     "certain": false
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ieremias.signator",
+     "latin": "Ieremias",
+     "it": "Geremìa",
+     "en": "Jeremiah",
+     "descr_it": "sacerdote firmatario del patto al tempo di Neemia",
+     "descr_en": "priest who sealed the covenant under Nehemiah",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -20640,26 +21401,45 @@
   {
    "key": "GEZABELE",
    "type": "person",
-   "kind": "individual",
-   "id": "bpers:iezabel.uxor-achab",
-   "latin": "Iezabel",
-   "it": "Gezabèle",
-   "en": "Jezebel",
-   "descr_it": "figlia di Et-Baal di Tiro, moglie del re Acab",
-   "descr_en": "daughter of Ethbaal of Tyre, wife of King Ahab",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "child_of",
-     "target": "Et-Baal",
-     "target_key": null
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iezabel.uxor-achab",
+     "latin": "Iezabel",
+     "it": "Gezabèle",
+     "en": "Jezebel",
+     "descr_it": "figlia di Et-Baal di Tiro, moglie del re Acab",
+     "descr_en": "daughter of Ethbaal of Tyre, wife of King Ahab",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Et-Baal",
+       "target_key": null
+      },
+      {
+       "rel": "spouse_of",
+       "target": "Acab",
+       "target_key": null
+      }
+     ],
+     "certain": true
     },
     {
-     "rel": "spouse_of",
-     "target": "Acab",
-     "target_key": null
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iezabel.thyatirensis",
+     "latin": "Iezabel",
+     "it": "Gezabele",
+     "en": "Jezebel",
+     "descr_it": "sedicente profetessa di Tiatira nell'Apocalisse",
+     "descr_en": "self-styled prophetess at Thyatira in Revelation",
+     "relations": [],
+     "certain": false
     }
    ],
-   "certain": true
+   "certain": false
   },
   {
    "key": "GHEBA",
@@ -20683,7 +21463,6 @@
   {
    "key": "GHEDERA",
    "type": "place",
-   "kind": "city",
    "relations": [],
    "parts": [
     {
@@ -20723,7 +21502,7 @@
      "certain": false
     }
    ],
-   "certain": true
+   "certain": false
   },
   {
    "key": "GHEDOR",
@@ -20816,7 +21595,6 @@
   {
    "key": "GHERA",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -20880,7 +21658,7 @@
      "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "GHERSOM, GHERS ON",
@@ -21273,7 +22051,6 @@
   {
    "key": "GIASONE",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -21305,9 +22082,39 @@
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iason.eleazari-filius",
+     "latin": "Iason",
+     "it": "Giàsone",
+     "en": "Jason",
+     "descr_it": "figlio di Eleazaro, inviato a Roma da Giuda Maccabeo",
+     "descr_en": "son of Eleazar, envoy of Judas Maccabeus to Rome",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Eleazaro",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iason.cyrenaeus",
+     "latin": "Iason",
+     "it": "Giàsone di Cirene",
+     "en": "Jason of Cyrene",
+     "descr_it": "storico cireneo delle guerre maccabaiche, in cinque libri",
+     "descr_en": "Cyrenian historian of the Maccabean wars, in five books",
+     "relations": [],
+     "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "GIEZI",
@@ -21354,7 +22161,6 @@
   {
    "key": "GIOELE",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -21500,6 +22306,36 @@
      "descr_en": "Levite son of Azariah in Hezekiah's time",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioel.de-filiis-nabo",
+     "latin": "Ioel",
+     "it": "Gioèle",
+     "en": "Joel",
+     "descr_it": "dei figli di Nebo, congedò la moglie straniera",
+     "descr_en": "of the sons of Nebo, dismissed his foreign wife",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioel.zechri-filius",
+     "latin": "Ioel",
+     "it": "Gioèle",
+     "en": "Joel",
+     "descr_it": "figlio di Zicri, capo dei Beniaminiti a Gerusalemme",
+     "descr_en": "son of Zichri, overseer of Benjaminites in Jerusalem",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Zicrì",
+       "target_key": "ZICRI"
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": false
@@ -21582,7 +22418,6 @@
   {
    "key": "GIONATA",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -21629,6 +22464,36 @@
     {
      "type": "person",
      "kind": "individual",
+     "id": "bpers:ionathan.patruus-david",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "zio e consigliere di Davide, uomo istruito",
+     "descr_en": "David's uncle and counsellor, a learned man",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.filius-samma",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "figlio di Simea fratello di Davide, uccise un gigante di Gat",
+     "descr_en": "son of David's brother Shimea, killed a giant of Gath",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Simea",
+       "target_key": null
+      }
+     ],
+     "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
      "id": "bpers:ionathan.abiathar-filius",
      "latin": "Ionathan",
      "it": "Giònata",
@@ -21647,6 +22512,66 @@
     {
      "type": "person",
      "kind": "individual",
+     "id": "bpers:ionathan.filius-sage",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "uno dei prodi di Davide, di Arar",
+     "descr_en": "one of David's mighty men, from Harar",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.filius-iada",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "giudaita della linea di Ieracmeel, figlio di Iada",
+     "descr_en": "Judahite of Jerahmeel's line, son of Jada",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Iada",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.filius-oziae",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "figlio di Ozia, amministratore dei depositi reali di Davide",
+     "descr_en": "son of Uzziah, overseer of David's royal stores",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Ozia",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.levita-iosaphat",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "levita inviato da Giosafat a insegnare la legge",
+     "descr_en": "Levite sent by Jehoshaphat to teach the Law",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
      "id": "bpers:ionathan.scriba-sedeciae",
      "latin": "Ionathan",
      "it": "Giònata",
@@ -21655,6 +22580,89 @@
      "descr_en": "scribe in whose house Jeremiah was imprisoned",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.filius-caree",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "figlio di Karea, ufficiale venuto da Godolia a Mizpa",
+     "descr_en": "son of Kareah, officer who came to Gedaliah at Mizpah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Karea",
+       "target_key": null
+      },
+      {
+       "rel": "sibling_of",
+       "target": "Giovanni",
+       "target_key": "GIOVANNI#1"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.sacerdos-milicho",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "sacerdote, capo della casa di Malluc sotto Ioiakim",
+     "descr_en": "priest, head of Malluch's house under Joiakim",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.sacerdos-semeiae",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "sacerdote, capo della casa di Semaia sotto Ioiakim",
+     "descr_en": "priest, head of Shemaiah's house under Joiakim",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.pater-zachariae",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "padre del sacerdote trombettiere Zaccaria",
+     "descr_en": "father of Zechariah, a priestly trumpeter",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Zaccaria",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ionathan.pater-ebed",
+     "latin": "Ionathan",
+     "it": "Giònata",
+     "en": "Jonathan",
+     "descr_it": "padre di Ebed, del clan di Adin",
+     "descr_en": "father of Ebed, of the clan of Adin",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Ebed",
+       "target_key": null
+      }
+     ],
+     "certain": true
     },
     {
      "type": "person",
@@ -23232,18 +24240,91 @@
   {
    "key": "GODOLIA, GHEDALIA#1",
    "type": "person",
-   "kind": "individual",
-   "id": "bpers:godolias.ahicam-filius",
-   "latin": "Godolias",
-   "it": "Godolìa",
-   "en": "Gedaliah",
-   "descr_it": "figlio di Achikam, governatore di Giuda dopo il 587 a.C.",
-   "descr_en": "son of Ahikam, governor of Judah after 587 BC",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "child_of",
-     "target": "Achikam",
-     "target_key": null
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:godolias.ahicam-filius",
+     "latin": "Godolias",
+     "it": "Godolìa",
+     "en": "Gedaliah",
+     "descr_it": "figlio di Achikam, governatore di Giuda dopo il 587 a.C.",
+     "descr_en": "son of Ahikam, governor of Judah after 587 BC",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Achikam",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:godolias.filius-idithun",
+     "latin": "Godolias",
+     "it": "Godolìa",
+     "en": "Gedaliah",
+     "descr_it": "figlio di Iedutun, levita, musico del Tempio",
+     "descr_en": "son of Jeduthun, Levite musician of the Temple",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Iedutun",
+       "target_key": "IEDUTUN, IEDITUN"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:godolias.sacerdos-esdrae",
+     "latin": "Godolias",
+     "it": "Godolìa",
+     "en": "Gedaliah",
+     "descr_it": "sacerdote che aveva sposato una straniera, sotto Esdra",
+     "descr_en": "priest married to a foreign wife in Ezra's time",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:godolias.filius-phassur",
+     "latin": "Godolias",
+     "it": "Godolìa",
+     "en": "Gedaliah",
+     "descr_it": "figlio di Pascur, dignitario avverso a Geremia",
+     "descr_en": "son of Pashhur, official hostile to Jeremiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Pascur",
+       "target_key": "PASCUR"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:godolias.avus-sophoniae",
+     "latin": "Godolias",
+     "it": "Godolìa",
+     "en": "Gedaliah",
+     "descr_it": "nonno del profeta Sofonia, figlio di Amaria",
+     "descr_en": "grandfather of the prophet Zephaniah, son of Amariah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Amaria",
+       "target_key": "AMARIA"
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": true
@@ -23391,18 +24472,55 @@
   {
    "key": "GOSEN",
    "type": "place",
-   "kind": "region",
-   "id": "bplace:gessen.aegypti",
-   "latin": "Gessen",
-   "it": "Gosen",
-   "en": "Goshen",
-   "descr_it": "regione del delta orientale del Nilo abitata da Israele",
-   "descr_en": "eastern Nile delta region where Israel lived",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "located_in",
-     "target": "Egitto",
-     "target_key": null
+     "type": "place",
+     "kind": "region",
+     "id": "bplace:gessen.aegypti",
+     "latin": "Gessen",
+     "it": "Gosen",
+     "en": "Goshen",
+     "descr_it": "regione del delta orientale del Nilo abitata da Israele",
+     "descr_en": "eastern Nile delta region where Israel lived",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Egitto",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "region",
+     "id": "bplace:gosen.regio",
+     "latin": "Gosen",
+     "it": "Gosen",
+     "en": "Goshen",
+     "descr_it": "distretto della Palestina meridionale conquistato da Giosuè",
+     "descr_en": "district of southern Palestine conquered by Joshua",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:gosen.oppidum",
+     "latin": "Gosen",
+     "it": "Gosen",
+     "en": "Goshen",
+     "descr_it": "città della montagna di Giuda, a sud-ovest di Ebron",
+     "descr_en": "town in the hill country of Judah, southwest of Hebron",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Giuda",
+       "target_key": null
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": true
@@ -23728,7 +24846,6 @@
   {
    "key": "IABNEEL, IABNE",
    "type": "place",
-   "kind": "city",
    "relations": [],
    "parts": [
     {
@@ -26193,7 +27310,6 @@
   {
    "key": "IOIADA",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -26261,9 +27377,39 @@
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioiada.sacerdos-ieremiae",
+     "latin": "Ioiada",
+     "it": "Ioiada",
+     "en": "Jehoiada",
+     "descr_it": "sacerdote a Gerusalemme prima dell'esilio, sostituito da Semaia",
+     "descr_en": "priest in Jerusalem before the exile, replaced by Shemaiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioiada.phasea-filius",
+     "latin": "Ioiada",
+     "it": "Ioiada",
+     "en": "Joiada",
+     "descr_it": "figlio di Paseach, restaurò la Porta Vecchia",
+     "descr_en": "son of Paseah, repaired the Old Gate",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Paseach",
+       "target_key": null
+      }
+     ],
+     "certain": true
     }
    ],
-   "certain": true
+   "certain": false
   },
   {
    "key": "IOIAKIM",
@@ -26416,7 +27562,6 @@
   {
    "key": "IORAM",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -26459,6 +27604,54 @@
       }
      ],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:adoram.filius-thou",
+     "latin": "Adoram",
+     "it": "Ioram",
+     "en": "Hadoram",
+     "descr_it": "figlio di Tou re di Camat, inviato a Davide",
+     "descr_en": "son of Toi king of Hamath, sent to David",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Tou",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioram.sacerdos",
+     "latin": "Ioram",
+     "it": "Ioram",
+     "en": "Jehoram",
+     "descr_it": "sacerdote inviato da Giosafat a insegnare la legge",
+     "descr_en": "priest sent by Jehoshaphat to teach the Law",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ioram.filius-iesaiae",
+     "latin": "Ioram",
+     "it": "Ioram",
+     "en": "Joram",
+     "descr_it": "levita, figlio di Isaia, della discendenza di Eliezer",
+     "descr_en": "Levite, son of Jeshaiah, of Eliezer's line",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Isaia",
+       "target_key": null
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": false
@@ -26532,7 +27725,6 @@
   {
    "key": "IOTAM",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -26571,6 +27763,24 @@
       {
        "rel": "parent_of",
        "target": "Acaz",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iotham.filius-iahaddai",
+     "latin": "Iotham",
+     "it": "Iotam",
+     "en": "Jotham",
+     "descr_it": "figlio di Iadai, della discendenza di Caleb",
+     "descr_en": "son of Jahdai, of Caleb's line",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Iadai",
        "target_key": null
       }
      ],
@@ -26873,7 +28083,6 @@
   {
    "key": "ISMAELE",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -26907,6 +28116,60 @@
     {
      "type": "person",
      "kind": "individual",
+     "id": "bpers:ismael.asel-filius",
+     "latin": "Ismael",
+     "it": "Ismaele",
+     "en": "Ishmael",
+     "descr_it": "beniaminita, figlio di Azel, discendente di Gionata",
+     "descr_en": "Benjaminite, son of Azel, descendant of Jonathan",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Azel",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ismael.pater-zabadiae",
+     "latin": "Ismael",
+     "it": "Ismaele",
+     "en": "Ishmael",
+     "descr_it": "giudeo, padre di Zebadia sotto Giosafat",
+     "descr_en": "Judahite, father of Zebadiah under Jehoshaphat",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Zebadia",
+       "target_key": "ZEBADIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ismael.iohanan-filius",
+     "latin": "Ismael",
+     "it": "Ismaele",
+     "en": "Ishmael",
+     "descr_it": "figlio di Giovanni, centurione nella congiura contro Atalia",
+     "descr_en": "son of Jehohanan, officer in the plot against Athaliah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Giovanni",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
      "id": "bpers:ismael.filius-nathaniae",
      "latin": "Ismael",
      "it": "Ismaele",
@@ -26915,6 +28178,18 @@
      "descr_en": "son of Nethaniah, murderer of governor Gedaliah",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ismael.de-filiis-phassur",
+     "latin": "Ismael",
+     "it": "Ismaele",
+     "en": "Ishmael",
+     "descr_it": "sacerdote della casa di Pascur, sposò una straniera",
+     "descr_en": "priest of the house of Pashhur, married a foreign wife",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -27289,8 +28564,7 @@
   },
   {
    "key": "IZREEL",
-   "type": "place",
-   "kind": "city",
+   "type": "person",
    "relations": [],
    "parts": [
     {
@@ -27325,6 +28599,42 @@
        "rel": "located_in",
        "target": "Issacar",
        "target_key": "ISSACAR"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iezrahel.osee-filius",
+     "latin": "Iezrahel",
+     "it": "Izreel",
+     "en": "Jezreel",
+     "descr_it": "primogenito del profeta Osea, dal nome simbolico",
+     "descr_en": "firstborn of the prophet Hosea, given a symbolic name",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Osea",
+       "target_key": "OSEA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:iezrahel.iudaeus",
+     "latin": "Iezrahel",
+     "it": "Izreel",
+     "en": "Jezreel",
+     "descr_it": "giudeo della discendenza di Cur, della stirpe di Etam",
+     "descr_en": "Judahite of Hur's line, of the clan of Etam",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Cur",
+       "target_key": "CUR"
       }
      ],
      "certain": true
@@ -27661,7 +28971,6 @@
   {
    "key": "KEDES",
    "type": "place",
-   "kind": "city",
    "relations": [],
    "parts": [
     {
@@ -27701,6 +29010,24 @@
        "rel": "same_as",
        "target": "Kision",
        "target_key": "KISION"
+      }
+     ],
+     "certain": false
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:cedes.saananim",
+     "latin": "Cedes",
+     "it": "Kedes",
+     "en": "Kedesh",
+     "descr_it": "presso la quercia di Zaanannim, raduno di Barak in Neftali",
+     "descr_en": "near the oak of Zaanannim, Barak's muster point in Naphtali",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Neftali",
+       "target_key": "NEFTALI"
       }
      ],
      "certain": false
@@ -28236,33 +29563,52 @@
   {
    "key": "LABANO",
    "type": "person",
-   "kind": "individual",
-   "id": "bpers:laban",
-   "latin": "Laban",
-   "it": "Labano",
-   "en": "Laban",
-   "descr_it": "arameo di Carran, fratello di Rebecca, suocero di Giacobbe",
-   "descr_en": "Aramean of Haran, brother of Rebekah, father-in-law of Jacob",
-   "relations": [
+   "relations": [],
+   "parts": [
     {
-     "rel": "child_of",
-     "target": "Betuel",
-     "target_key": null
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:laban",
+     "latin": "Laban",
+     "it": "Labano",
+     "en": "Laban",
+     "descr_it": "arameo di Carran, fratello di Rebecca, suocero di Giacobbe",
+     "descr_en": "Aramean of Haran, brother of Rebekah, father-in-law of Jacob",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Betuel",
+       "target_key": null
+      },
+      {
+       "rel": "sibling_of",
+       "target": "Rebecca",
+       "target_key": null
+      },
+      {
+       "rel": "parent_of",
+       "target": "Lia",
+       "target_key": "LIA"
+      },
+      {
+       "rel": "parent_of",
+       "target": "Rachele",
+       "target_key": null
+      }
+     ],
+     "certain": true
     },
     {
-     "rel": "sibling_of",
-     "target": "Rebecca",
-     "target_key": null
-    },
-    {
-     "rel": "parent_of",
-     "target": "Lia",
-     "target_key": "LIA"
-    },
-    {
-     "rel": "parent_of",
-     "target": "Rachele",
-     "target_key": null
+     "type": "place",
+     "kind": "site",
+     "id": "bplace:laban.deserti",
+     "latin": "Laban",
+     "it": "Labano",
+     "en": "Laban",
+     "descr_it": "località non identificata nel deserto oltre il Giordano",
+     "descr_en": "unidentified place in the wilderness beyond the Jordan",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": true
@@ -31815,7 +33161,6 @@
   {
    "key": "MICA",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -31827,6 +33172,18 @@
      "en": "Micah",
      "descr_it": "efraimita del santuario privato preso dai Daniti",
      "descr_en": "Ephraimite whose private shrine the Danites took",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michaeas.morasthites",
+     "latin": "Michaeas",
+     "it": "Michea",
+     "en": "Micah",
+     "descr_it": "profeta di Moreset, attivo sotto Iotam, Acaz ed Ezechia",
+     "descr_en": "prophet from Moresheth, active under Jotham, Ahaz and Hezekiah",
      "relations": [],
      "certain": true
     },
@@ -31847,6 +33204,113 @@
       }
      ],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:micha.filius-oziel",
+     "latin": "Micha",
+     "it": "Mica",
+     "en": "Micah",
+     "descr_it": "levita, primogenito di Uzziel",
+     "descr_en": "Levite, eldest son of Uzziel",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Uzziel",
+       "target_key": "UZIEL"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michaeas.filius-iemla",
+     "latin": "Michaeas",
+     "it": "Mica",
+     "en": "Micaiah",
+     "descr_it": "profeta figlio di Imla, predisse la morte di Acab",
+     "descr_en": "prophet, son of Imlah, foretold Ahab's death",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Imla",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:micha.rubenita",
+     "latin": "Micha",
+     "it": "Mica",
+     "en": "Micah",
+     "descr_it": "rubenita, figlio di Simei e padre di Reaia",
+     "descr_en": "Reubenite, son of Shimei and father of Reaiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Simei",
+       "target_key": "SIMEI, SIMEITI"
+      },
+      {
+       "rel": "parent_of",
+       "target": "Reaia",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:micha.levita-foederis",
+     "latin": "Micha",
+     "it": "Mica",
+     "en": "Mica",
+     "descr_it": "levita firmatario dell'impegno sotto Neemia",
+     "descr_en": "Levite who signed the covenant under Nehemiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:micha.filius-zechri",
+     "latin": "Micha",
+     "it": "Mica",
+     "en": "Mica",
+     "descr_it": "levita asafita, padre del cantore Mattania",
+     "descr_en": "Asaphite Levite, father of the singer Mattaniah",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Mattania",
+       "target_key": "MATTANIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:micha.atavus-ozi",
+     "latin": "Micha",
+     "it": "Mica",
+     "en": "Mica",
+     "descr_it": "levita asafita, avo di Uzzi sotto Neemia",
+     "descr_en": "Asaphite Levite, forebear of Uzzi in Nehemiah's time",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Mattania",
+       "target_key": "MATTANIA"
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": false
@@ -31968,7 +33432,6 @@
   {
    "key": "MICHELE",
    "type": "person",
-   "kind": "individual",
    "relations": [],
    "parts": [
     {
@@ -32011,6 +33474,125 @@
      "descr_it": "gadita abitante in Basan",
      "descr_en": "Gadite living in Bashan",
      "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.basaiae-filius",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "levita della famiglia dei cantori, figlio di Baaseia",
+     "descr_en": "Levite of the singers' family, son of Baaseiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.izrahiae-filius",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "issacarita, figlio di Izrachia",
+     "descr_en": "Issacharite, son of Izrahiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Izrachia",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.beriae-filius",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "beniaminita, figlio di Beria",
+     "descr_en": "Benjaminite, son of Beriah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Beria",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.manassites",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "manassita passato con Davide contro Saul",
+     "descr_en": "Manassite who joined David against Saul",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.pater-amri",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "padre di Omri, capo di Issacar sotto Davide",
+     "descr_en": "father of Omri, chief of Issachar under David",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Omri",
+       "target_key": "OMRI#4"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.iosaphat-filius",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "figlio del re Giosafat, ucciso dal fratello Ioram",
+     "descr_en": "son of King Jehoshaphat, killed by his brother Jehoram",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Giosafat",
+       "target_key": "GIOSAFAT#3"
+      },
+      {
+       "rel": "sibling_of",
+       "target": "Ioram",
+       "target_key": "IORAM"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:michael.pater-zabadiae",
+     "latin": "Michael",
+     "it": "Michele",
+     "en": "Michael",
+     "descr_it": "dei figli di Sefatia, padre di Zebadia rimpatriato con Esdra",
+     "descr_en": "of the sons of Shephatiah, father of Zebadiah who returned with Ezra",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Zebadia",
+       "target_key": "ZEBADIA"
+      }
+     ],
      "certain": true
     }
    ],
@@ -32594,6 +34176,24 @@
     },
     {
      "type": "place",
+     "kind": "site",
+     "id": "bplace:maspha.moab",
+     "latin": "Maspha",
+     "it": "Mizpa",
+     "en": "Mizpah",
+     "descr_it": "luogo di Moab dove Davide lasciò i genitori",
+     "descr_en": "place in Moab where David left his parents",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Moab",
+       "target_key": null
+      }
+     ],
+     "certain": false
+    },
+    {
+     "type": "place",
      "kind": "region",
      "id": "bplace:maspha.hermon",
      "latin": "Maspha",
@@ -32641,24 +34241,6 @@
       {
        "rel": "located_in",
        "target": "Beniamino",
-       "target_key": null
-      }
-     ],
-     "certain": false
-    },
-    {
-     "type": "place",
-     "kind": "site",
-     "id": "bplace:maspha.moab",
-     "latin": "Maspha",
-     "it": "Mizpa",
-     "en": "Mizpah",
-     "descr_it": "luogo di Moab dove Davide lasciò i genitori",
-     "descr_en": "place in Moab where David left his parents",
-     "relations": [
-      {
-       "rel": "located_in",
-       "target": "Moab",
        "target_key": null
       }
      ],
@@ -33569,16 +35151,16 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:nathan.david-filius",
+     "id": "bpers:nathan.etthei-filius",
      "latin": "Nathan",
      "it": "Natan",
      "en": "Nathan",
-     "descr_it": "figlio di Davide nato a Gerusalemme",
-     "descr_en": "son of David born in Jerusalem",
+     "descr_it": "giudeo, figlio di Attai e padre di Zabad",
+     "descr_en": "Judahite, son of Attai, father of Zabad",
      "relations": [
       {
        "rel": "child_of",
-       "target": "Davide",
+       "target": "Attai",
        "target_key": null
       }
      ],
@@ -33605,23 +35187,65 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:nathan.etthei-filius",
+     "id": "bpers:nathan.frater-ioel",
      "latin": "Nathan",
      "it": "Natan",
      "en": "Nathan",
-     "descr_it": "giudeo, figlio di Attai e padre di Zabad",
-     "descr_en": "Judahite, son of Attai, father of Zabad",
+     "descr_it": "fratello di Gioele, prode di Davide",
+     "descr_en": "brother of Joel, one of David's warriors",
+     "relations": [
+      {
+       "rel": "sibling_of",
+       "target": "Gioele",
+       "target_key": "GIOELE"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:nathan.david-filius",
+     "latin": "Nathan",
+     "it": "Natan",
+     "en": "Nathan",
+     "descr_it": "figlio di Davide nato a Gerusalemme",
+     "descr_en": "son of David born in Jerusalem",
      "relations": [
       {
        "rel": "child_of",
-       "target": "Attai",
+       "target": "Davide",
        "target_key": null
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:nathan.nuntius-esdrae",
+     "latin": "Nathan",
+     "it": "Natan",
+     "en": "Nathan",
+     "descr_it": "capo mandato da Esdra a Casifia per cercare leviti",
+     "descr_en": "leader Ezra sent to Casiphia to find Levites",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:nathan.uxorem-dimittens",
+     "latin": "Nathan",
+     "it": "Natan",
+     "en": "Nathan",
+     "descr_it": "dei figli di Binnui, congedò la moglie straniera",
+     "descr_en": "of the sons of Binnui, dismissed his foreign wife",
+     "relations": [],
+     "certain": true
     }
    ],
-   "certain": false
+   "certain": true
   },
   {
    "key": "NATANAELE",
@@ -35284,9 +36908,21 @@
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:osee.signator",
+     "latin": "Osee",
+     "it": "Osea",
+     "en": "Hoshea",
+     "descr_it": "capo del popolo firmatario dell'impegno sotto Neemia",
+     "descr_en": "lay leader who sealed the pledge under Nehemiah",
+     "relations": [],
+     "certain": true
     }
    ],
-   "certain": true
+   "certain": false
   },
   {
    "key": "OSEA, LIBRO DI O#0",
@@ -35405,6 +37041,18 @@
     {
      "type": "person",
      "kind": "individual",
+     "id": "bpers:ozia.astharothites",
+     "latin": "Ozia",
+     "it": "Uzzia",
+     "en": "Uzzia",
+     "descr_it": "di Astarot, uno dei prodi di Davide",
+     "descr_en": "the Ashterathite, one of David's mighty men",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
      "id": "bpers:ozias.pater-ionathan",
      "latin": "Ozias",
      "it": "Ozia",
@@ -35419,6 +37067,24 @@
       }
      ],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:ozias.pater-athaiae",
+     "latin": "Ozias",
+     "it": "Ozia",
+     "en": "Uzziah",
+     "descr_it": "giudeo, padre di Ataia, rimpatriato a Gerusalemme",
+     "descr_en": "Judahite, father of Athaiah who settled in Jerusalem",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Ataia",
+       "target_key": null
+      }
+     ],
+     "certain": true
     }
    ],
    "certain": false
@@ -35794,6 +37460,18 @@
     {
      "type": "person",
      "kind": "individual",
+     "id": "bpers:phassur.familia-sacerdotum",
+     "latin": "Phassur",
+     "it": "Pascur",
+     "en": "Pashhur",
+     "descr_it": "capostipite di una famiglia sacerdotale tornata dall'esilio",
+     "descr_en": "ancestor of a priestly family that returned from exile",
+     "relations": [],
+     "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
      "id": "bpers:phassur.pater-godoliae",
      "latin": "Phassur",
      "it": "Pascur",
@@ -35808,6 +37486,18 @@
       }
      ],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:phassur.signator",
+     "latin": "Phassur",
+     "it": "Pascur",
+     "en": "Pashhur",
+     "descr_it": "sacerdote che sigillò l'impegno al tempo di Neemia",
+     "descr_en": "priest who sealed the pledge in Nehemiah's time",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -37425,6 +39115,72 @@
      "descr_en": "home town of Samuel (Ramathaim)",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:rama.aser",
+     "latin": "Rama",
+     "it": "Rama",
+     "en": "Ramah",
+     "descr_it": "località sul confine della tribù di Aser",
+     "descr_en": "place on the boundary of the tribe of Asher",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Aser",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:rama.nephthali",
+     "latin": "Rama",
+     "it": "Rama",
+     "en": "Ramah",
+     "descr_it": "città fortificata della tribù di Neftali",
+     "descr_en": "fortified town of the tribe of Naphtali",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Neftali",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:ramathnageb",
+     "latin": "Ramathnageb",
+     "it": "Ramat-Negheb",
+     "en": "Ramath-negeb",
+     "descr_it": "località meridionale nel territorio di Simeone",
+     "descr_en": "southern town in the territory of Simeon",
+     "relations": [
+      {
+       "rel": "located_in",
+       "target": "Simeone",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:ramoth-galaad",
+     "latin": "Ramoth in Galaad",
+     "it": "Ramot di Gàlaad",
+     "en": "Ramoth-gilead",
+     "descr_it": "città di rifugio di Gad, oltre il Giordano",
+     "descr_en": "city of refuge of Gad east of the Jordan",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -37565,7 +39321,7 @@
   },
   {
    "key": "RECOB",
-   "type": "place",
+   "type": "person",
    "relations": [],
    "parts": [
     {
@@ -37614,6 +39370,18 @@
        "target_key": null
       }
      ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:rohob.levita",
+     "latin": "Rohob",
+     "it": "Recob",
+     "en": "Rehob",
+     "descr_it": "levita firmatario del patto al tempo di Neemia",
+     "descr_en": "Levite who sealed the covenant under Nehemiah",
+     "relations": [],
      "certain": true
     }
    ],
@@ -40232,6 +42000,18 @@
       }
      ],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:sedecias.signator-foederis",
+     "latin": "Sedecias",
+     "it": "Sedecìa",
+     "en": "Zedekiah",
+     "descr_it": "sacerdote firmatario dell'impegno sotto Neemia",
+     "descr_en": "priest who signed the covenant under Nehemiah",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": true
@@ -40604,15 +42384,46 @@
   {
    "key": "SELA",
    "type": "place",
-   "kind": "city",
-   "id": "bplace:petra",
-   "latin": "Petra",
-   "it": "Sela",
-   "en": "Sela",
-   "descr_it": "rocca edomita conquistata da Amazia",
-   "descr_en": "Edomite stronghold taken by Amaziah",
    "relations": [],
-   "certain": true
+   "parts": [
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:petra",
+     "latin": "Petra",
+     "it": "Sela",
+     "en": "Sela",
+     "descr_it": "rocca edomita conquistata da Amazia",
+     "descr_en": "Edomite stronghold taken by Amaziah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "place",
+     "kind": "site",
+     "id": "bplace:petra.deserti",
+     "latin": "Petra",
+     "it": "Sela",
+     "en": "Sela",
+     "descr_it": "luogo verso il deserto, da cui Moab manda tributo a Sion",
+     "descr_en": "place toward the desert from which Moab sends tribute to Zion",
+     "relations": [],
+     "certain": false
+    },
+    {
+     "type": "place",
+     "kind": "site",
+     "id": "bplace:petra.terminus",
+     "latin": "Petra",
+     "it": "Sela",
+     "en": "Sela",
+     "descr_it": "località non identificata sul confine di Edom (Gdc 1)",
+     "descr_en": "unidentified place on the border of Edom (Judg 1)",
+     "relations": [],
+     "certain": true
+    }
+   ],
+   "certain": false
   },
   {
    "key": "SELAH",
@@ -40713,14 +42524,21 @@
   {
    "key": "SELEUCIA",
    "type": "place",
-   "kind": "city",
-   "id": "bplace:seleucia",
-   "latin": "Seleucia",
-   "it": "Selèucia",
-   "en": "Seleucia",
-   "descr_it": "porto di Antiochia di Siria",
-   "descr_en": "port of Antioch in Syria",
    "relations": [],
+   "parts": [
+    {
+     "type": "place",
+     "kind": "city",
+     "id": "bplace:seleucia",
+     "latin": "Seleucia",
+     "it": "Selèucia",
+     "en": "Seleucia",
+     "descr_it": "porto di Antiochia di Siria",
+     "descr_en": "port of Antioch in Syria",
+     "relations": [],
+     "certain": true
+    }
+   ],
    "certain": true
   },
   {
@@ -40943,6 +42761,240 @@
      "descr_en": "Levite distributing offerings under Hezekiah",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.princeps-levitarum-iosiae",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "capo levita che diede vittime per la Pasqua di Giosia",
+     "descr_en": "Levite chief who gave victims for Josiah's Passover",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.pater-uriae",
+     "latin": "Semei",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "padre del profeta Uria di Kiriat-Iearim",
+     "descr_en": "father of the prophet Uriah of Kiriath-jearim",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Uria",
+       "target_key": "URIA#0"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semias.pater-dalaiae",
+     "latin": "Semias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "padre di Delaia, dignitario sotto Ioiakim",
+     "descr_en": "father of Delaiah, official under Jehoiakim",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Delaia",
+       "target_key": "DELAIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.nehelamites",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "il Nechelamita, falso profeta in esilio avverso a Geremia",
+     "descr_en": "the Nehelamite, false prophet in exile opposing Jeremiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.sacerdos-reditus",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "sacerdote rimpatriato con Zorobabele, capo di una famiglia sacerdotale",
+     "descr_en": "priest who returned with Zerubbabel, head of a priestly house",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.adonicam",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "dei figli di Adonikam, rimpatriato con Esdra",
+     "descr_en": "of the sons of Adonikam, returned with Ezra",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.nuntius-esdrae",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "capo mandato da Esdra a Casifia per cercare leviti",
+     "descr_en": "leader Ezra sent to Casiphia to find Levites",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.sacerdos-de-filiis-harim",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "sacerdote dei figli di Harim, congedò la moglie straniera",
+     "descr_en": "priest of the sons of Harim, dismissed his foreign wife",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.laicus-de-filiis-harim",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "israelita dei figli di Harim, congedò la moglie straniera",
+     "descr_en": "Israelite of the sons of Harim, dismissed his foreign wife",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.stirpis-zorobabel",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "figlio di Secania, discendente di Zorobabele",
+     "descr_en": "son of Shecaniah, descendant of Zerubbabel",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Secania",
+       "target_key": "SECANIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.custos-portae-orientalis",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "figlio di Secania, custode della porta orientale sotto Neemia",
+     "descr_en": "son of Shecaniah, keeper of the East Gate under Nehemiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Secania",
+       "target_key": "SECANIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.merarita",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "levita merarita, figlio di Cassub, a Gerusalemme dopo l'esilio",
+     "descr_en": "Merarite Levite, son of Hasshub, in Jerusalem after the exile",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeias.dalaiae-filius",
+     "latin": "Semeias",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "figlio di Delaia, falso profeta assoldato contro Neemia",
+     "descr_en": "son of Delaiah, false prophet hired against Nehemiah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Delaia",
+       "target_key": "DELAIA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.signator",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "sacerdote firmatario del patto al tempo di Neemia",
+     "descr_en": "priest who sealed the covenant under Nehemiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.princeps-iudae",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "capo di Giuda alla dedicazione delle mura",
+     "descr_en": "leader of Judah at the wall dedication",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.asaphita",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "musico asafita alla dedicazione delle mura, figlio di Gionata",
+     "descr_en": "Asaphite musician at the dedication of the wall, son of Jonathan",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semeia.sacerdos-dedicationis",
+     "latin": "Semeia",
+     "it": "Semaià",
+     "en": "Shemaiah",
+     "descr_it": "sacerdote presente alla dedicazione delle mura",
+     "descr_en": "priest present at the wall dedication",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": true
@@ -41118,6 +43170,48 @@
      "descr_en": "signatory of Nehemiah's covenant",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:saraia.filius-helciae",
+     "latin": "Saraia",
+     "it": "Seraià",
+     "en": "Seraiah",
+     "descr_it": "sacerdote figlio di Chelkia, preposto alla casa di Dio",
+     "descr_en": "priest, son of Hilkiah, overseer of the house of God",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Chelkia",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:saraia.filius-azriel",
+     "latin": "Saraia",
+     "it": "Seraià",
+     "en": "Seraiah",
+     "descr_it": "figlio di Azriel, mandato da Ioiakim ad arrestare Geremia",
+     "descr_en": "son of Azriel, sent by Jehoiakim to arrest Jeremiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:saraias.princeps-mansionum",
+     "latin": "Saraias",
+     "it": "Seraià",
+     "en": "Seraiah",
+     "descr_it": "figlio di Neria, addetto agli alloggi di Sedecia a Babilonia",
+     "descr_en": "son of Neriah, Zedekiah's quartermaster on the Babylon journey",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -41566,6 +43660,185 @@
      "descr_en": "son of Gera, who cursed David",
      "relations": [],
      "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.filius-idithun",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "levita, figlio di Iedutun, capo del decimo turno di cantori",
+     "descr_en": "Levite, son of Jeduthun, head of the tenth singers' division",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Iedutun",
+       "target_key": "IEDUTUN, IEDITUN"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.ramathites",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "di Rama, sovrintendente alle vigne di Davide",
+     "descr_en": "the Ramathite, in charge of David's vineyards",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.fautor-salomonis",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "rimase con Salomone contro Adonia",
+     "descr_en": "sided with Solomon against Adonijah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.filius-ela",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "figlio di Ela, prefetto di Salomone in Beniamino",
+     "descr_en": "son of Ela, Solomon's prefect in Benjamin",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.rubenita",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "rubenita, figlio di Gog e padre di Mica",
+     "descr_en": "Reubenite, son of Gog and father of Micah",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Gog",
+       "target_key": null
+      },
+      {
+       "rel": "parent_of",
+       "target": "Mica",
+       "target_key": "MICA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.de-filiis-heman",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "levita della famiglia di Eman, sotto Ezechia",
+     "descr_en": "Levite of Heman's family under Hezekiah",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.frater-choneniae",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "levita, secondo dopo il fratello Canania nelle offerte",
+     "descr_en": "Levite, second to his brother Conaniah over the offerings",
+     "relations": [
+      {
+       "rel": "sibling_of",
+       "target": "Canania",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.frater-zorobabel",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "figlio di Pedaia, fratello di Zorobabele",
+     "descr_en": "son of Pedaiah, brother of Zerubbabel",
+     "relations": [
+      {
+       "rel": "sibling_of",
+       "target": "Zorobabele",
+       "target_key": "ZOROBABELE"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.avus-mardochaei",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "beniaminita, figlio di Kis, antenato di Mardocheo",
+     "descr_en": "Benjaminite, son of Kish, ancestor of Mordecai",
+     "relations": [
+      {
+       "rel": "child_of",
+       "target": "Kis",
+       "target_key": null
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.levita-esdrae",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "levita con moglie straniera al tempo di Esdra",
+     "descr_en": "Levite with a foreign wife in Ezra's time",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.de-filiis-hasum",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "dei figli di Casum, con moglie straniera sotto Esdra",
+     "descr_en": "of the sons of Hashum, with a foreign wife under Ezra",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:semei.de-filiis-bennui",
+     "latin": "Semei",
+     "it": "Simei",
+     "en": "Shimei",
+     "descr_it": "dei figli di Binnui, con moglie straniera sotto Esdra",
+     "descr_en": "of the sons of Binnui, with a foreign wife under Ezra",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -41615,6 +43888,60 @@
       }
      ],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simeon.antenatus-iesu",
+     "latin": "Simeon",
+     "it": "Simeone",
+     "en": "Simeon",
+     "descr_it": "antenato di Gesù nella genealogia di Luca, padre di Levi",
+     "descr_en": "ancestor of Jesus in Luke's genealogy, father of Levi",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Levi",
+       "target_key": "LEVI#3"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simeon.ierosolymitanus",
+     "latin": "Simeon",
+     "it": "Simeone",
+     "en": "Simeon",
+     "descr_it": "giusto di Gerusalemme che accolse Gesù al Tempio",
+     "descr_en": "righteous man of Jerusalem who received Jesus in the Temple",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simeon.niger",
+     "latin": "Simeon",
+     "it": "Simeone",
+     "en": "Simeon",
+     "descr_it": "profeta e dottore di Antiochia, detto Niger",
+     "descr_en": "prophet and teacher at Antioch, called Niger",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simon-petrus",
+     "latin": "Simon Petrus",
+     "it": "Pietro",
+     "en": "Peter",
+     "descr_it": "Simone figlio di Giovanni, primo degli apostoli",
+     "descr_en": "Simon son of John, first of the apostles",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
@@ -41627,12 +43954,12 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:petrus",
-     "latin": "Simon",
-     "it": "Simone",
-     "en": "Simon",
-     "descr_it": "apostolo, fratello di Andrea, chiamato Pietro",
-     "descr_en": "apostle, brother of Andrew, named Peter",
+     "id": "bpers:simon-petrus",
+     "latin": "Simon Petrus",
+     "it": "Pietro",
+     "en": "Peter",
+     "descr_it": "Simone figlio di Giovanni, primo degli apostoli",
+     "descr_en": "Simon son of John, first of the apostles",
      "relations": [
       {
        "rel": "same_as",
@@ -41694,6 +44021,60 @@
      "descr_en": "man of Cyrene made to carry the cross",
      "relations": [],
      "certain": false
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simon.pharisaeus",
+     "latin": "Simon",
+     "it": "Simone",
+     "en": "Simon",
+     "descr_it": "fariseo che invitò Gesù a mensa",
+     "descr_en": "Pharisee who invited Jesus to a meal",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simon.pater-iudae",
+     "latin": "Simon",
+     "it": "Simone Iscariota",
+     "en": "Simon Iscariot",
+     "descr_it": "padre di Giuda Iscariota",
+     "descr_en": "father of Judas Iscariot",
+     "relations": [
+      {
+       "rel": "parent_of",
+       "target": "Giuda Iscariota",
+       "target_key": "GIUDA ISCARIOTA"
+      }
+     ],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simon.magus",
+     "latin": "Simon",
+     "it": "Simone",
+     "en": "Simon",
+     "descr_it": "mago di Samaria che volle comprare lo Spirito",
+     "descr_en": "magician of Samaria who tried to buy the Spirit",
+     "relations": [],
+     "certain": true
+    },
+    {
+     "type": "person",
+     "kind": "individual",
+     "id": "bpers:simon.coriarius",
+     "latin": "Simon",
+     "it": "Simone",
+     "en": "Simon",
+     "descr_it": "conciatore di Giaffa, ospite di Pietro",
+     "descr_en": "tanner of Joppa, Peter's host",
+     "relations": [],
+     "certain": true
     }
    ],
    "certain": false
