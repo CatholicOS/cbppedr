@@ -8466,8 +8466,7 @@
     "en": "Levitical city of Issachar, perhaps the royal city of Josh 12:22"
    },
    "attested": [
-    "btu:1par.6.57",
-    "btu:ios.12.22"
+    "btu:1par.6.57"
    ],
    "relations": [],
    "qid": null,
@@ -8496,6 +8495,18 @@
        "by": "tipnr:Kishion@Jos.19.20-1Ch",
        "says": "identifies",
        "summary": "Its Kishion record includes the Kedesh of 1 Chr 6."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.12.22",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "suggests",
+       "summary": "Placed near Tell Abu Qudeis, this Kedesh may also be the Canaanite royal city of Josh 12:22."
       }
      ]
     }
@@ -23226,8 +23237,7 @@
     "en": "Amorite town Kenath renamed by its conqueror"
    },
    "attested": [
-    "btu:nm.32.42",
-    "btu:idc.8.11"
+    "btu:nm.32.42"
    ],
    "relations": [
     {
@@ -23244,7 +23254,21 @@
    "evidence": [
     "ndeib:NOBACH#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:idc.8.11",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:NOBACH#2",
+       "says": "doubts",
+       "summary": "If Kenath is modern Qanawat, the Nobah of Judg 8:11 is another place, in Gilead."
+      }
+     ]
+    }
+   ]
   },
   "bplace:nod": {
    "type": "place",
@@ -31236,7 +31260,10 @@
     "btu:idc.4.12",
     "btu:idc.4.14",
     "btu:ps.89.13",
-    "btu:ier.46.18"
+    "btu:ier.46.18",
+    "btu:ios.19.22",
+    "btu:os.5.1",
+    "btu:idc.8.18"
    ],
    "relations": [],
    "qid": null,
@@ -31291,11 +31318,7 @@
     "en": "Levitical town of the Merarites in Zebulun"
    },
    "attested": [
-    "btu:1par.6.62",
-    "btu:ios.19.22",
-    "btu:ios.19.34",
-    "btu:os.5.1",
-    "btu:idc.8.18"
+    "btu:1par.6.62"
    ],
    "relations": [],
    "qid": null,

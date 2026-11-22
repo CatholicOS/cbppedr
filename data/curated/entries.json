@@ -43251,11 +43251,15 @@
     "btu:idc.4.12",
     "btu:idc.4.14",
     "btu:ps.89.13",
-    "btu:ier.46.18"
+    "btu:ier.46.18",
+    "btu:ios.19.22",
+    "btu:os.5.1",
+    "btu:idc.8.18"
    ],
    "evidence": [
     "nv:btu:idc.4.6",
-    "nv:btu:ier.46.18"
+    "nv:btu:ier.46.18",
+    "ndeib:TABOR, MONTE"
    ]
   },
   "bplace:thahath": {
