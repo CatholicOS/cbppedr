@@ -20967,14 +20967,6 @@
      "evidence": [
       "nv:btu:gn.28.9"
      ]
-    },
-    {
-     "rel": "same_as",
-     "target": "bpers:basemath.esau-uxor",
-     "evidence": [
-      "nv:btu:gn.28.9",
-      "nv:btu:gn.36.3"
-     ]
     }
    ]
   },
@@ -33473,9 +33465,7 @@
   "bpers:thaddaeus": {
    "evidence": [
     "nv:btu:mt.10.3",
-    "nv:btu:mc.3.18",
-    "nv:btu:lc.6.16",
-    "nv:btu:act.1.13"
+    "nv:btu:mc.3.18"
    ]
   },
   "bpers:thahath.bared-filius": {
@@ -43647,6 +43637,14 @@
    ],
    "evidence": [
     "nv:btu:nm.34.9"
+   ]
+  },
+  "bpers:iudas.iacobi-filius": {
+   "attested": [
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
    ]
   }
  }

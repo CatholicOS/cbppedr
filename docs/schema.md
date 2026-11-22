@@ -15,7 +15,8 @@ The structure of every file. What each term means (types, kinds, relations, `sam
   "attested": ["btu:mt.14.3", "…"],
   "labels": {"btu:gal.2.9": {"as": "name", "editions": {"NVBSE": "Cephas", "CEI2008": "Cefa", "NABRE": "Kephas"}}},
   "relations": [{"rel": "child_of", "target": "<id>", "evidence": ["ndeib:FILIPPO#1", "bj:herodian-tree"]}],
-  "conjectures": [{"rel": "possibly_same_as", "target": "<id>", "status": "supported", "opinions": ["…"]}],
+  "conjectures": [{"rel": "possibly_same_as", "target": "<id>", "status": "supported",
+                   "opinions": [{"by": "bj:note:…", "says": "suggests", "summary": "…"}]}],
   "qid": "Q… | null",
   "qid_status": "auto | reviewed | unresolved",
   "evidence": ["ndeib:FILIPPO#1"],
@@ -45,8 +46,8 @@ The catalog states an identity (`same_as`) or an attestation only when the Bible
 
 - **rel:** `possibly_same_as` (with `target`, another entry: the two may be one) or `possibly_attested_at` (with `unit`: a figure in that verse, unnamed or named otherwise, may be this entry).
 - **opinions:** `by` is a source location, `says` one of `identifies`, `suggests`, `doubts`, `rejects`, and `summary` a few words of our own (never the source's text).
-- **Sources** (`data/curated/sources.json`) say whose opinion it is and how much it weighs. *Authoritative*: a published scholarly work cited by location, such as a note or a book's introduction in the Jerusalem Bible (`bj:note:<Book>.<ref>#p<page>`, `bj:intro:<section>#p<page>`) or a sense of the dictionary (`ndeib:<KEY>`). *Non-authoritative*: a claim without references, such as STEPBible's TIPNR (`tipnr:<name>`), or a reviewer's inference (`reviewer:<round>`), kept as a lead until an authoritative source is found.
-- **status**, computed by the build from the authoritative opinions only: `supported` (one identifies or suggests it, none doubts or rejects it), `disputed` (they disagree), `rejected` (they only doubt or reject it), `unsupported` (no authoritative opinion yet).
+- **Sources** (`data/curated/sources.json`) say whose opinion it is and how much it weighs. *Authoritative*: a published scholarly work cited by location, such as a note or a book's introduction in the Jerusalem Bible (`bj:note:<Book>.<ref>#p<page>`, `bj:intro:<section>#p<page>`) or a sense of the dictionary (`ndeib:<KEY>`, the headword with `#<sense>` where its senses are numbered). *Non-authoritative*: a claim without references, such as STEPBible's TIPNR (`tipnr:<name>`), or a reviewer's inference (`reviewer:<round>`), kept as a lead until an authoritative source is found.
+- **status**, computed by the build from the authoritative opinions only: `supported` (one identifies or suggests it, none doubts or rejects it), `disputed` (they disagree), `rejected` (one rejects it, none is for it), `doubted` (they only doubt it), `unsupported` (no authoritative opinion yet).
 - A conjecture never changes `attested` or `same_as`.
 
 ## Unnamed persons

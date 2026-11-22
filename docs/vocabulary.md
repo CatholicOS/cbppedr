@@ -14,7 +14,7 @@ A catalog statement says **where an entry is** (its verses) or **who it is** (it
 
 A statement at a lower level never changes one at a higher level. Rule of the whole catalog: **better unidentified than misidentified.**
 
-39 of the 49 `same_as` links were taken from the dictionary's senses (round 1). They have not yet been checked against the text: a review should confirm that the dictionary states each one as fact; where it hedges, the link becomes a conjecture (as Thaddaeus = Judas son of James and Ephron = Ephraim already have).
+38 of the 47 `same_as` links were taken from the dictionary's senses (round 1). They have not yet been checked against the text: a review should confirm that the dictionary states each one as fact; where it hedges ("probably"), the link becomes a conjecture. Three have been so far: Har-heres = Beth-shemesh (a dictionary "probably"), Ephron = Ephraim (the dictionary alone), and Mahalath = Basemath (the text's parallel, Gn 28:9 / 36:3, which the dictionary doubts). Thaddaeus = Judas son of James, linked in round 2 from the apostle lists, became a conjecture too: no verse equates them.
 
 ## Identifiers
 
@@ -102,7 +102,7 @@ Locations, never text.
 | Prefix | Source | Format |
 |---|---|---|
 | `nv:` | a verse of the Nova Vulgata, where the Bible text alone establishes the statement (a patronym, an office, a place, a time) | `nv:btu:ne.12.36` |
-| `ndeib:` | a sense of the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* (Piemme 2005) | `ndeib:FILIPPO#1` (`~n` numbers a repeated headword) |
+| `ndeib:` | a sense of the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* (Piemme 2005) | `ndeib:FILIPPO#1`; a headword without numbered senses has no `#` (`ndeib:IS-BAAL`); `~n` numbers a repeated headword |
 | `bj:herodian-tree` | the Jerusalem Bible's Hasmonean and Herodian family tree | `bj:herodian-tree` |
 
 STEPBible's TIPNR may point to a verse or an identity, but is never itself evidence.
@@ -130,7 +130,7 @@ Identities and attestations the Bible text does not settle but someone proposes.
 | Source | Whose opinion | Locator | Authority |
 |---|---|---|---|
 | `bj` | *La Bibbia di Gerusalemme* (EDB 2011): its notes and book introductions | `bj:note:<Book>.<chapter,verse>#p<page>` (`bj:note:1Sam.14,49#p597`), `bj:intro:<section>#p<page>` | authoritative |
-| `ndeib` | the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* | `ndeib:ISBAAL` | authoritative |
+| `ndeib` | the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* | `ndeib:<KEY>`: the headword, with `#<sense>` where the dictionary numbers its senses (`ndeib:IS-BAAL`, `ndeib:FILIPPO#1`) | authoritative |
 | `tipnr` | STEPBible's TIPNR, which cites no references | `tipnr:Ishvi@1Sa.14.49` | non-authoritative |
 | `reviewer` | a CBPPEDR reviewer's inference from the text | `reviewer:round2` | non-authoritative |
 
@@ -142,7 +142,8 @@ A source is **authoritative** when it is a published scholarly work, cited by a 
 |---|---|
 | `supported` | an authoritative source identifies or suggests it, and none doubts or rejects it |
 | `disputed` | authoritative sources disagree |
-| `rejected` | authoritative sources only doubt or reject it |
+| `rejected` | an authoritative source rejects it, and none is for it |
+| `doubted` | authoritative sources only doubt it |
 | `unsupported` | no authoritative source has spoken: a lead only |
 
 ## Wikidata

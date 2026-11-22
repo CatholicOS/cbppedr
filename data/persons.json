@@ -4142,7 +4142,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:basemath.elon-filia",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Adah@Gen.26.34-",
@@ -17240,7 +17240,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:mahalath.ismaelis-filia",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Mahalath@Gen.28.9-",
@@ -17251,6 +17251,11 @@
        "by": "ndeib:BASEMAT",
        "says": "doubts",
        "summary": "The lists of Esau's wives conflict and are hard to reconcile."
+      },
+      {
+       "by": "reviewer:round2",
+       "says": "identifies",
+       "summary": "Gn 28:9 and 36:3 give both the same father, Ishmael, and the same brother, Nebaioth"
       }
      ]
     }
@@ -55294,7 +55299,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:iozabad.filius-iesua",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:IOZABAD",
@@ -55396,7 +55401,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:iozabad.filius-iesua",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:IOZABAD",
@@ -55550,7 +55555,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:iozabad.filius-iesua",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:IOZABAD",
@@ -57282,7 +57287,8 @@
     "en": "apostle, son of James, called Thaddaeus"
    },
    "attested": [
-    "btu:lc.6.16"
+    "btu:lc.6.16",
+    "btu:act.1.13"
    ],
    "relations": [
     {
@@ -57296,7 +57302,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GIUDA (NT)#2"
+    "ndeib:GIUDA (NT)#2",
+    "nv:btu:act.1.13"
    ],
    "review": "uncertain"
   },
@@ -60392,14 +60399,6 @@
      "target": "bpers:esau",
      "evidence": [
       "nv:btu:gn.28.9"
-     ]
-    },
-    {
-     "rel": "same_as",
-     "target": "bpers:basemath.esau-uxor",
-     "evidence": [
-      "nv:btu:gn.28.9",
-      "nv:btu:gn.36.3"
      ]
     }
    ],
@@ -67605,7 +67604,7 @@
     {
      "rel": "possibly_attested_at",
      "unit": "btu:1reg.22.34",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:NAAMAN",
@@ -92504,9 +92503,7 @@
    },
    "attested": [
     "btu:mt.10.3",
-    "btu:mc.3.18",
-    "btu:lc.6.16",
-    "btu:act.1.13"
+    "btu:mc.3.18"
    ],
    "relations": [],
    "qid": "Q43945",
@@ -92514,32 +92511,8 @@
    "evidence": [
     "ndeib:TADDEO",
     "nv:btu:mt.10.3",
-    "nv:btu:mc.3.18",
-    "nv:btu:lc.6.16",
-    "nv:btu:act.1.13"
+    "nv:btu:mc.3.18"
    ],
-   "labels": {
-    "btu:lc.6.16": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Giuda, figlio di Giacomo",
-      "DRB": "Jude, the brother of James",
-      "NABRE": "Judas the son of James",
-      "NVBSE": "Iudam Iacobi",
-      "VGCL": "Judam Jacobi"
-     }
-    },
-    "btu:act.1.13": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Giuda figlio di Giacomo",
-      "DRB": "Jude the brother of James",
-      "NABRE": "Judas son of James",
-      "NVBSE": "Iudas Iacobi",
-      "VGCL": "Judas Jacobi"
-     }
-    }
-   },
    "conjectures": [
     {
      "rel": "possibly_same_as",

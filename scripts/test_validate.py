@@ -98,6 +98,11 @@ class ConjectureTest(unittest.TestCase):
         at = {"rel": "possibly_attested_at", "unit": "btu:gn.29.34", "status": "unsupported",
               "opinions": [{"by": "tipnr:Levi@Gen.29.34", "says": "suggests", "summary": "a lead"}]}
         self.assertEqual(conjecture_problems("bpers:a", {"conjectures": [at]}, {"bpers:a"}, src), [])
+        shared = conjecture_problems("bpers:a", {"attested": ["btu:gn.29.34"], "conjectures": [good]},
+                                     {"bpers:a", "bpers:b"}, src, {"bpers:b": ["btu:gn.29.34"]})
+        self.assertEqual(len(shared), 1, shared)
+        self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [dict(good, opinions=[
+            {"by": "ndeib:x y z", "says": "suggests", "summary": "s"}])]}, {"bpers:a", "bpers:b"}, src)), 1)
         bad = dict(good, status="maybe", opinions=[{"by": "wiki:x", "says": "thinks", "summary": ""}])
         self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [bad]}, {"bpers:a", "bpers:b"}, src)), 4)
 

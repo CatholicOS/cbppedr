@@ -11932,13 +11932,7 @@
    "en": "Har-heres",
    "descr_it": "città amorrea presso Aialon, forse Bet-Semes",
    "descr_en": "Amorite town near Aijalon, perhaps Beth-shemesh",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Bet-Semes",
-     "target_key": "BET-SEMES#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {

@@ -126,16 +126,20 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
 
 CONJ_RELS = {"possibly_same_as", "possibly_attested_at"}
 STANCES = {"identifies", "suggests", "doubts", "rejects"}
-STATUSES = {"supported", "disputed", "rejected", "unsupported"}
-LOCATOR = {"bj": re.compile(r"^bj:(note:[0-9]?[A-Za-z]+\.\S+|intro:[A-Za-z0-9-]+)(#p\d+)?$"),
-           "ndeib": re.compile(r"^ndeib:.+$"), "tipnr": re.compile(r"^tipnr:\S+@\S+$"),
+STATUSES = {"supported", "disputed", "rejected", "doubted", "unsupported"}
+LOCATOR = {"bj": re.compile(r"^bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?$"),
+           "ndeib": re.compile(r"^ndeib:[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9 ,'’().~-]*(#[0-9IVX]+)?$"), "tipnr": re.compile(r"^tipnr:\S+@\S+$"),
            "reviewer": re.compile(r"^reviewer:\S+$")}
 
 
-def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dict]) -> list[str]:
+def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dict],
+                        attested_of: dict[str, list[str]] | None = None) -> list[str]:
     """An entry's conjectures: a known relation and target, a status, and opinions each with a
-    known source, a well-formed locator, a stance and a short summary in our own words."""
+    known source, a well-formed locator, a stance and a short summary in our own words. A
+    conjecture must not already be in `attested`: two possibly-same entries share no unit, and a
+    possibly-attested unit is not attested."""
     out: list[str] = []
+    attested_of = attested_of or {}
     for c in e.get("conjectures") or []:
         if not isinstance(c, dict):
             out.append(f"{eid}: conjecture malformed")
@@ -146,7 +150,12 @@ def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dic
         if c.get("status") not in STATUSES:
             out.append(f"{eid}: conjecture status {c.get('status')}")
         if not c.get("opinions"):
-            out.append(f"{eid}: conjecture {c.get('target')} without opinions")
+            out.append(f"{eid}: conjecture {c.get('target') or c.get('unit')} without opinions")
+        shared = set(e.get("attested") or []) & set(attested_of.get(c.get("target"), []))
+        if c.get("rel") == "possibly_same_as" and shared:
+            out.append(f"{eid}: conjecture {c['target']} already shares attested {sorted(shared)}")
+        if c.get("rel") == "possibly_attested_at" and c.get("unit") in (e.get("attested") or []):
+            out.append(f"{eid}: conjecture unit {c['unit']} is already attested")
         for o in c.get("opinions") or []:
             by = str(o.get("by", ""))
             src = by.split(":")[0]
@@ -201,9 +210,10 @@ def main() -> int:
     src_path = ROOT / "data/curated/sources.json"
     sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
     ids = {eid for cat in catalogs.values() for eid in cat["entries"]}
+    attested_of = {eid: e.get("attested", []) for cat in catalogs.values() for eid, e in cat["entries"].items()}
     for cat in catalogs.values():
         for eid, e in cat["entries"].items():
-            p += conjecture_problems(eid, e, ids, sources)
+            p += conjecture_problems(eid, e, ids, sources, attested_of)
     u_path = ROOT / "data/unnamed.json"
     if u_path.exists():
         p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)

@@ -4,7 +4,7 @@
   "bj": {"title": "La Bibbia di Gerusalemme (EDB 2011): notes and book introductions", "authority": "authoritative",
          "locator": "bj:note:<Book>.<chapter,verse>#p<page> or bj:intro:<section title>#p<page> (page of the printed volume, omitted where the scan lacks it)"},
   "ndeib": {"title": "Nuovo Dizionario Enciclopedico Illustrato della Bibbia (Piemme 2005)", "authority": "authoritative",
-            "locator": "ndeib:<HEADWORD>#<sense>"},
+            "locator": "ndeib:<KEY>: the headword, with #<sense> where the dictionary numbers its senses (ndeib:FILIPPO#1, ndeib:IS-BAAL)"},
   "tipnr": {"title": "STEPBible TIPNR (Tyndale House, CC BY 4.0)", "authority": "non-authoritative",
             "locator": "tipnr:<TIPNR unique name>", "why": "its identifications cite no references"},
   "reviewer": {"title": "a CBPPEDR reviewer's inference from the text", "authority": "non-authoritative",

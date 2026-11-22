@@ -181,17 +181,24 @@ class ConjecturesTest(unittest.TestCase):
         self.assertEqual(st([tip, bj("identifies")], self.SOURCES), "supported")
         self.assertEqual(st([bj("suggests"), bj("doubts")], self.SOURCES), "disputed")
         self.assertEqual(st([bj("rejects")], self.SOURCES), "rejected")
+        self.assertEqual(st([bj("doubts"), tip], self.SOURCES), "doubted")
 
     def test_built_on_the_source_entry_unresolved_reported(self):
         c = {"source": "bpers:philippus.tetrarcha", "target": "bpers:herodes-magnus", "rel": "possibly_same_as",
              "opinions": [{"by": "tipnr:X@Mat.1.1", "says": "identifies", "summary": "x"}]}
         at = {"source": "bpers:philippus.tetrarcha", "rel": "possibly_attested_at", "unit": "btu:mc.8.27",
               "opinions": [{"by": "bj:note:Mc.8,27#p1", "says": "suggests", "summary": "x"}]}
-        out = build(DECISIONS, UNITS, tree={}, conjectures=[c, dict(c, target="bpers:nobody"), at], sources=self.SOURCES)
+        typo = dict(at, rel="possibly_atested_at")
+        out = build(DECISIONS, UNITS, tree={}, conjectures=[c, dict(c, target="bpers:nobody"), at, typo,
+                                                            dict(at, unit="btu:mc.99.1")],
+                    sources=self.SOURCES, known_units={"btu:mc.8.27"})
         got = out["persons"]["entries"]["bpers:philippus.tetrarcha"]["conjectures"]
         self.assertEqual([(g.get("target") or g.get("unit"), g["status"]) for g in got],
                          [("bpers:herodes-magnus", "unsupported"), ("btu:mc.8.27", "supported")])
-        self.assertEqual(out["report"]["unresolved_conjectures"], ["bpers:philippus.tetrarcha possibly_same_as bpers:nobody"])
+        self.assertEqual(out["report"]["unresolved_conjectures"],
+                         ["bpers:philippus.tetrarcha possibly_same_as bpers:nobody",
+                          "bpers:philippus.tetrarcha possibly_atested_at btu:mc.8.27",
+                          "bpers:philippus.tetrarcha possibly_attested_at btu:mc.99.1"])
 
 
 class CuratedEntriesTest(unittest.TestCase):

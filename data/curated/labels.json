@@ -7886,28 +7886,6 @@
     }
    }
   },
-  "bpers:thaddaeus": {
-   "btu:act.1.13": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Giuda figlio di Giacomo",
-     "DRB": "Jude the brother of James",
-     "NABRE": "Judas son of James",
-     "NVBSE": "Iudas Iacobi",
-     "VGCL": "Judas Jacobi"
-    }
-   },
-   "btu:lc.6.16": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Giuda, figlio di Giacomo",
-     "DRB": "Jude, the brother of James",
-     "NABRE": "Judas the son of James",
-     "NVBSE": "Iudam Iacobi",
-     "VGCL": "Judam Jacobi"
-    }
-   }
-  },
   "bpers:theglathphalasar": {
    "btu:2par.28.21": {
     "as": "designation",
@@ -8210,28 +8188,6 @@
      "NABRE": "the compound",
      "NVBSE": "castra",
      "VGCL": "castra"
-    }
-   }
-  },
-  "bplace:arimathaea": {
-   "btu:1mac.11.34": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Ramatàim",
-     "DRB": "Ramatha",
-     "NABRE": "Ramathaim",
-     "NVBSE": "Ramathaim",
-     "VGCL": "Ramathan"
-    }
-   },
-   "btu:1sam.1.1": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Ramatàim",
-     "DRB": "Ramathaimsophim",
-     "NABRE": "Ramathaim",
-     "NVBSE": "Ramathaim",
-     "VGCL": "Ramathaimsophim"
     }
    }
   },

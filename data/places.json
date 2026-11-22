@@ -2525,9 +2525,7 @@
     "btu:lc.23.51",
     "btu:mt.27.57",
     "btu:mc.15.43",
-    "btu:io.19.38",
-    "btu:1sam.1.1",
-    "btu:1mac.11.34"
+    "btu:io.19.38"
    ],
    "relations": [],
    "qid": "Q2558868",
@@ -2535,28 +2533,6 @@
    "evidence": [
     "ndeib:ARIMATEA"
    ],
-   "labels": {
-    "btu:1sam.1.1": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Ramatàim",
-      "DRB": "Ramathaimsophim",
-      "NABRE": "Ramathaim",
-      "NVBSE": "Ramathaim",
-      "VGCL": "Ramathaimsophim"
-     }
-    },
-    "btu:1mac.11.34": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Ramatàim",
-      "DRB": "Ramatha",
-      "NABRE": "Ramathaim",
-      "NVBSE": "Ramathaim",
-      "VGCL": "Ramathan"
-     }
-    }
-   },
    "conjectures": [
     {
      "rel": "possibly_same_as",
@@ -11916,7 +11892,6 @@
    },
    "attested": [
     "btu:idc.9.5",
-    "btu:1sam.13.17",
     "btu:2sam.13.23",
     "btu:1mac.11.34",
     "btu:io.11.54"
@@ -12671,7 +12646,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:fons-draconis",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:ROGHEL",
@@ -15359,15 +15334,7 @@
    "attested": [
     "btu:idc.1.35"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:bethsames.iudae",
-     "evidence": [
-      "ndeib:CHERES#1"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -18675,7 +18642,7 @@
     {
      "rel": "possibly_attested_at",
      "unit": "btu:lc.1.39",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:IUTTA",
@@ -19772,7 +19739,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:magdala",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:DALMANUTA",
@@ -19815,7 +19782,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:dalmanutha",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:DALMANUTA",
@@ -19837,7 +19804,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:magadan",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:MAGDALA",
@@ -28981,7 +28948,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:sabarim.finium",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:SEFARVAIM",
@@ -31204,7 +31171,7 @@
     {
      "rel": "possibly_attested_at",
      "unit": "btu:mc.9.2",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:ERMON",
@@ -31246,7 +31213,6 @@
    },
    "attested": [
     "btu:1par.6.62",
-    "btu:ios.19.12",
     "btu:ios.19.22",
     "btu:ios.19.34",
     "btu:os.5.1",
@@ -31470,8 +31436,7 @@
     "btu:ios.16.8",
     "btu:ios.17.7",
     "btu:ios.17.8",
-    "btu:ios.12.17",
-    "btu:2reg.15.16"
+    "btu:ios.12.17"
    ],
    "relations": [],
    "qid": null,
@@ -32244,7 +32209,7 @@
     {
      "rel": "possibly_attested_at",
      "unit": "btu:1par.13.5",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:TORRENTE D'EGITTO",
@@ -32950,7 +32915,7 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:cedron",
-     "status": "rejected",
+     "status": "doubted",
      "opinions": [
       {
        "by": "ndeib:CEDRON",

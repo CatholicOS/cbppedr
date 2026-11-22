@@ -11161,6 +11161,10 @@
    "btu:mt.15.26",
    "btu:mt.15.27"
   ],
+  "bpers:thaddaeus": [
+   "btu:lc.6.16",
+   "btu:act.1.13"
+  ],
   "bpers:thammuz": [
    "btu:is.17.10",
    "btu:is.66.17"
@@ -11879,7 +11883,9 @@
    "btu:lc.23.50",
    "btu:gn.14.1",
    "btu:gn.14.9",
-   "btu:dn.2.14"
+   "btu:dn.2.14",
+   "btu:1sam.1.1",
+   "btu:1mac.11.34"
   ],
   "bplace:aroer.arnon": [
    "btu:ier.48.18",
@@ -13336,7 +13342,8 @@
    "btu:ios.18.23",
    "btu:2par.13.19",
    "btu:2mac.12.27",
-   "btu:1mac.5.46"
+   "btu:1mac.5.46",
+   "btu:1sam.13.17"
   ],
   "bplace:ephraim.regio": [
    "btu:ios.16.6",
@@ -16930,7 +16937,11 @@
    "btu:mt.17.19",
    "btu:mt.17.20",
    "btu:ps.42.7",
-   "btu:mc.2.23"
+   "btu:mc.2.23",
+   "btu:ios.19.12"
+  ],
+  "bplace:thapphua.ephraim": [
+   "btu:2reg.15.16"
   ],
   "bplace:thecua": [
    "btu:2sam.14.1"

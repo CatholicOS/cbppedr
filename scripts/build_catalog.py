@@ -16,6 +16,8 @@ import os
 import sys
 from pathlib import Path
 
+from units import CBTUDR
+
 ROOT = Path(__file__).resolve().parent.parent
 PRIVATE = Path(os.environ.get("CBPPEDR_PRIVATE", Path.home() / "development/BibleGet-I-O/data-local/cbppedr"))
 TYPES = {"person": "persons", "place": "places", "event": "events"}
@@ -58,12 +60,17 @@ def _discriminated(eid: str) -> bool:
 
 def conjecture_status(opinions: list[dict], sources: dict[str, dict]) -> str:
     """From the authoritative opinions only: supported (one identifies or suggests it, none doubts
-    or rejects it), disputed (they disagree), rejected (they only doubt or reject it); unsupported
-    when no authoritative source has spoken (non-authoritative leads only)."""
+    or rejects it), disputed (they disagree), rejected (one rejects it, none is for it), doubted
+    (they only doubt it); unsupported when no authoritative source has spoken (leads only)."""
     stances = {o.get("says") for o in opinions
                if (sources.get(str(o.get("by", "")).split(":")[0]) or {}).get("authority") == "authoritative"}
     pro, con = bool(stances & {"identifies", "suggests"}), bool(stances & {"doubts", "rejects"})
-    return "disputed" if pro and con else "supported" if pro else "rejected" if con else "unsupported"
+    if pro:
+        return "disputed" if con else "supported"
+    return "rejected" if "rejects" in stances else "doubted" if con else "unsupported"
+
+
+CONJECTURE_RELS = ("possibly_same_as", "possibly_attested_at")
 
 
 def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None = None,
@@ -71,7 +78,8 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
           qids: dict[str, dict] | None = None, curated: dict[str, dict] | None = None,
           removed: dict[str, list[str]] | None = None,
           labels: dict[str, dict[str, dict]] | None = None,
-          conjectures: list[dict] | None = None, sources: dict[str, dict] | None = None) -> dict:
+          conjectures: list[dict] | None = None, sources: dict[str, dict] | None = None,
+          known_units: set[str] | None = None) -> dict:
     part_units = part_units or {}
     curated = curated or {}
     tree = tree or {}
@@ -165,12 +173,15 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
             entry["labels"] = dict(sorted(kept.items(), key=lambda x: entry["attested"].index(x[0])))
 
     for c in conjectures or []:  # identities the text does not state, with each scholar's opinion
-        src, tgt, unit = c.get("source"), c.get("target"), c.get("unit")
-        ok = src in by_id and (tgt in by_id and tgt != src if c.get("rel") == "possibly_same_as" else bool(unit))
+        src, rel, tgt, unit = c.get("source"), c.get("rel"), c.get("target"), c.get("unit")
+        if rel == "possibly_same_as":
+            ok = src in by_id and tgt in by_id and tgt != src
+        else:
+            ok = src in by_id and rel in CONJECTURE_RELS and bool(unit) and (known_units is None or unit in known_units)
         if not ok:
-            report["unresolved_conjectures"].append(f"{src} {c.get('rel')} {tgt or unit}")
+            report["unresolved_conjectures"].append(f"{src} {rel} {tgt or unit}")
             continue
-        built = {"rel": c["rel"], **({"target": tgt} if tgt else {"unit": unit}),
+        built = {"rel": rel, **({"target": tgt} if rel == "possibly_same_as" else {"unit": unit}),
                  "status": conjecture_status(c.get("opinions") or [], sources or {}), "opinions": c.get("opinions") or []}
         by_id[src].setdefault("conjectures", []).append(built)
 
@@ -258,7 +269,9 @@ def main() -> int:
     cj_path, src_path = ROOT / "data/curated/conjectures.json", ROOT / "data/curated/sources.json"
     conjectures = json.loads(cj_path.read_text(encoding="utf-8"))["conjectures"] if cj_path.exists() else []
     sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
-    out = build(decisions, units, tree, part_units, qids, curated, removed, labels, conjectures, sources)
+    known_units = {u["id"] for f in (CBTUDR / "data/units").glob("*.json")
+                   for u in json.loads(f.read_text(encoding="utf-8"))["units"]}
+    out = build(decisions, units, tree, part_units, qids, curated, removed, labels, conjectures, sources, known_units)
     report = out.pop("report")
     for t, data in out.items():
         (ROOT / "data" / f"{t}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
