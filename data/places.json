@@ -977,6 +977,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IION"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:2sam.24.6",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:IION",
+       "says": "suggests",
+       "summary": "Ijon is probably the Hebrew text's Dan-jaan in 2 Sam 24:6."
+      }
+     ]
+    }
    ]
   },
   "bplace:aialon.dan": {
@@ -2542,7 +2556,21 @@
       "VGCL": "Ramathan"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:rama.samuelis",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ARIMATEA",
+       "says": "suggests",
+       "summary": "Reports the Byzantine identification of Arimathea with Ramathaim-zophim, Samuel's town."
+      }
+     ]
+    }
+   ]
   },
   "bplace:arnon": {
    "type": "place",
@@ -3500,9 +3528,7 @@
     "en": "city of the Rephaim struck by Chedorlaomer"
    },
    "attested": [
-    "btu:gn.14.5",
-    "btu:1mac.5.43",
-    "btu:1mac.5.44"
+    "btu:gn.14.5"
    ],
    "relations": [],
    "qid": null,
@@ -3510,28 +3536,37 @@
    "evidence": [
     "ndeib:ASTAROT-KARNAIM"
    ],
-   "labels": {
-    "btu:1mac.5.43": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Karnàin",
-      "DRB": "Carnaim",
-      "NABRE": "Carnaim",
-      "NVBSE": "Carnain",
-      "VGCL": "Carnaim"
-     }
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1mac.5.43",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:1Mac.5,43#p1061",
+       "says": "suggests",
+       "summary": "Explains Karnaim by the local horned Astarte and points to Ashteroth-karnaim, Og's capital."
+      },
+      {
+       "by": "ndeib:ASTAROT-KARNAIM",
+       "says": "suggests",
+       "summary": "Ashteroth-karnaim probably means Ashtaroth by the Karnaim of 1 Mac 5:43-44."
+      }
+     ]
     },
-    "btu:1mac.5.44": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Karnàin",
-      "DRB": "Carnaim",
-      "NABRE": "Carnaim",
-      "NVBSE": "Carnain",
-      "VGCL": "Carnaim"
-     }
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1mac.5.44",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ASTAROT-KARNAIM",
+       "says": "suggests",
+       "summary": "Ashteroth-karnaim probably means Ashtaroth by the Karnaim of 1 Mac 5:43-44."
+      }
+     ]
     }
-   }
+   ]
   },
   "bplace:atarim": {
    "type": "place",
@@ -4124,6 +4159,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ios.19.44"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:baalath.salomonis",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Same name, and Solomon fortified towns near Gezer in Dan's old allotment; a lead only."
+      }
+     ]
+    }
    ]
   },
   "bplace:baalath.salomonis": {
@@ -4692,6 +4741,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ios.15.24"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:baalathbeer",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Baalath-beer@Jos.15.24-1Ch",
+       "says": "identifies",
+       "summary": "Puts Bealoth of Josh 15:24 under Baalath-beer, with Simeon's town list."
+      }
+     ]
+    }
    ]
   },
   "bplace:bamoth": {
@@ -5318,7 +5381,33 @@
       "VGCL": "castellum"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:lc.10.38",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Lc.10,38-42#p2499",
+       "says": "suggests",
+       "summary": "Links Luke's two sisters with Martha and Mary of the Lazarus story, set at Bethany."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:anania",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BETANIA#1",
+       "says": "suggests",
+       "summary": "Bethany is probably the Benjaminite Ananiah resettled after the exile (Neh 11:32)."
+      }
+     ]
+    }
+   ]
   },
   "bplace:bethania.trans-iordanem": {
    "type": "place",
@@ -5675,6 +5764,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ier.48.22"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:elmondeblathaim",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ALMON-DIBLATAIM",
+       "says": "suggests",
+       "summary": "The camp is very probably the same as Beth-diblathaim of Jer 48:22."
+      },
+      {
+       "by": "tipnr:Diblathaim@Num.33.46-Jer",
+       "says": "identifies",
+       "summary": "One place for Almon-diblathaim and Beth-diblathaim."
+      }
+     ]
+    }
    ]
   },
   "bplace:betheced": {
@@ -6463,8 +6571,7 @@
     "btu:1par.6.44",
     "btu:2reg.14.13",
     "btu:2par.25.23",
-    "btu:2par.28.18",
-    "btu:ios.19.41"
+    "btu:2par.28.18"
    ],
    "relations": [],
    "qid": null,
@@ -6472,18 +6579,30 @@
    "evidence": [
     "ndeib:BET-SEMES#1"
    ],
-   "labels": {
-    "btu:ios.19.41": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Ir-Semes",
-      "DRB": "Hirsemes",
-      "NABRE": "Ir-shemesh",
-      "NVBSE": "Hirsemes",
-      "VGCL": "Hirsemes"
-     }
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.19.41",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BET-SEMES#1",
+       "says": "suggests",
+       "summary": "Ir-shemesh of Josh 19:41 is probably Beth-shemesh."
+      },
+      {
+       "by": "ndeib:CHERES#1",
+       "says": "suggests",
+       "summary": "Mount Heres is probably Ir-shemesh, also called Beth-shemesh."
+      },
+      {
+       "by": "tipnr:Beth-shemesh@Jos.15.10-2Ch",
+       "says": "identifies",
+       "summary": "Spells Beth-shemesh as Ir-shemesh at Josh 19:41."
+      }
+     ]
     }
-   }
+   ]
   },
   "bplace:bethsames.nephthali": {
    "type": "place",
@@ -7724,6 +7843,35 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:KAFTOR"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:creta",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Ger.47,4#p1987",
+       "says": "identifies",
+       "summary": "The island of Caphtor is Crete, the Philistines' supposed homeland."
+      },
+      {
+       "by": "bj:note:Dt.2,23#p385",
+       "says": "suggests",
+       "summary": "The Caphtorim are the Philistines, who came from Crete or Asia Minor."
+      },
+      {
+       "by": "ndeib:CRETA",
+       "says": "suggests",
+       "summary": "Crete is usually held to be the Caphtor of the Old Testament."
+      },
+      {
+       "by": "ndeib:KAFTOR",
+       "says": "suggests",
+       "summary": "The people of Caphtor very probably came from Crete."
+      }
+     ]
+    }
    ]
   },
   "bplace:cappadocia": {
@@ -8039,6 +8187,20 @@
    "evidence": [
     "nv:btu:ier.48.24",
     "nv:btu:am.2.2"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cariathaim.ruben",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Kiriathaim@Gen.14.5-Amo",
+       "says": "identifies",
+       "summary": "Puts Kerioth of Jer 48:24 and Am 2:2 under Kiriathaim."
+      }
+     ]
+    }
    ]
   },
   "bplace:carmel.iudae": {
@@ -8240,6 +8402,30 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KATTAT"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cetron",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:KATTAT",
+       "says": "suggests",
+       "summary": "Mentions that some take Kattath for the Kitron of Judg 1:30."
+      },
+      {
+       "by": "ndeib:KITRON#0",
+       "says": "doubts",
+       "summary": "Calls the identification of Kitron with Kattath improbable."
+      },
+      {
+       "by": "tipnr:Kitron@Jos.19.15-Jdg",
+       "says": "identifies",
+       "summary": "One record holds Kattath of Josh 19:15 and Kitron of Judg 1:30."
+      }
+     ]
+    }
    ]
   },
   "bplace:cauda": {
@@ -8536,8 +8722,7 @@
     "en": "place on Zebulun's border near Tabor"
    },
    "attested": [
-    "btu:ios.19.12",
-    "btu:ios.19.18"
+    "btu:ios.19.12"
    ],
    "relations": [],
    "qid": null,
@@ -8545,18 +8730,25 @@
    "evidence": [
     "ndeib:CHISLOT"
    ],
-   "labels": {
-    "btu:ios.19.18": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Chesullòt",
-      "DRB": "Casaloth",
-      "NABRE": "Chesulloth",
-      "NVBSE": "Chasaloth",
-      "VGCL": "Casaloth"
-     }
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.19.18",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHISLOT",
+       "says": "identifies",
+       "summary": "Equates Chisloth-tabor on Zebulun's border with the Chesulloth of Issachar's list."
+      },
+      {
+       "by": "tipnr:Chesulloth@Jos.19.12-1Ch",
+       "says": "identifies",
+       "summary": "Files Josh 19:18's Chesulloth under the same place as Chisloth-tabor."
+      }
+     ]
     }
-   }
+   ]
   },
   "bplace:cesil": {
    "type": "place",
@@ -10898,6 +11090,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CHELAM"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1mac.5.26",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHELAM",
+       "says": "suggests",
+       "summary": "Reports attempts to connect Helam with the Alema of 1 Mac 5:26."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ez.47.16",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHELAM",
+       "says": "suggests",
+       "summary": "The Septuagint's place-name Eliam in Ez 47:16 has suggested Helam on the Damascus-Hamath border."
+      }
+     ]
+    }
    ]
   },
   "bplace:elcos": {
@@ -11087,6 +11305,25 @@
     "ndeib:ALMON-DIBLATAIM",
     "nv:btu:nm.33.46",
     "nv:btu:nm.33.47"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:bethdeblathaim",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ALMON-DIBLATAIM",
+       "says": "suggests",
+       "summary": "The camp Almon-diblathaim is probably the same as Beth-diblathaim (Jer 48:22)."
+      },
+      {
+       "by": "tipnr:Diblathaim@Num.33.46-Jer",
+       "says": "identifies",
+       "summary": "One record joins Almon-diblathaim and Beth-diblathaim."
+      }
+     ]
+    }
    ]
   },
   "bplace:elon": {
@@ -11274,7 +11511,26 @@
       "VGCL": "castello"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:mosa",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:MOZA#3",
+       "says": "suggests",
+       "summary": "Notes that some identify the Mozah settlement, surviving into Talmudic times, with Emmaus."
+      },
+      {
+       "by": "ndeib:EMMAUS",
+       "says": "suggests",
+       "summary": "Reports scholars placing Emmaus near Qaloniya by Moza, which it equates with the Mozah of Josh 18:26."
+      }
+     ]
+    }
+   ]
   },
   "bplace:emmer": {
    "type": "place",
@@ -11344,6 +11600,20 @@
    "evidence": [
     "nv:btu:gn.38.14",
     "nv:btu:gn.38.21"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:enaim.sephela",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Same name, and the Shephelah Enam lies in the Timnah region of Gen 38; a lead only."
+      }
+     ]
+    }
    ]
   },
   "bplace:enasor": {
@@ -11746,21 +12016,32 @@
    "attested": [
     "btu:2par.13.19"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:ephraim.oppidum",
-     "evidence": [
-      "ndeib:EFRON"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EFRON"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:ephraim.oppidum",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:EFRON",
+       "says": "identifies",
+       "summary": "The Ephron near Bethel is identified with Ophrah and with the Ephraim of 2 Sam 13:23."
+      },
+      {
+       "by": "ndeib:EFRAIM (LOCALITÀ)",
+       "says": "identifies",
+       "summary": "Ephraim near Baal-hazor and Ephron near Bethel are, it says, one place."
+      }
+     ]
+    }
+   ]
   },
   "bplace:ephron.galaad": {
    "type": "place",
@@ -12144,6 +12425,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ios.19.7"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:ether",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Ether@Jos.15.42-",
+       "says": "identifies",
+       "summary": "One Ether for Judah's town (Josh 15:42) and Simeon's (Josh 19:7)."
+      }
+     ]
+    }
    ]
   },
   "bplace:ether": {
@@ -12284,7 +12579,21 @@
       "VGCL": "aquas"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1sam.29.1",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CAROD",
+       "says": "suggests",
+       "summary": "Saul probably also camped at the spring of Harod before Gilboa (1 Sam 29:1)."
+      }
+     ]
+    }
+   ]
   },
   "bplace:fons-iacob": {
    "type": "place",
@@ -12357,6 +12666,20 @@
    "evidence": [
     "ndeib:EN-ROGHEL",
     "ndeib:ROGHEL"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:fons-draconis",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ROGHEL",
+       "says": "doubts",
+       "summary": "Mentions that En-rogel is sometimes taken for the Dragon Spring, but Neh 2:13 seems to keep them apart."
+      }
+     ]
+    }
    ]
   },
   "bplace:fons-solis": {
@@ -12438,6 +12761,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1sam.10.5"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:gabaa.saul",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:1Sam.10,5#p587",
+       "says": "identifies",
+       "summary": "Gibeath-elohim is another name for Gibeah, Saul's home town."
+      },
+      {
+       "by": "tipnr:Gibeah@Jos.18.28-Hos",
+       "says": "identifies",
+       "summary": "Counts 1 Sam 10:5 under Gibeah of Saul."
+      }
+     ]
+    }
    ]
   },
   "bplace:gabaa.geba": {
@@ -13472,6 +13814,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GHEDOR"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:bethgader",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GHEDOR",
+       "says": "suggests",
+       "summary": "Gedor in Judah's hill country may be the Beth-gader of 1 Chr 2:51."
+      }
+     ]
+    }
    ]
   },
   "bplace:gedor.simeon": {
@@ -15017,7 +15373,38 @@
    "evidence": [
     "ndeib:CHERES#1"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.19.41",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHERES#1",
+       "says": "suggests",
+       "summary": "Har-heres is probably the Ir-shemesh of Josh 19:41."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:bethsames.iudae",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHERES#1",
+       "says": "suggests",
+       "summary": "Har-heres of Judg 1:35 is probably Ir-shemesh, also called Beth-shemesh (Josh 15:10)."
+      },
+      {
+       "by": "tipnr:Beth-shemesh@Jos.15.10-2Ch",
+       "says": "identifies",
+       "summary": "Files Mount Heres of Judg 1:35 under Beth-shemesh."
+      }
+     ]
+    }
+   ]
   },
   "bplace:havoth-iair": {
    "type": "place",
@@ -15360,7 +15747,38 @@
       "NVBSE": "Sarion"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:mc.9.2",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ERMON",
+       "says": "suggests",
+       "summary": "The 'high mountain' of the Transfiguration could be Hermon, as the oldest tradition seems to hold."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:mt.17.1",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ERMON",
+       "says": "suggests",
+       "summary": "The 'high mountain' of the Transfiguration could be Hermon, as the oldest tradition seems to hold."
+      },
+      {
+       "by": "bj:note:Mt.17,1-8#p2390",
+       "says": "suggests",
+       "summary": "Mentions Hermon as some scholars' choice, against the traditional Tabor; the mountain is chiefly symbolic."
+      }
+     ]
+    }
+   ]
   },
   "bplace:hesebon": {
    "type": "place",
@@ -15589,6 +16007,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SPAGNA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:tharsis",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SPAGNA",
+       "says": "suggests",
+       "summary": "Tarshish is very probably Tartessos in south-western Spain."
+      },
+      {
+       "by": "ndeib:TARSIS#4",
+       "says": "suggests",
+       "summary": "Tarshish is often placed in the western Mediterranean and identified with Spanish Tartessos."
+      }
+     ]
+    }
    ]
   },
   "bplace:hoba": {
@@ -17609,6 +18046,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IESUA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:sama",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:IESUA",
+       "says": "identifies",
+       "summary": "Jeshua of Neh 11:26 is the town elsewhere called Shema (Josh 15:26; Sheba in 19:2)."
+      }
+     ]
+    }
    ]
   },
   "bplace:ieteba": {
@@ -18219,6 +18670,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IUTTA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:lc.1.39",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:IUTTA",
+       "says": "doubts",
+       "summary": "Some placed John the Baptist's birth at Juttah; philologically unlikely and lacking any tradition."
+      }
+     ]
+    }
    ]
   },
   "bplace:kish": {
@@ -18262,6 +18727,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LABANO"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:lebna.castra",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:LIBNA#2",
+       "says": "suggests",
+       "summary": "Cross-refers Deut 1:1 under Libnah, the unidentified wilderness camp."
+      }
+     ]
+    }
    ]
   },
   "bplace:lachis": {
@@ -19276,6 +19755,37 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:mt.15.39"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:dalmanutha",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Magadan@Mat.15.39-Jhn",
+       "says": "identifies",
+       "summary": "Treats Dalmanutha of Mk 8:10 as the Magadan of Mt 15:39."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:magdala",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:DALMANUTA",
+       "says": "doubts",
+       "summary": "Reports the view that Magadan and Dalmanutha misspell Magdala, but that reading is rare and late."
+      },
+      {
+       "by": "tipnr:Magadan@Mat.15.39-Jhn",
+       "says": "identifies",
+       "summary": "Joins Magadan to Magdala, home of Mary Magdalene."
+      }
+     ]
+    }
    ]
   },
   "bplace:magdala": {
@@ -19300,6 +19810,52 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:MAGDALA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:dalmanutha",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:DALMANUTA",
+       "says": "doubts",
+       "summary": "Cites Jeremias's view that Dalmanutha corrupts Magdala, then favours explanations pointing to Capernaum."
+      },
+      {
+       "by": "ndeib:MAGDALA",
+       "says": "doubts",
+       "summary": "Mentions the reading of Dalmanutha as an altered Magdala, then proposes another site."
+      },
+      {
+       "by": "tipnr:Magadan@Mat.15.39-Jhn",
+       "says": "identifies",
+       "summary": "One record covers Magdala(ene), Magadan and Dalmanutha."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:magadan",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:MAGDALA",
+       "says": "doubts",
+       "summary": "Notes that Magadan has been read as a variant of Magdala, but offers another explanation."
+      },
+      {
+       "by": "ndeib:DALMANUTA",
+       "says": "doubts",
+       "summary": "Reports the view that Magadan is a corrupt Magdala; that reading is found only in late manuscripts."
+      },
+      {
+       "by": "tipnr:Magadan@Mat.15.39-Jhn",
+       "says": "identifies",
+       "summary": "Files Magdala(ene) under Magadan of Mt 15:39."
+      }
+     ]
+    }
    ]
   },
   "bplace:magdaleder": {
@@ -21343,7 +21899,26 @@
       "VGCL": "montis"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:mosera",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:COR#0",
+       "says": "identifies",
+       "summary": "The mountain where Aaron died is, it says, called Moserah elsewhere (Dt 10:6)."
+      },
+      {
+       "by": "ndeib:MOSERA, MOSEROT",
+       "says": "doubts",
+       "summary": "Treats Moserah as an unlocated camp, probably near Mount Hor rather than the mountain itself."
+      }
+     ]
+    }
+   ]
   },
   "bplace:mons-hor.libani": {
    "type": "place",
@@ -22951,6 +23526,47 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:OFRA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:ephraim.oppidum",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Gv.11,54#p2583",
+       "says": "identifies",
+       "summary": "Takes the Ephraim of Jn 11:54 and 2 Sam 13:23 to be Ophrah, today et-Taiyibeh."
+      },
+      {
+       "by": "ndeib:EFRAIM (LOCALITÀ)",
+       "says": "identifies",
+       "summary": "Ephraim is the same Benjaminite town as the Ophrah of Josh 18:23."
+      },
+      {
+       "by": "ndeib:OFRA",
+       "says": "doubts",
+       "summary": "Says it is not known whether Ophrah became the Ephraim of Jn 11:54."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:ephron.bethel",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:EFRON",
+       "says": "identifies",
+       "summary": "The Ephron near Bethel taken by Abijah is to be identified with Ophrah and Ephraim."
+      },
+      {
+       "by": "ndeib:OFRA",
+       "says": "identifies",
+       "summary": "Lists 2 Chr 13:19, written Ephron and read Ephraim, among Ophrah's mentions."
+      }
+     ]
+    }
    ]
   },
   "bplace:oronaim": {
@@ -24045,6 +24661,20 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:PUNON"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:nm.21.9",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:PUNON",
+       "says": "identifies",
+       "summary": "Places Moses' bronze serpent at Punon, as the Madaba mosaic does."
+      }
+     ]
+    }
    ]
   },
   "bplace:phison": {
@@ -24834,6 +25464,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:2reg.11.6"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:porta-fundamenti",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:FONDARE, FONDAMENTO#0",
+       "says": "suggests",
+       "summary": "Takes the gate in 2 Kgs 11:6 and in its parallel 2 Chr 23:5 as the same entrance."
+      }
+     ]
+    }
    ]
   },
   "bplace:porta-vallis": {
@@ -27868,7 +28512,21 @@
    "evidence": [
     "ndeib:ZEIRA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:sior",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZEIRA",
+       "says": "suggests",
+       "summary": "Since some Septuagint manuscripts read Zior, Zair could be the Zior of Josh 15:54."
+      }
+     ]
+    }
+   ]
   },
   "bplace:seira.ephraim": {
    "type": "place",
@@ -28318,6 +28976,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SEFARVAIM"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:sabarim.finium",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:SEFARVAIM",
+       "says": "doubts",
+       "summary": "Leaves Sepharvaim unidentified, citing Halévy alone for placing it at Sibraim near Damascus."
+      }
+     ]
+    }
    ]
   },
   "bplace:sephela.israel": {
@@ -28764,6 +29436,44 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SILOE"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:2reg.20.20",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:2Re.20,20#p778",
+       "says": "identifies",
+       "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:eccli.48.19",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:2Re.20,20#p778",
+       "says": "identifies",
+       "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:is.22.11",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:2Re.20,20#p778",
+       "says": "identifies",
+       "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+      }
+     ]
+    }
    ]
   },
   "bplace:sin.aegypti": {
@@ -30489,6 +31199,37 @@
     "ndeib:TABOR, MONTE",
     "nv:btu:idc.4.6",
     "nv:btu:ier.46.18"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:mc.9.2",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ERMON",
+       "says": "doubts",
+       "summary": "The earliest tradition pointed to Hermon; the Tabor location took hold only from the fourth century."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:mt.17.1",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Mt.17,1-8#p2390",
+       "says": "suggests",
+       "summary": "Tabor is the traditional mountain of the Transfiguration; others propose Hermon or Carmel."
+      },
+      {
+       "by": "ndeib:ERMON",
+       "says": "doubts",
+       "summary": "The earliest tradition pointed to Hermon; the Tabor location took hold only from the fourth century."
+      }
+     ]
+    }
    ]
   },
   "bplace:thabor.oppidum": {
@@ -30516,6 +31257,30 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TABOR (LOCALITÀ)"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:ceseleththabor",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:TABOR (LOCALITÀ)",
+       "says": "suggests",
+       "summary": "The Levitical Tabor of 1 Chr 6:62 is probably a short form of Chisloth-tabor; others locate it elsewhere."
+      },
+      {
+       "by": "ndeib:CHISLOT",
+       "says": "suggests",
+       "summary": "Perhaps the Tabor of 1 Chr 6:62 abbreviates Chisloth-tabor."
+      },
+      {
+       "by": "tipnr:Chesulloth@Jos.19.12-1Ch",
+       "says": "identifies",
+       "summary": "One record joins Chisloth-tabor, Chesulloth and the Tabor of 1 Chr 6."
+      }
+     ]
+    }
    ]
   },
   "bplace:thahath": {
@@ -30758,6 +31523,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:2reg.15.16"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:thapphua.ephraim",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:TAPPUACH",
+       "says": "suggests",
+       "summary": "Considers that 2 Kgs 15:16, Tappuah in the Greek, may mean this Ephraimite town."
+      },
+      {
+       "by": "bj:note:2Re.15,16#p764",
+       "says": "suggests",
+       "summary": "Finds the Euphrates city unlikely as Menahem's target and cites the Lucianic Greek reading Tappuah."
+      }
+     ]
+    }
    ]
   },
   "bplace:tharala": {
@@ -31214,6 +31998,25 @@
    "evidence": [
     "nv:btu:1par.4.28",
     "nv:btu:1par.4.29"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:eltholad",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:1Cr.4,24-43#p803",
+       "says": "suggests",
+       "summary": "The Simeonite towns of 1 Chr 4:28-33 are the ones Joshua lists among Judah's."
+      },
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "1 Chr 4:29 parallels Josh 19:4, where Eltolad stands in the same place."
+      }
+     ]
+    }
    ]
   },
   "bplace:thophel": {
@@ -31409,7 +32212,6 @@
    "attested": [
     "btu:gn.15.18",
     "btu:ios.13.3",
-    "btu:1par.13.5",
     "btu:nm.34.5",
     "btu:ios.15.4",
     "btu:ios.15.47",
@@ -31436,18 +32238,22 @@
       "NVBSE": "fluvio Sihor",
       "VGCL": "fluvio turbido"
      }
-    },
-    "btu:1par.13.5": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Sicor d'Egitto",
-      "DRB": "Sihor of Egypt",
-      "NABRE": "Shihor of Egypt",
-      "NVBSE": "Sihor Aegypti",
-      "VGCL": "Sihor Ægypti"
-     }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1par.13.5",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:TORRENTE D'EGITTO",
+       "says": "doubts",
+       "summary": "Whether Shihor, a Nile branch, coincides with the Wadi of Egypt is unsettled, with evidence against."
+      }
+     ]
+    }
+   ]
   },
   "bplace:torrens-arabae": {
    "type": "place",
@@ -32139,7 +32945,26 @@
    "evidence": [
     "ndeib:GIOSAFAT, VALLE DI G"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cedron",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:CEDRON",
+       "says": "doubts",
+       "summary": "Traces the equation to the Bordeaux pilgrim and Eusebius; if a real place, prefers the King's Valley."
+      },
+      {
+       "by": "ndeib:GIOSAFAT, VALLE DI G",
+       "says": "doubts",
+       "summary": "Reports the traditional equation with the Kidron, the objections to it, and rival proposals."
+      }
+     ]
+    }
+   ]
   },
   "bplace:vallis-multitudinis-gog": {
    "type": "place",

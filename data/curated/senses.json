@@ -15529,13 +15529,7 @@
      "en": "Ephron",
      "descr_it": "località presso Betel tolta da Abia a Geroboamo",
      "descr_en": "town near Bethel taken by Abijah from Jeroboam",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Efraim (località)",
-       "target_key": "EFRAIM (LOCALITÀ)"
-      }
-     ],
+     "relations": [],
      "certain": false
     },
     {

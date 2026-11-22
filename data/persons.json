@@ -1788,6 +1788,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ABITO"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1sam.14.49",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Abinadab@1Sa.14.49-1Ch",
+       "says": "identifies",
+       "summary": "Takes Ishvi of 1 Sam 14:49 as another name of Saul's son Abinadab."
+      }
+     ]
+    }
    ]
   },
   "bpers:abinoem": {
@@ -4123,6 +4137,25 @@
    "evidence": [
     "nv:btu:gn.36.2",
     "nv:btu:gn.36.10"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:basemath.elon-filia",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "tipnr:Adah@Gen.26.34-",
+       "says": "identifies",
+       "summary": "Takes Basemath daughter of Elon (Gen 26:34) as another name of Adah."
+      },
+      {
+       "by": "ndeib:BASEMAT",
+       "says": "doubts",
+       "summary": "The lists of Esau's wives conflict and are hard to reconcile."
+      }
+     ]
+    }
    ]
   },
   "bpers:ada.uxor-lamech": {
@@ -5125,6 +5158,20 @@
    "qid_status": "auto",
    "evidence": [
     "nv:btu:lc.3.33"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:aram.esrom-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Ram@Rut.4.19-Luk",
+       "says": "identifies",
+       "summary": "Treats Admin of Lk 3:33 as Ram son of Hezron."
+      }
+     ]
+    }
    ]
   },
   "bpers:adonia.signator-foederis": {
@@ -5486,6 +5533,20 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:AGABO"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:lc.10.1",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:AGABO",
+       "says": "suggests",
+       "summary": "Later traditions count Agabus among the seventy disciples."
+      }
+     ]
+    }
    ]
   },
   "bpers:agag.in-oraculo-balaam": {
@@ -5508,6 +5569,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:nm.24.7"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:agag.rex-amalec",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Nm.24,7a#p356",
+       "says": "suggests",
+       "summary": "Refers Balaam's oracle to Saul, victor over Agag the Amalekite king, and to David."
+      }
+     ]
+    }
    ]
   },
   "bpers:agag.rex-amalec": {
@@ -6344,6 +6419,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1reg.4.12"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ahilud.pater-iosaphat",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BAANA",
+       "says": "identifies",
+       "summary": "Makes Baana son of Ahilud the brother of the recorder Jehoshaphat."
+      },
+      {
+       "by": "tipnr:Ahilud@2Sa.8.16-1Ch",
+       "says": "identifies",
+       "summary": "One Ahilud, father of both Jehoshaphat and Baana."
+      }
+     ]
+    }
    ]
   },
   "bpers:ahilud.pater-iosaphat": {
@@ -7128,6 +7222,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.3.12"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:alohes.signator",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Hallohesh@Neh.3.12-",
+       "says": "identifies",
+       "summary": "One Hallohesh for Shallum's father and the covenant signer."
+      }
+     ]
+    }
    ]
   },
   "bpers:alohes.signator": {
@@ -7175,6 +7283,30 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ALFEO#2"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:cleopas",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ALFEO#2",
+       "says": "rejects",
+       "summary": "Sees no reason to identify Alphaeus with Cleopas or Clopas; calls the equation groundless."
+      },
+      {
+       "by": "ndeib:CLEOPA",
+       "says": "rejects",
+       "summary": "The names render different Semitic forms, so equating Clopas with Alphaeus is philologically unacceptable."
+      },
+      {
+       "by": "tipnr:Alphaeus@Mat.10.3-Act",
+       "says": "identifies",
+       "summary": "Files Cleopas of Lk 24:18 under Alphaeus, father of James."
+      }
+     ]
+    }
    ]
   },
   "bpers:alphaeus.pater-levi": {
@@ -11767,6 +11899,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:lc.3.33"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:aram.esrom-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Ram@Rut.4.19-Luk",
+       "says": "identifies",
+       "summary": "Treats Arni of Lk 3:33 as Ram son of Hezron."
+      }
+     ]
+    }
    ]
   },
   "bpers:arodi": {
@@ -13826,6 +13972,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.7.7"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:azarias.signator",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Azariah@Neh.7.7-",
+       "says": "identifies",
+       "summary": "Joins the returnee of Neh 7:7 to the covenant signer and procession member."
+      }
+     ]
+    }
    ]
   },
   "bpers:azarias.dedicatio-muri": {
@@ -14244,6 +14404,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ier.43.2"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iezonias.osaiae-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Ger.42,1#p1978",
+       "says": "identifies",
+       "summary": "Reads Azariah at Jer 42:1 with the Greek and 43:2 for the Hebrew Jezaniah."
+      },
+      {
+       "by": "tipnr:Jezaniah@2Ki.25.23-Jer",
+       "says": "identifies",
+       "summary": "One son of Hoshaiah for Jer 40:8, 42:1 and 43:2."
+      }
+     ]
+    }
    ]
   },
   "bpers:azarias.pontifex-ezechiae": {
@@ -14359,6 +14538,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.10.3"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:azarias.dedicatio-muri",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:AZARIA",
+       "says": "identifies",
+       "summary": "Treats the priest who sealed the covenant and the Azariah of the wall procession as one."
+      },
+      {
+       "by": "tipnr:Azariah@Neh.7.7-",
+       "says": "identifies",
+       "summary": "One Azariah for Neh 7:7, the covenant signer and the procession member."
+      }
+     ]
+    }
    ]
   },
   "bpers:azarias.sophoniae-filius": {
@@ -15881,6 +16079,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.27.34"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:banaias.ioiadae-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Jehoiada son of Benaiah may descend from, or be a transposed form of, Benaiah son of Jehoiada; unsettled."
+      }
+     ]
+    }
    ]
   },
   "bpers:banaias.pater-pheltiae": {
@@ -17023,6 +17235,25 @@
     "nv:btu:gn.28.9",
     "nv:btu:gn.36.3",
     "nv:btu:gn.36.4"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:mahalath.ismaelis-filia",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "tipnr:Mahalath@Gen.28.9-",
+       "says": "identifies",
+       "summary": "Takes Basemath daughter of Ishmael (Gen 36:3) as Mahalath of Gen 28:9."
+      },
+      {
+       "by": "ndeib:BASEMAT",
+       "says": "doubts",
+       "summary": "The lists of Esau's wives conflict and are hard to reconcile."
+      }
+     ]
+    }
    ]
   },
   "bpers:basemath.salomonis-filia": {
@@ -17162,6 +17393,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.3.18"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:bennui.henadad-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Both are sons of Henadad repairing the wall in Neh 3; some versions read Binnui at 3:18."
+      }
+     ]
+    }
    ]
   },
   "bpers:bazatha": {
@@ -17234,6 +17479,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.12.9"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:becbecia.levita-nehemiae",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Bakbukiah@Neh.11.17-",
+       "says": "identifies",
+       "summary": "One Bakbukiah for Neh 11:17, 12:9 and 12:25."
+      }
+     ]
+    }
    ]
   },
   "bpers:becbecia.levita-nehemiae": {
@@ -18137,6 +18396,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BENIAMINO"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:beniamin.dedicatio-muri",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BENIAMINO",
+       "says": "suggests",
+       "summary": "The Benjamin with a foreign wife may be the Benjamin of the wall dedication, Neh 12:34."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:beniamin.restaurator-muri",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BENIAMINO",
+       "says": "suggests",
+       "summary": "The Benjamin with a foreign wife may be the wall builder of Neh 3:23."
+      }
+     ]
+    }
    ]
   },
   "bpers:beniamin.dedicatio-muri": {
@@ -20373,6 +20658,20 @@
    "evidence": [
     "nv:btu:ne.8.7",
     "nv:btu:ne.10.11"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:celaia",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Ezra 10:23 gives Kelaiah the second name Kelita, also a Levite in Neh 8:7; a lead."
+      }
+     ]
+    }
    ]
   },
   "bpers:cenez.filius-ela": {
@@ -21567,6 +21866,32 @@
     "ndeib:HURRITI",
     "nv:btu:gn.36.20",
     "nv:btu:dt.2.12"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:gn.34.2",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:HURRITI",
+       "says": "suggests",
+       "summary": "Following the Septuagint, Horites also lived at Shechem and near Gilgal (Gn 34:2; Josh 9:6-7)."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.9.7",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:HURRITI",
+       "says": "suggests",
+       "summary": "Following the Septuagint, Horites also lived at Shechem and near Gilgal (Gn 34:2; Josh 9:6-7)."
+      }
+     ]
+    }
    ]
   },
   "bpers:chus.beniaminita": {
@@ -25775,7 +26100,6 @@
    },
    "attested": [
     "btu:2par.11.18",
-    "btu:1par.27.18",
     "btu:1sam.16.6"
    ],
    "relations": [
@@ -26244,7 +26568,21 @@
       "VGCL": "Ammiel"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:eliam.achitophel-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BETSABEA",
+       "says": "suggests",
+       "summary": "Allows that Bathsheba's father Eliam is David's warrior, which would make her Ahithophel's granddaughter."
+      }
+     ]
+    }
+   ]
   },
   "bpers:elias.thesbites": {
    "type": "person",
@@ -28516,7 +28854,21 @@
    "evidence": [
     "ndeib:ELIU"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:eliab.isai-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ELIU",
+       "says": "suggests",
+       "summary": "Takes the Judahite leader Elihu, David's brother or near kin, to be perhaps Eliab of 1 Sam 16:6."
+      }
+     ]
+    }
+   ]
   },
   "bpers:eliu.samuelis-atavus": {
    "type": "person",
@@ -28732,6 +29084,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:2reg.24.8"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:elnathan.achobor-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Both are Jerusalem notables of Jehoiakim's time; a lead, the text does not join them."
+      }
+     ]
+    }
    ]
   },
   "bpers:elon.hetthaeus": {
@@ -29006,6 +29372,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ier.20.1"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:emmer.classis-sacerdotalis",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Immer@1Ch.24.14-Jer",
+       "says": "identifies",
+       "summary": "Joins Pashhur's father Immer to the ancestor of the sixteenth priestly course."
+      }
+     ]
+    }
    ]
   },
   "bpers:emmer.pater-sadoc": {
@@ -29893,6 +30273,20 @@
    "evidence": [
     "nv:btu:ne.12.33",
     "nv:btu:ne.12.36"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:esdras.sacerdos-reditus",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Ezra@Neh.12.1-",
+       "says": "identifies",
+       "summary": "Joins the Ezra of the wall procession to the priest returning with Zerubbabel."
+      }
+     ]
+    }
    ]
   },
   "bpers:esdras.sacerdos-reditus": {
@@ -30776,6 +31170,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:soph.1.1"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ezechias.rex",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "An unusually long pedigree ending in Hezekiah may point to the king; the verse does not say."
+      }
+     ]
+    }
    ]
   },
   "bpers:ezechias.ater": {
@@ -31838,6 +32246,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GAIO#3"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:titius-iustus",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GAIO#3",
+       "says": "suggests",
+       "summary": "Reports renewed support for Ramsay's guess that Gaius was the first name of Titius Justus."
+      }
+     ]
+    }
    ]
   },
   "bpers:gaius.derbeus": {
@@ -32575,6 +32997,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.10.7"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:genthon.sacerdos",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Ginnethon@Neh.10.6-",
+       "says": "identifies",
+       "summary": "One Ginnethon for the covenant signer and the priest of Neh 12:4 and 12:16."
+      }
+     ]
+    }
    ]
   },
   "bpers:genubath": {
@@ -38151,6 +38587,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.7.12"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:urai",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Both are Benjaminites of Bela's line in 1 Chr 7; the names are close; a lead only."
+      }
+     ]
+    }
    ]
   },
   "bpers:hir.chaleb-filius": {
@@ -38475,6 +38925,20 @@
    "evidence": [
     "nv:btu:ne.10.10",
     "nv:btu:ne.10.11"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:hodia.levita-esdrae",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Hodiah@Neh.8.7-",
+       "says": "identifies",
+       "summary": "Joins the Levite signer Hodiah to the Levite of Neh 8:7 and 9:5."
+      }
+     ]
+    }
    ]
   },
   "bpers:hodia.levita-foederis-alter": {
@@ -38995,6 +39459,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.7.12"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:huphim.beniamin-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Shuppim and Huppim in 1 Chr 7:12 echo Muppim and Huppim among Benjamin's sons in Gen 46:21."
+      }
+     ]
+    }
    ]
   },
   "bpers:hur.aaronis-socius": {
@@ -39575,6 +40053,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.9.10"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iachin.sacerdos-classis",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "1 Chr 9:10 lists Jachin beside Jedaiah and Jehoiarib, all names of priestly courses; a lead."
+      }
+     ]
+    }
    ]
   },
   "bpers:iachin.simeonis-filius": {
@@ -41386,7 +41878,31 @@
       "VGCL": "regi ultori"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:theglathphalasar",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Os.5,13#p2188",
+       "says": "identifies",
+       "summary": "Emends to 'the great king' and refers the verse to the tribute Menahem and Ahaz paid Tiglath-pileser III."
+      },
+      {
+       "by": "ndeib:IAREB",
+       "says": "suggests",
+       "summary": "Read as a personal name it could be Tiglath-pileser III; more likely a royal title."
+      },
+      {
+       "by": "tipnr:Tiglath-pileser@2Ki.15.19-Hos",
+       "says": "identifies",
+       "summary": "Files the 'great king' of Hosea 5:13 and 10:6 under Tiglath-pileser."
+      }
+     ]
+    }
+   ]
   },
   "bpers:iared.malaleel-filius": {
    "type": "person",
@@ -44259,6 +44775,20 @@
    "evidence": [
     "nv:btu:1par.26.31",
     "nv:btu:1par.26.32"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ieriau",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Both head the Hebronites under David, under nearly the same name; a strong lead."
+      }
+     ]
+    }
    ]
   },
   "bpers:ierias": {
@@ -48354,6 +48884,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IETER"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iethran.aserita",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:IETER",
+       "says": "identifies",
+       "summary": "The Asherite Jether of 1 Chr 7:38 is plainly Ithran son of Zophah of 7:37."
+      },
+      {
+       "by": "tipnr:Ithran@1Ch.7.37-",
+       "says": "identifies",
+       "summary": "One Ithran for 1 Chr 7:37 and 7:38."
+      }
+     ]
+    }
    ]
   },
   "bpers:iether.ezra-filius": {
@@ -48911,6 +49460,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ier.42.1"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iezonias.maachathi-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Ger.42,1#p1978",
+       "says": "suggests",
+       "summary": "The leader of Jer 42:1 should probably be taken as the Jezaniah of Jer 40:8."
+      },
+      {
+       "by": "tipnr:Jezaniah@2Ki.25.23-Jer",
+       "says": "identifies",
+       "summary": "One Jezaniah for 2 Kgs 25:23, Jer 40:8, 42:1 and 43:2."
+      }
+     ]
+    }
    ]
   },
   "bpers:iezonias.saphan-filius": {
@@ -50096,7 +50664,94 @@
       "VGCL": "filiorum Zebedæi"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.13.23",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+       "says": "doubts",
+       "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+      },
+      {
+       "by": "ndeib:GIOVANNI, APOSTOLO#2",
+       "says": "suggests",
+       "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.19.26",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+       "says": "doubts",
+       "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+      },
+      {
+       "by": "ndeib:GIOVANNI, APOSTOLO#2",
+       "says": "suggests",
+       "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.20.2",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+       "says": "doubts",
+       "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+      },
+      {
+       "by": "ndeib:GIOVANNI, APOSTOLO#2",
+       "says": "suggests",
+       "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.21.20",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+       "says": "doubts",
+       "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+      },
+      {
+       "by": "ndeib:GIOVANNI, APOSTOLO#2",
+       "says": "suggests",
+       "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.21.7",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+       "says": "doubts",
+       "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+      },
+      {
+       "by": "ndeib:GIOVANNI, APOSTOLO#2",
+       "says": "suggests",
+       "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+      }
+     ]
+    }
+   ]
   },
   "bpers:ioannes.de-genere-sacerdotali": {
    "type": "person",
@@ -51004,6 +51659,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.5.8"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ioel.pater-semeiae",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SEMAIA",
+       "says": "suggests",
+       "summary": "Equates Shema son of Joel with Shemaiah son of Joel, which makes the two Reubenite Joels one."
+      }
+     ]
+    }
    ]
   },
   "bpers:ioel.azariae-filius": {
@@ -54620,6 +55289,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.8.7"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iozabad.filius-iesua",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:IOZABAD",
+       "says": "doubts",
+       "summary": "Cannot say whether the Jozabad of Neh 8:7 differs from the son of Jeshua."
+      }
+     ]
+    }
    ]
   },
   "bpers:iozabad.dux-iosaphat": {
@@ -54708,6 +55391,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:esd.10.23"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iozabad.filius-iesua",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:IOZABAD",
+       "says": "doubts",
+       "summary": "Other Levite Jozabads of Ezra's time are named, but whether they are different men cannot be settled."
+      }
+     ]
+    }
    ]
   },
   "bpers:iozabad.levites-ezechiae": {
@@ -54848,6 +55545,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.11.16"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iozabad.filius-iesua",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:IOZABAD",
+       "says": "doubts",
+       "summary": "Cannot say whether the Jozabad of Neh 11:16 differs from the son of Jeshua."
+      }
+     ]
+    }
    ]
   },
   "bpers:iozabad.sacerdos": {
@@ -55362,6 +56073,37 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ISAIA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:2reg.21.16",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:2Re.21,16a#p779",
+       "says": "suggests",
+       "summary": "Jewish tradition counted Isaiah among the victims of Manasseh's bloodshed."
+      },
+      {
+       "by": "ndeib:ISAIA",
+       "says": "suggests",
+       "summary": "A later tradition has Isaiah killed under Manasseh, citing 2 Kgs 21:16."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:heb.11.37",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Eb.11,37#p2901",
+       "says": "suggests",
+       "summary": "Some apocrypha say Manasseh had Isaiah sawn in two."
+      }
+     ]
+    }
    ]
   },
   "bpers:isbaab": {
@@ -55421,6 +56163,30 @@
     "ndeib:IS-BAAL",
     "nv:btu:2sam.2.8",
     "nv:btu:2sam.2.10"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1sam.14.49",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:1Sam.14,49#p597",
+       "says": "identifies",
+       "summary": "Ishvi is the same son of Saul called Ishbaal and Ishbosheth elsewhere."
+      },
+      {
+       "by": "bj:note:2Sam.2,8#p633",
+       "says": "identifies",
+       "summary": "Ishbaal is sometimes called Ishvi (1 Sam 14:49), the same individual."
+      },
+      {
+       "by": "ndeib:IS-BAAL",
+       "says": "identifies",
+       "summary": "Saul's son is called by a corrupt form of his name in 1 Sam 14:49."
+      }
+     ]
+    }
    ]
   },
   "bpers:isimiel": {
@@ -56516,9 +57282,7 @@
     "en": "apostle, son of James, called Thaddaeus"
    },
    "attested": [
-    "btu:lc.6.16",
-    "btu:mt.10.3",
-    "btu:mc.3.18"
+    "btu:lc.6.16"
    ],
    "relations": [
     {
@@ -56534,29 +57298,7 @@
    "evidence": [
     "ndeib:GIUDA (NT)#2"
    ],
-   "review": "uncertain",
-   "labels": {
-    "btu:mt.10.3": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Taddeo",
-      "DRB": "Thaddeus",
-      "NABRE": "Thaddeus",
-      "NVBSE": "Thaddæus",
-      "VGCL": "Thaddæus"
-     }
-    },
-    "btu:mc.3.18": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Taddeo",
-      "DRB": "Thaddeus",
-      "NABRE": "Thaddeus",
-      "NVBSE": "Thaddæum",
-      "VGCL": "Thaddæum"
-     }
-    }
-   }
+   "review": "uncertain"
   },
   "bpers:iudas.ioseph-filius": {
    "type": "person",
@@ -57929,6 +58671,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:rom.16.21"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:lucas",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:LUCA NEL NUOVO TESTAMENTO",
+       "says": "suggests",
+       "summary": "Recalls Origen's guess that Lucius of Rom 16:21 is Luke's Latin name and thinks it may be right."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:lucius.cyrenensis",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Lucius@Act.13.1-Rom",
+       "says": "identifies",
+       "summary": "One record covers Lucius of Acts 13:1 and Lucius of Rom 16:21."
+      }
+     ]
+    }
    ]
   },
   "bpers:lucius.cyrenensis": {
@@ -58998,6 +59766,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.10.9"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:maadia.sacerdos-zorobabel",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Maaziah@Neh.10.8-",
+       "says": "identifies",
+       "summary": "Joins the priest signer Maaziah to the Maadiah of Neh 12:5 and 12:17."
+      }
+     ]
+    }
    ]
   },
   "bpers:maaziau": {
@@ -59788,6 +60570,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:2par.31.13"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:mahath.amasai-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "A Levite Mahath serving under Hezekiah in both chapters; a lead, not stated."
+      }
+     ]
+    }
    ]
   },
   "bpers:mahazioth": {
@@ -60181,6 +60977,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MANAEN"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.4.46",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:MANAEN",
+       "says": "suggests",
+       "summary": "Some identify Manaen with the royal official whose son Jesus healed (Jn 4:46-54)."
+      }
+     ]
+    }
    ]
   },
   "bpers:manahath": {
@@ -60743,6 +61553,20 @@
     "nv:btu:io.11.1",
     "nv:btu:io.11.2",
     "nv:btu:lc.10.39"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:maria.magdalene",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:MARIA",
+       "says": "rejects",
+       "summary": "Finds no good reason to identify Mary of Bethany with Mary Magdalene."
+      }
+     ]
+    }
    ]
   },
   "bpers:maria.cleophae": {
@@ -60765,6 +61589,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:io.19.25"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:maria.mater-iacobi",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:MARIA",
+       "says": "identifies",
+       "summary": "Mary of Clopas is fairly clearly the Mary mother of James of Mk 15:40."
+      },
+      {
+       "by": "tipnr:Mary@Mat.27.56-Jhn",
+       "says": "identifies",
+       "summary": "One Mary for the mother of James and Joses and Mary of Clopas."
+      }
+     ]
+    }
    ]
   },
   "bpers:maria.magdalene": {
@@ -63114,6 +63957,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:ne.10.5"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:melluch.sacerdos-zorobabel",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Malluch@Neh.10.4-",
+       "says": "identifies",
+       "summary": "Joins the priest signer to the Malluch of Neh 12:2 and 12:14."
+      }
+     ]
+    }
    ]
   },
   "bpers:melluch.sacerdos-zorobabel": {
@@ -63236,6 +64093,20 @@
    "evidence": [
     "nv:btu:1par.9.11",
     "nv:btu:ne.11.11"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:meraioth.zaraiae-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Meraioth@1Ch.6.6-Neh",
+       "says": "identifies",
+       "summary": "One Meraioth for 1 Chr 5:32-33 (EN 6:6-7), 9:11 and Neh 11:11."
+      }
+     ]
+    }
    ]
   },
   "bpers:meraioth.zaraiae-filius": {
@@ -63511,6 +64382,20 @@
    "evidence": [
     "nv:btu:ne.10.6",
     "nv:btu:ne.10.9"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:meremoth.uriae-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Meremoth@Ezr.8.33-Neh",
+       "says": "identifies",
+       "summary": "One Meremoth son of Uriah, also the priest signer and the returnee of Neh 12:3."
+      }
+     ]
+    }
    ]
   },
   "bpers:meremoth.uriae-filius": {
@@ -66715,6 +67600,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NAAMAN"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1reg.22.34",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:NAAMAN",
+       "says": "doubts",
+       "summary": "Only a Jewish legend in Josephus, attested nowhere else, makes Naaman the archer who killed Ahab."
+      }
+     ]
+    }
    ]
   },
   "bpers:naara": {
@@ -69112,6 +70011,25 @@
     "nv:btu:1par.9.35",
     "nv:btu:1par.9.36",
     "nv:btu:1par.9.39"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ner.pater-abner",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:1Cr.8,33-40#p812",
+       "says": "suggests",
+       "summary": "Compares this Ner, Kish's father, with Samuel's Ner, there Kish's brother, as one man differently placed."
+      },
+      {
+       "by": "tipnr:Ner@1Sa.14.50-1Ch",
+       "says": "identifies",
+       "summary": "Counts Ner son of Jeiel (1 Chr 9:36) as Abner's father."
+      }
+     ]
+    }
    ]
   },
   "bpers:ner.pater-abner": {
@@ -74820,6 +75738,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:esd.10.23"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:phethahia.levita-orans",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "A Levite Pethahiah of Ezra's time in both lists; a lead, not stated."
+      }
+     ]
+    }
    ]
   },
   "bpers:phethahia.levita-orans": {
@@ -78759,6 +79691,25 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:mc.15.21"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:rufus.electus",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Rm.16,13#p2748",
+       "says": "suggests",
+       "summary": "The Rufus greeted in Romans is perhaps the son of Simon of Cyrene."
+      },
+      {
+       "by": "bj:note:Mc.15,21#p2462",
+       "says": "suggests",
+       "summary": "Alexander and Rufus were perhaps known to the Roman church (cf. Rom 16:13)."
+      }
+     ]
+    }
    ]
   },
   "bpers:ruth": {
@@ -79843,6 +80794,42 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SALOME"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:io.19.25",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Gv.19,25#p2602",
+       "says": "suggests",
+       "summary": "The mother's sister may be Salome, or the phrase may describe Mary of Clopas."
+      },
+      {
+       "by": "ndeib:SALOME",
+       "says": "doubts",
+       "summary": "If the mother's sister is Salome, Zebedee's sons were Jesus' cousins; another reading is equally possible."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:mt.27.56",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Mc.15,40#p2463",
+       "says": "suggests",
+       "summary": "Mark's Salome is probably the woman Matthew calls mother of Zebedee's sons."
+      },
+      {
+       "by": "ndeib:SALOME",
+       "says": "suggests",
+       "summary": "The mother of Zebedee's sons is very probably Salome."
+      }
+     ]
+    }
    ]
   },
   "bpers:salome.herodiadis-filia": {
@@ -81252,7 +82239,21 @@
       "VGCL": "Sage"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:samma.ararites",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:GIONATA",
+       "says": "suggests",
+       "summary": "Reading 2 Sam 23:32-33 with the Greek, Jonathan the warrior is son of Shammah of Harar."
+      }
+     ]
+    }
+   ]
   },
   "bpers:samma.princeps-aialon": {
    "type": "person",
@@ -81274,6 +82275,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.8.13"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:semei.beniaminita",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SIMEI, SIMEITI",
+       "says": "suggests",
+       "summary": "The Benjaminite Shimei of 1 Chr 8:21 seems to be the Shema of 8:13."
+      }
+     ]
+    }
    ]
   },
   "bpers:samma.rubenita": {
@@ -81296,6 +82311,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:1par.5.8"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:semeia.rubenita",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SEMAIA",
+       "says": "suggests",
+       "summary": "Shema son of Joel (1 Chr 5:8) seems to be Shemaiah son of Joel (5:4)."
+      }
+     ]
+    }
    ]
   },
   "bpers:samma.supha-filius": {
@@ -87712,6 +88741,32 @@
    "evidence": [
     "nv:btu:ne.10.13",
     "nv:btu:ne.12.24"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:serebia.levita-esdrae",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Neh 12:24 pairs Sherebiah with Hashabiah, as Ezra 8:24 pairs Ezra's Sherebiah; a lead, unsettled."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:serebia.levita-zorobabel",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Sherebiah@Neh.10.12-",
+       "says": "identifies",
+       "summary": "One Sherebiah for the covenant signer and the Levite of Neh 12:8 and 12:24."
+      }
+     ]
+    }
    ]
   },
   "bpers:sereth": {
@@ -89693,8 +90748,7 @@
     "en": "son of Pyrrhus of Beroea, Paul's companion"
    },
    "attested": [
-    "btu:act.20.4",
-    "btu:rom.16.21"
+    "btu:act.20.4"
    ],
    "relations": [],
    "qid": "Q3567249",
@@ -89703,18 +90757,25 @@
     "ndeib:SOPATRO"
    ],
    "review": "uncertain",
-   "labels": {
-    "btu:rom.16.21": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "Sosípatro",
-      "DRB": "Sosipater",
-      "NABRE": "Sosipater",
-      "NVBSE": "Sosipater",
-      "VGCL": "Sosipater"
-     }
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:rom.16.21",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SOPATRO",
+       "says": "suggests",
+       "summary": "Sopater may well be the Sosipater of Rom 16:21, short and long forms of one name."
+      },
+      {
+       "by": "tipnr:Sopater@Act.20.4-Rom",
+       "says": "identifies",
+       "summary": "One record holds Sopater of Acts 20:4 and Sosipater of Rom 16:21."
+      }
+     ]
     }
-   }
+   ]
   },
   "bpers:sophar": {
    "type": "person",
@@ -89881,6 +90942,20 @@
    "evidence": [
     "nv:btu:2reg.25.18",
     "nv:btu:ier.52.24"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sophonias.maasiae-filius",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Zephaniah@2Ki.25.18-Jer",
+       "says": "identifies",
+       "summary": "One Zephaniah, the second priest and son of Maaseiah."
+      }
+     ]
+    }
    ]
   },
   "bpers:sori": {
@@ -90441,7 +91516,26 @@
     "ndeib:SULAMMITA",
     "nv:btu:ct.7.1"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:abisag",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Ct.7,1#p1523",
+       "says": "suggests",
+       "summary": "Reads the Shulammite as a symbolic name that alludes to Abishag the Shunammite."
+      },
+      {
+       "by": "ndeib:SULAMMITA",
+       "says": "suggests",
+       "summary": "Among several explanations, reports that some identify the Shulammite with Abishag of Shunem."
+      }
+     ]
+    }
+   ]
   },
   "bpers:sumathaei": {
    "type": "person",
@@ -90669,6 +91763,32 @@
    "qid_status": "unresolved",
    "evidence": [
     "nv:btu:nm.25.15"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:ios.13.21",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "Zur among Sihon's Midianite princes, the kings of Num 31:8; probably Cozbi's father, unstated."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:nm.31.8",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "reviewer:round2",
+       "says": "suggests",
+       "summary": "A Midianite king Zur dies with Evi, Rekem, Hur and Reba; the Zur of Num 25:15 heads a Midianite clan."
+      }
+     ]
+    }
    ]
   },
   "bpers:suriel": {
@@ -91388,18 +92508,7 @@
     "btu:lc.6.16",
     "btu:act.1.13"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:iudas.iacobi-filius",
-     "evidence": [
-      "nv:btu:mt.10.3",
-      "nv:btu:mc.3.18",
-      "nv:btu:lc.6.16",
-      "nv:btu:act.1.13"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": "Q43945",
    "qid_status": "auto",
    "evidence": [
@@ -91430,7 +92539,41 @@
       "VGCL": "Judas Jacobi"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iudas.iacobi-filius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "bj:note:Gv.14,22#p2592",
+       "says": "identifies",
+       "summary": "The Judas of Jn 14:22 is Luke's Judas of James, Matthew's and Mark's Thaddaeus."
+      },
+      {
+       "by": "bj:note:Mt.10,1#p2369",
+       "says": "suggests",
+       "summary": "Treats Thaddaeus as the same man as Luke's Judas of James, conditionally."
+      },
+      {
+       "by": "ndeib:TADDEO",
+       "says": "suggests",
+       "summary": "Thaddaeus is probably identical with Judas of James (Lk 6:16; Acts 1:13)."
+      },
+      {
+       "by": "ndeib:GIUDA (NT)#2",
+       "says": "identifies",
+       "summary": "Judas son of James, one of the Twelve, is also called Thaddaeus."
+      },
+      {
+       "by": "tipnr:Judas@Mat.10.3-Act",
+       "says": "identifies",
+       "summary": "Files Thaddaeus and Lebbaeus of Mt 10:3 and Mk 3:18 under Judas."
+      }
+     ]
+    }
+   ]
   },
   "bpers:thahath.bared-filius": {
    "type": "person",
@@ -92081,6 +93224,20 @@
    "evidence": [
     "nv:btu:2reg.18.13",
     "nv:btu:2reg.18.17"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:tharthan.sargonis",
+     "status": "unsupported",
+     "opinions": [
+      {
+       "by": "tipnr:Tartan@2Ki.18.17-Isa",
+       "says": "identifies",
+       "summary": "One Tartan for 2 Kgs 18:17 and Isa 20:1."
+      }
+     ]
+    }
    ]
   },
   "bpers:thathanai": {
@@ -95391,6 +96548,20 @@
    "evidence": [
     "nv:btu:ne.12.12",
     "nv:btu:ne.12.16"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:zacharias.filius-addo",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZACCARIA, LIBRO DI Z",
+       "says": "identifies",
+       "summary": "The prophet took his grandfather Iddo's place as head of that priestly house under Joiakim."
+      }
+     ]
+    }
    ]
   },
   "bpers:zacharias.filius-addo": {
@@ -96986,6 +98157,20 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ZENA"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:lc.10.1",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:ZENA",
+       "says": "suggests",
+       "summary": "Orthodox menologies list Zenas among the seventy of Lk 10:1."
+      }
+     ]
+    }
    ]
   },
   "bpers:zetham": {
@@ -97485,7 +98670,77 @@
       "VGCL": "duce Judæorum"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:esd.1.11",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ZOROBABELE",
+       "says": "rejects",
+       "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+      },
+      {
+       "by": "bj:note:Esd.3,2#p908",
+       "says": "rejects",
+       "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:esd.1.8",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ZOROBABELE",
+       "says": "rejects",
+       "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+      },
+      {
+       "by": "bj:note:Esd.3,2#p908",
+       "says": "rejects",
+       "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:esd.5.14",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ZOROBABELE",
+       "says": "rejects",
+       "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+      },
+      {
+       "by": "bj:note:Esd.3,2#p908",
+       "says": "rejects",
+       "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:esd.5.16",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:ZOROBABELE",
+       "says": "rejects",
+       "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+      },
+      {
+       "by": "bj:note:Esd.3,2#p908",
+       "says": "rejects",
+       "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+      }
+     ]
+    }
+   ]
   },
   "bpers:zuzim": {
    "type": "person",

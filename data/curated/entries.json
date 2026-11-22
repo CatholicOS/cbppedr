@@ -33471,18 +33471,6 @@
    ]
   },
   "bpers:thaddaeus": {
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:iudas.iacobi-filius",
-     "evidence": [
-      "nv:btu:mt.10.3",
-      "nv:btu:mc.3.18",
-      "nv:btu:lc.6.16",
-      "nv:btu:act.1.13"
-     ]
-    }
-   ],
    "evidence": [
     "nv:btu:mt.10.3",
     "nv:btu:mc.3.18",

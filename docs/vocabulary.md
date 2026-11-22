@@ -14,7 +14,7 @@ A catalog statement says **where an entry is** (its verses) or **who it is** (it
 
 A statement at a lower level never changes one at a higher level. Rule of the whole catalog: **better unidentified than misidentified.**
 
-40 of the 51 `same_as` links were taken from the dictionary's senses (round 1). They have not yet been checked against the text: a review should confirm that the dictionary states each one as fact; where it hedges, the link becomes a conjecture.
+39 of the 49 `same_as` links were taken from the dictionary's senses (round 1). They have not yet been checked against the text: a review should confirm that the dictionary states each one as fact; where it hedges, the link becomes a conjecture (as Thaddaeus = Judas son of James and Ephron = Ephraim already have).
 
 ## Identifiers
 
