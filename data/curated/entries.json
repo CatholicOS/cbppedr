@@ -1087,10 +1087,14 @@
    "descr_it": "figlio di Canaan, eponimo degli Ittiti",
    "descr_en": "son of Canaan, eponymous ancestor of the Hittites",
    "attested": [
-    "btu:1par.1.13"
+    "btu:1par.1.13",
+    "btu:gn.10.15",
+    "btu:gn.10.15"
    ],
    "evidence": [
-    "nv:btu:1par.1.13"
+    "nv:btu:1par.1.13",
+    "nv:btu:gn.10.15",
+    "nv:btu:gn.10.15"
    ],
    "relations": [
     {
@@ -2308,12 +2312,14 @@
     "btu:act.18.25",
     "btu:rom.16.23",
     "btu:2thess.2.8",
-    "btu:1pe.5.1"
+    "btu:1pe.5.1",
+    "btu:io.3.2"
    ],
    "evidence": [
     "nv:btu:mt.1.16",
     "nv:btu:lc.2.21",
-    "nv:btu:1cor.15.3"
+    "nv:btu:1cor.15.3",
+    "nv:btu:io.3.2"
    ]
   },
   "bpers:iob": {
@@ -5323,10 +5329,12 @@
    "descr_it": "luogo di Galaad, patria del profeta Elia",
    "descr_en": "place in Gilead, home of the prophet Elijah",
    "attested": [
-    "btu:1reg.17.1"
+    "btu:1reg.17.1",
+    "btu:tb.1.2"
    ],
    "evidence": [
-    "nv:btu:1reg.17.1"
+    "nv:btu:1reg.17.1",
+    "nv:btu:tb.1.2"
    ],
    "relations": [
     {
@@ -5359,6 +5367,867 @@
    "evidence": [
     "nv:btu:ios.15.8",
     "nv:btu:2sam.5.18"
+   ]
+  },
+  "bpers:asera": {
+   "attested": [
+    "btu:2par.15.16"
+   ],
+   "evidence": [
+    "nv:btu:2par.15.16"
+   ]
+  },
+  "bpers:baltassar": {
+   "attested": [
+    "btu:dn.4.5"
+   ],
+   "evidence": [
+    "nv:btu:dn.4.5"
+   ]
+  },
+  "bpers:cetthim": {
+   "attested": [
+    "btu:nm.24.24"
+   ],
+   "evidence": [
+    "nv:btu:nm.24.24"
+   ]
+  },
+  "bpers:elisaphan.oziel-filius": {
+   "attested": [
+    "btu:1par.15.8"
+   ],
+   "evidence": [
+    "nv:btu:1par.15.8"
+   ]
+  },
+  "bpers:heber.sale-filius": {
+   "attested": [
+    "btu:gn.11.14"
+   ],
+   "evidence": [
+    "nv:btu:gn.11.14"
+   ]
+  },
+  "bpers:iehu.rex-israel": {
+   "attested": [
+    "btu:2par.22.9",
+    "btu:2reg.10.1",
+    "btu:2reg.10.5",
+    "btu:2reg.10.6",
+    "btu:2reg.10.7",
+    "btu:2reg.10.11",
+    "btu:2reg.10.13",
+    "btu:2reg.10.15",
+    "btu:2reg.10.17",
+    "btu:2reg.10.18",
+    "btu:2reg.10.19",
+    "btu:2reg.10.20",
+    "btu:2reg.10.21",
+    "btu:2reg.10.22",
+    "btu:2reg.10.23",
+    "btu:2reg.10.24",
+    "btu:2reg.10.25",
+    "btu:2reg.10.28"
+   ],
+   "evidence": [
+    "nv:btu:2par.22.9",
+    "nv:btu:2reg.10.1",
+    "nv:btu:2reg.10.5"
+   ]
+  },
+  "bpers:phelethi": {
+   "attested": [
+    "btu:2sam.8.18",
+    "btu:2sam.15.18"
+   ],
+   "evidence": [
+    "nv:btu:2sam.8.18",
+    "nv:btu:2sam.15.18"
+   ]
+  },
+  "bpers:saraia.signator": {
+   "attested": [
+    "btu:ne.10.3"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.3"
+   ]
+  },
+  "bpers:zacharias.filius-hosa": {
+   "attested": [
+    "btu:1par.26.11"
+   ],
+   "evidence": [
+    "nv:btu:1par.26.11"
+   ]
+  },
+  "bplace:basan": {
+   "attested": [
+    "btu:ez.27.6"
+   ],
+   "evidence": [
+    "nv:btu:ez.27.6"
+   ]
+  },
+  "bplace:gad.terra": {
+   "attested": [
+    "btu:2reg.10.33"
+   ],
+   "evidence": [
+    "nv:btu:2reg.10.33"
+   ]
+  },
+  "bplace:sarepta": {
+   "attested": [
+    "btu:1reg.17.10"
+   ],
+   "evidence": [
+    "nv:btu:1reg.17.10"
+   ]
+  },
+  "bplace:cilicia": {
+   "attested": [
+    "btu:act.6.9"
+   ],
+   "evidence": [
+    "nv:btu:act.6.9"
+   ]
+  },
+  "bpers:satanas": {
+   "attested": [
+    "btu:1cor.5.5",
+    "btu:1tim.1.20",
+    "btu:mc.3.26",
+    "btu:mt.12.26",
+    "btu:mc.3.23"
+   ],
+   "evidence": [
+    "nv:btu:1cor.5.5",
+    "nv:btu:1tim.1.20",
+    "nv:btu:mc.3.26"
+   ]
+  },
+  "bpers:elias.thesbites": {
+   "attested": [
+    "btu:1reg.17.13",
+    "btu:1reg.17.15",
+    "btu:1reg.17.16"
+   ],
+   "evidence": [
+    "nv:btu:1reg.17.13",
+    "nv:btu:1reg.17.15",
+    "nv:btu:1reg.17.16"
+   ]
+  },
+  "bpers:nathan.propheta": {
+   "attested": [
+    "btu:2sam.7.2",
+    "btu:2sam.7.3",
+    "btu:2sam.7.4"
+   ],
+   "evidence": [
+    "nv:btu:2sam.7.2",
+    "nv:btu:2sam.7.3",
+    "nv:btu:2sam.7.4"
+   ]
+  },
+  "bpers:adad.idumaeus": {
+   "attested": [
+    "btu:1reg.11.14",
+    "btu:1reg.11.17",
+    "btu:1reg.11.18",
+    "btu:1reg.11.19",
+    "btu:1reg.11.20",
+    "btu:1reg.11.21",
+    "btu:1reg.11.14"
+   ],
+   "evidence": [
+    "nv:btu:1reg.11.14",
+    "nv:btu:1reg.11.17",
+    "nv:btu:1reg.11.18"
+   ]
+  },
+  "bpers:urias.hetthaeus": {
+   "attested": [
+    "btu:2sam.23.39"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.39"
+   ]
+  },
+  "bplace:mageddo": {
+   "attested": [
+    "btu:zach.12.11"
+   ],
+   "evidence": [
+    "nv:btu:zach.12.11"
+   ]
+  },
+  "bplace:pharathon": {
+   "attested": [
+    "btu:2sam.23.30"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.30"
+   ]
+  },
+  "bpers:cenez.nepos-esau": {
+   "attested": [
+    "btu:1par.1.36",
+    "btu:1par.1.53"
+   ],
+   "evidence": [
+    "nv:btu:1par.1.36",
+    "nv:btu:1par.1.53"
+   ]
+  },
+  "bplace:elam": {
+   "attested": [
+    "btu:ier.25.25"
+   ],
+   "evidence": [
+    "nv:btu:ier.25.25"
+   ]
+  },
+  "bpers:elamitae": {
+   "attested": [
+    "btu:is.22.6"
+   ],
+   "evidence": [
+    "nv:btu:is.22.6"
+   ]
+  },
+  "bpers:eliab.isai-filius": {
+   "attested": [
+    "btu:1sam.16.6"
+   ],
+   "evidence": [
+    "nv:btu:1sam.16.6"
+   ]
+  },
+  "bpers:herodes.antipas": {
+   "attested": [
+    "btu:mc.8.15"
+   ],
+   "evidence": [
+    "nv:btu:mc.8.15"
+   ]
+  },
+  "bpers:phinees.eleazari-filius": {
+   "attested": [
+    "btu:ios.24.33"
+   ],
+   "evidence": [
+    "nv:btu:ios.24.33"
+   ]
+  },
+  "bplace:adam.urbs": {
+   "attested": [
+    "btu:ios.3.16"
+   ],
+   "evidence": [
+    "nv:btu:ios.3.16"
+   ]
+  },
+  "bplace:aphec.aser": {
+   "attested": [
+    "btu:ios.19.30"
+   ],
+   "evidence": [
+    "nv:btu:ios.19.30"
+   ]
+  },
+  "bplace:chaldaea": {
+   "attested": [
+    "btu:ier.24.5"
+   ],
+   "evidence": [
+    "nv:btu:ier.24.5"
+   ]
+  },
+  "bpers:chaldaei": {
+   "attested": [
+    "btu:ez.23.14"
+   ],
+   "evidence": [
+    "nv:btu:ez.23.14"
+   ]
+  },
+  "bplace:civitas-salis": {
+   "attested": [
+    "btu:ios.15.62"
+   ],
+   "evidence": [
+    "nv:btu:ios.15.62"
+   ]
+  },
+  "bplace:gethremmon.in-dan": {
+   "attested": [
+    "btu:1par.6.54"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.54"
+   ]
+  },
+  "bplace:gethsemani": {
+   "attested": [
+    "btu:mt.26.36"
+   ],
+   "evidence": [
+    "nv:btu:mt.26.36"
+   ]
+  },
+  "bpers:ioannes-baptista": {
+   "attested": [
+    "btu:io.3.26"
+   ],
+   "evidence": [
+    "nv:btu:io.3.26"
+   ]
+  },
+  "bplace:saron.planities": {
+   "attested": [
+    "btu:1par.27.29"
+   ],
+   "evidence": [
+    "nv:btu:1par.27.29"
+   ]
+  },
+  "bpers:aram.camuel-filius": {
+   "attested": [
+    "btu:gn.22.21"
+   ],
+   "evidence": [
+    "nv:btu:gn.22.21"
+   ]
+  },
+  "bpers:asenaphar": {
+   "attested": [
+    "btu:esd.4.10"
+   ],
+   "evidence": [
+    "nv:btu:esd.4.10"
+   ]
+  },
+  "bpers:baana.ahilud-filius": {
+   "attested": [
+    "btu:1reg.4.12"
+   ],
+   "evidence": [
+    "nv:btu:1reg.4.12"
+   ]
+  },
+  "bpers:gad.tribus": {
+   "attested": [
+    "btu:2reg.10.33"
+   ],
+   "evidence": [
+    "nv:btu:2reg.10.33"
+   ]
+  },
+  "bpers:rabsaces": {
+   "attested": [
+    "btu:is.36.2"
+   ],
+   "evidence": [
+    "nv:btu:is.36.2"
+   ]
+  },
+  "bpers:sadoc.sacerdos-david": {
+   "attested": [
+    "btu:1reg.2.35",
+    "btu:1reg.1.8"
+   ],
+   "evidence": [
+    "nv:btu:1reg.2.35",
+    "nv:btu:1reg.1.8"
+   ]
+  },
+  "bplace:arabia": {
+   "attested": [
+    "btu:ier.25.24"
+   ],
+   "evidence": [
+    "nv:btu:ier.25.24"
+   ]
+  },
+  "bplace:nahaliel": {
+   "attested": [
+    "btu:nm.21.19"
+   ],
+   "evidence": [
+    "nv:btu:nm.21.19"
+   ]
+  },
+  "bplace:odollam": {
+   "attested": [
+    "btu:1sam.22.1"
+   ],
+   "evidence": [
+    "nv:btu:1sam.22.1"
+   ]
+  },
+  "bplace:thecua": {
+   "attested": [
+    "btu:2sam.14.2"
+   ],
+   "evidence": [
+    "nv:btu:2sam.14.2"
+   ]
+  },
+  "bpers:abdias.gaddita": {
+   "attested": [
+    "btu:1par.12.10"
+   ],
+   "evidence": [
+    "nv:btu:1par.12.10"
+   ]
+  },
+  "bpers:adam": {
+   "attested": [
+    "btu:gn.2.19",
+    "btu:gn.2.20"
+   ],
+   "evidence": [
+    "nv:btu:gn.2.19",
+    "nv:btu:gn.2.20"
+   ]
+  },
+  "bpers:archippus": {
+   "attested": [
+    "btu:philm.1.2"
+   ],
+   "evidence": [
+    "nv:btu:philm.1.2"
+   ]
+  },
+  "bpers:beguai": {
+   "attested": [
+    "btu:ne.10.17"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.17"
+   ]
+  },
+  "bpers:elcana.core-filius": {
+   "attested": [
+    "btu:1par.6.8"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.8"
+   ]
+  },
+  "bpers:hevaeus": {
+   "attested": [
+    "btu:1reg.9.20",
+    "btu:2par.8.7",
+    "btu:dt.7.1",
+    "btu:ex.3.8",
+    "btu:ex.23.28",
+    "btu:idc.3.3",
+    "btu:ios.11.3"
+   ],
+   "evidence": [
+    "nv:btu:1reg.9.20",
+    "nv:btu:2par.8.7",
+    "nv:btu:dt.7.1"
+   ]
+  },
+  "bplace:merom": {
+   "attested": [
+    "btu:ios.11.5",
+    "btu:ios.11.7"
+   ],
+   "evidence": [
+    "nv:btu:ios.11.5",
+    "nv:btu:ios.11.7"
+   ]
+  },
+  "bpers:obededom.getthaeus": {
+   "attested": [
+    "btu:1par.13.13"
+   ],
+   "evidence": [
+    "nv:btu:1par.13.13"
+   ]
+  },
+  "bpers:sua": {
+   "attested": [
+    "btu:2reg.17.4"
+   ],
+   "evidence": [
+    "nv:btu:2reg.17.4"
+   ]
+  },
+  "bpers:zara.levita-gerson": {
+   "attested": [
+    "btu:1par.6.6"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.6"
+   ]
+  },
+  "bplace:achaia": {
+   "attested": [
+    "btu:act.19.21"
+   ],
+   "evidence": [
+    "nv:btu:act.19.21"
+   ]
+  },
+  "bplace:hebron": {
+   "attested": [
+    "btu:ios.14.14"
+   ],
+   "evidence": [
+    "nv:btu:ios.14.14"
+   ]
+  },
+  "bplace:carmel.iudae": {
+   "attested": [
+    "btu:1sam.15.12"
+   ],
+   "evidence": [
+    "nv:btu:1sam.15.12"
+   ]
+  },
+  "bplace:tharsis": {
+   "attested": [
+    "btu:ez.38.13",
+    "btu:is.23.6",
+    "btu:is.23.10",
+    "btu:ps.72.10"
+   ],
+   "evidence": [
+    "nv:btu:ez.38.13",
+    "nv:btu:is.23.6",
+    "nv:btu:is.23.10"
+   ]
+  },
+  "bplace:susa": {
+   "attested": [
+    "btu:ne.1.1"
+   ],
+   "evidence": [
+    "nv:btu:ne.1.1"
+   ]
+  },
+  "bpers:amorraei": {
+   "attested": [
+    "btu:1reg.21.26"
+   ],
+   "evidence": [
+    "nv:btu:1reg.21.26"
+   ]
+  },
+  "bpers:elcana.amasai-pater": {
+   "attested": [
+    "btu:1par.6.10"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.10"
+   ]
+  },
+  "bpers:eliab.gaddita": {
+   "attested": [
+    "btu:1par.12.10"
+   ],
+   "evidence": [
+    "nv:btu:1par.12.10"
+   ]
+  },
+  "bplace:ioppe": {
+   "attested": [
+    "btu:1mac.10.75",
+    "btu:1mac.12.33",
+    "btu:1mac.13.11",
+    "btu:1mac.14.34",
+    "btu:1mac.15.35",
+    "btu:2mac.12.3",
+    "btu:2mac.12.4",
+    "btu:2par.2.15",
+    "btu:act.9.36",
+    "btu:act.9.38",
+    "btu:act.9.42",
+    "btu:act.9.43",
+    "btu:act.10.5",
+    "btu:act.10.8",
+    "btu:act.10.23",
+    "btu:esd.3.7",
+    "btu:ion.1.3"
+   ],
+   "evidence": [
+    "nv:btu:1mac.10.75",
+    "nv:btu:1mac.12.33",
+    "nv:btu:1mac.13.11"
+   ]
+  },
+  "bpers:matthanias.filius-iosiae": {
+   "attested": [
+    "btu:2reg.24.17"
+   ],
+   "evidence": [
+    "nv:btu:2reg.24.17"
+   ]
+  },
+  "bpers:nadab.ieroboam-filius": {
+   "attested": [
+    "btu:1reg.15.27",
+    "btu:1reg.15.31"
+   ],
+   "evidence": [
+    "nv:btu:1reg.15.27",
+    "nv:btu:1reg.15.31"
+   ]
+  },
+  "bplace:tarsus": {
+   "attested": [
+    "btu:act.9.11"
+   ],
+   "evidence": [
+    "nv:btu:act.9.11"
+   ]
+  },
+  "bplace:galgala.iuxta-iericho": {
+   "attested": [
+    "btu:2sam.19.41"
+   ],
+   "evidence": [
+    "nv:btu:2sam.19.41"
+   ]
+  },
+  "bpers:achitophel": {
+   "attested": [
+    "btu:2sam.23.34"
+   ],
+   "evidence": [
+    "nv:btu:2sam.23.34"
+   ]
+  },
+  "bpers:achinoam.iezrahelitis": {
+   "attested": [
+    "btu:1par.3.1"
+   ],
+   "evidence": [
+    "nv:btu:1par.3.1"
+   ]
+  },
+  "bpers:caiphas": {
+   "attested": [
+    "btu:lc.3.2"
+   ],
+   "evidence": [
+    "nv:btu:lc.3.2"
+   ]
+  },
+  "bpers:herodes.agrippa-i": {
+   "attested": [
+    "btu:act.12.6",
+    "btu:act.12.11",
+    "btu:act.12.19",
+    "btu:act.12.21"
+   ],
+   "evidence": [
+    "nv:btu:act.12.6",
+    "nv:btu:act.12.11",
+    "nv:btu:act.12.19"
+   ]
+  },
+  "bpers:ezer.gaddita": {
+   "attested": [
+    "btu:1par.12.10"
+   ],
+   "evidence": [
+    "nv:btu:1par.12.10"
+   ]
+  },
+  "bpers:hira.iairites": {
+   "attested": [
+    "btu:2sam.20.26"
+   ],
+   "evidence": [
+    "nv:btu:2sam.20.26"
+   ]
+  },
+  "bpers:michael.iosaphat-filius": {
+   "attested": [
+    "btu:2par.21.2"
+   ],
+   "evidence": [
+    "nv:btu:2par.21.2"
+   ]
+  },
+  "bpers:zechri.pater-amasiae": {
+   "attested": [
+    "btu:2par.17.16"
+   ],
+   "evidence": [
+    "nv:btu:2par.17.16"
+   ]
+  },
+  "bpers:artaxerxes.longimanus": {
+   "attested": [
+    "btu:esd.4.8",
+    "btu:esd.4.11",
+    "btu:esd.4.23"
+   ],
+   "evidence": [
+    "nv:btu:esd.4.8",
+    "nv:btu:esd.4.11",
+    "nv:btu:esd.4.23"
+   ]
+  },
+  "bplace:azotus": {
+   "attested": [
+    "btu:1sam.5.6"
+   ],
+   "evidence": [
+    "nv:btu:1sam.5.6"
+   ]
+  },
+  "bpers:iethro": {
+   "attested": [
+    "btu:ex.3.1",
+    "btu:ex.4.18",
+    "btu:ex.18.1",
+    "btu:ex.18.5",
+    "btu:ex.18.6",
+    "btu:ex.18.9",
+    "btu:ex.18.12"
+   ],
+   "evidence": [
+    "nv:btu:ex.3.1",
+    "nv:btu:ex.4.18"
+   ]
+  },
+  "bpers:philemon": {
+   "attested": [
+    "btu:philm.1.1"
+   ],
+   "evidence": [
+    "nv:btu:philm.1.1"
+   ]
+  },
+  "bplace:colossae": {
+   "attested": [
+    "btu:col.1.2"
+   ],
+   "evidence": [
+    "nv:btu:col.1.2"
+   ]
+  },
+  "bplace:illyricum": {
+   "attested": [
+    "btu:rom.15.19"
+   ],
+   "evidence": [
+    "nv:btu:rom.15.19"
+   ]
+  },
+  "bplace:phoenice": {
+   "attested": [
+    "btu:act.11.19",
+    "btu:act.15.3",
+    "btu:act.21.2",
+    "btu:2mac.3.5",
+    "btu:2mac.3.8",
+    "btu:2mac.4.4",
+    "btu:2mac.4.22",
+    "btu:2mac.8.8",
+    "btu:2mac.10.11"
+   ],
+   "evidence": [
+    "nv:btu:act.11.19",
+    "nv:btu:act.15.3"
+   ]
+  },
+  "bplace:trachonitis": {
+   "attested": [
+    "btu:lc.3.1"
+   ],
+   "evidence": [
+    "nv:btu:lc.3.1"
+   ]
+  },
+  "bpers:thammuz": {
+   "attested": [
+    "btu:ez.8.14"
+   ],
+   "evidence": [
+    "nv:btu:ez.8.14"
+   ]
+  },
+  "bpers:remmon.deus": {
+   "attested": [
+    "btu:2reg.5.18"
+   ],
+   "evidence": [
+    "nv:btu:2reg.5.18"
+   ]
+  },
+  "bpers:camuel.filius-nachor": {
+   "attested": [
+    "btu:gn.22.21"
+   ],
+   "evidence": [
+    "nv:btu:gn.22.21"
+   ]
+  },
+  "bpers:epher.manasses": {
+   "attested": [
+    "btu:1par.5.24"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.24"
+   ]
+  },
+  "bpers:hasabia.merari": {
+   "attested": [
+    "btu:1par.6.30"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.30"
+   ]
+  },
+  "bpers:hepher.naarae-filius": {
+   "attested": [
+    "btu:1par.4.6"
+   ],
+   "evidence": [
+    "nv:btu:1par.4.6"
+   ]
+  },
+  "bpers:pheltia.simeonita": {
+   "attested": [
+    "btu:1par.4.42"
+   ],
+   "evidence": [
+    "nv:btu:1par.4.42"
+   ]
+  },
+  "bpers:sellum.simeonita": {
+   "attested": [
+    "btu:1par.4.25"
+   ],
+   "evidence": [
+    "nv:btu:1par.4.25"
+   ]
+  },
+  "bpers:sulamitis": {
+   "attested": [
+    "btu:ct.7.1"
+   ],
+   "evidence": [
+    "nv:btu:ct.7.1"
+   ]
+  },
+  "bpers:zacharias.filius-iesiae": {
+   "attested": [
+    "btu:1par.24.25"
+   ],
+   "evidence": [
+    "nv:btu:1par.24.25"
    ]
   }
  }

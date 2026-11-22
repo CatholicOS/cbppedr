@@ -1,0 +1,106 @@
+"""Flag attested verses that do not name their entry, in any edition checked.
+
+A dictionary citation of a whole passage attaches every verse in it to one entry, though
+most of those verses do not name it. This audit reads each edition's text keyed by CBTUDR
+unit (private, exported from the BibleGet database: JSON objects {unit: text}, one file per
+edition) and lists, for each person and place, the attested units where no edition contains
+any of the entry's names (Latin, Italian, English). The list is for review: a verse may
+name the entry by another name, or not at all.
+
+Names are compared loosely: accents, case and spelling variants (j/i, v/u, y/i, k/c, ph/f,
+h, double letters) are ignored, and a long word matches by its stem, so Latin inflection
+(Abner, Abneri) is no obstacle. Events are not audited: verses narrate them without naming
+them.
+
+Usage: python audit_attested.py [TEXTS_DIR] > audit.tsv   (id, unit, names tried)
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import sys
+import unicodedata
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TEXTS = Path(os.environ.get("TEXTS", Path.home() / "development/BibleGet-I-O/data-local/cbppedr/texts"))
+STOP = set("""filius filia filii fili uxor mons montes torrens urbs regio terra mare lacus porta
+    turris uallis desertum fons flumen fluuius rex de et in ad of the son daughter wife mount
+    river brook city land sea lake gate tower ualley desert spring king il la le lo di del della
+    dei degli figlio figlia moglie monte fiume torrente citta terra lago porta torre ualle deserto
+    sorgente re""".split())
+
+
+def norm(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s.lower().replace("æ", "ae").replace("œ", "oe"))
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.replace("j", "i").replace("v", "u").replace("y", "i").replace("k", "c").replace("ph", "f").replace("h", "")
+    s = re.sub(r"[^a-z]+", " ", s)
+    return re.sub(r"(.)\1", r"\1", s)
+
+
+def stems(entry: dict) -> set[str]:
+    """The entry's name words: a short word (three letters or fewer) must match whole,
+    a longer one by its stem (marked with a trailing '*')."""
+    out = set()
+    for name in entry.get("names", {}).values():
+        for tok in norm(name or "").split():
+            if tok in STOP:
+                continue
+            out.add(tok if len(tok) <= 3 else tok[:max(4, len(tok) - 2)] + "*")
+    return out
+
+
+def named(text: str, keys: set[str]) -> bool:
+    words = set(text.split())
+    for k in keys:
+        if k.endswith("*"):
+            if any(w.startswith(k[:-1]) for w in words):
+                return True
+        elif k in words:
+            return True
+    return False
+
+
+def audit(entries: dict, texts: list[dict[str, str]]) -> list[tuple[str, str, list[str]]]:
+    normed = [{} for _ in texts]
+    flagged = []
+    for eid, e in entries.items():
+        if e.get("type") == "event":
+            continue
+        keys = stems(e)
+        if not keys:
+            continue
+        for u in e.get("attested", []):
+            found = False
+            for t, cache in zip(texts, normed):
+                if u not in t:
+                    continue
+                if u not in cache:
+                    cache[u] = norm(t[u])
+                if named(cache[u], keys):
+                    found = True
+                    break
+            if not found:
+                flagged.append((eid, u, sorted(keys)))
+    return flagged
+
+
+def main(argv: list[str]) -> int:
+    tdir = Path(argv[1]) if len(argv) > 1 else TEXTS
+    texts = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(tdir.glob("*.json"))]
+    if not texts:
+        print(f"no texts in {tdir}", file=sys.stderr)
+        return 1
+    entries = {}
+    for f in ("persons", "places"):
+        entries.update(json.loads((ROOT / f"data/{f}.json").read_text(encoding="utf-8"))["entries"])
+    for eid, u, keys in audit(entries, texts):
+        print(eid, u, " ".join(keys), sep="\t")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

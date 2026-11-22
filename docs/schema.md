@@ -33,6 +33,7 @@
 - `data/curated/unit-corrections.json`: a sense's corrected units, where the units it cites are not where the entity appears (by sense key and id).
 - `data/curated/entries.json`: entries curated by hand, with explicit ids, units (the Nova Vulgata verses that name them), evidence and relations; an entry already built from a sense is extended. First use: the persons the dictionary treats only in a book's article, a sense classified as the book (`none`).
 - `data/curated/bj-tree.json`: the Herodian tree's entries and relations.
+- `data/curated/unattested.json`: by id, the units a citation attached to an entry but that, on review, do not refer to it (a whole passage cited for one person, a misread reference, a homonym's verse). They are removed before the curated entries are applied, so a curated entry can still add a unit back.
 
 ## Pipeline
 
@@ -44,5 +45,6 @@ All scripts in `scripts/`; the private inputs (the two books, and intermediates 
 4. `build_catalog.py` (also reads the curated corrections, entries and tree) → the catalogs and `docs/build-report.md`.
 5. `wikidata.py` → `data/curated/qids.json`; rebuild to apply.
 6. `validate.py`, `stepbible_check.py` → `docs/stepbible-gaps.md`, `generate_registry.py` → `registry/`.
+7. `audit_attested.py`: the attested verses that no edition's text (Nova Vulgata, Clementine Vulgate, CEI 2008, NABRE, Douay-Rheims, exported by unit from the BibleGet database, private) names the entry in; the list is reviewed, and the verses that do not refer to the entry go to `unattested.json`.
 
 Tests: `cd scripts && uv run --with lxml python -m unittest discover -s .`

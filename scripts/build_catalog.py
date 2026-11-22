@@ -56,13 +56,14 @@ def _discriminated(eid: str) -> bool:
 
 def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None = None,
           part_units: dict[str, dict[str, list[str]]] | None = None,
-          qids: dict[str, dict] | None = None, curated: dict[str, dict] | None = None) -> dict:
+          qids: dict[str, dict] | None = None, curated: dict[str, dict] | None = None,
+          removed: dict[str, list[str]] | None = None) -> dict:
     part_units = part_units or {}
     curated = curated or {}
     tree = tree or {}
     qids = qids or {}
     out = {t: {"$comment": COMMENT[t], "entries": {}} for t in TYPES.values()}
-    report = {"merged": [], "unresolved_relations": [], "type_conflicts": [], "uncertain": []}
+    report = {"merged": [], "unresolved_relations": [], "type_conflicts": [], "uncertain": [], "stale_removals": []}
     by_id: dict[str, dict] = {}
     key_ids: dict[str, list[str]] = {}
     pending: list[tuple[str, dict, str]] = []
@@ -116,6 +117,13 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
                  "evidence": [TREE_EVIDENCE]}
         by_id[eid] = entry
         out[t]["entries"][eid] = entry
+
+    for eid, gone in (removed or {}).items():  # reviewed: cited verses that do not refer to the entry
+        entry = by_id.get(eid)
+        stale = [u for u in gone if entry is None or u not in entry["attested"]]
+        if entry is not None:
+            entry["attested"] = [u for u in entry["attested"] if u not in set(gone)]
+        report["stale_removals"].extend(f"{eid} {u}" for u in stale)
 
     curated_relations: list[tuple[str, dict]] = []
     for eid, e in curated.items():  # explicit entries: own units, evidence and relations by id
@@ -208,7 +216,9 @@ def main() -> int:
     qids = json.loads(q_path.read_text(encoding="utf-8"))["qids"] if q_path.exists() else {}
     c_path = ROOT / "data/curated/entries.json"
     curated = json.loads(c_path.read_text(encoding="utf-8"))["entries"] if c_path.exists() else {}
-    out = build(decisions, units, tree, part_units, qids, curated)
+    r_path = ROOT / "data/curated/unattested.json"
+    removed = json.loads(r_path.read_text(encoding="utf-8"))["entries"] if r_path.exists() else {}
+    out = build(decisions, units, tree, part_units, qids, curated, removed)
     report = out.pop("report")
     for t, data in out.items():
         (ROOT / "data" / f"{t}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
