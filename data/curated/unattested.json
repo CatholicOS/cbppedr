@@ -1118,7 +1118,8 @@
    "btu:2mac.4.32",
    "btu:2mac.4.34",
    "btu:2mac.4.35",
-   "btu:2mac.4.38"
+   "btu:2mac.4.38",
+   "btu:2mac.4.33"
   ],
   "bpers:aod.bilhan-filius": [
    "btu:1par.8.16"
@@ -1179,7 +1180,8 @@
    "btu:2reg.19.12"
   ],
   "bpers:aran.thare-filius": [
-   "btu:gn.11.30"
+   "btu:gn.11.30",
+   "btu:gn.11.32"
   ],
   "bpers:archippus": [
    "btu:phil.2.25"
@@ -1747,7 +1749,9 @@
    "btu:2reg.16.18",
    "btu:2reg.17.2",
    "btu:2reg.17.28",
-   "btu:2reg.17.33"
+   "btu:2reg.17.33",
+   "btu:2reg.14.10",
+   "btu:2reg.17.31"
   ],
   "bpers:benadad.tabremmonis-filius": [
    "btu:2par.14.8",
@@ -1862,7 +1866,9 @@
    "btu:2sam.16.5",
    "btu:idc.20.26",
    "btu:1par.8.28",
-   "btu:1reg.11.32"
+   "btu:1reg.11.32",
+   "btu:1par.7.6",
+   "btu:gn.46.21"
   ],
   "bpers:bennui.de-filiis-bani": [
    "btu:esd.10.30"
@@ -2228,7 +2234,8 @@
    "btu:apc.7.5",
    "btu:apc.7.6",
    "btu:apc.7.7",
-   "btu:apc.7.8"
+   "btu:apc.7.8",
+   "btu:ier.8.16"
   ],
   "bpers:danel": [
    "btu:1sam.21.8",
@@ -3135,7 +3142,8 @@
   "bpers:gad.iacob-filius": [
    "btu:gn.46.10",
    "btu:gn.46.11",
-   "btu:dt.33.21"
+   "btu:dt.33.21",
+   "btu:dt.33.20"
   ],
   "bpers:gad.tribus": [
    "btu:nm.26.16",
@@ -3187,7 +3195,8 @@
   ],
   "bpers:galaad.machir-filius": [
    "btu:1par.7.15",
-   "btu:1par.7.16"
+   "btu:1par.7.16",
+   "btu:1par.2.22"
   ],
   "bpers:galilaei": [
    "btu:lc.13.3"
@@ -3335,7 +3344,8 @@
    "btu:act.7.57",
    "btu:act.7.58",
    "btu:act.7.59",
-   "btu:act.7.60"
+   "btu:act.7.60",
+   "btu:act.11.20"
   ],
   "bpers:hanan.signator": [
    "btu:ne.10.27"
@@ -4042,7 +4052,9 @@
    "btu:am.8.14",
    "btu:2reg.15.10",
    "btu:2reg.15.11",
-   "btu:2reg.15.12"
+   "btu:2reg.15.12",
+   "btu:2reg.14.24",
+   "btu:2reg.15.9"
   ],
   "bpers:ieroboam.nabat-filius": [
    "btu:1reg.11.27",
@@ -5027,7 +5039,8 @@
    "btu:io.19.25",
    "btu:mc.15.40",
    "btu:mc.10.39",
-   "btu:io.21.22"
+   "btu:io.21.22",
+   "btu:io.1.35"
   ],
   "bpers:ioas.beniaminita": [
    "btu:1par.12.1",
@@ -5562,7 +5575,8 @@
    "btu:lc.3.31",
    "btu:mt.2.23",
    "btu:lc.2.39",
-   "btu:lc.2.51"
+   "btu:lc.2.51",
+   "btu:mt.13.55"
   ],
   "bpers:ioseph.pater-iannae": [
    "btu:lc.3.30"
@@ -5974,17 +5988,26 @@
   "bpers:maasias.sacerdos-harim": [
    "btu:esd.10.18",
    "btu:esd.10.22",
-   "btu:ne.8.7"
+   "btu:ne.8.7",
+   "btu:ne.12.41",
+   "btu:ne.12.42",
+   "btu:ne.8.4"
   ],
   "bpers:maasias.sacerdos-iesua": [
    "btu:esd.10.21",
    "btu:esd.10.22",
-   "btu:ne.8.7"
+   "btu:ne.8.7",
+   "btu:ne.12.41",
+   "btu:ne.12.42",
+   "btu:ne.8.4"
   ],
   "bpers:maasias.sacerdos-phassur": [
    "btu:esd.10.18",
    "btu:esd.10.21",
-   "btu:ne.8.7"
+   "btu:ne.8.7",
+   "btu:ne.12.41",
+   "btu:ne.12.42",
+   "btu:ne.8.4"
   ],
   "bpers:maccabaei": [
    "btu:1mac.2.15",
@@ -6431,7 +6454,8 @@
    "btu:ez.20.26"
   ],
   "bpers:mosoch.filius-iapheth": [
-   "btu:gn.10.23"
+   "btu:gn.10.23",
+   "btu:1par.1.17"
   ],
   "bpers:moyses": [
    "btu:ex.6.16",
@@ -10425,7 +10449,10 @@
    "btu:2sam.24.19",
    "btu:2sam.24.20",
    "btu:2sam.24.21",
-   "btu:2sam.24.23"
+   "btu:2sam.24.23",
+   "btu:2sam.19.38",
+   "btu:2sam.21.21",
+   "btu:2sam.24.22"
   ],
   "bpers:semei.gerson-filius": [
    "btu:nm.3.25"
@@ -10589,7 +10616,8 @@
    "btu:1par.4.33",
    "btu:1par.4.41",
    "btu:1par.4.43",
-   "btu:1par.12.25"
+   "btu:1par.12.25",
+   "btu:1par.4.24"
   ],
   "bpers:simon-petrus": [
    "btu:mc.1.21",
@@ -11965,7 +11993,11 @@
    "btu:idc.4.24"
   ],
   "bplace:assur.urbs": [
-   "btu:2reg.19.37"
+   "btu:2reg.19.37",
+   "btu:gn.10.11",
+   "btu:gn.2.14",
+   "btu:is.7.18",
+   "btu:nm.24.22"
   ],
   "bplace:assyria": [
    "btu:2reg.12.18",
@@ -12674,7 +12706,9 @@
    "btu:lc.6.15",
    "btu:act.1.13",
    "btu:ios.19.13",
-   "btu:2reg.16.9"
+   "btu:2reg.16.9",
+   "btu:mc.3.18",
+   "btu:mt.10.4"
   ],
   "bplace:canath": [
    "btu:idc.8.11"
@@ -13354,7 +13388,8 @@
    "btu:2par.13.19",
    "btu:2mac.12.27",
    "btu:1mac.5.46",
-   "btu:1sam.13.17"
+   "btu:1sam.13.17",
+   "btu:idc.9.5"
   ],
   "bplace:ephraim.regio": [
    "btu:ios.16.6",
@@ -13404,7 +13439,8 @@
    "btu:1sam.14.1"
   ],
   "bplace:gabaa.saul": [
-   "btu:idc.19.20"
+   "btu:idc.19.20",
+   "btu:2sam.21.1"
   ],
   "bplace:gabaon": [
    "btu:ios.9.11",
@@ -17419,6 +17455,34 @@
    "btu:2sam.16.7",
    "btu:2sam.22.5",
    "btu:ps.18.5"
+  ],
+  "bpers:hanan.levites": [
+   "btu:ne.13.13"
+  ],
+  "bpers:moholi.filius-merari": [
+   "btu:1par.6.32"
+  ],
+  "bplace:thapphua.sephela": [
+   "btu:ios.15.53"
+  ],
+  "bpers:adaias.uxorem-dimittens": [
+   "btu:esd.10.29"
+  ],
+  "bplace:remmon.zabulon": [
+   "btu:ios.21.25"
+  ],
+  "bpers:othoniel.netophathites": [
+   "btu:1par.26.7"
+  ],
+  "bpers:adaia.de-filiis-beguai": [
+   "btu:esd.10.39"
+  ],
+  "bplace:dan.urbs": [
+   "btu:idc.18.30"
+  ],
+  "bpers:elon.zabulon-filius": [
+   "btu:nm.1.9",
+   "btu:nm.2.7"
   ]
  }
 }

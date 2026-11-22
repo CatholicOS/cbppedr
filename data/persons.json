@@ -4382,8 +4382,7 @@
     "en": "Israelite who sent away his foreign wife (Ezra 10,29)"
    },
    "attested": [
-    "btu:esd.10.29",
-    "btu:esd.10.39"
+    "btu:esd.10.29"
    ],
    "relations": [],
    "qid": null,
@@ -4516,7 +4515,6 @@
     "en": "another Israelite who sent away his foreign wife (Ezra 10,39)"
    },
    "attested": [
-    "btu:esd.10.29",
     "btu:esd.10.39"
    ],
    "relations": [],
@@ -10409,7 +10407,6 @@
     "en": "Antiochus IV Epiphanes, persecutor of the Jews"
    },
    "attested": [
-    "btu:2mac.4.33",
     "btu:2mac.4.36",
     "btu:2mac.4.37"
    ],
@@ -11135,8 +11132,7 @@
     "btu:gn.11.27",
     "btu:gn.11.28",
     "btu:gn.11.29",
-    "btu:gn.11.31",
-    "btu:gn.11.32"
+    "btu:gn.11.31"
    ],
    "relations": [
     {
@@ -13323,7 +13319,8 @@
    },
    "attested": [
     "btu:2reg.15.19",
-    "btu:is.8.4"
+    "btu:is.8.4",
+    "btu:nm.24.22"
    ],
    "relations": [
     {
@@ -13337,8 +13334,21 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:ASSIRIA#0"
-   ]
+    "ndeib:ASSIRIA#0",
+    "nv:btu:nm.24.22"
+   ],
+   "labels": {
+    "btu:nm.24.22": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Assur",
+      "DRB": "Assur",
+      "NABRE": "Asshur",
+      "NVBSE": "Assur",
+      "VGCL": "Assur"
+     }
+    }
+   }
   },
   "bpers:astarthe": {
    "type": "person",
@@ -18129,9 +18139,7 @@
    },
    "attested": [
     "btu:2reg.13.24",
-    "btu:2reg.13.25",
-    "btu:2reg.14.10",
-    "btu:2reg.17.31"
+    "btu:2reg.13.25"
    ],
    "relations": [
     {
@@ -18476,7 +18484,9 @@
    },
    "attested": [
     "btu:gn.35.18",
-    "btu:gn.35.24"
+    "btu:gn.35.24",
+    "btu:1par.7.6",
+    "btu:gn.46.21"
    ],
    "relations": [
     {
@@ -18490,7 +18500,10 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BENIAMINO"
+    "ndeib:BENIAMINO",
+    "nv:btu:1par.7.6",
+    "nv:btu:gn.46.21",
+    "nv:btu:gn.46.19"
    ]
   },
   "bpers:beniamin.levita-ezechiae": {
@@ -18553,8 +18566,6 @@
     "btu:idc.19.16",
     "btu:1sam.22.7",
     "btu:1sam.9.1",
-    "btu:gn.46.21",
-    "btu:1par.7.6",
     "btu:nm.26.38",
     "btu:gn.49.27",
     "btu:idc.3.15",
@@ -19004,13 +19015,17 @@
    },
    "attested": [
     "btu:2sam.17.27",
-    "btu:1reg.2.7"
+    "btu:1reg.2.7",
+    "btu:esd.2.61",
+    "btu:ne.7.63"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BARZILLAI"
+    "ndeib:BARZILLAI",
+    "nv:btu:esd.2.61",
+    "nv:btu:ne.7.63"
    ]
   },
   "bpers:berzellai.molathites": {
@@ -22545,7 +22560,8 @@
     "en": "grandson of Kohath, ancestor of the Korahite singers"
    },
    "attested": [
-    "btu:1par.6.22"
+    "btu:1par.6.22",
+    "btu:1par.9.19"
    ],
    "relations": [
     {
@@ -22562,7 +22578,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:CORE#4"
+    "ndeib:CORE#4",
+    "nv:btu:1par.9.19"
    ],
    "review": "uncertain"
   },
@@ -23300,13 +23317,14 @@
     "btu:idc.5.17",
     "btu:gn.49.16",
     "btu:dt.33.22",
-    "btu:ier.8.16"
+    "btu:idc.18.30"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:DAN#0"
+    "ndeib:DAN#0",
+    "nv:btu:idc.18.30"
    ]
   },
   "bpers:danel": {
@@ -26101,7 +26119,15 @@
     "btu:nm.1.9",
     "btu:nm.2.7"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:helon",
+     "evidence": [
+      "ndeib:ELIAB"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -29158,9 +29184,7 @@
     "en": "son of Zebulun and clan ancestor"
    },
    "attested": [
-    "btu:gn.46.14",
-    "btu:nm.1.9",
-    "btu:nm.2.7"
+    "btu:gn.46.14"
    ],
    "relations": [],
    "qid": null,
@@ -31978,8 +32002,7 @@
    },
    "attested": [
     "btu:gn.46.16",
-    "btu:gn.49.19",
-    "btu:dt.33.20"
+    "btu:gn.49.19"
    ],
    "relations": [
     {
@@ -32072,7 +32095,8 @@
     "btu:1par.26.32",
     "btu:1par.5.11",
     "btu:ez.48.27",
-    "btu:2reg.10.33"
+    "btu:2reg.10.33",
+    "btu:dt.33.20"
    ],
    "relations": [
     {
@@ -32087,7 +32111,8 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GAD#2",
-    "nv:btu:2reg.10.33"
+    "nv:btu:2reg.10.33",
+    "nv:btu:dt.33.20"
    ],
    "labels": {
     "btu:ios.22.10": {
@@ -32369,7 +32394,6 @@
     "btu:ios.17.1",
     "btu:ios.17.3",
     "btu:1par.2.21",
-    "btu:1par.2.22",
     "btu:1par.2.23",
     "btu:1par.7.14",
     "btu:1par.7.17"
@@ -33915,13 +33939,16 @@
     "btu:act.16.1",
     "btu:rom.1.14",
     "btu:rom.10.12",
-    "btu:gal.3.28"
+    "btu:gal.3.28",
+    "btu:act.11.20"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GRECI"
+    "ndeib:GRECI",
+    "nv:btu:act.11.20",
+    "nv:btu:act.11.19"
    ]
   },
   "bpers:graeci.hellenistae": {
@@ -33938,8 +33965,7 @@
    },
    "attested": [
     "btu:act.6.1",
-    "btu:act.9.29",
-    "btu:act.11.20"
+    "btu:act.9.29"
    ],
    "relations": [],
    "qid": null,
@@ -34557,8 +34583,7 @@
    },
    "attested": [
     "btu:ne.8.7",
-    "btu:ne.10.11",
-    "btu:ne.13.13"
+    "btu:ne.10.11"
    ],
    "relations": [],
    "qid": null,
@@ -37316,6 +37341,40 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CELES"
+   ]
+  },
+  "bpers:helon": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Helon",
+    "it": "Chelon",
+    "en": "Helon"
+   },
+   "description": {
+    "it": "zabulonita, padre di Eliab, capo della tribù nel deserto",
+    "en": "Zebulunite, father of Eliab, the tribe's leader in the wilderness"
+   },
+   "attested": [
+    "btu:nm.1.9",
+    "btu:nm.2.7",
+    "btu:nm.7.24",
+    "btu:nm.7.29",
+    "btu:nm.10.16"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:eliab.helon-filius",
+     "evidence": [
+      "nv:btu:nm.1.9"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:nm.1.9"
    ]
   },
   "bpers:hemam": {
@@ -40514,7 +40573,8 @@
     "btu:mc.3.17",
     "btu:lc.9.54",
     "btu:mc.10.35",
-    "btu:act.12.2"
+    "btu:act.12.2",
+    "btu:act.1.13"
    ],
    "relations": [
     {
@@ -40535,7 +40595,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GIACOMO#1"
+    "ndeib:GIACOMO#1",
+    "nv:btu:act.1.13"
    ]
   },
   "bpers:iada": {
@@ -45259,13 +45320,11 @@
    },
    "attested": [
     "btu:2reg.14.23",
-    "btu:2reg.14.24",
     "btu:2reg.14.27",
     "btu:2reg.14.28",
     "btu:2reg.14.29",
     "btu:am.7.9",
-    "btu:2reg.15.8",
-    "btu:2reg.15.9"
+    "btu:2reg.15.8"
    ],
    "relations": [],
    "qid": null,
@@ -45345,7 +45404,9 @@
     "btu:1reg.14.30",
     "btu:1reg.15.6",
     "btu:1reg.15.7",
-    "btu:1reg.16.26"
+    "btu:1reg.16.26",
+    "btu:2reg.14.24",
+    "btu:2reg.15.9"
    ],
    "relations": [
     {
@@ -45359,7 +45420,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GEROBOAMO#1"
+    "ndeib:GEROBOAMO#1",
+    "nv:btu:2reg.14.24",
+    "nv:btu:2reg.15.9"
    ],
    "labels": {
     "btu:1reg.12.28": {
@@ -50512,7 +50575,8 @@
     "btu:act.19.3",
     "btu:act.19.4",
     "btu:act.19.5",
-    "btu:io.3.26"
+    "btu:io.3.26",
+    "btu:io.1.35"
    ],
    "relations": [],
    "qid": "Q40662",
@@ -50520,7 +50584,8 @@
    "evidence": [
     "ndeib:GIOVANNI#21",
     "ndeib:GIOVANNI BATTISTA",
-    "nv:btu:io.3.26"
+    "nv:btu:io.3.26",
+    "nv:btu:io.1.35"
    ],
    "labels": {
     "btu:lc.1.80": {
@@ -50627,7 +50692,6 @@
     "btu:mt.26.37",
     "btu:lc.22.8",
     "btu:io.21.2",
-    "btu:io.1.35",
     "btu:mt.27.56",
     "btu:act.4.13",
     "btu:act.8.14",
@@ -51042,13 +51106,19 @@
     "btu:2par.24.17",
     "btu:2par.24.21",
     "btu:2par.24.22",
-    "btu:2reg.12.21"
+    "btu:2reg.12.21",
+    "btu:2reg.14.13",
+    "btu:2par.25.23",
+    "btu:2reg.13.10"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:IOAS#4"
+    "ndeib:IOAS#4",
+    "nv:btu:2reg.14.13",
+    "nv:btu:2par.25.23",
+    "nv:btu:2reg.13.10"
    ],
    "labels": {
     "btu:2reg.11.4": {
@@ -53939,13 +54009,19 @@
     "btu:2reg.8.21",
     "btu:2reg.8.23",
     "btu:2reg.8.24",
-    "btu:2par.22.1"
+    "btu:2par.22.1",
+    "btu:2reg.1.17",
+    "btu:2reg.8.25",
+    "btu:2reg.8.29"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:IORAM"
+    "ndeib:IORAM",
+    "nv:btu:2reg.1.17",
+    "nv:btu:2reg.8.25",
+    "nv:btu:2reg.8.29"
    ],
    "review": "uncertain"
   },
@@ -54863,7 +54939,6 @@
     "btu:mt.1.18",
     "btu:mt.1.19",
     "btu:mt.1.24",
-    "btu:mt.13.55",
     "btu:lc.3.23"
    ],
    "relations": [],
@@ -59682,10 +59757,7 @@
     "en": "priest of Harim's family with a foreign wife"
    },
    "attested": [
-    "btu:esd.10.21",
-    "btu:ne.8.4",
-    "btu:ne.12.41",
-    "btu:ne.12.42"
+    "btu:esd.10.21"
    ],
    "relations": [],
    "qid": null,
@@ -59707,10 +59779,7 @@
     "en": "priest of Jeshua's family with a foreign wife"
    },
    "attested": [
-    "btu:esd.10.18",
-    "btu:ne.8.4",
-    "btu:ne.12.41",
-    "btu:ne.12.42"
+    "btu:esd.10.18"
    ],
    "relations": [],
    "qid": null,
@@ -59732,10 +59801,7 @@
     "en": "priest of Pashhur's family with a foreign wife"
    },
    "attested": [
-    "btu:esd.10.22",
-    "btu:ne.8.4",
-    "btu:ne.12.41",
-    "btu:ne.12.42"
+    "btu:esd.10.22"
    ],
    "relations": [],
    "qid": null,
@@ -66343,7 +66409,6 @@
    "attested": [
     "btu:ex.6.19",
     "btu:nm.3.20",
-    "btu:1par.6.32",
     "btu:1par.23.21",
     "btu:1par.24.26",
     "btu:1par.24.28",
@@ -66380,7 +66445,8 @@
    },
    "attested": [
     "btu:1par.23.23",
-    "btu:1par.24.30"
+    "btu:1par.24.30",
+    "btu:1par.6.32"
    ],
    "relations": [
     {
@@ -66394,7 +66460,8 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:MACLI"
+    "ndeib:MACLI",
+    "nv:btu:1par.6.32"
    ]
   },
   "bpers:molid": {
@@ -66629,8 +66696,7 @@
    },
    "attested": [
     "btu:gn.10.2",
-    "btu:1par.1.5",
-    "btu:1par.1.17"
+    "btu:1par.1.5"
    ],
    "relations": [
     {
@@ -72518,9 +72584,7 @@
     "it": "uomo di Netofa, antenato del capo militare Cheldai",
     "en": "man of Netophah, ancestor of the army officer Heldai"
    },
-   "attested": [
-    "btu:1par.26.7"
-   ],
+   "attested": [],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -87127,9 +87191,6 @@
     "btu:2sam.19.19",
     "btu:2sam.19.22",
     "btu:2sam.19.24",
-    "btu:2sam.19.38",
-    "btu:2sam.21.21",
-    "btu:2sam.24.22",
     "btu:1reg.2.8"
    ],
    "relations": [],
@@ -89513,7 +89574,8 @@
     "btu:gn.29.33",
     "btu:gn.49.5",
     "btu:gn.46.10",
-    "btu:ex.6.15"
+    "btu:ex.6.15",
+    "btu:1par.4.24"
    ],
    "relations": [
     {
@@ -89527,7 +89589,9 @@
    "qid": "Q1773005",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:SIMEONE"
+    "ndeib:SIMEONE",
+    "nv:btu:1par.4.24",
+    "nv:btu:gn.46.10"
    ]
   },
   "bpers:simeon.ierosolymitanus": {
@@ -89597,7 +89661,6 @@
     "btu:ios.19.9",
     "btu:idc.1.3",
     "btu:idc.1.17",
-    "btu:1par.4.24",
     "btu:1par.4.26",
     "btu:1par.4.27",
     "btu:1par.4.42",
