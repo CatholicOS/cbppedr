@@ -1,5 +1,5 @@
 {
- "$comment": "Reviewed: units a source citation attached to an entry that, in the Bible text, do not refer to it (a whole passage cited for one entry, a misparsed neighbouring headword, a homonym's verse). Removed by build_catalog.py before the curated entries apply. Found by scripts/audit_attested.py.",
+ "$comment": "Reviewed: units a source citation attached to an entry that, in the Bible text, do not refer to it (a whole passage cited for one entry, a misparsed neighbouring headword, a homonym's verse). Removed by build_catalog.py after the curated entries apply, so a review always wins; a removal a curated entry contradicts is reported. Found by scripts/audit_attested.py.",
  "entries": {
   "bpers:aaron": [
    "btu:ex.6.14",
@@ -10148,8 +10148,7 @@
    "btu:ne.12.13"
   ],
   "bpers:sellum.ianitor": [
-   "btu:1par.9.18",
-   "btu:1par.9.21"
+   "btu:1par.9.18"
   ],
   "bpers:sellum.simeonita": [
    "btu:1par.4.24"

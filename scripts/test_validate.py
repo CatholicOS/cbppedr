@@ -49,8 +49,8 @@ class RuleTest(unittest.TestCase):
 
     def test_relation_vocabulary_and_target_type(self):
         place = dict(person(), type="place", kind="city")
-        p = self.run_p({"bpers:a": person(relations=[{"rel": "friend_of", "target": "bpers:b", "evidence": []},
-                                                    {"rel": "child_of", "target": "bplace:c", "evidence": []}]),
+        p = self.run_p({"bpers:a": person(relations=[{"rel": "friend_of", "target": "bpers:b", "evidence": ["ndeib:A#1"]},
+                                                    {"rel": "child_of", "target": "bplace:c", "evidence": ["ndeib:A#1"]}]),
                         "bpers:b": person()}, {"bplace:c": place})
         self.assertEqual(len(p), 2, p)
 
@@ -80,6 +80,13 @@ class UnnamedTest(unittest.TestCase):
         bad = dict(good, attested=[], tie={"rel": "located_in", "target": "bpers:zz"})
         self.assertEqual(unnamed_problems({"anon:a.uxor": good}, cats), [])
         self.assertEqual(len(unnamed_problems({"bpers:x": bad}, cats)), 3)
+        self.assertEqual(len(unnamed_problems({"anon:a.uxor": dict(good, attested=None, type=None)}, cats)), 2)
+
+    def test_malformed_label_and_relation_evidence_reported(self):
+        e = person(labels={"btu:gn.29.34": "Levi"},
+                   relations=[{"rel": "child_of", "target": "bpers:a", "evidence": ["wiki:x"]}])
+        p = problems({"persons": cat({"bpers:a": e}), "places": cat({}), "events": cat({})})
+        self.assertEqual(len(p), 2, p)
 
 
 class EvidenceTest(unittest.TestCase):

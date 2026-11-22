@@ -77,16 +77,18 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
             for u, lab in (e.get("labels") or {}).items():
                 if u not in e.get("attested", []):
                     out.append(f"{eid}: label on unattested {u}")
+                if not isinstance(lab, dict) or not isinstance(lab.get("editions"), dict):
+                    out.append(f"{eid}: label {u} malformed")
+                    continue
                 if lab.get("as") not in ("name", "designation"):
                     out.append(f"{eid}: label {u} as {lab.get('as')}")
-                eds = lab.get("editions") or {}
-                if not eds:
+                if not lab["editions"]:
                     out.append(f"{eid}: label {u} in no edition")
-                for ed, text in eds.items():
+                for ed, text in lab["editions"].items():
                     if ed not in EDITIONS:
                         out.append(f"{eid}: label {u} unknown edition {ed}")
-                    if not text or len(text.split()) > 6:
-                        out.append(f"{eid}: label {u} {ed} empty or longer than six words")
+                    if not isinstance(text, str) or not text.strip() or len(text.split()) > 6:
+                        out.append(f"{eid}: label {u} {ed} empty, not text, or longer than six words")
             if not e.get("evidence"):
                 out.append(f"{eid}: no evidence")
             for ev in e.get("evidence", []):
@@ -103,6 +105,8 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
             for r in e.get("relations", []):
                 if r["rel"] not in TARGET_TYPE:
                     out.append(f"{eid}: unknown relation {r['rel']}")
+                if not r.get("evidence") or any(not EVIDENCE.match(str(ev)) for ev in r["evidence"]):
+                    out.append(f"{eid}: relation {r['rel']} {r['target']} without known evidence")
                 if r["target"] not in seen:
                     out.append(f"{eid}: relation {r['rel']} to missing {r['target']}")
                     continue
@@ -128,20 +132,25 @@ def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
     for key, e in unnamed.items():
         if not ANON.match(key):
             out.append(f"{key}: malformed key")
-        if not e.get("attested") and not e.get("implied_by"):
+        if e.get("type") != "person":
+            out.append(f"{key}: type {e.get('type')}")
+        units_of = list(e.get("attested") or []) + list(e.get("implied_by") or [])
+        if not units_of:
             out.append(f"{key}: neither attested nor implied")
-        for u in e.get("attested", []) + e.get("implied_by", []):
+        for u in units_of:
             if u not in units:
                 out.append(f"{key}: unknown unit {u}")
         for ev in e.get("evidence") or [None]:
             if not ev or not ev.startswith("nv:") or ev[3:] not in units:
                 out.append(f"{key}: evidence {ev}")
         tie = e.get("tie")
-        if tie and (tie.get("rel") not in TIES or tie.get("target") not in ids):
+        if tie is not None and not isinstance(tie, dict):
+            out.append(f"{key}: tie malformed")
+        elif tie and (tie.get("rel") not in TIES or tie.get("target") not in ids):
             out.append(f"{key}: tie {tie}")
         for lang in ("it", "en"):
             d = (e.get("description") or {}).get(lang) or ""
-            if not d or len(d.split()) > 15:
+            if not d or len(d) > 120 or len(d.split()) > 15:
                 out.append(f"{key}: {lang} description missing or too long")
     return out
 

@@ -64,7 +64,7 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
     tree = tree or {}
     qids = qids or {}
     out = {t: {"$comment": COMMENT[t], "entries": {}} for t in TYPES.values()}
-    report = {"merged": [], "unresolved_relations": [], "type_conflicts": [], "uncertain": [], "stale_removals": [], "stale_labels": []}
+    report = {"merged": [], "unresolved_relations": [], "type_conflicts": [], "uncertain": [], "stale_removals": [], "conflicting_removals": [], "stale_labels": []}
     by_id: dict[str, dict] = {}
     key_ids: dict[str, list[str]] = {}
     pending: list[tuple[str, dict, str]] = []
@@ -119,13 +119,6 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
         by_id[eid] = entry
         out[t]["entries"][eid] = entry
 
-    for eid, gone in (removed or {}).items():  # reviewed: cited verses that do not refer to the entry
-        entry = by_id.get(eid)
-        stale = [u for u in gone if entry is None or u not in entry["attested"]]
-        if entry is not None:
-            entry["attested"] = [u for u in entry["attested"] if u not in set(gone)]
-        report["stale_removals"].extend(f"{eid} {u}" for u in stale)
-
     curated_relations: list[tuple[str, dict]] = []
     for eid, e in curated.items():  # explicit entries: own units, evidence and relations by id
         if eid not in by_id:
@@ -137,9 +130,19 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
             by_id[eid] = entry
             out[TYPES[e["type"]]]["entries"][eid] = entry
         entry = by_id[eid]
+        if e.get("type") and e["type"] != entry["type"]:
+            report["type_conflicts"].append(f"{eid}: {entry['type']} vs {e['type']} (curated)")
         for field in ("attested", "evidence"):
             entry[field] += [x for x in e.get(field, []) if x not in entry[field]]
         curated_relations += [(eid, r) for r in e.get("relations") or []]
+
+    for eid, gone in (removed or {}).items():  # reviewed: cited verses that do not refer to the entry
+        entry = by_id.get(eid)
+        added = set((curated.get(eid) or {}).get("attested") or [])
+        report["stale_removals"].extend(f"{eid} {u}" for u in gone if entry is None or u not in entry["attested"])
+        report["conflicting_removals"].extend(f"{eid} {u}" for u in gone if u in added)
+        if entry is not None:
+            entry["attested"] = [u for u in entry["attested"] if u not in set(gone)]
 
     for eid, labs in (labels or {}).items():  # how each edition names or designates the entry there
         entry = by_id.get(eid)
@@ -190,7 +193,7 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
 
     for src, r in curated_relations:
         tgt = r["target"]
-        if tgt in by_id and src != tgt and fits(src, r["rel"], tgt):
+        if tgt in by_id and src != tgt and fits(src, r["rel"], tgt) and r.get("evidence"):
             for ev in r["evidence"]:
                 _add_relation(by_id[src], r["rel"], tgt, ev)
         else:

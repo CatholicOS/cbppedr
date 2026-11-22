@@ -10,6 +10,7 @@ Usage: PSQL="docker exec bg-eval-db psql -U bibleget -d bibleget" python export_
 
 from __future__ import annotations
 
+import html
 import json
 import os
 import re
@@ -39,18 +40,23 @@ def by_unit(rows: list[list[str]], refs: dict[tuple[int, str], list[str]]) -> tu
     unmapped = 0
     for book, chapter, verse, origin, text in rows:
         ref = f"{chapter}:{verse}"
-        units = refs.get((int(book), f"{ref}@{origin}" if origin else ref)) or refs.get((int(book), ref))
+        units = refs.get((int(book), f"{ref}@{origin}" if origin else ref))
+        if not units and origin and not any((int(book), f"{ref}@{o}") in refs for o in ("GREEK", "HEBREW")):
+            units = refs.get((int(book), ref))  # the map does not split this verse by origin
         if not units:
             unmapped += 1
             continue
         for u in units:
-            texts[u].append(re.sub(r"<[^>]+>", " ", text))
+            texts[u].append(html.unescape(re.sub(r"<[^>]+>", " ", text)))
     return {u: " ".join(t) for u, t in texts.items()}, unmapped
 
 
 def main(argv: list[str]) -> int:
     TEXTS.mkdir(parents=True, exist_ok=True)
     for edition in argv[1:]:
+        if not re.fullmatch(r"[A-Z0-9_]+", edition):
+            print(f"not an edition table name: {edition!r}", file=sys.stderr)
+            return 1
         out = subprocess.run(shlex.split(PSQL) + ["-AtF", "\t", "-c", QUERY.format(edition)],
                              capture_output=True, text=True, check=True).stdout
         texts, unmapped = by_unit([l.split("\t", 4) for l in out.splitlines()], maps(edition))

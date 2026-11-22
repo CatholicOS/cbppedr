@@ -149,6 +149,18 @@ class RemovedUnitsTest(unittest.TestCase):
         self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["attested"], ["btu:mc.6.17"])
         self.assertEqual(out["report"]["stale_removals"], ["bpers:philippus.tetrarcha btu:gn.1.1"])
 
+    def test_removal_wins_over_curated_and_is_reported(self):
+        out = build(DECISIONS, UNITS, tree={}, removed={"bpers:philippus.tetrarcha": ["btu:mc.6.17"]},
+                    curated={"bpers:philippus.tetrarcha": {"attested": ["btu:mc.6.17"]}})
+        self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["attested"], ["btu:lc.3.1"])
+        self.assertEqual(out["report"]["conflicting_removals"], ["bpers:philippus.tetrarcha btu:mc.6.17"])
+
+    def test_curated_type_mismatch_and_relation_without_evidence_reported(self):
+        out = build(DECISIONS, UNITS, tree={}, curated={"bpers:philippus.tetrarcha": {
+            "type": "place", "relations": [{"rel": "child_of", "target": "bpers:herodes-magnus", "evidence": []}]}})
+        self.assertIn("bpers:philippus.tetrarcha: person vs place (curated)", out["report"]["type_conflicts"])
+        self.assertIn("bpers:philippus.tetrarcha child_of bpers:herodes-magnus (curated)", out["report"]["unresolved_relations"])
+
 
 class LabelsTest(unittest.TestCase):
     def test_labels_on_attested_units_only(self):

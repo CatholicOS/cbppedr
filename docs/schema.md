@@ -52,7 +52,7 @@
 - `data/curated/entries.json`: entries curated by hand, with explicit ids, units (the Nova Vulgata verses that name them), evidence and relations; an entry already built from a sense is extended. First use: the persons the dictionary treats only in a book's article, a sense classified as the book (`none`).
 - `data/curated/bj-tree.json`: the Herodian tree's entries and relations.
 - `data/curated/labels.json`: by id and unit, the reviewed labels (see **labels** above).
-- `data/curated/unattested.json`: by id, the units a citation attached to an entry but that, on review, do not refer to it (a whole passage cited for one person, a misread reference, a homonym's verse). They are removed before the curated entries are applied, so a curated entry can still add a unit back.
+- `data/curated/unattested.json`: by id, the units a citation attached to an entry but that, on review, do not refer to it (a whole passage cited for one person, a misread reference, a homonym's verse). They are removed after the curated entries are applied, so a reviewed removal always wins; a removal that a curated entry contradicts is listed in the build report (`conflicting removals`).
 
 ## Pipeline
 
