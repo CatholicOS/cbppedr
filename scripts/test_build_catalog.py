@@ -170,6 +170,37 @@ class LabelsTest(unittest.TestCase):
         self.assertEqual(out["report"]["stale_labels"], ["bpers:philippus.tetrarcha btu:gn.1.1"])
 
 
+class ConjecturesTest(unittest.TestCase):
+    SOURCES = {"bj": {"authority": "authoritative"}, "tipnr": {"authority": "non-authoritative"}}
+
+    def test_status_from_authoritative_opinions_only(self):
+        from build_catalog import conjecture_status as st
+        bj = lambda says: {"by": "bj:note:1Sam.14,49#p597", "says": says}
+        tip = {"by": "tipnr:Ishvi@1Sa.14.49", "says": "identifies"}
+        self.assertEqual(st([tip], self.SOURCES), "unsupported")
+        self.assertEqual(st([tip, bj("identifies")], self.SOURCES), "supported")
+        self.assertEqual(st([bj("suggests"), bj("doubts")], self.SOURCES), "disputed")
+        self.assertEqual(st([bj("rejects")], self.SOURCES), "rejected")
+        self.assertEqual(st([bj("doubts"), tip], self.SOURCES), "doubted")
+
+    def test_built_on_the_source_entry_unresolved_reported(self):
+        c = {"source": "bpers:philippus.tetrarcha", "target": "bpers:herodes-magnus", "rel": "possibly_same_as",
+             "opinions": [{"by": "tipnr:X@Mat.1.1", "says": "identifies", "summary": "x"}]}
+        at = {"source": "bpers:philippus.tetrarcha", "rel": "possibly_attested_at", "unit": "btu:mc.8.27",
+              "opinions": [{"by": "bj:note:Mc.8,27#p1", "says": "suggests", "summary": "x"}]}
+        typo = dict(at, rel="possibly_atested_at")
+        out = build(DECISIONS, UNITS, tree={}, conjectures=[c, dict(c, target="bpers:nobody"), at, typo,
+                                                            dict(at, unit="btu:mc.99.1")],
+                    sources=self.SOURCES, known_units={"btu:mc.8.27"})
+        got = out["persons"]["entries"]["bpers:philippus.tetrarcha"]["conjectures"]
+        self.assertEqual([(g.get("target") or g.get("unit"), g["status"]) for g in got],
+                         [("bpers:herodes-magnus", "unsupported"), ("btu:mc.8.27", "supported")])
+        self.assertEqual(out["report"]["unresolved_conjectures"],
+                         ["bpers:philippus.tetrarcha possibly_same_as bpers:nobody",
+                          "bpers:philippus.tetrarcha possibly_atested_at btu:mc.8.27",
+                          "bpers:philippus.tetrarcha possibly_attested_at btu:mc.99.1"])
+
+
 class CuratedEntriesTest(unittest.TestCase):
     CURATED = {
         "bpers:amos.propheta": {

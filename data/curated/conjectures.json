@@ -1,0 +1,1984 @@
+{
+ "$comment": "Scholarly conjectures the Bible text does not settle: possibly_same_as (two entries may be one; not same_as) and possibly_attested_at (an unnamed figure in a verse may be the entry; not attested), with each opinion for or against, by source location (see sources.json). Built into the source entry's `conjectures`, with a status: supported (an authoritative source identifies or suggests it, none rejects it), disputed (authoritative sources disagree), rejected (an authoritative source rejects it, none is for it), doubted (authoritative sources only doubt it), unsupported (only non-authoritative opinions). A conjecture never changes attested verses or same_as.",
+ "conjectures": [
+  {
+   "source": "bpers:abinadab.saul-filius",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1sam.14.49",
+   "opinions": [
+    {
+     "by": "tipnr:Abinadab@1Sa.14.49-1Ch",
+     "says": "identifies",
+     "summary": "Takes Ishvi of 1 Sam 14:49 as another name of Saul's son Abinadab."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ada.esau-uxor",
+   "rel": "possibly_same_as",
+   "target": "bpers:basemath.elon-filia",
+   "opinions": [
+    {
+     "by": "tipnr:Adah@Gen.26.34-",
+     "says": "identifies",
+     "summary": "Takes Basemath daughter of Elon (Gen 26:34) as another name of Adah."
+    },
+    {
+     "by": "ndeib:BASEMAT",
+     "says": "doubts",
+     "summary": "The lists of Esau's wives conflict and are hard to reconcile."
+    }
+   ]
+  },
+  {
+   "source": "bpers:admin",
+   "rel": "possibly_same_as",
+   "target": "bpers:aram.esrom-filius",
+   "opinions": [
+    {
+     "by": "tipnr:Ram@Rut.4.19-Luk",
+     "says": "identifies",
+     "summary": "Treats Admin of Lk 3:33 as Ram son of Hezron."
+    }
+   ]
+  },
+  {
+   "source": "bpers:agabus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:lc.10.1",
+   "opinions": [
+    {
+     "by": "ndeib:AGABO",
+     "says": "suggests",
+     "summary": "Later traditions count Agabus among the seventy disciples."
+    }
+   ]
+  },
+  {
+   "source": "bpers:agag.in-oraculo-balaam",
+   "rel": "possibly_same_as",
+   "target": "bpers:agag.rex-amalec",
+   "opinions": [
+    {
+     "by": "bj:note:Nm.24,7a#p356",
+     "says": "suggests",
+     "summary": "Refers Balaam's oracle to Saul, victor over Agag the Amalekite king, and to David."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ahilud.pater-baana",
+   "rel": "possibly_same_as",
+   "target": "bpers:ahilud.pater-iosaphat",
+   "opinions": [
+    {
+     "by": "ndeib:BAANA",
+     "says": "identifies",
+     "summary": "Makes Baana son of Ahilud the brother of the recorder Jehoshaphat."
+    },
+    {
+     "by": "tipnr:Ahilud@2Sa.8.16-1Ch",
+     "says": "identifies",
+     "summary": "One Ahilud, father of both Jehoshaphat and Baana."
+    }
+   ]
+  },
+  {
+   "source": "bpers:alohes.sellum-pater",
+   "rel": "possibly_same_as",
+   "target": "bpers:alohes.signator",
+   "opinions": [
+    {
+     "by": "tipnr:Hallohesh@Neh.3.12-",
+     "says": "identifies",
+     "summary": "One Hallohesh for Shallum's father and the covenant signer."
+    }
+   ]
+  },
+  {
+   "source": "bpers:alphaeus.pater-iacobi",
+   "rel": "possibly_same_as",
+   "target": "bpers:cleopas",
+   "opinions": [
+    {
+     "by": "ndeib:ALFEO#2",
+     "says": "rejects",
+     "summary": "Sees no reason to identify Alphaeus with Cleopas or Clopas; calls the equation groundless."
+    },
+    {
+     "by": "ndeib:CLEOPA",
+     "says": "rejects",
+     "summary": "The names render different Semitic forms, so equating Clopas with Alphaeus is philologically unacceptable."
+    },
+    {
+     "by": "tipnr:Alphaeus@Mat.10.3-Act",
+     "says": "identifies",
+     "summary": "Files Cleopas of Lk 24:18 under Alphaeus, father of James."
+    }
+   ]
+  },
+  {
+   "source": "bpers:arni",
+   "rel": "possibly_same_as",
+   "target": "bpers:aram.esrom-filius",
+   "opinions": [
+    {
+     "by": "tipnr:Ram@Rut.4.19-Luk",
+     "says": "identifies",
+     "summary": "Treats Arni of Lk 3:33 as Ram son of Hezron."
+    }
+   ]
+  },
+  {
+   "source": "bpers:azarias.cum-zorobabel",
+   "rel": "possibly_same_as",
+   "target": "bpers:azarias.signator",
+   "opinions": [
+    {
+     "by": "tipnr:Azariah@Neh.7.7-",
+     "says": "identifies",
+     "summary": "Joins the returnee of Neh 7:7 to the covenant signer and procession member."
+    }
+   ]
+  },
+  {
+   "source": "bpers:azarias.osaiae-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:iezonias.osaiae-filius",
+   "opinions": [
+    {
+     "by": "bj:note:Ger.42,1#p1978",
+     "says": "identifies",
+     "summary": "Reads Azariah at Jer 42:1 with the Greek and 43:2 for the Hebrew Jezaniah."
+    },
+    {
+     "by": "tipnr:Jezaniah@2Ki.25.23-Jer",
+     "says": "identifies",
+     "summary": "One son of Hoshaiah for Jer 40:8, 42:1 and 43:2."
+    }
+   ]
+  },
+  {
+   "source": "bpers:azarias.signator",
+   "rel": "possibly_same_as",
+   "target": "bpers:azarias.dedicatio-muri",
+   "opinions": [
+    {
+     "by": "ndeib:AZARIA",
+     "says": "identifies",
+     "summary": "Treats the priest who sealed the covenant and the Azariah of the wall procession as one."
+    },
+    {
+     "by": "tipnr:Azariah@Neh.7.7-",
+     "says": "identifies",
+     "summary": "One Azariah for Neh 7:7, the covenant signer and the procession member."
+    }
+   ]
+  },
+  {
+   "source": "bpers:banaias.pater-ioiadae",
+   "rel": "possibly_same_as",
+   "target": "bpers:banaias.ioiadae-filius",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Jehoiada son of Benaiah may descend from, or be a transposed form of, Benaiah son of Jehoiada; unsettled."
+    }
+   ]
+  },
+  {
+   "source": "bpers:basemath.esau-uxor",
+   "rel": "possibly_same_as",
+   "target": "bpers:mahalath.ismaelis-filia",
+   "opinions": [
+    {
+     "by": "tipnr:Mahalath@Gen.28.9-",
+     "says": "identifies",
+     "summary": "Takes Basemath daughter of Ishmael (Gen 36:3) as Mahalath of Gen 28:9."
+    },
+    {
+     "by": "ndeib:BASEMAT",
+     "says": "doubts",
+     "summary": "The lists of Esau's wives conflict and are hard to reconcile."
+    },
+    {
+     "by": "reviewer:round2",
+     "says": "identifies",
+     "summary": "Gn 28:9 and 36:3 give both the same father, Ishmael, and the same brother, Nebaioth"
+    }
+   ]
+  },
+  {
+   "source": "bpers:bavai.henadad-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:bennui.henadad-filius",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Both are sons of Henadad repairing the wall in Neh 3; some versions read Binnui at 3:18."
+    }
+   ]
+  },
+  {
+   "source": "bpers:becbecia.cum-zorobabel",
+   "rel": "possibly_same_as",
+   "target": "bpers:becbecia.levita-nehemiae",
+   "opinions": [
+    {
+     "by": "tipnr:Bakbukiah@Neh.11.17-",
+     "says": "identifies",
+     "summary": "One Bakbukiah for Neh 11:17, 12:9 and 12:25."
+    }
+   ]
+  },
+  {
+   "source": "bpers:beniamin.de-filiis-harim",
+   "rel": "possibly_same_as",
+   "target": "bpers:beniamin.dedicatio-muri",
+   "opinions": [
+    {
+     "by": "ndeib:BENIAMINO",
+     "says": "suggests",
+     "summary": "The Benjamin with a foreign wife may be the Benjamin of the wall dedication, Neh 12:34."
+    }
+   ]
+  },
+  {
+   "source": "bpers:beniamin.de-filiis-harim",
+   "rel": "possibly_same_as",
+   "target": "bpers:beniamin.restaurator-muri",
+   "opinions": [
+    {
+     "by": "ndeib:BENIAMINO",
+     "says": "suggests",
+     "summary": "The Benjamin with a foreign wife may be the wall builder of Neh 3:23."
+    }
+   ]
+  },
+  {
+   "source": "bpers:celita",
+   "rel": "possibly_same_as",
+   "target": "bpers:celaia",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Ezra 10:23 gives Kelaiah the second name Kelita, also a Levite in Neh 8:7; a lead."
+    }
+   ]
+  },
+  {
+   "source": "bpers:chorraei",
+   "rel": "possibly_attested_at",
+   "unit": "btu:gn.34.2",
+   "opinions": [
+    {
+     "by": "ndeib:HURRITI",
+     "says": "suggests",
+     "summary": "Following the Septuagint, Horites also lived at Shechem and near Gilgal (Gn 34:2; Josh 9:6-7)."
+    }
+   ]
+  },
+  {
+   "source": "bpers:chorraei",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ios.9.7",
+   "opinions": [
+    {
+     "by": "ndeib:HURRITI",
+     "says": "suggests",
+     "summary": "Following the Septuagint, Horites also lived at Shechem and near Gilgal (Gn 34:2; Josh 9:6-7)."
+    }
+   ]
+  },
+  {
+   "source": "bpers:eliam.pater-bethsabee",
+   "rel": "possibly_same_as",
+   "target": "bpers:eliam.achitophel-filius",
+   "opinions": [
+    {
+     "by": "ndeib:BETSABEA",
+     "says": "suggests",
+     "summary": "Allows that Bathsheba's father Eliam is David's warrior, which would make her Ahithophel's granddaughter."
+    }
+   ]
+  },
+  {
+   "source": "bpers:eliu.princeps-iuda",
+   "rel": "possibly_same_as",
+   "target": "bpers:eliab.isai-filius",
+   "opinions": [
+    {
+     "by": "ndeib:ELIU",
+     "says": "suggests",
+     "summary": "Takes the Judahite leader Elihu, David's brother or near kin, to be perhaps Eliab of 1 Sam 16:6."
+    }
+   ]
+  },
+  {
+   "source": "bpers:elnathan.pater-naesthae",
+   "rel": "possibly_same_as",
+   "target": "bpers:elnathan.achobor-filius",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Both are Jerusalem notables of Jehoiakim's time; a lead, the text does not join them."
+    }
+   ]
+  },
+  {
+   "source": "bpers:emmer.pater-phassur",
+   "rel": "possibly_same_as",
+   "target": "bpers:emmer.classis-sacerdotalis",
+   "opinions": [
+    {
+     "by": "tipnr:Immer@1Ch.24.14-Jer",
+     "says": "identifies",
+     "summary": "Joins Pashhur's father Immer to the ancestor of the sixteenth priestly course."
+    }
+   ]
+  },
+  {
+   "source": "bpers:esdras.dedicatio-muri",
+   "rel": "possibly_same_as",
+   "target": "bpers:esdras.sacerdos-reditus",
+   "opinions": [
+    {
+     "by": "tipnr:Ezra@Neh.12.1-",
+     "says": "identifies",
+     "summary": "Joins the Ezra of the wall procession to the priest returning with Zerubbabel."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ezechias.atavus-sophoniae",
+   "rel": "possibly_same_as",
+   "target": "bpers:ezechias.rex",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "An unusually long pedigree ending in Hezekiah may point to the king; the verse does not say."
+    }
+   ]
+  },
+  {
+   "source": "bpers:gaius.corinthius",
+   "rel": "possibly_same_as",
+   "target": "bpers:titius-iustus",
+   "opinions": [
+    {
+     "by": "ndeib:GAIO#3",
+     "says": "suggests",
+     "summary": "Reports renewed support for Ramsay's guess that Gaius was the first name of Titius Justus."
+    }
+   ]
+  },
+  {
+   "source": "bpers:genthon.signator",
+   "rel": "possibly_same_as",
+   "target": "bpers:genthon.sacerdos",
+   "opinions": [
+    {
+     "by": "tipnr:Ginnethon@Neh.10.6-",
+     "says": "identifies",
+     "summary": "One Ginnethon for the covenant signer and the priest of Neh 12:4 and 12:16."
+    }
+   ]
+  },
+  {
+   "source": "bpers:hir.beniaminita",
+   "rel": "possibly_same_as",
+   "target": "bpers:urai",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Both are Benjaminites of Bela's line in 1 Chr 7; the names are close; a lead only."
+    }
+   ]
+  },
+  {
+   "source": "bpers:hodia.levita-foederis",
+   "rel": "possibly_same_as",
+   "target": "bpers:hodia.levita-esdrae",
+   "opinions": [
+    {
+     "by": "tipnr:Hodiah@Neh.8.7-",
+     "says": "identifies",
+     "summary": "Joins the Levite signer Hodiah to the Levite of Neh 8:7 and 9:5."
+    }
+   ]
+  },
+  {
+   "source": "bpers:huphim.hir-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:huphim.beniamin-filius",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Shuppim and Huppim in 1 Chr 7:12 echo Muppim and Huppim among Benjamin's sons in Gen 46:21."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iachin.sacerdos-reditus",
+   "rel": "possibly_same_as",
+   "target": "bpers:iachin.sacerdos-classis",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "1 Chr 9:10 lists Jachin beside Jedaiah and Jehoiarib, all names of priestly courses; a lead."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iareb",
+   "rel": "possibly_same_as",
+   "target": "bpers:theglathphalasar",
+   "opinions": [
+    {
+     "by": "bj:note:Os.5,13#p2188",
+     "says": "identifies",
+     "summary": "Emends to 'the great king' and refers the verse to the tribute Menahem and Ahaz paid Tiglath-pileser III."
+    },
+    {
+     "by": "ndeib:IAREB",
+     "says": "suggests",
+     "summary": "Read as a personal name it could be Tiglath-pileser III; more likely a royal title."
+    },
+    {
+     "by": "tipnr:Tiglath-pileser@2Ki.15.19-Hos",
+     "says": "identifies",
+     "summary": "Files the 'great king' of Hosea 5:13 and 10:6 under Tiglath-pileser."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ieria",
+   "rel": "possibly_same_as",
+   "target": "bpers:ieriau",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Both head the Hebronites under David, under nearly the same name; a strong lead."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iether.aserita",
+   "rel": "possibly_same_as",
+   "target": "bpers:iethran.aserita",
+   "opinions": [
+    {
+     "by": "ndeib:IETER",
+     "says": "identifies",
+     "summary": "The Asherite Jether of 1 Chr 7:38 is plainly Ithran son of Zophah of 7:37."
+    },
+    {
+     "by": "tipnr:Ithran@1Ch.7.37-",
+     "says": "identifies",
+     "summary": "One Ithran for 1 Chr 7:37 and 7:38."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iezonias.osaiae-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:iezonias.maachathi-filius",
+   "opinions": [
+    {
+     "by": "bj:note:Ger.42,1#p1978",
+     "says": "suggests",
+     "summary": "The leader of Jer 42:1 should probably be taken as the Jezaniah of Jer 40:8."
+    },
+    {
+     "by": "tipnr:Jezaniah@2Ki.25.23-Jer",
+     "says": "identifies",
+     "summary": "One Jezaniah for 2 Kgs 25:23, Jer 40:8, 42:1 and 43:2."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioannes.apostolus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.13.23",
+   "opinions": [
+    {
+     "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+     "says": "doubts",
+     "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+    },
+    {
+     "by": "ndeib:GIOVANNI, APOSTOLO#2",
+     "says": "suggests",
+     "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioannes.apostolus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.19.26",
+   "opinions": [
+    {
+     "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+     "says": "doubts",
+     "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+    },
+    {
+     "by": "ndeib:GIOVANNI, APOSTOLO#2",
+     "says": "suggests",
+     "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioannes.apostolus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.20.2",
+   "opinions": [
+    {
+     "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+     "says": "doubts",
+     "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+    },
+    {
+     "by": "ndeib:GIOVANNI, APOSTOLO#2",
+     "says": "suggests",
+     "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioannes.apostolus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.21.20",
+   "opinions": [
+    {
+     "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+     "says": "doubts",
+     "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+    },
+    {
+     "by": "ndeib:GIOVANNI, APOSTOLO#2",
+     "says": "suggests",
+     "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioannes.apostolus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.21.7",
+   "opinions": [
+    {
+     "by": "bj:intro:Il-Vangelo-secondo-Giovanni-e-le-tre-lettere#p2544",
+     "says": "doubts",
+     "summary": "Sets out the traditional identification with John and its serious difficulties; some exegetes prefer Lazarus."
+    },
+    {
+     "by": "ndeib:GIOVANNI, APOSTOLO#2",
+     "says": "suggests",
+     "summary": "If the beloved disciple is not unknown, only Zebedee's son fits, though certainty is impossible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ioel.antenatus-belae",
+   "rel": "possibly_same_as",
+   "target": "bpers:ioel.pater-semeiae",
+   "opinions": [
+    {
+     "by": "ndeib:SEMAIA",
+     "says": "suggests",
+     "summary": "Equates Shema son of Joel with Shemaiah son of Joel, which makes the two Reubenite Joels one."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iozabad.doctor-legis",
+   "rel": "possibly_same_as",
+   "target": "bpers:iozabad.filius-iesua",
+   "opinions": [
+    {
+     "by": "ndeib:IOZABAD",
+     "says": "doubts",
+     "summary": "Cannot say whether the Jozabad of Neh 8:7 differs from the son of Jeshua."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iozabad.levita-esdrae",
+   "rel": "possibly_same_as",
+   "target": "bpers:iozabad.filius-iesua",
+   "opinions": [
+    {
+     "by": "ndeib:IOZABAD",
+     "says": "doubts",
+     "summary": "Other Levite Jozabads of Ezra's time are named, but whether they are different men cannot be settled."
+    }
+   ]
+  },
+  {
+   "source": "bpers:iozabad.princeps-levitarum",
+   "rel": "possibly_same_as",
+   "target": "bpers:iozabad.filius-iesua",
+   "opinions": [
+    {
+     "by": "ndeib:IOZABAD",
+     "says": "doubts",
+     "summary": "Cannot say whether the Jozabad of Neh 11:16 differs from the son of Jeshua."
+    }
+   ]
+  },
+  {
+   "source": "bpers:isaias.propheta",
+   "rel": "possibly_attested_at",
+   "unit": "btu:2reg.21.16",
+   "opinions": [
+    {
+     "by": "bj:note:2Re.21,16a#p779",
+     "says": "suggests",
+     "summary": "Jewish tradition counted Isaiah among the victims of Manasseh's bloodshed."
+    },
+    {
+     "by": "ndeib:ISAIA",
+     "says": "suggests",
+     "summary": "A later tradition has Isaiah killed under Manasseh, citing 2 Kgs 21:16."
+    }
+   ]
+  },
+  {
+   "source": "bpers:isaias.propheta",
+   "rel": "possibly_attested_at",
+   "unit": "btu:heb.11.37",
+   "opinions": [
+    {
+     "by": "bj:note:Eb.11,37#p2901",
+     "says": "suggests",
+     "summary": "Some apocrypha say Manasseh had Isaiah sawn in two."
+    }
+   ]
+  },
+  {
+   "source": "bpers:isbaal",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1sam.14.49",
+   "opinions": [
+    {
+     "by": "bj:note:1Sam.14,49#p597",
+     "says": "identifies",
+     "summary": "Ishvi is the same son of Saul called Ishbaal and Ishbosheth elsewhere."
+    },
+    {
+     "by": "bj:note:2Sam.2,8#p633",
+     "says": "identifies",
+     "summary": "Ishbaal is sometimes called Ishvi (1 Sam 14:49), the same individual."
+    },
+    {
+     "by": "ndeib:IS-BAAL",
+     "says": "identifies",
+     "summary": "Saul's son is called by a corrupt form of his name in 1 Sam 14:49."
+    }
+   ]
+  },
+  {
+   "source": "bpers:lucius.cognatus-pauli",
+   "rel": "possibly_same_as",
+   "target": "bpers:lucas",
+   "opinions": [
+    {
+     "by": "ndeib:LUCA NEL NUOVO TESTAMENTO",
+     "says": "suggests",
+     "summary": "Recalls Origen's guess that Lucius of Rom 16:21 is Luke's Latin name and thinks it may be right."
+    }
+   ]
+  },
+  {
+   "source": "bpers:lucius.cognatus-pauli",
+   "rel": "possibly_same_as",
+   "target": "bpers:lucius.cyrenensis",
+   "opinions": [
+    {
+     "by": "tipnr:Lucius@Act.13.1-Rom",
+     "says": "identifies",
+     "summary": "One record covers Lucius of Acts 13:1 and Lucius of Rom 16:21."
+    }
+   ]
+  },
+  {
+   "source": "bpers:maazia.signator",
+   "rel": "possibly_same_as",
+   "target": "bpers:maadia.sacerdos-zorobabel",
+   "opinions": [
+    {
+     "by": "tipnr:Maaziah@Neh.10.8-",
+     "says": "identifies",
+     "summary": "Joins the priest signer Maaziah to the Maadiah of Neh 12:5 and 12:17."
+    }
+   ]
+  },
+  {
+   "source": "bpers:mahath.praepositus",
+   "rel": "possibly_same_as",
+   "target": "bpers:mahath.amasai-filius",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "A Levite Mahath serving under Hezekiah in both chapters; a lead, not stated."
+    }
+   ]
+  },
+  {
+   "source": "bpers:manaen",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.4.46",
+   "opinions": [
+    {
+     "by": "ndeib:MANAEN",
+     "says": "suggests",
+     "summary": "Some identify Manaen with the royal official whose son Jesus healed (Jn 4:46-54)."
+    }
+   ]
+  },
+  {
+   "source": "bpers:maria.bethaniensis",
+   "rel": "possibly_same_as",
+   "target": "bpers:maria.magdalene",
+   "opinions": [
+    {
+     "by": "ndeib:MARIA",
+     "says": "rejects",
+     "summary": "Finds no good reason to identify Mary of Bethany with Mary Magdalene."
+    }
+   ]
+  },
+  {
+   "source": "bpers:maria.cleophae",
+   "rel": "possibly_same_as",
+   "target": "bpers:maria.mater-iacobi",
+   "opinions": [
+    {
+     "by": "ndeib:MARIA",
+     "says": "identifies",
+     "summary": "Mary of Clopas is fairly clearly the Mary mother of James of Mk 15:40."
+    },
+    {
+     "by": "tipnr:Mary@Mat.27.56-Jhn",
+     "says": "identifies",
+     "summary": "One Mary for the mother of James and Joses and Mary of Clopas."
+    }
+   ]
+  },
+  {
+   "source": "bpers:melluch.sacerdos-signator",
+   "rel": "possibly_same_as",
+   "target": "bpers:melluch.sacerdos-zorobabel",
+   "opinions": [
+    {
+     "by": "tipnr:Malluch@Neh.10.4-",
+     "says": "identifies",
+     "summary": "Joins the priest signer to the Malluch of Neh 12:2 and 12:14."
+    }
+   ]
+  },
+  {
+   "source": "bpers:meraioth.achitob-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:meraioth.zaraiae-filius",
+   "opinions": [
+    {
+     "by": "tipnr:Meraioth@1Ch.6.6-Neh",
+     "says": "identifies",
+     "summary": "One Meraioth for 1 Chr 5:32-33 (EN 6:6-7), 9:11 and Neh 11:11."
+    }
+   ]
+  },
+  {
+   "source": "bpers:meremoth.signator-nehemiae",
+   "rel": "possibly_same_as",
+   "target": "bpers:meremoth.uriae-filius",
+   "opinions": [
+    {
+     "by": "tipnr:Meremoth@Ezr.8.33-Neh",
+     "says": "identifies",
+     "summary": "One Meremoth son of Uriah, also the priest signer and the returnee of Neh 12:3."
+    }
+   ]
+  },
+  {
+   "source": "bpers:naaman.syrus",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1reg.22.34",
+   "opinions": [
+    {
+     "by": "ndeib:NAAMAN",
+     "says": "doubts",
+     "summary": "Only a Jewish legend in Josephus, attested nowhere else, makes Naaman the archer who killed Ahab."
+    }
+   ]
+  },
+  {
+   "source": "bpers:ner.filius-iehiel",
+   "rel": "possibly_same_as",
+   "target": "bpers:ner.pater-abner",
+   "opinions": [
+    {
+     "by": "bj:note:1Cr.8,33-40#p812",
+     "says": "suggests",
+     "summary": "Compares this Ner, Kish's father, with Samuel's Ner, there Kish's brother, as one man differently placed."
+    },
+    {
+     "by": "tipnr:Ner@1Sa.14.50-1Ch",
+     "says": "identifies",
+     "summary": "Counts Ner son of Jeiel (1 Chr 9:36) as Abner's father."
+    }
+   ]
+  },
+  {
+   "source": "bpers:phethahia.levita-esdrae",
+   "rel": "possibly_same_as",
+   "target": "bpers:phethahia.levita-orans",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "A Levite Pethahiah of Ezra's time in both lists; a lead, not stated."
+    }
+   ]
+  },
+  {
+   "source": "bpers:rufus.simonis-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:rufus.electus",
+   "opinions": [
+    {
+     "by": "bj:note:Rm.16,13#p2748",
+     "says": "suggests",
+     "summary": "The Rufus greeted in Romans is perhaps the son of Simon of Cyrene."
+    },
+    {
+     "by": "bj:note:Mc.15,21#p2462",
+     "says": "suggests",
+     "summary": "Alexander and Rufus were perhaps known to the Roman church (cf. Rom 16:13)."
+    }
+   ]
+  },
+  {
+   "source": "bpers:salome.discipula",
+   "rel": "possibly_attested_at",
+   "unit": "btu:io.19.25",
+   "opinions": [
+    {
+     "by": "bj:note:Gv.19,25#p2602",
+     "says": "suggests",
+     "summary": "The mother's sister may be Salome, or the phrase may describe Mary of Clopas."
+    },
+    {
+     "by": "ndeib:SALOME",
+     "says": "doubts",
+     "summary": "If the mother's sister is Salome, Zebedee's sons were Jesus' cousins; another reading is equally possible."
+    }
+   ]
+  },
+  {
+   "source": "bpers:salome.discipula",
+   "rel": "possibly_attested_at",
+   "unit": "btu:mt.27.56",
+   "opinions": [
+    {
+     "by": "bj:note:Mc.15,40#p2463",
+     "says": "suggests",
+     "summary": "Mark's Salome is probably the woman Matthew calls mother of Zebedee's sons."
+    },
+    {
+     "by": "ndeib:SALOME",
+     "says": "suggests",
+     "summary": "The mother of Zebedee's sons is very probably Salome."
+    }
+   ]
+  },
+  {
+   "source": "bpers:samma.pater-ionathae",
+   "rel": "possibly_same_as",
+   "target": "bpers:samma.ararites",
+   "opinions": [
+    {
+     "by": "ndeib:GIONATA",
+     "says": "suggests",
+     "summary": "Reading 2 Sam 23:32-33 with the Greek, Jonathan the warrior is son of Shammah of Harar."
+    }
+   ]
+  },
+  {
+   "source": "bpers:samma.princeps-aialon",
+   "rel": "possibly_same_as",
+   "target": "bpers:semei.beniaminita",
+   "opinions": [
+    {
+     "by": "ndeib:SIMEI, SIMEITI",
+     "says": "suggests",
+     "summary": "The Benjaminite Shimei of 1 Chr 8:21 seems to be the Shema of 8:13."
+    }
+   ]
+  },
+  {
+   "source": "bpers:samma.rubenita",
+   "rel": "possibly_same_as",
+   "target": "bpers:semeia.rubenita",
+   "opinions": [
+    {
+     "by": "ndeib:SEMAIA",
+     "says": "suggests",
+     "summary": "Shema son of Joel (1 Chr 5:8) seems to be Shemaiah son of Joel (5:4)."
+    }
+   ]
+  },
+  {
+   "source": "bpers:serebia.princeps-levitarum",
+   "rel": "possibly_same_as",
+   "target": "bpers:serebia.levita-esdrae",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Neh 12:24 pairs Sherebiah with Hashabiah, as Ezra 8:24 pairs Ezra's Sherebiah; a lead, unsettled."
+    }
+   ]
+  },
+  {
+   "source": "bpers:serebia.princeps-levitarum",
+   "rel": "possibly_same_as",
+   "target": "bpers:serebia.levita-zorobabel",
+   "opinions": [
+    {
+     "by": "tipnr:Sherebiah@Neh.10.12-",
+     "says": "identifies",
+     "summary": "One Sherebiah for the covenant signer and the Levite of Neh 12:8 and 12:24."
+    }
+   ]
+  },
+  {
+   "source": "bpers:sopater",
+   "rel": "possibly_attested_at",
+   "unit": "btu:rom.16.21",
+   "opinions": [
+    {
+     "by": "ndeib:SOPATRO",
+     "says": "suggests",
+     "summary": "Sopater may well be the Sosipater of Rom 16:21, short and long forms of one name."
+    },
+    {
+     "by": "tipnr:Sopater@Act.20.4-Rom",
+     "says": "identifies",
+     "summary": "One record holds Sopater of Acts 20:4 and Sosipater of Rom 16:21."
+    }
+   ]
+  },
+  {
+   "source": "bpers:sophonias.sacerdos-secundus",
+   "rel": "possibly_same_as",
+   "target": "bpers:sophonias.maasiae-filius",
+   "opinions": [
+    {
+     "by": "tipnr:Zephaniah@2Ki.25.18-Jer",
+     "says": "identifies",
+     "summary": "One Zephaniah, the second priest and son of Maaseiah."
+    }
+   ]
+  },
+  {
+   "source": "bpers:sulamitis",
+   "rel": "possibly_same_as",
+   "target": "bpers:abisag",
+   "opinions": [
+    {
+     "by": "bj:note:Ct.7,1#p1523",
+     "says": "suggests",
+     "summary": "Reads the Shulammite as a symbolic name that alludes to Abishag the Shunammite."
+    },
+    {
+     "by": "ndeib:SULAMMITA",
+     "says": "suggests",
+     "summary": "Among several explanations, reports that some identify the Shulammite with Abishag of Shunem."
+    }
+   ]
+  },
+  {
+   "source": "bpers:sur.princeps-madian",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ios.13.21",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Zur among Sihon's Midianite princes, the kings of Num 31:8; probably Cozbi's father, unstated."
+    }
+   ]
+  },
+  {
+   "source": "bpers:sur.princeps-madian",
+   "rel": "possibly_attested_at",
+   "unit": "btu:nm.31.8",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "A Midianite king Zur dies with Evi, Rekem, Hur and Reba; the Zur of Num 25:15 heads a Midianite clan."
+    }
+   ]
+  },
+  {
+   "source": "bpers:thaddaeus",
+   "rel": "possibly_same_as",
+   "target": "bpers:iudas.iacobi-filius",
+   "opinions": [
+    {
+     "by": "bj:note:Gv.14,22#p2592",
+     "says": "identifies",
+     "summary": "The Judas of Jn 14:22 is Luke's Judas of James, Matthew's and Mark's Thaddaeus."
+    },
+    {
+     "by": "bj:note:Mt.10,1#p2369",
+     "says": "suggests",
+     "summary": "Treats Thaddaeus as the same man as Luke's Judas of James, conditionally."
+    },
+    {
+     "by": "ndeib:TADDEO",
+     "says": "suggests",
+     "summary": "Thaddaeus is probably identical with Judas of James (Lk 6:16; Acts 1:13)."
+    },
+    {
+     "by": "ndeib:GIUDA (NT)#2",
+     "says": "identifies",
+     "summary": "Judas son of James, one of the Twelve, is also called Thaddaeus."
+    },
+    {
+     "by": "tipnr:Judas@Mat.10.3-Act",
+     "says": "identifies",
+     "summary": "Files Thaddaeus and Lebbaeus of Mt 10:3 and Mk 3:18 under Judas."
+    }
+   ]
+  },
+  {
+   "source": "bpers:tharthan.sennacherib",
+   "rel": "possibly_same_as",
+   "target": "bpers:tharthan.sargonis",
+   "opinions": [
+    {
+     "by": "tipnr:Tartan@2Ki.18.17-Isa",
+     "says": "identifies",
+     "summary": "One Tartan for 2 Kgs 18:17 and Isa 20:1."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zacharias.domus-adaiae",
+   "rel": "possibly_same_as",
+   "target": "bpers:zacharias.filius-addo",
+   "opinions": [
+    {
+     "by": "ndeib:ZACCARIA, LIBRO DI Z",
+     "says": "identifies",
+     "summary": "The prophet took his grandfather Iddo's place as head of that priestly house under Joiakim."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zenas",
+   "rel": "possibly_attested_at",
+   "unit": "btu:lc.10.1",
+   "opinions": [
+    {
+     "by": "ndeib:ZENA",
+     "says": "suggests",
+     "summary": "Orthodox menologies list Zenas among the seventy of Lk 10:1."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zorobabel",
+   "rel": "possibly_attested_at",
+   "unit": "btu:esd.1.11",
+   "opinions": [
+    {
+     "by": "ndeib:ZOROBABELE",
+     "says": "rejects",
+     "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+    },
+    {
+     "by": "bj:note:Esd.3,2#p908",
+     "says": "rejects",
+     "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zorobabel",
+   "rel": "possibly_attested_at",
+   "unit": "btu:esd.1.8",
+   "opinions": [
+    {
+     "by": "ndeib:ZOROBABELE",
+     "says": "rejects",
+     "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+    },
+    {
+     "by": "bj:note:Esd.3,2#p908",
+     "says": "rejects",
+     "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zorobabel",
+   "rel": "possibly_attested_at",
+   "unit": "btu:esd.5.14",
+   "opinions": [
+    {
+     "by": "ndeib:ZOROBABELE",
+     "says": "rejects",
+     "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+    },
+    {
+     "by": "bj:note:Esd.3,2#p908",
+     "says": "rejects",
+     "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+    }
+   ]
+  },
+  {
+   "source": "bpers:zorobabel",
+   "rel": "possibly_attested_at",
+   "unit": "btu:esd.5.16",
+   "opinions": [
+    {
+     "by": "ndeib:ZOROBABELE",
+     "says": "rejects",
+     "summary": "The two cannot be one man, as some thought: Ezra 5 names them side by side."
+    },
+    {
+     "by": "bj:note:Esd.3,2#p908",
+     "says": "rejects",
+     "summary": "The temple mission was officially Sheshbazzar's; the redactor credits Zerubbabel, a different leader."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ahion",
+   "rel": "possibly_attested_at",
+   "unit": "btu:2sam.24.6",
+   "opinions": [
+    {
+     "by": "ndeib:IION",
+     "says": "suggests",
+     "summary": "Ijon is probably the Hebrew text's Dan-jaan in 2 Sam 24:6."
+    }
+   ]
+  },
+  {
+   "source": "bplace:arimathaea",
+   "rel": "possibly_same_as",
+   "target": "bplace:rama.samuelis",
+   "opinions": [
+    {
+     "by": "ndeib:ARIMATEA",
+     "says": "suggests",
+     "summary": "Reports the Byzantine identification of Arimathea with Ramathaim-zophim, Samuel's town."
+    }
+   ]
+  },
+  {
+   "source": "bplace:astharothcarnaim",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1mac.5.43",
+   "opinions": [
+    {
+     "by": "bj:note:1Mac.5,43#p1061",
+     "says": "suggests",
+     "summary": "Explains Karnaim by the local horned Astarte and points to Ashteroth-karnaim, Og's capital."
+    },
+    {
+     "by": "ndeib:ASTAROT-KARNAIM",
+     "says": "suggests",
+     "summary": "Ashteroth-karnaim probably means Ashtaroth by the Karnaim of 1 Mac 5:43-44."
+    }
+   ]
+  },
+  {
+   "source": "bplace:astharothcarnaim",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1mac.5.44",
+   "opinions": [
+    {
+     "by": "ndeib:ASTAROT-KARNAIM",
+     "says": "suggests",
+     "summary": "Ashteroth-karnaim probably means Ashtaroth by the Karnaim of 1 Mac 5:43-44."
+    }
+   ]
+  },
+  {
+   "source": "bplace:baalath.dan",
+   "rel": "possibly_same_as",
+   "target": "bplace:baalath.salomonis",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Same name, and Solomon fortified towns near Gezer in Dan's old allotment; a lead only."
+    }
+   ]
+  },
+  {
+   "source": "bplace:baloth.iuda",
+   "rel": "possibly_same_as",
+   "target": "bplace:baalathbeer",
+   "opinions": [
+    {
+     "by": "tipnr:Baalath-beer@Jos.15.24-1Ch",
+     "says": "identifies",
+     "summary": "Puts Bealoth of Josh 15:24 under Baalath-beer, with Simeon's town list."
+    }
+   ]
+  },
+  {
+   "source": "bplace:bethania.iuxta-hierusalem",
+   "rel": "possibly_attested_at",
+   "unit": "btu:lc.10.38",
+   "opinions": [
+    {
+     "by": "bj:note:Lc.10,38-42#p2499",
+     "says": "suggests",
+     "summary": "Links Luke's two sisters with Martha and Mary of the Lazarus story, set at Bethany."
+    }
+   ]
+  },
+  {
+   "source": "bplace:bethania.iuxta-hierusalem",
+   "rel": "possibly_same_as",
+   "target": "bplace:anania",
+   "opinions": [
+    {
+     "by": "ndeib:BETANIA#1",
+     "says": "suggests",
+     "summary": "Bethany is probably the Benjaminite Ananiah resettled after the exile (Neh 11:32)."
+    }
+   ]
+  },
+  {
+   "source": "bplace:bethdeblathaim",
+   "rel": "possibly_same_as",
+   "target": "bplace:elmondeblathaim",
+   "opinions": [
+    {
+     "by": "ndeib:ALMON-DIBLATAIM",
+     "says": "suggests",
+     "summary": "The camp is very probably the same as Beth-diblathaim of Jer 48:22."
+    },
+    {
+     "by": "tipnr:Diblathaim@Num.33.46-Jer",
+     "says": "identifies",
+     "summary": "One place for Almon-diblathaim and Beth-diblathaim."
+    }
+   ]
+  },
+  {
+   "source": "bplace:bethsames.iudae",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ios.19.41",
+   "opinions": [
+    {
+     "by": "ndeib:BET-SEMES#1",
+     "says": "suggests",
+     "summary": "Ir-shemesh of Josh 19:41 is probably Beth-shemesh."
+    },
+    {
+     "by": "ndeib:CHERES#1",
+     "says": "suggests",
+     "summary": "Mount Heres is probably Ir-shemesh, also called Beth-shemesh."
+    },
+    {
+     "by": "tipnr:Beth-shemesh@Jos.15.10-2Ch",
+     "says": "identifies",
+     "summary": "Spells Beth-shemesh as Ir-shemesh at Josh 19:41."
+    }
+   ]
+  },
+  {
+   "source": "bplace:caphtor",
+   "rel": "possibly_same_as",
+   "target": "bplace:creta",
+   "opinions": [
+    {
+     "by": "bj:note:Ger.47,4#p1987",
+     "says": "identifies",
+     "summary": "The island of Caphtor is Crete, the Philistines' supposed homeland."
+    },
+    {
+     "by": "bj:note:Dt.2,23#p385",
+     "says": "suggests",
+     "summary": "The Caphtorim are the Philistines, who came from Crete or Asia Minor."
+    },
+    {
+     "by": "ndeib:CRETA",
+     "says": "suggests",
+     "summary": "Crete is usually held to be the Caphtor of the Old Testament."
+    },
+    {
+     "by": "ndeib:KAFTOR",
+     "says": "suggests",
+     "summary": "The people of Caphtor very probably came from Crete."
+    }
+   ]
+  },
+  {
+   "source": "bplace:carioth.moab",
+   "rel": "possibly_same_as",
+   "target": "bplace:cariathaim.ruben",
+   "opinions": [
+    {
+     "by": "tipnr:Kiriathaim@Gen.14.5-Amo",
+     "says": "identifies",
+     "summary": "Puts Kerioth of Jer 48:24 and Am 2:2 under Kiriathaim."
+    }
+   ]
+  },
+  {
+   "source": "bplace:cateth",
+   "rel": "possibly_same_as",
+   "target": "bplace:cetron",
+   "opinions": [
+    {
+     "by": "ndeib:KATTAT",
+     "says": "suggests",
+     "summary": "Mentions that some take Kattath for the Kitron of Judg 1:30."
+    },
+    {
+     "by": "ndeib:KITRON#0",
+     "says": "doubts",
+     "summary": "Calls the identification of Kitron with Kattath improbable."
+    },
+    {
+     "by": "tipnr:Kitron@Jos.19.15-Jdg",
+     "says": "identifies",
+     "summary": "One record holds Kattath of Josh 19:15 and Kitron of Judg 1:30."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ceseleththabor",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ios.19.18",
+   "opinions": [
+    {
+     "by": "ndeib:CHISLOT",
+     "says": "identifies",
+     "summary": "Equates Chisloth-tabor on Zebulun's border with the Chesulloth of Issachar's list."
+    },
+    {
+     "by": "tipnr:Chesulloth@Jos.19.12-1Ch",
+     "says": "identifies",
+     "summary": "Files Josh 19:18's Chesulloth under the same place as Chisloth-tabor."
+    }
+   ]
+  },
+  {
+   "source": "bplace:elam.basan",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1mac.5.26",
+   "opinions": [
+    {
+     "by": "ndeib:CHELAM",
+     "says": "suggests",
+     "summary": "Reports attempts to connect Helam with the Alema of 1 Mac 5:26."
+    }
+   ]
+  },
+  {
+   "source": "bplace:elam.basan",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ez.47.16",
+   "opinions": [
+    {
+     "by": "ndeib:CHELAM",
+     "says": "suggests",
+     "summary": "The Septuagint's place-name Eliam in Ez 47:16 has suggested Helam on the Damascus-Hamath border."
+    }
+   ]
+  },
+  {
+   "source": "bplace:elmondeblathaim",
+   "rel": "possibly_same_as",
+   "target": "bplace:bethdeblathaim",
+   "opinions": [
+    {
+     "by": "ndeib:ALMON-DIBLATAIM",
+     "says": "suggests",
+     "summary": "The camp Almon-diblathaim is probably the same as Beth-diblathaim (Jer 48:22)."
+    },
+    {
+     "by": "tipnr:Diblathaim@Num.33.46-Jer",
+     "says": "identifies",
+     "summary": "One record joins Almon-diblathaim and Beth-diblathaim."
+    }
+   ]
+  },
+  {
+   "source": "bplace:emmaus",
+   "rel": "possibly_same_as",
+   "target": "bplace:mosa",
+   "opinions": [
+    {
+     "by": "ndeib:MOZA#3",
+     "says": "suggests",
+     "summary": "Notes that some identify the Mozah settlement, surviving into Talmudic times, with Emmaus."
+    },
+    {
+     "by": "ndeib:EMMAUS",
+     "says": "suggests",
+     "summary": "Reports scholars placing Emmaus near Qaloniya by Moza, which it equates with the Mozah of Josh 18:26."
+    }
+   ]
+  },
+  {
+   "source": "bplace:enaim.via-thamnae",
+   "rel": "possibly_same_as",
+   "target": "bplace:enaim.sephela",
+   "opinions": [
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "Same name, and the Shephelah Enam lies in the Timnah region of Gen 38; a lead only."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ephron.bethel",
+   "rel": "possibly_same_as",
+   "target": "bplace:ephraim.oppidum",
+   "opinions": [
+    {
+     "by": "ndeib:EFRON",
+     "says": "identifies",
+     "summary": "The Ephron near Bethel is identified with Ophrah and with the Ephraim of 2 Sam 13:23."
+    },
+    {
+     "by": "ndeib:EFRAIM (LOCALITÀ)",
+     "says": "identifies",
+     "summary": "Ephraim near Baal-hazor and Ephron near Bethel are, it says, one place."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ethar",
+   "rel": "possibly_same_as",
+   "target": "bplace:ether",
+   "opinions": [
+    {
+     "by": "tipnr:Ether@Jos.15.42-",
+     "says": "identifies",
+     "summary": "One Ether for Judah's town (Josh 15:42) and Simeon's (Josh 19:7)."
+    }
+   ]
+  },
+  {
+   "source": "bplace:fons-harad",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1sam.29.1",
+   "opinions": [
+    {
+     "by": "ndeib:CAROD",
+     "says": "suggests",
+     "summary": "Saul probably also camped at the spring of Harod before Gilboa (1 Sam 29:1)."
+    }
+   ]
+  },
+  {
+   "source": "bplace:fons-rogel",
+   "rel": "possibly_same_as",
+   "target": "bplace:fons-draconis",
+   "opinions": [
+    {
+     "by": "ndeib:ROGHEL",
+     "says": "doubts",
+     "summary": "Mentions that En-rogel is sometimes taken for the Dragon Spring, but Neh 2:13 seems to keep them apart."
+    }
+   ]
+  },
+  {
+   "source": "bplace:gabaa-dei",
+   "rel": "possibly_same_as",
+   "target": "bplace:gabaa.saul",
+   "opinions": [
+    {
+     "by": "bj:note:1Sam.10,5#p587",
+     "says": "identifies",
+     "summary": "Gibeath-elohim is another name for Gibeah, Saul's home town."
+    },
+    {
+     "by": "tipnr:Gibeah@Jos.18.28-Hos",
+     "says": "identifies",
+     "summary": "Counts 1 Sam 10:5 under Gibeah of Saul."
+    }
+   ]
+  },
+  {
+   "source": "bplace:gedor.in-montibus-iudae",
+   "rel": "possibly_same_as",
+   "target": "bplace:bethgader",
+   "opinions": [
+    {
+     "by": "ndeib:GHEDOR",
+     "says": "suggests",
+     "summary": "Gedor in Judah's hill country may be the Beth-gader of 1 Chr 2:51."
+    }
+   ]
+  },
+  {
+   "source": "bplace:hathares",
+   "rel": "possibly_attested_at",
+   "unit": "btu:ios.19.41",
+   "opinions": [
+    {
+     "by": "ndeib:CHERES#1",
+     "says": "suggests",
+     "summary": "Har-heres is probably the Ir-shemesh of Josh 19:41."
+    }
+   ]
+  },
+  {
+   "source": "bplace:hathares",
+   "rel": "possibly_same_as",
+   "target": "bplace:bethsames.iudae",
+   "opinions": [
+    {
+     "by": "ndeib:CHERES#1",
+     "says": "suggests",
+     "summary": "Har-heres of Judg 1:35 is probably Ir-shemesh, also called Beth-shemesh (Josh 15:10)."
+    },
+    {
+     "by": "tipnr:Beth-shemesh@Jos.15.10-2Ch",
+     "says": "identifies",
+     "summary": "Files Mount Heres of Judg 1:35 under Beth-shemesh."
+    }
+   ]
+  },
+  {
+   "source": "bplace:hermon",
+   "rel": "possibly_attested_at",
+   "unit": "btu:mc.9.2",
+   "opinions": [
+    {
+     "by": "ndeib:ERMON",
+     "says": "suggests",
+     "summary": "The 'high mountain' of the Transfiguration could be Hermon, as the oldest tradition seems to hold."
+    }
+   ]
+  },
+  {
+   "source": "bplace:hermon",
+   "rel": "possibly_attested_at",
+   "unit": "btu:mt.17.1",
+   "opinions": [
+    {
+     "by": "ndeib:ERMON",
+     "says": "suggests",
+     "summary": "The 'high mountain' of the Transfiguration could be Hermon, as the oldest tradition seems to hold."
+    },
+    {
+     "by": "bj:note:Mt.17,1-8#p2390",
+     "says": "suggests",
+     "summary": "Mentions Hermon as some scholars' choice, against the traditional Tabor; the mountain is chiefly symbolic."
+    }
+   ]
+  },
+  {
+   "source": "bplace:hispania",
+   "rel": "possibly_same_as",
+   "target": "bplace:tharsis",
+   "opinions": [
+    {
+     "by": "ndeib:SPAGNA",
+     "says": "suggests",
+     "summary": "Tarshish is very probably Tartessos in south-western Spain."
+    },
+    {
+     "by": "ndeib:TARSIS#4",
+     "says": "suggests",
+     "summary": "Tarshish is often placed in the western Mediterranean and identified with Spanish Tartessos."
+    }
+   ]
+  },
+  {
+   "source": "bplace:iesua",
+   "rel": "possibly_same_as",
+   "target": "bplace:sama",
+   "opinions": [
+    {
+     "by": "ndeib:IESUA",
+     "says": "identifies",
+     "summary": "Jeshua of Neh 11:26 is the town elsewhere called Shema (Josh 15:26; Sheba in 19:2)."
+    }
+   ]
+  },
+  {
+   "source": "bplace:iutta",
+   "rel": "possibly_attested_at",
+   "unit": "btu:lc.1.39",
+   "opinions": [
+    {
+     "by": "ndeib:IUTTA",
+     "says": "doubts",
+     "summary": "Some placed John the Baptist's birth at Juttah; philologically unlikely and lacking any tradition."
+    }
+   ]
+  },
+  {
+   "source": "bplace:laban.deserti",
+   "rel": "possibly_same_as",
+   "target": "bplace:lebna.castra",
+   "opinions": [
+    {
+     "by": "ndeib:LIBNA#2",
+     "says": "suggests",
+     "summary": "Cross-refers Deut 1:1 under Libnah, the unidentified wilderness camp."
+    }
+   ]
+  },
+  {
+   "source": "bplace:magadan",
+   "rel": "possibly_same_as",
+   "target": "bplace:dalmanutha",
+   "opinions": [
+    {
+     "by": "tipnr:Magadan@Mat.15.39-Jhn",
+     "says": "identifies",
+     "summary": "Treats Dalmanutha of Mk 8:10 as the Magadan of Mt 15:39."
+    }
+   ]
+  },
+  {
+   "source": "bplace:magadan",
+   "rel": "possibly_same_as",
+   "target": "bplace:magdala",
+   "opinions": [
+    {
+     "by": "ndeib:DALMANUTA",
+     "says": "doubts",
+     "summary": "Reports the view that Magadan and Dalmanutha misspell Magdala, but that reading is rare and late."
+    },
+    {
+     "by": "tipnr:Magadan@Mat.15.39-Jhn",
+     "says": "identifies",
+     "summary": "Joins Magadan to Magdala, home of Mary Magdalene."
+    }
+   ]
+  },
+  {
+   "source": "bplace:magdala",
+   "rel": "possibly_same_as",
+   "target": "bplace:dalmanutha",
+   "opinions": [
+    {
+     "by": "ndeib:DALMANUTA",
+     "says": "doubts",
+     "summary": "Cites Jeremias's view that Dalmanutha corrupts Magdala, then favours explanations pointing to Capernaum."
+    },
+    {
+     "by": "ndeib:MAGDALA",
+     "says": "doubts",
+     "summary": "Mentions the reading of Dalmanutha as an altered Magdala, then proposes another site."
+    },
+    {
+     "by": "tipnr:Magadan@Mat.15.39-Jhn",
+     "says": "identifies",
+     "summary": "One record covers Magdala(ene), Magadan and Dalmanutha."
+    }
+   ]
+  },
+  {
+   "source": "bplace:magdala",
+   "rel": "possibly_same_as",
+   "target": "bplace:magadan",
+   "opinions": [
+    {
+     "by": "ndeib:MAGDALA",
+     "says": "doubts",
+     "summary": "Notes that Magadan has been read as a variant of Magdala, but offers another explanation."
+    },
+    {
+     "by": "ndeib:DALMANUTA",
+     "says": "doubts",
+     "summary": "Reports the view that Magadan is a corrupt Magdala; that reading is found only in late manuscripts."
+    },
+    {
+     "by": "tipnr:Magadan@Mat.15.39-Jhn",
+     "says": "identifies",
+     "summary": "Files Magdala(ene) under Magadan of Mt 15:39."
+    }
+   ]
+  },
+  {
+   "source": "bplace:mons-hor.edom",
+   "rel": "possibly_same_as",
+   "target": "bplace:mosera",
+   "opinions": [
+    {
+     "by": "ndeib:COR#0",
+     "says": "identifies",
+     "summary": "The mountain where Aaron died is, it says, called Moserah elsewhere (Dt 10:6)."
+    },
+    {
+     "by": "ndeib:MOSERA, MOSEROT",
+     "says": "doubts",
+     "summary": "Treats Moserah as an unlocated camp, probably near Mount Hor rather than the mountain itself."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ophra",
+   "rel": "possibly_same_as",
+   "target": "bplace:ephraim.oppidum",
+   "opinions": [
+    {
+     "by": "bj:note:Gv.11,54#p2583",
+     "says": "identifies",
+     "summary": "Takes the Ephraim of Jn 11:54 and 2 Sam 13:23 to be Ophrah, today et-Taiyibeh."
+    },
+    {
+     "by": "ndeib:EFRAIM (LOCALITÀ)",
+     "says": "identifies",
+     "summary": "Ephraim is the same Benjaminite town as the Ophrah of Josh 18:23."
+    },
+    {
+     "by": "ndeib:OFRA",
+     "says": "doubts",
+     "summary": "Says it is not known whether Ophrah became the Ephraim of Jn 11:54."
+    }
+   ]
+  },
+  {
+   "source": "bplace:ophra",
+   "rel": "possibly_same_as",
+   "target": "bplace:ephron.bethel",
+   "opinions": [
+    {
+     "by": "ndeib:EFRON",
+     "says": "identifies",
+     "summary": "The Ephron near Bethel taken by Abijah is to be identified with Ophrah and Ephraim."
+    },
+    {
+     "by": "ndeib:OFRA",
+     "says": "identifies",
+     "summary": "Lists 2 Chr 13:19, written Ephron and read Ephraim, among Ophrah's mentions."
+    }
+   ]
+  },
+  {
+   "source": "bplace:phinon",
+   "rel": "possibly_attested_at",
+   "unit": "btu:nm.21.9",
+   "opinions": [
+    {
+     "by": "ndeib:PUNON",
+     "says": "identifies",
+     "summary": "Places Moses' bronze serpent at Punon, as the Madaba mosaic does."
+    }
+   ]
+  },
+  {
+   "source": "bplace:porta-sur",
+   "rel": "possibly_same_as",
+   "target": "bplace:porta-fundamenti",
+   "opinions": [
+    {
+     "by": "ndeib:FONDARE, FONDAMENTO#0",
+     "says": "suggests",
+     "summary": "Takes the gate in 2 Kgs 11:6 and in its parallel 2 Chr 23:5 as the same entrance."
+    }
+   ]
+  },
+  {
+   "source": "bplace:seira",
+   "rel": "possibly_same_as",
+   "target": "bplace:sior",
+   "opinions": [
+    {
+     "by": "ndeib:ZEIRA",
+     "says": "suggests",
+     "summary": "Since some Septuagint manuscripts read Zior, Zair could be the Zior of Josh 15:54."
+    }
+   ]
+  },
+  {
+   "source": "bplace:sepharvaim",
+   "rel": "possibly_same_as",
+   "target": "bplace:sabarim.finium",
+   "opinions": [
+    {
+     "by": "ndeib:SEFARVAIM",
+     "says": "doubts",
+     "summary": "Leaves Sepharvaim unidentified, citing Halévy alone for placing it at Sibraim near Damascus."
+    }
+   ]
+  },
+  {
+   "source": "bplace:siloe",
+   "rel": "possibly_attested_at",
+   "unit": "btu:2reg.20.20",
+   "opinions": [
+    {
+     "by": "bj:note:2Re.20,20#p778",
+     "says": "identifies",
+     "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+    }
+   ]
+  },
+  {
+   "source": "bplace:siloe",
+   "rel": "possibly_attested_at",
+   "unit": "btu:eccli.48.19",
+   "opinions": [
+    {
+     "by": "bj:note:2Re.20,20#p778",
+     "says": "identifies",
+     "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+    }
+   ]
+  },
+  {
+   "source": "bplace:siloe",
+   "rel": "possibly_attested_at",
+   "unit": "btu:is.22.11",
+   "opinions": [
+    {
+     "by": "bj:note:2Re.20,20#p778",
+     "says": "identifies",
+     "summary": "Hezekiah's tunnel fed the pool of Siloam, which is the reservoir of Is 22:11 and Sir 48:17."
+    }
+   ]
+  },
+  {
+   "source": "bplace:thabor.mons",
+   "rel": "possibly_attested_at",
+   "unit": "btu:mc.9.2",
+   "opinions": [
+    {
+     "by": "ndeib:ERMON",
+     "says": "doubts",
+     "summary": "The earliest tradition pointed to Hermon; the Tabor location took hold only from the fourth century."
+    }
+   ]
+  },
+  {
+   "source": "bplace:thabor.mons",
+   "rel": "possibly_attested_at",
+   "unit": "btu:mt.17.1",
+   "opinions": [
+    {
+     "by": "bj:note:Mt.17,1-8#p2390",
+     "says": "suggests",
+     "summary": "Tabor is the traditional mountain of the Transfiguration; others propose Hermon or Carmel."
+    },
+    {
+     "by": "ndeib:ERMON",
+     "says": "doubts",
+     "summary": "The earliest tradition pointed to Hermon; the Tabor location took hold only from the fourth century."
+    }
+   ]
+  },
+  {
+   "source": "bplace:thabor.oppidum",
+   "rel": "possibly_same_as",
+   "target": "bplace:ceseleththabor",
+   "opinions": [
+    {
+     "by": "ndeib:TABOR (LOCALITÀ)",
+     "says": "suggests",
+     "summary": "The Levitical Tabor of 1 Chr 6:62 is probably a short form of Chisloth-tabor; others locate it elsewhere."
+    },
+    {
+     "by": "ndeib:CHISLOT",
+     "says": "suggests",
+     "summary": "Perhaps the Tabor of 1 Chr 6:62 abbreviates Chisloth-tabor."
+    },
+    {
+     "by": "tipnr:Chesulloth@Jos.19.12-1Ch",
+     "says": "identifies",
+     "summary": "One record joins Chisloth-tabor, Chesulloth and the Tabor of 1 Chr 6."
+    }
+   ]
+  },
+  {
+   "source": "bplace:thapsa",
+   "rel": "possibly_same_as",
+   "target": "bplace:thapphua.ephraim",
+   "opinions": [
+    {
+     "by": "ndeib:TAPPUACH",
+     "says": "suggests",
+     "summary": "Considers that 2 Kgs 15:16, Tappuah in the Greek, may mean this Ephraimite town."
+    },
+    {
+     "by": "bj:note:2Re.15,16#p764",
+     "says": "suggests",
+     "summary": "Finds the Euphrates city unlikely as Menahem's target and cites the Lucianic Greek reading Tappuah."
+    }
+   ]
+  },
+  {
+   "source": "bplace:tholad",
+   "rel": "possibly_same_as",
+   "target": "bplace:eltholad",
+   "opinions": [
+    {
+     "by": "bj:note:1Cr.4,24-43#p803",
+     "says": "suggests",
+     "summary": "The Simeonite towns of 1 Chr 4:28-33 are the ones Joshua lists among Judah's."
+    },
+    {
+     "by": "reviewer:round2",
+     "says": "suggests",
+     "summary": "1 Chr 4:29 parallels Josh 19:4, where Eltolad stands in the same place."
+    }
+   ]
+  },
+  {
+   "source": "bplace:torrens-aegypti",
+   "rel": "possibly_attested_at",
+   "unit": "btu:1par.13.5",
+   "opinions": [
+    {
+     "by": "ndeib:TORRENTE D'EGITTO",
+     "says": "doubts",
+     "summary": "Whether Shihor, a Nile branch, coincides with the Wadi of Egypt is unsettled, with evidence against."
+    }
+   ]
+  },
+  {
+   "source": "bplace:vallis-iosaphat",
+   "rel": "possibly_same_as",
+   "target": "bplace:cedron",
+   "opinions": [
+    {
+     "by": "ndeib:CEDRON",
+     "says": "doubts",
+     "summary": "Traces the equation to the Bordeaux pilgrim and Eusebius; if a real place, prefers the King's Valley."
+    },
+    {
+     "by": "ndeib:GIOSAFAT, VALLE DI G",
+     "says": "doubts",
+     "summary": "Reports the traditional equation with the Kidron, the objections to it, and rival proposals."
+    }
+   ]
+  }
+ ]
+}

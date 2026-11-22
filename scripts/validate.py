@@ -9,6 +9,8 @@
   (bj:herodian-tree) or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
 - labels: each on an attested unit, `as` name or designation, editions from the known list,
   each label at most six words;
+- conjectures: a known relation and target, a status, opinions with a source from
+  data/curated/sources.json, a well-formed locator, a stance and a short summary;
 - data/unnamed.json (persons no edition names): anon: keys, units and nv: evidence that exist,
   a tie to an existing entry;
 - kinds from the schema's list for the type; relations from the schema's vocabulary, with a
@@ -25,7 +27,7 @@ import sys
 from functools import cache
 from pathlib import Path
 
-from build_catalog import TARGET_TYPE
+from build_catalog import SOURCE_TYPE, TARGET_TYPE
 from units import CBTUDR
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -110,6 +112,8 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
                 if r["target"] not in seen:
                     out.append(f"{eid}: relation {r['rel']} to missing {r['target']}")
                     continue
+                if SOURCE_TYPE.get(r["rel"]) not in (None, e.get("type")):
+                    out.append(f"{eid}: {r['rel']} needs a {SOURCE_TYPE[r['rel']]} as its source")
                 want = TARGET_TYPE.get(r["rel"])
                 want = e.get("type") if want == "same" else want
                 if want and types[r["target"]] != want:
@@ -117,6 +121,51 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
     for qid, eids in holders.items():
         if len(eids) > 1:
             out += [f"{eid}: qid {qid} shared with {', '.join(x for x in eids if x != eid)}" for eid in eids]
+    return out
+
+
+CONJ_RELS = {"possibly_same_as", "possibly_attested_at"}
+STANCES = {"identifies", "suggests", "doubts", "rejects"}
+STATUSES = {"supported", "disputed", "rejected", "doubted", "unsupported"}
+LOCATOR = {"bj": re.compile(r"^bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?$"),
+           "ndeib": re.compile(r"^ndeib:[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9 ,'’().~-]*(#[0-9IVX]+)?$"), "tipnr": re.compile(r"^tipnr:\S+@\S+$"),
+           "reviewer": re.compile(r"^reviewer:\S+$")}
+
+
+def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dict],
+                        attested_of: dict[str, list[str]] | None = None) -> list[str]:
+    """An entry's conjectures: a known relation and target, a status, and opinions each with a
+    known source, a well-formed locator, a stance and a short summary in our own words. A
+    conjecture must not already be in `attested`: two possibly-same entries share no unit, and a
+    possibly-attested unit is not attested."""
+    out: list[str] = []
+    attested_of = attested_of or {}
+    for c in e.get("conjectures") or []:
+        if not isinstance(c, dict):
+            out.append(f"{eid}: conjecture malformed")
+            continue
+        if c.get("rel") not in CONJ_RELS or (c.get("target") not in ids if c.get("rel") == "possibly_same_as"
+                                             else c.get("unit") not in _units()):
+            out.append(f"{eid}: conjecture {c.get('rel')} {c.get('target') or c.get('unit')}")
+        if c.get("status") not in STATUSES:
+            out.append(f"{eid}: conjecture status {c.get('status')}")
+        if not c.get("opinions"):
+            out.append(f"{eid}: conjecture {c.get('target') or c.get('unit')} without opinions")
+        shared = set(e.get("attested") or []) & set(attested_of.get(c.get("target"), []))
+        if c.get("rel") == "possibly_same_as" and shared:
+            out.append(f"{eid}: conjecture {c['target']} already shares attested {sorted(shared)}")
+        if c.get("rel") == "possibly_attested_at" and c.get("unit") in (e.get("attested") or []):
+            out.append(f"{eid}: conjecture unit {c['unit']} is already attested")
+        for o in c.get("opinions") or []:
+            by = str(o.get("by", ""))
+            src = by.split(":")[0]
+            if src not in sources or src not in LOCATOR or not LOCATOR[src].match(by):
+                out.append(f"{eid}: conjecture opinion by {by!r}")
+            if o.get("says") not in STANCES:
+                out.append(f"{eid}: conjecture opinion says {o.get('says')!r}")
+            summ = o.get("summary") or ""
+            if not summ or len(summ) > 160 or len(summ.split()) > 20:
+                out.append(f"{eid}: conjecture opinion summary missing or too long")
     return out
 
 
@@ -158,6 +207,13 @@ def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
 def main() -> int:
     catalogs = {n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8")) for n in PREFIX}
     p = problems(catalogs)
+    src_path = ROOT / "data/curated/sources.json"
+    sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
+    ids = {eid for cat in catalogs.values() for eid in cat["entries"]}
+    attested_of = {eid: e.get("attested", []) for cat in catalogs.values() for eid, e in cat["entries"].items()}
+    for cat in catalogs.values():
+        for eid, e in cat["entries"].items():
+            p += conjecture_problems(eid, e, ids, sources, attested_of)
     u_path = ROOT / "data/unnamed.json"
     if u_path.exists():
         p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)

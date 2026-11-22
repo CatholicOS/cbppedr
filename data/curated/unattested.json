@@ -2559,7 +2559,8 @@
    "btu:1par.12.9"
   ],
   "bpers:eliab.isai-filius": [
-   "btu:1sam.16.5"
+   "btu:1sam.16.5",
+   "btu:1par.27.18"
   ],
   "bpers:eliachim.helciae-filius": [
    "btu:is.22.15"
@@ -5859,6 +5860,10 @@
    "btu:mt.12.48",
    "btu:mt.12.49",
    "btu:mt.12.50"
+  ],
+  "bpers:iudas.iacobi-filius": [
+   "btu:mt.10.3",
+   "btu:mc.3.18"
   ],
   "bpers:iunia": [
    "btu:rom.16.15",
@@ -10935,6 +10940,9 @@
    "btu:ne.9.4",
    "btu:ne.10.11"
   ],
+  "bpers:sopater": [
+   "btu:rom.16.21"
+  ],
   "bpers:sosthenes.frater": [
    "btu:act.18.8"
   ],
@@ -11152,6 +11160,10 @@
    "btu:mt.15.24",
    "btu:mt.15.26",
    "btu:mt.15.27"
+  ],
+  "bpers:thaddaeus": [
+   "btu:lc.6.16",
+   "btu:act.1.13"
   ],
   "bpers:thammuz": [
    "btu:is.17.10",
@@ -11871,7 +11883,9 @@
    "btu:lc.23.50",
    "btu:gn.14.1",
    "btu:gn.14.9",
-   "btu:dn.2.14"
+   "btu:dn.2.14",
+   "btu:1sam.1.1",
+   "btu:1mac.11.34"
   ],
   "bplace:aroer.arnon": [
    "btu:ier.48.18",
@@ -11998,6 +12012,10 @@
    "btu:ez.23.21",
    "btu:ez.23.22",
    "btu:ier.1.13"
+  ],
+  "bplace:astharothcarnaim": [
+   "btu:1mac.5.43",
+   "btu:1mac.5.44"
   ],
   "bplace:ataroth.transiordanica": [
    "btu:nm.32.35"
@@ -12462,7 +12480,8 @@
    "btu:1reg.14.27",
    "btu:1reg.14.28",
    "btu:2reg.14.12",
-   "btu:2par.25.22"
+   "btu:2par.25.22",
+   "btu:ios.19.41"
   ],
   "bplace:bethsan": [
    "btu:1par.10.10",
@@ -12848,7 +12867,8 @@
    "btu:act.18.11"
   ],
   "bplace:ceseleththabor": [
-   "btu:1par.6.62"
+   "btu:1par.6.62",
+   "btu:ios.19.18"
   ],
   "bplace:cesion": [
    "btu:1par.6.57"
@@ -13322,7 +13342,8 @@
    "btu:ios.18.23",
    "btu:2par.13.19",
    "btu:2mac.12.27",
-   "btu:1mac.5.46"
+   "btu:1mac.5.46",
+   "btu:1sam.13.17"
   ],
   "bplace:ephraim.regio": [
    "btu:ios.16.6",
@@ -16916,7 +16937,11 @@
    "btu:mt.17.19",
    "btu:mt.17.20",
    "btu:ps.42.7",
-   "btu:mc.2.23"
+   "btu:mc.2.23",
+   "btu:ios.19.12"
+  ],
+  "bplace:thapphua.ephraim": [
+   "btu:2reg.15.16"
   ],
   "bplace:thecua": [
    "btu:2sam.14.1"
@@ -17046,7 +17071,8 @@
    "btu:is.11.15",
    "btu:am.8.8",
    "btu:is.7.18",
-   "btu:ier.2.18"
+   "btu:ier.2.18",
+   "btu:1par.13.5"
   ],
   "bplace:trachonitis": [
    "btu:mc.7.1",

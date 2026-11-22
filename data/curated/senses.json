@@ -11932,13 +11932,7 @@
    "en": "Har-heres",
    "descr_it": "città amorrea presso Aialon, forse Bet-Semes",
    "descr_en": "Amorite town near Aijalon, perhaps Beth-shemesh",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Bet-Semes",
-     "target_key": "BET-SEMES#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -15529,13 +15523,7 @@
      "en": "Ephron",
      "descr_it": "località presso Betel tolta da Abia a Geroboamo",
      "descr_en": "town near Bethel taken by Abijah from Jeroboam",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Efraim (località)",
-       "target_key": "EFRAIM (LOCALITÀ)"
-      }
-     ],
+     "relations": [],
      "certain": false
     },
     {
@@ -37613,7 +37601,7 @@
        "target_key": "MISRAIM"
       },
       {
-       "rel": "land_of",
+       "rel": "people_of",
        "target": "Patros",
        "target_key": null
       }
@@ -40209,13 +40197,7 @@
      "en": "Reuben",
      "descr_it": "tribù israelita stanziata in Transgiordania",
      "descr_en": "Israelite tribe settled east of the Jordan",
-     "relations": [
-      {
-       "rel": "people_of",
-       "target": "Ruben",
-       "target_key": "RUBEN#1"
-      }
-     ],
+     "relations": [],
      "certain": true
     },
     {

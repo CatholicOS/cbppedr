@@ -5049,28 +5049,6 @@
     }
    }
   },
-  "bpers:iudas.iacobi-filius": {
-   "btu:mc.3.18": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Taddeo",
-     "DRB": "Thaddeus",
-     "NABRE": "Thaddeus",
-     "NVBSE": "Thaddæum",
-     "VGCL": "Thaddæum"
-    }
-   },
-   "btu:mt.10.3": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Taddeo",
-     "DRB": "Thaddeus",
-     "NABRE": "Thaddeus",
-     "NVBSE": "Thaddæus",
-     "VGCL": "Thaddæus"
-    }
-   }
-  },
   "bpers:lia": {
    "btu:gn.29.26": {
     "as": "designation",
@@ -7896,18 +7874,6 @@
     }
    }
   },
-  "bpers:sopater": {
-   "btu:rom.16.21": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Sosípatro",
-     "DRB": "Sosipater",
-     "NABRE": "Sosipater",
-     "NVBSE": "Sosipater",
-     "VGCL": "Sosipater"
-    }
-   }
-  },
   "bpers:tabitha": {
    "btu:act.9.39": {
     "as": "name",
@@ -7917,28 +7883,6 @@
      "NABRE": "Dorcas",
      "NVBSE": "Dorcas",
      "VGCL": "Dorcas"
-    }
-   }
-  },
-  "bpers:thaddaeus": {
-   "btu:act.1.13": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Giuda figlio di Giacomo",
-     "DRB": "Jude the brother of James",
-     "NABRE": "Judas son of James",
-     "NVBSE": "Iudas Iacobi",
-     "VGCL": "Judas Jacobi"
-    }
-   },
-   "btu:lc.6.16": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Giuda, figlio di Giacomo",
-     "DRB": "Jude, the brother of James",
-     "NABRE": "Judas the son of James",
-     "NVBSE": "Iudam Iacobi",
-     "VGCL": "Judam Jacobi"
     }
    }
   },
@@ -8247,50 +8191,6 @@
     }
    }
   },
-  "bplace:arimathaea": {
-   "btu:1mac.11.34": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Ramatàim",
-     "DRB": "Ramatha",
-     "NABRE": "Ramathaim",
-     "NVBSE": "Ramathaim",
-     "VGCL": "Ramathan"
-    }
-   },
-   "btu:1sam.1.1": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Ramatàim",
-     "DRB": "Ramathaimsophim",
-     "NABRE": "Ramathaim",
-     "NVBSE": "Ramathaim",
-     "VGCL": "Ramathaimsophim"
-    }
-   }
-  },
-  "bplace:astharothcarnaim": {
-   "btu:1mac.5.43": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Karnàin",
-     "DRB": "Carnaim",
-     "NABRE": "Carnaim",
-     "NVBSE": "Carnain",
-     "VGCL": "Carnaim"
-    }
-   },
-   "btu:1mac.5.44": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Karnàin",
-     "DRB": "Carnaim",
-     "NABRE": "Carnaim",
-     "NVBSE": "Carnain",
-     "VGCL": "Carnaim"
-    }
-   }
-  },
   "bplace:aula-principis-sacerdotum": {
    "btu:io.18.28": {
     "as": "designation",
@@ -8583,18 +8483,6 @@
     }
    }
   },
-  "bplace:bethsames.iudae": {
-   "btu:ios.19.41": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Ir-Semes",
-     "DRB": "Hirsemes",
-     "NABRE": "Ir-shemesh",
-     "NVBSE": "Hirsemes",
-     "VGCL": "Hirsemes"
-    }
-   }
-  },
   "bplace:bethsatha": {
    "btu:io.5.7": {
     "as": "designation",
@@ -8832,18 +8720,6 @@
      "NABRE": "Kiriathaim",
      "NVBSE": "Cariathaim",
      "VGCL": "Cariathaim"
-    }
-   }
-  },
-  "bplace:ceseleththabor": {
-   "btu:ios.19.18": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Chesullòt",
-     "DRB": "Casaloth",
-     "NABRE": "Chesulloth",
-     "NVBSE": "Chasaloth",
-     "VGCL": "Casaloth"
     }
    }
   },
@@ -11704,16 +11580,6 @@
    }
   },
   "bplace:torrens-aegypti": {
-   "btu:1par.13.5": {
-    "as": "name",
-    "editions": {
-     "CEI2008": "Sicor d'Egitto",
-     "DRB": "Sihor of Egypt",
-     "NABRE": "Shihor of Egypt",
-     "NVBSE": "Sihor Aegypti",
-     "VGCL": "Sihor Ægypti"
-    }
-   },
    "btu:ios.13.3": {
     "as": "name",
     "editions": {
