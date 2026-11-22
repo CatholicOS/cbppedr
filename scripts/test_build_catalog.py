@@ -142,6 +142,14 @@ class SingleSenseOverrideTest(unittest.TestCase):
         self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["attested"], ["btu:lc.3.1"])
 
 
+class RemovedUnitsTest(unittest.TestCase):
+    def test_removed_units_dropped_and_stale_reported(self):
+        out = build(DECISIONS, UNITS, tree={}, removed={"bpers:philippus.tetrarcha": ["btu:lc.3.1", "btu:gn.1.1"]},
+                    curated={"bpers:philippus.tetrarcha": {"attested": ["btu:mc.6.17"]}})
+        self.assertEqual(out["persons"]["entries"]["bpers:philippus.tetrarcha"]["attested"], ["btu:mc.6.17"])
+        self.assertEqual(out["report"]["stale_removals"], ["bpers:philippus.tetrarcha btu:gn.1.1"])
+
+
 class CuratedEntriesTest(unittest.TestCase):
     CURATED = {
         "bpers:amos.propheta": {

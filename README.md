@@ -58,7 +58,8 @@ not guessed.
 Round 2 will cover:
 
 - the names TIPNR has and the baseline lacks (`docs/stepbible-gaps.md`): begun with the 118 names TIPNR cites in six or more verses, each established from the Nova Vulgata text itself (`nv:` evidence); the rest remain;
-- verses that a dictionary citation attached to an entry but that do not name it (whole passages cited for one person);
+- verses that a dictionary citation attached to an entry but that do not name it: begun with an audit against five editions' text (`scripts/audit_attested.py`). The 8,058 verses in passages that never name their entry were reviewed verse by verse, and, with 104 verses two homonyms claimed, 7,638 removed (`data/curated/unattested.json`): whole chapters cited for one person, a neighbouring headword's verses taken for the previous one (Netophah got the verses on snow, the Italian *neve*), mistyped references (Job at Is 14:14 for Ez 14:14, now corrected). The verses that do not name their entry inside passages that do name it remain to be reviewed;
+- other names an entry bears in the text (Saul for Paul, Cephas for Peter, Azariah for Abednego), not yet recorded, and probable duplicate entries the audit found (Joshua, Rabbah, Barnabas, Jehoahaz/Shallum);
 - the 1,069 relations left unresolved, and the 260 entries marked uncertain;
 - evidence keys under the wrong headword, where the dictionary's parser missed a headword
   (e.g. a sense of Nebuchadnezzar cited as NABU);
