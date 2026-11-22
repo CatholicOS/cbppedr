@@ -50582,7 +50582,13 @@
     "it": "detto Marco, compagno di Paolo e Barnaba",
     "en": "called Mark, companion of Paul and Barnabas"
    },
-   "attested": [],
+   "attested": [
+    "btu:act.12.12",
+    "btu:act.12.25",
+    "btu:act.13.5",
+    "btu:act.13.13",
+    "btu:act.15.37"
+   ],
    "relations": [
     {
      "rel": "same_as",
@@ -50598,7 +50604,9 @@
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GIOVANNI#19"
+    "ndeib:GIOVANNI#19",
+    "nv:btu:act.12.12",
+    "nv:btu:act.15.37"
    ]
   },
   "bpers:ioannes.apostolus": {
@@ -61401,13 +61409,16 @@
     "btu:act.15.38",
     "btu:act.15.39",
     "btu:2tim.4.11",
-    "btu:1pe.5.13"
+    "btu:1pe.5.13",
+    "btu:philm.1.24",
+    "btu:act.13.13"
    ],
    "relations": [],
    "qid": "Q31966",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:MARCO (GIOVANNI)"
+    "ndeib:MARCO (GIOVANNI)",
+    "bj:note:At.12,12#p2648"
    ],
    "labels": {
     "btu:act.13.5": {
@@ -61426,6 +61437,16 @@
       "CEI2008": "uno che si era allontanato",
       "NABRE": "someone who had deserted them",
       "NVBSE": "eum, qui discessisset ab eis"
+     }
+    },
+    "btu:act.13.13": {
+     "as": "name",
+     "editions": {
+      "CEI2008": "Giovanni",
+      "DRB": "John",
+      "NABRE": "John",
+      "NVBSE": "Ioannes",
+      "VGCL": "Joannes"
      }
     }
    }

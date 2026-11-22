@@ -18457,6 +18457,17 @@
       "nv:btu:act.15.37"
      ]
     }
+   ],
+   "attested": [
+    "btu:act.12.12",
+    "btu:act.12.25",
+    "btu:act.13.5",
+    "btu:act.13.13",
+    "btu:act.15.37"
+   ],
+   "evidence": [
+    "nv:btu:act.12.12",
+    "nv:btu:act.15.37"
    ]
   },
   "bpers:ioas.bochor-filius": {
@@ -21445,6 +21456,15 @@
       "nv:btu:1par.4.14"
      ]
     }
+   ]
+  },
+  "bpers:marcus": {
+   "attested": [
+    "btu:philm.1.24",
+    "btu:act.13.13"
+   ],
+   "evidence": [
+    "bj:note:At.12,12#p2648"
    ]
   },
   "bpers:mares": {
@@ -36902,6 +36922,15 @@
     "nv:btu:idc.20.33"
    ]
   },
+  "bplace:babylon.urbs": {
+   "attested": [
+    "btu:is.21.9",
+    "btu:ier.51.8"
+   ],
+   "evidence": [
+    "nv:btu:is.21.9"
+   ]
+  },
   "bplace:baloth.aser": {
    "type": "place",
    "kind": "region",
@@ -43801,15 +43830,6 @@
    ],
    "evidence": [
     "nv:btu:nm.34.9"
-   ]
-  },
-  "bplace:babylon.urbs": {
-   "attested": [
-    "btu:is.21.9",
-    "btu:ier.51.8"
-   ],
-   "evidence": [
-    "nv:btu:is.21.9"
    ]
   }
  }
