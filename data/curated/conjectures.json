@@ -2205,6 +2205,30 @@
      "summary": "Reports the traditional equation with the Kidron, the objections to it, and rival proposals."
     }
    ]
+  },
+  {
+   "source": "bplace:cedes.urbs-regia",
+   "rel": "possibly_same_as",
+   "target": "bplace:cedes.in-issachar",
+   "opinions": [
+    {
+     "by": "ndeib:KEDES",
+     "says": "suggests",
+     "summary": "Placed near Tell Abu Qudeis, Kedesh of Issachar may also be the Canaanite royal city of Josh 12:22."
+    }
+   ]
+  },
+  {
+   "source": "bplace:nobe.iuxta-iegbaa",
+   "rel": "possibly_same_as",
+   "target": "bplace:nobe",
+   "opinions": [
+    {
+     "by": "ndeib:NOBACH#2",
+     "says": "doubts",
+     "summary": "If Kenath is modern Qanawat, the Nobah of Judg 8:11 is another place, in Gilead."
+    }
+   ]
   }
  ]
 }

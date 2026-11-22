@@ -48089,6 +48089,22 @@
     "Q6382594"
    ]
   },
+  "bplace:cedes.urbs-regia": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q1762032",
+    "Q6382569",
+    "Q6382599",
+    "Q6382575",
+    "Q6382577",
+    "Q6382578",
+    "Q6382585",
+    "Q6382589",
+    "Q13374916",
+    "Q6382594"
+   ]
+  },
   "bplace:cedron": {
    "qid": null,
    "status": "unresolved",
@@ -54247,6 +54263,22 @@
    ]
   },
   "bplace:nobe": {
+   "qid": null,
+   "status": "unresolved",
+   "candidates": [
+    "Q1992412",
+    "Q36871210",
+    "Q11645452",
+    "Q2897103",
+    "Q126054811",
+    "Q126164463",
+    "Q130646710",
+    "Q56359709",
+    "Q97203210",
+    "Q5766662"
+   ]
+  },
+  "bplace:nobe.iuxta-iegbaa": {
    "qid": null,
    "status": "unresolved",
    "candidates": [

@@ -16951,7 +16951,11 @@
    "btu:mt.17.20",
    "btu:ps.42.7",
    "btu:mc.2.23",
-   "btu:ios.19.12"
+   "btu:ios.19.12",
+   "btu:ios.19.22",
+   "btu:ios.19.34",
+   "btu:os.5.1",
+   "btu:idc.8.18"
   ],
   "bplace:thapphua.ephraim": [
    "btu:2reg.15.16"
@@ -17402,6 +17406,19 @@
   ],
   "bplace:ziph.urbs": [
    "btu:1par.11.8"
+  ],
+  "bplace:cedes.in-issachar": [
+   "btu:ios.12.22"
+  ],
+  "bplace:nobe": [
+   "btu:idc.8.11"
+  ],
+  "bpers:belial": [
+   "btu:dt.13.14",
+   "btu:idc.19.22",
+   "btu:2sam.16.7",
+   "btu:2sam.22.5",
+   "btu:ps.18.5"
   ]
  }
 }

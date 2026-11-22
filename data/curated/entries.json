@@ -43251,11 +43251,15 @@
     "btu:idc.4.12",
     "btu:idc.4.14",
     "btu:ps.89.13",
-    "btu:ier.46.18"
+    "btu:ier.46.18",
+    "btu:ios.19.22",
+    "btu:os.5.1",
+    "btu:idc.8.18"
    ],
    "evidence": [
     "nv:btu:idc.4.6",
-    "nv:btu:ier.46.18"
+    "nv:btu:ier.46.18",
+    "ndeib:TABOR (LOCALITÀ)"
    ]
   },
   "bplace:thahath": {
@@ -43830,6 +43834,36 @@
    ],
    "evidence": [
     "nv:btu:nm.34.9"
+   ]
+  },
+  "bplace:cedes.urbs-regia": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Cedes",
+   "it": "Kedes",
+   "en": "Kedesh",
+   "descr_it": "città cananea il cui re fu vinto da Giosuè",
+   "descr_en": "Canaanite city whose king Joshua defeated",
+   "attested": [
+    "btu:ios.12.22"
+   ],
+   "evidence": [
+    "nv:btu:ios.12.22"
+   ]
+  },
+  "bplace:nobe.iuxta-iegbaa": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Nobe",
+   "it": "Nobach",
+   "en": "Nobah",
+   "descr_it": "località presso Iogbea, sulla via di Gedeone contro i Madianiti",
+   "descr_en": "place beside Jogbehah on Gideon's route against Midian",
+   "attested": [
+    "btu:idc.8.11"
+   ],
+   "evidence": [
+    "nv:btu:idc.8.11"
    ]
   }
  }
