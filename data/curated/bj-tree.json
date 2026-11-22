@@ -1,0 +1,124 @@
+{
+ "$comment": "The Jerusalem Bible's Hasmonean and Herodian family tree (appendix), as relations between catalog ids: facts only, cited as bj:herodian-tree. Entries are the tree's persons the dictionary has no headword for. Rows whose persons are not yet entries (Maccabees, Hasmoneans, Aristobulus) are left for round 2.",
+ "entries": {
+  "bpers:mariamne-secunda": {
+   "type": "person",
+   "kind": "extra-biblical",
+   "latin": "Mariamne",
+   "it": "Mariamne II",
+   "en": "Mariamne II",
+   "descr_it": "moglie di Erode il Grande, madre di Erode Filippo",
+   "descr_en": "wife of Herod the Great, mother of Herod Philip"
+  },
+  "bpers:cleopatra.uxor-herodis": {
+   "type": "person",
+   "kind": "extra-biblical",
+   "latin": "Cleopatra",
+   "it": "Cleopatra",
+   "en": "Cleopatra of Jerusalem",
+   "descr_it": "moglie di Erode il Grande, madre di Filippo il tetrarca",
+   "descr_en": "wife of Herod the Great, mother of Philip the tetrarch"
+  },
+  "bpers:malthace": {
+   "type": "person",
+   "kind": "extra-biblical",
+   "latin": "Malthace",
+   "it": "Maltace",
+   "en": "Malthace",
+   "descr_it": "moglie di Erode il Grande, madre di Archelao e Antipa",
+   "descr_en": "wife of Herod the Great, mother of Archelaus and Antipas"
+  }
+ },
+ "relations": [
+  {
+   "source": "bpers:herodes.magnus",
+   "rel": "spouse_of",
+   "target": "bpers:mariamne-secunda"
+  },
+  {
+   "source": "bpers:herodes.magnus",
+   "rel": "spouse_of",
+   "target": "bpers:cleopatra.uxor-herodis"
+  },
+  {
+   "source": "bpers:herodes.magnus",
+   "rel": "spouse_of",
+   "target": "bpers:malthace"
+  },
+  {
+   "source": "bpers:philippus.herodiadis-maritus",
+   "rel": "child_of",
+   "target": "bpers:herodes.magnus"
+  },
+  {
+   "source": "bpers:philippus.herodiadis-maritus",
+   "rel": "child_of",
+   "target": "bpers:mariamne-secunda"
+  },
+  {
+   "source": "bpers:philippus.tetrarcha",
+   "rel": "child_of",
+   "target": "bpers:herodes.magnus"
+  },
+  {
+   "source": "bpers:philippus.tetrarcha",
+   "rel": "child_of",
+   "target": "bpers:cleopatra.uxor-herodis"
+  },
+  {
+   "source": "bpers:philippus.tetrarcha",
+   "rel": "spouse_of",
+   "target": "bpers:salome.herodiadis-filia"
+  },
+  {
+   "source": "bpers:archelaus",
+   "rel": "child_of",
+   "target": "bpers:herodes.magnus"
+  },
+  {
+   "source": "bpers:archelaus",
+   "rel": "child_of",
+   "target": "bpers:malthace"
+  },
+  {
+   "source": "bpers:herodes.antipas",
+   "rel": "child_of",
+   "target": "bpers:herodes.magnus"
+  },
+  {
+   "source": "bpers:herodes.antipas",
+   "rel": "child_of",
+   "target": "bpers:malthace"
+  },
+  {
+   "source": "bpers:herodes.antipas",
+   "rel": "spouse_of",
+   "target": "bpers:herodias"
+  },
+  {
+   "source": "bpers:agrippa",
+   "rel": "child_of",
+   "target": "bpers:herodes.agrippa-i"
+  },
+  {
+   "source": "bpers:berenice",
+   "rel": "child_of",
+   "target": "bpers:herodes.agrippa-i"
+  },
+  {
+   "source": "bpers:drusilla",
+   "rel": "child_of",
+   "target": "bpers:herodes.agrippa-i"
+  },
+  {
+   "source": "bpers:drusilla",
+   "rel": "spouse_of",
+   "target": "bpers:felix"
+  },
+  {
+   "source": "bpers:salome.herodiadis-filia",
+   "rel": "child_of",
+   "target": "bpers:herodias"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "$comment": "Hand corrections of the verses a sense attests for an entity (key -> entity id -> units): references the sense cites for another person, for a place named after the entity, or misprinted. Applied over part-units.json by build_catalog.py.",
+ "units": {
+  "FILIPPO#2": {
+   "bpers:philippus.tetrarcha": [
+    "btu:lc.3.1"
+   ]
+  }
+ }
+}

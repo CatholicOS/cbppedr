@@ -1,0 +1,197 @@
+"""Build data/persons.json, data/places.json and data/events.json from the reviewed
+sense decisions (data/curated/senses.json), the units each sense cites, and the
+Jerusalem Bible's Herodian tree as curated in data/curated/bj-tree.json (explicit ids).
+
+Facts only: names, kinds, our own short descriptions, units, relations and the
+location of the evidence (ndeib:<KEY>, bj:herodian-tree). No source text.
+
+Usage: python build_catalog.py   (reads the private sense units and tree; writes data/ and docs/build-report.md)
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PRIVATE = Path(os.environ.get("CBPPEDR_PRIVATE", Path.home() / "development/BibleGet-I-O/data-local/cbppedr"))
+TYPES = {"person": "persons", "place": "places", "event": "events"}
+COMMENT = {
+    "persons": "Persons of the Bible (individuals, groups, deities, and extra-biblical persons needed as relation targets). Draft pending committee review.",
+    "places": "Places of the Bible. Draft pending committee review.",
+    "events": "Events the Bible narrates or refers to. Draft pending committee review.",
+}
+
+
+def _entries_of(d: dict) -> list[dict]:
+    if d.get("type") in (None, "none"):
+        return []
+    if d.get("parts"):
+        return [dict(p, key=d["key"], certain=p.get("certain", d.get("certain", True))) for p in d["parts"]]
+    return [d]
+
+
+def _add_relation(entry: dict, rel: str, target: str, evidence: str) -> None:
+    for r in entry["relations"]:
+        if r["rel"] == rel and r["target"] == target:
+            if evidence not in r["evidence"]:
+                r["evidence"].append(evidence)
+            return
+    entry["relations"].append({"rel": rel, "target": target, "evidence": [evidence]})
+
+
+# The type a relation's target must have (None: any). same_as: the source's own type.
+TARGET_TYPE = {"child_of": "person", "parent_of": "person", "spouse_of": "person", "sibling_of": "person",
+               "participant": "person", "located_in": "place", "part_of": None, "land_of": None,
+               "people_of": None, "eponym_of": None, "same_as": "same"}
+TREE_EVIDENCE = "bj:herodian-tree"
+
+
+def _discriminated(eid: str) -> bool:
+    return "." in eid.split(":", 1)[1]
+
+
+def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None = None,
+          part_units: dict[str, dict[str, list[str]]] | None = None,
+          qids: dict[str, dict] | None = None) -> dict:
+    part_units = part_units or {}
+    tree = tree or {}
+    qids = qids or {}
+    out = {t: {"$comment": COMMENT[t], "entries": {}} for t in TYPES.values()}
+    report = {"merged": [], "unresolved_relations": [], "type_conflicts": [], "uncertain": []}
+    by_id: dict[str, dict] = {}
+    key_ids: dict[str, list[str]] = {}
+    pending: list[tuple[str, dict, str]] = []
+
+    for d in decisions:
+        for e in _entries_of(d):
+            t = TYPES.get(e.get("type"))
+            if not t or not e.get("id"):
+                continue
+            eid = e["id"]
+            key_ids.setdefault(d["key"], []).append(eid)
+            ev = f"ndeib:{d['key']}"
+            if eid in by_id:
+                entry = by_id[eid]
+                if entry["type"] != e["type"]:
+                    report["type_conflicts"].append(f"{eid}: {entry['type']} vs {e['type']} ({d['key']})")
+                    continue
+                report["merged"].append(f"{eid} ← {d['key']}")
+            else:
+                entry = {"type": e["type"], "kind": e.get("kind"),
+                         "names": {"la": e.get("latin"), "it": e.get("it"), "en": e.get("en")},
+                         "description": {"it": e.get("descr_it"), "en": e.get("descr_en")},
+                         "attested": [], "relations": [], "qid": None, "qid_status": "unresolved",
+                         "evidence": []}
+                by_id[eid] = entry
+                out[t]["entries"][eid] = entry
+            own = part_units.get(d["key"], {}).get(eid)  # curated: a part's own verses, or a sense's corrected ones
+            if d.get("parts") and len(d["parts"]) > 1 and own is None:
+                report.setdefault("parts_without_own_units", []).append(f"{eid} ({d['key']})")
+            for u in own if own is not None else units.get(d["key"], []):
+                if u not in entry["attested"]:
+                    entry["attested"].append(u)
+            if ev not in entry["evidence"]:
+                entry["evidence"].append(ev)
+            if not e.get("certain", True):
+                entry["review"] = "uncertain"
+                report["uncertain"].append(eid)
+            for r in e.get("relations") or []:
+                pending.append((eid, r, ev))
+
+    for eid, e in (tree.get("entries") or {}).items():
+        if eid in by_id:
+            if TREE_EVIDENCE not in by_id[eid]["evidence"]:
+                by_id[eid]["evidence"].append(TREE_EVIDENCE)
+            continue
+        t = TYPES[e["type"]]
+        entry = {"type": e["type"], "kind": e.get("kind"),
+                 "names": {"la": e.get("latin"), "it": e.get("it"), "en": e.get("en")},
+                 "description": {"it": e.get("descr_it"), "en": e.get("descr_en")},
+                 "attested": [], "relations": [], "qid": None, "qid_status": "unresolved",
+                 "evidence": [TREE_EVIDENCE]}
+        by_id[eid] = entry
+        out[t]["entries"][eid] = entry
+
+    names: dict[str, set[str]] = {}
+    for eid, entry in by_id.items():
+        for n in (entry["names"]["it"], entry["names"]["la"], entry["names"]["en"]):
+            if n:
+                names.setdefault(n.lower(), set()).add(eid)
+
+    def resolve(name: str | None, key: str | None) -> str | None:
+        """A target by its sense key; by name only when the name is unique and its id has no
+        homonym marker (a discriminated id means other bearers exist, catalogued or not)."""
+        if key and key in key_ids:
+            ids = list(dict.fromkeys(key_ids[key]))
+            if len(ids) == 1:
+                return ids[0]
+            hits = [i for i in ids if i in names.get((name or "").lower(), set())]
+            return hits[0] if len(hits) == 1 else None
+        hits = names.get((name or "").lower(), set())
+        if len(hits) == 1 and not _discriminated(next(iter(hits))):
+            return next(iter(hits))
+        return None
+
+    def fits(eid: str, rel: str, target: str) -> bool:
+        want = TARGET_TYPE.get(rel)
+        if want == "same":
+            want = by_id[eid]["type"]
+        return want is None or by_id[target]["type"] == want
+
+    for eid, r, ev in pending:
+        target = resolve(r.get("target"), r.get("target_key"))
+        if target and target != eid and fits(eid, r["rel"], target):
+            _add_relation(by_id[eid], r["rel"], target, ev)
+        else:
+            report["unresolved_relations"].append(f"{eid} {r['rel']} {r.get('target')}")
+
+    for r in tree.get("relations") or []:
+        src, tgt = r["source"], r["target"]
+        if src in by_id and tgt in by_id and src != tgt and fits(src, r["rel"], tgt):
+            _add_relation(by_id[src], r["rel"], tgt, TREE_EVIDENCE)
+        else:
+            report["unresolved_relations"].append(f"{src} {r['rel']} {tgt} ({TREE_EVIDENCE})")
+
+    for eid, entry in by_id.items():
+        if eid in qids:
+            entry["qid"], entry["qid_status"] = qids[eid].get("qid"), qids[eid].get("status", "unresolved")
+
+    for t in out.values():
+        t["entries"] = dict(sorted(t["entries"].items()))
+    out["report"] = report
+    return out
+
+
+def _jsonl(path: Path) -> list[dict]:
+    return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+def main() -> int:
+    decisions = json.loads((ROOT / "data/curated/senses.json").read_text(encoding="utf-8"))["decisions"]
+    units = {s["key"]: s["units"] for s in _jsonl(PRIVATE / "ndeib-senses.jsonl")}
+    tree_path = ROOT / "data/curated/bj-tree.json"
+    tree = json.loads(tree_path.read_text(encoding="utf-8")) if tree_path.exists() else {}
+    pu_path = ROOT / "data/curated/part-units.json"
+    part_units = json.loads(pu_path.read_text(encoding="utf-8"))["parts"] if pu_path.exists() else {}
+    uc_path = ROOT / "data/curated/unit-corrections.json"
+    for key, fixed in (json.loads(uc_path.read_text(encoding="utf-8"))["units"] if uc_path.exists() else {}).items():
+        part_units.setdefault(key, {}).update(fixed)
+    q_path = ROOT / "data/curated/qids.json"
+    qids = json.loads(q_path.read_text(encoding="utf-8"))["qids"] if q_path.exists() else {}
+    out = build(decisions, units, tree, part_units, qids)
+    report = out.pop("report")
+    for t, data in out.items():
+        (ROOT / "data" / f"{t}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    lines = ["# Build report", "", "Generated by `scripts/build_catalog.py`; do not edit.", ""]
+    for k, items in report.items():
+        lines += [f"## {k.replace('_', ' ').capitalize()} ({len(items)})", ""] + [f"- {i}" for i in items] + [""]
+    (ROOT / "docs/build-report.md").write_text("\n".join(lines), encoding="utf-8")
+    print({t: len(d["entries"]) for t, d in out.items()}, {k: len(v) for k, v in report.items()})
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
