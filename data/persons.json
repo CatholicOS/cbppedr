@@ -40578,12 +40578,22 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:iacobus.frater-domini",
-     "status": "doubted",
+     "status": "rejected",
      "opinions": [
       {
        "by": "bj:note:At.1,13#p2616",
        "says": "doubts",
        "summary": "There is no need to identify the apostle James son of Alphaeus with the Lord's brother."
+      },
+      {
+       "by": "ndeib:ALFEO#2",
+       "says": "rejects",
+       "summary": "That this James was a kinsman of Jesus, let alone his brother, is wholly unfounded."
+      },
+      {
+       "by": "bj:intro:Le-lettere-cattoliche#p2906",
+       "says": "doubts",
+       "summary": "The ancients hesitated over this identification; modern scholars still debate it, leaning against it."
       }
      ]
     }
@@ -40610,14 +40620,16 @@
     "btu:act.21.18",
     "btu:gal.2.12",
     "btu:act.15.13",
-    "btu:iac.1.1"
+    "btu:iac.1.1",
+    "btu:gal.1.19"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:FRATELLI DI GESÙ",
-    "ndeib:GIACOMO#3"
+    "ndeib:GIACOMO#3",
+    "nv:btu:gal.1.19"
    ]
   },
   "bpers:iacobus.minor": {
@@ -40681,8 +40693,13 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:iacobus.alphaei-filius",
-     "status": "doubted",
+     "status": "disputed",
      "opinions": [
+      {
+       "by": "bj:note:Mc.15,40-41",
+       "says": "suggests",
+       "summary": "Called the Less to set him apart from the other apostle James, the son of Zebedee."
+      },
       {
        "by": "ndeib:GIACOMO#2",
        "says": "doubts",
@@ -55229,7 +55246,22 @@
     "btu:mt.27.56",
     "btu:mc.15.40"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:maria.mater-iacobi",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -62014,6 +62046,13 @@
      "evidence": [
       "nv:btu:mc.15.40",
       "nv:btu:mc.15.47"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
      ]
     }
    ],

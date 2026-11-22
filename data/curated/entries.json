@@ -21626,6 +21626,13 @@
       "nv:btu:mc.15.40",
       "nv:btu:mc.15.47"
      ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
     }
    ]
   },
@@ -44232,6 +44239,32 @@
       "nv:btu:mc.15.40"
      ]
     }
+   ]
+  },
+  "bpers:ioses.filius-mariae": {
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:maria.mater-iacobi",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    }
+   ]
+  },
+  "bpers:iacobus.frater-domini": {
+   "attested": [
+    "btu:gal.1.19"
+   ],
+   "evidence": [
+    "nv:btu:gal.1.19"
    ]
   }
  }

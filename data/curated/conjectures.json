@@ -2313,6 +2313,11 @@
    "target": "bpers:iacobus.alphaei-filius",
    "opinions": [
     {
+     "by": "bj:note:Mc.15,40-41",
+     "says": "suggests",
+     "summary": "Called the Less to set him apart from the other apostle James, the son of Zebedee."
+    },
+    {
      "by": "ndeib:GIACOMO#2",
      "says": "doubts",
      "summary": "That the son of Alphaeus is James the Less cannot be proved."
@@ -2333,6 +2338,16 @@
      "by": "bj:note:At.1,13#p2616",
      "says": "doubts",
      "summary": "There is no need to identify the apostle James son of Alphaeus with the Lord's brother."
+    },
+    {
+     "by": "ndeib:ALFEO#2",
+     "says": "rejects",
+     "summary": "That this James was a kinsman of Jesus, let alone his brother, is wholly unfounded."
+    },
+    {
+     "by": "bj:intro:Le-lettere-cattoliche#p2906",
+     "says": "doubts",
+     "summary": "The ancients hesitated over this identification; modern scholars still debate it, leaning against it."
     }
    ]
   },
