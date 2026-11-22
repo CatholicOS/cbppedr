@@ -1,50 +1,172 @@
 {
- "$comment": "Entries curated by hand, with explicit ids, units, evidence (locations, never text) and relations. First use: the persons a dictionary covers only in a book's article, whose senses are classified as the book (type none). Units are the Nova Vulgata verses that name the person.",
+ "$comment": "Entries curated by hand, with explicit ids, units, evidence (locations, never text) and relations; an id already built from a dictionary sense is extended. Used for the persons a dictionary covers only in a book's article, and for round 2: the persons and places STEPBible's TIPNR points to, established from the Nova Vulgata verses themselves (nv: evidence). Units are the Nova Vulgata verses that name the entry.",
  "entries": {
-  "bpers:amos.propheta": {
-   "type": "person",
-   "kind": "individual",
-   "latin": "Amos",
-   "it": "Amos",
-   "en": "Amos",
-   "descr_it": "profeta, pastore di Tekòa, attivo nel regno del Nord sotto Geroboamo II",
-   "descr_en": "prophet, a herdsman from Tekoa, active in the northern kingdom under Jeroboam II",
+  "bpers:abdenago": {
    "attested": [
-    "btu:am.1.1",
-    "btu:am.7.8",
-    "btu:am.7.10",
-    "btu:am.7.11",
-    "btu:am.7.12",
-    "btu:am.7.14",
-    "btu:am.8.2",
-    "btu:tb.2.6"
+    "btu:dn.1.6",
+    "btu:dn.1.11",
+    "btu:dn.1.19",
+    "btu:dn.2.17",
+    "btu:dn.3.88",
+    "btu:dn.3.93",
+    "btu:dn.3.95",
+    "btu:dn.3.96",
+    "btu:dn.3.97",
+    "btu:1mac.2.59",
+    "btu:est.4.17v"
    ],
    "evidence": [
-    "ndeib:AMOS#0"
+    "nv:btu:dn.1.7",
+    "nv:btu:dn.1.6"
+   ]
+  },
+  "bpers:abdias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Abdias",
+   "it": "Abdia",
+   "en": "Obadiah",
+   "descr_it": "profeta, autore dell'oracolo contro Edom",
+   "descr_en": "prophet, author of the oracle against Edom",
+   "attested": [
+    "btu:abd.1.1"
+   ],
+   "evidence": [
+    "ndeib:ABDIA",
+    "ndeib:ABDIA, LIBRO DI A"
    ],
    "relations": []
   },
-  "bpers:habacuc": {
-   "type": "person",
-   "kind": "individual",
-   "latin": "Habacuc",
-   "it": "Abacuc",
-   "en": "Habakkuk",
-   "descr_it": "profeta di Giuda, portato a Babilonia da Daniele nella fossa dei leoni",
-   "descr_en": "prophet of Judah, carried to Daniel in the lions' den in Babylon",
+  "bpers:abiram.eliab-filius": {
    "attested": [
-    "btu:hab.1.1",
-    "btu:hab.3.1",
-    "btu:dn.14.33",
-    "btu:dn.14.34",
-    "btu:dn.14.35",
-    "btu:dn.14.37",
-    "btu:dn.14.39"
+    "btu:nm.16.1",
+    "btu:nm.16.12",
+    "btu:nm.16.24",
+    "btu:nm.16.25",
+    "btu:nm.16.27",
+    "btu:nm.26.9",
+    "btu:dt.11.6",
+    "btu:ps.106.17",
+    "btu:eccli.45.22"
    ],
    "evidence": [
-    "ndeib:ABACUC, LIBRO DI A"
+    "nv:btu:nm.16.1",
+    "nv:btu:dt.11.6"
+   ]
+  },
+  "bpers:abisag": {
+   "attested": [
+    "btu:1reg.1.3",
+    "btu:1reg.1.15"
    ],
-   "relations": []
+   "evidence": [
+    "nv:btu:1reg.1.3",
+    "nv:btu:1reg.2.17"
+   ]
+  },
+  "bpers:ada.esau-uxor": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ada",
+   "it": "Ada",
+   "en": "Adah",
+   "descr_it": "moglie di Esaù, figlia dell'ittita Elon, madre di Elifaz",
+   "descr_en": "wife of Esau, daughter of Elon the Hittite, mother of Eliphaz",
+   "attested": [
+    "btu:gn.36.2",
+    "btu:gn.36.4",
+    "btu:gn.36.10",
+    "btu:gn.36.12",
+    "btu:gn.36.16"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.2",
+    "nv:btu:gn.36.10"
+   ],
+   "relations": [
+    {
+     "rel": "spouse_of",
+     "target": "bpers:esau",
+     "evidence": [
+      "nv:btu:gn.36.10"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:eliphaz.esau-filius",
+     "evidence": [
+      "nv:btu:gn.36.4"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:elon.hetthaeus",
+     "evidence": [
+      "nv:btu:gn.36.2"
+     ]
+    }
+   ]
+  },
+  "bpers:admin": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Admin",
+   "it": "Admin",
+   "en": "Admin",
+   "descr_it": "nome nella genealogia lucana di Gesù, tra Aminadàb e Arni",
+   "descr_en": "name in Luke's genealogy of Jesus, between Amminadab and Arni",
+   "attested": [
+    "btu:lc.3.33"
+   ],
+   "evidence": [
+    "nv:btu:lc.3.33"
+   ]
+  },
+  "bpers:agag.rex-amalec": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Agag",
+   "it": "Agag",
+   "en": "Agag",
+   "descr_it": "re di Amalek risparmiato da Saul, ucciso da Samuele a Gàlgala",
+   "descr_en": "king of Amalek spared by Saul, killed by Samuel at Gilgal",
+   "attested": [
+    "btu:1sam.15.8",
+    "btu:1sam.15.9",
+    "btu:1sam.15.20",
+    "btu:1sam.15.32",
+    "btu:1sam.15.33"
+   ],
+   "evidence": [
+    "nv:btu:1sam.15.8",
+    "nv:btu:1sam.15.33"
+   ]
+  },
+  "bpers:agarai": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Agarai",
+   "it": "Agrì",
+   "en": "Hagri",
+   "descr_it": "Agrì, il cui figlio Mibcar fu tra i prodi di Davide",
+   "descr_en": "Hagri, whose son Mibhar was among David's champions",
+   "attested": [
+    "btu:1par.11.38"
+   ],
+   "evidence": [
+    "nv:btu:1par.11.38"
+   ]
+  },
+  "bpers:agareni": {
+   "attested": [
+    "btu:1par.5.19",
+    "btu:1par.5.20",
+    "btu:1par.27.31"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.10",
+    "nv:btu:1par.5.19"
+   ]
   },
   "bpers:aggaeus": {
    "type": "person",
@@ -73,6 +195,650 @@
    ],
    "relations": []
   },
+  "bpers:ahoe": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ahœ",
+   "it": "Acòach",
+   "en": "Ahoah",
+   "descr_it": "beniaminita, figlio di Bela primogenito di Beniamino",
+   "descr_en": "Benjaminite, son of Bela, Benjamin's firstborn",
+   "attested": [
+    "btu:1par.8.4"
+   ],
+   "evidence": [
+    "nv:btu:1par.8.1",
+    "nv:btu:1par.8.3",
+    "nv:btu:1par.8.4"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:bela.beniamin-filius",
+     "evidence": [
+      "nv:btu:1par.8.1",
+      "nv:btu:1par.8.3",
+      "nv:btu:1par.8.4"
+     ]
+    }
+   ]
+  },
+  "bpers:amalec.eliphaz-filius": {
+   "attested": [
+    "btu:1par.1.36"
+   ],
+   "evidence": [
+    "nv:btu:1par.1.36",
+    "nv:btu:gn.36.12"
+   ]
+  },
+  "bpers:amalecitae": {
+   "attested": [
+    "btu:ex.17.14",
+    "btu:ex.17.16",
+    "btu:nm.13.29",
+    "btu:nm.14.25",
+    "btu:idc.1.16",
+    "btu:1sam.14.48",
+    "btu:1sam.15.5",
+    "btu:1sam.15.6",
+    "btu:1sam.15.7",
+    "btu:1sam.15.8",
+    "btu:1sam.15.15",
+    "btu:1sam.15.18",
+    "btu:1sam.15.20",
+    "btu:1sam.15.32",
+    "btu:1sam.27.8",
+    "btu:1sam.28.18",
+    "btu:2sam.1.1",
+    "btu:2sam.1.8",
+    "btu:2sam.1.13",
+    "btu:2sam.8.12",
+    "btu:1par.18.11",
+    "btu:ps.83.8"
+   ],
+   "evidence": [
+    "nv:btu:ex.17.8",
+    "nv:btu:1sam.15.2",
+    "nv:btu:1sam.15.8"
+   ]
+  },
+  "bpers:ammiud.elisama-pater": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ammiud",
+   "it": "Ammiùd",
+   "en": "Ammihud",
+   "descr_it": "efraimita, padre di Elisamà capo di Èfraim nel deserto",
+   "descr_en": "Ephraimite, father of Elishama, Ephraim's leader in the wilderness",
+   "attested": [
+    "btu:nm.1.10",
+    "btu:nm.2.18",
+    "btu:nm.7.48",
+    "btu:nm.7.53",
+    "btu:nm.10.22",
+    "btu:1par.7.26"
+   ],
+   "evidence": [
+    "nv:btu:nm.1.10",
+    "nv:btu:1par.7.26"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:elisama.ammiud-filius",
+     "evidence": [
+      "nv:btu:nm.1.10"
+     ]
+    }
+   ]
+  },
+  "bpers:amos.isaiae-pater": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Amos",
+   "it": "Amoz",
+   "en": "Amoz",
+   "descr_it": "padre del profeta Isaia",
+   "descr_en": "father of the prophet Isaiah",
+   "attested": [
+    "btu:2reg.19.2",
+    "btu:2reg.19.20",
+    "btu:2reg.20.1",
+    "btu:2par.26.22",
+    "btu:2par.32.20",
+    "btu:2par.32.32",
+    "btu:is.1.1",
+    "btu:is.2.1",
+    "btu:is.13.1",
+    "btu:is.20.2",
+    "btu:is.37.2",
+    "btu:is.37.21",
+    "btu:is.38.1"
+   ],
+   "evidence": [
+    "nv:btu:is.1.1",
+    "nv:btu:2reg.19.2"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:isaias.propheta",
+     "evidence": [
+      "nv:btu:is.1.1"
+     ]
+    }
+   ]
+  },
+  "bpers:amos.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Amos",
+   "it": "Amos",
+   "en": "Amos",
+   "descr_it": "profeta, pastore di Tekòa, attivo nel regno del Nord sotto Geroboamo II",
+   "descr_en": "prophet, a herdsman from Tekoa, active in the northern kingdom under Jeroboam II",
+   "attested": [
+    "btu:am.1.1",
+    "btu:am.7.8",
+    "btu:am.7.10",
+    "btu:am.7.11",
+    "btu:am.7.12",
+    "btu:am.7.14",
+    "btu:am.8.2",
+    "btu:tb.2.6"
+   ],
+   "evidence": [
+    "ndeib:AMOS#0"
+   ],
+   "relations": []
+  },
+  "bpers:ana.sebeon-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ana",
+   "it": "Anà",
+   "en": "Anah",
+   "descr_it": "urrita, figlio di Sibeon, padre di Oolibamà; trovò sorgenti calde",
+   "descr_en": "Horite son of Zibeon, father of Oholibamah; found the hot springs",
+   "attested": [
+    "btu:gn.36.2",
+    "btu:gn.36.14",
+    "btu:gn.36.18",
+    "btu:gn.36.24",
+    "btu:1par.1.40",
+    "btu:1par.1.41"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.2",
+    "nv:btu:gn.36.24"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:oolibama.uxor-esau",
+     "evidence": [
+      "nv:btu:gn.36.2"
+     ]
+    }
+   ]
+  },
+  "bpers:ana.seir-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ana",
+   "it": "Anà",
+   "en": "Anah",
+   "descr_it": "figlio di Seir l'urrita, capo urrita, fratello di Sibeon",
+   "descr_en": "son of Seir the Horite, a Horite chief, Zibeon's brother",
+   "attested": [
+    "btu:gn.36.20",
+    "btu:gn.36.29",
+    "btu:1par.1.38"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.20",
+    "nv:btu:gn.36.29"
+   ]
+  },
+  "bpers:arachitae": {
+   "type": "person",
+   "kind": "group",
+   "latin": "Arachitae",
+   "it": "Architi",
+   "en": "Archites",
+   "descr_it": "clan sul confine tra Beniamino ed Efraim; vi apparteneva Cusài",
+   "descr_en": "clan on the Benjamin-Ephraim border; Hushai David's friend was one",
+   "attested": [
+    "btu:ios.16.2",
+    "btu:2sam.15.32",
+    "btu:2sam.16.16",
+    "btu:2sam.17.5",
+    "btu:2sam.17.14",
+    "btu:1par.27.33"
+   ],
+   "evidence": [
+    "nv:btu:ios.16.2",
+    "nv:btu:2sam.15.32"
+   ]
+  },
+  "bpers:aram.esrom-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Aram",
+   "it": "Ram",
+   "en": "Ram",
+   "descr_it": "figlio di Chesron, padre di Amminadàb, antenato di Davide",
+   "descr_en": "son of Hezron, father of Amminadab, ancestor of David",
+   "attested": [
+    "btu:rt.4.19",
+    "btu:1par.2.9",
+    "btu:1par.2.10",
+    "btu:mt.1.3",
+    "btu:mt.1.4"
+   ],
+   "evidence": [
+    "nv:btu:rt.4.19",
+    "nv:btu:1par.2.9"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:esrom.phares-filius",
+     "evidence": [
+      "nv:btu:rt.4.19"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:aminadab.pater-naasson",
+     "evidence": [
+      "nv:btu:rt.4.19"
+     ]
+    }
+   ]
+  },
+  "bpers:areuna": {
+   "attested": [
+    "btu:2sam.24.18",
+    "btu:2sam.24.20",
+    "btu:2sam.24.22",
+    "btu:2sam.24.23",
+    "btu:1par.21.15",
+    "btu:1par.21.20",
+    "btu:1par.21.21",
+    "btu:1par.21.23",
+    "btu:1par.21.25",
+    "btu:1par.21.28",
+    "btu:2par.3.1"
+   ],
+   "evidence": [
+    "nv:btu:2sam.24.18",
+    "nv:btu:1par.21.18",
+    "nv:btu:2par.3.1"
+   ]
+  },
+  "bpers:arni": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Arni",
+   "it": "Arni",
+   "en": "Arni",
+   "descr_it": "nome nella genealogia lucana di Gesù, tra Admin ed Esrom",
+   "descr_en": "name in Luke's genealogy of Jesus, between Admin and Hezron",
+   "attested": [
+    "btu:lc.3.33"
+   ],
+   "evidence": [
+    "nv:btu:lc.3.33"
+   ]
+  },
+  "bpers:asuerus.xerxes": {
+   "attested": [
+    "btu:est.1.1",
+    "btu:est.1.9",
+    "btu:est.1.15",
+    "btu:est.1.16",
+    "btu:est.1.17",
+    "btu:est.2.1",
+    "btu:est.2.16",
+    "btu:est.3.1",
+    "btu:est.3.6",
+    "btu:est.3.7",
+    "btu:est.3.8",
+    "btu:est.3.12",
+    "btu:est.6.2",
+    "btu:est.7.5",
+    "btu:est.8.1",
+    "btu:est.8.7",
+    "btu:est.9.30",
+    "btu:est.10.1",
+    "btu:est.10.3"
+   ],
+   "evidence": [
+    "nv:btu:est.1.1",
+    "nv:btu:est.1.19",
+    "nv:btu:esd.4.6"
+   ]
+  },
+  "bpers:basemath.esau-uxor": {
+   "attested": [
+    "btu:gn.36.4",
+    "btu:gn.36.10",
+    "btu:gn.36.13",
+    "btu:gn.36.17"
+   ],
+   "evidence": [
+    "nv:btu:gn.28.9",
+    "nv:btu:gn.36.3",
+    "nv:btu:gn.36.4"
+   ]
+  },
+  "bpers:bathuel.nachor-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Bathuel",
+   "it": "Betuèl",
+   "en": "Bethuel",
+   "descr_it": "arameo, figlio di Nacor e Milca, padre di Rebecca e Labano",
+   "descr_en": "Aramean, son of Nahor and Milcah, father of Rebekah and Laban",
+   "attested": [
+    "btu:gn.22.23",
+    "btu:gn.24.15",
+    "btu:gn.24.24",
+    "btu:gn.24.47",
+    "btu:gn.24.50",
+    "btu:gn.25.20",
+    "btu:gn.28.2",
+    "btu:gn.28.5"
+   ],
+   "evidence": [
+    "nv:btu:gn.22.23",
+    "nv:btu:gn.24.15",
+    "nv:btu:gn.28.5"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:nachor.thare-filius",
+     "evidence": [
+      "nv:btu:gn.22.23",
+      "nv:btu:gn.24.47"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:melcha.uxor-nachor",
+     "evidence": [
+      "nv:btu:gn.22.23",
+      "nv:btu:gn.24.24"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:rebecca",
+     "evidence": [
+      "nv:btu:gn.22.23",
+      "nv:btu:gn.24.15"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:laban",
+     "evidence": [
+      "nv:btu:gn.28.5"
+     ]
+    }
+   ]
+  },
+  "bpers:bochri": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Bochri",
+   "it": "Bicrì",
+   "en": "Bichri",
+   "descr_it": "beniaminita, padre di Seba che si ribellò a Davide",
+   "descr_en": "Benjaminite, father of Sheba who rebelled against David",
+   "attested": [
+    "btu:2sam.20.1",
+    "btu:2sam.20.2",
+    "btu:2sam.20.6",
+    "btu:2sam.20.7",
+    "btu:2sam.20.10",
+    "btu:2sam.20.13",
+    "btu:2sam.20.21",
+    "btu:2sam.20.22"
+   ],
+   "evidence": [
+    "nv:btu:2sam.20.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:seba.bochri-filius",
+     "evidence": [
+      "nv:btu:2sam.20.1"
+     ]
+    }
+   ]
+  },
+  "bpers:cainan.enos-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Cainan",
+   "it": "Kenan",
+   "en": "Kenan",
+   "descr_it": "patriarca antidiluviano, figlio di Enos e padre di Maalalèl",
+   "descr_en": "antediluvian patriarch, son of Enosh, father of Mahalalel",
+   "attested": [
+    "btu:gn.5.9",
+    "btu:gn.5.10",
+    "btu:gn.5.12",
+    "btu:gn.5.13",
+    "btu:gn.5.14",
+    "btu:1par.1.2",
+    "btu:lc.3.37"
+   ],
+   "evidence": [
+    "nv:btu:gn.5.9",
+    "nv:btu:gn.5.12",
+    "nv:btu:lc.3.37"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:enos",
+     "evidence": [
+      "nv:btu:gn.5.9"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:malaleel.cainan-filius",
+     "evidence": [
+      "nv:btu:gn.5.12"
+     ]
+    }
+   ]
+  },
+  "bpers:caree": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Caree",
+   "it": "Karèach",
+   "en": "Kareah",
+   "descr_it": "padre di Giovanni e Giònata, ufficiali al tempo di Godolia",
+   "descr_en": "father of Johanan and Jonathan, officers in Gedaliah's time",
+   "attested": [
+    "btu:2reg.25.23",
+    "btu:ier.40.8",
+    "btu:ier.40.13",
+    "btu:ier.40.15",
+    "btu:ier.40.16",
+    "btu:ier.41.11",
+    "btu:ier.41.13",
+    "btu:ier.41.14",
+    "btu:ier.41.16",
+    "btu:ier.42.1",
+    "btu:ier.42.8",
+    "btu:ier.43.2",
+    "btu:ier.43.4",
+    "btu:ier.43.5"
+   ],
+   "evidence": [
+    "nv:btu:ier.40.8"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iohanan.caree-filius",
+     "evidence": [
+      "nv:btu:ier.40.8"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:ionathan.filius-caree",
+     "evidence": [
+      "nv:btu:ier.40.8"
+     ]
+    }
+   ]
+  },
+  "bpers:chorraei": {
+   "attested": [
+    "btu:gn.36.2",
+    "btu:gn.36.21",
+    "btu:gn.36.29",
+    "btu:gn.36.30",
+    "btu:dt.2.22"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.20",
+    "nv:btu:dt.2.12"
+   ]
+  },
+  "bpers:chusai": {
+   "attested": [
+    "btu:2sam.16.16",
+    "btu:2sam.16.18",
+    "btu:2sam.17.5",
+    "btu:2sam.17.6",
+    "btu:2sam.17.7",
+    "btu:2sam.17.8",
+    "btu:2sam.17.14",
+    "btu:2sam.17.15"
+   ],
+   "evidence": [
+    "nv:btu:2sam.16.16",
+    "nv:btu:2sam.17.14"
+   ]
+  },
+  "bpers:elam.familiae-caput": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Elam",
+   "it": "Elam",
+   "en": "Elam",
+   "descr_it": "capostipite di un clan laico negli elenchi dei rimpatriati",
+   "descr_en": "head of a lay clan in the lists of returned exiles",
+   "attested": [
+    "btu:esd.2.7",
+    "btu:ne.7.12",
+    "btu:esd.8.7",
+    "btu:esd.10.2",
+    "btu:esd.10.26"
+   ],
+   "evidence": [
+    "nv:btu:esd.2.7",
+    "nv:btu:esd.8.7"
+   ]
+  },
+  "bpers:elimelech": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Elimelech",
+   "it": "Elimèlec",
+   "en": "Elimelech",
+   "descr_it": "efrateo di Betlemme, marito di Noemi, morto in Moab",
+   "descr_en": "Ephrathite of Bethlehem, Naomi's husband, who died in Moab",
+   "attested": [
+    "btu:rt.1.2",
+    "btu:rt.1.3",
+    "btu:rt.2.3",
+    "btu:rt.4.3",
+    "btu:rt.4.9"
+   ],
+   "evidence": [
+    "nv:btu:rt.1.2",
+    "nv:btu:rt.1.3"
+   ],
+   "relations": [
+    {
+     "rel": "spouse_of",
+     "target": "bpers:noemi",
+     "evidence": [
+      "nv:btu:rt.1.3"
+     ]
+    }
+   ]
+  },
+  "bpers:enac": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Enac",
+   "it": "Anak",
+   "en": "Anak",
+   "descr_it": "antenato dei giganti di Ebron, padre di Achiman, Sesai e Talmai",
+   "descr_en": "ancestor of Hebron's giants, father of Ahiman, Sheshai and Talmai",
+   "attested": [
+    "btu:nm.13.22",
+    "btu:nm.13.28",
+    "btu:nm.13.33",
+    "btu:ios.15.13",
+    "btu:ios.15.14",
+    "btu:ios.21.11",
+    "btu:idc.1.20"
+   ],
+   "evidence": [
+    "nv:btu:ios.15.13",
+    "nv:btu:ios.15.14"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:tholmai.filius-enac",
+     "evidence": [
+      "nv:btu:ios.15.14"
+     ]
+    }
+   ]
+  },
+  "bpers:enacim": {
+   "type": "person",
+   "kind": "group",
+   "latin": "Enacim",
+   "it": "Anakiti",
+   "en": "Anakim",
+   "descr_it": "popolo di statura gigantesca in Canaan, sterminato da Giosuè",
+   "descr_en": "people of giant stature in Canaan, destroyed by Joshua",
+   "attested": [
+    "btu:dt.1.28",
+    "btu:dt.2.10",
+    "btu:dt.2.11",
+    "btu:dt.2.21",
+    "btu:dt.9.2",
+    "btu:ios.11.21",
+    "btu:ios.11.22",
+    "btu:ios.14.12",
+    "btu:ios.14.15",
+    "btu:ier.47.5"
+   ],
+   "evidence": [
+    "nv:btu:dt.9.2",
+    "nv:btu:ios.11.21"
+   ]
+  },
   "bpers:ezechiel": {
    "type": "person",
    "kind": "individual",
@@ -91,120 +857,1712 @@
    ],
    "relations": []
   },
-  "bpers:malachias": {
-   "type": "person",
-   "kind": "individual",
-   "latin": "Malachias",
-   "it": "Malachia",
-   "en": "Malachi",
-   "descr_it": "profeta del tempo dopo l'esilio, ultimo dei Dodici",
-   "descr_en": "post-exilic prophet, last of the Twelve",
+  "bpers:felix": {
    "attested": [
-    "btu:mal.1.1"
+    "btu:act.23.24",
+    "btu:act.23.26",
+    "btu:act.24.3",
+    "btu:act.24.22",
+    "btu:act.24.24",
+    "btu:act.24.25",
+    "btu:act.24.27",
+    "btu:act.25.14"
    ],
    "evidence": [
-    "ndeib:MALACHIA, LIBRO DI M"
+    "nv:btu:act.23.24",
+    "nv:btu:act.24.27"
+   ]
+  },
+  "bpers:festus": {
+   "attested": [
+    "btu:act.24.27",
+    "btu:act.25.1",
+    "btu:act.25.4",
+    "btu:act.25.9",
+    "btu:act.25.12",
+    "btu:act.25.13",
+    "btu:act.25.14",
+    "btu:act.25.22",
+    "btu:act.25.23",
+    "btu:act.25.24",
+    "btu:act.26.24",
+    "btu:act.26.25",
+    "btu:act.26.32"
+   ],
+   "evidence": [
+    "nv:btu:act.24.27"
+   ]
+  },
+  "bpers:gaal": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Gaal",
+   "it": "Gaal",
+   "en": "Gaal",
+   "descr_it": "figlio di Ebed, guidò Sichem in rivolta contro Abimèlec",
+   "descr_en": "son of Ebed, led Shechem's revolt against Abimelech",
+   "attested": [
+    "btu:idc.9.26",
+    "btu:idc.9.28",
+    "btu:idc.9.30",
+    "btu:idc.9.31",
+    "btu:idc.9.35",
+    "btu:idc.9.36",
+    "btu:idc.9.37",
+    "btu:idc.9.39",
+    "btu:idc.9.41"
+   ],
+   "evidence": [
+    "nv:btu:idc.9.26",
+    "nv:btu:idc.9.39"
+   ]
+  },
+  "bpers:gad.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Gad",
+   "it": "Gad",
+   "en": "Gad",
+   "descr_it": "profeta e veggente di Davide",
+   "descr_en": "prophet and seer of King David",
+   "attested": [
+    "btu:1sam.22.5",
+    "btu:2sam.24.11",
+    "btu:2sam.24.13",
+    "btu:2sam.24.14",
+    "btu:2sam.24.18",
+    "btu:2sam.24.19",
+    "btu:1par.21.9",
+    "btu:1par.21.11",
+    "btu:1par.21.13",
+    "btu:1par.21.18",
+    "btu:1par.21.19",
+    "btu:1par.29.29",
+    "btu:2par.29.25"
+   ],
+   "evidence": [
+    "nv:btu:1sam.22.5",
+    "nv:btu:2sam.24.11"
+   ]
+  },
+  "bpers:gog.princeps-magog": {
+   "attested": [
+    "btu:ez.38.3",
+    "btu:ez.38.14",
+    "btu:ez.38.16",
+    "btu:ez.38.18",
+    "btu:ez.39.1",
+    "btu:ez.39.11"
+   ],
+   "evidence": [
+    "nv:btu:ez.38.3",
+    "nv:btu:ez.39.1"
+   ]
+  },
+  "bpers:habacuc": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Habacuc",
+   "it": "Abacuc",
+   "en": "Habakkuk",
+   "descr_it": "profeta di Giuda, portato a Babilonia da Daniele nella fossa dei leoni",
+   "descr_en": "prophet of Judah, carried to Daniel in the lions' den in Babylon",
+   "attested": [
+    "btu:hab.1.1",
+    "btu:hab.3.1",
+    "btu:dn.14.33",
+    "btu:dn.14.34",
+    "btu:dn.14.35",
+    "btu:dn.14.37",
+    "btu:dn.14.39"
+   ],
+   "evidence": [
+    "ndeib:ABACUC, LIBRO DI A"
    ],
    "relations": []
   },
-  "bpers:sophonias.propheta": {
+  "bpers:hebron.caath-filius": {
    "type": "person",
    "kind": "individual",
-   "latin": "Sophonias",
-   "it": "Sofonia",
-   "en": "Zephaniah",
-   "descr_it": "profeta, figlio di Cusi, attivo sotto il re Giosia",
-   "descr_en": "prophet, son of Cushi, active under King Josiah",
+   "latin": "Hebron",
+   "it": "Ebron",
+   "en": "Hebron",
+   "descr_it": "levita, figlio di Keat, capostipite degli Ebroniti",
+   "descr_en": "Levite, son of Kohath, ancestor of the Hebronites",
    "attested": [
-    "btu:soph.1.1"
+    "btu:ex.6.18",
+    "btu:nm.3.19",
+    "btu:nm.26.58",
+    "btu:1par.5.28",
+    "btu:1par.6.3",
+    "btu:1par.15.9",
+    "btu:1par.23.12",
+    "btu:1par.23.19"
    ],
    "evidence": [
-    "ndeib:SOFONIA, LIBRO DI S"
+    "nv:btu:ex.6.18",
+    "nv:btu:1par.23.19"
    ],
    "relations": [
     {
      "rel": "child_of",
-     "target": "bpers:chusi.sophoniae-pater",
+     "target": "bpers:caath",
      "evidence": [
-      "ndeib:SOFONIA, LIBRO DI S"
+      "nv:btu:ex.6.18"
      ]
     }
    ]
   },
-  "bpers:abdias.propheta": {
+  "bpers:hebronitae": {
    "type": "person",
-   "kind": "individual",
-   "latin": "Abdias",
-   "it": "Abdia",
-   "en": "Obadiah",
-   "descr_it": "profeta, autore dell'oracolo contro Edom",
-   "descr_en": "prophet, author of the oracle against Edom",
+   "kind": "group",
+   "latin": "Hebronitae",
+   "it": "Ebroniti",
+   "en": "Hebronites",
+   "descr_it": "famiglia levitica keatita discendente da Ebron",
+   "descr_en": "Kohathite Levitical clan descended from Hebron",
    "attested": [
-    "btu:abd.1.1"
+    "btu:nm.3.27",
+    "btu:1par.24.23",
+    "btu:1par.26.23",
+    "btu:1par.26.30",
+    "btu:1par.26.31"
    ],
    "evidence": [
-    "ndeib:ABDIA",
-    "ndeib:ABDIA, LIBRO DI A"
-   ],
-   "relations": []
+    "nv:btu:nm.3.27",
+    "nv:btu:1par.26.31"
+   ]
   },
-  "bpers:michaeas.morasthites": {
+  "bpers:her.iudae-filius": {
    "type": "person",
    "kind": "individual",
-   "latin": "Michaeas",
-   "it": "Michea",
-   "en": "Micah",
-   "descr_it": "profeta di Moreset, attivo sotto Iotam, Acaz ed Ezechia",
-   "descr_en": "prophet from Moresheth, active under Jotham, Ahaz and Hezekiah",
+   "latin": "Her",
+   "it": "Er",
+   "en": "Er",
+   "descr_it": "primogenito di Giuda, marito di Tamar, fatto morire dal Signore",
+   "descr_en": "Judah's firstborn, Tamar's husband, put to death by the Lord",
    "attested": [
-    "btu:mich.1.1",
-    "btu:ier.26.18"
+    "btu:gn.38.3",
+    "btu:gn.38.6",
+    "btu:gn.38.7",
+    "btu:gn.46.12",
+    "btu:nm.26.19",
+    "btu:1par.2.3"
    ],
    "evidence": [
-    "ndeib:MICHEA, LIBRO DI M"
+    "nv:btu:gn.38.6",
+    "nv:btu:gn.38.7",
+    "nv:btu:1par.2.3"
    ],
-   "relations": []
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:iuda.iacob-filius",
+     "evidence": [
+      "nv:btu:gn.46.12"
+     ]
+    },
+    {
+     "rel": "spouse_of",
+     "target": "bpers:thamar.nurus-iudae",
+     "evidence": [
+      "nv:btu:gn.38.6"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:onan",
+     "evidence": [
+      "nv:btu:gn.46.12"
+     ]
+    }
+   ]
   },
-  "bpers:zacharias.filius-addo": {
+  "bpers:heth": {
    "type": "person",
    "kind": "individual",
-   "latin": "Zacharias",
-   "it": "Zaccaria",
-   "en": "Zechariah",
-   "descr_it": "profeta, figlio di Berechia e nipote di Iddo, contemporaneo di Aggeo",
-   "descr_en": "prophet, son of Berechiah and grandson of Iddo, contemporary of Haggai",
+   "latin": "Heth",
+   "it": "Chet",
+   "en": "Heth",
+   "descr_it": "figlio di Canaan, eponimo degli Ittiti",
+   "descr_en": "son of Canaan, eponymous ancestor of the Hittites",
    "attested": [
-    "btu:zach.1.1",
-    "btu:zach.1.7",
-    "btu:zach.7.1",
-    "btu:zach.7.8",
-    "btu:esd.5.1",
-    "btu:esd.6.14"
+    "btu:1par.1.13"
    ],
    "evidence": [
-    "ndeib:ZACCARIA, LIBRO DI Z"
+    "nv:btu:1par.1.13"
    ],
-   "relations": []
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:chanaan.cham-filius",
+     "evidence": [
+      "nv:btu:1par.1.13"
+     ]
+    }
+   ]
   },
-  "bpers:matthaeus": {
+  "bpers:hetthaei": {
+   "attested": [
+    "btu:gn.23.5",
+    "btu:gn.23.7",
+    "btu:gn.23.10",
+    "btu:gn.23.16",
+    "btu:gn.23.18",
+    "btu:gn.23.20",
+    "btu:gn.25.10",
+    "btu:ex.3.8",
+    "btu:ex.3.17",
+    "btu:ex.13.5",
+    "btu:ex.23.23",
+    "btu:ex.23.28",
+    "btu:ex.33.2",
+    "btu:ex.34.11",
+    "btu:nm.13.29",
+    "btu:dt.20.17",
+    "btu:ios.3.10",
+    "btu:ios.9.1",
+    "btu:ios.11.3",
+    "btu:ios.12.8",
+    "btu:ios.24.11",
+    "btu:idc.1.26",
+    "btu:1reg.9.20",
+    "btu:1reg.10.29",
+    "btu:2par.1.17",
+    "btu:esd.9.1",
+    "btu:ne.9.8"
+   ],
+   "evidence": [
+    "nv:btu:gn.23.10",
+    "nv:btu:ex.3.8"
+   ]
+  },
+  "bpers:hori.lotan-filius": {
    "type": "person",
    "kind": "individual",
-   "latin": "Matthaeus",
-   "it": "Matteo",
-   "en": "Matthew",
-   "descr_it": "pubblicano chiamato da Gesù, uno dei Dodici apostoli",
-   "descr_en": "tax collector called by Jesus, one of the Twelve apostles",
+   "latin": "Hori",
+   "it": "Orì",
+   "en": "Hori",
+   "descr_it": "figlio di Lotan, discendente di Seir l'urrita",
+   "descr_en": "son of Lotan, descendant of Seir the Horite",
    "attested": [
+    "btu:gn.36.22",
+    "btu:1par.1.39"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.22",
+    "nv:btu:1par.1.39"
+   ]
+  },
+  "bpers:iared.malaleel-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iared",
+   "it": "Iered",
+   "en": "Jared",
+   "descr_it": "figlio di Maalalèl, padre di Enoc, patriarca prima del diluvio",
+   "descr_en": "son of Mahalalel, father of Enoch, antediluvian patriarch",
+   "attested": [
+    "btu:gn.5.15",
+    "btu:gn.5.16",
+    "btu:gn.5.18",
+    "btu:gn.5.19",
+    "btu:gn.5.20",
+    "btu:1par.1.2",
+    "btu:lc.3.37"
+   ],
+   "evidence": [
+    "nv:btu:gn.5.15",
+    "nv:btu:gn.5.18"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:henoch.iared-filius",
+     "evidence": [
+      "nv:btu:gn.5.18"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:malaleel.cainan-filius",
+     "evidence": [
+      "nv:btu:gn.5.15"
+     ]
+    }
+   ]
+  },
+  "bpers:iectan": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iectan",
+   "it": "Ioktan",
+   "en": "Joktan",
+   "descr_it": "figlio di Eber, fratello di Peleg, padre di tribù arabe",
+   "descr_en": "son of Eber, brother of Peleg, father of Arabian tribes",
+   "attested": [
+    "btu:gn.10.25",
+    "btu:gn.10.26",
+    "btu:gn.10.29",
+    "btu:1par.1.19",
+    "btu:1par.1.20",
+    "btu:1par.1.23"
+   ],
+   "evidence": [
+    "nv:btu:gn.10.25",
+    "nv:btu:gn.10.26"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:heber.sale-filius",
+     "evidence": [
+      "nv:btu:gn.10.25"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:phaleg",
+     "evidence": [
+      "nv:btu:gn.10.25"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:ophir",
+     "evidence": [
+      "nv:btu:gn.10.29"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:hevila.iectan-filius",
+     "evidence": [
+      "nv:btu:gn.10.29"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iobab.filius-iectan",
+     "evidence": [
+      "nv:btu:gn.10.29"
+     ]
+    }
+   ]
+  },
+  "bpers:iephonne.pater-chaleb": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iephonne",
+   "it": "Iefunnè",
+   "en": "Jephunneh",
+   "descr_it": "kenizzita, padre di Caleb l'esploratore",
+   "descr_en": "Kenizzite, father of Caleb the spy",
+   "attested": [
+    "btu:nm.13.6",
+    "btu:nm.14.6",
+    "btu:nm.14.30",
+    "btu:nm.14.38",
+    "btu:nm.26.65",
+    "btu:nm.32.12",
+    "btu:nm.34.19",
+    "btu:dt.1.36",
+    "btu:ios.14.6",
+    "btu:ios.14.14",
+    "btu:ios.15.13",
+    "btu:ios.21.12",
+    "btu:1par.4.15",
+    "btu:1par.6.41",
+    "btu:eccli.46.9"
+   ],
+   "evidence": [
+    "nv:btu:nm.32.12",
+    "nv:btu:ios.14.6"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:chaleb.iephonne-filius",
+     "evidence": [
+      "nv:btu:nm.13.6"
+     ]
+    }
+   ]
+  },
+  "bpers:iesua.levita-cum-zorobabel": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iesua",
+   "it": "Giosuè",
+   "en": "Jeshua",
+   "descr_it": "levita capofamiglia rimpatriato con Zorobabele, accanto a Kadmiel",
+   "descr_en": "Levite family head who returned with Zerubbabel, alongside Kadmiel",
+   "attested": [
+    "btu:esd.2.40",
+    "btu:ne.7.43",
+    "btu:esd.3.9",
+    "btu:ne.12.8"
+   ],
+   "evidence": [
+    "nv:btu:esd.2.40",
+    "nv:btu:esd.3.9",
+    "nv:btu:ne.12.8"
+   ]
+  },
+  "bpers:iesua.levita-esdrae": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iesua",
+   "it": "Giosuè",
+   "en": "Jeshua",
+   "descr_it": "levita che spiegò la legge e guidò la preghiera con Esdra",
+   "descr_en": "Levite who explained the law and led prayer in Ezra's time",
+   "attested": [
+    "btu:ne.8.7",
+    "btu:ne.9.4",
+    "btu:ne.9.5"
+   ],
+   "evidence": [
+    "nv:btu:ne.8.7",
+    "nv:btu:ne.9.5"
+   ]
+  },
+  "bpers:iesus-christus": {
+   "attested": [
+    "btu:mt.1.1",
+    "btu:mt.1.16",
+    "btu:mt.1.18",
+    "btu:mt.1.21",
+    "btu:mt.1.25",
+    "btu:mt.3.13",
+    "btu:mt.3.16",
+    "btu:mt.4.17",
+    "btu:mt.4.23",
+    "btu:mt.7.28",
+    "btu:mt.8.4",
+    "btu:mt.8.14",
+    "btu:mt.8.18",
+    "btu:mt.8.20",
+    "btu:mt.8.22",
+    "btu:mt.8.34",
+    "btu:mt.9.2",
+    "btu:mt.9.4",
     "btu:mt.9.9",
-    "btu:mt.10.3",
-    "btu:mc.3.18",
-    "btu:lc.6.15",
-    "btu:act.1.13"
+    "btu:mt.9.10",
+    "btu:mt.9.15",
+    "btu:mt.9.19",
+    "btu:mt.9.22",
+    "btu:mt.9.23",
+    "btu:mt.9.27",
+    "btu:mt.9.28",
+    "btu:mt.9.30",
+    "btu:mt.11.1",
+    "btu:mt.11.7",
+    "btu:mt.11.25",
+    "btu:mt.12.1",
+    "btu:mt.12.15",
+    "btu:mt.13.1",
+    "btu:mt.13.34",
+    "btu:mt.13.53",
+    "btu:mt.13.57",
+    "btu:mt.14.1",
+    "btu:mt.14.12",
+    "btu:mt.14.13",
+    "btu:mt.14.16",
+    "btu:mt.14.27",
+    "btu:mt.14.29",
+    "btu:mt.14.31",
+    "btu:mt.15.1",
+    "btu:mt.15.21",
+    "btu:mt.15.29",
+    "btu:mt.15.32",
+    "btu:mt.15.34",
+    "btu:mt.16.6",
+    "btu:mt.16.8",
+    "btu:mt.16.13",
+    "btu:mt.16.17",
+    "btu:mt.16.21",
+    "btu:mt.16.24",
+    "btu:mt.17.1",
+    "btu:mt.17.4",
+    "btu:mt.17.7",
+    "btu:mt.17.8",
+    "btu:mt.17.9",
+    "btu:mt.17.17",
+    "btu:mt.17.18",
+    "btu:mt.17.19",
+    "btu:mt.17.25",
+    "btu:mt.17.26",
+    "btu:mt.18.1",
+    "btu:mt.18.22",
+    "btu:mt.19.1",
+    "btu:mt.19.14",
+    "btu:mt.19.18",
+    "btu:mt.19.21",
+    "btu:mt.19.23",
+    "btu:mt.19.26",
+    "btu:mt.20.17",
+    "btu:mt.20.22",
+    "btu:mt.20.25",
+    "btu:mt.20.30",
+    "btu:mt.20.32",
+    "btu:mt.20.34",
+    "btu:mt.21.12",
+    "btu:mt.21.16",
+    "btu:mt.21.21",
+    "btu:mt.21.24",
+    "btu:mt.21.27",
+    "btu:mt.21.31",
+    "btu:mt.21.42",
+    "btu:mt.22.18",
+    "btu:mt.22.29",
+    "btu:mt.22.41",
+    "btu:mt.24.1",
+    "btu:mt.24.4",
+    "btu:mt.26.1",
+    "btu:mt.26.4",
+    "btu:mt.26.6",
+    "btu:mt.26.10",
+    "btu:mt.26.17",
+    "btu:mt.26.19",
+    "btu:mt.26.26",
+    "btu:mt.26.34",
+    "btu:mt.26.36",
+    "btu:mt.26.49",
+    "btu:mt.26.50",
+    "btu:mt.26.51",
+    "btu:mt.26.52",
+    "btu:mt.26.55",
+    "btu:mt.26.57",
+    "btu:mt.26.59",
+    "btu:mt.26.63",
+    "btu:mt.26.64",
+    "btu:mt.26.69",
+    "btu:mt.26.71",
+    "btu:mt.26.75",
+    "btu:mt.27.1",
+    "btu:mt.27.11",
+    "btu:mt.27.17",
+    "btu:mt.27.20",
+    "btu:mt.27.22",
+    "btu:mt.27.26",
+    "btu:mt.27.27",
+    "btu:mt.27.37",
+    "btu:mt.27.46",
+    "btu:mt.27.50",
+    "btu:mt.27.54",
+    "btu:mt.27.55",
+    "btu:mt.27.57",
+    "btu:mt.27.58",
+    "btu:mt.28.5",
+    "btu:mt.28.9",
+    "btu:mt.28.10",
+    "btu:mt.28.16",
+    "btu:mc.1.1",
+    "btu:mc.1.9",
+    "btu:mc.1.17",
+    "btu:mc.1.24",
+    "btu:mc.1.25",
+    "btu:mc.2.5",
+    "btu:mc.2.8",
+    "btu:mc.2.15",
+    "btu:mc.5.6",
+    "btu:mc.5.7",
+    "btu:mc.5.15",
+    "btu:mc.5.20",
+    "btu:mc.5.21",
+    "btu:mc.5.27",
+    "btu:mc.5.30",
+    "btu:mc.5.36",
+    "btu:mc.6.4",
+    "btu:mc.6.30",
+    "btu:mc.9.2",
+    "btu:mc.9.4",
+    "btu:mc.9.5",
+    "btu:mc.9.8",
+    "btu:mc.9.23",
+    "btu:mc.9.25",
+    "btu:mc.9.27",
+    "btu:mc.9.39",
+    "btu:mc.10.14",
+    "btu:mc.10.32",
+    "btu:mc.10.39",
+    "btu:mc.10.47",
+    "btu:mc.10.49",
+    "btu:mc.10.50",
+    "btu:mc.10.51",
+    "btu:mc.10.52",
+    "btu:mc.11.22",
+    "btu:mc.14.18",
+    "btu:mc.14.30",
+    "btu:mc.14.48",
+    "btu:mc.14.53",
+    "btu:mc.14.55",
+    "btu:mc.14.60",
+    "btu:mc.14.67",
+    "btu:mc.14.72",
+    "btu:mc.15.1",
+    "btu:mc.15.5",
+    "btu:mc.15.34",
+    "btu:mc.15.37",
+    "btu:mc.15.43",
+    "btu:mc.16.6",
+    "btu:lc.1.31",
+    "btu:lc.2.21",
+    "btu:lc.2.27",
+    "btu:lc.2.52",
+    "btu:lc.3.21",
+    "btu:lc.4.14",
+    "btu:lc.4.34",
+    "btu:lc.4.35",
+    "btu:lc.5.8",
+    "btu:lc.5.10",
+    "btu:lc.5.12",
+    "btu:lc.5.19",
+    "btu:lc.5.22",
+    "btu:lc.5.31",
+    "btu:lc.6.9",
+    "btu:lc.6.11",
+    "btu:lc.7.3",
+    "btu:lc.7.4",
+    "btu:lc.7.6",
+    "btu:lc.7.9",
+    "btu:lc.8.28",
+    "btu:lc.8.30",
+    "btu:lc.8.35",
+    "btu:lc.8.39",
+    "btu:lc.8.40",
+    "btu:lc.8.41",
+    "btu:lc.8.45",
+    "btu:lc.8.46",
+    "btu:lc.8.50",
+    "btu:lc.9.33",
+    "btu:lc.9.36",
+    "btu:lc.9.41",
+    "btu:lc.9.42",
+    "btu:lc.9.47",
+    "btu:lc.9.50",
+    "btu:lc.9.58",
+    "btu:lc.9.60",
+    "btu:lc.14.3",
+    "btu:lc.18.16",
+    "btu:lc.18.19",
+    "btu:lc.18.22",
+    "btu:lc.18.24",
+    "btu:lc.18.37",
+    "btu:lc.18.38",
+    "btu:lc.18.40",
+    "btu:lc.18.42",
+    "btu:lc.19.3",
+    "btu:lc.19.5",
+    "btu:lc.19.9",
+    "btu:lc.19.35",
+    "btu:lc.20.8",
+    "btu:lc.20.34",
+    "btu:lc.22.47",
+    "btu:lc.22.48",
+    "btu:lc.22.51",
+    "btu:lc.22.52",
+    "btu:lc.23.20",
+    "btu:lc.23.25",
+    "btu:lc.23.26",
+    "btu:lc.23.34",
+    "btu:lc.23.52",
+    "btu:lc.24.3",
+    "btu:lc.24.15",
+    "btu:lc.24.19",
+    "btu:io.1.17",
+    "btu:io.1.29",
+    "btu:io.1.43",
+    "btu:io.1.45",
+    "btu:io.1.47",
+    "btu:io.1.48",
+    "btu:io.1.50",
+    "btu:io.2.1",
+    "btu:io.2.2",
+    "btu:io.2.3",
+    "btu:io.2.4",
+    "btu:io.2.7",
+    "btu:io.2.11",
+    "btu:io.2.19",
+    "btu:io.2.22",
+    "btu:io.2.24",
+    "btu:io.3.3",
+    "btu:io.3.5",
+    "btu:io.3.10",
+    "btu:io.4.6",
+    "btu:io.4.10",
+    "btu:io.4.13",
+    "btu:io.4.17",
+    "btu:io.4.21",
+    "btu:io.4.26",
+    "btu:io.4.34",
+    "btu:io.4.44",
+    "btu:io.4.47",
+    "btu:io.4.48",
+    "btu:io.4.50",
+    "btu:io.4.53",
+    "btu:io.4.54",
+    "btu:io.5.1",
+    "btu:io.5.6",
+    "btu:io.5.8",
+    "btu:io.5.13",
+    "btu:io.5.14",
+    "btu:io.5.15",
+    "btu:io.5.16",
+    "btu:io.5.17",
+    "btu:io.5.19",
+    "btu:io.6.1",
+    "btu:io.6.3",
+    "btu:io.6.5",
+    "btu:io.6.10",
+    "btu:io.6.11",
+    "btu:io.6.15",
+    "btu:io.6.17",
+    "btu:io.6.19",
+    "btu:io.6.22",
+    "btu:io.6.24",
+    "btu:io.6.26",
+    "btu:io.6.29",
+    "btu:io.6.32",
+    "btu:io.6.35",
+    "btu:io.6.42",
+    "btu:io.6.43",
+    "btu:io.6.53",
+    "btu:io.6.61",
+    "btu:io.6.64",
+    "btu:io.6.67",
+    "btu:io.6.70",
+    "btu:io.7.1",
+    "btu:io.7.6",
+    "btu:io.7.14",
+    "btu:io.7.16",
+    "btu:io.7.21",
+    "btu:io.7.28",
+    "btu:io.7.33",
+    "btu:io.7.37",
+    "btu:io.7.39",
+    "btu:io.8.1",
+    "btu:io.8.6",
+    "btu:io.8.10",
+    "btu:io.8.11",
+    "btu:io.8.12",
+    "btu:io.8.14",
+    "btu:io.8.19",
+    "btu:io.8.25",
+    "btu:io.8.28",
+    "btu:io.8.31",
+    "btu:io.8.34",
+    "btu:io.8.39",
+    "btu:io.8.42",
+    "btu:io.8.49",
+    "btu:io.8.54",
+    "btu:io.8.58",
+    "btu:io.8.59",
+    "btu:io.9.3",
+    "btu:io.9.11",
+    "btu:io.9.14",
+    "btu:io.9.35",
+    "btu:io.9.37",
+    "btu:io.9.39",
+    "btu:io.9.41",
+    "btu:io.10.6",
+    "btu:io.10.7",
+    "btu:io.10.23",
+    "btu:io.10.25",
+    "btu:io.10.32",
+    "btu:io.10.34",
+    "btu:io.11.4",
+    "btu:io.11.5",
+    "btu:io.11.9",
+    "btu:io.11.13",
+    "btu:io.11.14",
+    "btu:io.11.17",
+    "btu:io.11.20",
+    "btu:io.11.21",
+    "btu:io.11.23",
+    "btu:io.11.25",
+    "btu:io.11.30",
+    "btu:io.11.32",
+    "btu:io.11.33",
+    "btu:io.11.35",
+    "btu:io.11.38",
+    "btu:io.11.39",
+    "btu:io.11.40",
+    "btu:io.11.41",
+    "btu:io.11.44",
+    "btu:io.11.46",
+    "btu:io.11.51",
+    "btu:io.11.54",
+    "btu:io.11.56",
+    "btu:io.12.3",
+    "btu:io.12.7",
+    "btu:io.12.9",
+    "btu:io.12.11",
+    "btu:io.12.12",
+    "btu:io.12.14",
+    "btu:io.12.16",
+    "btu:io.12.21",
+    "btu:io.12.22",
+    "btu:io.12.30",
+    "btu:io.12.35",
+    "btu:io.12.36",
+    "btu:io.12.44",
+    "btu:io.13.27",
+    "btu:io.13.31",
+    "btu:io.13.36",
+    "btu:io.13.38",
+    "btu:io.14.6",
+    "btu:io.14.9",
+    "btu:io.14.23",
+    "btu:io.16.19",
+    "btu:io.16.31",
+    "btu:io.17.1",
+    "btu:io.17.3",
+    "btu:io.18.1",
+    "btu:io.18.2",
+    "btu:io.18.4",
+    "btu:io.18.5",
+    "btu:io.18.7",
+    "btu:io.18.8",
+    "btu:io.18.11",
+    "btu:io.18.28",
+    "btu:io.18.32",
+    "btu:io.18.33",
+    "btu:io.18.34",
+    "btu:io.18.36",
+    "btu:io.18.37",
+    "btu:io.19.9",
+    "btu:io.19.11",
+    "btu:io.19.13",
+    "btu:io.19.16",
+    "btu:io.19.18",
+    "btu:io.19.19",
+    "btu:io.19.20",
+    "btu:io.19.23",
+    "btu:io.19.25",
+    "btu:io.19.26",
+    "btu:io.19.28",
+    "btu:io.19.33",
+    "btu:io.20.2",
+    "btu:io.20.12",
+    "btu:io.20.14",
+    "btu:io.20.15",
+    "btu:io.20.16",
+    "btu:io.20.17",
+    "btu:io.20.19",
+    "btu:io.20.24",
+    "btu:io.20.26",
+    "btu:io.20.29",
+    "btu:io.20.30",
+    "btu:io.20.31",
+    "btu:io.21.1",
+    "btu:io.21.4",
+    "btu:io.21.5",
+    "btu:io.21.7",
+    "btu:io.21.10",
+    "btu:io.21.12",
+    "btu:io.21.13",
+    "btu:io.21.14",
+    "btu:io.21.15",
+    "btu:io.21.20",
+    "btu:io.21.21",
+    "btu:io.21.22",
+    "btu:io.21.23",
+    "btu:io.21.25",
+    "btu:act.1.1",
+    "btu:act.1.14",
+    "btu:act.1.16",
+    "btu:act.1.21",
+    "btu:act.2.22",
+    "btu:act.2.32",
+    "btu:act.2.36",
+    "btu:act.2.38",
+    "btu:act.3.6",
+    "btu:act.3.13",
+    "btu:act.3.20",
+    "btu:act.4.2",
+    "btu:act.4.10",
+    "btu:act.4.13",
+    "btu:act.4.18",
+    "btu:act.4.27",
+    "btu:act.4.33",
+    "btu:act.5.30",
+    "btu:act.5.40",
+    "btu:act.5.42",
+    "btu:act.6.14",
+    "btu:act.7.55",
+    "btu:act.7.59",
+    "btu:act.8.12",
+    "btu:act.8.16",
+    "btu:act.8.35",
+    "btu:act.9.5",
+    "btu:act.9.17",
+    "btu:act.9.27",
+    "btu:act.9.34",
+    "btu:act.10.36",
+    "btu:act.10.38",
+    "btu:act.11.17",
+    "btu:act.11.20",
+    "btu:act.13.23",
+    "btu:act.13.33",
+    "btu:act.15.11",
+    "btu:act.15.26",
+    "btu:act.16.18",
+    "btu:act.16.31",
+    "btu:act.17.3",
+    "btu:act.17.7",
+    "btu:act.17.18",
+    "btu:act.18.5",
+    "btu:act.18.28",
+    "btu:act.19.4",
+    "btu:act.19.5",
+    "btu:act.19.13",
+    "btu:act.19.15",
+    "btu:act.19.17",
+    "btu:act.20.21",
+    "btu:act.20.24",
+    "btu:act.21.13",
+    "btu:act.22.8",
+    "btu:act.24.24",
+    "btu:act.25.19",
+    "btu:act.26.9",
+    "btu:act.26.15",
+    "btu:act.28.23",
+    "btu:act.28.31",
+    "btu:rom.1.1",
+    "btu:rom.1.6",
+    "btu:rom.1.7",
+    "btu:rom.1.8",
+    "btu:rom.2.16",
+    "btu:rom.3.22",
+    "btu:rom.3.24",
+    "btu:rom.3.26",
+    "btu:rom.4.24",
+    "btu:rom.5.1",
+    "btu:rom.5.11",
+    "btu:rom.5.15",
+    "btu:rom.5.17",
+    "btu:rom.5.21",
+    "btu:rom.6.3",
+    "btu:rom.6.11",
+    "btu:rom.6.23",
+    "btu:rom.7.25",
+    "btu:rom.8.1",
+    "btu:rom.8.2",
+    "btu:rom.8.11",
+    "btu:rom.8.39",
+    "btu:rom.10.9",
+    "btu:rom.13.14",
+    "btu:rom.14.14",
+    "btu:rom.15.5",
+    "btu:rom.15.6",
+    "btu:rom.15.16",
+    "btu:rom.15.17",
+    "btu:rom.15.30",
+    "btu:rom.16.3",
+    "btu:rom.16.27",
+    "btu:1cor.1.1",
+    "btu:1cor.1.2",
+    "btu:1cor.1.3",
+    "btu:1cor.1.4",
+    "btu:1cor.1.7",
+    "btu:1cor.1.8",
+    "btu:1cor.1.9",
+    "btu:1cor.1.10",
+    "btu:1cor.1.30",
+    "btu:1cor.2.2",
+    "btu:1cor.3.11",
+    "btu:1cor.4.15",
+    "btu:1cor.5.4",
+    "btu:1cor.6.11",
+    "btu:1cor.8.6",
+    "btu:1cor.9.1",
+    "btu:1cor.12.3",
+    "btu:1cor.15.31",
+    "btu:1cor.15.57",
+    "btu:1cor.16.23",
+    "btu:1cor.16.24",
+    "btu:2cor.1.1",
+    "btu:2cor.1.2",
+    "btu:2cor.1.3",
+    "btu:2cor.1.14",
+    "btu:2cor.1.19",
+    "btu:2cor.4.5",
+    "btu:2cor.4.6",
+    "btu:2cor.4.10",
+    "btu:2cor.4.11",
+    "btu:2cor.4.14",
+    "btu:2cor.8.9",
+    "btu:2cor.11.31",
+    "btu:2cor.13.5",
+    "btu:gal.1.1",
+    "btu:gal.1.3",
+    "btu:gal.1.12",
+    "btu:gal.2.4",
+    "btu:gal.2.16",
+    "btu:gal.3.1",
+    "btu:gal.3.14",
+    "btu:gal.3.22",
+    "btu:gal.3.26",
+    "btu:gal.3.28",
+    "btu:gal.4.14",
+    "btu:gal.5.6",
+    "btu:gal.6.14",
+    "btu:gal.6.17",
+    "btu:gal.6.18",
+    "btu:eph.1.1",
+    "btu:eph.1.2",
+    "btu:eph.1.3",
+    "btu:eph.1.5",
+    "btu:eph.1.15",
+    "btu:eph.1.17",
+    "btu:eph.2.6",
+    "btu:eph.2.7",
+    "btu:eph.2.10",
+    "btu:eph.2.13",
+    "btu:eph.2.20",
+    "btu:eph.3.1",
+    "btu:eph.3.6",
+    "btu:eph.3.11",
+    "btu:eph.3.21",
+    "btu:eph.4.21",
+    "btu:eph.5.20",
+    "btu:eph.6.23",
+    "btu:eph.6.24",
+    "btu:phil.1.1",
+    "btu:phil.1.2",
+    "btu:phil.1.6",
+    "btu:phil.1.8",
+    "btu:phil.1.11",
+    "btu:phil.1.19",
+    "btu:phil.1.26",
+    "btu:phil.2.5",
+    "btu:phil.2.10",
+    "btu:phil.2.11",
+    "btu:phil.2.19",
+    "btu:phil.2.21",
+    "btu:phil.3.3",
+    "btu:phil.3.8",
+    "btu:phil.3.12",
+    "btu:phil.3.14",
+    "btu:phil.3.20",
+    "btu:phil.4.7",
+    "btu:phil.4.19",
+    "btu:phil.4.21",
+    "btu:phil.4.23",
+    "btu:col.1.1",
+    "btu:col.1.3",
+    "btu:col.1.4",
+    "btu:col.2.6",
+    "btu:col.3.17",
+    "btu:1thess.1.1",
+    "btu:1thess.1.3",
+    "btu:1thess.1.10",
+    "btu:1thess.2.14",
+    "btu:1thess.2.15",
+    "btu:1thess.2.19",
+    "btu:1thess.3.11",
+    "btu:1thess.3.13",
+    "btu:1thess.4.1",
+    "btu:1thess.4.2",
+    "btu:1thess.4.14",
+    "btu:1thess.5.9",
+    "btu:1thess.5.18",
+    "btu:1thess.5.23",
+    "btu:1thess.5.28",
+    "btu:2thess.1.1",
+    "btu:2thess.1.2",
+    "btu:2thess.1.7",
+    "btu:2thess.1.8",
+    "btu:2thess.1.12",
+    "btu:2thess.2.1",
+    "btu:2thess.2.14",
+    "btu:2thess.2.16",
+    "btu:2thess.3.6",
+    "btu:2thess.3.12",
+    "btu:2thess.3.18",
+    "btu:1tim.1.1",
+    "btu:1tim.1.2",
+    "btu:1tim.1.12",
+    "btu:1tim.1.14",
+    "btu:1tim.1.15",
+    "btu:1tim.1.16",
+    "btu:1tim.2.5",
+    "btu:1tim.3.13",
+    "btu:1tim.4.6",
+    "btu:1tim.5.21",
+    "btu:1tim.6.3",
+    "btu:1tim.6.13",
+    "btu:1tim.6.14",
+    "btu:2tim.1.1",
+    "btu:2tim.1.2",
+    "btu:2tim.1.9",
+    "btu:2tim.1.10",
+    "btu:2tim.1.13",
+    "btu:2tim.2.1",
+    "btu:2tim.2.3",
+    "btu:2tim.2.8",
+    "btu:2tim.2.10",
+    "btu:2tim.3.12",
+    "btu:2tim.3.15",
+    "btu:2tim.4.1",
+    "btu:tit.1.1",
+    "btu:tit.1.4",
+    "btu:tit.2.13",
+    "btu:tit.3.6",
+    "btu:philm.1.1",
+    "btu:philm.1.3",
+    "btu:philm.1.5",
+    "btu:philm.1.9",
+    "btu:philm.1.23",
+    "btu:philm.1.25",
+    "btu:heb.2.9",
+    "btu:heb.3.1",
+    "btu:heb.4.14",
+    "btu:heb.6.20",
+    "btu:heb.7.22",
+    "btu:heb.10.10",
+    "btu:heb.10.19",
+    "btu:heb.12.2",
+    "btu:heb.12.24",
+    "btu:heb.13.8",
+    "btu:heb.13.12",
+    "btu:heb.13.20",
+    "btu:heb.13.21",
+    "btu:iac.1.1",
+    "btu:iac.2.1",
+    "btu:1pe.1.1",
+    "btu:1pe.1.2",
+    "btu:1pe.1.3",
+    "btu:1pe.1.7",
+    "btu:1pe.1.13",
+    "btu:1pe.2.5",
+    "btu:1pe.3.21",
+    "btu:1pe.4.11",
+    "btu:2pe.1.1",
+    "btu:2pe.1.2",
+    "btu:2pe.1.8",
+    "btu:2pe.1.11",
+    "btu:2pe.1.14",
+    "btu:2pe.1.16",
+    "btu:2pe.2.20",
+    "btu:2pe.3.18",
+    "btu:1io.1.3",
+    "btu:1io.1.7",
+    "btu:1io.2.1",
+    "btu:1io.2.22",
+    "btu:1io.3.23",
+    "btu:1io.4.2",
+    "btu:1io.4.3",
+    "btu:1io.4.15",
+    "btu:1io.5.1",
+    "btu:1io.5.5",
+    "btu:1io.5.6",
+    "btu:1io.5.20",
+    "btu:2io.1.3",
+    "btu:2io.1.7",
+    "btu:ids.1.1",
+    "btu:ids.1.4",
+    "btu:ids.1.17",
+    "btu:ids.1.21",
+    "btu:ids.1.25",
+    "btu:apc.1.1",
+    "btu:apc.1.2",
+    "btu:apc.1.5",
+    "btu:apc.1.9",
+    "btu:apc.12.17",
+    "btu:apc.14.12",
+    "btu:apc.17.6",
+    "btu:apc.19.10",
+    "btu:apc.20.4",
+    "btu:apc.22.16",
+    "btu:apc.22.20",
+    "btu:apc.22.21",
+    "btu:2cor.13.13",
+    "btu:rom.16.20",
+    "btu:act.16.7",
+    "btu:rom.1.4",
+    "btu:gal.5.24",
+    "btu:act.9.20",
+    "btu:rom.8.34",
+    "btu:col.4.12",
+    "btu:1pe.5.10",
+    "btu:col.1.2",
+    "btu:rom.5.6",
+    "btu:rom.5.8",
+    "btu:rom.6.4",
+    "btu:rom.6.8",
+    "btu:rom.6.9",
+    "btu:rom.7.4",
+    "btu:rom.8.9",
+    "btu:rom.8.10",
+    "btu:rom.8.17",
+    "btu:rom.8.35",
+    "btu:rom.9.1",
+    "btu:rom.9.3",
+    "btu:rom.9.5",
+    "btu:rom.10.4",
+    "btu:rom.10.6",
+    "btu:rom.10.7",
+    "btu:rom.12.5",
+    "btu:rom.14.9",
+    "btu:rom.14.15",
+    "btu:rom.14.18",
+    "btu:rom.15.3",
+    "btu:rom.15.7",
+    "btu:rom.15.8",
+    "btu:rom.15.18",
+    "btu:rom.15.19",
+    "btu:rom.15.20",
+    "btu:rom.15.29",
+    "btu:rom.16.5",
+    "btu:rom.16.7",
+    "btu:rom.16.9",
+    "btu:rom.16.10",
+    "btu:rom.16.16",
+    "btu:rom.16.18",
+    "btu:1cor.1.6",
+    "btu:1cor.1.12",
+    "btu:1cor.1.13",
+    "btu:1cor.1.17",
+    "btu:1cor.1.23",
+    "btu:1cor.1.24",
+    "btu:1cor.2.16",
+    "btu:1cor.3.1",
+    "btu:1cor.3.23",
+    "btu:1cor.4.1",
+    "btu:1cor.4.10",
+    "btu:1cor.4.17",
+    "btu:1cor.5.7",
+    "btu:1cor.6.15",
+    "btu:1cor.7.22",
+    "btu:1cor.8.11",
+    "btu:1cor.8.12",
+    "btu:1cor.9.12",
+    "btu:1cor.9.21",
+    "btu:1cor.10.4",
+    "btu:1cor.10.9",
+    "btu:1cor.10.16",
+    "btu:1cor.11.1",
+    "btu:1cor.11.3",
+    "btu:1cor.12.12",
+    "btu:1cor.12.27",
+    "btu:1cor.15.3",
+    "btu:1cor.15.12",
+    "btu:1cor.15.13",
+    "btu:1cor.15.14",
+    "btu:1cor.15.15",
+    "btu:1cor.15.16",
+    "btu:1cor.15.17",
+    "btu:1cor.15.18",
+    "btu:1cor.15.19",
+    "btu:1cor.15.20",
+    "btu:1cor.15.22",
+    "btu:1cor.15.23",
+    "btu:2cor.1.5",
+    "btu:2cor.1.21",
+    "btu:2cor.2.10",
+    "btu:2cor.2.12",
+    "btu:2cor.2.14",
+    "btu:2cor.2.15",
+    "btu:2cor.2.17",
+    "btu:2cor.3.3",
+    "btu:2cor.3.4",
+    "btu:2cor.3.14",
+    "btu:2cor.4.4",
+    "btu:2cor.5.10",
+    "btu:2cor.5.14",
+    "btu:2cor.5.16",
+    "btu:2cor.5.17",
+    "btu:2cor.5.18",
+    "btu:2cor.5.19",
+    "btu:2cor.5.20",
+    "btu:2cor.6.15",
+    "btu:2cor.8.23",
+    "btu:2cor.9.13",
+    "btu:2cor.10.1",
+    "btu:2cor.10.5",
+    "btu:2cor.10.7",
+    "btu:2cor.10.14",
+    "btu:2cor.11.2",
+    "btu:2cor.11.3",
+    "btu:2cor.11.10",
+    "btu:2cor.11.13",
+    "btu:2cor.11.23",
+    "btu:2cor.12.2",
+    "btu:2cor.12.9",
+    "btu:2cor.12.10",
+    "btu:2cor.12.19",
+    "btu:2cor.13.3",
+    "btu:gal.1.6",
+    "btu:gal.1.7",
+    "btu:gal.1.10",
+    "btu:gal.1.22",
+    "btu:gal.2.17",
+    "btu:gal.2.20",
+    "btu:gal.2.21",
+    "btu:gal.3.13",
+    "btu:gal.3.16",
+    "btu:gal.3.24",
+    "btu:gal.3.27",
+    "btu:gal.3.29",
+    "btu:gal.4.19",
+    "btu:gal.5.1",
+    "btu:gal.5.2",
+    "btu:gal.5.4",
+    "btu:gal.6.2",
+    "btu:gal.6.12",
+    "btu:eph.1.12",
+    "btu:eph.1.20",
+    "btu:eph.2.5",
+    "btu:eph.2.12",
+    "btu:eph.3.4",
+    "btu:eph.3.8",
+    "btu:eph.3.17",
+    "btu:eph.3.19",
+    "btu:eph.4.7",
+    "btu:eph.4.12",
+    "btu:eph.4.13",
+    "btu:eph.4.15",
+    "btu:eph.4.20",
+    "btu:eph.4.32",
+    "btu:eph.5.2",
+    "btu:eph.5.5",
+    "btu:eph.5.14",
+    "btu:eph.5.23",
+    "btu:eph.5.24",
+    "btu:eph.5.25",
+    "btu:eph.5.32",
+    "btu:eph.6.5",
+    "btu:eph.6.6",
+    "btu:phil.1.10",
+    "btu:phil.1.13",
+    "btu:phil.1.15",
+    "btu:phil.1.18",
+    "btu:phil.1.20",
+    "btu:phil.1.21",
+    "btu:phil.1.23",
+    "btu:phil.1.27",
+    "btu:phil.1.29",
+    "btu:phil.2.1",
+    "btu:phil.2.16",
+    "btu:phil.2.30",
+    "btu:phil.3.7",
+    "btu:phil.3.9",
+    "btu:phil.3.18",
+    "btu:col.1.7",
+    "btu:col.1.24",
+    "btu:col.1.27",
+    "btu:col.2.2",
+    "btu:col.2.5",
+    "btu:col.2.8",
+    "btu:col.2.11",
+    "btu:col.2.17",
+    "btu:col.2.20",
+    "btu:col.3.1",
+    "btu:col.3.3",
+    "btu:col.3.4",
+    "btu:col.3.11",
+    "btu:col.3.16",
+    "btu:col.3.24",
+    "btu:col.4.3",
+    "btu:1thess.3.2",
+    "btu:1thess.4.16",
+    "btu:2thess.3.5",
+    "btu:1tim.5.11",
+    "btu:philm.1.6",
+    "btu:philm.1.8",
+    "btu:heb.3.6",
+    "btu:heb.3.14",
+    "btu:heb.5.5",
+    "btu:heb.6.1",
+    "btu:heb.9.11",
+    "btu:heb.9.14",
+    "btu:heb.9.24",
+    "btu:heb.9.28",
+    "btu:heb.11.26",
+    "btu:1pe.1.11",
+    "btu:1pe.1.19",
+    "btu:1pe.2.21",
+    "btu:1pe.3.16",
+    "btu:1pe.3.18",
+    "btu:1pe.4.1",
+    "btu:1pe.4.13",
+    "btu:1pe.4.14",
+    "btu:2io.1.9",
+    "btu:apc.11.15",
+    "btu:apc.12.10",
+    "btu:apc.20.6",
+    "btu:col.1.28",
+    "btu:1pe.5.14",
+    "btu:rom.10.17",
+    "btu:eph.5.21",
+    "btu:philm.1.20",
+    "btu:phil.1.17",
+    "btu:mt.17.20",
+    "btu:mc.16.19",
+    "btu:lc.5.34",
+    "btu:act.4.29",
+    "btu:act.10.48",
+    "btu:act.18.25",
+    "btu:rom.16.23",
+    "btu:2thess.2.8",
+    "btu:1pe.5.1"
    ],
    "evidence": [
-    "ndeib:MATTEO, VANGELO DI M"
+    "nv:btu:mt.1.16",
+    "nv:btu:lc.2.21",
+    "nv:btu:1cor.15.3"
+   ]
+  },
+  "bpers:iob": {
+   "attested": [
+    "btu:iob.1.1",
+    "btu:iob.1.5",
+    "btu:iob.1.8",
+    "btu:iob.1.9",
+    "btu:iob.1.14",
+    "btu:iob.1.20",
+    "btu:iob.1.22",
+    "btu:iob.2.3",
+    "btu:iob.2.7",
+    "btu:iob.2.10",
+    "btu:iob.2.11",
+    "btu:iob.3.1",
+    "btu:iob.6.1",
+    "btu:iob.9.1",
+    "btu:iob.12.1",
+    "btu:iob.16.1",
+    "btu:iob.19.1",
+    "btu:iob.21.1",
+    "btu:iob.23.1",
+    "btu:iob.26.1",
+    "btu:iob.27.1",
+    "btu:iob.29.1",
+    "btu:iob.31.40",
+    "btu:iob.32.1",
+    "btu:iob.32.2",
+    "btu:iob.32.3",
+    "btu:iob.32.4",
+    "btu:iob.32.12",
+    "btu:iob.33.1",
+    "btu:iob.33.31",
+    "btu:iob.34.5",
+    "btu:iob.34.7",
+    "btu:iob.34.35",
+    "btu:iob.34.36",
+    "btu:iob.35.16",
+    "btu:iob.37.14",
+    "btu:iob.38.1",
+    "btu:iob.40.1",
+    "btu:iob.40.3",
+    "btu:iob.40.6",
+    "btu:iob.42.1",
+    "btu:iob.42.7",
+    "btu:iob.42.8",
+    "btu:iob.42.9",
+    "btu:iob.42.10",
+    "btu:iob.42.12",
+    "btu:iob.42.15",
+    "btu:iob.42.16",
+    "btu:ez.14.14",
+    "btu:ez.14.20",
+    "btu:iac.5.11"
    ],
-   "relations": []
+   "evidence": [
+    "nv:btu:iob.1.1",
+    "nv:btu:ez.14.14",
+    "nv:btu:iac.5.11"
+   ]
+  },
+  "bpers:iosedec": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Iosedec",
+   "it": "Iosadàk",
+   "en": "Jehozadak",
+   "descr_it": "figlio di Seraià, deportato, padre del sommo sacerdote Giosuè",
+   "descr_en": "son of Seraiah, exiled, father of the high priest Joshua",
+   "attested": [
+    "btu:1par.5.40",
+    "btu:1par.5.41",
+    "btu:esd.3.2",
+    "btu:esd.3.8",
+    "btu:esd.5.2",
+    "btu:esd.10.18",
+    "btu:ne.12.26",
+    "btu:eccli.49.14",
+    "btu:ag.1.1",
+    "btu:ag.1.12",
+    "btu:ag.1.14",
+    "btu:ag.2.2",
+    "btu:ag.2.4",
+    "btu:zach.6.11"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.41",
+    "nv:btu:ag.1.1"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iesua.iosedec-filius",
+     "evidence": [
+      "nv:btu:ag.1.1"
+     ]
+    }
+   ]
+  },
+  "bpers:isaar": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Isaar",
+   "it": "Isar",
+   "en": "Izhar",
+   "descr_it": "levita, figlio di Keat, padre di Core",
+   "descr_en": "Levite, son of Kohath, father of Korah",
+   "attested": [
+    "btu:ex.6.18",
+    "btu:ex.6.21",
+    "btu:nm.3.19",
+    "btu:nm.16.1",
+    "btu:1par.5.28",
+    "btu:1par.6.3",
+    "btu:1par.6.23",
+    "btu:1par.23.12",
+    "btu:1par.23.18"
+   ],
+   "evidence": [
+    "nv:btu:ex.6.18",
+    "nv:btu:ex.6.21",
+    "nv:btu:nm.16.1"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:caath",
+     "evidence": [
+      "nv:btu:ex.6.18",
+      "nv:btu:nm.16.1"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:core.isaar-filius",
+     "evidence": [
+      "nv:btu:ex.6.21",
+      "nv:btu:nm.16.1"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:zechri.filius-isaar",
+     "evidence": [
+      "nv:btu:ex.6.21"
+     ]
+    }
+   ]
+  },
+  "bpers:isaaritae": {
+   "type": "person",
+   "kind": "group",
+   "latin": "Isaaritae",
+   "it": "Isariti",
+   "en": "Izharites",
+   "descr_it": "famiglia levitica dei Keatiti",
+   "descr_en": "Levitical family among the Kohathites",
+   "attested": [
+    "btu:nm.3.27",
+    "btu:1par.24.22",
+    "btu:1par.26.23",
+    "btu:1par.26.29"
+   ],
+   "evidence": [
+    "nv:btu:nm.3.27",
+    "nv:btu:1par.26.29"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bpers:caathitae",
+     "evidence": [
+      "nv:btu:nm.3.27"
+     ]
+    }
+   ]
+  },
+  "bpers:isai": {
+   "attested": [
+    "btu:rt.4.17",
+    "btu:rt.4.22",
+    "btu:1sam.16.1",
+    "btu:1sam.16.3",
+    "btu:1sam.16.5",
+    "btu:1sam.16.8",
+    "btu:1sam.16.9",
+    "btu:1sam.16.10",
+    "btu:1sam.16.11",
+    "btu:1sam.16.18",
+    "btu:1sam.16.19",
+    "btu:1sam.16.20",
+    "btu:1sam.16.22",
+    "btu:1sam.17.12",
+    "btu:1sam.17.17",
+    "btu:1sam.17.20",
+    "btu:1sam.17.58",
+    "btu:1sam.20.27",
+    "btu:1sam.20.30",
+    "btu:1sam.20.31",
+    "btu:1sam.22.7",
+    "btu:1sam.22.8",
+    "btu:1sam.22.9",
+    "btu:1sam.22.13",
+    "btu:1sam.25.10",
+    "btu:2sam.20.1",
+    "btu:2sam.23.1",
+    "btu:1reg.12.16",
+    "btu:1par.2.12",
+    "btu:1par.2.13",
+    "btu:1par.10.14",
+    "btu:1par.12.19",
+    "btu:1par.29.26",
+    "btu:2par.10.16",
+    "btu:2par.11.18",
+    "btu:eccli.45.31",
+    "btu:is.11.1",
+    "btu:is.11.10",
+    "btu:mt.1.5",
+    "btu:mt.1.6",
+    "btu:lc.3.32",
+    "btu:act.13.22",
+    "btu:rom.15.12"
+   ],
+   "evidence": [
+    "nv:btu:1sam.16.1",
+    "nv:btu:rt.4.22",
+    "nv:btu:1sam.17.12"
+   ]
+  },
+  "bpers:isbaal": {
+   "attested": [
+    "btu:2sam.2.8",
+    "btu:2sam.2.10",
+    "btu:2sam.2.12",
+    "btu:2sam.2.15",
+    "btu:2sam.3.7",
+    "btu:2sam.3.8",
+    "btu:2sam.3.14",
+    "btu:2sam.3.15",
+    "btu:2sam.4.1",
+    "btu:2sam.4.5",
+    "btu:2sam.4.8",
+    "btu:2sam.4.12"
+   ],
+   "evidence": [
+    "nv:btu:2sam.2.8",
+    "nv:btu:2sam.2.10"
+   ]
   },
   "bpers:iudith.filia-merari": {
    "type": "person",
@@ -253,51 +2611,1614 @@
    ],
    "relations": []
   },
-  "bpers:thobis": {
+  "bpers:malachias": {
    "type": "person",
    "kind": "individual",
-   "latin": "Thobis",
-   "it": "Tobi",
-   "en": "Tobit",
-   "descr_it": "israelita di Neftali deportato a Ninive, padre di Tobia, colpito da cecità",
-   "descr_en": "Israelite of Naphtali exiled to Nineveh, father of Tobias, struck blind",
+   "latin": "Malachias",
+   "it": "Malachia",
+   "en": "Malachi",
+   "descr_it": "profeta del tempo dopo l'esilio, ultimo dei Dodici",
+   "descr_en": "post-exilic prophet, last of the Twelve",
    "attested": [
-    "btu:tb.1.1",
-    "btu:tb.1.3",
-    "btu:tb.2.2",
-    "btu:tb.3.17",
-    "btu:tb.4.1",
-    "btu:tb.5.1",
-    "btu:tb.5.3",
-    "btu:tb.5.9",
-    "btu:tb.5.10",
-    "btu:tb.5.14",
-    "btu:tb.5.17",
-    "btu:tb.5.18",
-    "btu:tb.7.2",
-    "btu:tb.7.4",
-    "btu:tb.7.7",
-    "btu:tb.9.5",
-    "btu:tb.10.1",
-    "btu:tb.10.6",
-    "btu:tb.10.8",
-    "btu:tb.10.10",
-    "btu:tb.10.12",
-    "btu:tb.11.7",
-    "btu:tb.11.10",
-    "btu:tb.11.15",
-    "btu:tb.11.16",
-    "btu:tb.11.17",
-    "btu:tb.12.1",
-    "btu:tb.12.4",
-    "btu:tb.13.1",
-    "btu:tb.14.1",
-    "btu:tb.14.13"
+    "btu:mal.1.1"
    ],
    "evidence": [
-    "ndeib:TOBIA, LIBRO DI T"
+    "ndeib:MALACHIA, LIBRO DI M"
    ],
    "relations": []
+  },
+  "bpers:malaleel.cainan-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Malaleel",
+   "it": "Maalalèl",
+   "en": "Mahalalel",
+   "descr_it": "patriarca antidiluviano, figlio di Kenan e padre di Iered",
+   "descr_en": "antediluvian patriarch, son of Kenan, father of Jared",
+   "attested": [
+    "btu:gn.5.12",
+    "btu:gn.5.13",
+    "btu:gn.5.15",
+    "btu:gn.5.16",
+    "btu:gn.5.17",
+    "btu:1par.1.2",
+    "btu:lc.3.37"
+   ],
+   "evidence": [
+    "nv:btu:gn.5.12",
+    "nv:btu:gn.5.15"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:cainan.enos-filius",
+     "evidence": [
+      "nv:btu:gn.5.12"
+     ]
+    }
+   ]
+  },
+  "bpers:maria.magdalene": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Maria Magdalene",
+   "it": "Maria di Màgdala",
+   "en": "Mary Magdalene",
+   "descr_it": "discepola liberata da sette demòni, testimone del Risorto",
+   "descr_en": "disciple freed from seven demons, first witness of the risen Jesus",
+   "attested": [
+    "btu:mt.27.56",
+    "btu:mt.27.61",
+    "btu:mt.28.1",
+    "btu:mc.15.40",
+    "btu:mc.15.47",
+    "btu:mc.16.1",
+    "btu:mc.16.9",
+    "btu:lc.8.2",
+    "btu:lc.24.10",
+    "btu:io.19.25",
+    "btu:io.20.1",
+    "btu:io.20.11",
+    "btu:io.20.16",
+    "btu:io.20.18"
+   ],
+   "evidence": [
+    "nv:btu:lc.8.2",
+    "nv:btu:mc.16.9",
+    "nv:btu:io.20.18"
+   ]
+  },
+  "bpers:mathusala": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Mathusala",
+   "it": "Matusalemme",
+   "en": "Methuselah",
+   "descr_it": "figlio di Enoc e padre di Lamec, visse novecentosessantanove anni",
+   "descr_en": "son of Enoch, father of Lamech, lived 969 years",
+   "attested": [
+    "btu:gn.5.21",
+    "btu:gn.5.22",
+    "btu:gn.5.25",
+    "btu:gn.5.26",
+    "btu:gn.5.27",
+    "btu:1par.1.3",
+    "btu:lc.3.37"
+   ],
+   "evidence": [
+    "nv:btu:gn.5.21",
+    "nv:btu:gn.5.25",
+    "nv:btu:gn.5.27"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:henoch.iared-filius",
+     "evidence": [
+      "nv:btu:gn.5.21"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:lamech.filius-mathusala",
+     "evidence": [
+      "nv:btu:gn.5.25"
+     ]
+    }
+   ]
+  },
+  "bpers:matthaeus": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Matthaeus",
+   "it": "Matteo",
+   "en": "Matthew",
+   "descr_it": "pubblicano chiamato da Gesù, uno dei Dodici apostoli",
+   "descr_en": "tax collector called by Jesus, one of the Twelve apostles",
+   "attested": [
+    "btu:mt.9.9",
+    "btu:mt.10.3",
+    "btu:mc.3.18",
+    "btu:lc.6.15",
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "ndeib:MATTEO, VANGELO DI M"
+   ],
+   "relations": []
+  },
+  "bpers:meraioth.achitob-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Meraioth",
+   "it": "Meraiòt",
+   "en": "Meraioth",
+   "descr_it": "sacerdote, figlio di Achitùb e padre di Sadoc, avo di Chelkia",
+   "descr_en": "priest, son of Ahitub, father of Zadok, ancestor of Hilkiah",
+   "attested": [
+    "btu:1par.9.11",
+    "btu:ne.11.11"
+   ],
+   "evidence": [
+    "nv:btu:1par.9.11",
+    "nv:btu:ne.11.11"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:sadoc.avus-helciae",
+     "evidence": [
+      "nv:btu:1par.9.11"
+     ]
+    }
+   ]
+  },
+  "bpers:meraioth.zaraiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Meraioth",
+   "it": "Meraiòt",
+   "en": "Meraioth",
+   "descr_it": "sacerdote aronita, figlio di Zerachia e padre di Amaria",
+   "descr_en": "Aaronite priest, son of Zerahiah and father of Amariah",
+   "attested": [
+    "btu:1par.5.32",
+    "btu:1par.5.33",
+    "btu:1par.6.37",
+    "btu:esd.7.3"
+   ],
+   "evidence": [
+    "nv:btu:1par.5.32",
+    "nv:btu:1par.5.33"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:amarias.meraioth-filius",
+     "evidence": [
+      "nv:btu:1par.5.33"
+     ]
+    }
+   ]
+  },
+  "bpers:merari": {
+   "attested": [
+    "btu:gn.46.11",
+    "btu:ex.6.16",
+    "btu:ex.6.19",
+    "btu:nm.3.17",
+    "btu:nm.3.20",
+    "btu:nm.3.33",
+    "btu:nm.3.35",
+    "btu:nm.4.29",
+    "btu:nm.4.42",
+    "btu:nm.4.45",
+    "btu:nm.7.8",
+    "btu:nm.10.17",
+    "btu:nm.26.57",
+    "btu:ios.21.7",
+    "btu:ios.21.34",
+    "btu:ios.21.40",
+    "btu:1par.5.27",
+    "btu:1par.6.1",
+    "btu:1par.6.4",
+    "btu:1par.6.14",
+    "btu:1par.6.29",
+    "btu:1par.6.32",
+    "btu:1par.6.48",
+    "btu:1par.6.62",
+    "btu:1par.9.14",
+    "btu:1par.15.6",
+    "btu:1par.15.17",
+    "btu:1par.23.6",
+    "btu:1par.23.21",
+    "btu:1par.24.26",
+    "btu:1par.24.27",
+    "btu:1par.26.10",
+    "btu:1par.26.19",
+    "btu:2par.29.12",
+    "btu:2par.34.12",
+    "btu:esd.8.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.11",
+    "nv:btu:ex.6.19",
+    "nv:btu:nm.26.57"
+   ]
+  },
+  "bpers:meremoth.sacerdos-zorobabel": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Meremoth",
+   "it": "Meremòt",
+   "en": "Meremoth",
+   "descr_it": "sacerdote rimpatriato con Zorobabele e Giosuè",
+   "descr_en": "priest who returned with Zerubbabel and Jeshua",
+   "attested": [
+    "btu:ne.12.3"
+   ],
+   "evidence": [
+    "nv:btu:ne.12.1",
+    "nv:btu:ne.12.3"
+   ]
+  },
+  "bpers:meremoth.signator-nehemiae": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Meremoth",
+   "it": "Meremòt",
+   "en": "Meremoth",
+   "descr_it": "sacerdote tra i firmatari dell'impegno sotto Neemia",
+   "descr_en": "priest among the signatories of the pledge under Nehemiah",
+   "attested": [
+    "btu:ne.10.6"
+   ],
+   "evidence": [
+    "nv:btu:ne.10.6",
+    "nv:btu:ne.10.9"
+   ]
+  },
+  "bpers:meremoth.uriae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Meremoth",
+   "it": "Meremòt",
+   "en": "Meremoth",
+   "descr_it": "sacerdote, figlio di Uria figlio di Akkos; restaurò le mura",
+   "descr_en": "priest, son of Uriah son of Hakkoz; repaired the wall",
+   "attested": [
+    "btu:esd.8.33",
+    "btu:ne.3.4",
+    "btu:ne.3.21"
+   ],
+   "evidence": [
+    "nv:btu:esd.8.33",
+    "nv:btu:ne.3.4"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:urias.pater-meremoth",
+     "evidence": [
+      "nv:btu:esd.8.33"
+     ]
+    }
+   ]
+  },
+  "bpers:micha.ephraimita": {
+   "attested": [
+    "btu:idc.17.1",
+    "btu:idc.17.4",
+    "btu:idc.17.8",
+    "btu:idc.17.10",
+    "btu:idc.17.12",
+    "btu:idc.18.2",
+    "btu:idc.18.3",
+    "btu:idc.18.4",
+    "btu:idc.18.13",
+    "btu:idc.18.15",
+    "btu:idc.18.22",
+    "btu:idc.18.23",
+    "btu:idc.18.26",
+    "btu:idc.18.27",
+    "btu:idc.18.31"
+   ],
+   "evidence": [
+    "nv:btu:idc.17.1",
+    "nv:btu:idc.18.2",
+    "nv:btu:idc.18.31"
+   ]
+  },
+  "bpers:michaeas.morasthites": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Michaeas",
+   "it": "Michea",
+   "en": "Micah",
+   "descr_it": "profeta di Moreset, attivo sotto Iotam, Acaz ed Ezechia",
+   "descr_en": "prophet from Moresheth, active under Jotham, Ahaz and Hezekiah",
+   "attested": [
+    "btu:mich.1.1",
+    "btu:ier.26.18"
+   ],
+   "evidence": [
+    "ndeib:MICHEA, LIBRO DI M"
+   ],
+   "relations": []
+  },
+  "bpers:musi": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Musi",
+   "it": "Musì",
+   "en": "Mushi",
+   "descr_it": "levita, secondo figlio di Merarì, capostipite dei Musiti",
+   "descr_en": "Levite, second son of Merari, ancestor of the Mushites",
+   "attested": [
+    "btu:ex.6.19",
+    "btu:nm.3.20",
+    "btu:nm.26.58",
+    "btu:1par.6.4",
+    "btu:1par.6.32",
+    "btu:1par.23.21",
+    "btu:1par.23.23",
+    "btu:1par.24.26",
+    "btu:1par.24.30"
+   ],
+   "evidence": [
+    "nv:btu:ex.6.19",
+    "nv:btu:1par.23.23"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:merari",
+     "evidence": [
+      "nv:btu:ex.6.19"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:moholi.filius-merari",
+     "evidence": [
+      "nv:btu:ex.6.19"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:moholi.filius-musi",
+     "evidence": [
+      "nv:btu:1par.23.23"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:ierimoth.musi-filius",
+     "evidence": [
+      "nv:btu:1par.23.23"
+     ]
+    }
+   ]
+  },
+  "bpers:nabat": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Nabat",
+   "it": "Nebat",
+   "en": "Nebat",
+   "descr_it": "efraimita di Seredà, padre del re Geroboamo I",
+   "descr_en": "Ephraimite of Zeredah, father of King Jeroboam I",
+   "attested": [
+    "btu:1reg.11.26",
+    "btu:1reg.12.2",
+    "btu:1reg.12.15",
+    "btu:1reg.15.1",
+    "btu:1reg.16.3",
+    "btu:1reg.16.26",
+    "btu:1reg.16.31",
+    "btu:1reg.21.22",
+    "btu:1reg.22.53",
+    "btu:2reg.3.3",
+    "btu:2reg.9.9",
+    "btu:2reg.10.29",
+    "btu:2reg.13.2",
+    "btu:2reg.13.11",
+    "btu:2reg.14.24",
+    "btu:2reg.15.9",
+    "btu:2reg.15.18",
+    "btu:2reg.15.24",
+    "btu:2reg.15.28",
+    "btu:2reg.17.21",
+    "btu:2reg.23.15",
+    "btu:2par.9.29",
+    "btu:2par.10.2",
+    "btu:2par.10.15",
+    "btu:2par.13.6",
+    "btu:eccli.47.29"
+   ],
+   "evidence": [
+    "nv:btu:1reg.11.26"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ieroboam.nabat-filius",
+     "evidence": [
+      "nv:btu:1reg.11.26"
+     ]
+    }
+   ]
+  },
+  "bpers:ner.filius-iehiel": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ner",
+   "it": "Ner",
+   "en": "Ner",
+   "descr_it": "figlio di Ieièl di Gàbaon, detto padre di Kis nelle Cronache",
+   "descr_en": "son of Jeiel of Gibeon, called father of Kish in Chronicles",
+   "attested": [
+    "btu:1par.8.30",
+    "btu:1par.8.33",
+    "btu:1par.9.36",
+    "btu:1par.9.39"
+   ],
+   "evidence": [
+    "nv:btu:1par.9.35",
+    "nv:btu:1par.9.36",
+    "nv:btu:1par.9.39"
+   ]
+  },
+  "bpers:ner.pater-abner": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Ner",
+   "it": "Ner",
+   "en": "Ner",
+   "descr_it": "beniaminita figlio di Abièl, zio di Saul, padre di Abner",
+   "descr_en": "Benjaminite son of Abiel, Saul's uncle, father of Abner",
+   "attested": [
+    "btu:1sam.14.50",
+    "btu:1sam.14.51",
+    "btu:1sam.26.5",
+    "btu:1sam.26.14",
+    "btu:2sam.2.8",
+    "btu:2sam.2.12",
+    "btu:2sam.3.6",
+    "btu:2sam.3.23",
+    "btu:2sam.3.25",
+    "btu:2sam.3.28",
+    "btu:2sam.3.37",
+    "btu:1reg.2.5",
+    "btu:1reg.2.32",
+    "btu:1par.26.28"
+   ],
+   "evidence": [
+    "nv:btu:1sam.14.50",
+    "nv:btu:1sam.14.51"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:abner",
+     "evidence": [
+      "nv:btu:1sam.14.50"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:abiel.pater-cis",
+     "evidence": [
+      "nv:btu:1sam.14.51"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:cis.pater-saul",
+     "evidence": [
+      "nv:btu:1sam.14.51"
+     ]
+    }
+   ]
+  },
+  "bpers:nun": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Nun",
+   "it": "Nun",
+   "en": "Nun",
+   "descr_it": "efraimita, figlio di Elisamà, padre di Giosuè",
+   "descr_en": "Ephraimite, son of Elishama, father of Joshua",
+   "attested": [
+    "btu:ex.33.11",
+    "btu:nm.11.28",
+    "btu:nm.13.8",
+    "btu:nm.13.16",
+    "btu:nm.14.6",
+    "btu:nm.14.30",
+    "btu:nm.14.38",
+    "btu:nm.26.65",
+    "btu:nm.27.18",
+    "btu:nm.32.12",
+    "btu:nm.32.28",
+    "btu:nm.34.17",
+    "btu:dt.1.38",
+    "btu:dt.31.23",
+    "btu:dt.32.44",
+    "btu:dt.34.9",
+    "btu:ios.1.1",
+    "btu:ios.2.1",
+    "btu:ios.2.23",
+    "btu:ios.6.6",
+    "btu:ios.14.1",
+    "btu:ios.17.4",
+    "btu:ios.19.49",
+    "btu:ios.19.51",
+    "btu:ios.21.1",
+    "btu:ios.24.29",
+    "btu:idc.2.8",
+    "btu:1reg.16.34",
+    "btu:1par.7.27",
+    "btu:ne.8.17",
+    "btu:eccli.46.1"
+   ],
+   "evidence": [
+    "nv:btu:1par.7.27",
+    "nv:btu:nm.13.8"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:iosue.nun-filius",
+     "evidence": [
+      "nv:btu:1par.7.27"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:elisama.ammiud-filius",
+     "evidence": [
+      "nv:btu:1par.7.26",
+      "nv:btu:1par.7.27"
+     ]
+    }
+   ]
+  },
+  "bpers:og": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Og",
+   "it": "Og",
+   "en": "Og",
+   "descr_it": "re amorreo di Basan, ultimo dei Refaìm, vinto da Israele",
+   "descr_en": "Amorite king of Bashan, last of the Rephaim, defeated by Israel",
+   "attested": [
+    "btu:nm.21.33",
+    "btu:nm.32.33",
+    "btu:dt.1.4",
+    "btu:dt.3.1",
+    "btu:dt.3.3",
+    "btu:dt.3.4",
+    "btu:dt.3.10",
+    "btu:dt.3.11",
+    "btu:dt.3.13",
+    "btu:dt.4.47",
+    "btu:dt.29.6",
+    "btu:dt.31.4",
+    "btu:ios.2.10",
+    "btu:ios.9.10",
+    "btu:ios.12.4",
+    "btu:ios.13.12",
+    "btu:ios.13.30",
+    "btu:ios.13.31",
+    "btu:1reg.4.19",
+    "btu:ne.9.22",
+    "btu:ps.135.11",
+    "btu:ps.136.20"
+   ],
+   "evidence": [
+    "nv:btu:nm.21.33",
+    "nv:btu:dt.3.11"
+   ]
+  },
+  "bpers:persae": {
+   "type": "person",
+   "kind": "group",
+   "latin": "Persae",
+   "it": "Persiani",
+   "en": "Persians",
+   "descr_it": "popolo dell'impero di Ciro, Dario e Artaserse",
+   "descr_en": "people of the empire of Cyrus, Darius and Artaxerxes",
+   "attested": [
+    "btu:2par.36.20",
+    "btu:2par.36.22",
+    "btu:2par.36.23",
+    "btu:esd.1.1",
+    "btu:esd.1.2",
+    "btu:esd.1.8",
+    "btu:esd.3.7",
+    "btu:esd.4.3",
+    "btu:esd.4.5",
+    "btu:esd.4.7",
+    "btu:esd.4.9",
+    "btu:esd.4.24",
+    "btu:esd.6.14",
+    "btu:esd.7.1",
+    "btu:esd.9.9",
+    "btu:ne.12.22",
+    "btu:idt.16.10",
+    "btu:est.1.3",
+    "btu:est.1.14",
+    "btu:est.1.18",
+    "btu:est.1.19",
+    "btu:est.10.2",
+    "btu:1mac.1.1",
+    "btu:2mac.1.33",
+    "btu:ez.27.10",
+    "btu:ez.38.5",
+    "btu:dn.5.28",
+    "btu:dn.6.9",
+    "btu:dn.6.13",
+    "btu:dn.6.16",
+    "btu:dn.6.29",
+    "btu:dn.8.20",
+    "btu:dn.10.1",
+    "btu:dn.10.13",
+    "btu:dn.10.20",
+    "btu:dn.14.1"
+   ],
+   "evidence": [
+    "nv:btu:esd.1.1",
+    "nv:btu:dn.8.20"
+   ]
+  },
+  "bpers:phacee": {
+   "attested": [
+    "btu:2reg.15.25",
+    "btu:2reg.15.27",
+    "btu:2reg.15.30",
+    "btu:2reg.15.32",
+    "btu:2reg.15.37",
+    "btu:2reg.16.1"
+   ],
+   "evidence": [
+    "nv:btu:2reg.15.25",
+    "nv:btu:2reg.15.27"
+   ]
+  },
+  "bpers:pharao.exodi": {
+   "attested": [
+    "btu:ex.3.10",
+    "btu:ex.3.11",
+    "btu:ex.4.21",
+    "btu:ex.5.1",
+    "btu:ex.5.5",
+    "btu:ex.5.10",
+    "btu:ex.5.14",
+    "btu:ex.5.15",
+    "btu:ex.5.20",
+    "btu:ex.5.21",
+    "btu:ex.5.23",
+    "btu:ex.6.1",
+    "btu:ex.6.11",
+    "btu:ex.6.12",
+    "btu:ex.6.13",
+    "btu:ex.6.27",
+    "btu:ex.6.29",
+    "btu:ex.6.30",
+    "btu:ex.7.2",
+    "btu:ex.7.7",
+    "btu:ex.7.9",
+    "btu:ex.7.10",
+    "btu:ex.7.11",
+    "btu:ex.7.13",
+    "btu:ex.7.14",
+    "btu:ex.7.20",
+    "btu:ex.7.22",
+    "btu:ex.7.26",
+    "btu:ex.8.4",
+    "btu:ex.8.5",
+    "btu:ex.8.8",
+    "btu:ex.8.11",
+    "btu:ex.8.15",
+    "btu:ex.8.16",
+    "btu:ex.8.20",
+    "btu:ex.8.21",
+    "btu:ex.8.24",
+    "btu:ex.8.25",
+    "btu:ex.8.26",
+    "btu:ex.8.27",
+    "btu:ex.8.28",
+    "btu:ex.9.1",
+    "btu:ex.9.7",
+    "btu:ex.9.8",
+    "btu:ex.9.10",
+    "btu:ex.9.12",
+    "btu:ex.9.13",
+    "btu:ex.9.20",
+    "btu:ex.9.27",
+    "btu:ex.9.33",
+    "btu:ex.9.34",
+    "btu:ex.10.1",
+    "btu:ex.10.3",
+    "btu:ex.10.6",
+    "btu:ex.10.7",
+    "btu:ex.10.8",
+    "btu:ex.10.11",
+    "btu:ex.10.16",
+    "btu:ex.10.18",
+    "btu:ex.10.20",
+    "btu:ex.10.24",
+    "btu:ex.10.27",
+    "btu:ex.10.28",
+    "btu:ex.11.1",
+    "btu:ex.11.3",
+    "btu:ex.11.5",
+    "btu:ex.11.8",
+    "btu:ex.11.9",
+    "btu:ex.11.10",
+    "btu:ex.12.29",
+    "btu:ex.12.30",
+    "btu:ex.12.31",
+    "btu:ex.13.15",
+    "btu:ex.13.17",
+    "btu:ex.14.3",
+    "btu:ex.14.4",
+    "btu:ex.14.5",
+    "btu:ex.14.8",
+    "btu:ex.14.9",
+    "btu:ex.14.10",
+    "btu:ex.14.17",
+    "btu:ex.14.18",
+    "btu:ex.14.23",
+    "btu:ex.14.28",
+    "btu:ex.15.4",
+    "btu:ex.15.19",
+    "btu:ex.18.4",
+    "btu:ex.18.8",
+    "btu:ex.18.10",
+    "btu:dt.6.22",
+    "btu:dt.7.8",
+    "btu:dt.7.18",
+    "btu:dt.11.3",
+    "btu:dt.29.1",
+    "btu:dt.34.11",
+    "btu:1sam.6.6",
+    "btu:2reg.17.7",
+    "btu:ne.9.10",
+    "btu:1mac.4.9",
+    "btu:ps.135.9",
+    "btu:ps.136.15",
+    "btu:eccli.16.15",
+    "btu:rom.9.17"
+   ],
+   "evidence": [
+    "nv:btu:ex.5.1",
+    "nv:btu:ex.14.28"
+   ]
+  },
+  "bpers:pharao.ioseph": {
+   "attested": [
+    "btu:gn.37.36",
+    "btu:gn.39.1",
+    "btu:gn.40.2",
+    "btu:gn.40.11",
+    "btu:gn.40.13",
+    "btu:gn.40.14",
+    "btu:gn.40.17",
+    "btu:gn.40.19",
+    "btu:gn.40.20",
+    "btu:gn.41.1",
+    "btu:gn.41.4",
+    "btu:gn.41.7",
+    "btu:gn.41.16",
+    "btu:gn.41.17",
+    "btu:gn.41.25",
+    "btu:gn.41.35",
+    "btu:gn.41.37",
+    "btu:gn.41.41",
+    "btu:gn.41.44",
+    "btu:gn.41.46",
+    "btu:gn.41.55",
+    "btu:gn.42.15",
+    "btu:gn.42.16",
+    "btu:gn.44.18",
+    "btu:gn.45.2",
+    "btu:gn.45.8",
+    "btu:gn.45.16",
+    "btu:gn.45.21",
+    "btu:gn.46.5",
+    "btu:gn.46.31",
+    "btu:gn.47.1",
+    "btu:gn.47.4",
+    "btu:gn.47.11",
+    "btu:gn.47.20",
+    "btu:gn.47.23",
+    "btu:gn.50.4",
+    "btu:gn.50.6",
+    "btu:gn.50.7",
+    "btu:act.7.10",
+    "btu:act.7.13"
+   ],
+   "evidence": [
+    "nv:btu:gn.41.41",
+    "nv:btu:act.7.10"
+   ]
+  },
+  "bpers:pharao.oppressionis": {
+   "attested": [
+    "btu:ex.1.11",
+    "btu:ex.1.22",
+    "btu:ex.2.5",
+    "btu:ex.2.9",
+    "btu:ex.2.15",
+    "btu:act.7.21",
+    "btu:heb.11.24"
+   ],
+   "evidence": [
+    "nv:btu:ex.1.22",
+    "nv:btu:ex.2.15",
+    "nv:btu:act.7.21"
+   ]
+  },
+  "bpers:philisthim": {
+   "attested": [
+    "btu:gn.21.33",
+    "btu:gn.21.34",
+    "btu:gn.26.1",
+    "btu:gn.26.8",
+    "btu:gn.26.14",
+    "btu:gn.26.18",
+    "btu:idc.10.11",
+    "btu:idc.13.1",
+    "btu:idc.13.5",
+    "btu:idc.14.1",
+    "btu:idc.14.2",
+    "btu:idc.14.3",
+    "btu:idc.14.4",
+    "btu:idc.15.3",
+    "btu:idc.15.5",
+    "btu:idc.15.6",
+    "btu:idc.15.9",
+    "btu:idc.15.11",
+    "btu:idc.15.12",
+    "btu:idc.15.14",
+    "btu:idc.15.20",
+    "btu:idc.16.5",
+    "btu:idc.16.8",
+    "btu:idc.16.9",
+    "btu:idc.16.12",
+    "btu:idc.16.14",
+    "btu:idc.16.18",
+    "btu:idc.16.20",
+    "btu:idc.16.23",
+    "btu:idc.16.28",
+    "btu:idc.16.30",
+    "btu:1sam.4.1",
+    "btu:1sam.4.2",
+    "btu:1sam.4.3",
+    "btu:1sam.4.6",
+    "btu:1sam.4.7",
+    "btu:1sam.4.9",
+    "btu:1sam.4.10",
+    "btu:1sam.4.17",
+    "btu:1sam.5.1",
+    "btu:1sam.5.2",
+    "btu:1sam.5.8",
+    "btu:1sam.5.11",
+    "btu:1sam.6.1",
+    "btu:1sam.6.2",
+    "btu:1sam.6.5",
+    "btu:1sam.6.12",
+    "btu:1sam.6.16",
+    "btu:1sam.6.17",
+    "btu:1sam.6.18",
+    "btu:1sam.6.21",
+    "btu:1sam.7.3",
+    "btu:1sam.7.7",
+    "btu:1sam.7.8",
+    "btu:1sam.7.10",
+    "btu:1sam.7.11",
+    "btu:1sam.7.13",
+    "btu:1sam.7.14",
+    "btu:1sam.9.16",
+    "btu:1sam.10.5",
+    "btu:1sam.12.9",
+    "btu:1sam.13.3",
+    "btu:1sam.13.4",
+    "btu:1sam.13.5",
+    "btu:1sam.13.11",
+    "btu:1sam.13.12",
+    "btu:1sam.13.16",
+    "btu:1sam.13.17",
+    "btu:1sam.13.23",
+    "btu:1sam.14.1",
+    "btu:1sam.14.4",
+    "btu:1sam.14.11",
+    "btu:1sam.14.13",
+    "btu:1sam.14.19",
+    "btu:1sam.14.21",
+    "btu:1sam.14.22",
+    "btu:1sam.14.30",
+    "btu:1sam.14.31",
+    "btu:1sam.14.36",
+    "btu:1sam.14.37",
+    "btu:1sam.14.46",
+    "btu:1sam.14.47",
+    "btu:1sam.14.52",
+    "btu:1sam.17.2",
+    "btu:1sam.17.3",
+    "btu:1sam.17.4",
+    "btu:1sam.17.19",
+    "btu:1sam.17.21",
+    "btu:1sam.17.23",
+    "btu:1sam.17.46",
+    "btu:1sam.17.51",
+    "btu:1sam.17.52",
+    "btu:1sam.17.53",
+    "btu:1sam.18.17",
+    "btu:1sam.18.21",
+    "btu:1sam.18.25",
+    "btu:1sam.18.27",
+    "btu:1sam.18.30",
+    "btu:1sam.19.8",
+    "btu:1sam.23.1",
+    "btu:1sam.23.2",
+    "btu:1sam.23.3",
+    "btu:1sam.23.4",
+    "btu:1sam.23.5",
+    "btu:1sam.23.27",
+    "btu:1sam.23.28",
+    "btu:1sam.24.2",
+    "btu:1sam.27.1",
+    "btu:1sam.27.7",
+    "btu:1sam.27.11",
+    "btu:1sam.28.4",
+    "btu:1sam.28.5",
+    "btu:1sam.28.15",
+    "btu:1sam.28.19",
+    "btu:1sam.29.1",
+    "btu:1sam.29.2",
+    "btu:1sam.29.3",
+    "btu:1sam.29.4",
+    "btu:1sam.29.7",
+    "btu:1sam.29.9",
+    "btu:1sam.29.11",
+    "btu:1sam.30.16",
+    "btu:1sam.31.1",
+    "btu:1sam.31.2",
+    "btu:1sam.31.7",
+    "btu:1sam.31.8",
+    "btu:1sam.31.9",
+    "btu:1sam.31.11",
+    "btu:2sam.1.20",
+    "btu:2sam.3.14",
+    "btu:2sam.3.18",
+    "btu:2sam.5.17",
+    "btu:2sam.5.18",
+    "btu:2sam.5.19",
+    "btu:2sam.5.22",
+    "btu:2sam.5.24",
+    "btu:2sam.8.1",
+    "btu:2sam.8.12",
+    "btu:2sam.19.10",
+    "btu:2sam.21.12",
+    "btu:2sam.21.15",
+    "btu:2sam.21.18",
+    "btu:2sam.21.19",
+    "btu:2sam.23.9",
+    "btu:2sam.23.10",
+    "btu:2sam.23.11",
+    "btu:2sam.23.12",
+    "btu:2sam.23.13",
+    "btu:2sam.23.14",
+    "btu:2sam.23.16",
+    "btu:1reg.5.1",
+    "btu:2reg.8.2",
+    "btu:2reg.8.3",
+    "btu:2reg.18.8",
+    "btu:1par.1.12",
+    "btu:1par.10.1",
+    "btu:1par.10.2",
+    "btu:1par.10.7",
+    "btu:1par.10.8",
+    "btu:1par.10.11",
+    "btu:1par.11.13",
+    "btu:1par.11.14",
+    "btu:1par.11.15",
+    "btu:1par.11.16",
+    "btu:1par.11.18",
+    "btu:1par.12.20",
+    "btu:1par.14.8",
+    "btu:1par.14.9",
+    "btu:1par.14.10",
+    "btu:1par.14.13",
+    "btu:1par.14.15",
+    "btu:1par.14.16",
+    "btu:1par.18.1",
+    "btu:1par.18.11",
+    "btu:1par.20.4",
+    "btu:1par.20.5",
+    "btu:2par.9.26",
+    "btu:2par.21.16",
+    "btu:2par.26.6",
+    "btu:2par.26.7",
+    "btu:2par.28.18",
+    "btu:1mac.3.24",
+    "btu:ps.56.1",
+    "btu:eccli.46.21",
+    "btu:eccli.47.8",
+    "btu:eccli.50.28",
+    "btu:is.2.6",
+    "btu:is.11.14",
+    "btu:ier.25.20",
+    "btu:ier.47.1",
+    "btu:ier.47.4",
+    "btu:ez.16.27",
+    "btu:ez.16.57",
+    "btu:ez.25.15",
+    "btu:ez.25.16",
+    "btu:am.1.8",
+    "btu:am.6.2",
+    "btu:abd.1.19",
+    "btu:soph.2.5",
+    "btu:zach.9.6"
+   ],
+   "evidence": [
+    "nv:btu:gn.10.14",
+    "nv:btu:1sam.4.1"
+   ]
+  },
+  "bpers:phut.gens": {
+   "attested": [
+    "btu:is.66.19",
+    "btu:ez.27.10",
+    "btu:ez.38.5",
+    "btu:idt.2.23"
+   ],
+   "evidence": [
+    "nv:btu:ier.46.9",
+    "nv:btu:ez.30.5"
+   ]
+  },
+  "bpers:pontius-pilatus": {
+   "attested": [
+    "btu:mt.27.13",
+    "btu:mt.27.58",
+    "btu:mt.27.62",
+    "btu:mt.27.65",
+    "btu:mc.15.1",
+    "btu:mc.15.43",
+    "btu:mc.15.44",
+    "btu:lc.3.1",
+    "btu:lc.13.1",
+    "btu:lc.23.1",
+    "btu:lc.23.3",
+    "btu:lc.23.4",
+    "btu:lc.23.11",
+    "btu:lc.23.13",
+    "btu:lc.23.52",
+    "btu:io.18.29",
+    "btu:io.18.35",
+    "btu:io.18.37",
+    "btu:io.19.1",
+    "btu:io.19.8",
+    "btu:io.19.10",
+    "btu:io.19.13",
+    "btu:io.19.15",
+    "btu:io.19.19",
+    "btu:io.19.21",
+    "btu:io.19.22",
+    "btu:io.19.31",
+    "btu:io.19.38",
+    "btu:act.4.27",
+    "btu:act.13.28"
+   ],
+   "evidence": [
+    "nv:btu:lc.3.1",
+    "nv:btu:mt.27.58"
+   ]
+  },
+  "bpers:rahuel.esau-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Rahuel",
+   "it": "Reuèl",
+   "en": "Reuel",
+   "descr_it": "figlio di Esaù e Basmat, capostipite di capi edomiti",
+   "descr_en": "son of Esau and Basemath, forefather of Edomite chiefs",
+   "attested": [
+    "btu:gn.36.4",
+    "btu:gn.36.10",
+    "btu:gn.36.13",
+    "btu:gn.36.17",
+    "btu:1par.1.35",
+    "btu:1par.1.37"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.10",
+    "nv:btu:gn.36.17"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:esau",
+     "evidence": [
+      "nv:btu:gn.36.10"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:basemath.esau-uxor",
+     "evidence": [
+      "nv:btu:gn.36.4"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:zara.filius-rahuel",
+     "evidence": [
+      "nv:btu:gn.36.13"
+     ]
+    }
+   ]
+  },
+  "bpers:rechab.pater-ionadab": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Rechab",
+   "it": "Recab",
+   "en": "Rechab",
+   "descr_it": "padre di Ionadab, antenato dei Recabiti",
+   "descr_en": "father of Jonadab, forefather of the Rechabites",
+   "attested": [
+    "btu:2reg.10.15",
+    "btu:2reg.10.23",
+    "btu:ier.35.6",
+    "btu:ier.35.8",
+    "btu:ier.35.14",
+    "btu:ier.35.16",
+    "btu:ier.35.19"
+   ],
+   "evidence": [
+    "nv:btu:2reg.10.15",
+    "nv:btu:ier.35.6"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:ionadab.filius-rechab",
+     "evidence": [
+      "nv:btu:2reg.10.15",
+      "nv:btu:ier.35.6"
+     ]
+    }
+   ]
+  },
+  "bpers:rechabitae": {
+   "attested": [
+    "btu:ier.35.2",
+    "btu:ier.35.3",
+    "btu:ier.35.5",
+    "btu:ier.35.18"
+   ],
+   "evidence": [
+    "nv:btu:ier.35.2",
+    "nv:btu:ier.35.18"
+   ]
+  },
+  "bpers:regina-saba": {
+   "attested": [
+    "btu:1reg.10.4",
+    "btu:lc.11.31"
+   ],
+   "evidence": [
+    "nv:btu:1reg.10.4",
+    "nv:btu:lc.11.31"
+   ]
+  },
+  "bpers:reu": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Reu",
+   "it": "Reu",
+   "en": "Reu",
+   "descr_it": "figlio di Peleg, padre di Serug, antenato di Abramo",
+   "descr_en": "son of Peleg, father of Serug, ancestor of Abraham",
+   "attested": [
+    "btu:gn.11.18",
+    "btu:gn.11.19",
+    "btu:gn.11.20",
+    "btu:gn.11.21",
+    "btu:1par.1.25",
+    "btu:lc.3.35"
+   ],
+   "evidence": [
+    "nv:btu:gn.11.18",
+    "nv:btu:gn.11.20",
+    "nv:btu:lc.3.35"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:phaleg",
+     "evidence": [
+      "nv:btu:gn.11.18"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:seruch",
+     "evidence": [
+      "nv:btu:gn.11.20"
+     ]
+    }
+   ]
+  },
+  "bpers:romelia": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Romelia",
+   "it": "Romelia",
+   "en": "Remaliah",
+   "descr_it": "padre di Pekach, re d'Israele",
+   "descr_en": "father of Pekah, king of Israel",
+   "attested": [
+    "btu:2reg.15.25",
+    "btu:2reg.15.27",
+    "btu:2reg.15.30",
+    "btu:2reg.15.32",
+    "btu:2reg.15.37",
+    "btu:2reg.16.1",
+    "btu:2reg.16.5",
+    "btu:2par.28.6",
+    "btu:is.7.1",
+    "btu:is.7.4",
+    "btu:is.7.5",
+    "btu:is.7.9",
+    "btu:is.8.6"
+   ],
+   "evidence": [
+    "nv:btu:2reg.15.25",
+    "nv:btu:2reg.15.27"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:phacee",
+     "evidence": [
+      "nv:btu:2reg.15.25"
+     ]
+    }
+   ]
+  },
+  "bpers:sala.arphaxad-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sala",
+   "it": "Selach",
+   "en": "Shelah",
+   "descr_it": "figlio di Arpacsàd, padre di Eber, antenato di Abramo",
+   "descr_en": "son of Arpachshad, father of Eber, ancestor of Abraham",
+   "attested": [
+    "btu:gn.10.24",
+    "btu:gn.11.12",
+    "btu:gn.11.13",
+    "btu:gn.11.14",
+    "btu:gn.11.15",
+    "btu:1par.1.18",
+    "btu:1par.1.24",
+    "btu:lc.3.35"
+   ],
+   "evidence": [
+    "nv:btu:gn.10.24",
+    "nv:btu:lc.3.35"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:arphaxad.sem-filius",
+     "evidence": [
+      "nv:btu:gn.10.24"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:heber.sale-filius",
+     "evidence": [
+      "nv:btu:gn.10.24"
+     ]
+    }
+   ]
+  },
+  "bpers:salmana": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Salmana",
+   "it": "Salmunnà",
+   "en": "Zalmunna",
+   "descr_it": "re di Madian con Zebach, catturato e ucciso da Gedeone",
+   "descr_en": "king of Midian with Zebah, captured and killed by Gideon",
+   "attested": [
+    "btu:idc.8.5",
+    "btu:idc.8.6",
+    "btu:idc.8.7",
+    "btu:idc.8.10",
+    "btu:idc.8.12",
+    "btu:idc.8.15",
+    "btu:idc.8.18",
+    "btu:idc.8.21",
+    "btu:ps.83.12"
+   ],
+   "evidence": [
+    "nv:btu:idc.8.5",
+    "nv:btu:idc.8.21"
+   ]
+  },
+  "bpers:salmon.naasson-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Salmon",
+   "it": "Salmon",
+   "en": "Salmon",
+   "descr_it": "figlio di Nacson, padre di Booz, antenato di Davide",
+   "descr_en": "son of Nahshon, father of Boaz, ancestor of David",
+   "attested": [
+    "btu:rt.4.20",
+    "btu:rt.4.21",
+    "btu:1par.2.11",
+    "btu:mt.1.4",
+    "btu:mt.1.5",
+    "btu:lc.3.32"
+   ],
+   "evidence": [
+    "nv:btu:rt.4.20",
+    "nv:btu:rt.4.21",
+    "nv:btu:mt.1.5"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:naasson",
+     "evidence": [
+      "nv:btu:rt.4.20",
+      "nv:btu:1par.2.11"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:booz",
+     "evidence": [
+      "nv:btu:rt.4.21",
+      "nv:btu:mt.1.5"
+     ]
+    }
+   ]
+  },
+  "bpers:samma.frater-david": {
+   "attested": [
+    "btu:1sam.17.13",
+    "btu:2sam.13.3",
+    "btu:2sam.13.32",
+    "btu:2sam.21.21",
+    "btu:1par.2.13",
+    "btu:1par.20.7"
+   ],
+   "evidence": [
+    "nv:btu:1sam.17.13",
+    "nv:btu:1par.2.13",
+    "nv:btu:2sam.13.3"
+   ]
+  },
+  "bpers:seba.bochri-filius": {
+   "attested": [
+    "btu:2sam.20.2",
+    "btu:2sam.20.6",
+    "btu:2sam.20.7",
+    "btu:2sam.20.10",
+    "btu:2sam.20.13",
+    "btu:2sam.20.21",
+    "btu:2sam.20.22"
+   ],
+   "evidence": [
+    "nv:btu:2sam.20.1",
+    "nv:btu:2sam.20.21"
+   ]
+  },
+  "bpers:sela.iudae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sela",
+   "it": "Sela",
+   "en": "Shelah",
+   "descr_it": "terzo figlio di Giuda, capostipite dei Selaniti",
+   "descr_en": "third son of Judah, ancestor of the Shelanites",
+   "attested": [
+    "btu:gn.38.5",
+    "btu:gn.38.11",
+    "btu:gn.38.14",
+    "btu:gn.38.26",
+    "btu:gn.46.12",
+    "btu:nm.26.20",
+    "btu:1par.2.3",
+    "btu:1par.4.21"
+   ],
+   "evidence": [
+    "nv:btu:gn.38.5",
+    "nv:btu:nm.26.20",
+    "nv:btu:1par.4.21"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:iuda.iacob-filius",
+     "evidence": [
+      "nv:btu:gn.46.12"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:onan",
+     "evidence": [
+      "nv:btu:gn.46.12"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:her.iudae-filius",
+     "evidence": [
+      "nv:btu:1par.2.3"
+     ]
+    }
+   ]
+  },
+  "bpers:sephor": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sephor",
+   "it": "Sippor",
+   "en": "Zippor",
+   "descr_it": "padre di Balak, re di Moab",
+   "descr_en": "father of Balak, king of Moab",
+   "attested": [
+    "btu:nm.22.2",
+    "btu:nm.22.4",
+    "btu:nm.22.10",
+    "btu:nm.22.16",
+    "btu:nm.23.18",
+    "btu:ios.24.9",
+    "btu:idc.11.25"
+   ],
+   "evidence": [
+    "nv:btu:nm.22.4",
+    "nv:btu:ios.24.9"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:balac",
+     "evidence": [
+      "nv:btu:nm.22.2"
+     ]
+    }
+   ]
+  },
+  "bpers:seruch": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Seruch",
+   "it": "Serug",
+   "en": "Serug",
+   "descr_it": "patriarca dopo il diluvio, figlio di Reu e nonno di Terach",
+   "descr_en": "patriarch after the flood, Reu's son and Terah's grandfather",
+   "attested": [
+    "btu:gn.11.20",
+    "btu:gn.11.21",
+    "btu:gn.11.22",
+    "btu:gn.11.23",
+    "btu:1par.1.26",
+    "btu:lc.3.35"
+   ],
+   "evidence": [
+    "nv:btu:gn.11.20",
+    "nv:btu:gn.11.22"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:reu",
+     "evidence": [
+      "nv:btu:gn.11.20"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:nachor.seruch-filius",
+     "evidence": [
+      "nv:btu:gn.11.22"
+     ]
+    }
+   ]
+  },
+  "bpers:sophonias.maasiae-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sophonias",
+   "it": "Sofonia",
+   "en": "Zephaniah",
+   "descr_it": "sacerdote, figlio di Maasia, inviato da Sedecia a Geremia",
+   "descr_en": "priest, son of Maaseiah, sent by Zedekiah to Jeremiah",
+   "attested": [
+    "btu:ier.21.1",
+    "btu:ier.29.25",
+    "btu:ier.29.29",
+    "btu:ier.37.3"
+   ],
+   "evidence": [
+    "nv:btu:ier.21.1",
+    "nv:btu:ier.37.3"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:maasias.pater-sophoniae",
+     "evidence": [
+      "nv:btu:ier.21.1"
+     ]
+    }
+   ]
+  },
+  "bpers:sophonias.propheta": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sophonias",
+   "it": "Sofonia",
+   "en": "Zephaniah",
+   "descr_it": "profeta, figlio di Cusi, attivo sotto il re Giosia",
+   "descr_en": "prophet, son of Cushi, active under King Josiah",
+   "attested": [
+    "btu:soph.1.1"
+   ],
+   "evidence": [
+    "ndeib:SOFONIA, LIBRO DI S"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:chusi.sophoniae-pater",
+     "evidence": [
+      "ndeib:SOFONIA, LIBRO DI S"
+     ]
+    }
+   ]
+  },
+  "bpers:sophonias.sacerdos-secundus": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Sophonias",
+   "it": "Sofonia",
+   "en": "Zephaniah",
+   "descr_it": "sacerdote del secondo ordine catturato dai Babilonesi",
+   "descr_en": "second priest taken captive by the Babylonians",
+   "attested": [
+    "btu:2reg.25.18",
+    "btu:ier.52.24"
+   ],
+   "evidence": [
+    "nv:btu:2reg.25.18",
+    "nv:btu:ier.52.24"
+   ]
+  },
+  "bpers:sunamitis.hospita-elisaei": {
+   "attested": [
+    "btu:2reg.4.12",
+    "btu:2reg.4.25",
+    "btu:2reg.4.36"
+   ],
+   "evidence": [
+    "nv:btu:2reg.4.8",
+    "nv:btu:2reg.4.12"
+   ]
   },
   "bpers:thobias.thobis-filius": {
    "type": "person",
@@ -360,6 +4281,1084 @@
       "ndeib:TOBIA, LIBRO DI T"
      ]
     }
+   ]
+  },
+  "bpers:thobis": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Thobis",
+   "it": "Tobi",
+   "en": "Tobit",
+   "descr_it": "israelita di Neftali deportato a Ninive, padre di Tobia, colpito da cecità",
+   "descr_en": "Israelite of Naphtali exiled to Nineveh, father of Tobias, struck blind",
+   "attested": [
+    "btu:tb.1.1",
+    "btu:tb.1.3",
+    "btu:tb.2.2",
+    "btu:tb.3.17",
+    "btu:tb.4.1",
+    "btu:tb.5.1",
+    "btu:tb.5.3",
+    "btu:tb.5.9",
+    "btu:tb.5.10",
+    "btu:tb.5.14",
+    "btu:tb.5.17",
+    "btu:tb.5.18",
+    "btu:tb.7.2",
+    "btu:tb.7.4",
+    "btu:tb.7.7",
+    "btu:tb.9.5",
+    "btu:tb.10.1",
+    "btu:tb.10.6",
+    "btu:tb.10.8",
+    "btu:tb.10.10",
+    "btu:tb.10.12",
+    "btu:tb.11.7",
+    "btu:tb.11.10",
+    "btu:tb.11.15",
+    "btu:tb.11.16",
+    "btu:tb.11.17",
+    "btu:tb.12.1",
+    "btu:tb.12.4",
+    "btu:tb.13.1",
+    "btu:tb.14.1",
+    "btu:tb.14.13"
+   ],
+   "evidence": [
+    "ndeib:TOBIA, LIBRO DI T"
+   ],
+   "relations": []
+  },
+  "bpers:titus.socius-pauli": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Titus",
+   "it": "Tito",
+   "en": "Titus",
+   "descr_it": "cristiano greco, collaboratore di Paolo, inviato a Corinto",
+   "descr_en": "Greek Christian, Paul's co-worker, sent to Corinth",
+   "attested": [
+    "btu:2cor.2.13",
+    "btu:2cor.7.6",
+    "btu:2cor.7.13",
+    "btu:2cor.7.14",
+    "btu:2cor.8.6",
+    "btu:2cor.8.16",
+    "btu:2cor.8.23",
+    "btu:2cor.12.18",
+    "btu:gal.2.1",
+    "btu:gal.2.3",
+    "btu:2tim.4.10",
+    "btu:tit.1.4"
+   ],
+   "evidence": [
+    "nv:btu:gal.2.3",
+    "nv:btu:2cor.8.23",
+    "nv:btu:tit.1.4"
+   ]
+  },
+  "bpers:vasthi": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Vasthi",
+   "it": "Vasti",
+   "en": "Vashti",
+   "descr_it": "regina del re Assuero, deposta per aver rifiutato di presentarsi",
+   "descr_en": "King Ahasuerus' queen, deposed for refusing his summons",
+   "attested": [
+    "btu:est.1.9",
+    "btu:est.1.11",
+    "btu:est.1.15",
+    "btu:est.1.16",
+    "btu:est.1.17",
+    "btu:est.1.19",
+    "btu:est.2.1",
+    "btu:est.2.4",
+    "btu:est.2.17"
+   ],
+   "evidence": [
+    "nv:btu:est.1.9",
+    "nv:btu:est.1.19"
+   ]
+  },
+  "bpers:zacharias.filius-addo": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zacharias",
+   "it": "Zaccaria",
+   "en": "Zechariah",
+   "descr_it": "profeta, figlio di Berechia e nipote di Iddo, contemporaneo di Aggeo",
+   "descr_en": "prophet, son of Berechiah and grandson of Iddo, contemporary of Haggai",
+   "attested": [
+    "btu:zach.1.1",
+    "btu:zach.1.7",
+    "btu:zach.7.1",
+    "btu:zach.7.8",
+    "btu:esd.5.1",
+    "btu:esd.6.14"
+   ],
+   "evidence": [
+    "ndeib:ZACCARIA, LIBRO DI Z"
+   ],
+   "relations": []
+  },
+  "bpers:zebee": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Zebee",
+   "it": "Zebach",
+   "en": "Zebah",
+   "descr_it": "re di Madian catturato e ucciso da Gedeone",
+   "descr_en": "king of Midian captured and killed by Gideon",
+   "attested": [
+    "btu:idc.8.5",
+    "btu:idc.8.6",
+    "btu:idc.8.7",
+    "btu:idc.8.10",
+    "btu:idc.8.12",
+    "btu:idc.8.15",
+    "btu:idc.8.18",
+    "btu:idc.8.21",
+    "btu:ps.83.12"
+   ],
+   "evidence": [
+    "nv:btu:idc.8.12",
+    "nv:btu:idc.8.21"
+   ]
+  },
+  "bplace:abarim": {
+   "attested": [
+    "btu:nm.27.12",
+    "btu:nm.33.47",
+    "btu:nm.33.48"
+   ],
+   "evidence": [
+    "nv:btu:nm.27.12",
+    "nv:btu:dt.32.49"
+   ]
+  },
+  "bplace:aethiopia": {
+   "attested": [
+    "btu:gn.2.13",
+    "btu:idt.1.10",
+    "btu:est.3.13a",
+    "btu:est.8.12d",
+    "btu:iob.28.19",
+    "btu:is.11.11",
+    "btu:is.43.3",
+    "btu:is.45.14",
+    "btu:ez.29.10",
+    "btu:ez.30.5",
+    "btu:ez.30.9",
+    "btu:ez.38.5"
+   ],
+   "evidence": [
+    "nv:btu:ez.30.4",
+    "nv:btu:is.20.3"
+   ]
+  },
+  "bplace:ar": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Ar",
+   "it": "Ar",
+   "en": "Ar",
+   "descr_it": "città di Moab, data da Dio ai figli di Lot",
+   "descr_en": "city of Moab, given by God to the sons of Lot",
+   "attested": [
+    "btu:nm.21.15",
+    "btu:nm.21.28",
+    "btu:dt.2.9",
+    "btu:dt.2.18",
+    "btu:dt.2.29",
+    "btu:is.15.1"
+   ],
+   "evidence": [
+    "nv:btu:dt.2.18",
+    "nv:btu:dt.2.9",
+    "nv:btu:nm.21.28"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:dt.2.18",
+      "nv:btu:is.15.1"
+     ]
+    }
+   ]
+  },
+  "bplace:arnon": {
+   "attested": [
+    "btu:nm.21.13",
+    "btu:nm.21.14",
+    "btu:nm.21.24",
+    "btu:nm.21.26",
+    "btu:nm.21.28",
+    "btu:nm.22.36",
+    "btu:dt.2.24",
+    "btu:dt.2.36",
+    "btu:dt.3.8",
+    "btu:dt.3.12",
+    "btu:dt.3.16",
+    "btu:dt.4.48",
+    "btu:ios.12.1",
+    "btu:ios.12.2",
+    "btu:ios.13.9",
+    "btu:ios.13.16",
+    "btu:idc.11.13",
+    "btu:idc.11.18",
+    "btu:idc.11.22",
+    "btu:idc.11.26",
+    "btu:2reg.10.33",
+    "btu:is.16.2",
+    "btu:ier.48.20"
+   ],
+   "evidence": [
+    "nv:btu:nm.21.13",
+    "nv:btu:idc.11.18"
+   ]
+  },
+  "bplace:asia": {
+   "attested": [
+    "btu:act.2.9",
+    "btu:act.6.9",
+    "btu:act.16.6",
+    "btu:act.19.10",
+    "btu:act.19.22",
+    "btu:act.19.26",
+    "btu:act.19.27",
+    "btu:act.20.16",
+    "btu:act.20.18",
+    "btu:act.21.27",
+    "btu:act.24.19",
+    "btu:act.27.2",
+    "btu:rom.16.5",
+    "btu:1cor.16.19",
+    "btu:2cor.1.8",
+    "btu:2tim.1.15",
+    "btu:1pe.1.1",
+    "btu:apc.1.4"
+   ],
+   "evidence": [
+    "nv:btu:act.19.10",
+    "nv:btu:act.19.26",
+    "nv:btu:act.20.16"
+   ]
+  },
+  "bplace:baalgad": {
+   "attested": [
+    "btu:ios.12.7",
+    "btu:ios.13.5"
+   ],
+   "evidence": [
+    "nv:btu:ios.13.5",
+    "nv:btu:ios.11.17"
+   ]
+  },
+  "bplace:baalhamon": {
+   "type": "place",
+   "kind": "site",
+   "latin": "Baalhamon",
+   "it": "Baal-Amon",
+   "en": "Baal-hamon",
+   "descr_it": "luogo della vigna di Salomone nel Cantico",
+   "descr_en": "place of Solomon's vineyard in the Song of Songs",
+   "attested": [
+    "btu:ct.8.11"
+   ],
+   "evidence": [
+    "nv:btu:ct.8.11"
+   ]
+  },
+  "bplace:bethoron.inferior": {
+   "attested": [
+    "btu:ios.18.13",
+    "btu:1reg.9.17"
+   ],
+   "evidence": [
+    "nv:btu:ios.18.13",
+    "nv:btu:1reg.9.17"
+   ]
+  },
+  "bplace:campestria-moab": {
+   "attested": [
+    "btu:nm.35.1",
+    "btu:nm.36.13",
+    "btu:ios.13.32"
+   ],
+   "evidence": [
+    "nv:btu:nm.22.1",
+    "nv:btu:nm.36.13"
+   ]
+  },
+  "bplace:cariathaim.ruben": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Cariathaim",
+   "it": "Kiriatàim",
+   "en": "Kiriathaim",
+   "descr_it": "città di Ruben a est del Mar Morto, poi moabita",
+   "descr_en": "Reubenite town east of the Dead Sea, later Moabite",
+   "attested": [
+    "btu:nm.32.37",
+    "btu:ios.13.19",
+    "btu:ier.48.1",
+    "btu:ier.48.23",
+    "btu:ez.25.9"
+   ],
+   "evidence": [
+    "nv:btu:nm.32.37",
+    "nv:btu:ier.48.1"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:ruben",
+     "evidence": [
+      "nv:btu:ios.13.15",
+      "nv:btu:ios.13.19"
+     ]
+    }
+   ]
+  },
+  "bplace:carioth.moab": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Carioth",
+   "it": "Keriòt",
+   "en": "Kerioth",
+   "descr_it": "città di Moab minacciata da Geremia e Amos",
+   "descr_en": "Moabite town threatened by Jeremiah and Amos",
+   "attested": [
+    "btu:ier.48.24",
+    "btu:am.2.2"
+   ],
+   "evidence": [
+    "nv:btu:ier.48.24",
+    "nv:btu:am.2.2"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:am.2.2"
+     ]
+    }
+   ]
+  },
+  "bplace:chobar": {
+   "type": "place",
+   "kind": "river",
+   "latin": "Chobar",
+   "it": "Chebar",
+   "en": "Chebar",
+   "descr_it": "fiume nella terra dei Caldei dove Ezechiele ebbe le visioni",
+   "descr_en": "river in the land of the Chaldeans where Ezekiel saw visions",
+   "attested": [
+    "btu:ez.1.1",
+    "btu:ez.1.3",
+    "btu:ez.3.15",
+    "btu:ez.3.23",
+    "btu:ez.10.15",
+    "btu:ez.10.20",
+    "btu:ez.10.22",
+    "btu:ez.43.3"
+   ],
+   "evidence": [
+    "nv:btu:ez.1.1",
+    "nv:btu:ez.1.3"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:chaldaea",
+     "evidence": [
+      "nv:btu:ez.1.3"
+     ]
+    }
+   ]
+  },
+  "bplace:cirhareseth": {
+   "attested": [
+    "btu:is.16.7",
+    "btu:ier.48.31",
+    "btu:ier.48.36"
+   ],
+   "evidence": [
+    "nv:btu:is.16.7",
+    "nv:btu:ier.48.31"
+   ]
+  },
+  "bplace:desertum-sinai": {
+   "type": "place",
+   "kind": "desert",
+   "latin": "desertum Sinai",
+   "it": "deserto del Sinai",
+   "en": "wilderness of Sinai",
+   "descr_it": "deserto davanti al monte Sinai dove Israele rimase accampato",
+   "descr_en": "wilderness before Mount Sinai where Israel camped and was counted",
+   "attested": [
+    "btu:ex.19.1",
+    "btu:ex.19.2",
+    "btu:lv.7.38",
+    "btu:nm.1.1",
+    "btu:nm.1.19",
+    "btu:nm.3.4",
+    "btu:nm.3.14",
+    "btu:nm.9.1",
+    "btu:nm.9.5",
+    "btu:nm.10.12",
+    "btu:nm.26.64",
+    "btu:nm.33.15",
+    "btu:nm.33.16"
+   ],
+   "evidence": [
+    "nv:btu:ex.19.2",
+    "nv:btu:nm.10.12"
+   ]
+  },
+  "bplace:dibon.moab": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Dibon",
+   "it": "Dibon",
+   "en": "Dibon",
+   "descr_it": "città di Moab a nord dell'Arnon, ricostruita dai Gaditi",
+   "descr_en": "Moabite city north of the Arnon, rebuilt by the Gadites",
+   "attested": [
+    "btu:nm.21.30",
+    "btu:nm.32.3",
+    "btu:nm.32.34",
+    "btu:nm.33.45",
+    "btu:ios.13.9",
+    "btu:ios.13.17",
+    "btu:is.15.2",
+    "btu:ier.48.18",
+    "btu:ier.48.22"
+   ],
+   "evidence": [
+    "nv:btu:nm.32.34",
+    "nv:btu:ier.48.18",
+    "nv:btu:ios.13.9"
+   ]
+  },
+  "bplace:domus-saltus-libani": {
+   "type": "place",
+   "kind": "building",
+   "latin": "domus Saltus Libani",
+   "it": "palazzo della Foresta del Libano",
+   "en": "House of the Forest of Lebanon",
+   "descr_it": "edificio di Salomone con colonne di cedro, deposito di scudi d'oro",
+   "descr_en": "Solomon's cedar-pillared hall where the gold shields were kept",
+   "attested": [
+    "btu:1reg.7.2",
+    "btu:1reg.10.17",
+    "btu:1reg.10.21",
+    "btu:2par.9.16",
+    "btu:2par.9.20",
+    "btu:is.22.8"
+   ],
+   "evidence": [
+    "nv:btu:1reg.7.2",
+    "nv:btu:1reg.10.17"
+   ]
+  },
+  "bplace:engaddi": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Engaddi",
+   "it": "Engàddi",
+   "en": "En-gedi",
+   "descr_it": "città di Giuda presso il Mar Morto, detta anche Asasontamar",
+   "descr_en": "town of Judah by the Dead Sea, also called Hazazon-tamar",
+   "attested": [
+    "btu:gn.14.7",
+    "btu:ios.15.62",
+    "btu:1sam.24.1",
+    "btu:1sam.24.2",
+    "btu:2par.20.2",
+    "btu:ct.1.14",
+    "btu:eccli.24.18",
+    "btu:ez.47.10"
+   ],
+   "evidence": [
+    "nv:btu:2par.20.2",
+    "nv:btu:ios.15.62"
+   ]
+  },
+  "bplace:esthemo.in-montanis": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Esthemo",
+   "it": "Estemòa",
+   "en": "Eshtemoa",
+   "descr_it": "città dei monti di Giuda, data ai figli di Aronne",
+   "descr_en": "town in Judah's hill country, given to Aaron's descendants",
+   "attested": [
+    "btu:ios.15.50",
+    "btu:ios.21.14",
+    "btu:1sam.30.28",
+    "btu:1par.6.43"
+   ],
+   "evidence": [
+    "nv:btu:ios.15.50",
+    "nv:btu:ios.21.14",
+    "nv:btu:1sam.30.28"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:iuda",
+     "evidence": [
+      "nv:btu:ios.15.20",
+      "nv:btu:ios.15.50"
+     ]
+    }
+   ]
+  },
+  "bplace:gelboe": {
+   "attested": [
+    "btu:idc.7.3",
+    "btu:1sam.31.1",
+    "btu:1sam.31.8",
+    "btu:2sam.1.6",
+    "btu:2sam.21.12",
+    "btu:1par.10.1",
+    "btu:1par.10.8"
+   ],
+   "evidence": [
+    "nv:btu:1sam.31.1",
+    "nv:btu:2sam.21.12"
+   ]
+  },
+  "bplace:hermon": {
+   "attested": [
+    "btu:ios.11.3",
+    "btu:ios.12.1",
+    "btu:ps.29.6",
+    "btu:ps.89.13",
+    "btu:eccli.24.17"
+   ],
+   "evidence": [
+    "nv:btu:dt.3.9",
+    "nv:btu:ios.12.1"
+   ]
+  },
+  "bplace:hor.septentrionalis": {
+   "type": "place",
+   "kind": "mountain",
+   "latin": "Hor",
+   "it": "Or",
+   "en": "Mount Hor",
+   "descr_it": "monte sul confine settentrionale della terra, verso Camat",
+   "descr_en": "mountain on the land's northern border, toward Lebo-hamath",
+   "attested": [
+    "btu:nm.34.7"
+   ],
+   "evidence": [
+    "nv:btu:nm.34.7",
+    "nv:btu:nm.34.8"
+   ]
+  },
+  "bplace:iabes-galaad": {
+   "attested": [
+    "btu:1sam.31.11",
+    "btu:1sam.31.12",
+    "btu:1sam.31.13",
+    "btu:2sam.2.4",
+    "btu:2sam.2.5",
+    "btu:2sam.21.12",
+    "btu:1par.10.11",
+    "btu:1par.10.12"
+   ],
+   "evidence": [
+    "nv:btu:1sam.31.11",
+    "nv:btu:2sam.2.4"
+   ]
+  },
+  "bplace:italia": {
+   "attested": [
+    "btu:act.18.2",
+    "btu:act.27.1",
+    "btu:act.27.6",
+    "btu:heb.13.24"
+   ],
+   "evidence": [
+    "nv:btu:act.27.1"
+   ]
+  },
+  "bplace:libya": {
+   "attested": [
+    "btu:act.2.10"
+   ],
+   "evidence": [
+    "nv:btu:act.2.10"
+   ]
+  },
+  "bplace:macedonia": {
+   "type": "place",
+   "kind": "region",
+   "latin": "Macedonia",
+   "it": "Macedonia",
+   "en": "Macedonia",
+   "descr_it": "regione e provincia romana della Grecia settentrionale, con Filippi e Tessalonica",
+   "descr_en": "northern Greek region and Roman province, with Philippi and Thessalonica",
+   "attested": [
+    "btu:act.16.9",
+    "btu:act.16.10",
+    "btu:act.16.12",
+    "btu:act.18.5",
+    "btu:act.19.21",
+    "btu:act.19.22",
+    "btu:act.20.1",
+    "btu:act.20.3",
+    "btu:rom.15.26",
+    "btu:1cor.16.5",
+    "btu:2cor.1.16",
+    "btu:2cor.2.13",
+    "btu:2cor.7.5",
+    "btu:2cor.8.1",
+    "btu:2cor.11.9",
+    "btu:phil.4.15",
+    "btu:1thess.1.7",
+    "btu:1thess.1.8",
+    "btu:1thess.4.10",
+    "btu:1tim.1.3"
+   ],
+   "evidence": [
+    "nv:btu:act.16.12",
+    "nv:btu:1thess.1.7"
+   ]
+  },
+  "bplace:magadan": {
+   "type": "place",
+   "kind": "region",
+   "latin": "Magadan",
+   "it": "Magadàn",
+   "en": "Magadan",
+   "descr_it": "territorio dove Gesù giunse in barca dopo la seconda moltiplicazione",
+   "descr_en": "district Jesus reached by boat after feeding the four thousand",
+   "attested": [
+    "btu:mt.15.39"
+   ],
+   "evidence": [
+    "nv:btu:mt.15.39"
+   ]
+  },
+  "bplace:mare-magnum": {
+   "type": "place",
+   "kind": "sea",
+   "latin": "mare Magnum",
+   "it": "Mare Grande",
+   "en": "Great Sea",
+   "descr_it": "il Mediterraneo, confine occidentale della terra promessa",
+   "descr_en": "the Mediterranean, western border of the promised land",
+   "attested": [
+    "btu:nm.34.5",
+    "btu:nm.34.6",
+    "btu:nm.34.7",
+    "btu:ios.1.4",
+    "btu:ios.5.1",
+    "btu:ios.9.1",
+    "btu:ios.15.4",
+    "btu:ios.15.11",
+    "btu:ios.15.47",
+    "btu:ios.16.3",
+    "btu:ios.23.4",
+    "btu:ez.47.10",
+    "btu:ez.47.15",
+    "btu:ez.47.19",
+    "btu:ez.47.20",
+    "btu:ez.48.28"
+   ],
+   "evidence": [
+    "nv:btu:nm.34.6",
+    "nv:btu:ios.1.4",
+    "nv:btu:ios.23.4"
+   ]
+  },
+  "bplace:mare-mortuum": {
+   "attested": [
+    "btu:nm.34.3",
+    "btu:nm.34.12",
+    "btu:dt.3.17",
+    "btu:ios.3.16",
+    "btu:ios.12.3",
+    "btu:ios.15.2",
+    "btu:ios.15.5",
+    "btu:ios.18.19"
+   ],
+   "evidence": [
+    "nv:btu:dt.3.17",
+    "nv:btu:ios.3.16"
+   ]
+  },
+  "bplace:mons-hebal": {
+   "attested": [
+    "btu:dt.11.29"
+   ],
+   "evidence": [
+    "nv:btu:dt.11.29",
+    "nv:btu:dt.27.13"
+   ]
+  },
+  "bplace:mons-hor.edom": {
+   "attested": [
+    "btu:nm.33.41"
+   ],
+   "evidence": [
+    "nv:btu:nm.33.37",
+    "nv:btu:nm.33.41"
+   ]
+  },
+  "bplace:nabo.moab": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Nabo",
+   "it": "Nebo",
+   "en": "Nebo",
+   "descr_it": "città transgiordanica ricostruita dai Rubeniti, poi moabita",
+   "descr_en": "Transjordanian town rebuilt by Reubenites, later Moabite",
+   "attested": [
+    "btu:nm.32.3",
+    "btu:nm.32.38",
+    "btu:1par.5.8",
+    "btu:is.15.2",
+    "btu:ier.48.1",
+    "btu:ier.48.22"
+   ],
+   "evidence": [
+    "nv:btu:nm.32.38",
+    "nv:btu:ier.48.1"
+   ]
+  },
+  "bplace:nabo.mons": {
+   "type": "place",
+   "kind": "mountain",
+   "latin": "Nabo",
+   "it": "Nebo",
+   "en": "Mount Nebo",
+   "descr_it": "monte di Moab di fronte a Gerico, dove Mosè vide la terra",
+   "descr_en": "Moabite mountain facing Jericho, where Moses viewed the land",
+   "attested": [
+    "btu:dt.32.49",
+    "btu:dt.34.1"
+   ],
+   "evidence": [
+    "nv:btu:dt.32.49",
+    "nv:btu:dt.34.1"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:abarim",
+     "evidence": [
+      "nv:btu:dt.32.49"
+     ]
+    },
+    {
+     "rel": "located_in",
+     "target": "bplace:moab",
+     "evidence": [
+      "nv:btu:dt.32.49"
+     ]
+    }
+   ]
+  },
+  "bplace:paddanaram": {
+   "attested": [
+    "btu:gn.28.5",
+    "btu:gn.28.6",
+    "btu:gn.28.7",
+    "btu:gn.33.18",
+    "btu:gn.35.9",
+    "btu:gn.35.26",
+    "btu:gn.46.15",
+    "btu:gn.48.7"
+   ],
+   "evidence": [
+    "nv:btu:gn.28.2",
+    "nv:btu:gn.28.5"
+   ]
+  },
+  "bplace:persis.regio": {
+   "type": "place",
+   "kind": "region",
+   "latin": "Persis",
+   "it": "Persia",
+   "en": "Persia",
+   "descr_it": "regione e regno dei Persiani, a est della Babilonia",
+   "descr_en": "land and kingdom of the Persians, east of Babylonia",
+   "attested": [
+    "btu:idt.1.7",
+    "btu:dn.11.2",
+    "btu:1mac.3.31",
+    "btu:1mac.6.1",
+    "btu:1mac.6.5",
+    "btu:1mac.6.56",
+    "btu:1mac.14.2",
+    "btu:2mac.1.13",
+    "btu:2mac.1.19",
+    "btu:2mac.1.20",
+    "btu:2mac.9.1",
+    "btu:2mac.9.21"
+   ],
+   "evidence": [
+    "nv:btu:dn.11.2",
+    "nv:btu:1mac.6.1"
+   ]
+  },
+  "bplace:philistaea": {
+   "attested": [
+    "btu:ex.15.14",
+    "btu:ps.60.10",
+    "btu:ps.83.8",
+    "btu:ps.87.4",
+    "btu:ps.108.10",
+    "btu:is.14.29",
+    "btu:is.14.31",
+    "btu:il.4.4"
+   ],
+   "evidence": [
+    "nv:btu:is.14.29",
+    "nv:btu:il.4.4"
+   ]
+  },
+  "bplace:ramoth-galaad": {
+   "attested": [
+    "btu:2reg.8.29",
+    "btu:2reg.9.4",
+    "btu:2reg.9.14"
+   ],
+   "evidence": [
+    "nv:btu:2reg.8.28",
+    "nv:btu:2reg.8.29"
+   ]
+  },
+  "bplace:ramothmaspha": {
+   "type": "place",
+   "kind": "site",
+   "latin": "Ramothmaspha",
+   "it": "Ramat-Mispe",
+   "en": "Ramath-mizpeh",
+   "descr_it": "luogo sul confine del territorio di Gad",
+   "descr_en": "place on the boundary of Gad's territory",
+   "attested": [
+    "btu:ios.13.26"
+   ],
+   "evidence": [
+    "nv:btu:ios.13.26"
+   ]
+  },
+  "bplace:roma": {
+   "attested": [
+    "btu:1mac.1.10",
+    "btu:1mac.7.1",
+    "btu:1mac.8.17",
+    "btu:1mac.8.19",
+    "btu:1mac.8.26",
+    "btu:1mac.8.28",
+    "btu:1mac.12.1",
+    "btu:1mac.12.3",
+    "btu:1mac.14.16",
+    "btu:1mac.14.24",
+    "btu:1mac.15.15",
+    "btu:act.18.2",
+    "btu:act.19.21",
+    "btu:act.23.11",
+    "btu:act.28.14",
+    "btu:act.28.16",
+    "btu:rom.1.7",
+    "btu:rom.1.15",
+    "btu:2tim.1.17"
+   ],
+   "evidence": [
+    "nv:btu:act.28.16",
+    "nv:btu:rom.1.7"
+   ]
+  },
+  "bplace:sancta-sanctorum.habitaculi": {
+   "type": "place",
+   "kind": "building",
+   "latin": "Sancta sanctorum",
+   "it": "Santo dei Santi",
+   "en": "Most Holy Place",
+   "descr_it": "parte interna della Dimora, oltre il velo, con l'arca",
+   "descr_en": "inner part of the Tabernacle beyond the veil, holding the ark",
+   "attested": [
+    "btu:ex.26.33",
+    "btu:ex.26.34",
+    "btu:heb.9.3"
+   ],
+   "evidence": [
+    "nv:btu:ex.26.33",
+    "nv:btu:heb.9.3"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:habitaculum",
+     "evidence": [
+      "nv:btu:ex.26.33"
+     ]
+    }
+   ]
+  },
+  "bplace:sancta-sanctorum.templi": {
+   "type": "place",
+   "kind": "building",
+   "latin": "Sancta sanctorum",
+   "it": "Santo dei Santi",
+   "en": "Most Holy Place",
+   "descr_it": "cella interna (Debir) del tempio di Salomone, dove stava l'arca",
+   "descr_en": "inner room (Debir) of Solomon's temple, housing the ark",
+   "attested": [
+    "btu:1reg.6.5",
+    "btu:1reg.6.16",
+    "btu:1reg.6.19",
+    "btu:1reg.6.20",
+    "btu:1reg.6.21",
+    "btu:1reg.6.22",
+    "btu:1reg.6.23",
+    "btu:1reg.6.31",
+    "btu:1reg.7.49",
+    "btu:1reg.7.50",
+    "btu:1reg.8.6",
+    "btu:1reg.8.8",
+    "btu:2par.3.8",
+    "btu:2par.3.10",
+    "btu:2par.4.20",
+    "btu:2par.4.22",
+    "btu:2par.5.7",
+    "btu:2par.5.9"
+   ],
+   "evidence": [
+    "nv:btu:1reg.6.16",
+    "nv:btu:1reg.8.6"
+   ],
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "bplace:templum",
+     "evidence": [
+      "nv:btu:1reg.6.16"
+     ]
+    }
+   ]
+  },
+  "bplace:savecariathaim": {
+   "type": "place",
+   "kind": "other",
+   "latin": "Savecariathaim",
+   "it": "Save-Kiriatàim",
+   "en": "Shaveh-kiriathaim",
+   "descr_it": "luogo dove Chedorlaomer sconfisse gli Emim",
+   "descr_en": "place where Chedorlaomer defeated the Emim",
+   "attested": [
+    "btu:gn.14.5"
+   ],
+   "evidence": [
+    "nv:btu:gn.14.5"
+   ]
+  },
+  "bplace:seir.edom": {
+   "attested": [
+    "btu:dt.1.2",
+    "btu:dt.2.1",
+    "btu:dt.2.5",
+    "btu:2par.20.10",
+    "btu:2par.20.22",
+    "btu:2par.20.23",
+    "btu:ez.35.2",
+    "btu:ez.35.3",
+    "btu:ez.35.7",
+    "btu:gn.32.4",
+    "btu:gn.33.14",
+    "btu:gn.33.16",
+    "btu:gn.36.6",
+    "btu:gn.36.8",
+    "btu:gn.36.9",
+    "btu:gn.36.30",
+    "btu:dt.1.44",
+    "btu:dt.2.4",
+    "btu:dt.2.8",
+    "btu:dt.2.22",
+    "btu:dt.2.29",
+    "btu:dt.33.2",
+    "btu:ios.11.17",
+    "btu:ios.12.7",
+    "btu:ios.24.4",
+    "btu:idc.5.4",
+    "btu:eccli.50.28",
+    "btu:is.21.11"
+   ],
+   "evidence": [
+    "nv:btu:gn.36.8",
+    "nv:btu:dt.2.5",
+    "nv:btu:ez.35.15"
+   ]
+  },
+  "bplace:thabor.mons": {
+   "attested": [
+    "btu:idc.4.6",
+    "btu:idc.4.12",
+    "btu:idc.4.14",
+    "btu:ps.89.13",
+    "btu:ier.46.18"
+   ],
+   "evidence": [
+    "nv:btu:idc.4.6",
+    "nv:btu:ier.46.18"
+   ]
+  },
+  "bplace:thesbi": {
+   "type": "place",
+   "kind": "city",
+   "latin": "Thesbi",
+   "it": "Tisbe",
+   "en": "Tishbe",
+   "descr_it": "luogo di Galaad, patria del profeta Elia",
+   "descr_en": "place in Gilead, home of the prophet Elijah",
+   "attested": [
+    "btu:1reg.17.1"
+   ],
+   "evidence": [
+    "nv:btu:1reg.17.1"
+   ],
+   "relations": [
+    {
+     "rel": "located_in",
+     "target": "bplace:galaad",
+     "evidence": [
+      "nv:btu:1reg.17.1"
+     ]
+    }
+   ]
+  },
+  "bplace:vallis-raphaim": {
+   "type": "place",
+   "kind": "valley",
+   "latin": "vallis Raphaim",
+   "it": "valle dei Refaìm",
+   "en": "Valley of Rephaim",
+   "descr_it": "valle presso Gerusalemme, sul confine di Giuda, dove Davide vinse i Filistei",
+   "descr_en": "valley by Jerusalem on Judah's border, where David beat the Philistines",
+   "attested": [
+    "btu:ios.15.8",
+    "btu:ios.18.16",
+    "btu:2sam.5.18",
+    "btu:2sam.5.22",
+    "btu:2sam.23.13",
+    "btu:1par.11.15",
+    "btu:1par.14.9",
+    "btu:is.17.5"
+   ],
+   "evidence": [
+    "nv:btu:ios.15.8",
+    "nv:btu:2sam.5.18"
    ]
   }
  }

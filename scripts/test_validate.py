@@ -60,3 +60,18 @@ class RuleTest(unittest.TestCase):
                         "bpers:c": person(qid="Q12", qid_status="auto"),
                         "bpers:d": person(qid="12", qid_status="auto")})
         self.assertEqual(len(p), 4, p)
+
+
+class EvidenceTest(unittest.TestCase):
+    def run_p(self, ev):
+        return problems({"persons": cat({"bpers:a": person(evidence=ev)}), "places": cat({}), "events": cat({})})
+
+    def test_known_kinds_pass(self):
+        self.assertEqual(self.run_p(["ndeib:LEVI#1", "bj:herodian-tree", "nv:btu:gn.29.34"]), [])
+
+    def test_unknown_kind_and_unknown_verse(self):
+        p = self.run_p(["wiki:Levi", "nv:btu:gn.99.1", "nv:gn.29.34"])
+        self.assertEqual(len(p), 3, p)
+
+    def test_no_evidence(self):
+        self.assertEqual(len(self.run_p([])), 1)

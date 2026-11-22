@@ -5,6 +5,8 @@
 - every relation target exists; every attested unit exists in CBTUDR;
 - descriptions at most 15 words and 120 characters (our own few words, never source text);
 - names: Italian and English present;
+- evidence: at least one location, each a dictionary sense (ndeib:), the Herodian tree
+  (bj:herodian-tree) or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
 - kinds from the schema's list for the type; relations from the schema's vocabulary, with a
   target of the type the relation needs; Wikidata items well formed and held by one entry only.
 
@@ -29,6 +31,7 @@ KINDS = {"person": {"individual", "group", "deity", "extra-biblical"},
          "place": {"city", "region", "mountain", "river", "sea", "valley", "desert", "site", "building", "other"},
          "event": {"episode", "battle", "assembly", "other"}}
 QID = re.compile(r"^Q[1-9][0-9]*$")
+EVIDENCE = re.compile(r"^(ndeib:.+|bj:herodian-tree|nv:btu:\S+)$")
 ID = re.compile(r"^(bpers|bplace|bevent):[a-z0-9]+(?:-[a-z0-9]+)*(?:\.[a-z0-9]+(?:-[a-z0-9]+)*)?$")
 
 
@@ -66,6 +69,13 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
             for u in e.get("attested", []):
                 if u not in units:
                     out.append(f"{eid}: unknown unit {u}")
+            if not e.get("evidence"):
+                out.append(f"{eid}: no evidence")
+            for ev in e.get("evidence", []):
+                if not EVIDENCE.match(ev):
+                    out.append(f"{eid}: unknown evidence {ev}")
+                elif ev.startswith("nv:") and ev[3:] not in units:
+                    out.append(f"{eid}: evidence verse {ev} is not a unit")
             if e.get("kind") not in KINDS.get(e.get("type"), set()):
                 out.append(f"{eid}: kind {e.get('kind')} not allowed for a {e.get('type')}")
             if e.get("qid") is not None:
