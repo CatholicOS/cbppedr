@@ -40563,8 +40563,6 @@
    "attested": [
     "btu:mt.10.3",
     "btu:act.1.13",
-    "btu:mt.27.56",
-    "btu:mc.16.1",
     "btu:mc.3.18",
     "btu:lc.6.15"
    ],
@@ -40575,7 +40573,31 @@
     "ndeib:GIACOMO#2",
     "nv:btu:mc.3.18"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iacobus.frater-domini",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "bj:note:At.1,13#p2616",
+       "says": "doubts",
+       "summary": "There is no need to identify the apostle James son of Alphaeus with the Lord's brother."
+      },
+      {
+       "by": "ndeib:ALFEO#2",
+       "says": "rejects",
+       "summary": "That this James was a kinsman of Jesus, let alone his brother, is wholly unfounded."
+      },
+      {
+       "by": "bj:intro:Le-lettere-cattoliche#p2906",
+       "says": "doubts",
+       "summary": "The ancients hesitated over this identification; modern scholars still debate it, leaning against it."
+      }
+     ]
+    }
+   ]
   },
   "bpers:iacobus.frater-domini": {
    "type": "person",
@@ -40592,21 +40614,104 @@
    "attested": [
     "btu:mt.13.55",
     "btu:mc.6.3",
-    "btu:mc.15.40",
     "btu:1cor.15.7",
     "btu:act.12.17",
     "btu:gal.2.9",
     "btu:act.21.18",
     "btu:gal.2.12",
     "btu:act.15.13",
-    "btu:iac.1.1"
+    "btu:iac.1.1",
+    "btu:gal.1.19"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:FRATELLI DI GESÙ",
-    "ndeib:GIACOMO#3"
+    "ndeib:GIACOMO#3",
+    "nv:btu:gal.1.19"
+   ]
+  },
+  "bpers:iacobus.minor": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Iacobus minor",
+    "it": "Giacomo il minore",
+    "en": "James the Less"
+   },
+   "description": {
+    "it": "figlio di Maria e fratello di Ioses, presente con la madre alla croce",
+    "en": "son of Mary and brother of Joses, whose mother stood at the cross"
+   },
+   "attested": [
+    "btu:mc.15.40",
+    "btu:mc.16.1",
+    "btu:mt.27.56",
+    "btu:lc.24.10"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:maria.mater-iacobi",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    },
+    {
+     "rel": "sibling_of",
+     "target": "bpers:ioses.filius-mariae",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    }
+   ],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "nv:btu:mc.15.40",
+    "nv:btu:mt.27.56"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iacobus.frater-domini",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Mt.13,55-56",
+       "says": "identifies",
+       "summary": "The brothers James and Joseph are sons of the Mary of Mt 27:56 and Mk 15:40, not Jesus' mother."
+      },
+      {
+       "by": "ndeib:FRATELLI DI GESÙ",
+       "says": "doubts",
+       "summary": "Jerome's chain making the brothers sons of the Mary at the cross is acute but unconvincing."
+      }
+     ]
+    },
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iacobus.alphaei-filius",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Mc.15,40-41",
+       "says": "suggests",
+       "summary": "Called the Less to set him apart from the other apostle James, the son of Zebedee."
+      },
+      {
+       "by": "ndeib:GIACOMO#2",
+       "says": "doubts",
+       "summary": "That the son of Alphaeus is James the Less cannot be proved."
+      },
+      {
+       "by": "ndeib:FRATELLI DI GESÙ",
+       "says": "doubts",
+       "summary": "Jerome's identification of James the Less with James of Alphaeus is acute but unconvincing."
+      }
+     ]
+    }
    ]
   },
   "bpers:iacobus.pater-iudae": {
@@ -55141,11 +55246,45 @@
     "btu:mt.27.56",
     "btu:mc.15.40"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "sibling_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    },
+    {
+     "rel": "child_of",
+     "target": "bpers:maria.mater-iacobi",
+     "evidence": [
+      "nv:btu:mc.15.40"
+     ]
+    }
+   ],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IOSES"
+   ],
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:ioses.frater-domini",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "bj:note:Mt.13,55-56",
+       "says": "identifies",
+       "summary": "The brothers James and Joseph are sons of the Mary of Mt 27:56 and Mk 15:40, not Jesus' mother."
+      },
+      {
+       "by": "ndeib:FRATELLI DI GESÙ",
+       "says": "doubts",
+       "summary": "Jerome's chain making the brothers sons of the Mary at the cross is acute but unconvincing."
+      }
+     ]
+    }
    ]
   },
   "bpers:ioses.frater-domini": {
@@ -61907,6 +62046,13 @@
      "evidence": [
       "nv:btu:mc.15.40",
       "nv:btu:mc.15.47"
+     ]
+    },
+    {
+     "rel": "parent_of",
+     "target": "bpers:iacobus.minor",
+     "evidence": [
+      "nv:btu:mc.15.40"
      ]
     }
    ],
