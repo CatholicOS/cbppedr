@@ -115,7 +115,7 @@ Identities and attestations the Bible text does not settle but someone proposes.
 | Term | Meaning |
 |---|---|
 | `possibly_same_as` | the entry may be the same as `target` (another entry) |
-| `possibly_attested_at` | a figure in `unit`, unnamed or named otherwise, may be the entry (Ishvi of 1 Sam 14:49 may be Ishbaal) |
+| `possibly_attested_at` | a figure in `unit` may be the entry: unnamed, named otherwise (Ishvi of 1 Sam 14:49 may be Ishbaal), or bearing the entry's name where a homonym may be meant (Barak's Kedesh in Judg 4:6) |
 
 **Opinions.** `by`: where the opinion is (a source location); `says`: the opinion's stance; `summary`: a few words of our own.
 

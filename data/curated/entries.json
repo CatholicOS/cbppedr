@@ -41993,24 +41993,6 @@
     "nv:btu:gn.35.8"
    ]
   },
-  "bplace:rabba.ammonitarum": {
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:rabba",
-     "evidence": [
-      "nv:btu:dt.3.11",
-      "nv:btu:2sam.12.26",
-      "nv:btu:ier.49.2"
-     ]
-    }
-   ],
-   "evidence": [
-    "nv:btu:dt.3.11",
-    "nv:btu:2sam.12.26",
-    "nv:btu:ier.49.2"
-   ]
-  },
   "bplace:rabbith": {
    "type": "place",
    "kind": "city",
@@ -44179,6 +44161,40 @@
      "target": "bpers:zacchur.pater-hanan",
      "evidence": [
       "nv:btu:ne.13.13"
+     ]
+    }
+   ]
+  },
+  "bplace:rabba": {
+   "evidence": [
+    "nv:btu:dt.3.11",
+    "nv:btu:2sam.12.26",
+    "nv:btu:ier.49.2"
+   ]
+  },
+  "bplace:cedes.saananim": {
+   "attested": [
+    "btu:idc.4.9",
+    "btu:idc.4.10"
+   ],
+   "evidence": [
+    "nv:btu:idc.4.11",
+    "nv:btu:idc.4.9",
+    "nv:btu:idc.4.10"
+   ]
+  },
+  "bpers:ioel.princeps-simeonis": {
+   "evidence": [
+    "nv:btu:1par.4.35"
+   ]
+  },
+  "bpers:gera.belae-filius": {
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:bela.beniamin-filius",
+     "evidence": [
+      "nv:btu:1par.8.3"
      ]
     }
    ]

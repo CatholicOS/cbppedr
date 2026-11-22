@@ -19526,27 +19526,7 @@
   },
   {
    "key": "FIGLIO, FIGLIO DI DIO#1",
-   "type": "place",
-   "kind": "city",
-   "id": "bplace:rabba.ammonitarum",
-   "latin": "Rabba filiorum Ammon",
-   "it": "Rabba",
-   "en": "Rabbah",
-   "descr_it": "capitale degli Ammoniti, in età ellenistica detta Filadelfia",
-   "descr_en": "capital of the Ammonites, called Philadelphia in Hellenistic times",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Rabba",
-     "target_key": null
-    },
-    {
-     "rel": "located_in",
-     "target": "Ammon",
-     "target_key": null
-    }
-   ],
-   "certain": true
+   "type": "none"
   },
   {
    "key": "FIGLIO, FIGLIO DI DIO#2",
@@ -21539,8 +21519,8 @@
      "latin": "Gera",
      "it": "Ghera",
      "en": "Gera",
-     "descr_it": "figlio di Bela, nipote di Beniamino",
-     "descr_en": "son of Bela, grandson of Benjamin",
+     "descr_it": "figlio di Beniamino in Gn 46,21, figlio di Bela in 1 Cr 8,3",
+     "descr_en": "son of Benjamin in Gn 46:21, son of Bela in 1 Chr 8:3",
      "relations": [],
      "certain": true
     },
@@ -22221,12 +22201,12 @@
     {
      "type": "person",
      "kind": "individual",
-     "id": "bpers:ioel.iosabiae-filius",
+     "id": "bpers:ioel.princeps-simeonis",
      "latin": "Ioel",
      "it": "Gioèle",
      "en": "Joel",
-     "descr_it": "figlio di Iosibia, appartenente a Simeone",
-     "descr_en": "son of Joshibiah, belonging to Simeon",
+     "descr_it": "capo di un clan di Simeone al tempo di Ezechia",
+     "descr_en": "Simeonite clan chief in the days of Hezekiah",
      "relations": [],
      "certain": true
     },
