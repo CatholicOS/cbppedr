@@ -2385,13 +2385,7 @@
    "en": "Aphek",
    "descr_it": "città presso le sorgenti dello Iarkon, poi Antipatride",
    "descr_en": "city at the Yarkon springs, later Antipatris",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Antipatride",
-     "target_key": "ANTIPATRIDE"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -7446,18 +7440,7 @@
    "en": "Babylon",
    "descr_it": "nome simbolico di Roma nell'Apocalisse e in 1 Pietro",
    "descr_en": "symbolic name for Rome in Revelation and 1 Peter",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Roma",
-     "target_key": null
-    },
-    {
-     "rel": "same_as",
-     "target": "Babilonia",
-     "target_key": "BABILONIA (CITTÀ)#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -8261,13 +8244,7 @@
    "en": "Ben-hadad",
    "descr_it": "re di Aram nemico di Acab, ucciso da Cazael",
    "descr_en": "king of Aram, enemy of Ahab, killed by Hazael",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Ben-Adad I",
-     "target_key": "BEL-ADAD#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -8924,13 +8901,7 @@
    "en": "Beth-shemesh",
    "descr_it": "città fortificata di Neftali",
    "descr_en": "fortified town of Naphtali",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Bet-Semes di Issacar",
-     "target_key": "BET-SEMES#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -11515,13 +11486,7 @@
    "en": "Heled",
    "descr_it": "forma di Cheldai, prode di Davide",
    "descr_en": "variant of Heldai, David's warrior",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Cheldai",
-     "target_key": "CHELDAI"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -11875,13 +11840,7 @@
    "en": "Hilkiah",
    "descr_it": "capo dei sacerdoti tornati con Zorobabele",
    "descr_en": "chief of priests who returned with Zerubbabel",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Chelkia",
-     "target_key": "CHELKIA#5"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -20635,13 +20594,7 @@
    "en": "Beth-gilgal",
    "descr_it": "località da cui vennero cantori per la dedicazione delle mura",
    "descr_en": "village whose singers came to the wall dedication",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Gàlgala",
-     "target_key": "GALGALA#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -21571,13 +21524,7 @@
    "en": "Geliloth",
    "descr_it": "luogo sul confine di Beniamino di fronte alla salita di Adummim",
    "descr_en": "place on Benjamin's border facing the ascent of Adummim",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Gàlgala",
-     "target_key": "GALGALA#2"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -25320,13 +25267,7 @@
    "en": "Jashobeam",
    "descr_it": "figlio di Zabdiel, capo della prima divisione dell'esercito",
    "descr_en": "son of Zabdiel, commander of the first army division",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Iasobeam",
-     "target_key": "IASOBEAM#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -27445,11 +27386,6 @@
      "descr_en": "Levitical city of Ephraim, possibly an error for Kibzaim",
      "relations": [
       {
-       "rel": "same_as",
-       "target": "Kibzaim",
-       "target_key": "KIBZAIM"
-      },
-      {
        "rel": "located_in",
        "target": "Efraim",
        "target_key": null
@@ -28970,13 +28906,7 @@
      "en": "Kedesh",
      "descr_it": "località del sud di Giuda al confine con Edom",
      "descr_en": "town in southern Judah on the Edomite border",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Kades-Barnea",
-       "target_key": "KADES#1"
-      }
-     ],
+     "relations": [],
      "certain": false
     },
     {
@@ -28993,11 +28923,6 @@
        "rel": "located_in",
        "target": "Issacar",
        "target_key": "ISSACAR"
-      },
-      {
-       "rel": "same_as",
-       "target": "Kision",
-       "target_key": "KISION"
       }
      ],
      "certain": false
@@ -30567,13 +30492,7 @@
    "en": "Luz",
    "descr_it": "antico nome di Betel",
    "descr_en": "ancient name of Bethel",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Betel",
-     "target_key": null
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -32334,13 +32253,7 @@
    "en": "Massah and Meribah",
    "descr_it": "località desertica in cui Israele tentò il Signore",
    "descr_en": "desert site where Israel put the Lord to the test",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Meriba",
-     "target_key": "MERIBA"
-    }
-   ],
+   "relations": [],
    "certain": true
   },
   {
@@ -32928,13 +32841,7 @@
      "en": "Meribah",
      "descr_it": "luogo presso Refidim, detto Massa e Meriba",
      "descr_en": "place near Rephidim, called Massah and Meribah",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Massa e Meriba",
-       "target_key": "MASSA E MERIBA"
-      }
-     ],
+     "relations": [],
      "certain": true
     }
    ],
@@ -39645,13 +39552,7 @@
    "en": "Riblah",
    "descr_it": "località sul confine nordorientale della terra promessa",
    "descr_en": "place on the northeastern border of the promised land",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Ribla",
-     "target_key": "RIBLA#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {
@@ -41758,13 +41659,7 @@
      "en": "Seba",
      "descr_it": "paese e popolo dell'Arabia meridionale",
      "descr_en": "land and people of southern Arabia",
-     "relations": [
-      {
-       "rel": "same_as",
-       "target": "Saba",
-       "target_key": "SABA"
-      }
-     ],
+     "relations": [],
      "certain": false
     }
    ],
@@ -41804,8 +41699,8 @@
    "latin": "Sachacha",
    "it": "Secacà",
    "en": "Secacah",
-   "descr_it": "località del deserto di Giuda, forse Qumran",
-   "descr_en": "town in the Judean wilderness, probably Qumran",
+   "descr_it": "località del deserto di Giuda, identificata con Qumran",
+   "descr_en": "town in the Judean wilderness, identified with Qumran",
    "relations": [
     {
      "rel": "same_as",
@@ -44555,13 +44450,7 @@
    "en": "Sosthenes",
    "descr_it": "fratello coautore della prima lettera ai Corinzi",
    "descr_en": "brother, co-sender of First Corinthians",
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "Sostene",
-     "target_key": "SOSTENE#1"
-    }
-   ],
+   "relations": [],
    "certain": false
   },
   {

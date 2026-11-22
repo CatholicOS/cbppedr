@@ -18059,15 +18059,7 @@
     "btu:2reg.8.15",
     "btu:1reg.20.34"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:benadad.tabremmonis-filius",
-     "evidence": [
-      "ndeib:BEL-ADAD#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -18102,7 +18094,31 @@
       "NABRE": "the king’s"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:benadad.tabremmonis-filius",
+     "status": "rejected",
+     "opinions": [
+      {
+       "by": "ndeib:BEL-ADAD#2",
+       "says": "doubts",
+       "summary": "Weighs a single long-reigning Ben-hadad but finds two successive kings more probable."
+      },
+      {
+       "by": "bj:note:1Re.20,1#p726",
+       "says": "rejects",
+       "summary": "Ahab's foe is Ben-hadad II, successor of Ben-hadad I of 1 Kgs 15:18."
+      },
+      {
+       "by": "bj:note:2Re.8,7#p749",
+       "says": "rejects",
+       "summary": "The king Hazael kills is Ben-hadad II, as in 1 Kgs 20:1."
+      }
+     ]
+    }
+   ]
   },
   "bpers:benadad.hazaelis-filius": {
    "type": "person",
@@ -21023,7 +21039,10 @@
      "rel": "same_as",
      "target": "bpers:chaleb.esrom-filius",
      "evidence": [
-      "ndeib:CALEB#2"
+      "ndeib:CALEB#2",
+      "nv:btu:1par.2.9",
+      "nv:btu:1par.2.25",
+      "nv:btu:1par.2.42"
      ]
     }
    ],
@@ -22538,7 +22557,10 @@
      "rel": "same_as",
      "target": "bpers:core.isaar-filius",
      "evidence": [
-      "ndeib:CORE#4"
+      "ndeib:CORE#4",
+      "nv:btu:1par.6.22",
+      "nv:btu:1par.6.23",
+      "nv:btu:nm.16.1"
      ]
     }
    ],
@@ -37139,21 +37161,27 @@
     "btu:ne.12.7",
     "btu:ne.12.21"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:helcia.esdrae-socius",
-     "evidence": [
-      "ndeib:CHELKIA#6"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CHELKIA#6"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:helcia.esdrae-socius",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:CHELKIA#6",
+       "says": "suggests",
+       "summary": "Perhaps the same Hilkiah as the one at Ezra's reading of the law."
+      }
+     ]
+    }
+   ]
   },
   "bpers:helec": {
    "type": "person",
@@ -39031,15 +39059,7 @@
     "btu:1par.11.30",
     "btu:2sam.23.29"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:holdai.captivitatis",
-     "evidence": [
-      "ndeib:CHELED"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -45929,21 +45949,32 @@
    "attested": [
     "btu:1par.27.2"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:iesbaam.hachamonitis",
-     "evidence": [
-      "ndeib:IASOBEAM#3"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IASOBEAM#3"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:iesbaam.hachamonitis",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:IASOBEAM#3",
+       "says": "suggests",
+       "summary": "If he is the same as David's chief warrior, 'Hachmonite' may name a remote ancestor."
+      },
+      {
+       "by": "tipnr:Jashobeam@2Sa.23.8-1Ch",
+       "says": "identifies",
+       "summary": "One record covers the Jashobeam of 1 Chr 11:11 and of 1 Chr 27:2."
+      }
+     ]
+    }
+   ]
   },
   "bpers:iesbacasa": {
    "type": "person",
@@ -50557,7 +50588,10 @@
      "rel": "same_as",
      "target": "bpers:marcus",
      "evidence": [
-      "ndeib:GIOVANNI#19"
+      "ndeib:GIOVANNI#19",
+      "nv:btu:act.12.12",
+      "nv:btu:act.12.25",
+      "nv:btu:act.15.37"
      ]
     }
    ],
@@ -58195,7 +58229,10 @@
      "rel": "same_as",
      "target": "bpers:matthaeus",
      "evidence": [
-      "ndeib:LEVI#2"
+      "ndeib:LEVI#2",
+      "nv:btu:mc.2.14",
+      "nv:btu:mt.9.9",
+      "nv:btu:lc.5.27"
      ]
     }
    ],
@@ -58971,7 +59008,10 @@
      "rel": "same_as",
      "target": "bpers:maacha.uxor-roboam",
      "evidence": [
-      "ndeib:MAACA#4"
+      "ndeib:MAACA#4",
+      "nv:btu:1reg.15.2",
+      "nv:btu:1reg.15.10",
+      "nv:btu:1reg.15.13"
      ]
     }
    ],
@@ -91023,24 +91063,39 @@
     "en": "brother, co-sender of First Corinthians"
    },
    "attested": [
-    "btu:1cor.1.1",
-    "btu:act.18.17"
+    "btu:1cor.1.1"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bpers:sosthenes.archisynagogus",
-     "evidence": [
-      "ndeib:SOSTENE#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SOSTENE#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bpers:sosthenes.archisynagogus",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:SOSTENE#2",
+       "says": "suggests",
+       "summary": "With some probability Paul's co-sender is the synagogue ruler of Acts 18:17."
+      },
+      {
+       "by": "bj:note:At.18,17#p2667",
+       "says": "suggests",
+       "summary": "Perhaps the Sosthenes named in 1 Cor 1:1."
+      },
+      {
+       "by": "tipnr:Sosthenes@Act.18.17-1Co",
+       "says": "identifies",
+       "summary": "A single record for Acts 18:17 and 1 Cor 1:1."
+      }
+     ]
+    }
+   ]
   },
   "bpers:sotai": {
    "type": "person",

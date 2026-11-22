@@ -10944,7 +10944,8 @@
    "btu:rom.16.21"
   ],
   "bpers:sosthenes.frater": [
-   "btu:act.18.8"
+   "btu:act.18.8",
+   "btu:act.18.17"
   ],
   "bpers:stephanas": [
    "btu:rom.16.5",
@@ -12096,7 +12097,10 @@
    "btu:1par.14.10"
   ],
   "bplace:babylon.roma": [
-   "btu:apc.17.10"
+   "btu:apc.17.10",
+   "btu:is.21.9",
+   "btu:ier.51.8",
+   "btu:1pe.5.13"
   ],
   "bplace:babylon.urbs": [
    "btu:gn.11.1",
@@ -12474,6 +12478,9 @@
    "btu:io.12.22",
    "btu:lc.9.12"
   ],
+  "bplace:bethsames.issachar": [
+   "btu:idc.1.33"
+  ],
   "bplace:bethsames.iudae": [
    "btu:1reg.14.25",
    "btu:1reg.14.26",
@@ -12556,7 +12563,8 @@
    "btu:nm.34.3",
    "btu:nm.34.5",
    "btu:ios.15.2",
-   "btu:ios.15.4"
+   "btu:ios.15.4",
+   "btu:ios.15.23"
   ],
   "bplace:caesarea.maritima": [
    "btu:mt.27.11",
@@ -12945,6 +12953,9 @@
    "btu:nm.11.1",
    "btu:nm.11.2",
    "btu:nm.11.3"
+  ],
+  "bplace:cibsaim": [
+   "btu:1par.6.53"
   ],
   "bplace:cilicia": [
    "btu:act.9.11"
@@ -13707,7 +13718,8 @@
    "btu:mt.28.20"
   ],
   "bplace:galiloth": [
-   "btu:ez.47.8"
+   "btu:ez.47.8",
+   "btu:ios.13.2"
   ],
   "bplace:garizim": [
    "btu:ios.8.30",
@@ -15227,7 +15239,8 @@
    "btu:nm.20.10",
    "btu:nm.20.11",
    "btu:nm.20.12",
-   "btu:dt.32.48"
+   "btu:dt.32.48",
+   "btu:ps.106.32"
   ],
   "bplace:medaba": [
    "btu:nm.21.21",

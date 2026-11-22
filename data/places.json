@@ -1869,15 +1869,7 @@
     "btu:1sam.4.1",
     "btu:1sam.29.1"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:antipatris",
-     "evidence": [
-      "ndeib:AFEK, AFEKA#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -2499,7 +2491,8 @@
      "rel": "same_as",
      "target": "bplace:ierusalem",
      "evidence": [
-      "ndeib:ARIEL"
+      "ndeib:ARIEL",
+      "nv:btu:is.29.1"
      ]
     }
    ],
@@ -4059,7 +4052,8 @@
      "rel": "same_as",
      "target": "bplace:cariathiarim",
      "evidence": [
-      "ndeib:BAALA"
+      "ndeib:BAALA",
+      "nv:btu:ios.15.9"
      ]
     }
    ],
@@ -4469,22 +4463,18 @@
    "attested": [
     "btu:apc.14.8",
     "btu:apc.18.2",
-    "btu:is.21.9",
-    "btu:ier.51.8",
     "btu:apc.17.9",
     "btu:apc.16.19",
     "btu:apc.17.5",
     "btu:apc.18.10",
-    "btu:apc.18.21",
-    "btu:1pe.5.13"
+    "btu:apc.18.21"
    ],
    "relations": [
     {
      "rel": "same_as",
      "target": "bplace:roma",
      "evidence": [
-      "ndeib:BABILONIA (CITTÀ)#2",
-      "ndeib:BABILONIA (CITTÀ)#3"
+      "ndeib:BABILONIA (CITTÀ)#2"
      ]
     }
    ],
@@ -4506,7 +4496,21 @@
       "VGCL": "mulier"
      }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_attested_at",
+     "unit": "btu:1pe.5.13",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BABILONIA (CITTÀ)#3",
+       "says": "suggests",
+       "summary": "The Babylon of 1 Peter is more probably Rome than the city on the Euphrates"
+      }
+     ]
+    }
+   ]
   },
   "bplace:babylon.urbs": {
    "type": "place",
@@ -4537,14 +4541,17 @@
     "btu:2par.33.11",
     "btu:2reg.24.1",
     "btu:dn.4.27",
-    "btu:2par.36.7"
+    "btu:2par.36.7",
+    "btu:is.21.9",
+    "btu:ier.51.8"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BABELE",
-    "ndeib:BABILONIA (CITTÀ)#0"
+    "ndeib:BABILONIA (CITTÀ)#0",
+    "nv:btu:is.21.9"
    ],
    "labels": {
     "btu:gn.11.4": {
@@ -4975,7 +4982,8 @@
      "rel": "same_as",
      "target": "bplace:segor",
      "evidence": [
-      "ndeib:BELA#4"
+      "ndeib:BELA#4",
+      "nv:btu:gn.14.2"
      ]
     }
    ],
@@ -5842,7 +5850,9 @@
      "rel": "same_as",
      "target": "bplace:luza",
      "evidence": [
-      "ndeib:BETEL"
+      "ndeib:BETEL",
+      "nv:btu:gn.28.19",
+      "nv:btu:idc.1.23"
      ]
     }
    ],
@@ -6019,21 +6029,32 @@
    "attested": [
     "btu:ne.12.29"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:galgala.iuxta-iericho",
-     "evidence": [
-      "ndeib:GALGALA#5"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GALGALA#5"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:galgala.iuxta-iericho",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:GALGALA#5",
+       "says": "doubts",
+       "summary": "Cannot be determined whether Nehemiah's Beth-gilgal is the well-known Gilgal by Jericho."
+      },
+      {
+       "by": "tipnr:Gilgal@Deu.11.30-Mic",
+       "says": "identifies",
+       "summary": "Its Gilgal-by-Jericho record includes Neh 12:29."
+      }
+     ]
+    }
+   ]
   },
   "bplace:bethgamul": {
    "type": "place",
@@ -6517,8 +6538,7 @@
     "en": "border town of Issachar"
    },
    "attested": [
-    "btu:ios.19.22",
-    "btu:idc.1.33"
+    "btu:ios.19.22"
    ],
    "relations": [],
    "qid": null,
@@ -6593,23 +6613,31 @@
     "en": "fortified town of Naphtali"
    },
    "attested": [
-    "btu:ios.19.38"
+    "btu:ios.19.38",
+    "btu:idc.1.33"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:bethsames.issachar",
-     "evidence": [
-      "ndeib:BET-SEMES#3"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:BET-SEMES#3"
+    "ndeib:BET-SEMES#3",
+    "nv:btu:idc.1.33"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:bethsames.issachar",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:BET-SEMES#3",
+       "says": "suggests",
+       "summary": "Offers, as the only alternative to an unknown site, that it is Issachar's Beth-shemesh."
+      }
+     ]
+    }
+   ]
   },
   "bplace:bethsan": {
    "type": "place",
@@ -7467,8 +7495,7 @@
     "btu:idc.11.16",
     "btu:idc.11.17",
     "btu:nm.34.4",
-    "btu:ios.15.3",
-    "btu:ios.15.23"
+    "btu:ios.15.3"
    ],
    "relations": [],
    "qid": null,
@@ -8442,21 +8469,37 @@
     "btu:1par.6.57",
     "btu:ios.12.22"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:cesion",
-     "evidence": [
-      "ndeib:KEDES"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KEDES"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cesion",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "suggests",
+       "summary": "In the parallel Levitical list Kedesh takes Kishion's place, perhaps the same site."
+      },
+      {
+       "by": "ndeib:KISION",
+       "says": "suggests",
+       "summary": "Possibly a copying error; more probably Chronicles keeps another name for the same town."
+      },
+      {
+       "by": "tipnr:Kishion@Jos.19.20-1Ch",
+       "says": "identifies",
+       "summary": "Its Kishion record includes the Kedesh of 1 Chr 6."
+      }
+     ]
+    }
+   ]
   },
   "bplace:cedes.in-iuda": {
    "type": "place",
@@ -8473,21 +8516,32 @@
    "attested": [
     "btu:ios.15.23"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:cades.barne",
-     "evidence": [
-      "ndeib:KEDES"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KEDES"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cades.barne",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:KEDES",
+       "says": "suggests",
+       "summary": "Reports that the Kedesh of Josh 15:23 is usually identified with Kadesh-barnea."
+      },
+      {
+       "by": "tipnr:Kadesh@Gen.14.7-Psa",
+       "says": "identifies",
+       "summary": "Lists Kedesh of Josh 15:23 as a spelling of Kadesh-barnea."
+      }
+     ]
+    }
+   ]
   },
   "bplace:cedes.nephthali": {
    "type": "place",
@@ -9398,8 +9452,7 @@
     "en": "Levitical town of Ephraim"
    },
    "attested": [
-    "btu:ios.21.22",
-    "btu:1par.6.53"
+    "btu:ios.21.22"
    ],
    "relations": [],
    "qid": null,
@@ -13226,7 +13279,9 @@
      "rel": "same_as",
      "target": "bplace:galiloth",
      "evidence": [
-      "ndeib:GALGALA#2"
+      "ndeib:GALGALA#2",
+      "nv:btu:ios.15.7",
+      "nv:btu:ios.18.17"
      ]
     }
    ],
@@ -13361,18 +13416,9 @@
    "attested": [
     "btu:ios.18.17",
     "btu:ios.15.7",
-    "btu:ios.22.10",
-    "btu:ios.13.2"
+    "btu:ios.22.10"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:galgala.in-finibus-iudae",
-     "evidence": [
-      "ndeib:GHELILOT"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -14707,7 +14753,9 @@
      "rel": "same_as",
      "target": "bplace:tabernaculum-conventus",
      "evidence": [
-      "ndeib:TENDA DEL CONVEGNO#1"
+      "ndeib:TENDA DEL CONVEGNO#1",
+      "nv:btu:ex.40.2",
+      "nv:btu:ex.40.34"
      ]
     }
    ],
@@ -16961,21 +17009,37 @@
    "attested": [
     "btu:1par.6.53"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:cibsaim",
-     "evidence": [
-      "ndeib:IOKMEAM"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IOKMEAM"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:cibsaim",
+     "status": "supported",
+     "opinions": [
+      {
+       "by": "ndeib:IOKMEAM",
+       "says": "suggests",
+       "summary": "Probably a copying error for the similar Hebrew name Kibzaim in the parallel list."
+      },
+      {
+       "by": "ndeib:KIBZAIM",
+       "says": "identifies",
+       "summary": "States that Chronicles writes Kibzaim wrongly as Jokmeam."
+      },
+      {
+       "by": "tipnr:Kibzaim@Jos.21.22-1Ch",
+       "says": "identifies",
+       "summary": "Its Kibzaim record includes 1 Chr 6."
+      }
+     ]
+    }
+   ]
   },
   "bplace:iecmaam.regio-salomonis": {
    "type": "place",
@@ -19169,15 +19233,7 @@
     "btu:idc.1.25",
     "btu:idc.1.26"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:bethel",
-     "evidence": [
-      "ndeib:LUZ"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -20950,20 +21006,11 @@
     "btu:ps.95.8",
     "btu:dt.33.8",
     "btu:nm.20.13",
-    "btu:ps.106.32",
     "btu:ex.17.7",
     "btu:dt.6.16",
     "btu:dt.9.22"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:meriba.cades",
-     "evidence": [
-      "ndeib:MASSA E MERIBA"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
@@ -20982,18 +21029,32 @@
       "NVBSE": "aquæ Meriba",
       "VGCL": "aqua contradictionis"
      }
-    },
-    "btu:ps.106.32": {
-     "as": "name",
-     "editions": {
-      "CEI2008": "acque di Merìba",
-      "DRB": "the waters of contradiction",
-      "NABRE": "waters of Meribah",
-      "NVBSE": "aquas Meriba",
-      "VGCL": "aquas contradictionis"
-     }
     }
-   }
+   },
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:meriba.cades",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:MERIBA",
+       "says": "rejects",
+       "summary": "The Meribah near Kadesh and the one near Rephidim are two different places with similar episodes."
+      },
+      {
+       "by": "bj:note:Nm.20,1-11#p345",
+       "says": "suggests",
+       "summary": "Num 20 is a priestly doublet of Exod 17; its Kadesh setting is secondary."
+      },
+      {
+       "by": "bj:note:Es.17,1-7#p194",
+       "says": "suggests",
+       "summary": "The analogous miracle of Num 20 is the same tradition set elsewhere, at Kadesh."
+      }
+     ]
+    }
+   ]
   },
   "bplace:matthana": {
    "type": "place",
@@ -23173,7 +23234,8 @@
      "rel": "same_as",
      "target": "bplace:canath",
      "evidence": [
-      "ndeib:NOBACH#2"
+      "ndeib:NOBACH#2",
+      "nv:btu:nm.32.42"
      ]
     }
    ],
@@ -26272,21 +26334,27 @@
    "attested": [
     "btu:nm.34.11"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:rebla.emath",
-     "evidence": [
-      "ndeib:RIBLA#2"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:RIBLA#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:rebla.emath",
+     "status": "doubted",
+     "opinions": [
+      {
+       "by": "ndeib:RIBLA#2",
+       "says": "doubts",
+       "summary": "Perhaps the same Riblah, though most place this border further south or read Arbela."
+      }
+     ]
+    }
+   ]
   },
   "bplace:reccath": {
    "type": "place",
@@ -27045,21 +27113,32 @@
     "btu:is.43.3",
     "btu:is.45.14"
    ],
-   "relations": [
-    {
-     "rel": "same_as",
-     "target": "bplace:saba.sabaeorum",
-     "evidence": [
-      "ndeib:SEBA II"
-     ]
-    }
-   ],
+   "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SEBA II"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "conjectures": [
+    {
+     "rel": "possibly_same_as",
+     "target": "bplace:saba.sabaeorum",
+     "status": "disputed",
+     "opinions": [
+      {
+       "by": "ndeib:SEBA II",
+       "says": "suggests",
+       "summary": "Seba and Sheba are held to be two forms of one people's name."
+      },
+      {
+       "by": "bj:note:Is.43,3#p1828",
+       "says": "rejects",
+       "summary": "Seba, a region south of Egypt, is distinct from Sheba in Arabia."
+      }
+     ]
+    }
+   ]
   },
   "bplace:sabama": {
    "type": "place",
@@ -27141,8 +27220,8 @@
     "en": "Secacah"
    },
    "description": {
-    "it": "località del deserto di Giuda, forse Qumran",
-    "en": "town in the Judean wilderness, probably Qumran"
+    "it": "località del deserto di Giuda, identificata con Qumran",
+    "en": "town in the Judean wilderness, identified with Qumran"
    },
    "attested": [
     "btu:ios.15.61"
