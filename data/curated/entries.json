@@ -7972,6 +7972,12 @@
       "nv:btu:nm.16.1"
      ]
     }
+   ],
+   "attested": [
+    "btu:1par.9.19"
+   ],
+   "evidence": [
+    "nv:btu:1par.9.19"
    ]
   },
   "bpers:core.iemna-filius": {
@@ -10751,10 +10757,12 @@
   },
   "bpers:gad.tribus": {
    "attested": [
-    "btu:2reg.10.33"
+    "btu:2reg.10.33",
+    "btu:dt.33.20"
    ],
    "evidence": [
-    "nv:btu:2reg.10.33"
+    "nv:btu:2reg.10.33",
+    "nv:btu:dt.33.20"
    ]
   },
   "bpers:gaddi": {
@@ -18440,10 +18448,12 @@
   },
   "bpers:ioannes-baptista": {
    "attested": [
-    "btu:io.3.26"
+    "btu:io.3.26",
+    "btu:io.1.35"
    ],
    "evidence": [
-    "nv:btu:io.3.26"
+    "nv:btu:io.3.26",
+    "nv:btu:io.1.35"
    ]
   },
   "bpers:ioannes-marcus": {
@@ -43864,6 +43874,313 @@
    ],
    "evidence": [
     "nv:btu:idc.8.11"
+   ]
+  },
+  "bpers:iacobus.zebedaei-filius": {
+   "attested": [
+    "btu:act.1.13",
+    "btu:mt.10.2",
+    "btu:lc.6.14"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13",
+    "nv:btu:mt.10.2"
+   ]
+  },
+  "bpers:moholi.filius-musi": {
+   "attested": [
+    "btu:1par.6.32"
+   ],
+   "evidence": [
+    "nv:btu:1par.6.32"
+   ]
+  },
+  "bpers:beniamin.iacob-filius": {
+   "attested": [
+    "btu:1par.7.6",
+    "btu:gn.46.21",
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:1par.7.6",
+    "nv:btu:gn.46.21",
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:ieroboam.nabat-filius": {
+   "attested": [
+    "btu:2reg.14.24",
+    "btu:2reg.15.9"
+   ],
+   "evidence": [
+    "nv:btu:2reg.14.24",
+    "nv:btu:2reg.15.9"
+   ]
+  },
+  "bpers:simeon.iacob-filius": {
+   "attested": [
+    "btu:1par.4.24"
+   ],
+   "evidence": [
+    "nv:btu:1par.4.24",
+    "nv:btu:gn.46.10"
+   ]
+  },
+  "bpers:graeci": {
+   "attested": [
+    "btu:act.11.20"
+   ],
+   "evidence": [
+    "nv:btu:act.11.20"
+   ]
+  },
+  "bpers:ioas.rex-iudae": {
+   "attested": [
+    "btu:2reg.14.13",
+    "btu:2par.25.23",
+    "btu:2reg.13.10"
+   ],
+   "evidence": [
+    "nv:btu:2reg.14.13",
+    "nv:btu:2par.25.23",
+    "nv:btu:2reg.13.10"
+   ]
+  },
+  "bplace:sephela.iudae": {
+   "attested": [
+    "btu:ios.11.16"
+   ],
+   "evidence": [
+    "nv:btu:ios.11.16"
+   ]
+  },
+  "bpers:berzellai.galaadites": {
+   "attested": [
+    "btu:esd.2.61",
+    "btu:ne.7.63"
+   ],
+   "evidence": [
+    "nv:btu:esd.2.61",
+    "nv:btu:ne.7.63"
+   ]
+  },
+  "bpers:ioram.filius-iosaphat": {
+   "attested": [
+    "btu:2reg.1.17",
+    "btu:2reg.8.25",
+    "btu:2reg.8.29"
+   ],
+   "evidence": [
+    "nv:btu:2reg.1.17",
+    "nv:btu:2reg.8.25",
+    "nv:btu:2reg.8.29"
+   ]
+  },
+  "bplace:galaad": {
+   "attested": [
+    "btu:1par.2.22"
+   ],
+   "evidence": [
+    "nv:btu:1par.2.22"
+   ]
+  },
+  "bplace:dan.urbs": {
+   "attested": [
+    "btu:ier.8.16"
+   ],
+   "evidence": [
+    "nv:btu:ier.8.16"
+   ]
+  },
+  "bplace:assyria": {
+   "attested": [
+    "btu:gn.10.11"
+   ],
+   "evidence": [
+    "nv:btu:gn.10.11"
+   ]
+  },
+  "bpers:assyrii": {
+   "attested": [
+    "btu:nm.24.22"
+   ],
+   "evidence": [
+    "nv:btu:nm.24.22"
+   ]
+  },
+  "bplace:ephra": {
+   "attested": [
+    "btu:idc.9.5"
+   ],
+   "evidence": [
+    "nv:btu:idc.9.5"
+   ]
+  },
+  "bplace:charran": {
+   "attested": [
+    "btu:gn.11.32"
+   ],
+   "evidence": [
+    "nv:btu:gn.11.32"
+   ]
+  },
+  "bpers:dan.tribus": {
+   "attested": [
+    "btu:idc.18.30"
+   ],
+   "evidence": [
+    "nv:btu:idc.18.30"
+   ]
+  },
+  "bpers:helon": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Helon",
+   "it": "Chelon",
+   "en": "Helon",
+   "descr_it": "zabulonita, padre di Eliab, capo della tribù nel deserto",
+   "descr_en": "Zebulunite, father of Eliab, the tribe's leader in the wilderness",
+   "attested": [
+    "btu:nm.1.9",
+    "btu:nm.2.7",
+    "btu:nm.7.24",
+    "btu:nm.7.29",
+    "btu:nm.10.16"
+   ],
+   "evidence": [
+    "nv:btu:nm.1.9"
+   ],
+   "relations": [
+    {
+     "rel": "parent_of",
+     "target": "bpers:eliab.helon-filius",
+     "evidence": [
+      "nv:btu:nm.1.9"
+     ]
+    }
+   ]
+  },
+  "bpers:othoniel.netophathites": {
+   "attested": [
+    "btu:1par.27.15"
+   ],
+   "evidence": [
+    "nv:btu:1par.27.15"
+   ]
+  },
+  "bpers:eliab.helon-filius": {
+   "attested": [
+    "btu:nm.7.24",
+    "btu:nm.7.29",
+    "btu:nm.10.16"
+   ],
+   "evidence": [
+    "nv:btu:nm.7.24"
+   ]
+  },
+  "bpers:elon.zabulon-filius": {
+   "attested": [
+    "btu:nm.26.26"
+   ],
+   "evidence": [
+    "nv:btu:nm.26.26"
+   ]
+  },
+  "bpers:rachel": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:iacob.isaac-filius": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:ioseph.iacob-filius": {
+   "attested": [
+    "btu:gn.46.19"
+   ],
+   "evidence": [
+    "nv:btu:gn.46.19"
+   ]
+  },
+  "bpers:ioannes.apostolus": {
+   "attested": [
+    "btu:act.1.13",
+    "btu:lc.6.14"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
+   ]
+  },
+  "bpers:philippus.apostolus": {
+   "attested": [
+    "btu:act.1.13"
+   ],
+   "evidence": [
+    "nv:btu:act.1.13"
+   ]
+  },
+  "bpers:iacobus.alphaei-filius": {
+   "attested": [
+    "btu:mc.3.18",
+    "btu:lc.6.15"
+   ],
+   "evidence": [
+    "nv:btu:mc.3.18"
+   ]
+  },
+  "bpers:simon-petrus": {
+   "attested": [
+    "btu:mc.3.16"
+   ],
+   "evidence": [
+    "nv:btu:mc.3.16"
+   ]
+  },
+  "bpers:zebedaeus": {
+   "attested": [
+    "btu:mt.4.21",
+    "btu:mt.10.2",
+    "btu:mt.20.20",
+    "btu:mt.26.37",
+    "btu:mc.3.17",
+    "btu:mc.10.35",
+    "btu:lc.5.10",
+    "btu:io.21.2"
+   ],
+   "evidence": [
+    "nv:btu:mt.4.21"
+   ]
+  },
+  "bpers:hanan.zacchur-filius": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Hanan",
+   "it": "Canan",
+   "en": "Hanan",
+   "descr_it": "figlio di Zaccur, assistente dei tesorieri dei magazzini sotto Neemia",
+   "descr_en": "son of Zaccur, assistant to the storehouse treasurers under Nehemiah",
+   "attested": [
+    "btu:ne.13.13"
+   ],
+   "evidence": [
+    "nv:btu:ne.13.13"
+   ],
+   "relations": [
+    {
+     "rel": "child_of",
+     "target": "bpers:zacchur.pater-hanan",
+     "evidence": [
+      "nv:btu:ne.13.13"
+     ]
+    }
    ]
   }
  }

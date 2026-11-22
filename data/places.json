@@ -3378,12 +3378,7 @@
     "it": "antica capitale assira sul Tigri",
     "en": "ancient Assyrian capital on the Tigris"
    },
-   "attested": [
-    "btu:gn.2.14",
-    "btu:gn.10.11",
-    "btu:nm.24.22",
-    "btu:is.7.18"
-   ],
+   "attested": [],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
@@ -3428,7 +3423,8 @@
     "btu:ez.23.7",
     "btu:ez.23.9",
     "btu:ez.23.12",
-    "btu:ez.23.23"
+    "btu:ez.23.23",
+    "btu:gn.10.11"
    ],
    "relations": [
     {
@@ -3444,7 +3440,8 @@
    "evidence": [
     "ndeib:ASSIRIA#0",
     "ndeib:ASSIRIA#1",
-    "ndeib:ASSIRIA#2"
+    "ndeib:ASSIRIA#2",
+    "nv:btu:gn.10.11"
    ]
   },
   "bplace:astharoth": {
@@ -7702,9 +7699,7 @@
     "btu:io.2.1",
     "btu:io.2.11",
     "btu:io.4.46",
-    "btu:io.21.2",
-    "btu:mt.10.4",
-    "btu:mc.3.18"
+    "btu:io.21.2"
    ],
    "relations": [
     {
@@ -9143,13 +9138,15 @@
     "btu:gn.29.4",
     "btu:2reg.19.12",
     "btu:is.37.12",
-    "btu:ez.27.23"
+    "btu:ez.27.23",
+    "btu:gn.11.32"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:CARRAN"
+    "ndeib:CARRAN",
+    "nv:btu:gn.11.32"
    ]
   },
   "bplace:chasphia": {
@@ -10209,14 +10206,15 @@
     "btu:idc.18.29",
     "btu:ios.19.47",
     "btu:idc.20.1",
-    "btu:idc.18.30",
-    "btu:1reg.12.29"
+    "btu:1reg.12.29",
+    "btu:ier.8.16"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:DAN#3"
+    "ndeib:DAN#3",
+    "nv:btu:ier.8.16"
    ]
   },
   "bplace:danna": {
@@ -11957,13 +11955,15 @@
     "en": "Abiezrite town in Manasseh, Gideon's home"
    },
    "attested": [
-    "btu:idc.6.24"
+    "btu:idc.6.24",
+    "btu:idc.9.5"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:OFRA"
+    "ndeib:OFRA",
+    "nv:btu:idc.9.5"
    ]
   },
   "bplace:ephraim.oppidum": {
@@ -11979,7 +11979,6 @@
     "en": "Benjaminite town near Baal-hazor, identified with Ophrah"
    },
    "attested": [
-    "btu:idc.9.5",
     "btu:2sam.13.23",
     "btu:1mac.11.34",
     "btu:io.11.54"
@@ -12914,8 +12913,7 @@
     "btu:os.9.9",
     "btu:os.10.9",
     "btu:1sam.10.26",
-    "btu:1sam.11.4",
-    "btu:2sam.21.1"
+    "btu:1sam.11.4"
    ],
    "relations": [],
    "qid": null,
@@ -13236,13 +13234,15 @@
     "btu:gn.31.21",
     "btu:gn.31.23",
     "btu:gn.31.25",
-    "btu:gn.31.48"
+    "btu:gn.31.48",
+    "btu:1par.2.22"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:GALAAD#4"
+    "ndeib:GALAAD#4",
+    "nv:btu:1par.2.22"
    ]
   },
   "bplace:galatia": {
@@ -26658,7 +26658,6 @@
    "attested": [
     "btu:ios.19.13",
     "btu:1par.6.62",
-    "btu:ios.21.25",
     "btu:is.10.27",
     "btu:ios.21.35"
    ],
@@ -29147,13 +29146,15 @@
     "btu:2par.28.18",
     "btu:ier.17.26",
     "btu:1par.27.28",
-    "btu:1reg.10.27"
+    "btu:1reg.10.27",
+    "btu:ios.11.16"
    ],
    "relations": [],
    "qid": null,
    "qid_status": "unresolved",
    "evidence": [
-    "ndeib:SEFELA"
+    "ndeib:SEFELA",
+    "nv:btu:ios.11.16"
    ]
   },
   "bplace:sepphoris": {
@@ -31607,8 +31608,7 @@
     "en": "town in the Shephelah east of Azekah"
    },
    "attested": [
-    "btu:ios.15.34",
-    "btu:ios.15.53"
+    "btu:ios.15.34"
    ],
    "relations": [],
    "qid": null,
