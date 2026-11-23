@@ -826,11 +826,6 @@
      "by": "tipnr:Lucius@Act.13.1-Rom",
      "says": "identifies",
      "summary": "One record covers Lucius of Acts 13:1 and Lucius of Rom 16:21."
-    },
-    {
-     "by": "ndeib:LUCA NEL NUOVO TESTAMENTO",
-     "says": "doubts",
-     "summary": "Offers another candidate: after Origen, the Lucius of Rom 16:21 may be Luke; Cyrene not linked."
     }
    ]
   },
@@ -843,16 +838,6 @@
      "by": "tipnr:Maaziah@Neh.10.8-",
      "says": "identifies",
      "summary": "Joins the priest signer Maaziah to the Maadiah of Neh 12:5 and 12:17."
-    },
-    {
-     "by": "bj:note:Ne.10,2#p943",
-     "says": "suggests",
-     "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
-    },
-    {
-     "by": "bj:note:Ne.12,12#p947",
-     "says": "suggests",
-     "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
     }
    ]
   },
@@ -918,16 +903,6 @@
      "by": "tipnr:Malluch@Neh.10.4-",
      "says": "identifies",
      "summary": "Joins the priest signer to the Malluch of Neh 12:2 and 12:14."
-    },
-    {
-     "by": "bj:note:Ne.10,2#p943",
-     "says": "suggests",
-     "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
-    },
-    {
-     "by": "bj:note:Ne.12,12#p947",
-     "says": "suggests",
-     "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
     }
    ]
   },
@@ -952,11 +927,6 @@
      "by": "tipnr:Meremoth@Ezr.8.33-Neh",
      "says": "identifies",
      "summary": "One Meremoth son of Uriah, also the priest signer and the returnee of Neh 12:3."
-    },
-    {
-     "by": "bj:note:Ne.10,2#p943",
-     "says": "doubts",
-     "summary": "Priestly signers are house names taken from Neh 12:1-6, so the signer echoes 12:3, not a named individual."
     }
    ]
   },
@@ -1245,11 +1215,6 @@
      "by": "tipnr:Tartan@2Ki.18.17-Isa",
      "says": "identifies",
      "summary": "One Tartan for 2 Kgs 18:17 and Isa 20:1."
-    },
-    {
-     "by": "bj:note:Is.20,1-6",
-     "says": "doubts",
-     "summary": "Reads tartan as the Assyrian supreme commander's title, so the word alone does not make one man."
     }
    ]
   },
@@ -1562,16 +1527,6 @@
      "by": "tipnr:Kiriathaim@Gen.14.5-Amo",
      "says": "identifies",
      "summary": "Puts Kerioth of Jer 48:24 and Am 2:2 under Kiriathaim."
-    },
-    {
-     "by": "bj:note:Am.2,2",
-     "says": "doubts",
-     "summary": "Treats Kerioth as an important Moabite city in its own right, with no link to Kiriathaim."
-    },
-    {
-     "by": "pub:finkelstein-2010#p30",
-     "says": "doubts",
-     "summary": "Reports Kerioth placed at es-Saliye (Abel) or Khirbet Aleyan (Bernhardt), never at Kiriathaim."
     }
    ]
   },
@@ -1959,7 +1914,7 @@
      "summary": "Treats Magadan as Matthew's parallel; cites Capernaum or Tabgha proposals (Hjerl-Hansen RB 1946, Pixner)."
     },
     {
-     "by": "pub:merk-1910#p523",
+     "by": "pub:merk-1910#dalmanutha",
      "says": "doubts",
      "summary": "Reports van Kasteren placing Dalmanutha at el-Delhamiye and Magedan at Ma'ad, two sites."
     }
@@ -2436,7 +2391,7 @@
      "summary": "Joins the two by way of the Mary of Mk 15:40 = Mary of Clopas; most probable, not beyond doubt."
     },
     {
-     "by": "pub:vandyke-2004#p72",
+     "by": "pub:vandyke-2004",
      "says": "doubts",
      "summary": "Calls equating the mother of James and Joses with Mary of Clopas too harmonizing."
     }

@@ -40984,7 +40984,7 @@
        "summary": "Joins the two by way of the Mary of Mk 15:40 = Mary of Clopas; most probable, not beyond doubt."
       },
       {
-       "by": "pub:vandyke-2004#p72",
+       "by": "pub:vandyke-2004",
        "says": "doubts",
        "summary": "Calls equating the mother of James and Joses with Mary of Clopas too harmonizing."
       }
@@ -59366,17 +59366,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:lucius.cyrenensis",
-     "status": "doubted",
+     "status": "unsupported",
      "opinions": [
       {
        "by": "tipnr:Lucius@Act.13.1-Rom",
        "says": "identifies",
        "summary": "One record covers Lucius of Acts 13:1 and Lucius of Rom 16:21."
-      },
-      {
-       "by": "ndeib:LUCA NEL NUOVO TESTAMENTO",
-       "says": "doubts",
-       "summary": "Offers another candidate: after Origen, the Lucius of Rom 16:21 may be Luke; Cyrene not linked."
       }
      ]
     }
@@ -60448,22 +60443,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:maadia.sacerdos-zorobabel",
-     "status": "supported",
+     "status": "unsupported",
      "opinions": [
       {
        "by": "tipnr:Maaziah@Neh.10.8-",
        "says": "identifies",
        "summary": "Joins the priest signer Maaziah to the Maadiah of Neh 12:5 and 12:17."
-      },
-      {
-       "by": "bj:note:Ne.10,2#p943",
-       "says": "suggests",
-       "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
-      },
-      {
-       "by": "bj:note:Ne.12,12#p947",
-       "says": "suggests",
-       "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
       }
      ]
     }
@@ -64745,22 +64730,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:melluch.sacerdos-zorobabel",
-     "status": "supported",
+     "status": "unsupported",
      "opinions": [
       {
        "by": "tipnr:Malluch@Neh.10.4-",
        "says": "identifies",
        "summary": "Joins the priest signer to the Malluch of Neh 12:2 and 12:14."
-      },
-      {
-       "by": "bj:note:Ne.10,2#p943",
-       "says": "suggests",
-       "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
-      },
-      {
-       "by": "bj:note:Ne.12,12#p947",
-       "says": "suggests",
-       "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
       }
      ]
     }
@@ -65180,17 +65155,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:meremoth.uriae-filius",
-     "status": "doubted",
+     "status": "unsupported",
      "opinions": [
       {
        "by": "tipnr:Meremoth@Ezr.8.33-Neh",
        "says": "identifies",
        "summary": "One Meremoth son of Uriah, also the priest signer and the returnee of Neh 12:3."
-      },
-      {
-       "by": "bj:note:Ne.10,2#p943",
-       "says": "doubts",
-       "summary": "Priestly signers are house names taken from Neh 12:1-6, so the signer echoes 12:3, not a named individual."
       }
      ]
     }
@@ -94172,17 +94142,12 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:tharthan.sargonis",
-     "status": "doubted",
+     "status": "unsupported",
      "opinions": [
       {
        "by": "tipnr:Tartan@2Ki.18.17-Isa",
        "says": "identifies",
        "summary": "One Tartan for 2 Kgs 18:17 and Isa 20:1."
-      },
-      {
-       "by": "bj:note:Is.20,1-6",
-       "says": "doubts",
-       "summary": "Reads tartan as the Assyrian supreme commander's title, so the word alone does not make one man."
       }
      ]
     }
