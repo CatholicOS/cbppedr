@@ -27,6 +27,54 @@
    "title": "a published work, listed below as pub:<first author's surname>-<year>",
    "authority": "per publication",
    "locator": "pub:<surname>-<year>#p<page> (or #<section>)"
+  },
+  "pub:brandao-2011": {
+   "title": "Jacyntho Lins Brandão, Aminadab - Aram/Adam - Admin - Arni in Luke 4,33 [sic, = 3,33], Filología Neotestamentaria 24 (2011) 127-134",
+   "authority": "authoritative",
+   "why": "peer-reviewed journal",
+   "url": "https://www.bsw.org/filologia-neotestamentaria/vol-24-2011/aminadab-aram-adam-admin-arni-in-luke-4-33/640/article-p129.html"
+  },
+  "pub:camerlynck-1910": {
+   "title": "Achille Camerlynck, St. James the Less, The Catholic Encyclopedia, vol. 8, Robert Appleton 1910",
+   "authority": "authoritative",
+   "why": "Catholic Encyclopedia",
+   "url": "https://www.newadvent.org/cathen/08280a.htm"
+  },
+  "pub:faulhaber-1912": {
+   "title": "Michael Faulhaber, Sophonias, The Catholic Encyclopedia, vol. 14, Robert Appleton 1912",
+   "authority": "authoritative",
+   "why": "Catholic Encyclopedia",
+   "url": "https://www.newadvent.org/cathen/14146a.htm"
+  },
+  "pub:finkelstein-2010": {
+   "title": "Israel Finkelstein; Oded Lipschits, Omride Architecture in Moab: Jahaz and Ataroth, Zeitschrift des Deutschen Palästina-Vereins 126 2010",
+   "authority": "authoritative",
+   "why": "peer-reviewed journal (ZDPV)",
+   "url": "https://tau.ac.il/sites/personal.tau.ac.il/files/media_server/1304/untitled%20folder/pp.pdf"
+  },
+  "pub:keil-1873": {
+   "title": "Carl Friedrich Keil, The Books of Ezra, Nehemiah, and Esther (Biblical Commentary on the Old Testament, with F. Delitzsch), T&T Clark (English translation) 1873",
+   "authority": "non-authoritative",
+   "why": "19th-century Lutheran commentary, not peer-reviewed; read via the Bible Hub reprint",
+   "url": "https://biblehub.com/commentaries/ezra/10-23.htm"
+  },
+  "pub:merk-1910": {
+   "title": "August Merk, Magdala, The Catholic Encyclopedia, vol. 9 (Robert Appleton) 1910",
+   "authority": "authoritative",
+   "why": "Catholic reference work",
+   "url": "https://www.newadvent.org/cathen/09523a.htm"
+  },
+  "pub:ryle-1893": {
+   "title": "Herbert Edward Ryle, The Books of Ezra and Nehemiah, Cambridge Bible for Schools and Colleges, Cambridge University Press 1893",
+   "authority": "non-authoritative",
+   "why": "Anglican school commentary, not peer-reviewed; read via the Bible Hub reprint",
+   "url": "https://biblehub.com/commentaries/nehemiah/3-18.htm"
+  },
+  "pub:vandyke-2004": {
+   "title": "Blair G. Van Dyke and Ray L. Huntington, Sorting Out the Seven Marys in the New Testament, Religious Educator 5/3 (2004) 53-84, BYU Religious Studies Center",
+   "authority": "non-authoritative",
+   "why": "denominational (Latter-day Saint) magazine for teachers, not peer-reviewed",
+   "url": "https://rsc.byu.edu/vol-5-no-3-2004/sorting-out-seven-marys-new-testament"
   }
  }
 }

@@ -8248,12 +8248,22 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:cariathaim.ruben",
-     "status": "unsupported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Kiriathaim@Gen.14.5-Amo",
        "says": "identifies",
        "summary": "Puts Kerioth of Jer 48:24 and Am 2:2 under Kiriathaim."
+      },
+      {
+       "by": "bj:note:Am.2,2",
+       "says": "doubts",
+       "summary": "Treats Kerioth as an important Moabite city in its own right, with no link to Kiriathaim."
+      },
+      {
+       "by": "pub:finkelstein-2010#p30",
+       "says": "doubts",
+       "summary": "Reports Kerioth placed at es-Saliye (Abel) or Khirbet Aleyan (Bernhardt), never at Kiriathaim."
       }
      ]
     }
@@ -20019,12 +20029,27 @@
     {
      "rel": "possibly_same_as",
      "target": "bplace:dalmanutha",
-     "status": "unsupported",
+     "status": "disputed",
      "opinions": [
       {
        "by": "tipnr:Magadan@Mat.15.39-Jhn",
        "says": "identifies",
        "summary": "Treats Dalmanutha of Mk 8:10 as the Magadan of Mt 15:39."
+      },
+      {
+       "by": "ndeib:MAGDALA",
+       "says": "suggests",
+       "summary": "Both names may designate the same landing place, perhaps the Heptapegon springs near Tabgha."
+      },
+      {
+       "by": "ndeib:DALMANUTA",
+       "says": "suggests",
+       "summary": "Treats Magadan as Matthew's parallel; cites Capernaum or Tabgha proposals (Hjerl-Hansen RB 1946, Pixner)."
+      },
+      {
+       "by": "pub:merk-1910#p523",
+       "says": "doubts",
+       "summary": "Reports van Kasteren placing Dalmanutha at el-Delhamiye and Magedan at Ma'ad, two sites."
       }
      ]
     },

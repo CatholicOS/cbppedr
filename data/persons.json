@@ -1793,12 +1793,27 @@
     {
      "rel": "possibly_attested_at",
      "unit": "btu:1sam.14.49",
-     "status": "unsupported",
+     "status": "rejected",
      "opinions": [
       {
        "by": "tipnr:Abinadab@1Sa.14.49-1Ch",
        "says": "identifies",
        "summary": "Takes Ishvi of 1 Sam 14:49 as another name of Saul's son Abinadab."
+      },
+      {
+       "by": "bj:note:1Sam.14,49#p597",
+       "says": "rejects",
+       "summary": "Takes Ishvi as the son elsewhere called Ishbaal/Ishbosheth, not Abinadab."
+      },
+      {
+       "by": "bj:note:2Sam.2,8#p633",
+       "says": "rejects",
+       "summary": "Ishbaal, Ishbosheth and the Ishvi of 1 Sam 14:49 are one son of Saul."
+      },
+      {
+       "by": "ndeib:IS-BAAL",
+       "says": "rejects",
+       "summary": "Ishvi of 1 Sam 14:49 is a corrupt form of a name equal to Ishbaal."
       }
      ]
     }
@@ -5137,12 +5152,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:aram.esrom-filius",
-     "status": "unsupported",
+     "status": "rejected",
      "opinions": [
       {
        "by": "tipnr:Ram@Rut.4.19-Luk",
        "says": "identifies",
        "summary": "Treats Admin of Lk 3:33 as Ram son of Hezron."
+      },
+      {
+       "by": "pub:brandao-2011#p129",
+       "says": "rejects",
+       "summary": "Derives Admin by scribal error from Amminadab (Aminadam), not from Aram/Ram."
       }
      ]
     }
@@ -11944,12 +11964,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:aram.esrom-filius",
-     "status": "unsupported",
+     "status": "supported",
      "opinions": [
       {
        "by": "tipnr:Ram@Rut.4.19-Luk",
        "says": "identifies",
        "summary": "Treats Arni of Lk 3:33 as Ram son of Hezron."
+      },
+      {
+       "by": "pub:brandao-2011#p129",
+       "says": "identifies",
+       "summary": "Explains Arni as a paleographic misreading of Aram, the Ram of the Old Testament line."
       }
      ]
     }
@@ -14118,12 +14143,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:azarias.signator",
-     "status": "unsupported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Azariah@Neh.7.7-",
        "says": "identifies",
        "summary": "Joins the returnee of Neh 7:7 to the covenant signer and procession member."
+      },
+      {
+       "by": "ndeib:AZARIA",
+       "says": "doubts",
+       "summary": "Lists the Zerubbabel returnee (Neh 7:7, cf. Seraiah in Ezra 2:2) apart from the priest-signer (Neh 10:2; 12:33)."
       }
      ]
     }
@@ -16224,12 +16254,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:banaias.ioiadae-filius",
-     "status": "unsupported",
+     "status": "supported",
      "opinions": [
       {
        "by": "reviewer:round2",
        "says": "suggests",
        "summary": "Jehoiada son of Benaiah may descend from, or be a transposed form of, Benaiah son of Jehoiada; unsettled."
+      },
+      {
+       "by": "ndeib:IOIADA",
+       "says": "identifies",
+       "summary": "Makes David's counsellor Jehoiada son of Benaiah the grandson of Jehoiada, Benaiah's father."
       }
      ]
     }
@@ -17592,6 +17627,11 @@
        "by": "reviewer:round2",
        "says": "suggests",
        "summary": "Both are sons of Henadad repairing the wall in Neh 3; some versions read Binnui at 3:18."
+      },
+      {
+       "by": "pub:ryle-1893#Neh.3.18",
+       "says": "identifies",
+       "summary": "The Bavvai of 3:18 can scarcely differ from Binnui son of Henadad of 3:24; LXX reads so."
       }
      ]
     }
@@ -20928,6 +20968,16 @@
        "by": "reviewer:round2",
        "says": "suggests",
        "summary": "Ezra 10:23 gives Kelaiah the second name Kelita, also a Levite in Neh 8:7; a lead."
+      },
+      {
+       "by": "pub:keil-1873#Ezra.10.23",
+       "says": "identifies",
+       "summary": "Kelita is this Levite's usual name, the one he bears in Neh 8:7 and 10:11."
+      },
+      {
+       "by": "pub:ryle-1893#Ezra.10.23",
+       "says": "identifies",
+       "summary": "Cross-refers Kelaiah-Kelita of Ezra 10:23 to the Kelita of Neh 8:7 and 10:10."
       }
      ]
     }
@@ -30562,6 +30612,16 @@
        "by": "tipnr:Ezra@Neh.12.1-",
        "says": "identifies",
        "summary": "Joins the Ezra of the wall procession to the priest returning with Zerubbabel."
+      },
+      {
+       "by": "pub:ryle-1893#Neh.12.33",
+       "says": "suggests",
+       "summary": "Azariah and Ezra of 12:33 may name one priestly house, comparing 12:1, 12:13 and 10:2."
+      },
+      {
+       "by": "pub:keil-1873#Neh.12.33",
+       "says": "rejects",
+       "summary": "The names in 12:33-34 are princes, individuals, not priestly orders; Ezra the scribe is in 12:36."
       }
      ]
     }
@@ -31453,12 +31513,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:ezechias.rex",
-     "status": "unsupported",
+     "status": "rejected",
      "opinions": [
       {
        "by": "reviewer:round2",
        "says": "suggests",
        "summary": "An unusually long pedigree ending in Hezekiah may point to the king; the verse does not say."
+      },
+      {
+       "by": "pub:faulhaber-1912#critical-problems",
+       "says": "rejects",
+       "summary": "Had the king been meant, the heading would have added 'king of Judah'; it does not."
       }
      ]
     }
@@ -40912,6 +40977,16 @@
        "by": "ndeib:FRATELLI DI GESÙ",
        "says": "doubts",
        "summary": "Jerome's chain making the brothers sons of the Mary at the cross is acute but unconvincing."
+      },
+      {
+       "by": "pub:camerlynck-1910#identity",
+       "says": "identifies",
+       "summary": "Joins the two by way of the Mary of Mk 15:40 = Mary of Clopas; most probable, not beyond doubt."
+      },
+      {
+       "by": "pub:vandyke-2004#p72",
+       "says": "doubts",
+       "summary": "Calls equating the mother of James and Joses with Mary of Clopas too harmonizing."
       }
      ]
     },
@@ -40934,6 +41009,11 @@
        "by": "ndeib:FRATELLI DI GESÙ",
        "says": "doubts",
        "summary": "Jerome's identification of James the Less with James of Alphaeus is acute but unconvincing."
+      },
+      {
+       "by": "pub:camerlynck-1910#identity",
+       "says": "identifies",
+       "summary": "Holds James the Less to be James of Alphaeus, Alphaeus and Clopas being one man."
       }
      ]
     }
@@ -59286,12 +59366,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:lucius.cyrenensis",
-     "status": "unsupported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Lucius@Act.13.1-Rom",
        "says": "identifies",
        "summary": "One record covers Lucius of Acts 13:1 and Lucius of Rom 16:21."
+      },
+      {
+       "by": "ndeib:LUCA NEL NUOVO TESTAMENTO",
+       "says": "doubts",
+       "summary": "Offers another candidate: after Origen, the Lucius of Rom 16:21 may be Luke; Cyrene not linked."
       }
      ]
     }
@@ -60363,12 +60448,22 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:maadia.sacerdos-zorobabel",
-     "status": "unsupported",
+     "status": "supported",
      "opinions": [
       {
        "by": "tipnr:Maaziah@Neh.10.8-",
        "says": "identifies",
        "summary": "Joins the priest signer Maaziah to the Maadiah of Neh 12:5 and 12:17."
+      },
+      {
+       "by": "bj:note:Ne.10,2#p943",
+       "says": "suggests",
+       "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
+      },
+      {
+       "by": "bj:note:Ne.12,12#p947",
+       "says": "suggests",
+       "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
       }
      ]
     }
@@ -64650,12 +64745,22 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:melluch.sacerdos-zorobabel",
-     "status": "unsupported",
+     "status": "supported",
      "opinions": [
       {
        "by": "tipnr:Malluch@Neh.10.4-",
        "says": "identifies",
        "summary": "Joins the priest signer to the Malluch of Neh 12:2 and 12:14."
+      },
+      {
+       "by": "bj:note:Ne.10,2#p943",
+       "says": "suggests",
+       "summary": "Priestly signers of Neh 10 are family names copied from the lists of Neh 12:1-6 and 12-18."
+      },
+      {
+       "by": "bj:note:Ne.12,12#p947",
+       "says": "suggests",
+       "summary": "The houses listed in Neh 12:12-21 reappear in the later list of Neh 10."
       }
      ]
     }
@@ -65075,12 +65180,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:meremoth.uriae-filius",
-     "status": "unsupported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Meremoth@Ezr.8.33-Neh",
        "says": "identifies",
        "summary": "One Meremoth son of Uriah, also the priest signer and the returnee of Neh 12:3."
+      },
+      {
+       "by": "bj:note:Ne.10,2#p943",
+       "says": "doubts",
+       "summary": "Priestly signers are house names taken from Neh 12:1-6, so the signer echoes 12:3, not a named individual."
       }
      ]
     }
@@ -94062,12 +94172,17 @@
     {
      "rel": "possibly_same_as",
      "target": "bpers:tharthan.sargonis",
-     "status": "unsupported",
+     "status": "doubted",
      "opinions": [
       {
        "by": "tipnr:Tartan@2Ki.18.17-Isa",
        "says": "identifies",
        "summary": "One Tartan for 2 Kgs 18:17 and Isa 20:1."
+      },
+      {
+       "by": "bj:note:Is.20,1-6",
+       "says": "doubts",
+       "summary": "Reads tartan as the Assyrian supreme commander's title, so the word alone does not make one man."
       }
      ]
     }
