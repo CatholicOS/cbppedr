@@ -2846,6 +2846,28 @@
      "summary": "Solomon's minister son of Zadok; cross-references 1 Chr 5:35 with a 'cf.'."
     }
    ]
+  },
+  {
+   "source": "bpers:iudas.iacobi-filius",
+   "rel": "possibly_same_as",
+   "target": "bpers:iudas.frater-domini",
+   "opinions": [
+    {
+     "by": "bj:note:At.1,13#p2616",
+     "says": "rejects",
+     "summary": "The apostle Judas is distinct from Judas the Lord's brother, the brother of James of Jude 1."
+    },
+    {
+     "by": "pub:camerlynck-1910a#author",
+     "says": "identifies",
+     "summary": "Jude, one of the Lord's brethren, is most probably Luke's Judas of James, called Thaddaeus."
+    },
+    {
+     "by": "pub:williams-2022#p1",
+     "says": "rejects",
+     "summary": "Luke's Judas of James is usually read as son, so not the brother of James and Jesus."
+    }
+   ]
   }
  ]
 }

@@ -69,6 +69,18 @@
    "authority": "non-authoritative",
    "why": "denominational (Latter-day Saint) magazine for teachers, not peer-reviewed",
    "url": "https://rsc.byu.edu/vol-5-no-3-2004/sorting-out-seven-marys-new-testament"
+  },
+  "pub:camerlynck-1910a": {
+   "title": "Achille Camerlynck, Epistle of St. Jude, The Catholic Encyclopedia, vol. 8, Robert Appleton 1910",
+   "authority": "authoritative",
+   "why": "Catholic Encyclopedia",
+   "url": "https://www.newadvent.org/cathen/08542b.htm"
+  },
+  "pub:williams-2022": {
+   "title": "Catrin Williams, Judas Thaddaeus, Brill Encyclopaedia of Early Christianity, Brill (Leiden) 2022",
+   "authority": "non-authoritative",
+   "why": "edited academic reference work; peer review not confirmed",
+   "url": "https://repository.uwtsd.ac.uk/id/eprint/2651/"
   }
  }
 }
