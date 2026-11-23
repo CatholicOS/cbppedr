@@ -129,7 +129,21 @@ STANCES = {"identifies", "suggests", "doubts", "rejects"}
 STATUSES = {"supported", "disputed", "rejected", "doubted", "unsupported"}
 LOCATOR = {"bj": re.compile(r"^bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?$"),
            "ndeib": re.compile(r"^ndeib:[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9 ,'’().~-]*(#[0-9IVX]+)?$"), "tipnr": re.compile(r"^tipnr:\S+@\S+$"),
-           "reviewer": re.compile(r"^reviewer:\S+$")}
+           "reviewer": re.compile(r"^reviewer:\S+$"),
+           "pub": re.compile(r"^pub:[a-zà-ÿ][a-z0-9à-ÿ]*(?:-[a-z0-9à-ÿ]+)*-\d{4}[a-z]?(#[^\s#]+)?$")}
+
+
+def publication_problems(sources: dict[str, dict]) -> list[str]:
+    """Every publication listed in sources.json: a well-formed pub: key, a title and an authority."""
+    out = []
+    for key, v in sources.items():
+        if not key.startswith("pub:"):
+            continue
+        if not LOCATOR["pub"].match(key) or "#" in key:
+            out.append(f"sources.json: publication key {key!r}")
+        if not v.get("title") or v.get("authority") not in ("authoritative", "non-authoritative"):
+            out.append(f"sources.json: {key} needs a title and an authority")
+    return out
 
 
 def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dict],
@@ -161,6 +175,8 @@ def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dic
             src = by.split(":")[0]
             if src not in sources or src not in LOCATOR or not LOCATOR[src].match(by):
                 out.append(f"{eid}: conjecture opinion by {by!r}")
+            elif src == "pub" and sources.get(by.split("#")[0], {}).get("authority") not in ("authoritative", "non-authoritative"):
+                out.append(f"{eid}: publication {by.split('#')[0]!r} not listed in sources.json with its authority")
             if o.get("says") not in STANCES:
                 out.append(f"{eid}: conjecture opinion says {o.get('says')!r}")
             summ = o.get("summary") or ""
@@ -211,6 +227,7 @@ def main() -> int:
     sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
     ids = {eid for cat in catalogs.values() for eid in cat["entries"]}
     attested_of = {eid: e.get("attested", []) for cat in catalogs.values() for eid, e in cat["entries"].items()}
+    p += publication_problems(sources)
     for cat in catalogs.values():
         for eid, e in cat["entries"].items():
             p += conjecture_problems(eid, e, ids, sources, attested_of)

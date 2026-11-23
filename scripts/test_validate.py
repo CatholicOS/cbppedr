@@ -103,8 +103,23 @@ class ConjectureTest(unittest.TestCase):
         self.assertEqual(len(shared), 1, shared)
         self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [dict(good, opinions=[
             {"by": "ndeib:x y z", "says": "suggests", "summary": "s"}])]}, {"bpers:a", "bpers:b"}, src)), 1)
+        psrc = dict(src, pub={}, **{"pub:meier-1992": {"authority": "authoritative"}})
+        pub = lambda by: conjecture_problems("bpers:a", {"conjectures": [dict(good, opinions=[
+            {"by": by, "says": "suggests", "summary": "s"}])]}, {"bpers:a", "bpers:b"}, psrc)
+        self.assertEqual(pub("pub:meier-1992#p12"), [])
+        self.assertEqual(len(pub("pub:brown-1994#p5")), 1)  # not listed
+        self.assertEqual(len(pub("pub:Meier 1992")), 1)  # malformed
+        psrc["pub:müller-2001"] = {"authority": "authoritative"}
+        self.assertEqual(pub("pub:müller-2001#§3"), [])
+
         bad = dict(good, status="maybe", opinions=[{"by": "wiki:x", "says": "thinks", "summary": ""}])
         self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [bad]}, {"bpers:a", "bpers:b"}, src)), 4)
+
+    def test_listed_publications(self):
+        from validate import publication_problems
+        self.assertEqual(publication_problems({"pub:meier-1992": {"title": "A Marginal Jew", "authority": "authoritative"}}), [])
+        self.assertEqual(len(publication_problems({"pub:Meier 1992": {"title": "x", "authority": "authoritative"},
+                                                   "pub:brown-1994": {"authority": "maybe"}})), 2)
 
 
 class EvidenceTest(unittest.TestCase):

@@ -134,8 +134,9 @@ Identities and attestations the Bible text does not settle but someone proposes.
 | `ndeib` | the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* | `ndeib:<KEY>`: the headword, with `#<sense>` where the dictionary numbers its senses (`ndeib:IS-BAAL`, `ndeib:FILIPPO#1`) | authoritative |
 | `tipnr` | STEPBible's TIPNR, which cites no references | `tipnr:Ishvi@1Sa.14.49` | non-authoritative |
 | `reviewer` | a CBPPEDR reviewer's inference from the text | `reviewer:round2` | non-authoritative |
+| `pub` | a published work, each listed in `sources.json` as `pub:<first author's surname>-<year>` (lowercase, diacritics kept: `pub:müller-2001`) with its title and its own authority | `pub:meier-1992#p12` | per publication |
 
-A source is **authoritative** when it is a published scholarly work, cited by a location a reader can check. A claim with no reference behind it is **non-authoritative**: it is kept as a lead until an authoritative source is found.
+A source is **authoritative** when it is Catholic biblical scholarship or a Catholic reference work (the Jerusalem Bible's notes, the dictionary, the *New Jerome Biblical Commentary*, the École biblique's *Revue Biblique*, the *Catholic Biblical Quarterly*, *Biblica*), or peer-reviewed scholarship (a journal, or a book in a peer-reviewed academic series), cited by a location a reader can check. Anything else is **non-authoritative**: a claim with no reference behind it, a non-Catholic work outside peer review, an encyclopedia anyone can edit. It is kept as a lead until an authoritative source is found.
 
 **Status**, computed by the build from the authoritative opinions only:
 
@@ -153,6 +154,7 @@ A source is **authoritative** when it is a published scholarly work, cited by a 
 |---|---|
 | `auto` | matched by the strict automatic rule (a candidate of the class "human biblical figure", or the only fitting, explicitly biblical candidate) |
 | `reviewed` | set by a person |
+| `adjudicated` | chosen among the candidates by a System One model (TypeSafe's Jev; `by` and `p_same` in `qids.json`), comparing our entry's names, relatives and verses with each item's Wikidata facts; accepted only when one candidate is judged the same with probability 0.8 or more and every other below 0.2, and checked on review |
 | `unresolved` | no item accepted; `candidates` in `data/curated/qids.json` are kept for review, `rejected` lists items judged wrong |
 
 ## Other markers

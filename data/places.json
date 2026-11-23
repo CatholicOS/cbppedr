@@ -43,8 +43,8 @@
     "btu:nm.33.48"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q337141",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ABARIM",
     "nv:btu:nm.27.12",
@@ -163,8 +163,8 @@
     "btu:gn.50.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4666525",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ABEL",
     "nv:btu:gn.50.10",
@@ -199,8 +199,8 @@
     "btu:1sam.7.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2915014",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EBEN-EZER"
    ]
@@ -265,8 +265,8 @@
     "btu:lc.3.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1280728",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ABILENE"
    ]
@@ -429,8 +429,8 @@
     "btu:ios.7.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4673880",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ACOR",
     "nv:btu:ios.7.26"
@@ -454,8 +454,8 @@
     "btu:ios.19.25"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4157407",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ACSAF"
    ]
@@ -628,8 +628,8 @@
     "btu:ios.19.33"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4680139",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.33"
    ]
@@ -871,8 +871,8 @@
     "btu:is.36.2"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139379938",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2reg.18.17",
     "nv:btu:is.7.3"
@@ -973,8 +973,8 @@
     "btu:2reg.15.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q133275263",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IION"
    ],
@@ -1147,8 +1147,8 @@
     "btu:act.28.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q87",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ALESSANDRIA"
    ]
@@ -1170,8 +1170,8 @@
     "btu:ios.21.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q138701583",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ALEMET"
    ]
@@ -1237,8 +1237,8 @@
     "btu:ios.15.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4739447",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.26"
    ]
@@ -1562,8 +1562,8 @@
     "btu:ios.19.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128230990",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.19"
    ]
@@ -1663,8 +1663,8 @@
     "btu:2tim.3.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q579468",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ANTIOCHIA (PISIDIA)",
     "nv:btu:act.14.21",
@@ -1706,8 +1706,8 @@
     "btu:act.15.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q200441",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ANTIOCHIA (SIRIA)"
    ]
@@ -1963,8 +1963,8 @@
     "btu:1par.11.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5382172",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1sam.17.1",
     "nv:btu:1par.11.13"
@@ -1986,8 +1986,8 @@
     "btu:act.17.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2751389",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.17.1"
    ]
@@ -2235,8 +2235,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q168518",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:URUK"
    ]
@@ -2309,8 +2309,8 @@
     "btu:1par.1.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q377802",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARVAD"
    ]
@@ -2579,8 +2579,8 @@
     "btu:ier.48.20"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q697112",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARNON",
     "nv:btu:nm.21.13",
@@ -2704,8 +2704,8 @@
     "btu:ier.49.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q698634",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARPAD"
    ]
@@ -2843,8 +2843,8 @@
     "btu:ez.48.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q126083450",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.34.9",
     "nv:btu:ez.47.17"
@@ -2866,8 +2866,8 @@
     "btu:ios.15.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127603459",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.27"
    ]
@@ -2891,8 +2891,8 @@
     "btu:ne.11.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127605550",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.28",
     "nv:btu:ios.19.3"
@@ -2988,8 +2988,8 @@
     "btu:ier.51.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124535978",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ier.51.27"
    ]
@@ -3112,8 +3112,8 @@
     "btu:dt.1.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3381072",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CASEROT"
    ]
@@ -3152,8 +3152,8 @@
     "btu:apc.1.4"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q210718",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ASIA",
     "nv:btu:act.19.10",
@@ -3398,8 +3398,8 @@
    },
    "attested": [],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q200200",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ASSUR#2"
    ]
@@ -3515,8 +3515,8 @@
     "btu:gn.14.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2915901",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ASTAROT-KARNAIM"
    ],
@@ -3705,8 +3705,8 @@
     "btu:nm.32.35"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124382341",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.32.34",
     "nv:btu:nm.32.35"
@@ -3863,8 +3863,8 @@
     "btu:ez.47.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1589883",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:HAURAN"
    ]
@@ -3888,8 +3888,8 @@
     "btu:is.37.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139328069",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:AVVA"
    ]
@@ -3985,8 +3985,8 @@
     "btu:ne.12.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q25487930",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:AZMAVET"
    ]
@@ -4007,8 +4007,8 @@
     "btu:ios.19.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128693546",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.34"
    ]
@@ -4140,8 +4140,8 @@
     "btu:ios.19.44"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127700869",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.44"
    ],
@@ -4177,8 +4177,8 @@
     "btu:2par.8.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139587354",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1reg.9.18",
     "nv:btu:2par.8.6"
@@ -4238,8 +4238,8 @@
     "btu:ios.13.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4837122",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BAAL-GAD",
     "nv:btu:ios.13.5",
@@ -4262,8 +4262,8 @@
     "btu:ct.8.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3754022",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ct.8.11"
    ]
@@ -4351,8 +4351,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4837120",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BAAL-ERMON"
    ],
@@ -4414,8 +4414,8 @@
     "btu:is.28.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139583333",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BAAL-PERAZIM"
    ],
@@ -4668,8 +4668,8 @@
     "btu:2reg.25.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q47690",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BABILONIA (REGIONE)#0"
    ],
@@ -4704,8 +4704,8 @@
     "btu:2sam.17.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2904499",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BACURIM"
    ]
@@ -4839,8 +4839,8 @@
     "btu:ez.27.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q612952",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BASAN",
     "nv:btu:ez.27.6"
@@ -4863,8 +4863,8 @@
     "btu:2reg.22.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4952861",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.39",
     "nv:btu:2reg.22.1"
@@ -4894,8 +4894,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140047454",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ct.7.5"
    ]
@@ -4916,8 +4916,8 @@
     "btu:ios.15.28"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127698677",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.28"
    ]
@@ -4940,8 +4940,8 @@
     "btu:nm.33.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q126033848",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BAAL-ZEFON"
    ]
@@ -4984,8 +4984,8 @@
     "btu:is.15.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140172275",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:is.15.8"
    ]
@@ -5037,8 +5037,8 @@
     "btu:ios.19.45"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127700926",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.45"
    ]
@@ -5274,8 +5274,8 @@
     "btu:ios.19.25"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127700224",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.25"
    ]
@@ -5298,8 +5298,8 @@
     "btu:ios.18.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q20502407",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.6",
     "nv:btu:ios.18.21"
@@ -5344,8 +5344,8 @@
     "btu:idc.1.33"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q25492503",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.38",
     "nv:btu:idc.1.33"
@@ -5377,8 +5377,8 @@
     "btu:lc.19.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q831190",
+   "qid_status": "reviewed",
    "evidence": [
     "ndeib:BETANIA#1"
    ],
@@ -5438,8 +5438,8 @@
     "btu:io.10.40"
    ],
    "relations": [],
-   "qid": "Q831190",
-   "qid_status": "auto",
+   "qid": null,
+   "qid_status": "unresolved",
    "evidence": [
     "ndeib:BETANIA#2"
    ],
@@ -5472,8 +5472,8 @@
     "btu:ios.15.59"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127698959",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.59"
    ]
@@ -5496,8 +5496,8 @@
     "btu:ios.18.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127692143",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARABA#4"
    ]
@@ -5541,8 +5541,8 @@
     "btu:os.10.14"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q135190575",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:os.10.14"
    ]
@@ -5732,8 +5732,8 @@
     "btu:1sam.7.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q131783102",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1sam.7.11"
    ]
@@ -5798,8 +5798,8 @@
     "btu:ier.48.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124306269",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ier.48.22"
    ],
@@ -5994,8 +5994,8 @@
     "btu:ios.19.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127700285",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.27"
    ]
@@ -6126,8 +6126,8 @@
     "btu:ier.48.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124315855",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ier.48.23"
    ]
@@ -6148,8 +6148,8 @@
     "btu:2reg.9.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q135451162",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2reg.9.27"
    ]
@@ -6173,8 +6173,8 @@
     "btu:ez.25.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q20502378",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.33.49",
     "nv:btu:ios.13.20"
@@ -6326,8 +6326,8 @@
     "btu:ios.15.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4897428",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BET-NIMRA"
    ],
@@ -6455,8 +6455,8 @@
     "btu:ne.11.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127698645",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.27",
     "nv:btu:ne.11.26"
@@ -6478,8 +6478,8 @@
     "btu:ios.19.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127699700",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.21"
    ]
@@ -6500,8 +6500,8 @@
     "btu:2sam.2.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q135508921",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2sam.2.29"
    ]
@@ -6596,8 +6596,8 @@
     "btu:ios.19.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127699808",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BET-SEMES#2"
    ]
@@ -6625,8 +6625,8 @@
     "btu:2par.28.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127700149",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BET-SEMES#1"
    ],
@@ -6749,8 +6749,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q831297",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BETESDA"
    ],
@@ -6835,8 +6835,8 @@
     "btu:ios.15.53"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127698892",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.53"
    ]
@@ -6905,8 +6905,8 @@
     "btu:idc.1.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7046903",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:idc.1.5"
    ]
@@ -6951,8 +6951,8 @@
     "btu:ez.27.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q173532",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GEBAL (BIBLO)#1"
    ]
@@ -7298,8 +7298,8 @@
     "btu:1sam.30.30"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q135434660",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1sam.30.30"
    ]
@@ -7438,8 +7438,8 @@
     "btu:ez.30.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q603841",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ez.30.17"
    ]
@@ -7463,8 +7463,8 @@
     "btu:ne.11.25"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6344566",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.21",
     "nv:btu:ne.11.25"
@@ -7664,8 +7664,8 @@
     "btu:ios.13.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6528052",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARABA#3",
     "nv:btu:nm.22.1",
@@ -7768,8 +7768,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q431382",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CANA#2"
    ]
@@ -7844,8 +7844,8 @@
     "btu:ios.18.24"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q127605381",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.18.24"
    ]
@@ -8075,8 +8075,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124305075",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.32.37",
     "nv:btu:ier.48.1"
@@ -8142,8 +8142,8 @@
     "btu:1par.6.61"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3303084",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KIRIAT-IARIM"
    ],
@@ -8206,8 +8206,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124305230",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CAZOR",
     "ndeib:KERIOT-CHEZRON"
@@ -8368,8 +8368,8 @@
     "btu:1par.6.61"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6373498",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KARTAN"
    ],
@@ -8760,8 +8760,8 @@
     "btu:nm.33.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6383474",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KEELATA"
    ]
@@ -8826,8 +8826,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q111565756",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CENCRE"
    ]
@@ -8874,8 +8874,8 @@
     "btu:ios.19.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128210913",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHISLOT"
    ],
@@ -8982,8 +8982,8 @@
     "btu:idc.1.30"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128899663",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KITRON#0"
    ]
@@ -9124,8 +9124,8 @@
     "btu:gn.10.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q237614",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CALACH"
    ]
@@ -9231,8 +9231,8 @@
     "btu:gn.11.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3660711",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CARRAN",
     "nv:btu:gn.11.32"
@@ -9254,8 +9254,8 @@
     "btu:esd.8.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125419822",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:esd.8.17"
    ]
@@ -9276,8 +9276,8 @@
     "btu:ios.15.40"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5015297",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.40"
    ]
@@ -9298,8 +9298,8 @@
     "btu:ez.27.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q130293814",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ez.27.23"
    ]
@@ -9390,8 +9390,8 @@
     "btu:ios.15.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128210225",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.10"
    ]
@@ -9412,8 +9412,8 @@
     "btu:act.20.15"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q160483",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.20.15"
    ]
@@ -9554,8 +9554,8 @@
     "btu:dt.9.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6404073",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KIBROT-TAAVA"
    ]
@@ -9785,8 +9785,8 @@
     "btu:act.27.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q690575",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.27.7"
    ]
@@ -9853,8 +9853,8 @@
     "btu:col.1.2"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1001370",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:COLOSSI",
     "nv:btu:col.1.2"
@@ -9901,8 +9901,8 @@
     "btu:act.21.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q187027",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.21.1"
    ]
@@ -9928,8 +9928,8 @@
     "btu:tit.1.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q34374",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CRETA"
    ]
@@ -10037,8 +10037,8 @@
     "btu:act.6.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q44112",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CIRENE"
    ]
@@ -10059,8 +10059,8 @@
     "btu:ios.19.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q20502682",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:DABERAT"
    ]
@@ -10130,8 +10130,8 @@
     "btu:mc.8.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1158048",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:DALMANUTA"
    ]
@@ -10390,8 +10390,8 @@
     "btu:mc.7.31"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q823244",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:DECAPOLI"
    ]
@@ -10439,8 +10439,8 @@
     "btu:ios.15.38"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125996553",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.38"
    ]
@@ -10541,8 +10541,8 @@
     "btu:nm.33.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2549347",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SIN, DESERTO DI S"
    ]
@@ -10652,8 +10652,8 @@
     "btu:ios.15.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128215098",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.22"
    ]
@@ -10877,8 +10877,8 @@
     "btu:nm.33.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2902816",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ABRONA"
    ]
@@ -11149,8 +11149,8 @@
     "btu:is.15.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q130270835",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:is.15.8"
    ]
@@ -11449,8 +11449,8 @@
     "btu:ios.19.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6573228",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.26"
    ]
@@ -11472,8 +11472,8 @@
     "btu:nm.33.47"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4733871",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ALMON-DIBLATAIM",
     "nv:btu:nm.33.46",
@@ -11561,8 +11561,8 @@
     "btu:ios.15.59"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128226092",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.59"
    ]
@@ -11584,8 +11584,8 @@
     "btu:ios.21.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128234291",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ELTEKE"
    ]
@@ -11805,8 +11805,8 @@
     "btu:ios.19.37"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5374924",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.37"
    ]
@@ -11882,8 +11882,8 @@
     "btu:ez.47.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q130285071",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ez.47.10"
    ]
@@ -11950,8 +11950,8 @@
     "btu:ios.19.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128303496",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.21"
    ]
@@ -12346,8 +12346,8 @@
     "btu:gn.26.20"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q12482591",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:gn.26.20"
    ]
@@ -12415,8 +12415,8 @@
     "btu:ios.15.3"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125022098",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHEZRON#3"
    ]
@@ -12503,8 +12503,8 @@
     "btu:ios.15.59"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5402401",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ETAM#2"
    ]
@@ -12652,8 +12652,8 @@
     "btu:ios.19.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128191078",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.13"
    ]
@@ -12678,8 +12678,8 @@
     "btu:apc.16.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q34589",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EUFRATE"
    ]
@@ -12787,8 +12787,8 @@
     "btu:io.4.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1679519",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SICAR, POZZO DI GIACOBBE"
    ]
@@ -12809,8 +12809,8 @@
     "btu:idc.15.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q28222021",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:idc.15.19"
    ]
@@ -12834,8 +12834,8 @@
     "btu:2sam.17.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2919936",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EN-ROGHEL",
     "ndeib:ROGHEL"
@@ -13102,8 +13102,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q591994",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:io.19.13"
    ]
@@ -13124,8 +13124,8 @@
     "btu:is.10.31"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q130271064",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:is.10.31"
    ]
@@ -13199,8 +13199,8 @@
     "btu:idc.20.45"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128917520",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:idc.20.45"
    ]
@@ -13269,8 +13269,8 @@
     "btu:dt.10.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5901395",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:OR-GHIDGAD"
    ],
@@ -13619,8 +13619,8 @@
     "btu:act.9.31"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q83241",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GALILEA"
    ],
@@ -13701,8 +13701,8 @@
     "btu:ios.15.59"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128305762",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GALLIM#2"
    ]
@@ -13745,8 +13745,8 @@
     "btu:ier.31.39"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5522744",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ier.31.39"
    ]
@@ -13771,8 +13771,8 @@
     "btu:dt.27.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1288751",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GARIZIM",
     "nv:btu:dt.27.12",
@@ -13881,8 +13881,8 @@
     "btu:1reg.9.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1466687",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GHEZER"
    ]
@@ -14158,8 +14158,8 @@
     "btu:1par.10.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1161616",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GELBOE",
     "nv:btu:1sam.31.1",
@@ -14248,8 +14248,8 @@
     "btu:gn.2.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1247896",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GHICON"
    ]
@@ -14272,8 +14272,8 @@
     "btu:2par.14.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1510126",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GERAR"
    ]
@@ -14335,8 +14335,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1261081",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GOSEN"
    ],
@@ -14384,8 +14384,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2669839",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GHESUR, GHESURITI"
    ]
@@ -14423,8 +14423,8 @@
     "btu:2par.26.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1348441",
+   "qid_status": "auto",
    "evidence": [
     "ndeib:GAT"
    ],
@@ -14456,8 +14456,8 @@
     "btu:2reg.14.25"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5527338",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GAT-CHEFER"
    ]
@@ -14527,8 +14527,8 @@
     "btu:mt.26.36"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q205333",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GETSEMANI",
     "nv:btu:mt.26.36"
@@ -14630,8 +14630,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q204601",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GHICON"
    ]
@@ -15060,8 +15060,8 @@
     "btu:mt.27.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q886458",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:AIN"
    ],
@@ -15238,8 +15238,8 @@
     "btu:act.27.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q13924",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.27.27"
    ]
@@ -15550,8 +15550,8 @@
     "btu:apc.16.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q193151",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARMAGHEDON"
    ]
@@ -15574,8 +15574,8 @@
     "btu:idc.4.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128792722",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CAROSET"
    ]
@@ -15596,8 +15596,8 @@
     "btu:ios.15.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q126011930",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.21",
     "nv:btu:ios.15.27"
@@ -15679,8 +15679,8 @@
     "btu:1reg.4.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5684046",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:VILLAGGI DI IAIR"
    ],
@@ -15803,8 +15803,8 @@
     "btu:1par.6.60"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128232401",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHELKAT"
    ],
@@ -15972,8 +15972,8 @@
     "btu:eccli.24.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q215471",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ERMON",
     "nv:btu:dt.3.9",
@@ -16052,8 +16052,8 @@
     "btu:ct.7.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1615584",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHESBON"
    ]
@@ -16074,8 +16074,8 @@
     "btu:nm.33.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5679068",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CASMONA"
    ]
@@ -16421,8 +16421,8 @@
     "btu:2reg.21.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q138713988",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2reg.21.18",
     "nv:btu:2reg.21.26"
@@ -16522,8 +16522,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2905361",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IABES DI GALAAD",
     "nv:btu:1sam.31.11",
@@ -16789,8 +16789,8 @@
     "btu:ios.15.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6122958",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.21"
    ]
@@ -16812,8 +16812,8 @@
     "btu:ios.16.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128579419",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.16.6",
     "nv:btu:ios.16.7"
@@ -16857,8 +16857,8 @@
     "btu:ios.15.53"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128577110",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.53"
    ]
@@ -16947,8 +16947,8 @@
     "btu:ios.18.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128581678",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.18.27"
    ]
@@ -16976,8 +16976,8 @@
     "btu:ier.48.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q12407873",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IAAZ, IAAS"
    ]
@@ -17107,8 +17107,8 @@
     "btu:nm.21.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6101277",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IIM, IIE-ABARIM#2"
    ]
@@ -17246,8 +17246,8 @@
     "btu:1par.6.53"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q133319805",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IOKMEAM"
    ],
@@ -17326,8 +17326,8 @@
     "btu:ios.21.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128567757",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IOKNEAM"
    ]
@@ -17371,8 +17371,8 @@
     "btu:idc.8.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128983348",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.32.34",
     "nv:btu:idc.8.11"
@@ -17447,8 +17447,8 @@
     "btu:lc.10.30"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5687",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GERICO"
    ],
@@ -18369,8 +18369,8 @@
     "btu:dt.10.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q15229779",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IOTBATA"
    ]
@@ -18439,8 +18439,8 @@
     "btu:ios.15.23"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128573075",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.23"
    ]
@@ -18647,8 +18647,8 @@
     "btu:ios.13.27"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q40059",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GIORDANO"
    ]
@@ -18763,8 +18763,8 @@
     "btu:ios.15.56"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128578862",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.56"
    ]
@@ -18933,8 +18933,8 @@
     "btu:ios.21.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2904837",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:IUTTA"
    ],
@@ -18967,8 +18967,8 @@
    },
    "attested": [],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q132272",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KISH"
    ],
@@ -19123,8 +19123,8 @@
     "btu:apc.3.14"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q849709",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LAODICEA"
    ]
@@ -19145,8 +19145,8 @@
     "btu:act.27.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6492763",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.27.8"
    ]
@@ -19234,8 +19234,8 @@
     "btu:ios.19.33"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128602636",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LAKKUM"
    ]
@@ -19256,8 +19256,8 @@
     "btu:ios.15.40"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128597153",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.40"
    ]
@@ -19413,8 +19413,8 @@
     "btu:am.6.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6663061",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:DEBIR#3",
     "ndeib:LODEBAR",
@@ -19515,8 +19515,8 @@
     "btu:act.14.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q622598",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LICAONIA"
    ]
@@ -19537,8 +19537,8 @@
     "btu:act.27.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q18927",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LICIA"
    ]
@@ -19620,8 +19620,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q535982",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LISTRA"
    ],
@@ -19681,8 +19681,8 @@
     "btu:ios.10.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q11934662",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MAKKEDA"
    ]
@@ -19787,8 +19787,8 @@
    },
    "attested": [],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1549278",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MACHERONTE"
    ],
@@ -19838,8 +19838,8 @@
     "btu:1mac.9.73"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3809153",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MICMAS"
    ]
@@ -19887,8 +19887,8 @@
     "btu:gn.50.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q204200",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MACPELA"
    ],
@@ -20168,8 +20168,8 @@
     "btu:ios.19.38"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q11936725",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MIGDAL-EL"
    ]
@@ -20604,8 +20604,8 @@
     "btu:ios.18.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q23883",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MAR MORTO",
     "nv:btu:dt.3.17",
@@ -20721,8 +20721,8 @@
     "btu:ier.49.21"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q23406",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MAR ROSSO"
    ],
@@ -20922,8 +20922,8 @@
    },
    "attested": [],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q244762",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MARI"
    ],
@@ -21014,8 +21014,8 @@
     "btu:ios.13.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7059481",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MISREFOT-MAIM"
    ]
@@ -21219,8 +21219,8 @@
     "btu:1par.1.47"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124819815",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:gn.36.36",
     "nv:btu:1par.1.47"
@@ -21247,8 +21247,8 @@
     "btu:dt.9.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6819182",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MASSA E MERIBA",
     "ndeib:MERIBA",
@@ -21359,8 +21359,8 @@
     "btu:ios.15.61"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128618968",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.61"
    ]
@@ -21405,8 +21405,8 @@
     "btu:esd.6.2"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3853673",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MEDI, MEDIA"
    ]
@@ -21553,8 +21553,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q21072360",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MILLO#1"
    ]
@@ -21576,8 +21576,8 @@
     "btu:idc.9.20"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128989590",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MILLO#2"
    ],
@@ -21613,8 +21613,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5715",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MENFI"
    ]
@@ -21814,8 +21814,8 @@
     "btu:act.2.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q11767",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MESOPOTAMIA"
    ]
@@ -21882,8 +21882,8 @@
     "btu:2tim.4.20"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q169460",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MILETO"
    ]
@@ -22003,8 +22003,8 @@
     "btu:ne.11.28"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6804851",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ne.11.28"
    ]
@@ -22111,8 +22111,8 @@
     "btu:dt.11.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1975866",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EBAL, MONTE",
     "nv:btu:dt.11.29",
@@ -22344,8 +22344,8 @@
     "btu:nm.33.24"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140010255",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.33.23",
     "nv:btu:nm.33.24"
@@ -22637,8 +22637,8 @@
     "btu:act.16.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q622319",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MISIA"
    ]
@@ -22910,8 +22910,8 @@
     "btu:1sam.19.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6959726",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NAIOT"
    ]
@@ -23072,8 +23072,8 @@
     "btu:ios.15.62"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128693093",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.61",
     "nv:btu:ios.15.62"
@@ -23162,8 +23162,8 @@
     "btu:ios.18.15"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128693027",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.9",
     "nv:btu:ios.18.15"
@@ -23233,8 +23233,8 @@
     "btu:esd.2.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6999828",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NETOFA"
    ]
@@ -23255,8 +23255,8 @@
     "btu:tit.3.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q943637",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NICOPOLI"
    ]
@@ -23293,8 +23293,8 @@
     "btu:ier.2.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q3392",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NILO",
     "nv:btu:ier.2.18"
@@ -23355,8 +23355,8 @@
     "btu:mt.12.41"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5680",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NINIVE"
    ],
@@ -23393,8 +23393,8 @@
     "btu:nah.3.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q101583",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TEBE",
     "nv:btu:ier.46.25",
@@ -23443,8 +23443,8 @@
     "btu:ne.11.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q11991625",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NOB"
    ]
@@ -23678,8 +23678,8 @@
     "btu:ier.10.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7898300",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ier.10.9"
    ]
@@ -23776,8 +23776,8 @@
     "btu:1reg.22.49"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q914073",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:OFIR"
    ]
@@ -23888,8 +23888,8 @@
     "btu:ier.48.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5904859",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CORONAIM"
    ]
@@ -23910,8 +23910,8 @@
     "btu:1par.7.24"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139104582",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1par.7.24"
    ]
@@ -24100,8 +24100,8 @@
     "btu:1reg.9.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5747",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PALMIRA"
    ]
@@ -24124,8 +24124,8 @@
     "btu:act.15.38"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q585250",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PANFILIA"
    ]
@@ -24154,8 +24154,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q180918",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PAFO"
    ]
@@ -24198,8 +24198,8 @@
     "btu:act.21.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q233121",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PATARA"
    ]
@@ -24220,8 +24220,8 @@
     "btu:apc.1.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q190053",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PATMOS"
    ]
@@ -24242,8 +24242,8 @@
     "btu:mt.19.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1055740",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PEREA"
    ],
@@ -24278,8 +24278,8 @@
     "btu:apc.2.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q18986",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PERGAMO"
    ],
@@ -24378,8 +24378,8 @@
     "btu:2par.25.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q5788",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PETRA",
     "ndeib:SELA"
@@ -24425,8 +24425,8 @@
     "btu:is.10.26"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125567671",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:idc.7.25",
     "nv:btu:is.10.26"
@@ -24494,8 +24494,8 @@
     "btu:1reg.12.25"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q733822",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PENUEL"
    ]
@@ -24620,8 +24620,8 @@
     "btu:1par.13.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q138714313",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2sam.6.8",
     "nv:btu:1par.13.11"
@@ -24800,8 +24800,8 @@
     "btu:nm.33.7"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2776756",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PI-ACHIROT"
    ]
@@ -24868,8 +24868,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q379652",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:FILIPPI"
    ],
@@ -24933,8 +24933,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7185566",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:FILISTEA, FILISTEI#0",
     "nv:btu:is.14.29",
@@ -24994,8 +24994,8 @@
     "btu:eccli.24.35"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2914395",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:gn.2.11"
    ]
@@ -25164,8 +25164,8 @@
     "btu:1pe.1.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q621672",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PONTO"
    ]
@@ -25296,8 +25296,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140355657",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BENIAMINO"
    ]
@@ -25531,8 +25531,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140173235",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ne.3.1",
     "nv:btu:io.5.2"
@@ -25703,8 +25703,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q4877716",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:act.3.2",
     "nv:btu:act.3.10"
@@ -26143,8 +26143,8 @@
     "btu:1sam.10.3"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139679792",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TABOR, QUERCIA DEL T"
    ]
@@ -26309,8 +26309,8 @@
     "btu:mt.2.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q926868",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RAMA"
    ]
@@ -26476,8 +26476,8 @@
     "btu:2reg.9.14"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2006096",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RAMA",
     "ndeib:RAMOT DI GALAAD#0",
@@ -26610,8 +26610,8 @@
     "btu:ios.19.35"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128758422",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RAKKAT"
    ]
@@ -26778,8 +26778,8 @@
     "btu:idc.21.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q25487939",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RIMMON#5",
     "nv:btu:idc.21.13",
@@ -27010,8 +27010,8 @@
     "btu:ez.27.15"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q43048",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RODI",
     "nv:btu:act.21.1",
@@ -27035,8 +27035,8 @@
     "btu:2sam.19.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q133263291",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:2sam.17.27",
     "nv:btu:2sam.19.32"
@@ -27270,8 +27270,8 @@
     "btu:mich.1.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139008602",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:mich.1.11"
    ]
@@ -27316,8 +27316,8 @@
     "btu:1sam.17.52"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7459954",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.36",
     "nv:btu:1sam.17.52"
@@ -27416,8 +27416,8 @@
     "btu:ier.48.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q124386724",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SEBAM, SIBMA"
    ]
@@ -27438,8 +27438,8 @@
     "btu:ez.47.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q130351199",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ez.47.16"
    ]
@@ -27460,8 +27460,8 @@
     "btu:ios.7.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q140184605",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.7.5"
    ]
@@ -27801,8 +27801,8 @@
     "btu:1sam.22.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q133836257",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1sam.22.5"
    ]
@@ -27878,8 +27878,8 @@
     "btu:act.8.14"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1757438",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SAMARIA"
    ],
@@ -27985,8 +27985,8 @@
     "btu:act.16.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q203175",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SAMOTRACIA"
    ]
@@ -28261,8 +28261,8 @@
     "btu:apc.3.4"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q232615",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SARDI"
    ]
@@ -28307,8 +28307,8 @@
     "btu:1reg.17.10"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q616837",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SAREPTA",
     "nv:btu:1reg.17.10"
@@ -28331,8 +28331,8 @@
     "btu:ios.19.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128779760",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.10",
     "nv:btu:ios.19.12"
@@ -28485,8 +28485,8 @@
     "btu:gn.14.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q125421332",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:gn.14.5"
    ]
@@ -28576,8 +28576,8 @@
     "btu:ios.15.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128763040",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.11"
    ]
@@ -28706,8 +28706,8 @@
     "btu:ios.19.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128781307",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.19.22"
    ]
@@ -28761,8 +28761,8 @@
     "btu:is.21.11"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q15944872",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SEIR",
     "nv:btu:gn.36.8",
@@ -28927,8 +28927,8 @@
     "btu:act.13.4"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1605894",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SELEUCIA"
    ]
@@ -29037,8 +29037,8 @@
     "btu:ios.18.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128777045",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ZEMARAIM"
    ]
@@ -29154,8 +29154,8 @@
     "btu:ios.15.31"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128771462",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.31"
    ]
@@ -29223,8 +29223,8 @@
     "btu:1sam.30.28"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q132154078",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1sam.30.26",
     "nv:btu:1sam.30.28"
@@ -29273,8 +29273,8 @@
     "btu:is.37.13"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7451878",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SEFARVAIM"
    ],
@@ -29336,8 +29336,8 @@
     "btu:ios.11.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2066007",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SEFELA",
     "nv:btu:ios.11.16"
@@ -29357,8 +29357,8 @@
    },
    "attested": [],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1132798",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SEFFORIS"
    ]
@@ -29438,8 +29438,8 @@
     "btu:ios.13.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q138847627",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.13.19"
    ]
@@ -29516,8 +29516,8 @@
     "btu:ne.11.28"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q6127412",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ZIKLAG"
    ]
@@ -30268,8 +30268,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q126982",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GENEZARET, LAGO DI G"
    ],
@@ -30717,8 +30717,8 @@
     "btu:ne.1.1"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q180773",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SUSA",
     "nv:btu:ne.1.1"
@@ -30870,8 +30870,8 @@
     "btu:dt.9.22"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7673017",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:nm.11.3",
     "nv:btu:dt.9.22"
@@ -30972,8 +30972,8 @@
     "btu:ier.43.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1810451",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TAFNI"
    ]
@@ -31100,8 +31100,8 @@
     "btu:1sam.27.8"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139592705",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TELAIM, TELEM"
    ],
@@ -31499,8 +31499,8 @@
     "btu:idc.8.18"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q193785",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TABOR, MONTE",
     "nv:btu:idc.4.6",
@@ -31698,8 +31698,8 @@
     "btu:idc.2.9"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2157993",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TIMNAT-CHERES, TIMNAT-SERACH",
     "nv:btu:ios.19.50",
@@ -31750,8 +31750,8 @@
     "btu:ios.16.6"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q25487926",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.16.6"
    ]
@@ -31775,8 +31775,8 @@
     "btu:ios.12.17"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q128791667",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TAPPUACH"
    ]
@@ -31797,8 +31797,8 @@
     "btu:ios.15.34"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139673831",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TAPPUACH"
    ]
@@ -31998,8 +31998,8 @@
     "btu:is.37.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7695653",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TELASSAR"
    ]
@@ -32021,8 +32021,8 @@
     "btu:ne.7.61"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139659626",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:esd.2.59",
     "nv:btu:ne.7.61"
@@ -32045,8 +32045,8 @@
     "btu:ne.7.61"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139659636",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:esd.2.59",
     "nv:btu:ne.7.61"
@@ -32136,8 +32136,8 @@
     "btu:2reg.15.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2002121",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TIRZA#2"
    ],
@@ -32246,8 +32246,8 @@
     "btu:1par.4.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139550545",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1par.4.31",
     "nv:btu:1par.4.32"
@@ -32293,8 +32293,8 @@
     "btu:1par.4.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139550375",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:1par.4.28",
     "nv:btu:1par.4.29"
@@ -32442,8 +32442,8 @@
     "btu:dn.10.4"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q35591",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TIGRI"
    ]
@@ -32491,8 +32491,8 @@
     "btu:ier.7.32"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1298788",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TOFET"
    ]
@@ -32523,8 +32523,8 @@
     "btu:is.27.12"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q1252077",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TORRENTE D'EGITTO"
    ],
@@ -32619,8 +32619,8 @@
     "btu:1reg.17.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q16257950",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHERIT"
    ]
@@ -32765,8 +32765,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139549855",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ne.3.11",
     "nv:btu:ne.12.38"
@@ -32799,8 +32799,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139549789",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CANANEEL",
     "nv:btu:ne.12.39",
@@ -32833,8 +32833,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q139549840",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ne.3.1",
     "nv:btu:ne.12.39"
@@ -32891,8 +32891,8 @@
      ]
     }
    ],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q82070",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TIRO"
    ],
@@ -32965,8 +32965,8 @@
     "btu:dn.8.16"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7878692",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ULAI"
    ]
@@ -33211,8 +33211,8 @@
     "btu:os.1.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q763829",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.17.16",
     "nv:btu:idc.6.33"
@@ -33283,8 +33283,8 @@
     "btu:ez.39.15"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q7912329",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ez.39.11",
     "nv:btu:ez.39.15"
@@ -33313,8 +33313,8 @@
     "btu:is.17.5"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q446380",
+   "qid_status": "adjudicated",
    "evidence": [
     "nv:btu:ios.15.8",
     "nv:btu:2sam.5.18"
@@ -33436,8 +33436,8 @@
     "btu:1sam.17.19"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q862725",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EKRON",
     "nv:btu:1sam.17.2",
@@ -33606,8 +33606,8 @@
     "btu:dt.2.14"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q2451612",
+   "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ZERED"
    ]

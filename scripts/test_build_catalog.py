@@ -183,6 +183,14 @@ class ConjecturesTest(unittest.TestCase):
         self.assertEqual(st([bj("rejects")], self.SOURCES), "rejected")
         self.assertEqual(st([bj("doubts"), tip], self.SOURCES), "doubted")
 
+    def test_a_publication_has_its_own_weight(self):
+        from build_catalog import conjecture_status as st
+        src = dict(self.SOURCES, pub={"authority": "per publication"},
+                   **{"pub:meier-1992": {"authority": "authoritative"}, "pub:blog-2020": {"authority": "non-authoritative"}})
+        self.assertEqual(st([{"by": "pub:meier-1992#p12", "says": "suggests"}], src), "supported")
+        self.assertEqual(st([{"by": "pub:blog-2020", "says": "identifies"}], src), "unsupported")
+        self.assertEqual(st([{"by": "pub:unlisted-1999", "says": "identifies"}], src), "unsupported")
+
     def test_built_on_the_source_entry_unresolved_reported(self):
         c = {"source": "bpers:philippus.tetrarcha", "target": "bpers:herodes-magnus", "rel": "possibly_same_as",
              "opinions": [{"by": "tipnr:X@Mat.1.1", "says": "identifies", "summary": "x"}]}

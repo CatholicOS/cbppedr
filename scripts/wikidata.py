@@ -14,6 +14,10 @@ An item of the class "human biblical figure" (Q20643955) counts as biblical; so 
 description with a biblical word, and, for a homonym, a biblical setting. Candidates listed
 under "rejected" in qids.json (judged wrong on review) are never picked.
 
+"adjudicated" items were chosen among the candidates by a System One model (TypeSafe's Jev,
+`by` and `p_same` recorded) from each item's Wikidata facts, and checked on review; like
+"reviewed" ones they are kept on later runs, unless the item is rejected.
+
 Usage: python wikidata.py [--rematch]   (updates data/curated/qids.json)
 """
 
@@ -136,7 +140,7 @@ def judge(eid: str, entry: dict, prev: dict, search: Search, get: Get) -> dict:
 
 
 def dedupe(qids: dict[str, dict]) -> None:
-    """An item auto-matched to two entries, or to an entry while another has it reviewed, fits neither for sure."""
+    """An item auto-matched to two entries, or to an entry while another has it reviewed or adjudicated, fits neither for sure."""
     holders: dict[str, list[str]] = {}
     for eid, v in qids.items():
         if v.get("qid"):
@@ -204,13 +208,14 @@ def main() -> int:
     path = ROOT / "data/curated/qids.json"
     curated = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {
         "$comment": "Wikidata items of the entries. auto: passed the evidence bar (scripts/wikidata.py); "
-                    "reviewed: decided by a person; unresolved: candidates listed for review.",
+                    "reviewed: decided by a person; adjudicated: chosen by a System One model and checked; "
+                    "unresolved: candidates listed for review.",
         "qids": {}}
     done = 0
     for eid, e in by_id.items():
-        if curated["qids"].get(eid, {}).get("status") == "reviewed":
-            continue
         prev = curated["qids"].get(eid, {})
+        if prev.get("status") == "reviewed" or (prev.get("status") == "adjudicated" and prev.get("qid") not in rejected_of(prev)):
+            continue
         if prev and not needs_match(prev, rematch):
             continue  # done in an earlier run
         e = dict(e, _rel_names=[(by_id.get(r["target"]) or {}).get("names", {}).get(n) or ""
@@ -219,7 +224,7 @@ def main() -> int:
         done += 1
         if done % 100 == 0:  # a checkpoint, so an interrupted run keeps its work
             path.write_text(json.dumps(curated, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    curated["qids"] = {k: v for k, v in curated["qids"].items() if k in by_id or v.get("status") == "reviewed"}
+    curated["qids"] = {k: v for k, v in curated["qids"].items() if k in by_id or v.get("status") in ("reviewed", "adjudicated")}
     dedupe(curated["qids"])
     curated["qids"] = dict(sorted(curated["qids"].items()))
     path.write_text(json.dumps(curated, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
