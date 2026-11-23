@@ -47970,8 +47970,8 @@
    "p_same": 0.91
   },
   "bplace:bethania.iuxta-hierusalem": {
-   "qid": null,
-   "status": "unresolved",
+   "qid": "Q831190",
+   "status": "reviewed",
    "candidates": [
     "Q831190",
     "Q1578748",

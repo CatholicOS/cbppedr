@@ -5377,8 +5377,8 @@
     "btu:lc.19.29"
    ],
    "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
+   "qid": "Q831190",
+   "qid_status": "reviewed",
    "evidence": [
     "ndeib:BETANIA#1"
    ],

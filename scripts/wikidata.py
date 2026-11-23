@@ -140,7 +140,7 @@ def judge(eid: str, entry: dict, prev: dict, search: Search, get: Get) -> dict:
 
 
 def dedupe(qids: dict[str, dict]) -> None:
-    """An item auto-matched to two entries, or to an entry while another has it reviewed, fits neither for sure."""
+    """An item auto-matched to two entries, or to an entry while another has it reviewed or adjudicated, fits neither for sure."""
     holders: dict[str, list[str]] = {}
     for eid, v in qids.items():
         if v.get("qid"):
@@ -224,7 +224,7 @@ def main() -> int:
         done += 1
         if done % 100 == 0:  # a checkpoint, so an interrupted run keeps its work
             path.write_text(json.dumps(curated, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    curated["qids"] = {k: v for k, v in curated["qids"].items() if k in by_id or v.get("status") == "reviewed"}
+    curated["qids"] = {k: v for k, v in curated["qids"].items() if k in by_id or v.get("status") in ("reviewed", "adjudicated")}
     dedupe(curated["qids"])
     curated["qids"] = dict(sorted(curated["qids"].items()))
     path.write_text(json.dumps(curated, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
