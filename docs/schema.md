@@ -18,7 +18,7 @@ The structure of every file. What each term means (types, kinds, relations, `sam
   "conjectures": [{"rel": "possibly_same_as", "target": "<id>", "status": "supported",
                    "opinions": [{"by": "bj:note:…", "says": "suggests", "summary": "…"}]}],
   "qid": "Q… | null",
-  "qid_status": "auto | reviewed | unresolved",
+  "qid_status": "auto | reviewed | adjudicated | unresolved",
   "evidence": ["ndeib:FILIPPO#1"],
   "review": "uncertain"
 }}}
@@ -29,7 +29,7 @@ The structure of every file. What each term means (types, kinds, relations, `sam
 - **labels** (only where needed): for an attested unit where the entry is not called by its catalogued names, how each edition names it there: `as` is `name` (another name the entry bears: Cephas, Saul, Zion) or `designation` (a title or description the context ties to it: "the king of Israel" in the Joram narrative); `editions` maps each edition that carries it (`NVBSE`, `VGCL`, `CEI2008`, `NABRE`, `DRB`) to the label as printed, at most six words. An edition missing from the map does not name or designate the entry in that verse (e.g. "the prophet" in 2 Kgs 2:24 is only the NABRE's), so an application can keep only the units its edition supports.
 - **relations:** `child_of`, `parent_of`, `spouse_of`, `sibling_of`, `eponym_of`, `people_of`, `land_of`, `located_in`, `part_of`, `participant`, `same_as`; stated one way, from the entry to `target`, as the evidence states it. Each relation's meaning and the types of its source and target: [vocabulary.md](vocabulary.md#relations).
 - **conjectures** (only where any): identities and attestations the text does not settle; see [Conjectures](#conjectures).
-- **qid / qid_status:** the entry's Wikidata item and how it was set (`auto`, `reviewed`, `unresolved`).
+- **qid / qid_status:** the entry's Wikidata item and how it was set (`auto`, `reviewed`, `adjudicated`, `unresolved`).
 - **evidence:** locations, never text. `ndeib:<HEADWORD>#<sense>` is a sense of the *Nuovo Dizionario Enciclopedico Illustrato della Bibbia* (`~n` numbers a repeated headword or a restarted numbering); `bj:herodian-tree` the Jerusalem Bible's Hasmonean and Herodian family tree, curated as explicit relations between ids in `data/curated/bj-tree.json`; `bj:note:<Book>.<ref>#p<page>` or `bj:intro:<section>#p<page>` a note or introduction of the Jerusalem Bible that states the fact. `nv:<unit>` (e.g. `nv:btu:ne.12.36`) is a verse of the Nova Vulgata, cited where the Bible text alone establishes the entry or tells it from its homonyms (a patronym, an office, a place, a time); STEPBible's TIPNR may point to such verses, but is never itself the evidence.
 - **review: "uncertain":** the reviewer could not settle the identity from the source (for example, whether two senses are one person).
 
@@ -46,7 +46,7 @@ The catalog states an identity (`same_as`) or an attestation only when the Bible
 
 - **rel:** `possibly_same_as` (with `target`, another entry: the two may be one) or `possibly_attested_at` (with `unit`: a figure in that verse, unnamed or named otherwise, may be this entry).
 - **opinions:** `by` is a source location, `says` one of `identifies`, `suggests`, `doubts`, `rejects`, and `summary` a few words of our own (never the source's text).
-- **Sources** (`data/curated/sources.json`) say whose opinion it is and how much it weighs. *Authoritative*: a published scholarly work cited by location, such as a note or a book's introduction in the Jerusalem Bible (`bj:note:<Book>.<ref>#p<page>`, `bj:intro:<section>#p<page>`) or a sense of the dictionary (`ndeib:<KEY>`, the headword with `#<sense>` where its senses are numbered). *Non-authoritative*: a claim without references, such as STEPBible's TIPNR (`tipnr:<name>`), or a reviewer's inference (`reviewer:<round>`), kept as a lead until an authoritative source is found.
+- **Sources** (`data/curated/sources.json`) say whose opinion it is and how much it weighs. *Authoritative*: a published scholarly work cited by location, such as a note or a book's introduction in the Jerusalem Bible (`bj:note:<Book>.<ref>#p<page>`, `bj:intro:<section>#p<page>`) or a sense of the dictionary (`ndeib:<KEY>`, the headword with `#<sense>` where its senses are numbered). Another published work is cited as `pub:<first author's surname>-<year>#p<page>` and listed in `sources.json` with its own authority: authoritative when it is Catholic or peer-reviewed. *Non-authoritative*: a claim without references, such as STEPBible's TIPNR (`tipnr:<name>`), a reviewer's inference (`reviewer:<round>`), or a work that is neither Catholic nor peer-reviewed, kept as a lead until an authoritative source is found.
 - **status**, computed by the build from the authoritative opinions only: `supported` (one identifies or suggests it, none doubts or rejects it), `disputed` (they disagree), `rejected` (one rejects it, none is for it), `doubted` (they only doubt it), `unsupported` (no authoritative opinion yet).
 - A conjecture never changes `attested` or `same_as`.
 
@@ -81,7 +81,7 @@ The reviewed decisions the catalogs are built from, in `data/curated/`. Ids are 
 | `labels.json` | by id and unit, how each edition names or designates the entry where it is not called by its catalogued names | `{"entries": {"<id>": {"btu:2reg.2.24": {"as": "designation", "editions": {"NABRE": "The prophet"}}}}}` |
 | `conjectures.json` | the conjectures, with every opinion; the build adds each to its source entry with a computed `status` | `{"conjectures": [{"source": "<id>", "rel": "possibly_same_as", "target": "<id>", "opinions": [{"by": "bj:note:…", "says": "suggests", "summary": "…"}]}, {"source": "<id>", "rel": "possibly_attested_at", "unit": "btu:…", "opinions": […]}]}` |
 | `sources.json` | the register of sources conjectures may cite: whose opinion, its authority, its locator format | `{"sources": {"bj": {"title", "authority": "authoritative", "locator"}}}` |
-| `qids.json` | the Wikidata matches, with the candidates kept for review and the items judged wrong | `{"qids": {"<id>": {"qid": "Q… \| null", "status": "auto \| reviewed \| unresolved", "candidates": ["Q…"], "rejected": ["Q…"], "deduped": true}}}`; `rejected`: items a reviewer judged wrong, never picked, and an entry holding one is matched again; `deduped`: the automatic pick was cleared because another entry had the same item, so the next run judges it again |
+| `qids.json` | the Wikidata matches, with the candidates kept for review and the items judged wrong | `{"qids": {"<id>": {"qid": "Q… \| null", "status": "auto \| reviewed \| adjudicated \| unresolved", "candidates": ["Q…"], "rejected": ["Q…"], "deduped": true, "by": "jev-1.14.0", "p_same": 0.9}}}`; `by`, `p_same`: the model that adjudicated the item and its probability; `rejected`: items a reviewer judged wrong, never picked, and an entry holding one is matched again; `deduped`: the automatic pick was cleared because another entry had the same item, so the next run judges it again |
 
 ## Build report
 

@@ -129,7 +129,8 @@ STANCES = {"identifies", "suggests", "doubts", "rejects"}
 STATUSES = {"supported", "disputed", "rejected", "doubted", "unsupported"}
 LOCATOR = {"bj": re.compile(r"^bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?$"),
            "ndeib": re.compile(r"^ndeib:[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9 ,'’().~-]*(#[0-9IVX]+)?$"), "tipnr": re.compile(r"^tipnr:\S+@\S+$"),
-           "reviewer": re.compile(r"^reviewer:\S+$")}
+           "reviewer": re.compile(r"^reviewer:\S+$"),
+           "pub": re.compile(r"^pub:[a-z][a-z0-9]*(?:-[a-z0-9]+)*-\d{4}[a-z]?(#[\w.,-]+)?$")}
 
 
 def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dict],
@@ -161,6 +162,8 @@ def conjecture_problems(eid: str, e: dict, ids: set[str], sources: dict[str, dic
             src = by.split(":")[0]
             if src not in sources or src not in LOCATOR or not LOCATOR[src].match(by):
                 out.append(f"{eid}: conjecture opinion by {by!r}")
+            elif src == "pub" and sources.get(by.split("#")[0], {}).get("authority") not in ("authoritative", "non-authoritative"):
+                out.append(f"{eid}: publication {by.split('#')[0]!r} not listed in sources.json with its authority")
             if o.get("says") not in STANCES:
                 out.append(f"{eid}: conjecture opinion says {o.get('says')!r}")
             summ = o.get("summary") or ""

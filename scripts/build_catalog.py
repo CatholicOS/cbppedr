@@ -58,12 +58,19 @@ def _discriminated(eid: str) -> bool:
     return "." in eid.split(":", 1)[1]
 
 
+def authority(by: str, sources: dict[str, dict]) -> str | None:
+    """A locator's weight: a publication's own (`pub:<key>`, listed in sources.json), else its source's."""
+    key = by.split("#")[0]
+    if key.startswith("pub:"):
+        return (sources.get(key) or {}).get("authority")
+    return (sources.get(key.split(":")[0]) or {}).get("authority")
+
+
 def conjecture_status(opinions: list[dict], sources: dict[str, dict]) -> str:
     """From the authoritative opinions only: supported (one identifies or suggests it, none doubts
     or rejects it), disputed (they disagree), rejected (one rejects it, none is for it), doubted
     (they only doubt it); unsupported when no authoritative source has spoken (leads only)."""
-    stances = {o.get("says") for o in opinions
-               if (sources.get(str(o.get("by", "")).split(":")[0]) or {}).get("authority") == "authoritative"}
+    stances = {o.get("says") for o in opinions if authority(str(o.get("by", "")), sources) == "authoritative"}
     pro, con = bool(stances & {"identifies", "suggests"}), bool(stances & {"doubts", "rejects"})
     if pro:
         return "disputed" if con else "supported"

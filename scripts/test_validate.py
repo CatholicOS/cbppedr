@@ -103,6 +103,12 @@ class ConjectureTest(unittest.TestCase):
         self.assertEqual(len(shared), 1, shared)
         self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [dict(good, opinions=[
             {"by": "ndeib:x y z", "says": "suggests", "summary": "s"}])]}, {"bpers:a", "bpers:b"}, src)), 1)
+        psrc = dict(src, pub={}, **{"pub:meier-1992": {"authority": "authoritative"}})
+        pub = lambda by: conjecture_problems("bpers:a", {"conjectures": [dict(good, opinions=[
+            {"by": by, "says": "suggests", "summary": "s"}])]}, {"bpers:a", "bpers:b"}, psrc)
+        self.assertEqual(pub("pub:meier-1992#p12"), [])
+        self.assertEqual(len(pub("pub:brown-1994#p5")), 1)  # not listed
+        self.assertEqual(len(pub("pub:Meier 1992")), 1)  # malformed
         bad = dict(good, status="maybe", opinions=[{"by": "wiki:x", "says": "thinks", "summary": ""}])
         self.assertEqual(len(conjecture_problems("bpers:a", {"conjectures": [bad]}, {"bpers:a", "bpers:b"}, src)), 4)
 
