@@ -342,6 +342,34 @@ def mention_file_problems(ids: set[str]) -> list[str]:
     return out
 
 
+def detail_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
+    """data/details.json: ids exist and are reviewed or adjudicated; ranges; plain-text credits; no coords for a person."""
+    out: list[str] = []
+    for eid, d in doc.get("entries", {}).items():
+        e = entries.get(eid)
+        if e is None:
+            out.append(f"details {eid}: no such entry")
+            continue
+        if e.get("qid_status") not in ("reviewed", "adjudicated"):
+            out.append(f"details {eid}: qid_status {e.get('qid_status')!r} is not reviewed or adjudicated")
+        c = d.get("coords")
+        if c is not None:
+            if e.get("type") != "place":
+                out.append(f"details {eid}: coordinates on a {e.get('type')}")
+            lat, lon = c.get("lat"), c.get("lon")
+            if not isinstance(lat, (int, float)) or isinstance(lat, bool) or not -90 <= lat <= 90:
+                out.append(f"details {eid}: lat {lat!r} out of range")
+            if not isinstance(lon, (int, float)) or isinstance(lon, bool) or not -180 <= lon <= 180:
+                out.append(f"details {eid}: lon {lon!r} out of range")
+        img = d.get("image")
+        if img is not None:
+            if "license_url" in img and not re.match(r"^https?://\S+$", str(img["license_url"])):
+                out.append(f"details {eid}: license_url is not http(s)")
+            if re.search(r"<[^>]*>", str(img.get("author", ""))):
+                out.append(f"details {eid}: HTML in author")
+    return out
+
+
 def main() -> int:
     catalogs = {n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8")) for n in PREFIX}
     p = problems(catalogs)
@@ -357,6 +385,10 @@ def main() -> int:
     if u_path.exists():
         p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)
     p += mention_file_problems(ids)
+    d_path = ROOT / "data/details.json"
+    if d_path.exists():
+        p += detail_problems(json.loads(d_path.read_text(encoding="utf-8")),
+                             {eid: e for cat in catalogs.values() for eid, e in cat["entries"].items()})
     for x in p:
         print(x)
     print(f"{sum(len(c['entries']) for c in catalogs.values())} entries, {len(p)} problems")

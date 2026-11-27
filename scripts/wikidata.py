@@ -157,8 +157,10 @@ def dedupe(qids: dict[str, dict]) -> None:
 _last = [0.0]
 
 
-def _call(params: dict) -> dict:
+def _call(params: dict, api: str = API) -> dict:
     key = urllib.parse.urlencode(sorted(params.items()))
+    if api != API:  # another service, its own cache entries; Wikidata keys stay as they were
+        key = urllib.parse.urlparse(api).netloc + "&" + key
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / (re.sub(r"[^\w.-]", "_", key)[:180] + ".json")
     if path.exists():
@@ -166,7 +168,7 @@ def _call(params: dict) -> dict:
     wait = 1.0 - (time.time() - _last[0])
     if wait > 0:
         time.sleep(wait)
-    req = urllib.request.Request(f"{API}?{key}&format=json", headers={"User-Agent": UA})
+    req = urllib.request.Request(f"{api}?{urllib.parse.urlencode(sorted(params.items()))}&format=json", headers={"User-Agent": UA})
     for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
