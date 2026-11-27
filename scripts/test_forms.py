@@ -27,8 +27,22 @@ class ProposeTest(unittest.TestCase):
         self.assertEqual(propose("Elias"), ["Elias", "Eliae", "Eliæ", "Eliam", "Elia"])
 
     def test_multiword_case_aligned(self):
-        self.assertEqual(propose("Iesus Christus"),
+        self.assertEqual(propose("Iesus Christus")[:5],
                          ["Iesus Christus", "Iesu Christi", "Iesu Christo", "Iesum Christum", "Iesu Christe"])
+
+    def test_multiword_adds_head_forms(self):
+        self.assertEqual(propose("Iesus Christus"),
+                         ["Iesus Christus", "Iesu Christi", "Iesu Christo", "Iesum Christum", "Iesu Christe",
+                          "Iesus", "Iesu", "Iesum"])
+
+    def test_stoplisted_head_not_added(self):
+        forms = propose("Mare Rubrum")
+        self.assertNotIn("Mare", forms)
+        self.assertEqual(forms[0], "Mare Rubrum")
+
+    def test_head_nominative_kept_when_another_entrys_name(self):
+        self.assertIn("Iesus", propose("Iesus Christus", reserved=frozenset({"Iesus", "Iesu"})))
+        self.assertNotIn("Iesu", propose("Iesus Christus", reserved=frozenset({"Iesus", "Iesu"})))
 
     def test_short_stem_keeps_only_nominative(self):
         for name in ("Mes", "Chus", "Alus", "Ara", "Sua", "Ada"):
@@ -58,7 +72,7 @@ class ProposeTest(unittest.TestCase):
     def test_multiword_declines_each_word(self):
         forms = propose("Ioannes Baptista")
         self.assertEqual(forms[0], "Ioannes Baptista")
-        self.assertEqual(forms[1:], ["Ioanni Baptistae", "Ioanni Baptistæ", "Ioannen Baptistam", "Ioanne Baptista"])
+        self.assertEqual(forms[1:5], ["Ioanni Baptistae", "Ioanni Baptistæ", "Ioannen Baptistam", "Ioanne Baptista"])
 
 
 class BuildTest(unittest.TestCase):
@@ -83,12 +97,12 @@ class BuildTest(unittest.TestCase):
         forms = build(cat, {})["bpers:x"]
         self.assertIn("Cephas", forms)
         self.assertIn("Cephae", forms)
-        self.assertIn("Cephas", forms)
         self.assertEqual(forms[0], "Petrus")
 
     def test_form_equal_to_another_entrys_name_dropped(self):
-        cat = catalog(**{"bpers:adam": {"names": {"la": "Adam"}}, "bpers:ada": {"names": {"la": "Adama"}}})
-        self.assertEqual(build(cat, {})["bpers:ada"], ["Adama", "Adamae", "Adamæ", "Adamam"])
+        cat = catalog(**{"bpers:x": {"names": {"la": "Arama"}}, "bpers:y": {"names": {"la": "Aramam"}}})
+        self.assertEqual(build(cat, {})["bpers:x"], ["Arama", "Aramae", "Aramæ"])
+        self.assertEqual(build(cat, {})["bpers:y"][0], "Aramam")
         cat = catalog(**{"bpers:a": {"names": {"la": "Petrus"}}, "bpers:b": {"names": {"la": "Petri"}}})
         self.assertEqual(build(cat, {})["bpers:a"], ["Petrus", "Petro", "Petrum", "Petre"])
 

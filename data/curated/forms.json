@@ -297,7 +297,8 @@
    "Absque misericordia",
    "Absque misericordiae",
    "Absque misericordiæ",
-   "Absque misericordiam"
+   "Absque misericordiam",
+   "Absque"
   ],
   "bpers:acar.ram-filius": [
    "Acar"
@@ -1064,7 +1065,8 @@
   "bpers:ammonitae": [
    "Ammonitae",
    "Ammonitæ",
-   "filios Ammon"
+   "filios Ammon",
+   "filios"
   ],
   "bpers:amnon.david-filius": [
    "Amnon"
@@ -2705,7 +2707,12 @@
    "Iacobo et Ioanni",
    "Iacobum et Ioannen",
    "Iacobo et Ioanne",
-   "Iacobe et Ioannes"
+   "Iacobe et Ioannes",
+   "Iacobus",
+   "Iacobi",
+   "Iacobo",
+   "Iacobum",
+   "Iacobe"
   ],
   "bpers:bocci.iogli-filius": [
    "Bocci"
@@ -2793,7 +2800,12 @@
    "Gaio Caligulæ",
    "Gaium Caligulam",
    "Gaio Caligula",
-   "Gaie Caligula"
+   "Gaie Caligula",
+   "Gaius",
+   "Gaii",
+   "Gaio",
+   "Gaium",
+   "Gaie"
   ],
   "bpers:camuel.filius-nachor": [
    "Camuel"
@@ -3089,7 +3101,12 @@
    "Claudio Lysiæ",
    "Claudium Lysiam",
    "Claudio Lysia",
-   "Claudie Lysia"
+   "Claudie Lysia",
+   "Claudius",
+   "Claudii",
+   "Claudio",
+   "Claudium",
+   "Claudie"
   ],
   "bpers:claudius.imperator": [
    "Claudius",
@@ -3383,7 +3400,12 @@
    "Dionysio Areopagitæ",
    "Dionysium Areopagitam",
    "Dionysio Areopagita",
-   "Dionysie Areopagita"
+   "Dionysie Areopagita",
+   "Dionysius",
+   "Dionysii",
+   "Dionysio",
+   "Dionysium",
+   "Dionysie"
   ],
   "bpers:diotrephes": [
    "Diotrephes",
@@ -4368,7 +4390,11 @@
    "filia Sue",
    "filiae Sue",
    "filiæ Sue",
-   "filiam Sue"
+   "filiam Sue",
+   "filia",
+   "filiae",
+   "filiæ",
+   "filiam"
   ],
   "bpers:fortunatus": [
    "Fortunatus",
@@ -5698,7 +5724,12 @@
    "Iacobi minor",
    "Iacobo minor",
    "Iacobum minor",
-   "Iacobe minor"
+   "Iacobe minor",
+   "Iacobus",
+   "Iacobi",
+   "Iacobo",
+   "Iacobum",
+   "Iacobe"
   ],
   "bpers:iacobus.pater-iudae": [
    "Iacobus",
@@ -6647,7 +6678,10 @@
    "Iesu Christi",
    "Iesu Christo",
    "Iesum Christum",
-   "Iesu Christe"
+   "Iesu Christe",
+   "Iesus",
+   "Iesu",
+   "Iesum"
   ],
   "bpers:iesus.eliezer-filius": [
    "Iesus",
@@ -6870,7 +6904,11 @@
    "Ioanni Baptistae",
    "Ioanni Baptistæ",
    "Ioannen Baptistam",
-   "Ioanne Baptista"
+   "Ioanne Baptista",
+   "Ioannes",
+   "Ioanni",
+   "Ioannen",
+   "Ioanne"
   ],
   "bpers:ioannes-marcus": [
    "Ioannes Marcus",
@@ -6878,7 +6916,11 @@
    "Ioanni Marco",
    "Ioannen Marcum",
    "Ioanne Marco",
-   "Ioannes Marce"
+   "Ioannes Marce",
+   "Ioannes",
+   "Ioanni",
+   "Ioannen",
+   "Ioanne"
   ],
   "bpers:ioannes.apostolus": [
    "Ioannes",
@@ -7572,7 +7614,11 @@
    "Iudæ Iscarioti",
    "Iudam Iscarioten",
    "Iuda Iscariote",
-   "Iuda Iscariotes"
+   "Iuda Iscariotes",
+   "Iudas",
+   "Iudae",
+   "Iudæ",
+   "Iudam"
   ],
   "bpers:iudas.asanae-filius": [
    "Iudas",
@@ -8134,7 +8180,8 @@
    "Mahazioth"
   ],
   "bpers:maher-salal-has-baz": [
-   "Maher Salal Has Baz"
+   "Maher Salal Has Baz",
+   "Maher"
   ],
   "bpers:mahida": [
    "Mahida",
@@ -8295,7 +8342,10 @@
    "Maria Magdalene",
    "Mariae Magdalene",
    "Mariæ Magdalene",
-   "Mariam Magdalene"
+   "Mariam Magdalene",
+   "Maria",
+   "Mariae",
+   "Mariæ"
   ],
   "bpers:maria.mater-iacobi": [
    "Maria",
@@ -10412,7 +10462,8 @@
    "Phlegon"
   ],
   "bpers:phochereth-hassebaim": [
-   "Phochereth Hassebaim"
+   "Phochereth Hassebaim",
+   "Phochereth"
   ],
   "bpers:phoebe": [
    "Phoebe",
@@ -10473,7 +10524,12 @@
    "Pontii Pilati",
    "Pontio Pilato",
    "Pontium Pilatum",
-   "Pontie Pilate"
+   "Pontie Pilate",
+   "Pontius",
+   "Pontii",
+   "Pontio",
+   "Pontium",
+   "Pontie"
   ],
   "bpers:priscilla": [
    "Priscilla",
@@ -10691,7 +10747,11 @@
    "regina Saba",
    "reginae Sabae",
    "reginæ Sabæ",
-   "reginam Sabam"
+   "reginam Sabam",
+   "regina",
+   "reginae",
+   "reginæ",
+   "reginam"
   ],
   "bpers:regma.chus-filius": [
    "Regma",
@@ -12148,7 +12208,12 @@
    "Sergii Pauli",
    "Sergio Paulo",
    "Sergium Paulum",
-   "Sergie Paule"
+   "Sergie Paule",
+   "Sergius",
+   "Sergii",
+   "Sergio",
+   "Sergium",
+   "Sergie"
   ],
   "bpers:seror": [
    "Seror"
@@ -12246,6 +12311,7 @@
    "Simon Petro",
    "Simon Petrum",
    "Simon Petre",
+   "Simon",
    "Cephæ",
    "Cephae",
    "Cephas",
@@ -12941,14 +13007,24 @@
    "Titii Iusti",
    "Titio Iusto",
    "Titium Iustum",
-   "Titie Iuste"
+   "Titie Iuste",
+   "Titius",
+   "Titii",
+   "Titio",
+   "Titium",
+   "Titie"
   ],
   "bpers:titus-flavius-vespasianus": [
    "Titus Flavius Vespasianus",
    "Titi Flavii Vespasiani",
    "Tito Flavio Vespasiano",
    "Titum Flavium Vespasianum",
-   "Tite Flavie Vespasiane"
+   "Tite Flavie Vespasiane",
+   "Titus",
+   "Titi",
+   "Tito",
+   "Titum",
+   "Tite"
   ],
   "bpers:titus.socius-pauli": [
    "Titus",
@@ -12980,7 +13056,12 @@
    "tribum Israel",
    "tribum Isræl",
    "tribe Israel",
-   "tribe Isræl"
+   "tribe Isræl",
+   "tribus",
+   "tribi",
+   "tribo",
+   "tribum",
+   "tribe"
   ],
   "bpers:trophimus": [
    "Trophimus",
@@ -13884,10 +13965,12 @@
    "Æthiopiam"
   ],
   "bplace:ager-fullonis": [
-   "ager Fullonis"
+   "ager Fullonis",
+   "ager"
   ],
   "bplace:ager-laterum": [
-   "ager Laterum"
+   "ager Laterum",
+   "ager"
   ],
   "bplace:ahalab": [
    "Ahalab"
@@ -14048,11 +14131,14 @@
    "Apolloniam"
   ],
   "bplace:appii-forum": [
-   "Appii Forum"
+   "Appii Forum",
+   "Appii"
   ],
   "bplace:aquae-nemrim": [
    "aquae Nemrim",
-   "aquæ Nemrim"
+   "aquæ Nemrim",
+   "aquae",
+   "aquæ"
   ],
   "bplace:ar": [
    "Ar"
@@ -14104,7 +14190,11 @@
    "area Nachon",
    "areae Nachon",
    "areæ Nachon",
-   "aream Nachon"
+   "aream Nachon",
+   "area",
+   "areae",
+   "areæ",
+   "aream"
   ],
   "bplace:arebba": [
    "Arebba",
@@ -14199,7 +14289,12 @@
    "ascenso Hari",
    "ascensum Haren",
    "ascenso Hare",
-   "ascense Hares"
+   "ascense Hares",
+   "ascensus",
+   "ascensi",
+   "ascenso",
+   "ascensum",
+   "ascense"
   ],
   "bplace:aschenez": [
    "Aschenez"
@@ -14308,7 +14403,11 @@
    "aula principis sacerdotum",
    "aulae principis sacerdotum",
    "aulæ principis sacerdotum",
-   "aulam principis sacerdotum"
+   "aulam principis sacerdotum",
+   "aula",
+   "aulae",
+   "aulæ",
+   "aulam"
   ],
   "bplace:auran": [
    "Auran"
@@ -14390,7 +14489,8 @@
   ],
   "bplace:baalpharasim": [
    "Baalpharasim",
-   "monte Pharasim"
+   "monte Pharasim",
+   "monte"
   ],
   "bplace:baalsalisa": [
    "Baalsalisa",
@@ -14638,10 +14738,12 @@
    "Nemram"
   ],
   "bplace:bethoron.inferior": [
-   "Bethoron inferior"
+   "Bethoron inferior",
+   "Bethoron"
   ],
   "bplace:bethoron.superior": [
-   "Bethoron superior"
+   "Bethoron superior",
+   "Bethoron"
   ],
   "bplace:bethphegor": [
    "Bethphegor"
@@ -14669,7 +14771,12 @@
    "domi Solis",
    "domo Solis",
    "domum Solis",
-   "dome Solis"
+   "dome Solis",
+   "domus",
+   "domi",
+   "domo",
+   "domum",
+   "dome"
   ],
   "bplace:bethsames.issachar": [
    "Bethsames",
@@ -14756,7 +14863,8 @@
    "Boni Porti",
    "Boni Porto",
    "Boni Portum",
-   "Boni Porte"
+   "Boni Porte",
+   "Boni"
   ],
   "bplace:booz.columna": [
    "Booz"
@@ -14827,7 +14935,13 @@
    "Caesareae Philippi",
    "Cæsareæ Philippi",
    "Caesaream Philippi",
-   "Cæsaream Philippi"
+   "Cæsaream Philippi",
+   "Caesarea",
+   "Cæsarea",
+   "Caesareae",
+   "Cæsareæ",
+   "Caesaream",
+   "Cæsaream"
   ],
   "bplace:camon": [
    "Camon"
@@ -14836,21 +14950,35 @@
    "campestria Moab",
    "campestriae Moab",
    "campestriæ Moab",
-   "campestriam Moab"
+   "campestriam Moab",
+   "campestria",
+   "campestriae",
+   "campestriæ",
+   "campestriam"
   ],
   "bplace:campus-libani": [
    "campus Libani",
    "campi Libani",
    "campo Libani",
    "campum Libani",
-   "campe Libani"
+   "campe Libani",
+   "campus",
+   "campi",
+   "campo",
+   "campum",
+   "campe"
   ],
   "bplace:campus-speculatorum": [
    "campus speculatorum",
    "campi speculatorum",
    "campo speculatorum",
    "campum speculatorum",
-   "campe speculatorum"
+   "campe speculatorum",
+   "campus",
+   "campi",
+   "campo",
+   "campum",
+   "campe"
   ],
   "bplace:cana.aser": [
    "Cana",
@@ -14868,7 +14996,8 @@
    "torrens Cana",
    "torrens Canae",
    "torrens Canæ",
-   "torrens Canam"
+   "torrens Canam",
+   "torrens"
   ],
   "bplace:canath": [
    "Canath"
@@ -14917,7 +15046,8 @@
    "Cariathusoth"
   ],
   "bplace:carioth-esron": [
-   "Carioth Esron"
+   "Carioth Esron",
+   "Carioth"
   ],
   "bplace:carioth.moab": [
    "Carioth"
@@ -14946,13 +15076,21 @@
    "Castra Dan",
    "Castrae Dan",
    "Castræ Dan",
-   "Castram Dan"
+   "Castram Dan",
+   "Castra",
+   "Castrae",
+   "Castræ",
+   "Castram"
   ],
   "bplace:castra-dan.saraa": [
    "Castra Dan",
    "Castrae Dan",
    "Castræ Dan",
-   "Castram Dan"
+   "Castram Dan",
+   "Castra",
+   "Castrae",
+   "Castræ",
+   "Castram"
   ],
   "bplace:cateth": [
    "Cateth"
@@ -15145,14 +15283,23 @@
    "cisterna Sira",
    "cisternae Sirae",
    "cisternæ Siræ",
-   "cisternam Siram"
+   "cisternam Siram",
+   "cisterna",
+   "cisternae",
+   "cisternæ",
+   "cisternam"
   ],
   "bplace:civitas-salis": [
    "civitas Salis",
    "civitae Salis",
    "civitæ Salis",
    "civitam Salis",
-   "civita Salis"
+   "civita Salis",
+   "civitas",
+   "civitae",
+   "civitæ",
+   "civitam",
+   "civita"
   ],
   "bplace:cnidus": [
    "Cnidus",
@@ -15166,7 +15313,8 @@
   ],
   "bplace:collis-praeputiorum": [
    "collis Praeputiorum",
-   "collis Præputiorum"
+   "collis Præputiorum",
+   "collis"
   ],
   "bplace:colossae": [
    "Colossae",
@@ -15278,10 +15426,12 @@
    "Bethaven"
   ],
   "bplace:desertum-sin": [
-   "desertum Sin"
+   "desertum Sin",
+   "desertum"
   ],
   "bplace:desertum-sinai": [
-   "desertum Sinai"
+   "desertum Sinai",
+   "desertum"
   ],
   "bplace:dibon.iudae": [
    "Dibon"
@@ -15303,7 +15453,12 @@
    "domi Salti Libani",
    "domo Salto Libani",
    "domum Saltum Libani",
-   "dome Salte Libani"
+   "dome Salte Libani",
+   "domus",
+   "domi",
+   "domo",
+   "domum",
+   "dome"
   ],
   "bplace:dor": [
    "Dor"
@@ -15551,7 +15706,11 @@
    "petra Etam",
    "petrae Etam",
    "petræ Etam",
-   "petram Etam"
+   "petram Etam",
+   "petra",
+   "petrae",
+   "petræ",
+   "petram"
   ],
   "bplace:etam.simeon": [
    "Etam"
@@ -15575,22 +15734,28 @@
    "Euphrate"
   ],
   "bplace:fons-draconis": [
-   "fons Draconis"
+   "fons Draconis",
+   "fons"
   ],
   "bplace:fons-harad": [
-   "fons Harad"
+   "fons Harad",
+   "fons"
   ],
   "bplace:fons-iacob": [
-   "fons Iacob"
+   "fons Iacob",
+   "fons"
   ],
   "bplace:fons-invocantis": [
-   "fons Invocantis"
+   "fons Invocantis",
+   "fons"
   ],
   "bplace:fons-rogel": [
-   "fons Rogel"
+   "fons Rogel",
+   "fons"
   ],
   "bplace:fons-solis": [
-   "fons Solis"
+   "fons Solis",
+   "fons"
   ],
   "bplace:gaas": [
    "Gaas"
@@ -15599,7 +15764,11 @@
    "Gabaa Dei",
    "Gabaae Dei",
    "Gabaæ Dei",
-   "Gabaam Dei"
+   "Gabaam Dei",
+   "Gabaa",
+   "Gabaae",
+   "Gabaæ",
+   "Gabaam"
   ],
   "bplace:gabaa.geba": [
    "Gabaa",
@@ -15927,7 +16096,8 @@
    "Harmagedon"
   ],
   "bplace:haroseth-gentium": [
-   "Haroseth gentium"
+   "Haroseth gentium",
+   "Haroseth"
   ],
   "bplace:hasemon": [
    "Hasemon"
@@ -15939,7 +16109,8 @@
    "Hathare"
   ],
   "bplace:havoth-iair": [
-   "Havoth Iair"
+   "Havoth Iair",
+   "Havoth"
   ],
   "bplace:hebron": [
    "Hebron"
@@ -16049,7 +16220,12 @@
    "horti Oza",
    "horto Oza",
    "hortum Oza",
-   "horte Oza"
+   "horte Oza",
+   "hortus",
+   "horti",
+   "horto",
+   "hortum",
+   "horte"
   ],
   "bplace:hosa": [
    "Hosa",
@@ -16064,7 +16240,11 @@
    "Iabes Galaad",
    "Iabi Galaad",
    "Iaben Galaad",
-   "Iabe Galaad"
+   "Iabe Galaad",
+   "Iabes",
+   "Iabi",
+   "Iaben",
+   "Iabe"
   ],
   "bplace:iabes.iudae": [
    "Iabes",
@@ -16195,7 +16375,8 @@
    "Iebum",
    "Iebe",
    "Sion",
-   "montem Sion"
+   "montem Sion",
+   "montem"
   ],
   "bplace:iesana": [
    "Iesana",
@@ -16521,7 +16702,8 @@
   ],
   "bplace:magdaleder": [
    "Magdaleder",
-   "turris gregis"
+   "turris gregis",
+   "turris"
   ],
   "bplace:magdalel": [
    "Magdalel"
@@ -16651,12 +16833,18 @@
    "Massae et Meribae",
    "Massæ et Meribæ",
    "Massam et Meribam",
+   "Massa",
+   "Massae",
+   "Massæ",
+   "Massam",
    "aquæ Meriba",
    "aquae Meriba",
    "aquæ Meribae",
    "aquæ Meribæ",
    "aquæ Meribam",
-   "aquae Meribam"
+   "aquae Meribam",
+   "aquæ",
+   "aquae"
   ],
   "bplace:matthana": [
    "Matthana",
@@ -16784,36 +16972,49 @@
    "mons Calvi",
    "mons Calvo",
    "mons Calvum",
-   "mons Calve"
+   "mons Calve",
+   "mons"
   ],
   "bplace:mons-esau": [
-   "mons Esau"
+   "mons Esau",
+   "mons"
   ],
   "bplace:mons-hebal": [
-   "mons Hebal"
+   "mons Hebal",
+   "mons"
   ],
   "bplace:mons-hor.edom": [
-   "mons Hor"
+   "mons Hor",
+   "mons"
   ],
   "bplace:mons-hor.libani": [
-   "mons Hor"
+   "mons Hor",
+   "mons"
   ],
   "bplace:mons-iudae": [
    "mons Iudae",
-   "mons Iudæ"
+   "mons Iudæ",
+   "mons"
   ],
   "bplace:mons-oliveti": [
    "mons Oliveti",
-   "montis Perditionis"
+   "mons",
+   "montis Perditionis",
+   "montis"
   ],
   "bplace:mons-sepher": [
-   "mons Sepher"
+   "mons Sepher",
+   "mons"
   ],
   "bplace:montes-bether": [
    "montes Bether",
    "monti Bether",
    "monten Bether",
-   "monte Bether"
+   "monte Bether",
+   "montes",
+   "monti",
+   "monten",
+   "monte"
   ],
   "bplace:moreh.collis": [
    "Moreh"
@@ -16847,7 +17048,12 @@
    "muri latior",
    "muro latior",
    "murum latior",
-   "mure latior"
+   "mure latior",
+   "murus",
+   "muri",
+   "muro",
+   "murum",
+   "mure"
   ],
   "bplace:myra": [
    "Myra",
@@ -17078,13 +17284,21 @@
    "Petra dividens",
    "Petrae dividens",
    "Petræ dividens",
-   "Petram dividens"
+   "Petram dividens",
+   "Petra",
+   "Petrae",
+   "Petræ",
+   "Petram"
   ],
   "bplace:petra-oreb": [
    "petra Oreb",
    "petrae Oreb",
    "petræ Oreb",
-   "petram Oreb"
+   "petram Oreb",
+   "petra",
+   "petrae",
+   "petræ",
+   "petram"
   ],
   "bplace:petra.deserti": [
    "Petra",
@@ -17211,25 +17425,41 @@
    "porta Anguli",
    "portae Anguli",
    "portæ Anguli",
-   "portam Anguli"
+   "portam Anguli",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-aquarum": [
    "porta Aquarum",
    "portae Aquarum",
    "portæ Aquarum",
-   "portam Aquarum"
+   "portam Aquarum",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-beniamin.superior": [
    "porta Beniamin superior",
    "portae Beniamin superior",
    "portæ Beniamin superior",
-   "portam Beniamin superior"
+   "portam Beniamin superior",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-beniamin.urbis": [
    "porta Beniamin",
    "portae Beniamin",
    "portæ Beniamin",
-   "portam Beniamin"
+   "portam Beniamin",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-custodiae": [
    "porta Custodiae",
@@ -17237,104 +17467,173 @@
    "portae Custodiae",
    "portæ Custodiæ",
    "portam Custodiae",
-   "portam Custodiæ"
+   "portam Custodiæ",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-ephraim": [
    "porta Ephraim",
    "portae Ephraim",
    "portæ Ephraim",
-   "portam Ephraim"
+   "portam Ephraim",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-equorum": [
    "porta Equorum",
    "portae Equorum",
    "portæ Equorum",
-   "portam Equorum"
+   "portam Equorum",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-fictilium": [
    "porta Fictilium",
    "portae Fictilium",
    "portæ Fictilium",
-   "portam Fictilium"
+   "portam Fictilium",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-filiorum-populi": [
    "porta Filiorum populi",
    "portae Filiorum populi",
    "portæ Filiorum populi",
-   "portam Filiorum populi"
+   "portam Filiorum populi",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-fontis": [
    "porta Fontis",
    "portae Fontis",
    "portæ Fontis",
-   "portam Fontis"
+   "portam Fontis",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-fundamenti": [
    "porta Fundamenti",
    "portae Fundamenti",
    "portæ Fundamenti",
-   "portam Fundamenti"
+   "portam Fundamenti",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-gregis": [
    "porta Gregis",
    "portae Gregis",
    "portæ Gregis",
-   "portam Gregis"
+   "portam Gregis",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-iudicialis": [
    "porta Iudicialis",
    "portae Iudicialis",
    "portæ Iudicialis",
-   "portam Iudicialis"
+   "portam Iudicialis",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-nova": [
    "porta Nova",
    "portae Novae",
    "portæ Novæ",
-   "portam Novam"
+   "portam Novam",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-orientalis.nehemiae": [
    "porta orientalis",
    "portae orientalis",
    "portæ orientalis",
-   "portam orientalis"
+   "portam orientalis",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-piscium": [
    "porta Piscium",
    "portae Piscium",
    "portæ Piscium",
-   "portam Piscium"
+   "portam Piscium",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-sallecheth": [
    "porta Sallecheth",
    "portae Sallecheth",
    "portæ Sallecheth",
-   "portam Sallecheth"
+   "portam Sallecheth",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-speciosa": [
    "porta Speciosa",
    "portae Speciosae",
    "portæ Speciosæ",
-   "portam Speciosam"
+   "portam Speciosam",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-sterquilinii": [
    "porta Sterquilinii",
    "portae Sterquilinii",
    "portæ Sterquilinii",
-   "portam Sterquilinii"
+   "portam Sterquilinii",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-sur": [
    "porta Sur",
    "portae Sur",
    "portæ Sur",
-   "portam Sur"
+   "portam Sur",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porta-vallis": [
    "porta Vallis",
    "portae Vallis",
    "portæ Vallis",
    "portam Vallis",
-   "Portam Vallis"
+   "porta",
+   "portae",
+   "portæ",
+   "portam",
+   "Portam Vallis",
+   "Portam"
   ],
   "bplace:porta-vetus": [
    "porta Vetus",
@@ -17344,28 +17643,47 @@
    "portæ Veto",
    "portam Vetum",
    "porta Veto",
-   "porta Vete"
+   "porta Vete",
+   "porta",
+   "portae",
+   "portæ",
+   "portam"
   ],
   "bplace:porticus-columnarum": [
    "porticus Columnarum",
    "portici Columnarum",
    "portico Columnarum",
    "porticum Columnarum",
-   "portice Columnarum"
+   "portice Columnarum",
+   "porticus",
+   "portici",
+   "portico",
+   "porticum",
+   "portice"
   ],
   "bplace:porticus-salomonis": [
    "porticus Salomonis",
    "portici Salomonis",
    "portico Salomonis",
    "porticum Salomonis",
-   "portice Salomonis"
+   "portice Salomonis",
+   "porticus",
+   "portici",
+   "portico",
+   "porticum",
+   "portice"
   ],
   "bplace:porticus-solii": [
    "porticus Solii",
    "portici Solii",
    "portico Solii",
    "porticum Solii",
-   "portice Solii"
+   "portice Solii",
+   "porticus",
+   "portici",
+   "portico",
+   "porticum",
+   "portice"
   ],
   "bplace:praetorium": [
    "praetorium",
@@ -17383,27 +17701,46 @@
    "querci Augurum",
    "querco Augurum",
    "quercum Augurum",
-   "querce Augurum"
+   "querce Augurum",
+   "quercus",
+   "querci",
+   "querco",
+   "quercum",
+   "querce"
   ],
   "bplace:quercus-fletus": [
    "Quercus fletus",
    "Querci fleti",
    "Querco fleto",
    "Quercum fletum",
-   "Querce flete"
+   "Querce flete",
+   "Quercus",
+   "Querci",
+   "Querco",
+   "Quercum",
+   "Querce"
   ],
   "bplace:quercus-thabor": [
    "quercus Thabor",
    "querci Thabor",
    "querco Thabor",
    "quercum Thabor",
-   "querce Thabor"
+   "querce Thabor",
+   "quercus",
+   "querci",
+   "querco",
+   "quercum",
+   "querce"
   ],
   "bplace:rabba": [
    "Rabba filiorum Ammon",
    "Rabbae filiorum Ammon",
    "Rabbæ filiorum Ammon",
-   "Rabbam filiorum Ammon"
+   "Rabbam filiorum Ammon",
+   "Rabba",
+   "Rabbae",
+   "Rabbæ",
+   "Rabbam"
   ],
   "bplace:rabbith": [
    "Rabbith"
@@ -17445,7 +17782,8 @@
    "Ramesse"
   ],
   "bplace:ramoth-galaad": [
-   "Ramoth in Galaad"
+   "Ramoth in Galaad",
+   "Ramoth"
   ],
   "bplace:ramothmaspha": [
    "Ramothmaspha",
@@ -17481,7 +17819,8 @@
    "Recham"
   ],
   "bplace:regio-gerasenorum": [
-   "regio Gerasenorum"
+   "regio Gerasenorum",
+   "regio"
   ],
   "bplace:regma.terra": [
    "Regma",
@@ -17496,7 +17835,11 @@
    "petra Remmon",
    "petrae Remmon",
    "petræ Remmon",
-   "petram Remmon"
+   "petram Remmon",
+   "petra",
+   "petrae",
+   "petræ",
+   "petram"
   ],
   "bplace:remmon.simeon": [
    "Remmon"
@@ -17571,7 +17914,11 @@
    "rupes ibicum",
    "rupi ibicum",
    "rupen ibicum",
-   "rupe ibicum"
+   "rupe ibicum",
+   "rupes",
+   "rupi",
+   "rupen",
+   "rupe"
   ],
   "bplace:saanan": [
    "Saanan"
@@ -17625,7 +17972,8 @@
    "Salcham"
   ],
   "bplace:salem.convallis": [
-   "convallis Salem"
+   "convallis Salem",
+   "convallis"
   ],
   "bplace:salem.melchisedech": [
    "Salem"
@@ -17656,14 +18004,24 @@
    "salti Ephraim",
    "salto Ephraim",
    "saltum Ephraim",
-   "salte Ephraim"
+   "salte Ephraim",
+   "saltus",
+   "salti",
+   "salto",
+   "saltum",
+   "salte"
   ],
   "bplace:saltus-haret": [
    "saltus Haret",
    "salti Haret",
    "salto Haret",
    "saltum Haret",
-   "salte Haret"
+   "salte Haret",
+   "saltus",
+   "salti",
+   "salto",
+   "saltum",
+   "salte"
   ],
   "bplace:sama": [
    "Sama",
@@ -17703,13 +18061,21 @@
    "Sancta sanctorum",
    "Sanctae sanctorum",
    "Sanctæ sanctorum",
-   "Sanctam sanctorum"
+   "Sanctam sanctorum",
+   "Sancta",
+   "Sanctae",
+   "Sanctæ",
+   "Sanctam"
   ],
   "bplace:sancta-sanctorum.templi": [
    "Sancta sanctorum",
    "Sanctae sanctorum",
    "Sanctæ sanctorum",
-   "Sanctam sanctorum"
+   "Sanctam sanctorum",
+   "Sancta",
+   "Sanctae",
+   "Sanctæ",
+   "Sanctam"
   ],
   "bplace:sanctum.habitaculi": [
    "Sanctum"
@@ -17905,7 +18271,11 @@
    "sepulcra regum",
    "sepulcrae regum",
    "sepulcræ regum",
-   "sepulcram regum"
+   "sepulcram regum",
+   "sepulcra",
+   "sepulcrae",
+   "sepulcræ",
+   "sepulcram"
   ],
   "bplace:ser": [
    "Ser"
@@ -17917,7 +18287,8 @@
    "Settim"
   ],
   "bplace:settim.torrens": [
-   "torrens Settim"
+   "torrens Settim",
+   "torrens"
   ],
   "bplace:siceleg": [
    "Siceleg"
@@ -17995,7 +18366,9 @@
   ],
   "bplace:stagnum-genesareth": [
    "Stagnum Genesareth",
+   "Stagnum",
    "maris Chenereth",
+   "maris",
    "Chenereth",
    "mare Chenereth",
    "mare Galilææ",
@@ -18072,7 +18445,8 @@
    "Tabernaculum conventi",
    "Tabernaculum convento",
    "Tabernaculum conventum",
-   "Tabernaculum convente"
+   "Tabernaculum convente",
+   "Tabernaculum"
   ],
   "bplace:tanis": [
    "Tanis"
@@ -18106,7 +18480,8 @@
    "Templum"
   ],
   "bplace:templum-astharoth": [
-   "templum Astharoth"
+   "templum Astharoth",
+   "templum"
   ],
   "bplace:terra-cham": [
    "terra Cham",
@@ -18271,30 +18646,38 @@
   "bplace:torrens-aegypti": [
    "torrens Aegypti",
    "torrens Ægypti",
-   "fluvio Sihor"
+   "torrens",
+   "fluvio Sihor",
+   "fluvio"
   ],
   "bplace:torrens-arabae": [
    "torrens Arabae",
-   "torrens Arabæ"
+   "torrens Arabæ",
+   "torrens"
   ],
   "bplace:torrens-besor": [
-   "torrens Besor"
+   "torrens Besor",
+   "torrens"
   ],
   "bplace:torrens-charith": [
-   "torrens Charith"
+   "torrens Charith",
+   "torrens"
   ],
   "bplace:torrens-salicum": [
-   "torrens Salicum"
+   "torrens Salicum",
+   "torrens"
   ],
   "bplace:trachonitis": [
    "Trachonitis"
   ],
   "bplace:trans-iordanem": [
-   "trans Iordanem"
+   "trans Iordanem",
+   "trans"
   ],
   "bplace:tres-tabernae": [
    "Tres Tabernae",
-   "Tres Tabernæ"
+   "Tres Tabernæ",
+   "Tres"
   ],
   "bplace:troas": [
    "Troas",
@@ -18304,13 +18687,16 @@
    "Troa"
   ],
   "bplace:turris-furnorum": [
-   "turris Furnorum"
+   "turris Furnorum",
+   "turris"
   ],
   "bplace:turris-hananeel": [
-   "turris Hananeel"
+   "turris Hananeel",
+   "turris"
   ],
   "bplace:turris-meah": [
-   "turris Meah"
+   "turris Meah",
+   "turris"
   ],
   "bplace:tyrus": [
    "Tyrus",
@@ -18327,7 +18713,8 @@
   ],
   "bplace:ur-chaldaeorum": [
    "Ur Chaldaeorum",
-   "Ur Chaldæorum"
+   "Ur Chaldæorum",
+   "Ur"
   ],
   "bplace:us": [
    "Us"
@@ -18342,55 +18729,73 @@
    "vallis Baracha",
    "vallis Barachae",
    "vallis Barachæ",
-   "vallis Baracham"
+   "vallis Baracham",
+   "vallis"
   ],
   "bplace:vallis-filii-ennom": [
    "vallis filii Ennom",
+   "vallis",
    "Topheth"
   ],
   "bplace:vallis-iephthael": [
    "vallis Iephthael",
-   "vallis Iephthæl"
+   "vallis Iephthæl",
+   "vallis"
   ],
   "bplace:vallis-iezrahel": [
-   "vallis Iezrahel"
+   "vallis Iezrahel",
+   "vallis"
   ],
   "bplace:vallis-iosaphat": [
-   "vallis Iosaphat"
+   "vallis Iosaphat",
+   "vallis"
   ],
   "bplace:vallis-multitudinis-gog": [
-   "vallis Multitudinis Gog"
+   "vallis Multitudinis Gog",
+   "vallis"
   ],
   "bplace:vallis-raphaim": [
-   "vallis Raphaim"
+   "vallis Raphaim",
+   "vallis"
   ],
   "bplace:vallis-regis": [
-   "vallis Regis"
+   "vallis Regis",
+   "vallis"
   ],
   "bplace:vallis-salis": [
-   "vallis Salis"
+   "vallis Salis",
+   "vallis"
   ],
   "bplace:vallis-siddim": [
-   "vallis Siddim"
+   "vallis Siddim",
+   "vallis"
   ],
   "bplace:vallis-sorec": [
-   "vallis Sorec"
+   "vallis Sorec",
+   "vallis"
   ],
   "bplace:vallis-terebinthi": [
-   "vallis Terebinthi"
+   "vallis Terebinthi",
+   "vallis"
   ],
   "bplace:via-regia": [
    "via regia",
    "via regiae",
    "via regiæ",
-   "via regiam"
+   "via regiam",
+   "via"
   ],
   "bplace:vicus-rectus": [
    "vicus Rectus",
    "vici Recti",
    "vico Recto",
    "vicum Rectum",
-   "vice Recte"
+   "vice Recte",
+   "vicus",
+   "vici",
+   "vico",
+   "vicum",
+   "vice"
   ],
   "bplace:zabulon": [
    "Zabulon"

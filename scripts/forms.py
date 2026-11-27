@@ -66,6 +66,7 @@ def _other_spelling(form: str) -> str | None:
 
 def propose(name: str, stoplist: frozenset[str] | None = None, reserved: frozenset[str] = frozenset()) -> list[str]:
     """The name first, then its case forms (every declinable word in the same slot), no duplicates.
+    A multiword name is followed by the forms of its first word (unless that is a stoplist word).
     A generated form in the stoplist or in `reserved` (other entries' names) is dropped; a form with
     ae/oe or its ligature is followed by the other spelling."""
     name = name.strip()
@@ -82,6 +83,8 @@ def propose(name: str, stoplist: frozenset[str] | None = None, reserved: frozens
         alt = _other_spelling(f)
         if alt:
             out.append(alt)
+    if len(words) > 1 and words[0].lower() not in stop:
+        out += propose(words[0], stop, reserved)
     return list(dict.fromkeys(out))
 
 
