@@ -16,6 +16,7 @@ import os
 import sys
 from pathlib import Path
 
+from extract_mentions import merged_mentions
 from units import CBTUDR
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -86,7 +87,8 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
           removed: dict[str, list[str]] | None = None,
           labels: dict[str, dict[str, dict]] | None = None,
           conjectures: list[dict] | None = None, sources: dict[str, dict] | None = None,
-          known_units: set[str] | None = None) -> dict:
+          known_units: set[str] | None = None, mentions: dict | None = None,
+          unit_order: list[str] | None = None) -> dict:
     part_units = part_units or {}
     curated = curated or {}
     tree = tree or {}
@@ -171,6 +173,22 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
         report["conflicting_removals"].extend(f"{eid} {u}" for u in gone if u in added)
         if entry is not None:
             entry["attested"] = [u for u in entry["attested"] if u not in set(gone)]
+
+    if mentions:  # settled mentions in verses the entry does not attest (after removals: a review wins)
+        order = {u: i for i, u in enumerate(unit_order or [])}
+        found: dict[str, set[str]] = {}
+        for key, unit in mentions.items():
+            u = key.split("@")[0]
+            for m in unit.get("mentions", []):
+                if m.get("entry") in by_id:
+                    found.setdefault(m["entry"], set()).add(u)
+        for eid, units_in in found.items():
+            entry = by_id[eid]
+            gone = set((removed or {}).get(eid) or [])
+            new = sorted((u for u in units_in if u not in entry["attested"] and u not in gone),
+                         key=lambda u: (order.get(u, len(order)), u))
+            if new:
+                entry["mentioned"] = new
 
     for eid, labs in (labels or {}).items():  # how each edition names or designates the entry there
         entry = by_id.get(eid)
@@ -276,9 +294,16 @@ def main() -> int:
     cj_path, src_path = ROOT / "data/curated/conjectures.json", ROOT / "data/curated/sources.json"
     conjectures = json.loads(cj_path.read_text(encoding="utf-8"))["conjectures"] if cj_path.exists() else []
     sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
-    known_units = {u["id"] for f in (CBTUDR / "data/units").glob("*.json")
-                   for u in json.loads(f.read_text(encoding="utf-8"))["units"]}
-    out = build(decisions, units, tree, part_units, qids, curated, removed, labels, conjectures, sources, known_units)
+    unit_order = [u["id"] for f in sorted((CBTUDR / "data/units").glob("*.json"))
+                  for u in json.loads(f.read_text(encoding="utf-8"))["units"]]
+    known_units = set(unit_order)
+    gen_path, cur_path = ROOT / "data/mentions/nvbse.json", ROOT / "data/mentions/nvbse_curated.json"
+    mentions = None
+    if gen_path.exists():
+        cur = json.loads(cur_path.read_text(encoding="utf-8")) if cur_path.exists() else {"units": {}}
+        mentions = merged_mentions(json.loads(gen_path.read_text(encoding="utf-8")), cur)["units"]
+    out = build(decisions, units, tree, part_units, qids, curated, removed, labels, conjectures, sources, known_units,
+                mentions, unit_order)
     report = out.pop("report")
     for t, data in out.items():
         (ROOT / "data" / f"{t}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

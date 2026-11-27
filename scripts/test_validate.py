@@ -197,3 +197,39 @@ class MentionsTest(unittest.TestCase):
         m = merged_mentions(a, c)
         self.assertEqual({k: v["mentions"] for k, v in m["units"].items()}, {"u1": [9], "u3": [3], "u4": [4]})
         self.assertEqual(a["units"]["u1"]["mentions"], [1])
+
+
+class MentionedFieldTest(unittest.TestCase):
+    def check(self, mentioned, attested=("btu:gn.29.34",)):
+        from validate import problems
+        e = {"type": "person", "kind": "individual", "names": {"it": "a", "en": "a"}, "description": {},
+             "attested": list(attested), "relations": [], "evidence": ["ndeib:A#1"], "mentioned": mentioned}
+        return problems({"persons": {"entries": {"bpers:a": e}}, "places": {"entries": {}}, "events": {"entries": {}}})
+
+    def test_known_unique_and_not_attested(self):
+        self.assertEqual(self.check(["btu:gn.1.1", "btu:gn.1.2"]), [])
+        self.assertTrue(self.check(["btu:gn.99.99"]))
+        self.assertTrue(self.check(["btu:gn.29.34"]))
+        self.assertTrue(self.check(["btu:gn.1.1", "btu:gn.1.1"]))
+
+
+class MentionsNoTextTest(unittest.TestCase):
+    def check(self, value):
+        from validate import mention_text_problems
+        doc = {"$comment": "free text is allowed here", "edition": "NVBSE", "units": {
+            "btu:gn.1.1": {"hash": "a" * 64, "mentions": [{"start": 0, "end": 4, "check": "0123abcd", "entry": value}]}}}
+        return mention_text_problems(doc, "t")
+
+    def test_ids_and_hex_pass(self):
+        self.assertEqual(self.check("bpers:levi"), [])
+        self.assertEqual(self.check("bplace:roma.x"), [])
+
+    def test_text_refused(self):
+        self.assertTrue(self.check("In principio erat Verbum"))
+        self.assertTrue(self.check("Levi"))
+
+    def test_text_in_a_key_or_list_refused(self):
+        doc = {"edition": "NVBSE", "units": {"btu:gn.1.1": {"hash": "a" * 64, "mentions": [
+            {"start": 0, "end": 4, "check": "0123abcd", "candidates": ["bpers:levi", "Et dixit"]}], "text": "Et dixit"}}}
+        from validate import mention_text_problems
+        self.assertEqual(len(mention_text_problems(doc, "t")), 2)

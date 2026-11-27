@@ -91,6 +91,14 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
                         out.append(f"{eid}: label {u} unknown edition {ed}")
                     if not isinstance(text, str) or not text.strip() or len(text.split()) > 6:
                         out.append(f"{eid}: label {u} {ed} empty, not text, or longer than six words")
+            mentioned = e.get("mentioned") or []
+            if len(set(mentioned)) != len(mentioned):
+                out.append(f"{eid}: mentioned units repeat")
+            for u in mentioned:
+                if u not in units:
+                    out.append(f"{eid}: unknown mentioned unit {u}")
+                elif u in e.get("attested", []):
+                    out.append(f"{eid}: mentioned unit {u} is already attested")
             if not e.get("evidence"):
                 out.append(f"{eid}: no evidence")
             for ev in e.get("evidence", []):
@@ -275,6 +283,27 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
     return out
 
 
+ALLOWED_STRING = re.compile(r"^(NVBSE|(bpers|bplace):\S+|btu:\S+?(@(GREEK|HEBREW))?|[0-9a-f]+)$")
+
+
+def mention_text_problems(doc: object, name: str, path: str = "") -> list[str]:
+    """Every string in a mentions file, but `$comment`, is NVBSE, an entry id, a unit key or lowercase hex:
+    a regeneration can never commit the edition's text."""
+    out: list[str] = []
+    if isinstance(doc, dict):
+        for k, v in doc.items():
+            if path == "/units" and not ALLOWED_STRING.match(str(k)):
+                out.append(f"{name} {path}: key {str(k)[:20]!r} is not a unit key")
+            if k != "$comment":
+                out += mention_text_problems(v, name, f"{path}/{k}")
+    elif isinstance(doc, list):
+        for i, v in enumerate(doc):
+            out += mention_text_problems(v, name, f"{path}[{i}]")
+    elif isinstance(doc, str) and not ALLOWED_STRING.match(doc):
+        out.append(f"{name} {path}: string {doc[:20]!r} is neither an id, a unit key nor hex")
+    return out
+
+
 def mention_file_problems(ids: set[str]) -> list[str]:
     from extract_mentions import merged_mentions
     gen_path = ROOT / "data/mentions/nvbse.json"
@@ -284,7 +313,8 @@ def mention_file_problems(ids: set[str]) -> list[str]:
     units = _units()
     gen = json.loads(gen_path.read_text(encoding="utf-8"))
     cur = json.loads(cur_path.read_text(encoding="utf-8")) if cur_path.exists() else {"edition": "NVBSE", "units": {}}
-    out = mention_problems(gen, ids, units, "nvbse.json") + mention_problems(cur, ids, units, "nvbse_curated.json", True)
+    out = mention_text_problems(gen, "nvbse.json") + mention_text_problems(cur, "nvbse_curated.json")
+    out += mention_problems(gen, ids, units, "nvbse.json") + mention_problems(cur, ids, units, "nvbse_curated.json", True)
     out += mention_problems(merged_mentions(gen, cur), ids, units, "merged")
     return out
 
