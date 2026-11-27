@@ -18,7 +18,10 @@ class ProposeTest(unittest.TestCase):
         self.assertEqual(propose("Andreas"), ["Andreas", "Andreae", "Andreæ", "Andream", "Andrea"])
 
     def test_es_names(self):
-        self.assertEqual(propose("Moyses"), ["Moyses", "Moysi", "Moysen", "Moyse"])
+        self.assertEqual(propose("Moyses"), ["Moyses", "Moysis", "Moysi", "Moysem", "Moyse", "Moysen"])
+
+    def test_ioannes_third_declension(self):
+        self.assertEqual(propose("Ioannes"), ["Ioannes", "Ioannis", "Ioanni", "Ioannem", "Ioanne", "Ioannen"])
 
     def test_iesus_irregular(self):
         self.assertEqual(propose("Iesus"), ["Iesus", "Iesu", "Iesum"])
@@ -40,9 +43,19 @@ class ProposeTest(unittest.TestCase):
         self.assertNotIn("Mare", forms)
         self.assertEqual(forms[0], "Mare Rubrum")
 
-    def test_head_nominative_kept_when_another_entrys_name(self):
-        self.assertIn("Iesus", propose("Iesus Christus", reserved=frozenset({"Iesus", "Iesu"})))
-        self.assertNotIn("Iesu", propose("Iesus Christus", reserved=frozenset({"Iesus", "Iesu"})))
+    def test_person_multiword_adds_last_word_forms(self):
+        forms = propose("Pontius Pilatus", person=True)
+        self.assertEqual(forms[-5:], ["Pilatus", "Pilati", "Pilato", "Pilatum", "Pilate"])
+        self.assertIn("Pontius", forms)
+        self.assertLess(forms.index("Pontius"), forms.index("Pilatus"))
+
+    def test_place_multiword_no_last_word(self):
+        self.assertNotIn("Pilatus", propose("Pontius Pilatus"))
+
+    def test_last_word_that_is_a_place_name_not_added(self):
+        forms = propose("Pontius Pilatus", person=True, places=frozenset({"Pilatus"}))
+        self.assertNotIn("Pilatus", forms)
+        self.assertNotIn("Pilati", forms)
 
     def test_short_stem_keeps_only_nominative(self):
         for name in ("Mes", "Chus", "Alus", "Ara", "Sua", "Ada"):
@@ -72,7 +85,8 @@ class ProposeTest(unittest.TestCase):
     def test_multiword_declines_each_word(self):
         forms = propose("Ioannes Baptista")
         self.assertEqual(forms[0], "Ioannes Baptista")
-        self.assertEqual(forms[1:5], ["Ioanni Baptistae", "Ioanni Baptistæ", "Ioannen Baptistam", "Ioanne Baptista"])
+        self.assertEqual(forms[1:3], ["Ioannis Baptistae", "Ioannis Baptistæ"])
+        self.assertIn("Ioannem Baptistam", forms)
 
 
 class BuildTest(unittest.TestCase):
@@ -99,12 +113,17 @@ class BuildTest(unittest.TestCase):
         self.assertIn("Cephae", forms)
         self.assertEqual(forms[0], "Petrus")
 
-    def test_form_equal_to_another_entrys_name_dropped(self):
-        cat = catalog(**{"bpers:x": {"names": {"la": "Arama"}}, "bpers:y": {"names": {"la": "Aramam"}}})
-        self.assertEqual(build(cat, {})["bpers:x"], ["Arama", "Aramae", "Aramæ"])
-        self.assertEqual(build(cat, {})["bpers:y"][0], "Aramam")
-        cat = catalog(**{"bpers:a": {"names": {"la": "Petrus"}}, "bpers:b": {"names": {"la": "Petri"}}})
-        self.assertEqual(build(cat, {})["bpers:a"], ["Petrus", "Petro", "Petrum", "Petre"])
+    def test_form_equal_to_another_entrys_name_kept(self):
+        cat = catalog(**{"bpers:a": {"names": {"la": "Maria"}}, "bpers:b": {"names": {"la": "Mariam"}}})
+        self.assertIn("Mariam", build(cat, {})["bpers:a"])
+        self.assertEqual(build(cat, {})["bpers:b"][0], "Mariam")
+
+    def test_build_person_last_word_but_place_not(self):
+        cat = {"persons": {"entries": {"bpers:p": {"names": {"la": "Pontius Pilatus"}}}},
+               "places": {"entries": {"bplace:p": {"names": {"la": "Pontius Pilatus"}}}}}
+        out = build(cat, {})
+        self.assertIn("Pilato", out["bpers:p"])
+        self.assertNotIn("Pilato", out["bplace:p"])
 
     def test_designation_label_not_added(self):
         cat = catalog(**{"bpers:x": {"names": {"la": "Aaron"}, "labels": {

@@ -5,7 +5,9 @@ For each entry: its Latin name (declined by rule), and every NVBSE label of a un
 edition names it differently as a name (a designation is audited for one verse only, so it is
 not a global form). Every declinable word of a name is declined in the same case slot. Names ending
 in a consonant, -am, -el, -on, -ath or -is, and stems under three letters, are indeclinable here.
-Generated forms that are stoplist words (stoplist_la.txt) or another entry's name are dropped. Forms already in the file are hand-corrected and
+Generated forms that are stoplist words (stoplist_la.txt) are dropped; one that equals another
+entry's name is kept (a shared form the matcher resolves). A person's multiword name also yields
+the forms of its first and last words. Forms already in the file are hand-corrected and
 kept as they are.
 
 Usage: python forms.py   (reads data/persons.json and data/places.json; writes data/curated/forms.json)
@@ -25,8 +27,11 @@ COMMENT = ("Latin forms under which each person and place may appear in the Nova
 STOPLIST = Path(__file__).resolve().parent / "stoplist_la.txt"
 # Slots: genitive, dative, accusative, ablative, vocative (the nominative is the name). Each rule is
 # (ending of the word, endings that replace it, in slot order), tried in order.
-RULES = (("us", ("i", "o", "um", "o", "e")), ("es", ("i", "i", "en", "e", "es")),
+RULES = (("us", ("i", "o", "um", "o", "e")), ("es", ("is", "i", "em", "e", "es")),
          ("as", ("ae", "ae", "am", "a", "a")), ("a", ("ae", "ae", "am", "a", "a")))
+# -es names are Greek or third declension: the slots are the third's, a single word adds the Greek
+# genitive and accusative after them
+GREEK_EXTRAS = {"es": ("i", "en")}
 IRREGULAR = {"Iesus": ("Iesu", "Iesu", "Iesum", "Iesu", "Iesu")}
 MIN_STEM = 3
 LIGATURES = (("ae", "æ"), ("Ae", "Æ"), ("oe", "œ"), ("Oe", "Œ"))
@@ -64,11 +69,20 @@ def _other_spelling(form: str) -> str | None:
     return None
 
 
-def propose(name: str, stoplist: frozenset[str] | None = None, reserved: frozenset[str] = frozenset()) -> list[str]:
+def _extras(word: str) -> list[str]:
+    for ending, replacements in GREEK_EXTRAS.items():
+        if word.endswith(ending) and len(word) - len(ending) >= MIN_STEM and word not in IRREGULAR:
+            return [word[: -len(ending)] + r for r in replacements]
+    return []
+
+
+def propose(name: str, stoplist: frozenset[str] | None = None, person: bool = False,
+            places: frozenset[str] = frozenset()) -> list[str]:
     """The name first, then its case forms (every declinable word in the same slot), no duplicates.
-    A multiword name is followed by the forms of its first word (unless that is a stoplist word).
-    A generated form in the stoplist or in `reserved` (other entries' names) is dropped; a form with
-    ae/oe or its ligature is followed by the other spelling."""
+    A multiword name is followed by the forms of its first word (unless that is a stoplist word) and,
+    for a person, of its last word (unless that is a stoplist word or the name of a place in `places`).
+    A generated form in the stoplist is dropped; a form with ae/oe or its ligature is followed by the
+    other spelling."""
     name = name.strip()
     if not name:
         return []
@@ -76,7 +90,9 @@ def propose(name: str, stoplist: frozenset[str] | None = None, reserved: frozens
     words = name.split()
     slots = [_slots(w) for w in words]
     generated = [" ".join(s[i] for s in slots) for i in range(5)]
-    forms = [name] + [f for f in generated if f.lower() not in stop and f not in reserved]
+    if len(words) == 1:
+        generated += _extras(words[0])
+    forms = [name] + [f for f in generated if f.lower() not in stop]
     out: list[str] = []
     for f in dict.fromkeys(forms):
         out.append(f)
@@ -84,30 +100,34 @@ def propose(name: str, stoplist: frozenset[str] | None = None, reserved: frozens
         if alt:
             out.append(alt)
     if len(words) > 1 and words[0].lower() not in stop:
-        out += propose(words[0], stop, reserved)
+        out += propose(words[0], stop)
+    last = words[-1]
+    if person and len(words) > 1 and last.lower() not in stop and last not in places:
+        out += propose(last, stop)
     return list(dict.fromkeys(out))
 
 
-def _entry_forms(entry: dict, stop: frozenset[str], reserved: frozenset[str]) -> list[str]:
-    forms = propose(entry.get("names", {}).get("la") or "", stop, reserved)
+def _entry_forms(id_: str, entry: dict, stop: frozenset[str], places: frozenset[str]) -> list[str]:
+    person = id_.startswith("bpers:")
+    forms = propose(entry.get("names", {}).get("la") or "", stop, person, places)
     for label in entry.get("labels", {}).values():
         text = label.get("editions", {}).get("NVBSE")
         if text and label.get("as") == "name":
-            forms += propose(text, stop, reserved)
+            forms += propose(text, stop, person, places)
     return list(dict.fromkeys(forms))
 
 
 def build(catalogs: dict[str, dict], existing: dict[str, list[str]]) -> dict[str, list[str]]:
     stop = load_stoplist()
-    reserved = frozenset((e.get("names", {}).get("la") or "").strip()
-                         for c in catalogs.values() for e in c["entries"].values()) - {""}
+    places = frozenset((e.get("names", {}).get("la") or "").strip()
+                       for e in catalogs.get("places", {}).get("entries", {}).values()) - {""}
     out: dict[str, list[str]] = {}
     for catalog in catalogs.values():
         for id_, entry in catalog["entries"].items():
             if id_ in existing:
                 out[id_] = existing[id_]
                 continue
-            forms = _entry_forms(entry, stop, reserved)
+            forms = _entry_forms(id_, entry, stop, places)
             if forms:
                 out[id_] = forms
     # hand-corrected ids no longer in a catalog are dropped on purpose: nothing to find
