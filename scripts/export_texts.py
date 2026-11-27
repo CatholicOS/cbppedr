@@ -5,7 +5,11 @@ repository. Each row of an edition's table is mapped to its units through CBTUDR
 (`data/maps/<edition>/NN-book.json`, refs `chapter:verse`, with the sub-verse and the
 `@GREEK`/`@HEBREW` origin where the edition has them).
 
-Usage: PSQL="docker exec bg-eval-db psql -U bibleget -d bibleget" python export_texts.py NVBSE CEI2008 NABRE VGCL DRB
+`--plain` writes `<edition>-plain.json` instead: each unit's stored `text_plain` unmodified, with its SHA-256,
+keyed by unit (`btu:…@GREEK`/`@HEBREW` for the Esther units that both texts feed). It reads the post-046 schema
+(`verse_segment`, `text_tradition`, `sort_order`), so point PSQL at staging, not at the old local table.
+
+Usage: PSQL="docker exec bg-eval-db psql -U bibleget -d bibleget" python export_texts.py [--plain] NVBSE CEI2008 NABRE VGCL DRB
 """
 
 from __future__ import annotations
@@ -26,8 +30,21 @@ from units import CBTUDR
 PSQL = os.environ.get("PSQL", "docker exec bg-eval-db psql -U bibleget -d bibleget")
 QUERY = ("select book, chapter, coalesce(nullif(verseequiv, ''), verse::text), coalesce(verseorigin, ''), "
          "regexp_replace(text, E'[\\\\n\\\\r\\\\t]+', ' ', 'g') from \"{}\" order by \"verseID\"")
-PLAIN_QUERY = ("select book, chapter, coalesce(nullif(verseequiv, ''), verse::text), coalesce(verseorigin, ''), "
-               "text_plain, coalesce(text_tradition, '') from \"{}\" order by \"verseID\"")
+PLAIN_QUERY = ("select book, chapter, verse::text || coalesce(verse_segment, ''), coalesce(text_tradition, ''), "
+               "text_plain from \"{}\" order by sort_order")
+RS = "\x1e"  # psql's record separator for --plain: text_plain may hold tabs or newlines
+
+
+def parse_plain(out: str) -> list[list[str]]:
+    """Split psql's `-A -t -F tab -R RS` output; text_plain is the last field, so a tab in it stays in it."""
+    out = out.removesuffix("\n")
+    rows = []
+    for i, rec in enumerate(out.split(RS) if out else [], 1):
+        fields = rec.split("\t", 4)
+        if len(fields) < 5:
+            raise ValueError(f"row {i} has {len(fields)} fields, expected 5")
+        rows.append(fields)
+    return rows
 
 
 def maps(edition: str) -> dict[tuple[int, str], list[str]]:
@@ -50,10 +67,9 @@ def plain_by_unit(rows: list[list[str]], refs: dict[tuple[int, str], list[str]])
     """The stored text_plain by unit key, with its SHA-256; units fed by several rows of one text are left out."""
     fed: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for r in rows:
-        book, chapter, verse, origin, text = r[:5]
-        tradition = r[5] if len(r) > 5 and r[5] else origin
+        book, chapter, verse, origin, text = r
         for u in row_units(book, chapter, verse, origin, refs):
-            fed[u].append((tradition, text))
+            fed[u].append((origin, text))
     out: dict[str, dict] = {}
     skipped = 0
 
@@ -95,10 +111,11 @@ def main(argv: list[str]) -> int:
             print(f"not an edition table name: {edition!r}", file=sys.stderr)
             return 1
         query = PLAIN_QUERY if plain else QUERY
-        out = subprocess.run(shlex.split(PSQL) + ["-AtF", "\t", "-c", query.format(edition)],
+        flags = ["-AtF", "\t", "-R", RS] if plain else ["-AtF", "\t"]
+        out = subprocess.run(shlex.split(PSQL) + flags + ["-c", query.format(edition)],
                              capture_output=True, text=True, check=True).stdout
         if plain:
-            units, skipped = plain_by_unit([l.split("\t", 5) for l in out.splitlines()], maps(edition))
+            units, skipped = plain_by_unit(parse_plain(out), maps(edition))
             (TEXTS / f"{edition}-plain.json").write_text(json.dumps(units, ensure_ascii=False), encoding="utf-8")
             print(edition, len(units), "units;", skipped, "units over several rows left out", file=sys.stderr)
             continue
