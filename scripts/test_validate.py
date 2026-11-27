@@ -188,6 +188,29 @@ class MentionsTest(unittest.TestCase):
         self.assertTrue(self.check(self.doc(self.m(), key="btu:gn.99.1")))
         self.assertTrue(self.check(self.doc(self.m(), key="btu:gn.29.34@LATIN")))
 
+    def test_non_string_ids_are_problems_not_errors(self):
+        self.assertTrue(self.check(self.doc(self.m(entry=["bpers:levi"]))))
+        self.assertTrue(self.check(self.doc({"start": 0, "end": 4, "check": "0123abcd",
+                                             "candidates": [["bpers:levi"], "bplace:roma"]})))
+        self.assertTrue(self.check(self.doc({"start": 0, "end": 4, "check": "0123abcd", "candidates": [1]})))
+
+    def test_tradition_suffix_only_on_esther(self):
+        self.assertEqual(self.check(self.doc(self.m(), key="btu:est.1.1@HEBREW")), [])
+        self.assertTrue(self.check(self.doc(self.m(), key="btu:gn.29.34@GREEK")))
+
+    def test_unknown_properties_rejected(self):
+        d = self.doc(self.m(text=1))
+        self.assertTrue(self.check(d))
+        d = self.doc(self.m())
+        d["units"]["btu:gn.29.34"]["words"] = 1
+        self.assertTrue(self.check(d))
+        d = self.doc(self.m())
+        d["extra"] = 1
+        self.assertTrue(self.check(d))
+        d = self.doc(self.m())
+        d["$comment"] = "free"
+        self.assertEqual(self.check(d), [])
+
     def test_curated_unit_wins(self):
         from extract_mentions import merged_mentions
         a = {"edition": "NVBSE", "units": {"u1": {"hash": "h", "mentions": [1]}, "u2": {"hash": "h", "mentions": [2]},
@@ -197,6 +220,20 @@ class MentionsTest(unittest.TestCase):
         m = merged_mentions(a, c)
         self.assertEqual({k: v["mentions"] for k, v in m["units"].items()}, {"u1": [9], "u3": [3], "u4": [4]})
         self.assertEqual(a["units"]["u1"]["mentions"], [1])
+
+
+class MentionsKeyTextTest(unittest.TestCase):
+    def test_text_in_any_property_name_refused(self):
+        from validate import mention_text_problems
+        doc = {"edition": "NVBSE", "Et dixit": 1, "units": {"btu:gn.1.1": {"hash": "a" * 64, "Et dixit": 2, "mentions": [
+            {"start": 0, "end": 4, "check": "0123abcd", "entry": "bpers:levi", "Et dixit": 3}]}}}
+        self.assertEqual(len(mention_text_problems(doc, "t")), 3)
+
+    def test_clean_and_comment_allowed(self):
+        from validate import mention_text_problems
+        doc = {"$comment": "Free text", "edition": "NVBSE", "units": {"btu:gn.1.1": {"hash": "a" * 64, "mentions": [
+            {"start": 0, "end": 4, "check": "0123abcd", "candidates": ["bpers:levi"]}]}}}
+        self.assertEqual(mention_text_problems(doc, "t"), [])
 
 
 class MentionedFieldTest(unittest.TestCase):

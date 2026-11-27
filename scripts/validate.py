@@ -231,6 +231,32 @@ def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
 HEX64 = re.compile(r"^[0-9a-f]{64}$")
 HEX8 = re.compile(r"^[0-9a-f]{8}$")
 UNIT_KEY = re.compile(r"^(btu:\S+?)(@(?:GREEK|HEBREW))?$")
+TOP_KEYS = frozenset({"$comment", "edition", "units"})
+UNIT_KEYS = frozenset({"hash", "mentions"})
+MENTION_KEYS = frozenset({"start", "end", "check", "entry", "candidates"})
+
+
+def _unit_key_ok(key: str, units: set[str] | frozenset[str]) -> bool:
+    """A known unit; a tradition suffix (@GREEK, @HEBREW) only on Esther's."""
+    k = UNIT_KEY.match(key)
+    return bool(k) and k.group(1) in units and (not k.group(2) or k.group(1).startswith("btu:est."))
+
+
+def _unknown_keys(where: str, d: dict, allowed: frozenset[str]) -> list[str]:
+    return [f"{where}: unknown property" for k in d if k not in allowed]
+
+
+def _id_problems(where: str, m: dict, ids: set[str]) -> list[str]:
+    if "entry" in m:
+        e = m["entry"]
+        return [] if isinstance(e, str) and e in ids else [f"{where}: unknown entry {e!r}"]
+    c = m["candidates"]
+    if not isinstance(c, list) or not c:
+        return [f"{where}: candidates empty"]
+    if not all(isinstance(x, str) for x in c):
+        return [f"{where}: candidates must be id strings"]
+    out = [] if c == sorted(set(c)) else [f"{where}: candidates not sorted and unique"]
+    return out + [f"{where}: unknown candidate {x}" for x in c if x not in ids]
 
 
 def _mention_problems(where: str, m: object, ids: set[str]) -> list[str]:
@@ -245,18 +271,9 @@ def _mention_problems(where: str, m: object, ids: set[str]) -> list[str]:
         out.append(f"{where}: check {m.get('check')!r} is not 8 lowercase hex digits")
     if ("entry" in m) == ("candidates" in m):
         out.append(f"{where}: needs entry or candidates, not both nor neither")
-    elif "entry" in m:
-        if m["entry"] not in ids:
-            out.append(f"{where}: unknown entry {m['entry']}")
     else:
-        c = m["candidates"]
-        if not isinstance(c, list) or not c:
-            out.append(f"{where}: candidates empty")
-        else:
-            if c != sorted(set(map(str, c))):
-                out.append(f"{where}: candidates not sorted and unique")
-            out += [f"{where}: unknown candidate {x}" for x in c if x not in ids]
-    return out
+        out += _id_problems(where, m, ids)
+    return out + _unknown_keys(where, m, MENTION_KEYS)
 
 
 def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str], name: str,
@@ -266,14 +283,15 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
     out = []
     if doc.get("edition") != "NVBSE":
         out.append(f"{name}: edition {doc.get('edition')!r}")
+    out += _unknown_keys(name, doc, TOP_KEYS)
     for key, u in (doc.get("units") or {}).items():
         where = f"{name} {key}"
-        k = UNIT_KEY.match(key)
-        if not k or k.group(1) not in units:
-            out.append(f"{where}: not a known unit")
+        if not _unit_key_ok(key, units):
+            out.append(f"{where}: not a known unit (a tradition suffix only on Esther)")
         if not isinstance(u, dict) or not isinstance(u.get("mentions"), list):
             out.append(f"{where}: malformed")
             continue
+        out += _unknown_keys(where, u, UNIT_KEYS)
         if not isinstance(u.get("hash"), str) or not HEX64.match(u["hash"]):
             out.append(f"{where}: hash is not 64 lowercase hex digits")
         if not u["mentions"] and not curated:
@@ -287,13 +305,18 @@ ALLOWED_STRING = re.compile(r"^(NVBSE|(bpers|bplace):\S+|btu:\S+?(@(GREEK|HEBREW
 
 
 def mention_text_problems(doc: object, name: str, path: str = "") -> list[str]:
-    """Every string in a mentions file, but `$comment`, is NVBSE, an entry id, a unit key or lowercase hex:
-    a regeneration can never commit the edition's text."""
+    """Every string in a mentions file, but `$comment`, is NVBSE, an entry id, a unit key or lowercase hex,
+    and every property name is a unit key (under /units) or one the format defines: a regeneration can
+    never commit the edition's text. A refused property is not looked into."""
     out: list[str] = []
     if isinstance(doc, dict):
         for k, v in doc.items():
             if path == "/units" and not ALLOWED_STRING.match(str(k)):
                 out.append(f"{name} {path}: key {str(k)[:20]!r} is not a unit key")
+                continue
+            if path != "/units" and k not in TOP_KEYS | UNIT_KEYS | MENTION_KEYS:
+                out.append(f"{name} {path}: property {str(k)[:20]!r} is not part of the format")
+                continue
             if k != "$comment":
                 out += mention_text_problems(v, name, f"{path}/{k}")
     elif isinstance(doc, list):

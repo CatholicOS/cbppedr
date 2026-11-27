@@ -74,17 +74,24 @@ class FindTest(unittest.TestCase):
 class ResolveTest(unittest.TestCase):
     def test_designation_is_settled_even_if_a_stop_word(self):
         hits = [(0, 5, "bpers:x")]
-        self.assertEqual(resolve("puero", hits, set(), {"puero"}, designated={(0, 5, "bpers:x")}),
+        self.assertEqual(resolve("puero", hits, set(), designated={(0, 5, "bpers:x")}),
                          [{"start": 0, "end": 5, "check": check("puero"), "entry": "bpers:x"}])
 
+    def test_unattested_unique_form_needs_outside_leave(self):
+        self.assertIn("candidates", resolve("Vita", [(0, 4, "bpers:x")], set())[0])
+        self.assertEqual(resolve("Vita", [(0, 4, "bpers:x")], set(), outside=lambda w, i: True)[0]["entry"], "bpers:x")
+
     def test_stop_word_attested_is_settled(self):
-        self.assertEqual(resolve("Vita", [(0, 4, "bpers:x")], {"bpers:x"}, {"vita"}),
+        self.assertEqual(resolve("Vita", [(0, 4, "bpers:x")], {"bpers:x"}),
                          [{"start": 0, "end": 4, "check": check("Vita"), "entry": "bpers:x"}])
 
 
 class ExtractTest(unittest.TestCase):
-    def run_one(self, text, forms, persons=None, places=None, stop=frozenset(), key="gn_1_1"):
-        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop)
+    def run_one(self, text, forms, persons=None, places=None, stop=frozenset(), key="gn_1_1", partial=None):
+        """Without catalogs, every entry of `forms` is attested elsewhere in the same book (Genesis)."""
+        if persons is None and places is None:
+            persons = {id_: person("btu:gn.50.1") for id_ in forms}
+        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop, partial)
         unit = next(iter(body["units"].values()), None)
         return (unit["mentions"] if unit else []), report
 
@@ -94,7 +101,7 @@ class ExtractTest(unittest.TestCase):
 
     def test_body_shape(self):
         body, _ = extract(texts(gn_1_1="Et dixit Petrus", gn_1_2="nihil"), {"bpers:petrus": ["Petrus"]},
-                          catalogs(), frozenset())
+                          catalogs({"bpers:petrus": person("btu:gn.50.1")}), frozenset())
         self.assertEqual(body["edition"], "NVBSE")
         self.assertIn("$comment", body)
         self.assertEqual(list(body["units"]), ["btu:gn.1.1"])
@@ -192,6 +199,53 @@ class ExtractTest(unittest.TestCase):
         self.assertEqual(body["units"]["btu:est.2.5@GREEK"]["mentions"][0]["entry"], "bpers:mardochaeus.a")
         # found in one of Esther's two texts: the attestation is matched
         self.assertEqual(report["unmatched"], [])
+
+    def test_unique_name_attested_only_in_another_book_is_under_review(self):
+        # a Susanna-like case: the catalog's only bearer of the name is attested in another book
+        persons = {"bpers:susanna": person("btu:lc.8.3")}
+        mentions, _ = self.run_one("Erat Susanna pulchra", {"bpers:susanna": ["Susanna"]}, persons, key="dn_13_2")
+        self.assertEqual(mentions, [{"start": 5, "end": 12, "check": check("Susanna"),
+                                     "candidates": ["bpers:susanna"]}])
+
+    def test_unique_name_attested_in_the_same_book_is_settled(self):
+        persons = {"bpers:susanna": person("btu:dn.13.1")}
+        mentions, _ = self.run_one("Erat Susanna pulchra", {"bpers:susanna": ["Susanna"]}, persons, key="dn_13_2")
+        self.assertEqual(mentions[0]["entry"], "bpers:susanna")
+
+    def test_mentioned_does_not_count_for_the_book(self):
+        persons = {"bpers:susanna": dict(person("btu:lc.8.3"), mentioned=["btu:dn.13.1"])}
+        mentions, _ = self.run_one("Erat Susanna", {"bpers:susanna": ["Susanna"]}, persons, key="dn_13_2")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:susanna"])
+
+    def test_partial_form_outside_attested_units_is_under_review(self):
+        forms = {"bplace:tres-tabernae": ["Tres Tabernae", "Tres"]}
+        places = {"bplace:tres-tabernae": person("btu:act.28.15")}
+        mentions, _ = self.run_one("Tres viri", forms, places=places, key="act_28_1",
+                                   partial={"bplace:tres-tabernae": ["Tres"]})
+        self.assertEqual(mentions[0]["candidates"], ["bplace:tres-tabernae"])
+        mentions, _ = self.run_one("ad Tres Tabernae et Tres", forms, places=places, key="act_28_15",
+                                   partial={"bplace:tres-tabernae": ["Tres"]})
+        self.assertEqual([m["entry"] for m in mentions], ["bplace:tres-tabernae"] * 2)
+
+    def test_partial_form_inside_an_attested_unit_is_settled(self):
+        forms = {"bpers:simon-petrus": ["Simon Petrus", "Petrus"]}
+        persons = {"bpers:simon-petrus": person("btu:gn.1.1")}
+        mentions, _ = self.run_one("dixit Petrus", forms, persons, partial={"bpers:simon-petrus": ["Petrus"]})
+        self.assertEqual(mentions[0]["entry"], "bpers:simon-petrus")
+
+    def test_stop_form_outside_attested_units_is_under_review_inside_settled(self):
+        persons = {"bplace:media": person("btu:gn.1.1")}
+        mentions, _ = self.run_one("Media nocte", {"bplace:media": ["Media"]}, places=persons,
+                                   stop=frozenset({"media"}), key="gn_1_2")
+        self.assertEqual(mentions[0]["candidates"], ["bplace:media"])
+        mentions, _ = self.run_one("in Media", {"bplace:media": ["Media"]}, places=persons,
+                                   stop=frozenset({"media"}))
+        self.assertEqual(mentions[0]["entry"], "bplace:media")
+
+    def test_esther_book_is_est(self):
+        persons = {"bpers:aman": person("btu:est.3.1")}
+        body, _ = extract(texts(est_3_2__GREEK="Aman"), {"bpers:aman": ["Aman"]}, catalogs(persons), frozenset())
+        self.assertEqual(body["units"]["btu:est.3.2@GREEK"]["mentions"][0]["entry"], "bpers:aman")
 
     def test_counts(self):
         forms = {"bpers:petrus": ["Petrus"], "bpers:z.a": ["Zacharias"], "bpers:z.b": ["Zacharias"]}

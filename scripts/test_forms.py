@@ -1,6 +1,6 @@
 import unittest
 
-from forms import build, propose
+from forms import build, build_all, load_stoplist, propose, propose_parts
 
 
 def catalog(**entries):
@@ -139,6 +139,51 @@ class BuildTest(unittest.TestCase):
     def test_places_included(self):
         cat = {"persons": {"entries": {}}, "places": {"entries": {"bplace:r": {"names": {"la": "Roma"}}}}}
         self.assertEqual(build(cat, {})["bplace:r"], ["Roma", "Romae", "Romæ", "Romam"])
+
+
+class PartialTest(unittest.TestCase):
+    def test_single_word_forms_are_partial(self):
+        full, partial = propose_parts("Simon Petrus", frozenset(), person=True)
+        self.assertEqual(full[0], "Simon Petrus")
+        self.assertIn("Simon", partial)
+        self.assertIn("Petri", partial)
+        self.assertNotIn("Simon", full)
+        self.assertEqual(propose("Simon Petrus", frozenset(), person=True), full + partial)
+
+    def test_one_word_name_has_no_partial(self):
+        self.assertEqual(propose_parts("Petrus", frozenset())[1], [])
+
+    def test_stoplist_word_of_a_name_gives_no_form(self):
+        full, partial = propose_parts("Tres Tabernae", frozenset({"tres"}))
+        self.assertEqual(partial, [])
+        self.assertIn("Tres Tabernae", full)
+
+    def test_build_all_marks_partial_unless_also_a_full_name(self):
+        cat = catalog(**{"bpers:x": {"names": {"la": "Simon Petrus"}, "labels": {
+            "btu:jn.1.42": {"as": "name", "editions": {"NVBSE": "Petrus"}}}}})
+        forms, partial = build_all(cat, {}, {})
+        self.assertIn("Simon", partial["bpers:x"])
+        self.assertNotIn("Petrus", partial["bpers:x"])
+        self.assertIn("Petrus", forms["bpers:x"])
+        self.assertTrue(set(partial["bpers:x"]) <= set(forms["bpers:x"]))
+
+    def test_build_all_omits_entries_without_partial(self):
+        forms, partial = build_all(catalog(**{"bpers:x": {"names": {"la": "Petrus"}}}), {}, {})
+        self.assertEqual(partial, {})
+        self.assertEqual(forms, build(catalog(**{"bpers:x": {"names": {"la": "Petrus"}}}), {}))
+
+    def test_build_all_keeps_hand_corrected_partial(self):
+        cat = catalog(**{"bpers:x": {"names": {"la": "Simon Petrus"}}})
+        forms, partial = build_all(cat, {"bpers:x": ["Simon Petrus", "Simon"]}, {"bpers:x": ["Simon"]})
+        self.assertEqual((forms["bpers:x"], partial["bpers:x"]), (["Simon Petrus", "Simon"], ["Simon"]))
+
+
+class StoplistTest(unittest.TestCase):
+    def test_numerals_and_cited_common_words(self):
+        stop = load_stoplist()
+        for w in ("unus", "una", "unum", "duo", "tres", "tria", "quattuor", "decem", "centum", "mille",
+                  "linum", "media", "perge", "sanctum"):
+            self.assertIn(w, stop, w)
 
 
 if __name__ == "__main__":

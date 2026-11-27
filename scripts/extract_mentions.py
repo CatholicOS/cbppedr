@@ -9,9 +9,12 @@ designations are looked for as written, only in their own unit.
 Every occurrence in a verse is marked:
 
 - settled (`entry`): a designation label of the entry for that unit; or exactly one of the form's
-  entries attested in the unit; or a form of one entry only that is not a stoplist word;
-- under review (`candidates`, sorted): a form shared by several entries (a person and a place
-  included) with none or several attested; or a stoplist form of one unattested entry.
+  entries attested in the unit; or, outside the units where it is attested, a form of one entry
+  only, that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
+  taken from a single word of a multiword name (forms.json's `partial`) and not a stoplist word;
+- under review (`candidates`, sorted): anything else, so a form shared by several entries (a person
+  and a place included) with none or several attested, or a name whose only catalogued bearer
+  belongs to another book (it may be an uncatalogued namesake): a `candidates` of one.
 
 A span inside another is kept; two crossing spans are both dropped and reported. Esther's
 `@GREEK`/`@HEBREW` keys are attested as their unit without the suffix. Positions are UTF-16 code
@@ -30,6 +33,7 @@ import os
 import sys
 import unicodedata
 from pathlib import Path
+from typing import Callable
 
 from audit_attested import TEXTS
 from forms import FORMS, load_stoplist
@@ -133,22 +137,30 @@ def _crossing(spans: list[tuple[int, int]]) -> set[tuple[int, int]]:
     return out
 
 
-def _decide(words: str, ids: set[str], attested_here: set[str], stop: set[str],
-            designated_ids: set[str]) -> tuple[str, list[str]]:
+Outside = Callable[[str, str], bool]
+
+
+def _never(words: str, id_: str) -> bool:
+    return False
+
+
+def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: set[str],
+            outside: Outside) -> tuple[str, list[str]]:
     if len(designated_ids) == 1:
         return "entry", sorted(designated_ids)
     here = ids & attested_here
     if len(here) == 1:
         return "entry", sorted(here)
-    if len(ids) == 1 and words.lower() not in stop:
+    if not here and len(ids) == 1 and outside(words, next(iter(ids))):
         return "entry", sorted(ids)
     return "candidates", sorted(ids)
 
 
-def resolve(text: str, hits: list[Hit], attested_here: set[str], stop: set[str],
-            designated: frozenset[Hit] | set[Hit] = frozenset()) -> list[dict]:
-    """The hits of one verse as mentions (UTF-16 positions), crossing spans left out; `designated`
-    are the hits that came from the entry's designation label for this unit."""
+def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: frozenset[Hit] | set[Hit] = frozenset(),
+            outside: Outside = _never) -> list[dict]:
+    """The hits of one verse as mentions (UTF-16 positions), crossing spans left out. `designated` are
+    the hits that came from the entry's designation label for this unit; `outside(words, id)` says
+    whether a form of one entry not attested in the unit may settle it anyway."""
     spans = _spans(hits)
     crossing = _crossing(list(spans))
     out = []
@@ -157,7 +169,7 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], stop: set[str],
             continue
         words = text[start:end]
         mine = {id_ for id_ in ids if (start, end, id_) in designated}
-        key, value = _decide(words, ids, attested_here, stop, mine)
+        key, value = _decide(words, ids, attested_here, mine, outside)
         mention = {"start": utf16(text, start), "end": utf16(text, end), "check": check(words)}
         mention[key] = value[0] if key == "entry" else value
         out.append(mention)
@@ -166,6 +178,11 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], stop: set[str],
 
 def base_unit(key: str) -> str:
     return key.split("@", 1)[0]
+
+
+def book(unit: str) -> str:
+    """The book code of a unit key: `btu:1par.24.2@GREEK` is `1par`."""
+    return base_unit(unit).removeprefix("btu:").split(".", 1)[0]
 
 
 def _entries(catalogs: dict[str, dict]):
@@ -212,9 +229,14 @@ def _crossing_row(key: str, text: str, hits: list[Hit]) -> dict | None:
 class _Run:
     """The accumulating state of one extraction."""
 
-    def __init__(self, forms, catalogs, stop):
+    def __init__(self, forms, catalogs, stop, partial):
         self.index = _index(name_forms(forms))
         self.attested, self.designations = _attestations(catalogs)
+        self.books: dict[str, set[str]] = {}
+        for unit, ids in self.attested.items():
+            for id_ in ids:
+                self.books.setdefault(id_, set()).add(book(unit))
+        self.partial = {id_: set(fs) for id_, fs in (partial or {}).items()}
         self.stop = {w.lower() for w in stop}
         self.units: dict[str, dict] = {}
         self.found: dict[str, set[str]] = {}
@@ -227,13 +249,21 @@ class _Run:
         designated = set(_find_indexed(text, _index(self.designations.get(unit, {}))))
         hits += [h for h in designated if h not in hits]
         self.found.setdefault(unit, set()).update(id_ for _, _, id_ in hits)
-        mentions = resolve(text, hits, self.attested.get(unit, set()), self.stop, designated)
+        mentions = resolve(text, hits, self.attested.get(unit, set()), designated, self.outside(book(unit)))
         row_crossing = _crossing_row(key, text, hits)
         if row_crossing:
             self.crossing.append(row_crossing)
         if mentions:
             self.units[key] = {"hash": row["hash"], "mentions": mentions}
             self.review += _review_rows(key, text, mentions)
+
+    def outside(self, here: str) -> Outside:
+        """Outside its attested units, a form of one entry settles it only if the entry is attested in
+        the same book, the form is not one of a single word of a multiword name, nor a stoplist word."""
+        def settles(words: str, id_: str) -> bool:
+            return (here in self.books.get(id_, ()) and words not in self.partial.get(id_, ())
+                    and words.lower() not in self.stop)
+        return settles
 
     def unmatched(self) -> list[dict]:
         rows = []
@@ -244,9 +274,10 @@ class _Run:
 
 
 def extract(texts: dict[str, dict], forms: dict[str, list[str]], catalogs: dict[str, dict],
-            stop) -> tuple[dict, dict]:
-    """The public file's body and the private report."""
-    run = _Run(forms, catalogs, stop)
+            stop, partial: dict[str, list[str]] | None = None) -> tuple[dict, dict]:
+    """The public file's body and the private report; `partial` lists by entry its forms taken from a
+    single word of a multiword name."""
+    run = _Run(forms, catalogs, stop, partial)
     for key in sorted(texts):
         run.unit(key, texts[key])
     unmatched = run.unmatched()
@@ -280,9 +311,9 @@ def _write(path: Path, data: dict, indent: int | None) -> None:
 
 def main() -> int:
     texts = json.loads((TEXTS / f"{EDITION}-plain.json").read_text(encoding="utf-8"))
-    forms = json.loads(FORMS.read_text(encoding="utf-8"))["forms"]
+    forms_doc = json.loads(FORMS.read_text(encoding="utf-8"))
     catalogs = {t: json.loads((ROOT / f"data/{t}.json").read_text(encoding="utf-8")) for t in ("persons", "places")}
-    body, report = extract(texts, forms, catalogs, load_stoplist())
+    body, report = extract(texts, forms_doc["forms"], catalogs, load_stoplist(), forms_doc.get("partial", {}))
     _write(OUT, body, 1)
     _write(REPORT, report, 1)
     print(json.dumps(report["counts"]))
