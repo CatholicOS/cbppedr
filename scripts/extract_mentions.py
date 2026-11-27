@@ -261,6 +261,18 @@ def extract(texts: dict[str, dict], forms: dict[str, list[str]], catalogs: dict[
     return body, report
 
 
+def merged_mentions(generated: dict, curated: dict) -> dict:
+    """The generated file with the curated units laid over it: a curated unit replaces the generated
+    one, and a curated unit with no mentions removes it."""
+    units = dict(generated["units"])
+    for key, unit in curated.get("units", {}).items():
+        if unit.get("mentions"):
+            units[key] = unit
+        else:
+            units.pop(key, None)
+    return {**generated, "units": units}
+
+
 def _write(path: Path, data: dict, indent: int | None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=indent) + "\n", encoding="utf-8")

@@ -220,6 +220,75 @@ def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
     return out
 
 
+HEX64 = re.compile(r"^[0-9a-f]{64}$")
+HEX8 = re.compile(r"^[0-9a-f]{8}$")
+UNIT_KEY = re.compile(r"^(btu:\S+?)(@(?:GREEK|HEBREW))?$")
+
+
+def _mention_problems(where: str, m: object, ids: set[str]) -> list[str]:
+    if not isinstance(m, dict):
+        return [f"{where}: mention malformed"]
+    out = []
+    s, e = m.get("start"), m.get("end")
+    if not (isinstance(s, int) and isinstance(e, int) and not isinstance(s, bool) and not isinstance(e, bool)
+            and 0 <= s < e):
+        out.append(f"{where}: span {s}-{e} (need 0 <= start < end)")
+    if not isinstance(m.get("check"), str) or not HEX8.match(m["check"]):
+        out.append(f"{where}: check {m.get('check')!r} is not 8 lowercase hex digits")
+    if ("entry" in m) == ("candidates" in m):
+        out.append(f"{where}: needs entry or candidates, not both nor neither")
+    elif "entry" in m:
+        if m["entry"] not in ids:
+            out.append(f"{where}: unknown entry {m['entry']}")
+    else:
+        c = m["candidates"]
+        if not isinstance(c, list) or not c:
+            out.append(f"{where}: candidates empty")
+        else:
+            if c != sorted(set(map(str, c))):
+                out.append(f"{where}: candidates not sorted and unique")
+            out += [f"{where}: unknown candidate {x}" for x in c if x not in ids]
+    return out
+
+
+def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str], name: str,
+                     curated: bool = False) -> list[str]:
+    """A mentions file: the edition, and per unit key (a CBTUDR unit, with @GREEK/@HEBREW for Esther's
+    two texts) its hash and mentions. The text is private, so spans are checked only for their shape."""
+    out = []
+    if doc.get("edition") != "NVBSE":
+        out.append(f"{name}: edition {doc.get('edition')!r}")
+    for key, u in (doc.get("units") or {}).items():
+        where = f"{name} {key}"
+        k = UNIT_KEY.match(key)
+        if not k or k.group(1) not in units:
+            out.append(f"{where}: not a known unit")
+        if not isinstance(u, dict) or not isinstance(u.get("mentions"), list):
+            out.append(f"{where}: malformed")
+            continue
+        if not isinstance(u.get("hash"), str) or not HEX64.match(u["hash"]):
+            out.append(f"{where}: hash is not 64 lowercase hex digits")
+        if not u["mentions"] and not curated:
+            out.append(f"{where}: no mentions")
+        for i, m in enumerate(u["mentions"]):
+            out += _mention_problems(f"{where} #{i}", m, ids)
+    return out
+
+
+def mention_file_problems(ids: set[str]) -> list[str]:
+    from extract_mentions import merged_mentions
+    gen_path = ROOT / "data/mentions/nvbse.json"
+    cur_path = ROOT / "data/mentions/nvbse_curated.json"
+    if not gen_path.exists():
+        return []
+    units = _units()
+    gen = json.loads(gen_path.read_text(encoding="utf-8"))
+    cur = json.loads(cur_path.read_text(encoding="utf-8")) if cur_path.exists() else {"edition": "NVBSE", "units": {}}
+    out = mention_problems(gen, ids, units, "nvbse.json") + mention_problems(cur, ids, units, "nvbse_curated.json", True)
+    out += mention_problems(merged_mentions(gen, cur), ids, units, "merged")
+    return out
+
+
 def main() -> int:
     catalogs = {n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8")) for n in PREFIX}
     p = problems(catalogs)
@@ -234,6 +303,7 @@ def main() -> int:
     u_path = ROOT / "data/unnamed.json"
     if u_path.exists():
         p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)
+    p += mention_file_problems(ids)
     for x in p:
         print(x)
     print(f"{sum(len(c['entries']) for c in catalogs.values())} entries, {len(p)} problems")

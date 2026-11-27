@@ -135,3 +135,65 @@ class EvidenceTest(unittest.TestCase):
 
     def test_no_evidence(self):
         self.assertEqual(len(self.run_p([])), 1)
+
+
+class MentionsTest(unittest.TestCase):
+    H = "a" * 64
+    IDS = {"bpers:levi", "bplace:roma"}
+    UNITS = {"btu:gn.29.34", "btu:est.1.1"}
+
+    def doc(self, *mentions, key="btu:gn.29.34"):
+        return {"edition": "NVBSE", "units": {key: {"hash": self.H, "mentions": list(mentions)}}}
+
+    def check(self, doc):
+        from validate import mention_problems
+        return mention_problems(doc, self.IDS, self.UNITS, "t")
+
+    def m(self, **kw):
+        d = {"start": 0, "end": 4, "check": "0123abcd", "entry": "bpers:levi"}
+        d.update(kw)
+        return d
+
+    def test_clean(self):
+        d = self.doc(self.m(), {"start": 5, "end": 9, "check": "0123abcd", "candidates": ["bpers:levi", "bplace:roma"]},
+                     key="btu:est.1.1@GREEK")
+        self.assertEqual(self.check(d), [])
+
+    def test_mention_needs_entry_xor_candidates(self):
+        both = self.m(candidates=["bpers:levi"])
+        neither = {"start": 0, "end": 4, "check": "0123abcd"}
+        empty = {"start": 0, "end": 4, "check": "0123abcd", "candidates": []}
+        for bad in (both, neither, empty):
+            self.assertTrue(self.check(self.doc(bad)), bad)
+
+    def test_candidates_sorted_unique(self):
+        for c in (["bplace:roma", "bpers:levi"], ["bpers:levi", "bpers:levi"]):
+            self.assertTrue(self.check(self.doc({"start": 0, "end": 4, "check": "0123abcd", "candidates": c})))
+
+    def test_mention_ids_must_exist(self):
+        self.assertTrue(self.check(self.doc(self.m(entry="bpers:nemo"))))
+        self.assertTrue(self.check(self.doc({"start": 0, "end": 4, "check": "0123abcd",
+                                             "candidates": ["bpers:levi", "bpers:nemo"]})))
+
+    def test_mention_span_inside_text(self):
+        for bad in (self.m(start=4, end=4), self.m(start=-1, end=3), self.m(start=5, end=2)):
+            self.assertTrue(self.check(self.doc(bad)), bad)
+
+    def test_hash_check_and_unit_key(self):
+        self.assertTrue(self.check(self.doc(self.m(check="XYZ"))))
+        self.assertTrue(self.check(self.doc(self.m(check="0123ABCD"))))
+        d = self.doc(self.m())
+        d["units"]["btu:gn.29.34"]["hash"] = "A" * 64
+        self.assertTrue(self.check(d))
+        self.assertTrue(self.check(self.doc(self.m(), key="btu:gn.99.1")))
+        self.assertTrue(self.check(self.doc(self.m(), key="btu:gn.29.34@LATIN")))
+
+    def test_curated_unit_wins(self):
+        from extract_mentions import merged_mentions
+        a = {"edition": "NVBSE", "units": {"u1": {"hash": "h", "mentions": [1]}, "u2": {"hash": "h", "mentions": [2]},
+                                           "u3": {"hash": "h", "mentions": [3]}}}
+        c = {"edition": "NVBSE", "units": {"u1": {"hash": "h", "mentions": [9]}, "u2": {"hash": "h", "mentions": []},
+                                           "u4": {"hash": "h", "mentions": [4]}}}
+        m = merged_mentions(a, c)
+        self.assertEqual({k: v["mentions"] for k, v in m["units"].items()}, {"u1": [9], "u3": [3], "u4": [4]})
+        self.assertEqual(a["units"]["u1"]["mentions"], [1])

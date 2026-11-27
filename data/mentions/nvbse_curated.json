@@ -1,0 +1,5 @@
+{
+ "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py.",
+ "edition": "NVBSE",
+ "units": {}
+}
