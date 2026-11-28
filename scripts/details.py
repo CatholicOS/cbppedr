@@ -31,7 +31,10 @@ SETTLED = ("reviewed", "adjudicated")
 TAG = re.compile(r"<[^>]*>")
 BLOCK = re.compile(r"<\s*(style|script)\b.*?<\s*/\s*\1\s*>", re.IGNORECASE | re.DOTALL)
 PLACEHOLDER = re.compile(r"unknown author|unknown artist|unknown source|anonymous", re.IGNORECASE)
-NO_CREDIT = re.compile(r"none|unknown|[\W\d_]*", re.IGNORECASE)  # what is left of a credit that credits no one
+# what is left of a credit that credits no one: "None", "unknown illuminator", "no idea …", "Own work", a bare URL
+NO_CREDIT = re.compile(r"none|unknown(\s+\w+)?|no idea\b.*|own work|https?://\S+|[\W\d_]*", re.IGNORECASE | re.DOTALL)
+OWN_WORK = re.compile(r"^own work\s*[,;:]\s*", re.IGNORECASE)
+ASSUMED = re.compile(r"^No machine-readable author provided\.\s*(.+?)\s+assumed \(based on copyright claims\)\.?$")
 MIN_HALF = 4
 LABELS = re.compile(r"\s*\b(?:Title|Source)\b.*$", re.DOTALL)
 DISPUTED = ROOT / "data/curated/disputed_sites.json"
@@ -83,9 +86,11 @@ def _halved(text: str) -> str:
 
 def credit(text: str) -> str:
     """A credit cleaned: cut before a run of "Title"/"Source" labels, doubled halves collapsed,
-    placeholders ("Unknown author", "Anonymous", "Unknown source") removed; "" when nothing that credits
-    anyone remains ("None", "[1]")."""
+    placeholders ("Unknown author", "Anonymous", "Unknown source") removed, Commons' "No machine-readable
+    author provided. X assumed …" read as X and a leading "Own work," dropped; "" when nothing that credits
+    anyone remains ("None", "[1]", "unknown illuminator", "no idea …", "Own work", a bare URL)."""
     text = _halved(LABELS.sub("", text).strip())
+    text = OWN_WORK.sub("", ASSUMED.sub(r"\1", text))
     text = " ".join(PLACEHOLDER.sub(" ", text).split())
     if text.startswith("(") and text.endswith(")") and text.count("(") == 1 and text.count(")") == 1:
         text = text[1:-1].strip()  # what a placeholder qualified: "Anonymous (Meister 3)"

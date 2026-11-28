@@ -55,9 +55,9 @@ class DetailsTest(unittest.TestCase):
         self.assertEqual(plain_text("<style>.a { color: red; }</style><span>Ann</span><script>x()</script>"), "Ann")
 
     def test_author_boilerplate_falls_back_to_credit(self):
-        meta = {"Artist": {"value": "Public domainPublic domainfalsefalse"}, "Credit": {"value": "<b>Own</b> work"},
+        meta = {"Artist": {"value": "Public domainPublic domainfalsefalse"}, "Credit": {"value": "<b>Ann</b> Doe"},
                 "LicenseShortName": {"value": "PD"}}
-        self.assertEqual(detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"]["author"], "Own work")
+        self.assertEqual(detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"]["author"], "Ann Doe")
         meta = {"Artist": {"value": "x" * 300}, "Attribution": {"value": "Bob"}, "LicenseShortName": {"value": "PD"}}
         self.assertEqual(detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"]["author"], "Bob")
         meta = {"Artist": {"value": "a { b }"}, "LicenseShortName": {"value": "PD"}}
@@ -106,12 +106,21 @@ class DetailsTest(unittest.TestCase):
         for artist in ("Unknown author", "unknown ARTIST", "Anonymous", "Unknown authorUnknown author",
                        "AnonymousUnknown author", "Unknown artist Unknown artist"):
             self.assertEqual(author_of({"Artist": {"value": artist}}), "", artist)
-        self.assertEqual(author_of({"Artist": {"value": "Anonymous"}, "Credit": {"value": "Own work"}}), "Own work")
+        self.assertEqual(author_of({"Artist": {"value": "Anonymous"}, "Credit": {"value": "Bob"}}), "Bob")
         self.assertIsNone(detail(entity(), item({"P18": p18("A.jpg")}),
                                  {"Artist": {"value": "Unknown author"}, "LicenseShortName": {"value": "CC BY 4.0"}}))
         self.assertEqual(author_of({"Artist": {"value": "AnonymousUnknown author (Meister 3)"}}), "Meister 3")
         for credit in ("None", "[1]", "Unknown source", "unknown"):
             self.assertEqual(author_of({"Credit": {"value": credit}}), "", credit)
+
+    def test_more_credits_that_credit_no_one(self):
+        for text in ("unknown illuminator", "Unknown painter", "no idea - see source", "Own work",
+                     "https://example.org/a?b=1", "http://example.org/x.htm"):
+            self.assertEqual(author_of({"Artist": {"value": text}}), "", text)
+        self.assertEqual(author_of({"Credit": {"value": "Own work, Rama"}}), "Rama")
+        self.assertEqual(author_of({"Artist": {"value": "No machine-readable author provided. Ann Doe assumed "
+                                                         "(based on copyright claims)."}}), "Ann Doe")
+        self.assertEqual(author_of({"Artist": {"value": "Ann (http://example.org)"}}), "Ann (http://example.org)")
 
     def test_doubled_author_collapses(self):
         self.assertEqual(author_of({"Artist": {"value": "Ann DoeAnn Doe"}}), "Ann Doe")
