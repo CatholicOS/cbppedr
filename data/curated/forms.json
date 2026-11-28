@@ -2131,7 +2131,8 @@
    "Baalis"
   ],
   "bpers:baalphegor": [
-   "Baalphegor"
+   "Baalphegor",
+   "Phegor"
   ],
   "bpers:baana.ahilud-filius": [
    "Baana",
@@ -15824,13 +15825,17 @@
    "desertum Sin",
    "deserti Sin",
    "deserto Sin",
-   "desertum"
+   "desertum",
+   "deserti",
+   "deserto"
   ],
   "bplace:desertum-sinai": [
    "desertum Sinai",
    "deserti Sinai",
    "deserto Sinai",
-   "desertum"
+   "desertum",
+   "deserti",
+   "deserto"
   ],
   "bplace:dibon.iudae": [
    "Dibon"
@@ -17405,7 +17410,11 @@
    "montem Calvum",
    "monte Calvo",
    "mons Calve",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-esau": [
    "mons Esau",
@@ -17413,7 +17422,11 @@
    "monti Esau",
    "montem Esau",
    "monte Esau",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hebal": [
    "mons Hebal",
@@ -17421,7 +17434,11 @@
    "monti Hebal",
    "montem Hebal",
    "monte Hebal",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hor.edom": [
    "mons Hor",
@@ -17430,7 +17447,11 @@
    "montem Hor",
    "monte Hor",
    "mons",
-   "Hor"
+   "Hor",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hor.libani": [
    "mons Hor",
@@ -17438,7 +17459,11 @@
    "monti Hor",
    "montem Hor",
    "monte Hor",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-iudae": [
    "mons Iudae",
@@ -17451,7 +17476,11 @@
    "montem Iudæ",
    "monte Iudae",
    "monte Iudæ",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-oliveti": [
    "mons Oliveti",
@@ -17460,8 +17489,11 @@
    "montem Oliveti",
    "monte Oliveti",
    "mons",
-   "montis Perditionis",
-   "montis"
+   "montis",
+   "monti",
+   "montem",
+   "monte",
+   "montis Perditionis"
   ],
   "bplace:mons-sepher": [
    "mons Sepher",
@@ -17469,7 +17501,11 @@
    "monti Sepher",
    "montem Sepher",
    "monte Sepher",
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:montes-bether": [
    "montes Bether",
@@ -18142,7 +18178,8 @@
    "portici",
    "portico",
    "porticum",
-   "portice"
+   "portice",
+   "porticu Salomonis"
   ],
   "bplace:porticus-solii": [
    "porticus Solii",
@@ -19228,7 +19265,10 @@
    "valli Barachæ",
    "vallem Baracham",
    "valle Baracha",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-filii-ennom": [
    "vallis filii Ennom",
@@ -19236,6 +19276,9 @@
    "vallem filii Ennom",
    "valle filii Ennom",
    "vallis",
+   "valli",
+   "vallem",
+   "valle",
    "Topheth"
   ],
   "bplace:vallis-iephthael": [
@@ -19247,70 +19290,100 @@
    "vallem Iephthæl",
    "valle Iephthael",
    "valle Iephthæl",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-iezrahel": [
    "vallis Iezrahel",
    "valli Iezrahel",
    "vallem Iezrahel",
    "valle Iezrahel",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-iosaphat": [
    "vallis Iosaphat",
    "valli Iosaphat",
    "vallem Iosaphat",
    "valle Iosaphat",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-multitudinis-gog": [
    "vallis Multitudinis Gog",
    "valli Multitudinis Gog",
    "vallem Multitudinis Gog",
    "valle Multitudinis Gog",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-raphaim": [
    "vallis Raphaim",
    "valli Raphaim",
    "vallem Raphaim",
    "valle Raphaim",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-regis": [
    "vallis Regis",
    "valli Regis",
    "vallem Regis",
    "valle Regis",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-salis": [
    "vallis Salis",
    "valli Salis",
    "vallem Salis",
    "valle Salis",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-siddim": [
    "vallis Siddim",
    "valli Siddim",
    "vallem Siddim",
    "valle Siddim",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-sorec": [
    "vallis Sorec",
    "valli Sorec",
    "vallem Sorec",
    "valle Sorec",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-terebinthi": [
    "vallis Terebinthi",
    "valli Terebinthi",
    "vallem Terebinthi",
    "valle Terebinthi",
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:via-regia": [
    "via regia",
@@ -19675,10 +19748,14 @@
    "collis"
   ],
   "bplace:desertum-sin": [
-   "desertum"
+   "desertum",
+   "deserti",
+   "deserto"
   ],
   "bplace:desertum-sinai": [
-   "desertum"
+   "desertum",
+   "deserti",
+   "deserto"
   ],
   "bplace:domus-saltus-libani": [
    "domus",
@@ -19753,29 +19830,60 @@
    "aquae"
   ],
   "bplace:mons-calvus": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-esau": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hebal": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hor.edom": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-hor.libani": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-iudae": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-oliveti": [
    "mons",
-   "montis"
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:mons-sepher": [
-   "mons"
+   "mons",
+   "montis",
+   "monti",
+   "montem",
+   "monte"
   ],
   "bplace:montes-bether": [
    "montes",
@@ -20085,40 +20193,76 @@
    "Ur"
   ],
   "bplace:vallis-baracha": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-filii-ennom": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-iephthael": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-iezrahel": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-iosaphat": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-multitudinis-gog": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-raphaim": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-regis": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-salis": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-siddim": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-sorec": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:vallis-terebinthi": [
-   "vallis"
+   "vallis",
+   "valli",
+   "vallem",
+   "valle"
   ],
   "bplace:via-regia": [
    "via"

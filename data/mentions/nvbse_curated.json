@@ -1,5 +1,5 @@
 {
- "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor names the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged.",
+ "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor and the Hor inside it name the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged.",
  "edition": "NVBSE",
  "units": {
   "btu:act.16.1": {
@@ -89,7 +89,10 @@
      "start": 92,
      "end": 95,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "candidates": [
+      "bplace:hor.septentrionalis",
+      "bplace:mons-hor.libani"
+     ]
     }
    ]
   }
