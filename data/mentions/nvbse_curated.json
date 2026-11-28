@@ -1,5 +1,5 @@
 {
- "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor and the Hor inside it name the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged.",
+ "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor and the Hor inside it name the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged. nm.33.8: Etham there is the wilderness (desertum Etham), which has no entry; the camp bplace:etham.castra is under review.",
  "edition": "NVBSE",
  "units": {
   "btu:act.16.1": {
@@ -70,6 +70,37 @@
      "end": 150,
      "check": "58ec2c83",
      "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:nm.33.8": {
+   "hash": "60804c0ef21ce60a4d2e53929897a8702f0e0358b440a0e02fb8e725c233ce1d",
+   "mentions": [
+    {
+     "start": 15,
+     "end": 26,
+     "check": "036c1ad0",
+     "entry": "bplace:phihahiroth"
+    },
+    {
+     "start": 50,
+     "end": 54,
+     "check": "074af2bf",
+     "entry": "bplace:mare-rubrum"
+    },
+    {
+     "start": 112,
+     "end": 117,
+     "check": "515f6f81",
+     "candidates": [
+      "bplace:etham.castra"
+     ]
+    },
+    {
+     "start": 139,
+     "end": 143,
+     "check": "d48c6c58",
+     "entry": "bplace:mara"
     }
    ]
   },
