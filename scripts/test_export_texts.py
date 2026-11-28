@@ -3,7 +3,7 @@ import unittest
 
 import sys
 
-from export_texts import capture, parse_plain, plain_by_unit
+from export_texts import capture, parse_plain, plain_by_unit, utf8_client
 
 
 def row(book, ch, v, origin, text):
@@ -68,10 +68,6 @@ class ParsePlain(unittest.TestCase):
         self.assertEqual(parse_plain(""), [])
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class CaptureTest(unittest.TestCase):
     CMD = [sys.executable, "-c", "import sys; sys.stdout.buffer.write('a\\r\\nb é'.encode('utf-8'))"]
 
@@ -80,3 +76,16 @@ class CaptureTest(unittest.TestCase):
         self.assertEqual(out, "a\r\nb é")
         out, _ = plain_by_unit([row(1, 1, 1, "", out)], {(1, "1:1"): ["btu:a"]})
         self.assertEqual(out["btu:a"]["hash"], hashlib.sha256("a\r\nb é".encode("utf-8")).hexdigest())
+
+    def test_plain_capture_asks_for_utf8(self):
+        cmd = [sys.executable, "-c", "import os, sys; sys.stdout.write(os.environ.get('PGCLIENTENCODING', '-'))"]
+        self.assertEqual(capture(cmd, plain=True), "UTF8")
+
+    def test_utf8_client_passed_into_docker(self):
+        self.assertEqual(utf8_client(["docker", "exec", "db", "psql", "-U", "x"]),
+                         ["docker", "exec", "-e", "PGCLIENTENCODING=UTF8", "db", "psql", "-U", "x"])
+        self.assertEqual(utf8_client(["psql", "-U", "x"]), ["psql", "-U", "x"])
+
+
+if __name__ == "__main__":
+    unittest.main()

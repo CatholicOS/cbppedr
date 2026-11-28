@@ -4,7 +4,8 @@ their positions, never their words, to data/mentions/nvbse.json.
 Reads the private export of NVBSE's text_plain by unit (export_texts.py --plain), the forms of
 data/curated/forms.json, and the catalogs' `attested` and NVBSE designation labels. Whole words only
 (a boundary is a non-letter or the text's edge), case-sensitive; at each position the longest form wins.
-A one-word form starting lower-case (a common noun taken from a label) is not looked for as a name;
+A one-word form starting lower-case (a common noun taken from a label) is not looked for as a name,
+but for a canonical one (not `partial`) in the units where its entry is attested ("praetorium");
 designations are looked for as written, only in their own unit.
 Every occurrence in a verse is marked:
 
@@ -282,6 +283,10 @@ class _Run:
     def __init__(self, forms, catalogs, stop, partial, removed=None):
         self.index = _index(name_forms(forms))
         self.stems = {id_: {stem(w) for f in fs for w in f.split()} for id_, fs in forms.items()}
+        # lower-case one-word canonical forms ("praetorium"): looked for only where the entry is attested
+        part = {id_: set(fs) for id_, fs in (partial or {}).items()}
+        self.lower = {id_: low for id_, fs in forms.items()
+                      if (low := [f for f in fs if not _is_name_form(f) and f not in part.get(id_, ())])}
         self.attested, self.designations = _attestations(catalogs)
         self.books: dict[str, set[str]] = {}
         for unit, ids in self.attested.items():
@@ -298,15 +303,18 @@ class _Run:
     def unit(self, key: str, row: dict) -> None:
         text, unit = row["text"], base_unit(key)
         hits = _find_indexed(text, self.index)
-        designated = set(_find_indexed(text, _index(self.designations.get(unit, {}))))
+        lower = {id_: self.lower[id_] for id_ in self.attested.get(unit, set()) if id_ in self.lower}
+        hits += [h for h in _find_indexed(text, _index(lower)) if h not in hits] if lower else []
+        labels = self.designations.get(unit, {})
+        designated = set(_find_indexed(text, _index(labels)))
         hits += [h for h in designated if h not in hits]
-        here = {id_ for _, _, id_ in hits}
+        crossing = _crossing(list(_spans(hits)))
+        here = {id_ for start, end, id_ in hits if (start, end) not in crossing}
         self.found.setdefault(unit, set()).update(here)
         unmatched = self.attested.get(unit, set()) - here
-        per_entry: dict[str, int] = {}
-        for _, _, id_ in designated:
-            per_entry[id_] = per_entry.get(id_, 0) + 1
-        repeated = {h for h in designated if per_entry[h[2]] > 1}
+        # a label found more than once, counted on its own (before the longest span wins at a position)
+        twice = {id_ for id_, ls in labels.items() if len(_find_indexed(text, _index({id_: ls}))) > 1}
+        repeated = {h for h in designated if h[2] in twice}
         mentions = resolve(text, hits, self.attested.get(unit, set()), designated,
                            self.outside(book(unit), unit), repeated, self.rivals(unmatched))
         row_crossing = _crossing_row(key, text, hits)

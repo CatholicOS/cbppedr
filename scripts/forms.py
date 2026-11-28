@@ -122,16 +122,18 @@ def propose_parts(name: str, stoplist: frozenset[str] | None = None, person: boo
         if alt:
             full.append(alt)
     full = list(dict.fromkeys(full))
-    return full, [f for f in _word_forms(words, stop, person, places) if f not in full]
+    return full, [f for f in _word_forms(words, stop, person, places, head) if f not in full]
 
 
-def _word_forms(words: list[str], stop: frozenset[str], person: bool, places: frozenset[str]) -> list[str]:
-    """A multiword name's first word's forms and, for a person, its last word's; none from a stoplist word."""
+def _word_forms(words: list[str], stop: frozenset[str], person: bool, places: frozenset[str],
+                head: tuple[str, ...] | None = None) -> list[str]:
+    """A multiword name's first word's forms (a place head's own slots: Mons, Montem) and, for a person,
+    its last word's; none from a stoplist word."""
     if len(words) < 2:
         return []
     out: list[str] = []
     if words[0].lower() not in stop:
-        out += propose(words[0], stop)
+        out += [words[0]] + [f for f in head if f.lower() not in stop] if head else propose(words[0], stop)
     last = words[-1]
     if person and last.lower() not in stop and last not in places:
         out += propose(last, stop)
