@@ -11,7 +11,7 @@ The structure of every file. What each term means (types, kinds, relations, `sam
   "type": "person | place | event",
   "kind": "individual | group | deity | extra-biblical | city | region | mountain | river | sea | valley | desert | site | building | other | episode | battle | assembly",
   "names": {"la": "Nova Vulgata form", "it": "CEI form", "en": "usual English form"},
-  "description": {"it": "≤ 15 words, our own", "en": "≤ 15 words, our own"},
+  "description": {"it": "≤ 30 words, our own", "en": "≤ 30 words, our own"},
   "attested": ["btu:mt.14.3", "…"],
   "labels": {"btu:gal.2.9": {"as": "name", "editions": {"NVBSE": "Cephas", "CEI2008": "Cefa", "NABRE": "Kephas"}}},
   "relations": [{"rel": "child_of", "target": "<id>", "evidence": ["ndeib:FILIPPO#1", "bj:herodian-tree"]}],
@@ -25,6 +25,7 @@ The structure of every file. What each term means (types, kinds, relations, `sam
 ```
 
 - **Identifiers:** `bpers:`, `bplace:`, `bevent:` + the Nova Vulgata Latin name as a lowercase ASCII slug, words joined by `-`, plus `.` and a short Latin discriminator when the name is shared (`bpers:philippus.tetrarcha`). Drafts until `v1.0.0`.
+- **description:** our own words, never source text, at most 30 words and 220 characters per language. A description may give the meaning of a name when the story turns on it (Eve, "mother of all the living").
 - **attested:** the [CBTUDR](https://github.com/CatholicOS/cbtudr) units where the entry appears, by name or by a designation the context ties to it, edition-independently, in the order the sources cite them. Verses that refer to it only by a pronoun, or not at all, are not attested. They are not yet the list of every mention (that is the next project: mentions with offsets per edition).
 - **mentioned** (only where any): the CBTUDR units, in CBTUDR order, where the entry is named in the Nova Vulgata (NVBSE) text by a settled mention (`data/mentions/`) but that no source cites, so they are not in `attested` and never repeat it. A reviewed removal (`unattested.json`) is never added back here. Candidate mentions under review add nothing. An index of the entry uses `attested` and `mentioned` together.
 - **labels** (only where needed): for an attested unit where the entry is not called by its catalogued names, how each edition names it there: `as` is `name` (another name the entry bears: Cephas, Saul, Zion) or `designation` (a title or description the context ties to it: "the king of Israel" in the Joram narrative); `editions` maps each edition that carries it (`NVBSE`, `VGCL`, `CEI2008`, `NABRE`, `DRB`) to the label as printed, at most six words. An edition missing from the map does not name or designate the entry in that verse (e.g. "the prophet" in 2 Kgs 2:24 is only the NABRE's), so an application can keep only the units its edition supports.
