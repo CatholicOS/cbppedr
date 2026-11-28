@@ -44649,6 +44649,67 @@
     "nv:btu:gn.2.25",
     "nv:btu:gn.3.12"
    ]
+  },
+  "bpers:demetrius.soter": {
+   "attested": [
+    "btu:1mac.7.1",
+    "btu:1mac.7.4",
+    "btu:1mac.8.31",
+    "btu:1mac.9.1",
+    "btu:1mac.10.2",
+    "btu:1mac.10.3",
+    "btu:1mac.10.15",
+    "btu:1mac.10.22",
+    "btu:1mac.10.25",
+    "btu:1mac.10.48",
+    "btu:1mac.10.49",
+    "btu:1mac.10.52",
+    "btu:1mac.10.67",
+    "btu:1mac.15.1",
+    "btu:2mac.14.1",
+    "btu:2mac.14.4",
+    "btu:2mac.14.5",
+    "btu:2mac.14.11",
+    "btu:2mac.14.26"
+   ],
+   "evidence": [
+    "reviewer:round2",
+    "nv:btu:1mac.7.1"
+   ]
+  },
+  "bpers:demetrius.nicator": {
+   "attested": [
+    "btu:1mac.10.67",
+    "btu:1mac.10.69",
+    "btu:1mac.11.9",
+    "btu:1mac.11.12",
+    "btu:1mac.11.19",
+    "btu:1mac.11.30",
+    "btu:1mac.11.32",
+    "btu:1mac.11.38",
+    "btu:1mac.11.39",
+    "btu:1mac.11.40",
+    "btu:1mac.11.41",
+    "btu:1mac.11.42",
+    "btu:1mac.11.52",
+    "btu:1mac.11.55",
+    "btu:1mac.11.63",
+    "btu:1mac.12.24",
+    "btu:1mac.12.34",
+    "btu:1mac.13.34",
+    "btu:1mac.13.35",
+    "btu:1mac.13.36",
+    "btu:1mac.14.1",
+    "btu:1mac.14.2",
+    "btu:1mac.14.3",
+    "btu:1mac.14.38",
+    "btu:1mac.15.22",
+    "btu:2mac.1.7"
+   ],
+   "evidence": [
+    "reviewer:round2",
+    "nv:btu:1mac.10.67"
+   ]
   }
  }
 }

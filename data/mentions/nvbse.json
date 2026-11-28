@@ -2633,13 +2633,19 @@
      "start": 42,
      "end": 51,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "candidates": [
+      "bpers:demetrius.nicator",
+      "bpers:demetrius.soter"
+     ]
     },
     {
      "start": 59,
      "end": 67,
      "check": "68bbd46d",
-     "entry": "bpers:demetrius.soter"
+     "candidates": [
+      "bpers:demetrius.nicator",
+      "bpers:demetrius.soter"
+     ]
     },
     {
      "start": 70,
@@ -2680,7 +2686,7 @@
      "start": 14,
      "end": 23,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 134,
@@ -2934,7 +2940,7 @@
      "start": 37,
      "end": 45,
      "check": "f7939206",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3042,7 +3048,7 @@
      "start": 12,
      "end": 21,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3172,7 +3178,7 @@
      "start": 6,
      "end": 15,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 23,
@@ -3206,7 +3212,7 @@
      "start": 5,
      "end": 14,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3274,7 +3280,7 @@
      "start": 10,
      "end": 19,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3285,7 +3291,7 @@
      "start": 101,
      "end": 110,
      "check": "9ac466ce",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 152,
@@ -3328,7 +3334,7 @@
      "start": 105,
      "end": 114,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3339,7 +3345,7 @@
      "start": 21,
      "end": 30,
      "check": "9ac466ce",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 75,
@@ -3365,7 +3371,7 @@
      "start": 9,
      "end": 18,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 22,
@@ -3435,7 +3441,7 @@
      "start": 9,
      "end": 18,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3488,7 +3494,7 @@
      "start": 60,
      "end": 69,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3663,7 +3669,7 @@
      "start": 43,
      "end": 51,
      "check": "68bbd46d",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 55,
@@ -3835,7 +3841,7 @@
      "start": 20,
      "end": 29,
      "check": "9ac466ce",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 112,
@@ -3899,7 +3905,7 @@
      "start": 52,
      "end": 60,
      "check": "68bbd46d",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -3956,7 +3962,7 @@
      "start": 54,
      "end": 62,
      "check": "68bbd46d",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -4580,7 +4586,7 @@
      "start": 34,
      "end": 43,
      "check": "9ac466ce",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -4591,7 +4597,7 @@
      "start": 3,
      "end": 12,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -4602,7 +4608,7 @@
      "start": 6,
      "end": 15,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 16,
@@ -4815,7 +4821,7 @@
      "start": 52,
      "end": 61,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 89,
@@ -4948,7 +4954,7 @@
      "start": 57,
      "end": 66,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -5098,7 +5104,7 @@
      "start": 29,
      "end": 37,
      "check": "68bbd46d",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -5191,7 +5197,7 @@
      "start": 7,
      "end": 16,
      "check": "0ba80a9c",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -5396,7 +5402,7 @@
      "start": 20,
      "end": 28,
      "check": "f7939206",
-     "entry": "bpers:demetrius.soter"
+     "entry": "bpers:demetrius.nicator"
     }
    ]
   },
@@ -65691,9 +65697,7 @@
      "start": 9,
      "end": 17,
      "check": "f7939206",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.nicator"
     },
     {
      "start": 159,
@@ -66419,9 +66423,7 @@
      "start": 58,
      "end": 67,
      "check": "9ac466ce",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.soter"
     }
    ]
   },
@@ -66463,9 +66465,7 @@
      "start": 104,
      "end": 113,
      "check": "9ac466ce",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.soter"
     }
    ]
   },
@@ -66652,9 +66652,7 @@
      "start": 94,
      "end": 103,
      "check": "9ac466ce",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.soter"
     },
     {
      "start": 149,
@@ -66714,9 +66712,7 @@
      "start": 15,
      "end": 24,
      "check": "9ac466ce",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.soter"
     }
    ]
   },
@@ -66727,9 +66723,7 @@
      "start": 60,
      "end": 68,
      "check": "f7939206",
-     "candidates": [
-      "bpers:demetrius.soter"
-     ]
+     "entry": "bpers:demetrius.soter"
     }
    ]
   },
