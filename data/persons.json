@@ -40976,11 +40976,6 @@
     "nv:btu:act.12.19"
    ],
    "review": "uncertain",
-   "mentioned": [
-    "btu:act.4.27",
-    "btu:act.13.1",
-    "btu:act.23.35"
-   ],
    "labels": {
     "btu:act.12.20": {
      "as": "designation",
@@ -41015,7 +41010,23 @@
     "btu:mc.6.18",
     "btu:lc.23.7",
     "btu:lc.13.32",
-    "btu:mc.8.15"
+    "btu:mc.8.15",
+    "btu:act.4.27",
+    "btu:act.13.1",
+    "btu:mt.14.1",
+    "btu:mt.14.3",
+    "btu:mt.14.6",
+    "btu:mc.6.20",
+    "btu:mc.6.21",
+    "btu:mc.6.22",
+    "btu:lc.8.3",
+    "btu:lc.9.7",
+    "btu:lc.9.9",
+    "btu:lc.13.31",
+    "btu:lc.23.8",
+    "btu:lc.23.11",
+    "btu:lc.23.12",
+    "btu:lc.23.15"
    ],
    "relations": [
     {
@@ -41045,22 +41056,12 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ERODE",
-    "nv:btu:mc.8.15"
+    "nv:btu:mc.8.15",
+    "reviewer:round3",
+    "nv:btu:act.13.1",
+    "nv:btu:mt.14.1"
    ],
    "review": "uncertain",
-   "mentioned": [
-    "btu:mc.6.20",
-    "btu:mc.6.21",
-    "btu:lc.1.5",
-    "btu:lc.8.3",
-    "btu:lc.9.7",
-    "btu:lc.9.9",
-    "btu:lc.13.31",
-    "btu:lc.23.8",
-    "btu:lc.23.11",
-    "btu:lc.23.12",
-    "btu:lc.23.15"
-   ],
    "labels": {
     "btu:lc.13.32": {
      "as": "designation",
@@ -41087,7 +41088,17 @@
     "en": "Herod the Great, ruler of Judea, 37 to 4 BC"
    },
    "attested": [
-    "btu:mt.2.22"
+    "btu:mt.2.22",
+    "btu:lc.1.5",
+    "btu:act.23.35",
+    "btu:mt.2.1",
+    "btu:mt.2.3",
+    "btu:mt.2.7",
+    "btu:mt.2.12",
+    "btu:mt.2.13",
+    "btu:mt.2.15",
+    "btu:mt.2.16",
+    "btu:mt.2.19"
    ],
    "relations": [
     {
@@ -41115,17 +41126,10 @@
    "qid": "Q51672",
    "qid_status": "adjudicated",
    "evidence": [
-    "ndeib:ERODE"
-   ],
-   "mentioned": [
-    "btu:mt.2.1",
-    "btu:mt.2.3",
-    "btu:mt.2.7",
-    "btu:mt.2.12",
-    "btu:mt.2.13",
-    "btu:mt.2.15",
-    "btu:mt.2.16",
-    "btu:mt.2.19"
+    "ndeib:ERODE",
+    "reviewer:round3",
+    "nv:btu:lc.1.5",
+    "nv:btu:mt.2.1"
    ]
   },
   "bpers:herodiani": {
