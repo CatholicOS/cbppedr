@@ -3589,6 +3589,23 @@
    "hash": "11f955adbda5ac332464c344453f89d3c14df0c4bb9bb40b1bbe8e04fb45cf6b",
    "mentions": [
     {
+     "start": 3,
+     "end": 10,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 52,
      "end": 56,
      "check": "93400b5f",
@@ -3718,6 +3735,28 @@
      "end": 82,
      "check": "7684f2c6",
      "entry": "bplace:galilaea"
+    }
+   ]
+  },
+  "btu:1mac.11.64": {
+   "hash": "7d5ca70f027780acb96ea35028846252ca2d1ec550c80135fe85a290b2e5ef66",
+   "mentions": [
+    {
+     "start": 38,
+     "end": 45,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -4696,6 +4735,23 @@
       "bpers:demetrius.nicator",
       "bpers:demetrius.soter"
      ]
+    },
+    {
+     "start": 16,
+     "end": 22,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -4749,6 +4805,23 @@
       "bpers:israel.populus",
       "bplace:israel.terra"
      ]
+    },
+    {
+     "start": 91,
+     "end": 97,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -4759,6 +4832,28 @@
      "start": 26,
      "end": 31,
      "check": "7c6e1bf1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.13.45": {
+   "hash": "ffbc7c77e02bbedc13ee343cc336402b0b9b1c48eec5aacd883cc9e6282f8412",
+   "mentions": [
+    {
+     "start": 137,
+     "end": 143,
+     "check": "95b0b3ab",
      "candidates": [
       "bpers:simon-petrus",
       "bpers:simon.ammonis-pater",
@@ -4804,6 +4899,28 @@
      "end": 33,
      "check": "ed8f76e7",
      "entry": "bplace:ierusalem"
+    }
+   ]
+  },
+  "btu:1mac.13.50": {
+   "hash": "4212e2f2ab978bbd3d2b49ba2d677f152b477e2c39997d5439a7f7d39d4ffd62",
+   "mentions": [
+    {
+     "start": 18,
+     "end": 25,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5029,6 +5146,28 @@
     }
    ]
   },
+  "btu:1mac.14.20": {
+   "hash": "0d63f5b2c532a9a0df53bac438c46a44b6299f8169d77d4a31941e449a6d78c1",
+   "mentions": [
+    {
+     "start": 36,
+     "end": 42,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:1mac.14.22": {
    "hash": "da6c82375bf1d0ad1afd84f59d98d6763208d9a7797d230b960873a0524c0852",
    "mentions": [
@@ -5042,6 +5181,28 @@
       "bpers:antiochus.epiphanes",
       "bpers:antiochus.eupator",
       "bpers:antiochus.magnus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.14.23": {
+   "hash": "362918953a0882805460edc0ccd4e2ac86d8c4faa287c5bcfd827ea35389ff87",
+   "mentions": [
+    {
+     "start": 177,
+     "end": 183,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -5074,6 +5235,28 @@
     }
    ]
   },
+  "btu:1mac.14.25": {
+   "hash": "b18ba71b0cc70e09d2ad2f341a997488a3c3ad0e84bd847c89151c98a1529ee9",
+   "mentions": [
+    {
+     "start": 88,
+     "end": 94,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:1mac.14.26": {
    "hash": "403f9884ceea15d99b85cf808c4610587524b36a01fe04dbb0d8f1175ed55bab",
    "mentions": [
@@ -5091,6 +5274,28 @@
      "end": 197,
      "check": "291a209c",
      "entry": "bplace:ierusalem"
+    }
+   ]
+  },
+  "btu:1mac.14.27": {
+   "hash": "4905fa2e6e1109d9dc35fa74457d52a9f29100ed7749adf7e6f1b7c21db11086",
+   "mentions": [
+    {
+     "start": 111,
+     "end": 117,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5196,6 +5401,28 @@
     }
    ]
   },
+  "btu:1mac.14.35": {
+   "hash": "bfabcce9eb925f5a6da15d5c53e06d5794a25080d3d86619ba92b5f80bfbc0af",
+   "mentions": [
+    {
+     "start": 23,
+     "end": 30,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:1mac.14.36": {
    "hash": "0b4e068eb9c16a01788d3f0b7287b1a01e4c857ed9427142ae36d49bf8d194ad",
    "mentions": [
@@ -5264,6 +5491,67 @@
       "bpers:iudas.princeps-dedicationis",
       "bplace:iuda"
      ]
+    },
+    {
+     "start": 37,
+     "end": 44,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.14.40": {
+   "hash": "95fdc3fd978485eaf3ec73d60a36a7e8954bbbd346e1e72eb05b6af68194b175",
+   "mentions": [
+    {
+     "start": 105,
+     "end": 112,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.14.46": {
+   "hash": "83a569c04d586da78ada5dc4cd74ff3338e2287145e512354b1ed2e4ebcee731",
+   "mentions": [
+    {
+     "start": 35,
+     "end": 41,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5329,6 +5617,23 @@
       "bpers:demetrius.christianus",
       "bpers:demetrius.nicator",
       "bpers:demetrius.soter"
+     ]
+    },
+    {
+     "start": 66,
+     "end": 72,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -5409,6 +5714,28 @@
     }
    ]
   },
+  "btu:1mac.15.17": {
+   "hash": "4f75fa05e6c468d5b5c992e12ba7b1c89904062c315b41e625cd688aa35005b3",
+   "mentions": [
+    {
+     "start": 109,
+     "end": 115,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:1mac.15.2": {
    "hash": "d596040e18c2d8f76ab5c250b8849f932cf44451f0392289c8c38f4fb6d29785",
    "mentions": [
@@ -5417,6 +5744,45 @@
      "end": 48,
      "check": "1702a634",
      "entry": "bpers:antiochus.demetrii-filius"
+    },
+    {
+     "start": 49,
+     "end": 55,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.15.21": {
+   "hash": "4226ef1051f5d642402d5097be18a3307fdafafe7e3395ced944e14620c715a0",
+   "mentions": [
+    {
+     "start": 74,
+     "end": 80,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5483,6 +5849,28 @@
      "check": "e08671b8",
      "candidates": [
       "bplace:cyprus"
+     ]
+    }
+   ]
+  },
+  "btu:1mac.15.24": {
+   "hash": "77d3bc2ffdd3f674642dafbf6b2ad900ac56ad4248c86dcedcbd4979a76b7daf",
+   "mentions": [
+    {
+     "start": 33,
+     "end": 39,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -5556,6 +5944,23 @@
      "end": 45,
      "check": "ed8f76e7",
      "entry": "bplace:ierusalem"
+    },
+    {
+     "start": 63,
+     "end": 70,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5589,6 +5994,28 @@
      "end": 12,
      "check": "859579eb",
      "entry": "bplace:ioppe"
+    }
+   ]
+  },
+  "btu:1mac.15.36": {
+   "hash": "8db9dda231b2f1edb49b8d296e3d6118cd72bf14f8038fef85efafe8a6957476",
+   "mentions": [
+    {
+     "start": 69,
+     "end": 76,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5666,6 +6093,23 @@
       "bpers:ioannes.de-genere-sacerdotali",
       "bpers:marcus"
      ]
+    },
+    {
+     "start": 44,
+     "end": 50,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -5694,6 +6138,28 @@
      "end": 64,
      "check": "817ad6c5",
      "entry": "bplace:iericho"
+    }
+   ]
+  },
+  "btu:1mac.16.13": {
+   "hash": "651081711638cc599d6dcccbe503edbc9a6add839eb81b1da0a92e4e95ca288d",
+   "mentions": [
+    {
+     "start": 84,
+     "end": 91,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -6239,6 +6705,28 @@
      "end": 27,
      "check": "81d80001",
      "entry": "bpers:maccabaei"
+    }
+   ]
+  },
+  "btu:1mac.2.3": {
+   "hash": "21d3dbec5c46960b9d4771fcda6dcb85e255273c23bfd17cbbd747f6fce1b621",
+   "mentions": [
+    {
+     "start": 3,
+     "end": 10,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -8051,6 +8539,23 @@
      ]
     },
     {
+     "start": 15,
+     "end": 21,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 97,
      "end": 105,
      "check": "7684f2c6",
@@ -8157,6 +8662,23 @@
   "btu:1mac.5.20": {
    "hash": "4cb00d4389a06ba0622a1fdedd9c1ff28b0d34ef702be2592a96a76541e00647",
    "mentions": [
+    {
+     "start": 16,
+     "end": 22,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
     {
      "start": 54,
      "end": 63,
@@ -11233,6 +11755,23 @@
    "hash": "1994de34910a9fbe01fd888bec4a5a9447df83a5a05d71c72bc39954f2b0139a",
    "mentions": [
     {
+     "start": 44,
+     "end": 50,
+     "check": "ca698cb1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 74,
      "end": 80,
      "check": "d5dd3e9e",
@@ -11534,6 +12073,28 @@
      "end": 86,
      "check": "055bbdbc",
      "entry": "bplace:iudaea"
+    }
+   ]
+  },
+  "btu:1mac.9.65": {
+   "hash": "89704330f666a474af7221a721f5b9ebb8db77fb5f839069a592bbf5c26b9914",
+   "mentions": [
+    {
+     "start": 21,
+     "end": 28,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -70551,11 +71112,50 @@
    "hash": "bbbd8519ed00bc9740e3177f20b79d1a6ca171742456c3dc40a27b135e170b84",
    "mentions": [
     {
+     "start": 43,
+     "end": 49,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 69,
      "end": 77,
      "check": "f7118f57",
      "candidates": [
       "bpers:zacchaeus"
+     ]
+    }
+   ]
+  },
+  "btu:2mac.10.20": {
+   "hash": "c41180434b5d13f8f96213cd3b8a062cf4c93b3bb9155efe346a1db0c4f82aca",
+   "mentions": [
+    {
+     "start": 17,
+     "end": 23,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -72809,6 +73409,23 @@
       "bpers:iason.eleazari-filius",
       "bpers:iason.thessalonicensis"
      ]
+    },
+    {
+     "start": 56,
+     "end": 63,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -72824,6 +73441,28 @@
       "bpers:iason.cyrenaeus",
       "bpers:iason.eleazari-filius",
       "bpers:iason.thessalonicensis"
+     ]
+    }
+   ]
+  },
+  "btu:2mac.4.3": {
+   "hash": "949e0cbe80464fdf34e12d577e6b046fc453c8598cf2642373555fa0c2adbf2b",
+   "mentions": [
+    {
+     "start": 75,
+     "end": 81,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -72926,6 +73565,28 @@
     }
    ]
   },
+  "btu:2mac.4.4": {
+   "hash": "ca84803dee14e2b902085a55f80755bfd11d21eb5b4fd208c75373eaa6acb00c",
+   "mentions": [
+    {
+     "start": 116,
+     "end": 123,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:2mac.4.44": {
    "hash": "dc7c076babdd20efa6b69959bcb28ff4336ea58795baabd0aa36e5346f0e4b21",
    "mentions": [
@@ -72935,6 +73596,28 @@
      "check": "e9078fb1",
      "candidates": [
       "bplace:tyrus"
+     ]
+    }
+   ]
+  },
+  "btu:2mac.4.6": {
+   "hash": "28e5cffe4412a5c4721335c55a755222917d4bd587b7f851fa2daea919313327",
+   "mentions": [
+    {
+     "start": 87,
+     "end": 94,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -73344,6 +74027,28 @@
      "check": "242db464",
      "candidates": [
       "bpers:sennacherib"
+     ]
+    }
+   ]
+  },
+  "btu:2mac.8.22": {
+   "hash": "c34970afa312a7dd778a2833e5bede4abfb934be808552aa98ccabe4eabaa535",
+   "mentions": [
+    {
+     "start": 65,
+     "end": 71,
+     "check": "95b0b3ab",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -124220,6 +124925,23 @@
      "end": 107,
      "check": "f8b78eb7",
      "entry": "bpers:cornelius"
+    },
+    {
+     "start": 127,
+     "end": 134,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -124368,11 +125090,45 @@
    "hash": "07401364f22f5d43508710bb951b409a53a02a3db07c80a7b4fa7b95cef0732c",
    "mentions": [
     {
+     "start": 32,
+     "end": 39,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 58,
      "end": 64,
      "check": "c9c2aab1",
      "candidates": [
       "bpers:simon-petrus"
+     ]
+    },
+    {
+     "start": 89,
+     "end": 96,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -124538,11 +125294,50 @@
    "hash": "420ec4e989cfc7220d5f513d620566016d2271a485a6084857d9683b3db4924f",
    "mentions": [
     {
+     "start": 41,
+     "end": 48,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 75,
      "end": 81,
      "check": "c9c2aab1",
      "candidates": [
       "bpers:simon-petrus"
+     ]
+    }
+   ]
+  },
+  "btu:act.10.6": {
+   "hash": "422ffde0b9dd54b8ce47e46d6f00df6243fd3fe1c15f8be10822ebd4adc2afb2",
+   "mentions": [
+    {
+     "start": 20,
+     "end": 27,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
      ]
     }
    ]
@@ -124599,6 +125394,12 @@
   "btu:act.11.13": {
    "hash": "32d5fdb9dacbfe8d64b11cfa614bcfc3614b1f0ce3515610ea64b0ff93bfbe32",
    "mentions": [
+    {
+     "start": 109,
+     "end": 116,
+     "check": "ce79c971",
+     "entry": "bpers:simon-petrus"
+    },
     {
      "start": 135,
      "end": 141,
@@ -133419,6 +134220,12 @@
      "end": 51,
      "check": "859579eb",
      "entry": "bplace:ioppe"
+    },
+    {
+     "start": 65,
+     "end": 72,
+     "check": "ce79c971",
+     "entry": "bpers:simon.coriarius"
     }
    ]
   },
@@ -145552,7 +146359,8 @@
      "end": 93,
      "check": "61049f80",
      "candidates": [
-      "bplace:desertum-sin"
+      "bplace:desertum-sin",
+      "bplace:sin.prope-cades"
      ]
     },
     {
@@ -231313,6 +232121,12 @@
      "entry": "bpers:andreas"
     },
     {
+     "start": 21,
+     "end": 34,
+     "check": "b4d3bcf7",
+     "entry": "bpers:simon-petrus"
+    },
+    {
      "start": 29,
      "end": 34,
      "check": "17dcbf66",
@@ -231337,6 +232151,23 @@
   "btu:io.1.41": {
    "hash": "fcb51647d1d27f1e3e68feece212ffbdd27a7d4b1ba35a9e2ff475f4b3975637",
    "mentions": [
+    {
+     "start": 32,
+     "end": 39,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
     {
      "start": 100,
      "end": 108,
@@ -232766,6 +233597,12 @@
      "entry": "bpers:iudas-iscariotes"
     },
     {
+     "start": 70,
+     "end": 77,
+     "check": "bcd4573c",
+     "entry": "bpers:simon.pater-iudae"
+    },
+    {
      "start": 78,
      "end": 88,
      "check": "235df0f8",
@@ -232845,6 +233682,23 @@
      "end": 111,
      "check": "8df4c8b4",
      "entry": "bpers:iudas-iscariotes"
+    },
+    {
+     "start": 112,
+     "end": 119,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     },
     {
      "start": 120,
@@ -232945,6 +233799,12 @@
   "btu:io.13.6": {
    "hash": "a3e0b642ef06a9f05ab7fecc07d8c3a5b054fb63b1d42d744ea8e43619f925ad",
    "mentions": [
+    {
+     "start": 14,
+     "end": 28,
+     "check": "c82688ae",
+     "entry": "bpers:simon-petrus"
+    },
     {
      "start": 22,
      "end": 28,
@@ -234440,6 +235300,12 @@
    "hash": "a17607224d13917125d8f6fbd904cede36d0fe866c67540f6fef5b9796298836",
    "mentions": [
     {
+     "start": 24,
+     "end": 38,
+     "check": "c82688ae",
+     "entry": "bpers:simon-petrus"
+    },
+    {
      "start": 32,
      "end": 38,
      "check": "274cecd1",
@@ -234689,6 +235555,12 @@
   "btu:io.21.15": {
    "hash": "25c77acbaad8b39dab49b5e39f1ca72d4d19361aa28532bf9463842d5b2155c9",
    "mentions": [
+    {
+     "start": 28,
+     "end": 40,
+     "check": "01307028",
+     "entry": "bpers:simon-petrus"
+    },
     {
      "start": 35,
      "end": 40,
@@ -235897,7 +236769,10 @@
      "start": 28,
      "end": 42,
      "check": "1a26cf93",
-     "entry": "bplace:stagnum-genesareth"
+     "candidates": [
+      "bplace:galilaea",
+      "bplace:stagnum-genesareth"
+     ]
     },
     {
      "start": 33,
@@ -236250,6 +237125,12 @@
      "entry": "bpers:iudas-iscariotes"
     },
     {
+     "start": 20,
+     "end": 27,
+     "check": "bcd4573c",
+     "entry": "bpers:simon.pater-iudae"
+    },
+    {
      "start": 28,
      "end": 38,
      "check": "235df0f8",
@@ -236265,6 +237146,12 @@
      "end": 41,
      "check": "9eea6242",
      "entry": "bpers:andreas"
+    },
+    {
+     "start": 49,
+     "end": 62,
+     "check": "b4d3bcf7",
+     "entry": "bpers:simon-petrus"
     },
     {
      "start": 57,
@@ -242480,9 +243367,7 @@
      "start": 86,
      "end": 98,
      "check": "47dfa2fa",
-     "candidates": [
-      "bplace:desertum-sin"
-     ]
+     "entry": "bplace:sin.prope-cades"
     },
     {
      "start": 95,
@@ -264061,6 +264946,23 @@
    "hash": "37964dff5b2bb61f85b9d4e51c862798bd0463160babe942f381f3c707df4914",
    "mentions": [
     {
+     "start": 38,
+     "end": 45,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
      "start": 124,
      "end": 129,
      "check": "58ec2c83",
@@ -264484,6 +265386,17 @@
      "end": 50,
      "check": "ed8f76e7",
      "entry": "bplace:ierusalem"
+    }
+   ]
+  },
+  "btu:lc.24.34": {
+   "hash": "d4505ba30a15b750f15206b1337c78b25b21d3fc909cdb300cb1a7aeda0a55c4",
+   "mentions": [
+    {
+     "start": 46,
+     "end": 52,
+     "check": "ca698cb1",
+     "entry": "bpers:simon-petrus"
     }
    ]
   },
@@ -265614,6 +266527,45 @@
     }
    ]
   },
+  "btu:lc.4.38": {
+   "hash": "ccb20facc844b6abc9cf74e800ea90d547ffddc273383f1a7e63a76b7908004c",
+   "mentions": [
+    {
+     "start": 45,
+     "end": 52,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    },
+    {
+     "start": 67,
+     "end": 74,
+     "check": "bcd4573c",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
   "btu:lc.4.4": {
    "hash": "970ba2e1e3407e28ec5cd4b7cf1a24faf34d0c378ce5e2030bfb5b32ccf3fc3f",
    "mentions": [
@@ -265703,6 +266655,18 @@
      "end": 54,
      "check": "cb1d13ae",
      "entry": "bpers:zebedaeus"
+    },
+    {
+     "start": 72,
+     "end": 79,
+     "check": "bcd4573c",
+     "entry": "bpers:simon-petrus"
+    },
+    {
+     "start": 91,
+     "end": 98,
+     "check": "ce79c971",
+     "entry": "bpers:simon-petrus"
     },
     {
      "start": 99,
@@ -265811,6 +266775,17 @@
     }
    ]
   },
+  "btu:lc.5.3": {
+   "hash": "af48a0a282aab439febdf98b71b8460cd5c57e677e0f0749798d915c185b73d4",
+   "mentions": [
+    {
+     "start": 41,
+     "end": 48,
+     "check": "bcd4573c",
+     "entry": "bpers:simon-petrus"
+    }
+   ]
+  },
   "btu:lc.5.31": {
    "hash": "03e6a385c0fa6222a44efefbd5c001eb9136265dd3293642c1af60522b4a737c",
    "mentions": [
@@ -265848,6 +266823,17 @@
      "end": 12,
      "check": "f68f93dd",
      "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:lc.5.4": {
+   "hash": "0861230e20a015f4ade19f3923b261bdfcb5e7afcdb6fd2e3dc02ff79de6a2ab",
+   "mentions": [
+    {
+     "start": 34,
+     "end": 41,
+     "check": "ce79c971",
+     "entry": "bpers:simon-petrus"
     }
    ]
   },
@@ -265899,6 +266885,12 @@
   "btu:lc.6.14": {
    "hash": "0df0555e6fcd22c21b6d997771d44452072a37e881a9c75786300f1f9d1a22d3",
    "mentions": [
+    {
+     "start": 0,
+     "end": 7,
+     "check": "ce79c971",
+     "entry": "bpers:simon-petrus"
+    },
     {
      "start": 30,
      "end": 36,
@@ -265966,6 +266958,12 @@
      "end": 41,
      "check": "7d79e4fa",
      "entry": "bpers:alphaeus.pater-iacobi"
+    },
+    {
+     "start": 45,
+     "end": 52,
+     "check": "ce79c971",
+     "entry": "bpers:simon.chananaeus"
     }
    ]
   },
@@ -266351,6 +267349,28 @@
      "start": 11,
      "end": 16,
      "check": "7c6e1bf1",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
+    }
+   ]
+  },
+  "btu:lc.7.44": {
+   "hash": "651c3237bab57f7995e66284546c8cb1e71c05d83328384e78e5305957651057",
+   "mentions": [
+    {
+     "start": 32,
+     "end": 38,
+     "check": "ca698cb1",
      "candidates": [
       "bpers:simon-petrus",
       "bpers:simon.ammonis-pater",
@@ -270455,10 +271475,22 @@
      "entry": "bplace:galilaea"
     },
     {
+     "start": 42,
+     "end": 49,
+     "check": "ce79c971",
+     "entry": "bpers:simon-petrus"
+    },
+    {
      "start": 53,
      "end": 60,
      "check": "7afb2516",
      "entry": "bpers:andreas"
+    },
+    {
+     "start": 69,
+     "end": 76,
+     "check": "bcd4573c",
+     "entry": "bpers:simon-petrus"
     }
    ]
   },
@@ -270588,6 +271620,12 @@
    "hash": "73491eeb4b8056ffc9bcc05a72f51457cfc4d751c5bf33655f047636c98632f2",
    "mentions": [
     {
+     "start": 54,
+     "end": 61,
+     "check": "bcd4573c",
+     "entry": "bpers:simon-petrus"
+    },
+    {
      "start": 65,
      "end": 72,
      "check": "e675c6cb",
@@ -270610,6 +271648,17 @@
       "bpers:ioannes.de-genere-sacerdotali",
       "bpers:marcus"
      ]
+    }
+   ]
+  },
+  "btu:mc.1.30": {
+   "hash": "9dfa66a67bbecc71a3d0e362cd5b3d8c2c55440211a293fca6a5ae97cf4c7250",
+   "mentions": [
+    {
+     "start": 13,
+     "end": 20,
+     "check": "bcd4573c",
+     "entry": "bpers:simon-petrus"
     }
    ]
   },
@@ -271678,6 +272727,12 @@
      "end": 22,
      "check": "6540ceae",
      "entry": "bplace:bethania.iuxta-hierusalem"
+    },
+    {
+     "start": 31,
+     "end": 38,
+     "check": "bcd4573c",
+     "entry": "bpers:simon.leprosus"
     }
    ]
   },
@@ -272045,6 +273100,12 @@
   "btu:mc.15.21": {
    "hash": "6e71757a5356387d8b4c314ea853c43307fbe56d1075b521fc1d5dd733ae0da8",
    "mentions": [
+    {
+     "start": 36,
+     "end": 43,
+     "check": "ce79c971",
+     "entry": "bpers:simon.cyrenaeus"
+    },
     {
      "start": 94,
      "end": 98,
@@ -272611,6 +273672,12 @@
    "hash": "e92ab2eae6810e95662c57e56e3a778c648aaa2d1918a4e00d84ef8dd4c874b2",
    "mentions": [
     {
+     "start": 12,
+     "end": 18,
+     "check": "ca698cb1",
+     "entry": "bpers:simon-petrus"
+    },
+    {
      "start": 25,
      "end": 31,
      "check": "274cecd1",
@@ -272703,6 +273770,12 @@
      "end": 95,
      "check": "819d70c2",
      "entry": "bpers:thaddaeus"
+    },
+    {
+     "start": 99,
+     "end": 106,
+     "check": "ce79c971",
+     "entry": "bpers:simon.chananaeus"
     }
    ]
   },
@@ -272948,7 +274021,10 @@
      "start": 48,
      "end": 66,
      "check": "bb65c2d6",
-     "entry": "bpers:boanerges"
+     "candidates": [
+      "bpers:boanerges",
+      "bpers:ioannes.apostolus"
+     ]
     },
     {
      "start": 59,
@@ -273261,6 +274337,12 @@
      "end": 72,
      "check": "8df4c8b4",
      "entry": "bpers:iudas.frater-domini"
+    },
+    {
+     "start": 76,
+     "end": 83,
+     "check": "bcd4573c",
+     "entry": "bpers:simon.frater-domini"
     }
    ]
   },
@@ -279171,6 +280253,12 @@
      "end": 33,
      "check": "a0d47e0f",
      "entry": "bplace:bethania.iuxta-hierusalem"
+    },
+    {
+     "start": 43,
+     "end": 50,
+     "check": "bcd4573c",
+     "entry": "bpers:simon.leprosus"
     }
    ]
   },
@@ -279488,6 +280576,28 @@
      "end": 17,
      "check": "2d36c823",
      "entry": "bpers:iudas-iscariotes"
+    }
+   ]
+  },
+  "btu:mt.27.32": {
+   "hash": "759cca2b3810f4181fde33c775dbfad3582ea733c1a60b9739f39aefbf49076e",
+   "mentions": [
+    {
+     "start": 51,
+     "end": 58,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     }
    ]
   },
@@ -280283,6 +281393,23 @@
      "end": 35,
      "check": "e0f49c67",
      "entry": "bplace:galilaea"
+    },
+    {
+     "start": 57,
+     "end": 64,
+     "check": "ce79c971",
+     "candidates": [
+      "bpers:simon-petrus",
+      "bpers:simon.ammonis-pater",
+      "bpers:simon.chananaeus",
+      "bpers:simon.coriarius",
+      "bpers:simon.cyrenaeus",
+      "bpers:simon.frater-domini",
+      "bpers:simon.leprosus",
+      "bpers:simon.magus",
+      "bpers:simon.pater-iudae",
+      "bpers:simon.pharisaeus"
+     ]
     },
     {
      "start": 78,
@@ -290545,7 +291672,7 @@
      "start": 44,
      "end": 55,
      "check": "91ae219a",
-     "entry": "bplace:desertum-sin"
+     "entry": "bplace:sin.prope-cades"
     },
     {
      "start": 52,
@@ -293319,7 +294446,10 @@
      "start": 49,
      "end": 61,
      "check": "47dfa2fa",
-     "entry": "bplace:desertum-sin"
+     "candidates": [
+      "bplace:desertum-sin",
+      "bplace:sin.prope-cades"
+     ]
     },
     {
      "start": 58,
@@ -297829,7 +298959,10 @@
      "start": 23,
      "end": 34,
      "check": "91ae219a",
-     "entry": "bplace:desertum-sin"
+     "candidates": [
+      "bplace:desertum-sin",
+      "bplace:sin.prope-cades"
+     ]
     },
     {
      "start": 31,
@@ -297850,7 +298983,10 @@
      "start": 152,
      "end": 163,
      "check": "61049f80",
-     "entry": "bplace:desertum-sin"
+     "candidates": [
+      "bplace:desertum-sin",
+      "bplace:sin.prope-cades"
+     ]
     },
     {
      "start": 160,
@@ -300804,7 +301940,10 @@
      "start": 26,
      "end": 38,
      "check": "47dfa2fa",
-     "entry": "bplace:desertum-sin"
+     "candidates": [
+      "bplace:desertum-sin",
+      "bplace:sin.prope-cades"
+     ]
     },
     {
      "start": 35,
