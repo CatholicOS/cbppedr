@@ -2147,8 +2147,8 @@
    "latin": "Adam",
    "it": "Adamo",
    "en": "Adam",
-   "descr_it": "il primo uomo, creato da Dio, marito di Eva",
-   "descr_en": "the first man, created by God, husband of Eve",
+   "descr_it": "il primo uomo, creato da Dio, marito di Eva; il suo nome, che in ebraico significa «uomo», rappresenta tutta l'umanità",
+   "descr_en": "the first man, created by God, husband of Eve; his name, Hebrew for 'man', stands for all mankind",
    "relations": [
     {
      "rel": "spouse_of",
@@ -18825,8 +18825,8 @@
    "latin": "Eva",
    "it": "Eva",
    "en": "Eve",
-   "descr_it": "la prima donna, sposa di Adamo; generò Caino, Abele e Set",
-   "descr_en": "the first woman, Adam's spouse; she bore Cain, Abel and Seth",
+   "descr_it": "la prima donna, sposa di Adamo, chiamata «madre di tutti i viventi»; generò Caino, Abele e Set",
+   "descr_en": "the first woman, Adam's spouse, named 'mother of all the living'; she bore Cain, Abel and Seth",
    "relations": [
     {
      "rel": "spouse_of",

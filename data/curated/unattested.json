@@ -2636,7 +2636,10 @@
    "btu:nm.11.1",
    "btu:nm.16.35",
    "btu:rom.11.3",
-   "btu:rom.11.4"
+   "btu:rom.11.4",
+   "btu:1par.8.27",
+   "btu:esd.10.21",
+   "btu:esd.10.26"
   ],
   "bpers:eliel.hebron-filius": [
    "btu:1par.15.10"
@@ -17544,6 +17547,12 @@
   ],
   "bpers:azarias.sadoc-filius": [
    "btu:1par.5.35"
+  ],
+  "bpers:arphaxad.sem-filius": [
+   "btu:idt.1.1"
+  ],
+  "bpers:epaphras": [
+   "btu:phil.4.18"
   ]
  }
 }

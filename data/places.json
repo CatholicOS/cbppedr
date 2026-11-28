@@ -98,6 +98,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ABEL-BET-MAACA"
+   ],
+   "mentioned": [
+    "btu:2sam.20.15"
    ]
   },
   "bplace:abelcharmim": {
@@ -324,6 +327,12 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:ACCARON (EKRON)"
+   ],
+   "mentioned": [
+    "btu:ios.13.3",
+    "btu:ios.15.46",
+    "btu:1sam.6.16",
+    "btu:1sam.6.17"
    ]
   },
   "bplace:achad": {
@@ -384,6 +393,10 @@
    "evidence": [
     "ndeib:ACAIA",
     "nv:btu:act.19.21"
+   ],
+   "mentioned": [
+    "btu:act.18.27",
+    "btu:1thess.1.7"
    ]
   },
   "bplace:achazib.aser": {
@@ -787,6 +800,174 @@
     "ndeib:EGITTO#3",
     "ndeib:EGITTO#1",
     "ndeib:EGITTO#1~2"
+   ],
+   "mentioned": [
+    "btu:1reg.3.1",
+    "btu:1reg.5.1",
+    "btu:1reg.6.1",
+    "btu:1reg.8.9",
+    "btu:1reg.8.16",
+    "btu:1reg.8.21",
+    "btu:1reg.8.51",
+    "btu:1reg.8.53",
+    "btu:1reg.9.9",
+    "btu:1reg.10.29",
+    "btu:1reg.11.17",
+    "btu:1reg.12.2",
+    "btu:1reg.12.28",
+    "btu:2reg.17.7",
+    "btu:2reg.17.36",
+    "btu:2reg.18.24",
+    "btu:2reg.19.24",
+    "btu:2reg.21.15",
+    "btu:2reg.23.34",
+    "btu:2reg.25.26",
+    "btu:2par.1.16",
+    "btu:2par.1.17",
+    "btu:2par.5.10",
+    "btu:2par.6.5",
+    "btu:2par.7.22",
+    "btu:2par.9.26",
+    "btu:2par.9.28",
+    "btu:2par.10.2",
+    "btu:2par.20.10",
+    "btu:2par.26.8",
+    "btu:2par.35.20",
+    "btu:2par.36.3",
+    "btu:2par.36.4",
+    "btu:is.7.18",
+    "btu:is.10.24",
+    "btu:is.10.26",
+    "btu:is.11.11",
+    "btu:is.11.15",
+    "btu:is.11.16",
+    "btu:is.19.1",
+    "btu:is.19.3",
+    "btu:is.19.6",
+    "btu:is.19.12",
+    "btu:is.19.13",
+    "btu:is.19.14",
+    "btu:is.19.15",
+    "btu:is.19.17",
+    "btu:is.19.18",
+    "btu:is.19.19",
+    "btu:is.19.20",
+    "btu:is.19.21",
+    "btu:is.19.22",
+    "btu:is.19.23",
+    "btu:is.19.24",
+    "btu:is.20.3",
+    "btu:is.20.4",
+    "btu:is.20.5",
+    "btu:is.23.5",
+    "btu:is.27.13",
+    "btu:is.30.2",
+    "btu:is.30.3",
+    "btu:is.30.7",
+    "btu:is.31.1",
+    "btu:is.36.9",
+    "btu:is.37.25",
+    "btu:is.43.3",
+    "btu:is.45.14",
+    "btu:is.52.4",
+    "btu:ier.2.6",
+    "btu:ier.2.18",
+    "btu:ier.2.36",
+    "btu:ier.7.22",
+    "btu:ier.7.25",
+    "btu:ier.9.25",
+    "btu:ier.11.4",
+    "btu:ier.11.7",
+    "btu:ier.16.14",
+    "btu:ier.23.7",
+    "btu:ier.24.8",
+    "btu:ier.25.19",
+    "btu:ier.26.21",
+    "btu:ier.26.22",
+    "btu:ier.26.23",
+    "btu:ier.31.32",
+    "btu:ier.32.20",
+    "btu:ier.32.21",
+    "btu:ier.34.13",
+    "btu:ier.37.7",
+    "btu:ier.41.17",
+    "btu:ier.42.14",
+    "btu:ier.42.15",
+    "btu:ier.42.16",
+    "btu:ier.42.17",
+    "btu:ier.42.18",
+    "btu:ier.42.19",
+    "btu:ier.43.2",
+    "btu:ier.43.7",
+    "btu:ier.43.11",
+    "btu:ier.43.12",
+    "btu:ier.43.13",
+    "btu:ier.44.1",
+    "btu:ier.44.8",
+    "btu:ier.44.12",
+    "btu:ier.44.13",
+    "btu:ier.44.14",
+    "btu:ier.44.15",
+    "btu:ier.44.24",
+    "btu:ier.44.26",
+    "btu:ier.44.27",
+    "btu:ier.44.28",
+    "btu:ier.44.30",
+    "btu:ier.46.8",
+    "btu:ier.46.11",
+    "btu:ier.46.13",
+    "btu:ier.46.14",
+    "btu:ier.46.17",
+    "btu:ier.46.19",
+    "btu:ier.46.20",
+    "btu:ier.46.24",
+    "btu:ier.46.25",
+    "btu:ez.16.26",
+    "btu:ez.19.4",
+    "btu:ez.20.5",
+    "btu:ez.20.6",
+    "btu:ez.20.7",
+    "btu:ez.20.8",
+    "btu:ez.20.9",
+    "btu:ez.20.10",
+    "btu:ez.20.36",
+    "btu:ez.23.3",
+    "btu:ez.23.8",
+    "btu:ez.23.19",
+    "btu:ez.23.21",
+    "btu:ez.23.27",
+    "btu:ez.27.7",
+    "btu:ez.29.2",
+    "btu:ez.29.3",
+    "btu:ez.29.6",
+    "btu:ez.29.9",
+    "btu:ez.29.10",
+    "btu:ez.29.12",
+    "btu:ez.29.14",
+    "btu:ez.29.19",
+    "btu:ez.29.20",
+    "btu:ez.30.4",
+    "btu:ez.30.6",
+    "btu:ez.30.8",
+    "btu:ez.30.9",
+    "btu:ez.30.10",
+    "btu:ez.30.11",
+    "btu:ez.30.13",
+    "btu:ez.30.15",
+    "btu:ez.30.16",
+    "btu:ez.30.18",
+    "btu:ez.30.19",
+    "btu:ez.30.21",
+    "btu:ez.30.22",
+    "btu:ez.30.23",
+    "btu:ez.30.25",
+    "btu:ez.30.26",
+    "btu:ez.31.2",
+    "btu:ez.32.2",
+    "btu:ez.32.12",
+    "btu:ez.32.15",
+    "btu:ez.32.16",
+    "btu:ez.32.18"
    ]
   },
   "bplace:aethiopia": {
@@ -1454,6 +1635,24 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AMMON, AMMONITI"
+   ],
+   "mentioned": [
+    "btu:dt.3.16",
+    "btu:idc.11.4",
+    "btu:idc.11.6",
+    "btu:idc.11.8",
+    "btu:idc.11.9",
+    "btu:idc.11.12",
+    "btu:idc.11.14",
+    "btu:idc.11.27",
+    "btu:idc.11.28",
+    "btu:idc.11.29",
+    "btu:idc.11.30",
+    "btu:idc.11.31",
+    "btu:idc.11.32",
+    "btu:idc.11.33",
+    "btu:idc.11.36",
+    "btu:2sam.12.9"
    ]
   },
   "bplace:amona": {
@@ -1619,6 +1818,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ANATOT"
+   ],
+   "mentioned": [
+    "btu:ier.11.23"
    ]
   },
   "bplace:anim": {
@@ -2172,6 +2374,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ARABA#2"
+   ],
+   "mentioned": [
+    "btu:dt.1.7",
+    "btu:dt.11.30",
+    "btu:ios.8.14",
+    "btu:ios.11.16",
+    "btu:ios.12.1",
+    "btu:ios.12.8",
+    "btu:ios.18.18",
+    "btu:2reg.25.4"
    ]
   },
   "bplace:arabia": {
@@ -2209,6 +2421,9 @@
    "evidence": [
     "ndeib:ARABIA#1",
     "nv:btu:ier.25.24"
+   ],
+   "mentioned": [
+    "btu:1mac.11.16"
    ]
   },
   "bplace:arach": {
@@ -2469,6 +2684,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ARGOB"
+   ],
+   "mentioned": [
+    "btu:dt.3.13"
    ]
   },
   "bplace:ariel": {
@@ -2500,6 +2718,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ARIEL"
+   ],
+   "mentioned": [
+    "btu:is.29.2",
+    "btu:is.29.7"
    ]
   },
   "bplace:arimathaea": {
@@ -2641,6 +2863,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AROER#1"
+   ],
+   "mentioned": [
+    "btu:idc.11.33"
    ]
   },
   "bplace:aroer.negeb": {
@@ -2708,6 +2933,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARPAD"
+   ],
+   "mentioned": [
+    "btu:2reg.19.13"
    ]
   },
   "bplace:aruboth": {
@@ -3116,6 +3344,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CASEROT"
+   ],
+   "mentioned": [
+    "btu:nm.33.18"
    ]
   },
   "bplace:asia": {
@@ -3186,6 +3417,9 @@
    "evidence": [
     "ndeib:ELAT, EZION-GHEBER",
     "ndeib:EZION-GHEBER"
+   ],
+   "mentioned": [
+    "btu:2par.20.36"
    ]
   },
   "bplace:asor.arabiae": {
@@ -3285,6 +3519,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CAZOR"
+   ],
+   "mentioned": [
+    "btu:idc.4.17"
    ]
   },
   "bplace:asorhadatta": {
@@ -3460,6 +3697,24 @@
     "ndeib:ASSIRIA#1",
     "ndeib:ASSIRIA#2",
     "nv:btu:gn.10.11"
+   ],
+   "mentioned": [
+    "btu:gn.25.18",
+    "btu:is.10.12",
+    "btu:is.11.11",
+    "btu:is.11.16",
+    "btu:is.19.23",
+    "btu:is.19.24",
+    "btu:is.23.13",
+    "btu:is.31.8",
+    "btu:ez.27.23",
+    "btu:ez.32.22",
+    "btu:os.5.13",
+    "btu:os.8.9",
+    "btu:os.9.3",
+    "btu:os.10.6",
+    "btu:os.11.11",
+    "btu:os.14.4"
    ]
   },
   "bplace:astharoth": {
@@ -3965,6 +4220,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AZEKA"
+   ],
+   "mentioned": [
+    "btu:ios.10.11"
    ]
   },
   "bplace:azmaveth": {
@@ -4045,6 +4303,19 @@
    "evidence": [
     "ndeib:ASDOD",
     "nv:btu:1sam.5.6"
+   ],
+   "mentioned": [
+    "btu:ios.15.47",
+    "btu:1sam.5.5",
+    "btu:1sam.6.17",
+    "btu:1mac.4.15",
+    "btu:1mac.9.15",
+    "btu:1mac.10.77",
+    "btu:1mac.10.78",
+    "btu:1mac.10.83",
+    "btu:1mac.11.4",
+    "btu:1mac.14.34",
+    "btu:1mac.16.10"
    ]
   },
   "bplace:baala.cariathiarim": {
@@ -4581,6 +4852,17 @@
     "ndeib:BABILONIA (CITTÀ)#0",
     "nv:btu:is.21.9"
    ],
+   "mentioned": [
+    "btu:ier.50.2",
+    "btu:ier.50.23",
+    "btu:ier.50.24",
+    "btu:ier.50.42",
+    "btu:ier.51.7",
+    "btu:ier.51.37",
+    "btu:ier.51.49",
+    "btu:ier.51.53",
+    "btu:ier.51.64"
+   ],
    "labels": {
     "btu:gn.11.4": {
      "as": "designation",
@@ -4708,6 +4990,10 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BACURIM"
+   ],
+   "mentioned": [
+    "btu:2sam.19.17",
+    "btu:2sam.23.31"
    ]
   },
   "bplace:baloth.aser": {
@@ -4844,6 +5130,21 @@
    "evidence": [
     "ndeib:BASAN",
     "nv:btu:ez.27.6"
+   ],
+   "mentioned": [
+    "btu:dt.3.4",
+    "btu:dt.3.10",
+    "btu:dt.3.11",
+    "btu:dt.3.13",
+    "btu:dt.3.14",
+    "btu:dt.4.43",
+    "btu:dt.4.47",
+    "btu:dt.29.6",
+    "btu:dt.32.14",
+    "btu:dt.33.22",
+    "btu:1reg.4.19",
+    "btu:is.33.9",
+    "btu:ier.22.20"
    ]
   },
   "bplace:bascath": {
@@ -5088,6 +5389,13 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BENIAMINO"
+   ],
+   "mentioned": [
+    "btu:ios.18.11",
+    "btu:ios.18.20",
+    "btu:ez.48.23",
+    "btu:ez.48.24",
+    "btu:ez.48.32"
    ]
   },
   "bplace:bera.ioathae-refugium": {
@@ -5131,6 +5439,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BEREA"
+   ],
+   "mentioned": [
+    "btu:act.17.13"
    ]
   },
   "bplace:beroea.syriae": {
@@ -5256,6 +5567,14 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:BERSABEA"
+   ],
+   "mentioned": [
+    "btu:gn.21.32",
+    "btu:gn.21.33",
+    "btu:gn.26.23",
+    "btu:gn.46.5",
+    "btu:ios.15.28",
+    "btu:ne.11.30"
    ]
   },
   "bplace:beten": {
@@ -5382,6 +5701,9 @@
    "evidence": [
     "ndeib:BETANIA#1"
    ],
+   "mentioned": [
+    "btu:mc.11.12"
+   ],
    "labels": {
     "btu:io.11.30": {
      "as": "designation",
@@ -5500,6 +5822,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ARABA#4"
+   ],
+   "mentioned": [
+    "btu:ios.18.18"
    ]
   },
   "bplace:betharan": {
@@ -5598,6 +5923,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:AVEN"
+   ],
+   "mentioned": [
+    "btu:os.10.5"
    ]
   },
   "bplace:bethaven.bethel": {
@@ -5914,6 +6242,40 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:BETEL"
+   ],
+   "mentioned": [
+    "btu:gn.35.16",
+    "btu:ios.7.2",
+    "btu:ios.8.9",
+    "btu:ios.8.12",
+    "btu:ios.12.9",
+    "btu:ios.16.1",
+    "btu:ios.16.2",
+    "btu:ios.18.22",
+    "btu:idc.4.5",
+    "btu:idc.20.18",
+    "btu:idc.20.31",
+    "btu:idc.21.19",
+    "btu:1sam.13.2",
+    "btu:1reg.12.29",
+    "btu:1reg.12.32",
+    "btu:1reg.12.33",
+    "btu:1reg.13.1",
+    "btu:1reg.13.4",
+    "btu:1reg.13.10",
+    "btu:1reg.13.11",
+    "btu:1reg.16.34",
+    "btu:2reg.2.2",
+    "btu:2reg.10.29",
+    "btu:2reg.23.4",
+    "btu:2reg.23.15",
+    "btu:2reg.23.17",
+    "btu:2reg.23.19",
+    "btu:ne.7.32",
+    "btu:os.12.5",
+    "btu:am.3.14",
+    "btu:am.7.10",
+    "btu:am.7.13"
    ],
    "labels": {
     "btu:gn.28.11": {
@@ -6260,6 +6622,20 @@
    "evidence": [
     "ndeib:BETLEMME"
    ],
+   "mentioned": [
+    "btu:rt.1.1",
+    "btu:rt.1.19",
+    "btu:1sam.17.12",
+    "btu:1sam.17.15",
+    "btu:1sam.20.28",
+    "btu:2sam.23.16",
+    "btu:1par.2.54",
+    "btu:1par.11.16",
+    "btu:1par.11.17",
+    "btu:1par.11.18",
+    "btu:1par.11.26",
+    "btu:lc.2.15"
+   ],
    "labels": {
     "btu:1sam.20.29": {
      "as": "designation",
@@ -6330,6 +6706,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BET-NIMRA"
+   ],
+   "mentioned": [
+    "btu:ios.13.27"
    ],
    "labels": {
     "btu:nm.32.3": {
@@ -6436,6 +6815,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:PEOR#3"
+   ],
+   "mentioned": [
+    "btu:dt.3.29",
+    "btu:dt.34.6"
    ]
   },
   "bplace:bethphelet": {
@@ -7559,7 +7942,15 @@
     "ndeib:KADES#1",
     "ndeib:KADES#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:nm.20.22",
+    "btu:nm.32.8",
+    "btu:dt.9.23",
+    "btu:ios.10.41",
+    "btu:ios.14.6",
+    "btu:ios.14.7"
+   ]
   },
   "bplace:caesarea.maritima": {
    "type": "place",
@@ -7586,6 +7977,16 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CESAREA MARITTIMA"
+   ],
+   "mentioned": [
+    "btu:act.10.24",
+    "btu:act.11.11",
+    "btu:act.12.19",
+    "btu:act.21.16",
+    "btu:act.25.1",
+    "btu:act.25.4",
+    "btu:act.25.6",
+    "btu:act.25.13"
    ]
   },
   "bplace:caesarea.philippi": {
@@ -7873,6 +8274,17 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CAFARNAO"
+   ],
+   "mentioned": [
+    "btu:mt.11.23",
+    "btu:mt.17.24",
+    "btu:lc.4.23",
+    "btu:lc.4.31",
+    "btu:lc.10.15",
+    "btu:io.2.12",
+    "btu:io.4.46",
+    "btu:io.6.17",
+    "btu:io.6.24"
    ]
   },
   "bplace:caphtor": {
@@ -8106,6 +8518,12 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:KIRIAT-ARBA"
+   ],
+   "mentioned": [
+    "btu:gn.35.27",
+    "btu:ios.14.15",
+    "btu:ios.15.13",
+    "btu:ios.21.11"
    ]
   },
   "bplace:cariathiarim": {
@@ -8146,6 +8564,12 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KIRIAT-IARIM"
+   ],
+   "mentioned": [
+    "btu:ios.18.15",
+    "btu:1sam.6.21",
+    "btu:1sam.7.2",
+    "btu:1par.13.6"
    ],
    "labels": {
     "btu:ps.132.6": {
@@ -8283,6 +8707,18 @@
    "evidence": [
     "ndeib:CARMELO",
     "nv:btu:1sam.15.12"
+   ],
+   "mentioned": [
+    "btu:1sam.25.2",
+    "btu:1sam.25.5",
+    "btu:1sam.25.7",
+    "btu:1sam.25.40",
+    "btu:1sam.27.3",
+    "btu:1sam.30.5",
+    "btu:1sam.30.29",
+    "btu:2sam.2.2",
+    "btu:2sam.3.3",
+    "btu:1par.3.1"
    ]
   },
   "bplace:carmelus.mons": {
@@ -8318,6 +8754,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CARMELO"
+   ],
+   "mentioned": [
+    "btu:ier.50.19"
    ],
    "labels": {
     "btu:1reg.18.44": {
@@ -8741,6 +9180,12 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CEDRON"
+   ],
+   "mentioned": [
+    "btu:1reg.2.37",
+    "btu:2reg.23.12",
+    "btu:2par.15.16",
+    "btu:2par.30.14"
    ]
   },
   "bplace:ceelatha": {
@@ -9106,6 +9551,16 @@
    "evidence": [
     "ndeib:CALDEA, CALDEI",
     "nv:btu:ier.24.5"
+   ],
+   "mentioned": [
+    "btu:ier.50.10",
+    "btu:ier.51.1",
+    "btu:ier.51.24",
+    "btu:ier.51.35",
+    "btu:ez.11.24",
+    "btu:ez.16.29",
+    "btu:ez.23.15",
+    "btu:ez.23.16"
    ]
   },
   "bplace:chale": {
@@ -9128,6 +9583,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CALACH"
+   ],
+   "mentioned": [
+    "btu:gn.10.12"
    ]
   },
   "bplace:chali": {
@@ -9183,6 +9641,13 @@
     "ndeib:CANAAN, CANANEO#0",
     "ndeib:CANAAN, CANANEO#1",
     "ndeib:CANAAN, CANANEO#2"
+   ],
+   "mentioned": [
+    "btu:nm.13.2",
+    "btu:nm.13.17",
+    "btu:nm.34.29",
+    "btu:ios.5.12",
+    "btu:idc.4.24"
    ]
   },
   "bplace:charcamis": {
@@ -9236,6 +9701,9 @@
    "evidence": [
     "ndeib:CARRAN",
     "nv:btu:gn.11.32"
+   ],
+   "mentioned": [
+    "btu:act.7.4"
    ]
   },
   "bplace:chasphia": {
@@ -9558,6 +10026,10 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:KIBROT-TAAVA"
+   ],
+   "mentioned": [
+    "btu:nm.11.35",
+    "btu:nm.33.17"
    ]
   },
   "bplace:cibsaim": {
@@ -9609,6 +10081,10 @@
    "evidence": [
     "ndeib:CILICIA",
     "nv:btu:act.6.9"
+   ],
+   "mentioned": [
+    "btu:act.23.34",
+    "btu:act.27.5"
    ]
   },
   "bplace:cina": {
@@ -9883,6 +10359,11 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CORINTO"
+   ],
+   "mentioned": [
+    "btu:act.18.1",
+    "btu:act.19.1",
+    "btu:2cor.1.1"
    ]
   },
   "bplace:cos": {
@@ -9932,6 +10413,11 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CRETA"
+   ],
+   "mentioned": [
+    "btu:act.27.12",
+    "btu:act.27.13",
+    "btu:act.27.21"
    ]
   },
   "bplace:cue": {
@@ -10063,6 +10549,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:DABERAT"
+   ],
+   "mentioned": [
+    "btu:ios.21.28"
    ]
   },
   "bplace:dabir.cariath-sepher": {
@@ -10223,6 +10712,21 @@
     "ndeib:DAMASCO#2",
     "ndeib:DAMASCO#3"
    ],
+   "mentioned": [
+    "btu:2sam.8.6",
+    "btu:1reg.15.18",
+    "btu:2reg.5.12",
+    "btu:2reg.8.9",
+    "btu:2reg.14.28",
+    "btu:2reg.16.11",
+    "btu:2reg.16.12",
+    "btu:2par.24.23",
+    "btu:is.17.3",
+    "btu:am.3.12",
+    "btu:am.5.27",
+    "btu:act.9.22",
+    "btu:act.9.27"
+   ],
    "labels": {
     "btu:act.9.6": {
      "as": "designation",
@@ -10255,7 +10759,11 @@
    "evidence": [
     "ndeib:DAN-IAAN"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:2sam.24.2",
+    "btu:2sam.24.15"
+   ]
   },
   "bplace:dan.regio": {
    "type": "place",
@@ -10304,6 +10812,9 @@
    "evidence": [
     "ndeib:DAN#3",
     "nv:btu:ier.8.16"
+   ],
+   "mentioned": [
+    "btu:1reg.12.30"
    ]
   },
   "bplace:danna": {
@@ -10348,6 +10859,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:DOFKA"
+   ],
+   "mentioned": [
+    "btu:nm.33.13"
    ]
   },
   "bplace:debbaseth": {
@@ -10732,6 +11246,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:DOR"
+   ],
+   "mentioned": [
+    "btu:ios.11.2"
    ]
   },
   "bplace:dothain": {
@@ -10760,6 +11277,11 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:DOTAN"
+   ],
+   "mentioned": [
+    "btu:idt.3.9",
+    "btu:idt.7.18",
+    "btu:idt.8.3"
    ],
    "labels": {
     "btu:2reg.6.14": {
@@ -10881,6 +11403,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ABRONA"
+   ],
+   "mentioned": [
+    "btu:nm.33.35"
    ]
   },
   "bplace:ecbatana": {
@@ -10905,6 +11430,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ECBATANA"
+   ],
+   "mentioned": [
+    "btu:idt.1.14"
    ]
   },
   "bplace:edema": {
@@ -10984,6 +11512,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EDEN, GIARDINO"
+   ],
+   "mentioned": [
+    "btu:gn.3.24",
+    "btu:gn.4.16"
    ],
    "labels": {
     "btu:gn.2.9": {
@@ -11109,6 +11641,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EDREI"
+   ],
+   "mentioned": [
+    "btu:dt.3.10"
    ]
   },
   "bplace:edrai.nephthali": {
@@ -11201,6 +11736,13 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:EGLON"
+   ],
+   "mentioned": [
+    "btu:ios.10.5",
+    "btu:ios.10.23",
+    "btu:ios.10.36",
+    "btu:ios.10.37",
+    "btu:ios.12.12"
    ]
   },
   "bplace:elam": {
@@ -11263,6 +11805,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:CHELAM"
+   ],
+   "mentioned": [
+    "btu:2sam.10.17"
    ],
    "conjectures": [
     {
@@ -11646,6 +12191,23 @@
     "ndeib:CAMAT",
     "nv:btu:gn.10.18",
     "nv:btu:2sam.8.9"
+   ],
+   "mentioned": [
+    "btu:nm.13.21",
+    "btu:2reg.14.25",
+    "btu:2reg.17.30",
+    "btu:2reg.18.34",
+    "btu:2reg.19.13",
+    "btu:2reg.23.33",
+    "btu:2reg.25.21",
+    "btu:1par.13.5",
+    "btu:1par.18.3",
+    "btu:2par.7.8",
+    "btu:2par.8.3",
+    "btu:is.10.9",
+    "btu:is.11.11",
+    "btu:is.36.19",
+    "btu:am.6.2"
    ]
   },
   "bplace:emmaus": {
@@ -11672,6 +12234,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EMMAUS"
+   ],
+   "mentioned": [
+    "btu:1mac.3.57"
    ],
    "labels": {
     "btu:lc.24.28": {
@@ -12051,6 +12616,13 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:EFESO"
+   ],
+   "mentioned": [
+    "btu:act.18.24",
+    "btu:act.19.1",
+    "btu:act.19.17",
+    "btu:act.19.26",
+    "btu:act.20.17"
    ]
   },
   "bplace:ephra": {
@@ -12075,6 +12647,11 @@
    "evidence": [
     "ndeib:OFRA",
     "nv:btu:idc.9.5"
+   ],
+   "mentioned": [
+    "btu:idc.6.11",
+    "btu:idc.8.27",
+    "btu:idc.8.32"
    ]
   },
   "bplace:ephraim.oppidum": {
@@ -12419,6 +12996,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHEZRON#3"
+   ],
+   "mentioned": [
+    "btu:ios.15.25"
    ]
   },
   "bplace:esthaol": {
@@ -12447,6 +13027,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ESTAOL"
+   ],
+   "mentioned": [
+    "btu:idc.18.8"
    ]
   },
   "bplace:esthemo.in-montanis": {
@@ -12483,6 +13066,10 @@
     "nv:btu:ios.15.50",
     "nv:btu:ios.21.14",
     "nv:btu:1sam.30.28"
+   ],
+   "mentioned": [
+    "btu:1par.4.17",
+    "btu:1par.4.19"
    ]
   },
   "bplace:etam.iuda": {
@@ -12530,6 +13117,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ETAM#4"
+   ],
+   "mentioned": [
+    "btu:idc.15.13"
    ]
   },
   "bplace:etam.simeon": {
@@ -12682,6 +13272,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:EUFRATE"
+   ],
+   "mentioned": [
+    "btu:dt.1.7"
    ]
   },
   "bplace:fons-draconis": {
@@ -13031,6 +13624,23 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GHIBEA"
+   ],
+   "mentioned": [
+    "btu:idc.20.4",
+    "btu:idc.20.9",
+    "btu:idc.20.13",
+    "btu:idc.20.14",
+    "btu:idc.20.15",
+    "btu:idc.20.19",
+    "btu:idc.20.21",
+    "btu:idc.20.25",
+    "btu:idc.20.29",
+    "btu:idc.20.30",
+    "btu:idc.20.31",
+    "btu:idc.20.33",
+    "btu:idc.20.34",
+    "btu:idc.20.37",
+    "btu:idc.20.43"
    ]
   },
   "bplace:gabaon": {
@@ -13076,6 +13686,26 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GABAON"
+   ],
+   "mentioned": [
+    "btu:ios.9.3",
+    "btu:ios.10.4",
+    "btu:ios.10.5",
+    "btu:ios.10.6",
+    "btu:ios.10.10",
+    "btu:ios.10.12",
+    "btu:ios.10.41",
+    "btu:2sam.2.12",
+    "btu:2sam.2.16",
+    "btu:2sam.2.24",
+    "btu:2sam.3.30",
+    "btu:1reg.3.5",
+    "btu:1reg.9.2",
+    "btu:1par.6.45",
+    "btu:2par.1.13",
+    "btu:ne.7.25",
+    "btu:ier.28.1",
+    "btu:ier.41.16"
    ]
   },
   "bplace:gabbatha": {
@@ -13354,6 +13984,10 @@
    "evidence": [
     "ndeib:GALAAD#4",
     "nv:btu:1par.2.22"
+   ],
+   "mentioned": [
+    "btu:dt.4.43",
+    "btu:dt.34.1"
    ]
   },
   "bplace:galatia": {
@@ -13482,7 +14116,12 @@
     "ndeib:GALGALA#3",
     "nv:btu:2sam.19.41"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:1sam.10.8",
+    "btu:1sam.11.15",
+    "btu:1sam.13.4"
+   ]
   },
   "bplace:galgala.iuxta-more": {
    "type": "place",
@@ -13623,6 +14262,65 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GALILEA"
+   ],
+   "mentioned": [
+    "btu:ios.13.2",
+    "btu:tb.1.5",
+    "btu:idt.15.5",
+    "btu:1mac.5.14",
+    "btu:1mac.5.15",
+    "btu:1mac.5.17",
+    "btu:1mac.5.20",
+    "btu:1mac.5.21",
+    "btu:1mac.5.55",
+    "btu:1mac.10.30",
+    "btu:1mac.11.63",
+    "btu:1mac.12.47",
+    "btu:1mac.12.49",
+    "btu:mt.3.13",
+    "btu:mt.4.18",
+    "btu:mt.4.25",
+    "btu:mt.15.29",
+    "btu:mt.17.22",
+    "btu:mt.19.1",
+    "btu:mt.21.11",
+    "btu:mt.26.32",
+    "btu:mt.27.55",
+    "btu:mt.28.7",
+    "btu:mt.28.10",
+    "btu:mc.1.9",
+    "btu:mc.1.28",
+    "btu:mc.3.7",
+    "btu:mc.7.31",
+    "btu:mc.9.30",
+    "btu:mc.14.28",
+    "btu:mc.15.41",
+    "btu:mc.16.7",
+    "btu:lc.1.26",
+    "btu:lc.2.4",
+    "btu:lc.2.39",
+    "btu:lc.4.31",
+    "btu:lc.5.17",
+    "btu:lc.8.26",
+    "btu:lc.17.11",
+    "btu:lc.23.5",
+    "btu:lc.23.49",
+    "btu:lc.23.55",
+    "btu:lc.24.6",
+    "btu:io.1.43",
+    "btu:io.4.3",
+    "btu:io.4.43",
+    "btu:io.4.45",
+    "btu:io.4.46",
+    "btu:io.4.47",
+    "btu:io.4.54",
+    "btu:io.7.1",
+    "btu:io.7.9",
+    "btu:io.7.41",
+    "btu:io.12.21",
+    "btu:io.21.2",
+    "btu:act.10.37",
+    "btu:act.13.31"
    ],
    "labels": {
     "btu:mt.4.16": {
@@ -13847,6 +14545,11 @@
    "evidence": [
     "ndeib:GAZA"
    ],
+   "mentioned": [
+    "btu:idc.6.4",
+    "btu:ier.25.20",
+    "btu:ier.47.5"
+   ],
    "labels": {
     "btu:idc.16.3": {
      "as": "designation",
@@ -13885,6 +14588,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GHEZER"
+   ],
+   "mentioned": [
+    "btu:ios.16.3"
    ]
   },
   "bplace:gebal.transiordania": {
@@ -13933,6 +14639,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GHIBBETON"
+   ],
+   "mentioned": [
+    "btu:1reg.16.17"
    ]
   },
   "bplace:gedera.in-beniamin": {
@@ -14276,6 +14985,12 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GERAR"
+   ],
+   "mentioned": [
+    "btu:gn.20.2",
+    "btu:gn.26.1",
+    "btu:gn.26.17",
+    "btu:gn.26.20"
    ]
   },
   "bplace:gerasa": {
@@ -14339,6 +15054,10 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GOSEN"
+   ],
+   "mentioned": [
+    "btu:gn.45.10",
+    "btu:gn.46.29"
    ],
    "labels": {
     "btu:gn.47.11": {
@@ -14427,6 +15146,26 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GAT"
+   ],
+   "mentioned": [
+    "btu:1sam.6.17",
+    "btu:1sam.7.14",
+    "btu:1sam.17.4",
+    "btu:1sam.17.23",
+    "btu:1sam.17.52",
+    "btu:1sam.27.2",
+    "btu:1sam.27.3",
+    "btu:1sam.27.4",
+    "btu:1sam.27.11",
+    "btu:2sam.1.20",
+    "btu:2sam.8.1",
+    "btu:2sam.21.20",
+    "btu:2sam.21.22",
+    "btu:1reg.2.40",
+    "btu:1reg.2.41",
+    "btu:1par.7.21",
+    "btu:1par.8.13",
+    "btu:1par.20.7"
    ],
    "labels": {
     "btu:1sam.5.9": {
@@ -14711,6 +15450,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:GOLAN"
+   ],
+   "mentioned": [
+    "btu:ios.20.8"
    ]
   },
   "bplace:golgotha": {
@@ -14804,6 +15546,19 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:SODOMA E GOMORRA"
+   ],
+   "mentioned": [
+    "btu:gn.13.10",
+    "btu:gn.14.2",
+    "btu:gn.14.8",
+    "btu:gn.14.10",
+    "btu:gn.14.11",
+    "btu:gn.18.20",
+    "btu:gn.19.24",
+    "btu:gn.19.28",
+    "btu:dt.32.32",
+    "btu:is.1.10",
+    "btu:is.13.19"
    ]
   },
   "bplace:gosen.oppidum": {
@@ -14909,6 +15664,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GRECIA"
+   ],
+   "mentioned": [
+    "btu:dn.11.2"
    ]
   },
   "bplace:gurbaal": {
@@ -15064,6 +15822,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:AIN"
+   ],
+   "mentioned": [
+    "btu:act.1.19"
    ],
    "labels": {
     "btu:act.1.18": {
@@ -15308,6 +16069,13 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:AGUZZINO"
+   ],
+   "mentioned": [
+    "btu:gn.13.3",
+    "btu:ios.9.3",
+    "btu:ios.10.1",
+    "btu:ios.10.2",
+    "btu:ios.12.9"
    ],
    "labels": {
     "btu:is.10.28": {
@@ -15731,6 +16499,25 @@
     "nv:btu:ios.14.14",
     "nv:btu:gn.37.14",
     "nv:btu:gn.35.27"
+   ],
+   "mentioned": [
+    "btu:ios.10.36",
+    "btu:ios.10.37",
+    "btu:ios.10.39",
+    "btu:ios.11.21",
+    "btu:ios.12.10",
+    "btu:ios.14.13",
+    "btu:ios.14.15",
+    "btu:ios.15.54",
+    "btu:ios.20.7",
+    "btu:ios.21.11",
+    "btu:ios.21.13",
+    "btu:idc.1.20",
+    "btu:2sam.5.1",
+    "btu:2sam.5.5",
+    "btu:2sam.5.13",
+    "btu:2sam.15.9",
+    "btu:2sam.15.10"
    ]
   },
   "bplace:helba": {
@@ -16056,6 +16843,27 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CHESBON"
+   ],
+   "mentioned": [
+    "btu:nm.21.25",
+    "btu:nm.21.27",
+    "btu:nm.21.28",
+    "btu:nm.21.30",
+    "btu:nm.21.34",
+    "btu:nm.32.3",
+    "btu:ios.9.10",
+    "btu:ios.12.2",
+    "btu:ios.12.5",
+    "btu:ios.13.10",
+    "btu:ios.13.17",
+    "btu:ios.13.21",
+    "btu:ios.13.26",
+    "btu:ios.13.27",
+    "btu:is.16.8",
+    "btu:is.16.9",
+    "btu:ier.48.34",
+    "btu:ier.48.45",
+    "btu:ier.49.3"
    ]
   },
   "bplace:hesmona": {
@@ -16078,6 +16886,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:CASMONA"
+   ],
+   "mentioned": [
+    "btu:nm.33.30"
    ]
   },
   "bplace:hethalon": {
@@ -16258,6 +17069,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SPAGNA"
+   ],
+   "mentioned": [
+    "btu:rom.15.28"
    ],
    "conjectures": [
     {
@@ -16573,6 +17387,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IABBOK"
+   ],
+   "mentioned": [
+    "btu:dt.2.37"
    ]
   },
   "bplace:iachin.columna": {
@@ -17030,6 +17847,12 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:IAZER"
+   ],
+   "mentioned": [
+    "btu:nm.32.1",
+    "btu:nm.32.3",
+    "btu:nm.32.35",
+    "btu:1par.6.66"
    ]
   },
   "bplace:iconium": {
@@ -17063,6 +17886,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ICONIO"
+   ],
+   "mentioned": [
+    "btu:act.14.21"
    ]
   },
   "bplace:idumaea": {
@@ -17087,6 +17913,12 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IDUMEA"
+   ],
+   "mentioned": [
+    "btu:1mac.4.15",
+    "btu:1mac.4.61",
+    "btu:1mac.5.3",
+    "btu:1mac.6.31"
    ]
   },
   "bplace:ieabarim": {
@@ -17136,6 +17968,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IBLEAM"
+   ],
+   "mentioned": [
+    "btu:2reg.15.10"
    ]
   },
   "bplace:iebnael.nephthali": {
@@ -17452,6 +18287,37 @@
    "evidence": [
     "ndeib:GERICO"
    ],
+   "mentioned": [
+    "btu:nm.31.12",
+    "btu:nm.33.48",
+    "btu:nm.34.15",
+    "btu:nm.36.13",
+    "btu:ios.2.1",
+    "btu:ios.2.2",
+    "btu:ios.2.3",
+    "btu:ios.3.17",
+    "btu:ios.4.13",
+    "btu:ios.5.10",
+    "btu:ios.5.13",
+    "btu:ios.6.1",
+    "btu:ios.6.2",
+    "btu:ios.6.25",
+    "btu:ios.7.2",
+    "btu:ios.8.2",
+    "btu:ios.9.3",
+    "btu:ios.10.1",
+    "btu:ios.10.28",
+    "btu:ios.10.30",
+    "btu:ios.12.9",
+    "btu:ios.13.32",
+    "btu:ios.20.8",
+    "btu:ios.21.36",
+    "btu:ios.24.11",
+    "btu:2reg.2.15",
+    "btu:2reg.2.18",
+    "btu:1mac.16.11",
+    "btu:1mac.16.14"
+   ],
    "labels": {
     "btu:idc.3.13": {
      "as": "designation",
@@ -17507,6 +18373,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:IARMUT#1"
+   ],
+   "mentioned": [
+    "btu:ios.10.5",
+    "btu:ios.10.23"
    ]
   },
   "bplace:ieron": {
@@ -17722,6 +18592,766 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GERUSALEMME"
+   ],
+   "mentioned": [
+    "btu:ios.10.1",
+    "btu:ios.10.3",
+    "btu:ios.10.5",
+    "btu:ios.10.23",
+    "btu:ios.12.10",
+    "btu:ios.18.28",
+    "btu:idc.1.7",
+    "btu:idc.19.14",
+    "btu:2sam.5.5",
+    "btu:2sam.5.13",
+    "btu:2sam.5.14",
+    "btu:2sam.8.7",
+    "btu:2sam.9.13",
+    "btu:2sam.10.14",
+    "btu:2sam.11.1",
+    "btu:2sam.11.12",
+    "btu:2sam.12.31",
+    "btu:2sam.14.23",
+    "btu:2sam.14.28",
+    "btu:2sam.15.8",
+    "btu:2sam.15.11",
+    "btu:2sam.15.14",
+    "btu:2sam.15.29",
+    "btu:2sam.15.37",
+    "btu:2sam.16.3",
+    "btu:2sam.16.15",
+    "btu:2sam.17.20",
+    "btu:2sam.19.20",
+    "btu:2sam.19.26",
+    "btu:2sam.19.34",
+    "btu:2sam.19.35",
+    "btu:2sam.20.2",
+    "btu:2sam.20.7",
+    "btu:2sam.20.22",
+    "btu:2sam.24.8",
+    "btu:2sam.24.16",
+    "btu:1reg.2.11",
+    "btu:1reg.2.36",
+    "btu:1reg.2.38",
+    "btu:1reg.2.41",
+    "btu:1reg.3.1",
+    "btu:1reg.3.15",
+    "btu:1reg.9.19",
+    "btu:1reg.10.2",
+    "btu:1reg.10.26",
+    "btu:1reg.10.27",
+    "btu:1reg.11.13",
+    "btu:1reg.11.29",
+    "btu:1reg.11.32",
+    "btu:1reg.11.36",
+    "btu:1reg.11.42",
+    "btu:1reg.12.27",
+    "btu:1reg.12.28",
+    "btu:1reg.14.21",
+    "btu:1reg.15.2",
+    "btu:1reg.15.4",
+    "btu:1reg.15.10",
+    "btu:1reg.22.42",
+    "btu:2reg.8.17",
+    "btu:2reg.8.26",
+    "btu:2reg.9.28",
+    "btu:2reg.12.2",
+    "btu:2reg.12.18",
+    "btu:2reg.12.19",
+    "btu:2reg.14.2",
+    "btu:2reg.14.19",
+    "btu:2reg.14.20",
+    "btu:2reg.15.2",
+    "btu:2reg.15.33",
+    "btu:2reg.16.2",
+    "btu:2reg.18.22",
+    "btu:2reg.18.35",
+    "btu:2reg.19.10",
+    "btu:2reg.21.1",
+    "btu:2reg.21.4",
+    "btu:2reg.21.7",
+    "btu:2reg.21.12",
+    "btu:2reg.21.13",
+    "btu:2reg.21.16",
+    "btu:2reg.21.19",
+    "btu:2reg.22.1",
+    "btu:2reg.23.1",
+    "btu:2reg.23.2",
+    "btu:2reg.23.5",
+    "btu:2reg.23.6",
+    "btu:2reg.23.9",
+    "btu:2reg.23.13",
+    "btu:2reg.23.20",
+    "btu:2reg.23.23",
+    "btu:2reg.23.24",
+    "btu:2reg.23.27",
+    "btu:2reg.23.30",
+    "btu:2reg.23.31",
+    "btu:2reg.23.33",
+    "btu:2reg.23.36",
+    "btu:2reg.24.4",
+    "btu:2reg.24.8",
+    "btu:2reg.24.10",
+    "btu:2reg.24.14",
+    "btu:2reg.24.15",
+    "btu:2reg.24.18",
+    "btu:2reg.24.20",
+    "btu:2reg.25.1",
+    "btu:2reg.25.8",
+    "btu:2reg.25.9",
+    "btu:2reg.25.10",
+    "btu:1par.3.4",
+    "btu:1par.3.5",
+    "btu:1par.5.36",
+    "btu:1par.5.41",
+    "btu:1par.6.17",
+    "btu:1par.8.28",
+    "btu:1par.8.32",
+    "btu:1par.9.3",
+    "btu:1par.9.34",
+    "btu:1par.9.38",
+    "btu:1par.11.5",
+    "btu:1par.14.3",
+    "btu:1par.14.4",
+    "btu:1par.15.3",
+    "btu:1par.18.7",
+    "btu:1par.19.15",
+    "btu:1par.20.1",
+    "btu:1par.20.3",
+    "btu:1par.21.4",
+    "btu:1par.21.15",
+    "btu:1par.21.16",
+    "btu:1par.23.25",
+    "btu:1par.28.1",
+    "btu:1par.29.27",
+    "btu:2par.1.4",
+    "btu:2par.1.13",
+    "btu:2par.1.14",
+    "btu:2par.1.15",
+    "btu:2par.2.6",
+    "btu:2par.2.15",
+    "btu:2par.3.1",
+    "btu:2par.6.6",
+    "btu:2par.8.6",
+    "btu:2par.9.1",
+    "btu:2par.9.25",
+    "btu:2par.9.27",
+    "btu:2par.9.30",
+    "btu:2par.10.18",
+    "btu:2par.11.1",
+    "btu:2par.11.5",
+    "btu:2par.11.14",
+    "btu:2par.11.16",
+    "btu:2par.12.2",
+    "btu:2par.12.4",
+    "btu:2par.12.5",
+    "btu:2par.12.7",
+    "btu:2par.12.9",
+    "btu:2par.12.13",
+    "btu:2par.13.2",
+    "btu:2par.14.14",
+    "btu:2par.15.10",
+    "btu:2par.17.13",
+    "btu:2par.19.1",
+    "btu:2par.19.4",
+    "btu:2par.19.8",
+    "btu:2par.20.5",
+    "btu:2par.20.15",
+    "btu:2par.20.17",
+    "btu:2par.20.18",
+    "btu:2par.20.20",
+    "btu:2par.20.27",
+    "btu:2par.20.28",
+    "btu:2par.20.31",
+    "btu:2par.21.5",
+    "btu:2par.21.11",
+    "btu:2par.21.13",
+    "btu:2par.21.20",
+    "btu:2par.22.1",
+    "btu:2par.22.2",
+    "btu:2par.23.2",
+    "btu:2par.24.1",
+    "btu:2par.24.6",
+    "btu:2par.24.9",
+    "btu:2par.24.18",
+    "btu:2par.24.23",
+    "btu:2par.25.1",
+    "btu:2par.25.27",
+    "btu:2par.26.3",
+    "btu:2par.26.15",
+    "btu:2par.27.1",
+    "btu:2par.27.8",
+    "btu:2par.28.1",
+    "btu:2par.28.10",
+    "btu:2par.28.24",
+    "btu:2par.28.27",
+    "btu:2par.29.1",
+    "btu:2par.29.8",
+    "btu:2par.30.1",
+    "btu:2par.30.2",
+    "btu:2par.30.3",
+    "btu:2par.30.5",
+    "btu:2par.30.11",
+    "btu:2par.30.13",
+    "btu:2par.30.14",
+    "btu:2par.30.21",
+    "btu:2par.30.26",
+    "btu:2par.31.4",
+    "btu:2par.32.9",
+    "btu:2par.32.10",
+    "btu:2par.32.12",
+    "btu:2par.32.18",
+    "btu:2par.32.19",
+    "btu:2par.32.22",
+    "btu:2par.32.23",
+    "btu:2par.32.25",
+    "btu:2par.32.26",
+    "btu:2par.32.33",
+    "btu:2par.33.1",
+    "btu:2par.33.4",
+    "btu:2par.33.7",
+    "btu:2par.33.9",
+    "btu:2par.33.13",
+    "btu:2par.33.15",
+    "btu:2par.33.21",
+    "btu:2par.34.1",
+    "btu:2par.34.3",
+    "btu:2par.34.5",
+    "btu:2par.34.7",
+    "btu:2par.34.9",
+    "btu:2par.34.22",
+    "btu:2par.34.27",
+    "btu:2par.34.29",
+    "btu:2par.34.30",
+    "btu:2par.34.32",
+    "btu:2par.35.1",
+    "btu:2par.35.18",
+    "btu:2par.35.24",
+    "btu:2par.36.1",
+    "btu:2par.36.2",
+    "btu:2par.36.3",
+    "btu:2par.36.4",
+    "btu:2par.36.5",
+    "btu:2par.36.9",
+    "btu:2par.36.10",
+    "btu:2par.36.11",
+    "btu:2par.36.14",
+    "btu:2par.36.19",
+    "btu:2par.36.23",
+    "btu:esd.1.2",
+    "btu:esd.1.3",
+    "btu:esd.1.4",
+    "btu:esd.1.5",
+    "btu:esd.1.7",
+    "btu:esd.1.11",
+    "btu:esd.2.1",
+    "btu:esd.3.1",
+    "btu:esd.3.8",
+    "btu:esd.4.6",
+    "btu:esd.4.8",
+    "btu:esd.4.12",
+    "btu:esd.4.20",
+    "btu:esd.4.23",
+    "btu:esd.4.24",
+    "btu:esd.5.1",
+    "btu:esd.5.2",
+    "btu:esd.5.14",
+    "btu:esd.5.15",
+    "btu:esd.5.16",
+    "btu:esd.5.17",
+    "btu:esd.6.9",
+    "btu:esd.6.12",
+    "btu:esd.6.18",
+    "btu:esd.7.7",
+    "btu:esd.7.8",
+    "btu:esd.7.9",
+    "btu:esd.7.13",
+    "btu:esd.7.14",
+    "btu:esd.7.15",
+    "btu:esd.7.16",
+    "btu:esd.7.17",
+    "btu:esd.7.19",
+    "btu:esd.7.27",
+    "btu:esd.8.29",
+    "btu:esd.8.30",
+    "btu:esd.8.31",
+    "btu:esd.8.32",
+    "btu:esd.9.9",
+    "btu:esd.10.7",
+    "btu:esd.10.9",
+    "btu:ne.1.2",
+    "btu:ne.1.3",
+    "btu:ne.2.17",
+    "btu:ne.2.20",
+    "btu:ne.4.1",
+    "btu:ne.4.2",
+    "btu:ne.4.16",
+    "btu:ne.6.7",
+    "btu:ne.7.3",
+    "btu:ne.7.6",
+    "btu:ne.8.15",
+    "btu:ne.11.2",
+    "btu:ne.11.3",
+    "btu:ne.11.4",
+    "btu:ne.11.6",
+    "btu:ne.11.22",
+    "btu:ne.12.43",
+    "btu:ne.13.6",
+    "btu:ne.13.7",
+    "btu:ne.13.15",
+    "btu:ne.13.19",
+    "btu:ne.13.20",
+    "btu:tb.1.4",
+    "btu:tb.1.6",
+    "btu:tb.1.7",
+    "btu:tb.5.14",
+    "btu:tb.13.9",
+    "btu:tb.14.4",
+    "btu:tb.14.5",
+    "btu:tb.14.7",
+    "btu:1mac.1.29",
+    "btu:1mac.1.38",
+    "btu:1mac.1.44",
+    "btu:1mac.2.6",
+    "btu:1mac.2.18",
+    "btu:1mac.2.31",
+    "btu:1mac.3.34",
+    "btu:1mac.3.35",
+    "btu:1mac.3.45",
+    "btu:1mac.3.46",
+    "btu:1mac.5.54",
+    "btu:1mac.6.7",
+    "btu:1mac.6.12",
+    "btu:1mac.6.26",
+    "btu:1mac.6.48",
+    "btu:1mac.6.62",
+    "btu:1mac.7.17",
+    "btu:1mac.7.19",
+    "btu:1mac.7.27",
+    "btu:1mac.7.33",
+    "btu:1mac.7.39",
+    "btu:1mac.7.47",
+    "btu:1mac.8.22",
+    "btu:1mac.9.3",
+    "btu:1mac.9.49",
+    "btu:1mac.9.53",
+    "btu:1mac.10.7",
+    "btu:1mac.10.10",
+    "btu:1mac.10.11",
+    "btu:1mac.10.31",
+    "btu:1mac.10.32",
+    "btu:1mac.10.39",
+    "btu:1mac.10.45",
+    "btu:1mac.10.66",
+    "btu:1mac.10.74",
+    "btu:1mac.10.87",
+    "btu:1mac.11.7",
+    "btu:1mac.11.20",
+    "btu:1mac.11.41",
+    "btu:1mac.11.51",
+    "btu:1mac.11.62",
+    "btu:1mac.11.74",
+    "btu:1mac.12.25",
+    "btu:1mac.12.36",
+    "btu:1mac.13.2",
+    "btu:1mac.13.10",
+    "btu:1mac.13.39",
+    "btu:1mac.13.49",
+    "btu:1mac.14.19",
+    "btu:1mac.14.26",
+    "btu:1mac.14.36",
+    "btu:1mac.14.37",
+    "btu:1mac.15.7",
+    "btu:1mac.15.28",
+    "btu:1mac.15.32",
+    "btu:1mac.16.20",
+    "btu:ps.9.15",
+    "btu:ps.14.7",
+    "btu:ps.20.3",
+    "btu:ps.48.3",
+    "btu:ps.48.12",
+    "btu:ps.48.13",
+    "btu:ps.50.2",
+    "btu:ps.51.20",
+    "btu:ps.53.7",
+    "btu:ps.65.2",
+    "btu:ps.68.30",
+    "btu:ps.69.36",
+    "btu:ps.73.28",
+    "btu:ps.74.2",
+    "btu:ps.76.3",
+    "btu:ps.78.68",
+    "btu:ps.79.1",
+    "btu:ps.79.3",
+    "btu:ps.84.8",
+    "btu:ps.87.2",
+    "btu:ps.87.5",
+    "btu:ps.97.8",
+    "btu:ps.99.2",
+    "btu:ps.102.14",
+    "btu:ps.102.17",
+    "btu:ps.102.22",
+    "btu:ps.110.2",
+    "btu:ps.116.19",
+    "btu:ps.122.2",
+    "btu:ps.122.3",
+    "btu:ps.122.6",
+    "btu:ps.125.1",
+    "btu:ps.125.2",
+    "btu:ps.126.1",
+    "btu:ps.128.5",
+    "btu:ps.129.5",
+    "btu:ps.132.13",
+    "btu:ps.133.3",
+    "btu:ps.134.3",
+    "btu:ps.135.21",
+    "btu:ps.137.1",
+    "btu:ps.137.3",
+    "btu:ps.137.5",
+    "btu:ps.137.6",
+    "btu:ps.137.7",
+    "btu:ps.146.10",
+    "btu:ps.147.2",
+    "btu:ps.147.12",
+    "btu:ps.149.2",
+    "btu:eccli.24.15",
+    "btu:eccli.36.15",
+    "btu:eccli.36.16",
+    "btu:eccli.48.20",
+    "btu:eccli.48.27",
+    "btu:is.1.1",
+    "btu:is.1.8",
+    "btu:is.1.27",
+    "btu:is.3.1",
+    "btu:is.3.8",
+    "btu:is.3.16",
+    "btu:is.3.17",
+    "btu:is.4.3",
+    "btu:is.4.4",
+    "btu:is.4.5",
+    "btu:is.5.3",
+    "btu:is.5.14",
+    "btu:is.8.14",
+    "btu:is.8.18",
+    "btu:is.10.10",
+    "btu:is.10.11",
+    "btu:is.10.12",
+    "btu:is.10.24",
+    "btu:is.10.32",
+    "btu:is.12.6",
+    "btu:is.14.32",
+    "btu:is.16.1",
+    "btu:is.18.7",
+    "btu:is.22.10",
+    "btu:is.22.21",
+    "btu:is.24.23",
+    "btu:is.27.13",
+    "btu:is.28.14",
+    "btu:is.28.16",
+    "btu:is.29.8",
+    "btu:is.30.19",
+    "btu:is.31.4",
+    "btu:is.31.5",
+    "btu:is.31.9",
+    "btu:is.33.5",
+    "btu:is.33.14",
+    "btu:is.33.20",
+    "btu:is.34.8",
+    "btu:is.35.10",
+    "btu:is.36.7",
+    "btu:is.36.20",
+    "btu:is.37.10",
+    "btu:is.37.22",
+    "btu:is.37.32",
+    "btu:is.40.2",
+    "btu:is.40.9",
+    "btu:is.41.27",
+    "btu:is.44.26",
+    "btu:is.44.28",
+    "btu:is.46.13",
+    "btu:is.49.14",
+    "btu:is.51.3",
+    "btu:is.51.11",
+    "btu:is.51.16",
+    "btu:is.51.17",
+    "btu:is.52.2",
+    "btu:is.52.7",
+    "btu:is.52.8",
+    "btu:is.52.9",
+    "btu:is.59.20",
+    "btu:is.60.14",
+    "btu:is.61.3",
+    "btu:is.62.1",
+    "btu:is.62.6",
+    "btu:is.62.7",
+    "btu:is.62.11",
+    "btu:is.64.9",
+    "btu:is.65.18",
+    "btu:is.65.19",
+    "btu:is.66.8",
+    "btu:is.66.10",
+    "btu:is.66.13",
+    "btu:is.66.20",
+    "btu:ier.1.3",
+    "btu:ier.1.15",
+    "btu:ier.2.2",
+    "btu:ier.3.14",
+    "btu:ier.4.3",
+    "btu:ier.4.4",
+    "btu:ier.4.5",
+    "btu:ier.4.6",
+    "btu:ier.4.10",
+    "btu:ier.4.11",
+    "btu:ier.4.14",
+    "btu:ier.4.16",
+    "btu:ier.4.31",
+    "btu:ier.5.1",
+    "btu:ier.6.1",
+    "btu:ier.6.2",
+    "btu:ier.6.6",
+    "btu:ier.6.8",
+    "btu:ier.6.23",
+    "btu:ier.7.17",
+    "btu:ier.7.34",
+    "btu:ier.8.1",
+    "btu:ier.8.5",
+    "btu:ier.8.19",
+    "btu:ier.9.10",
+    "btu:ier.9.18",
+    "btu:ier.11.2",
+    "btu:ier.11.6",
+    "btu:ier.11.9",
+    "btu:ier.11.12",
+    "btu:ier.11.13",
+    "btu:ier.13.9",
+    "btu:ier.13.13",
+    "btu:ier.13.27",
+    "btu:ier.14.2",
+    "btu:ier.14.16",
+    "btu:ier.14.19",
+    "btu:ier.15.4",
+    "btu:ier.15.5",
+    "btu:ier.17.19",
+    "btu:ier.17.20",
+    "btu:ier.17.21",
+    "btu:ier.17.25",
+    "btu:ier.17.26",
+    "btu:ier.17.27",
+    "btu:ier.18.11",
+    "btu:ier.19.3",
+    "btu:ier.19.7",
+    "btu:ier.19.13",
+    "btu:ier.22.19",
+    "btu:ier.23.14",
+    "btu:ier.23.15",
+    "btu:ier.24.1",
+    "btu:ier.24.8",
+    "btu:ier.25.2",
+    "btu:ier.25.18",
+    "btu:ier.26.18",
+    "btu:ier.27.3",
+    "btu:ier.27.18",
+    "btu:ier.27.20",
+    "btu:ier.27.21",
+    "btu:ier.29.1",
+    "btu:ier.29.2",
+    "btu:ier.29.4",
+    "btu:ier.29.20",
+    "btu:ier.29.25",
+    "btu:ier.30.17",
+    "btu:ier.31.6",
+    "btu:ier.31.12",
+    "btu:ier.32.2",
+    "btu:ier.32.32",
+    "btu:ier.32.44",
+    "btu:ier.33.10",
+    "btu:ier.33.13",
+    "btu:ier.33.16",
+    "btu:ier.34.1",
+    "btu:ier.34.6",
+    "btu:ier.34.7",
+    "btu:ier.34.8",
+    "btu:ier.34.19",
+    "btu:ier.35.11",
+    "btu:ier.35.13",
+    "btu:ier.35.17",
+    "btu:ier.36.31",
+    "btu:ier.37.5",
+    "btu:ier.37.11",
+    "btu:ier.37.12",
+    "btu:ier.38.28",
+    "btu:ier.39.1",
+    "btu:ier.39.8",
+    "btu:ier.40.1",
+    "btu:ier.42.18",
+    "btu:ier.44.2",
+    "btu:ier.44.6",
+    "btu:ier.44.9",
+    "btu:ier.44.13",
+    "btu:ier.44.17",
+    "btu:ier.44.21",
+    "btu:ier.50.5",
+    "btu:ier.50.28",
+    "btu:ier.51.10",
+    "btu:ier.51.24",
+    "btu:ier.51.35",
+    "btu:ier.51.50",
+    "btu:ier.52.1",
+    "btu:ier.52.3",
+    "btu:ier.52.4",
+    "btu:ier.52.12",
+    "btu:ier.52.13",
+    "btu:ier.52.14",
+    "btu:ier.52.29",
+    "btu:ez.4.1",
+    "btu:ez.4.7",
+    "btu:ez.4.16",
+    "btu:ez.5.5",
+    "btu:ez.8.3",
+    "btu:ez.9.4",
+    "btu:ez.9.8",
+    "btu:ez.11.15",
+    "btu:ez.12.10",
+    "btu:ez.12.19",
+    "btu:ez.13.16",
+    "btu:ez.14.21",
+    "btu:ez.14.22",
+    "btu:ez.15.6",
+    "btu:ez.16.2",
+    "btu:ez.17.12",
+    "btu:ez.21.7",
+    "btu:ez.21.25",
+    "btu:ez.21.27",
+    "btu:ez.22.19",
+    "btu:ez.23.4",
+    "btu:ez.24.2",
+    "btu:ez.26.2",
+    "btu:ez.33.21",
+    "btu:ez.36.38",
+    "btu:dn.1.1",
+    "btu:dn.3.28",
+    "btu:dn.5.2",
+    "btu:dn.5.3",
+    "btu:dn.6.11",
+    "btu:dn.9.2",
+    "btu:dn.9.7",
+    "btu:dn.9.12",
+    "btu:dn.9.16",
+    "btu:dn.9.25",
+    "btu:il.2.1",
+    "btu:il.2.15",
+    "btu:il.2.23",
+    "btu:il.4.1",
+    "btu:il.4.6",
+    "btu:il.4.16",
+    "btu:il.4.17",
+    "btu:il.4.20",
+    "btu:il.4.21",
+    "btu:mich.1.1",
+    "btu:mich.1.5",
+    "btu:mich.1.9",
+    "btu:mich.1.12",
+    "btu:mich.1.13",
+    "btu:mich.3.10",
+    "btu:mich.3.12",
+    "btu:mich.4.2",
+    "btu:mich.4.7",
+    "btu:mich.4.8",
+    "btu:mich.4.10",
+    "btu:mich.4.13",
+    "btu:zach.1.12",
+    "btu:zach.1.14",
+    "btu:zach.1.16",
+    "btu:zach.1.17",
+    "btu:zach.2.2",
+    "btu:zach.2.6",
+    "btu:zach.2.8",
+    "btu:zach.2.11",
+    "btu:zach.2.14",
+    "btu:zach.2.16",
+    "btu:zach.3.2",
+    "btu:zach.7.7",
+    "btu:zach.8.2",
+    "btu:zach.8.3",
+    "btu:zach.8.4",
+    "btu:zach.8.8",
+    "btu:zach.8.15",
+    "btu:zach.9.9",
+    "btu:zach.9.10",
+    "btu:zach.9.13",
+    "btu:zach.12.2",
+    "btu:zach.12.3",
+    "btu:zach.12.5",
+    "btu:zach.12.6",
+    "btu:zach.12.7",
+    "btu:zach.12.8",
+    "btu:zach.12.9",
+    "btu:zach.12.10",
+    "btu:zach.12.11",
+    "btu:zach.13.1",
+    "btu:zach.14.2",
+    "btu:zach.14.4",
+    "btu:zach.14.8",
+    "btu:zach.14.11",
+    "btu:zach.14.12",
+    "btu:zach.14.14",
+    "btu:zach.14.17",
+    "btu:zach.14.21",
+    "btu:mt.21.5",
+    "btu:lc.2.25",
+    "btu:lc.2.38",
+    "btu:lc.2.43",
+    "btu:lc.2.45",
+    "btu:lc.5.17",
+    "btu:lc.6.17",
+    "btu:lc.9.31",
+    "btu:lc.9.51",
+    "btu:lc.9.53",
+    "btu:lc.10.30",
+    "btu:lc.13.4",
+    "btu:lc.13.33",
+    "btu:lc.13.34",
+    "btu:lc.17.11",
+    "btu:lc.18.31",
+    "btu:lc.19.11",
+    "btu:lc.21.20",
+    "btu:lc.21.24",
+    "btu:lc.24.13",
+    "btu:lc.24.18",
+    "btu:lc.24.33",
+    "btu:lc.24.47",
+    "btu:lc.24.52",
+    "btu:io.12.15",
+    "btu:act.1.19",
+    "btu:act.2.5",
+    "btu:act.2.14",
+    "btu:act.4.5",
+    "btu:act.4.16",
+    "btu:act.5.16",
+    "btu:act.5.28",
+    "btu:act.6.7",
+    "btu:act.8.26",
+    "btu:act.8.27",
+    "btu:act.9.2",
+    "btu:act.9.13",
+    "btu:act.9.21",
+    "btu:act.10.39",
+    "btu:act.11.2",
+    "btu:act.11.22",
+    "btu:act.12.25",
+    "btu:act.13.27",
+    "btu:act.13.31",
+    "btu:act.15.2",
+    "btu:act.20.22",
+    "btu:act.21.11",
+    "btu:act.21.12",
+    "btu:act.21.13",
+    "btu:act.24.11",
+    "btu:act.25.3",
+    "btu:rom.9.33",
+    "btu:apc.3.12",
+    "btu:apc.21.2",
+    "btu:apc.21.10"
    ],
    "labels": {
     "btu:is.48.2": {
@@ -18480,6 +20110,13 @@
    "evidence": [
     "ndeib:IZREEL"
    ],
+   "mentioned": [
+    "btu:1reg.21.23",
+    "btu:2reg.9.10",
+    "btu:2reg.9.15",
+    "btu:2reg.9.16",
+    "btu:2reg.9.17"
+   ],
    "labels": {
     "btu:2reg.10.8": {
      "as": "designation",
@@ -18578,6 +20215,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:INDIA"
+   ],
+   "mentioned": [
+    "btu:est.3.13a",
+    "btu:est.8.12d"
    ]
   },
   "bplace:ioppe": {
@@ -18620,6 +20261,9 @@
     "nv:btu:1mac.10.75",
     "nv:btu:1mac.12.33",
     "nv:btu:1mac.13.11"
+   ],
+   "mentioned": [
+    "btu:act.11.5"
    ]
   },
   "bplace:iordanis": {
@@ -18651,6 +20295,96 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GIORDANO"
+   ],
+   "mentioned": [
+    "btu:gn.13.11",
+    "btu:gn.13.12",
+    "btu:gn.32.11",
+    "btu:gn.50.10",
+    "btu:ios.1.2",
+    "btu:ios.1.11",
+    "btu:ios.1.14",
+    "btu:ios.1.15",
+    "btu:ios.2.7",
+    "btu:ios.2.10",
+    "btu:ios.2.23",
+    "btu:ios.3.1",
+    "btu:ios.3.8",
+    "btu:ios.3.11",
+    "btu:ios.3.13",
+    "btu:ios.3.14",
+    "btu:ios.3.15",
+    "btu:ios.3.17",
+    "btu:ios.4.3",
+    "btu:ios.4.5",
+    "btu:ios.4.7",
+    "btu:ios.4.8",
+    "btu:ios.4.9",
+    "btu:ios.4.10",
+    "btu:ios.4.16",
+    "btu:ios.4.17",
+    "btu:ios.4.19",
+    "btu:ios.4.20",
+    "btu:ios.4.22",
+    "btu:ios.5.1",
+    "btu:ios.7.7",
+    "btu:ios.9.1",
+    "btu:ios.9.10",
+    "btu:ios.12.1",
+    "btu:ios.12.7",
+    "btu:ios.13.8",
+    "btu:ios.13.23",
+    "btu:ios.13.32",
+    "btu:ios.14.3",
+    "btu:ios.15.5",
+    "btu:ios.16.1",
+    "btu:ios.16.7",
+    "btu:ios.17.5",
+    "btu:ios.18.7",
+    "btu:ios.18.12",
+    "btu:ios.18.19",
+    "btu:ios.18.20",
+    "btu:ios.19.22",
+    "btu:ios.19.33",
+    "btu:ios.19.34",
+    "btu:ios.20.8",
+    "btu:ios.21.36",
+    "btu:ios.22.4",
+    "btu:ios.22.7",
+    "btu:ios.22.10",
+    "btu:ios.22.11",
+    "btu:ios.22.25",
+    "btu:ios.23.4",
+    "btu:ios.24.8",
+    "btu:ios.24.11",
+    "btu:idc.3.28",
+    "btu:idc.5.17",
+    "btu:idc.6.33",
+    "btu:idc.7.25",
+    "btu:idc.10.8",
+    "btu:idc.10.9",
+    "btu:idc.11.13",
+    "btu:idc.11.22",
+    "btu:idc.12.5",
+    "btu:idc.12.6",
+    "btu:2sam.2.29",
+    "btu:2sam.10.17",
+    "btu:2sam.17.24",
+    "btu:2sam.19.16",
+    "btu:2sam.19.18",
+    "btu:2sam.19.19",
+    "btu:2sam.19.32",
+    "btu:2sam.19.37",
+    "btu:2sam.19.40",
+    "btu:2sam.19.42",
+    "btu:2sam.20.2",
+    "btu:2sam.24.5",
+    "btu:1reg.2.8",
+    "btu:1reg.17.3",
+    "btu:1reg.17.5",
+    "btu:ps.42.7",
+    "btu:ier.49.19",
+    "btu:ier.50.44"
    ]
   },
   "bplace:israel.terra": {
@@ -18834,6 +20568,149 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GIUDA (AT)"
+   ],
+   "mentioned": [
+    "btu:2par.9.11",
+    "btu:2par.10.17",
+    "btu:2par.11.1",
+    "btu:2par.11.3",
+    "btu:2par.11.5",
+    "btu:2par.11.10",
+    "btu:2par.11.12",
+    "btu:2par.11.14",
+    "btu:2par.11.17",
+    "btu:2par.11.23",
+    "btu:2par.12.4",
+    "btu:2par.12.5",
+    "btu:2par.12.12",
+    "btu:2par.13.1",
+    "btu:2par.13.13",
+    "btu:2par.13.14",
+    "btu:2par.13.15",
+    "btu:2par.13.16",
+    "btu:2par.13.18",
+    "btu:2par.14.3",
+    "btu:2par.14.4",
+    "btu:2par.14.5",
+    "btu:2par.14.6",
+    "btu:2par.14.7",
+    "btu:2par.14.11",
+    "btu:2par.15.2",
+    "btu:2par.15.8",
+    "btu:2par.15.9",
+    "btu:2par.15.15",
+    "btu:2par.16.1",
+    "btu:2par.16.6",
+    "btu:2par.16.7",
+    "btu:2par.16.11",
+    "btu:2par.17.2",
+    "btu:2par.17.5",
+    "btu:2par.17.6",
+    "btu:2par.17.7",
+    "btu:2par.17.9",
+    "btu:2par.17.10",
+    "btu:2par.17.12",
+    "btu:2par.17.13",
+    "btu:2par.17.14",
+    "btu:2par.17.19",
+    "btu:2par.18.3",
+    "btu:2par.18.9",
+    "btu:2par.18.28",
+    "btu:2par.19.1",
+    "btu:2par.19.5",
+    "btu:2par.19.11",
+    "btu:2par.20.3",
+    "btu:2par.20.4",
+    "btu:2par.20.5",
+    "btu:2par.20.13",
+    "btu:2par.20.15",
+    "btu:2par.20.17",
+    "btu:2par.20.18",
+    "btu:2par.20.20",
+    "btu:2par.20.22",
+    "btu:2par.20.24",
+    "btu:2par.20.27",
+    "btu:2par.20.31",
+    "btu:2par.21.3",
+    "btu:2par.21.8",
+    "btu:2par.21.10",
+    "btu:2par.21.11",
+    "btu:2par.21.12",
+    "btu:2par.21.13",
+    "btu:2par.21.17",
+    "btu:2par.22.1",
+    "btu:2par.22.6",
+    "btu:2par.22.8",
+    "btu:2par.22.10",
+    "btu:2par.23.2",
+    "btu:2par.23.8",
+    "btu:2par.24.5",
+    "btu:2par.24.6",
+    "btu:2par.24.9",
+    "btu:2par.24.17",
+    "btu:2par.24.18",
+    "btu:2par.24.23",
+    "btu:2par.25.5",
+    "btu:2par.25.10",
+    "btu:2par.25.12",
+    "btu:2par.25.13",
+    "btu:2par.25.17",
+    "btu:2par.25.19",
+    "btu:2par.25.21",
+    "btu:2par.25.22",
+    "btu:2par.25.23",
+    "btu:2par.25.25",
+    "btu:2par.25.26",
+    "btu:2par.26.1",
+    "btu:2par.26.2",
+    "btu:2par.27.4",
+    "btu:2par.27.7",
+    "btu:2par.28.6",
+    "btu:2par.28.9",
+    "btu:2par.28.10",
+    "btu:2par.28.17",
+    "btu:2par.28.19",
+    "btu:2par.28.25",
+    "btu:2par.28.26",
+    "btu:2par.29.8",
+    "btu:2par.29.21",
+    "btu:2par.30.1",
+    "btu:2par.30.6",
+    "btu:2par.30.12",
+    "btu:2par.30.24",
+    "btu:2par.30.25",
+    "btu:2par.31.1",
+    "btu:2par.31.6",
+    "btu:2par.31.20",
+    "btu:2par.32.1",
+    "btu:2par.32.8",
+    "btu:2par.32.9",
+    "btu:2par.32.12",
+    "btu:2par.32.23",
+    "btu:2par.32.25",
+    "btu:2par.32.32",
+    "btu:2par.32.33",
+    "btu:2par.33.9",
+    "btu:2par.33.14",
+    "btu:2par.33.16",
+    "btu:2par.34.9",
+    "btu:2par.34.11",
+    "btu:2par.34.21",
+    "btu:2par.34.24",
+    "btu:2par.34.26",
+    "btu:2par.34.29",
+    "btu:2par.34.30",
+    "btu:2par.35.18",
+    "btu:2par.35.21",
+    "btu:2par.35.24",
+    "btu:2par.35.27",
+    "btu:2par.36.4",
+    "btu:2par.36.8",
+    "btu:2par.36.10",
+    "btu:dn.1.2",
+    "btu:dn.1.6",
+    "btu:ag.1.14",
+    "btu:ag.2.2"
    ]
   },
   "bplace:iudaea": {
@@ -18914,6 +20791,39 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:GIUDEA"
+   ],
+   "mentioned": [
+    "btu:esd.5.1",
+    "btu:esd.5.8",
+    "btu:esd.7.14",
+    "btu:1mac.3.34",
+    "btu:1mac.4.35",
+    "btu:1mac.5.8",
+    "btu:1mac.5.18",
+    "btu:1mac.5.23",
+    "btu:1mac.5.60",
+    "btu:1mac.6.48",
+    "btu:1mac.6.53",
+    "btu:1mac.7.24",
+    "btu:1mac.7.46",
+    "btu:1mac.9.1",
+    "btu:1mac.9.50",
+    "btu:1mac.9.60",
+    "btu:1mac.9.63",
+    "btu:1mac.10.38",
+    "btu:1mac.10.45",
+    "btu:1mac.11.20",
+    "btu:1mac.12.35",
+    "btu:1mac.13.33",
+    "btu:1mac.14.33",
+    "btu:1mac.15.30",
+    "btu:1mac.15.39",
+    "btu:1mac.15.40",
+    "btu:1mac.15.41",
+    "btu:1mac.16.10",
+    "btu:ps.76.2",
+    "btu:mc.3.7",
+    "btu:act.26.20"
    ]
   },
   "bplace:iutta": {
@@ -19042,6 +20952,17 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LACHIS"
+   ],
+   "mentioned": [
+    "btu:ios.10.32",
+    "btu:ios.10.33",
+    "btu:ios.10.34",
+    "btu:ios.10.35",
+    "btu:ios.12.11",
+    "btu:ios.15.39",
+    "btu:2reg.14.19",
+    "btu:2reg.18.14",
+    "btu:2par.32.9"
    ]
   },
   "bplace:lahairoi": {
@@ -19127,6 +21048,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:LAODICEA"
+   ],
+   "mentioned": [
+    "btu:apc.1.11"
    ]
   },
   "bplace:lasaea": {
@@ -19194,7 +21118,10 @@
    "evidence": [
     "ndeib:LIBNA#2"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:nm.33.21"
+   ]
   },
   "bplace:lebona": {
    "type": "place",
@@ -19341,6 +21268,31 @@
    "evidence": [
     "ndeib:LIBANO",
     "nv:btu:idc.3.3"
+   ],
+   "mentioned": [
+    "btu:ios.1.4",
+    "btu:ios.9.1",
+    "btu:ios.12.7",
+    "btu:ios.13.6",
+    "btu:idc.9.15",
+    "btu:2reg.19.23",
+    "btu:ct.3.9",
+    "btu:ct.4.8",
+    "btu:ct.4.11",
+    "btu:ct.5.15",
+    "btu:ct.7.5",
+    "btu:is.10.34",
+    "btu:is.14.8",
+    "btu:is.29.17",
+    "btu:is.33.9",
+    "btu:is.35.2",
+    "btu:is.37.24",
+    "btu:ier.22.6",
+    "btu:ier.22.20",
+    "btu:ier.22.23",
+    "btu:ez.31.3",
+    "btu:ez.31.15",
+    "btu:ez.31.16"
    ]
   },
   "bplace:libya": {
@@ -19391,6 +21343,14 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LIBNA#1"
+   ],
+   "mentioned": [
+    "btu:ios.10.30",
+    "btu:ios.10.31",
+    "btu:ios.10.32",
+    "btu:ios.10.39",
+    "btu:ios.12.15",
+    "btu:2reg.23.31"
    ]
   },
   "bplace:lodabar": {
@@ -19474,6 +21434,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:LUZ"
+   ],
+   "mentioned": [
+    "btu:ios.18.13"
    ],
    "labels": {
     "btu:idc.1.24": {
@@ -19685,6 +21648,12 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MAKKEDA"
+   ],
+   "mentioned": [
+    "btu:ios.10.10",
+    "btu:ios.10.17",
+    "btu:ios.10.21",
+    "btu:ios.10.29"
    ]
   },
   "bplace:macedonia": {
@@ -19749,6 +21718,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MAKELOT"
+   ],
+   "mentioned": [
+    "btu:nm.33.26"
    ]
   },
   "bplace:maces": {
@@ -19842,6 +21814,13 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MICMAS"
+   ],
+   "mentioned": [
+    "btu:1sam.13.11",
+    "btu:1sam.13.16",
+    "btu:1sam.13.22",
+    "btu:1sam.13.23",
+    "btu:1sam.14.5"
    ]
   },
   "bplace:machmethath": {
@@ -19892,6 +21871,11 @@
    "evidence": [
     "ndeib:MACPELA"
    ],
+   "mentioned": [
+    "btu:gn.23.9",
+    "btu:gn.23.19",
+    "btu:gn.49.29"
+   ],
    "labels": {
     "btu:gn.49.31": {
      "as": "designation",
@@ -19922,6 +21906,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:MADIAN, MADIANITI"
+   ],
+   "mentioned": [
+    "btu:ex.2.16"
    ]
   },
   "bplace:madmen": {
@@ -20516,6 +22503,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MAON, MAONITI, MEUNITI#2"
+   ],
+   "mentioned": [
+    "btu:1sam.23.25",
+    "btu:1sam.25.1"
    ]
   },
   "bplace:mara": {
@@ -20539,6 +22530,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:MARA"
+   ],
+   "mentioned": [
+    "btu:nm.33.9"
    ]
   },
   "bplace:mare-magnum": {
@@ -20741,6 +22735,10 @@
    "evidence": [
     "ndeib:MAR ROSSO"
    ],
+   "mentioned": [
+    "btu:ex.15.4",
+    "btu:dt.11.4"
+   ],
    "labels": {
     "btu:ex.14.2": {
      "as": "designation",
@@ -20899,6 +22897,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MARESA"
+   ],
+   "mentioned": [
+    "btu:2par.14.9"
    ]
   },
   "bplace:mareth": {
@@ -21073,7 +23074,17 @@
    "evidence": [
     "ndeib:MIZPA, MIZPE, MASFA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:ier.40.13",
+    "btu:ier.40.15",
+    "btu:ier.41.1",
+    "btu:ier.41.3",
+    "btu:ier.41.6",
+    "btu:ier.41.10",
+    "btu:ier.41.14",
+    "btu:ier.41.16"
+   ]
   },
   "bplace:maspha.galaad": {
    "type": "place",
@@ -21758,6 +23769,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MERIBA"
+   ],
+   "mentioned": [
+    "btu:dt.33.2"
    ]
   },
   "bplace:merom": {
@@ -21901,6 +23915,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MILETO"
+   ],
+   "mentioned": [
+    "btu:act.20.17"
    ]
   },
   "bplace:misar": {
@@ -21988,6 +24005,21 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:MOAB"
+   ],
+   "mentioned": [
+    "btu:is.11.14",
+    "btu:is.15.2",
+    "btu:is.15.4",
+    "btu:is.15.8",
+    "btu:is.16.2",
+    "btu:is.16.4",
+    "btu:is.16.6",
+    "btu:is.16.7",
+    "btu:is.16.11",
+    "btu:is.16.12",
+    "btu:is.16.13",
+    "btu:is.16.14",
+    "btu:is.25.10"
    ],
    "labels": {
     "btu:ier.48.8": {
@@ -22656,6 +24688,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MISIA"
+   ],
+   "mentioned": [
+    "btu:act.16.8"
    ]
   },
   "bplace:naalol": {
@@ -22848,6 +24883,14 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NEGHEB"
+   ],
+   "mentioned": [
+    "btu:gn.12.9",
+    "btu:gn.13.1",
+    "btu:gn.13.3",
+    "btu:nm.13.22",
+    "btu:1sam.30.1",
+    "btu:ier.17.26"
    ]
   },
   "bplace:nahaliel": {
@@ -22929,6 +24972,11 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NAIOT"
+   ],
+   "mentioned": [
+    "btu:1sam.19.19",
+    "btu:1sam.19.23",
+    "btu:1sam.20.1"
    ]
   },
   "bplace:nazareth": {
@@ -22972,6 +25020,11 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NAZARET"
+   ],
+   "mentioned": [
+    "btu:mt.21.11",
+    "btu:mc.1.9",
+    "btu:io.1.45"
    ],
    "labels": {
     "btu:mt.13.54": {
@@ -23158,6 +25211,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:NEFTALI"
+   ],
+   "mentioned": [
+    "btu:ios.21.6",
+    "btu:mt.4.14"
    ]
   },
   "bplace:nephtoa": {
@@ -23314,6 +25371,10 @@
     "ndeib:NILO",
     "nv:btu:ier.2.18"
    ],
+   "mentioned": [
+    "btu:ier.46.7",
+    "btu:ier.46.8"
+   ],
    "labels": {
     "btu:is.19.5": {
      "as": "designation",
@@ -23374,6 +25435,11 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NINIVE"
+   ],
+   "mentioned": [
+    "btu:ion.3.7",
+    "btu:nah.1.1",
+    "btu:nah.2.9"
    ],
    "labels": {
     "btu:soph.2.15": {
@@ -23462,6 +25528,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:NOB"
+   ],
+   "mentioned": [
+    "btu:1sam.21.2"
    ]
   },
   "bplace:nobe": {
@@ -23648,6 +25717,9 @@
    "evidence": [
     "ndeib:ADULLAM",
     "nv:btu:1sam.22.1"
+   ],
+   "mentioned": [
+    "btu:ios.15.35"
    ]
   },
   "bplace:ono": {
@@ -23733,6 +25805,9 @@
     "ndeib:OFEL"
    ],
    "review": "uncertain",
+   "mentioned": [
+    "btu:ne.11.21"
+   ],
    "labels": {
     "btu:mich.4.8": {
      "as": "designation",
@@ -24143,6 +26218,10 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PANFILIA"
+   ],
+   "mentioned": [
+    "btu:act.2.10",
+    "btu:act.27.5"
    ]
   },
   "bplace:paphus": {
@@ -24173,6 +26252,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PAFO"
+   ],
+   "mentioned": [
+    "btu:act.13.13"
    ]
   },
   "bplace:parbar": {
@@ -24513,6 +26595,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PENUEL"
+   ],
+   "mentioned": [
+    "btu:idc.8.17"
    ]
   },
   "bplace:phara": {
@@ -24819,6 +26904,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:PI-ACHIROT"
+   ],
+   "mentioned": [
+    "btu:nm.33.8"
    ]
   },
   "bplace:philadelphia": {
@@ -24849,6 +26937,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:FIGLIO, FIGLIO DI DIO#2"
+   ],
+   "mentioned": [
+    "btu:apc.1.11"
    ]
   },
   "bplace:philippi": {
@@ -24976,6 +27067,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:PUNON"
+   ],
+   "mentioned": [
+    "btu:nm.33.43"
    ],
    "conjectures": [
     {
@@ -25315,6 +27409,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:BENIAMINO"
+   ],
+   "mentioned": [
+    "btu:ier.38.7"
    ]
   },
   "bplace:porta-custodiae": {
@@ -25495,6 +27592,9 @@
    "evidence": [
     "nv:btu:ne.2.14",
     "nv:btu:ne.3.15"
+   ],
+   "mentioned": [
+    "btu:ne.12.36"
    ]
   },
   "bplace:porta-fundamenti": {
@@ -26222,6 +28322,9 @@
     "nv:btu:ier.49.2"
    ],
    "review": "uncertain",
+   "mentioned": [
+    "btu:2sam.17.27"
+   ],
    "labels": {
     "btu:2sam.12.28": {
      "as": "designation",
@@ -26328,6 +28431,10 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:RAMA"
+   ],
+   "mentioned": [
+    "btu:1reg.15.22",
+    "btu:2par.16.6"
    ]
   },
   "bplace:rama.nephthali": {
@@ -26379,7 +28486,16 @@
    "evidence": [
     "ndeib:RAMA"
    ],
-   "review": "uncertain"
+   "review": "uncertain",
+   "mentioned": [
+    "btu:1sam.16.13",
+    "btu:1sam.19.19",
+    "btu:1sam.19.22",
+    "btu:1sam.19.23",
+    "btu:1sam.20.1",
+    "btu:1sam.25.1",
+    "btu:1sam.28.3"
+   ]
   },
   "bplace:ramathlehi": {
    "type": "place",
@@ -26545,6 +28661,9 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:REFIDIM"
+   ],
+   "mentioned": [
+    "btu:nm.33.15"
    ]
   },
   "bplace:rebla.emath": {
@@ -26570,6 +28689,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:RIBLA#1"
+   ],
+   "mentioned": [
+    "btu:2reg.25.21"
    ]
   },
   "bplace:rebla.finium": {
@@ -26959,6 +29081,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:RISSA (LOCALITÀ)"
+   ],
+   "mentioned": [
+    "btu:nm.33.22"
    ]
   },
   "bplace:rethma": {
@@ -27193,6 +29318,9 @@
     "ndeib:ROMA#0",
     "nv:btu:act.28.16",
     "nv:btu:rom.1.7"
+   ],
+   "mentioned": [
+    "btu:1mac.8.1"
    ]
   },
   "bplace:ruben": {
@@ -27365,6 +29493,13 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SABA"
+   ],
+   "mentioned": [
+    "btu:1reg.10.4",
+    "btu:1reg.10.10",
+    "btu:2par.9.9",
+    "btu:ps.72.10",
+    "btu:ez.27.23"
    ]
   },
   "bplace:saba.seba": {
@@ -27898,6 +30033,65 @@
    "evidence": [
     "ndeib:SAMARIA"
    ],
+   "mentioned": [
+    "btu:1reg.13.32",
+    "btu:1reg.16.28",
+    "btu:1reg.16.29",
+    "btu:1reg.16.32",
+    "btu:1reg.18.2",
+    "btu:1reg.20.34",
+    "btu:1reg.20.43",
+    "btu:1reg.21.1",
+    "btu:1reg.21.18",
+    "btu:1reg.22.10",
+    "btu:1reg.22.52",
+    "btu:2reg.1.2",
+    "btu:2reg.1.3",
+    "btu:2reg.2.25",
+    "btu:2reg.3.1",
+    "btu:2reg.3.6",
+    "btu:2reg.5.3",
+    "btu:2reg.6.19",
+    "btu:2reg.6.20",
+    "btu:2reg.7.1",
+    "btu:2reg.7.18",
+    "btu:2reg.10.1",
+    "btu:2reg.10.12",
+    "btu:2reg.10.17",
+    "btu:2reg.10.35",
+    "btu:2reg.10.36",
+    "btu:2reg.13.1",
+    "btu:2reg.13.6",
+    "btu:2reg.13.10",
+    "btu:2reg.14.14",
+    "btu:2reg.14.23",
+    "btu:2reg.15.8",
+    "btu:2reg.15.13",
+    "btu:2reg.15.14",
+    "btu:2reg.15.23",
+    "btu:2reg.15.25",
+    "btu:2reg.15.27",
+    "btu:2reg.17.1",
+    "btu:2reg.17.5",
+    "btu:2reg.17.6",
+    "btu:2reg.17.26",
+    "btu:2reg.17.28",
+    "btu:2reg.17.33",
+    "btu:2reg.18.9",
+    "btu:2reg.18.10",
+    "btu:2reg.18.34",
+    "btu:2reg.21.13",
+    "btu:2reg.23.18",
+    "btu:2reg.23.19",
+    "btu:ez.23.33",
+    "btu:mich.1.1",
+    "btu:mich.1.5",
+    "btu:io.4.7",
+    "btu:act.1.8",
+    "btu:act.8.1",
+    "btu:act.9.31",
+    "btu:act.15.3"
+   ],
    "labels": {
     "btu:1reg.20.2": {
      "as": "designation",
@@ -28256,6 +30450,11 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:ZOREA"
+   ],
+   "mentioned": [
+    "btu:idc.18.2",
+    "btu:idc.18.8",
+    "btu:idc.18.11"
    ]
   },
   "bplace:sardis": {
@@ -28651,6 +30850,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ZEDAD"
+   ],
+   "mentioned": [
+    "btu:ez.47.16"
    ]
   },
   "bplace:segor": {
@@ -28681,6 +30883,10 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:ZOAR"
+   ],
+   "mentioned": [
+    "btu:gn.13.10",
+    "btu:ier.48.4"
    ],
    "labels": {
     "btu:gn.19.20": {
@@ -28783,6 +30989,10 @@
     "nv:btu:gn.36.8",
     "nv:btu:dt.2.5",
     "nv:btu:ez.35.15"
+   ],
+   "mentioned": [
+    "btu:2par.25.11",
+    "btu:2par.25.14"
    ]
   },
   "bplace:seir.iudae": {
@@ -29535,6 +31745,11 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ZIKLAG"
+   ],
+   "mentioned": [
+    "btu:1sam.30.1",
+    "btu:1sam.30.14",
+    "btu:1sam.30.26"
    ]
   },
   "bplace:sichar": {
@@ -29672,6 +31887,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SIDONE"
+   ],
+   "mentioned": [
+    "btu:mt.11.22",
+    "btu:lc.10.14"
    ]
   },
   "bplace:sihorlabanath": {
@@ -29728,6 +31947,26 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:SILO"
+   ],
+   "mentioned": [
+    "btu:ios.18.8",
+    "btu:ios.18.9",
+    "btu:ios.18.10",
+    "btu:ios.19.51",
+    "btu:ios.21.2",
+    "btu:ios.22.9",
+    "btu:ios.22.12",
+    "btu:idc.21.12",
+    "btu:idc.21.21",
+    "btu:1sam.1.24",
+    "btu:1sam.2.14",
+    "btu:1sam.3.21",
+    "btu:1sam.4.3",
+    "btu:1sam.4.4",
+    "btu:1sam.4.12",
+    "btu:1sam.14.3",
+    "btu:1reg.2.27",
+    "btu:1reg.14.4"
    ]
   },
   "bplace:siloe": {
@@ -29879,6 +32118,28 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SINAI"
+   ],
+   "mentioned": [
+    "btu:ex.16.1",
+    "btu:ex.17.6",
+    "btu:ex.19.2",
+    "btu:ex.19.11",
+    "btu:ex.24.16",
+    "btu:ex.31.18",
+    "btu:ex.33.6",
+    "btu:ex.34.2",
+    "btu:ex.34.4",
+    "btu:ex.34.29",
+    "btu:ex.34.32",
+    "btu:dt.1.2",
+    "btu:dt.1.6",
+    "btu:dt.1.19",
+    "btu:dt.5.2",
+    "btu:dt.9.8",
+    "btu:dt.18.16",
+    "btu:dt.28.69",
+    "btu:ps.68.18",
+    "btu:ps.106.19"
    ],
    "labels": {
     "btu:ex.3.1": {
@@ -30090,6 +32351,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SMIRNE"
+   ],
+   "mentioned": [
+    "btu:apc.1.11"
    ]
   },
   "bplace:soba": {
@@ -30115,6 +32379,12 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ZOBA"
+   ],
+   "mentioned": [
+    "btu:2sam.8.5",
+    "btu:2sam.8.12",
+    "btu:2sam.10.8",
+    "btu:2sam.23.36"
    ]
   },
   "bplace:socho.aruboth": {
@@ -30236,6 +32506,27 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:SODOMA E GOMORRA"
+   ],
+   "mentioned": [
+    "btu:gn.13.10",
+    "btu:gn.13.12",
+    "btu:gn.14.2",
+    "btu:gn.14.8",
+    "btu:gn.14.10",
+    "btu:gn.14.11",
+    "btu:gn.14.12",
+    "btu:gn.14.17",
+    "btu:gn.14.21",
+    "btu:gn.18.16",
+    "btu:gn.18.20",
+    "btu:gn.18.22",
+    "btu:gn.18.26",
+    "btu:gn.19.1",
+    "btu:gn.19.4",
+    "btu:gn.19.24",
+    "btu:gn.19.28",
+    "btu:is.3.9",
+    "btu:is.13.19"
    ]
   },
   "bplace:stagnum-genesareth": {
@@ -30522,6 +32813,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SUCCOT"
+   ],
+   "mentioned": [
+    "btu:nm.33.6"
    ]
   },
   "bplace:succoth.gad": {
@@ -30547,6 +32841,13 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:SUCCOT"
+   ],
+   "mentioned": [
+    "btu:idc.8.6",
+    "btu:idc.8.8",
+    "btu:idc.8.14",
+    "btu:idc.8.15",
+    "btu:idc.8.16"
    ]
   },
   "bplace:sue.regio": {
@@ -30844,6 +33145,46 @@
    "evidence": [
     "ndeib:ARAM, ARAMEI#2",
     "ndeib:SIRIA#0"
+   ],
+   "mentioned": [
+    "btu:idc.10.6",
+    "btu:idc.18.7",
+    "btu:idc.18.28",
+    "btu:2sam.10.6",
+    "btu:2sam.15.8",
+    "btu:1reg.10.29",
+    "btu:1reg.19.15",
+    "btu:1reg.20.1",
+    "btu:1reg.20.20",
+    "btu:1reg.20.21",
+    "btu:1reg.20.22",
+    "btu:1reg.20.23",
+    "btu:1reg.22.1",
+    "btu:1reg.22.3",
+    "btu:1reg.22.11",
+    "btu:1reg.22.31",
+    "btu:2reg.5.1",
+    "btu:2reg.5.2",
+    "btu:2reg.5.5",
+    "btu:2reg.6.8",
+    "btu:2reg.6.11",
+    "btu:2reg.6.23",
+    "btu:2reg.7.4",
+    "btu:2reg.7.5",
+    "btu:2reg.7.6",
+    "btu:2reg.7.10",
+    "btu:2reg.7.16",
+    "btu:2reg.8.29",
+    "btu:2reg.9.14",
+    "btu:2reg.12.18",
+    "btu:2reg.12.19",
+    "btu:2reg.13.4",
+    "btu:2reg.13.7",
+    "btu:2reg.15.37",
+    "btu:2reg.16.5",
+    "btu:2reg.16.6",
+    "btu:2reg.16.7",
+    "btu:2reg.24.2"
    ]
   },
   "bplace:syrtis": {
@@ -30991,6 +33332,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:TAFNI"
+   ],
+   "mentioned": [
+    "btu:ier.43.8"
    ]
   },
   "bplace:tarsus": {
@@ -31645,6 +33989,9 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TAMAR#4"
+   ],
+   "mentioned": [
+    "btu:ez.47.18"
    ]
   },
   "bplace:thamna.dan": {
@@ -31670,6 +34017,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TIMNA"
+   ],
+   "mentioned": [
+    "btu:idc.14.2",
+    "btu:idc.14.5"
    ]
   },
   "bplace:thamna.iuda": {
@@ -31943,6 +34294,11 @@
     "nv:btu:ez.38.13",
     "nv:btu:is.23.6",
     "nv:btu:is.23.10"
+   ],
+   "mentioned": [
+    "btu:2par.20.37",
+    "btu:is.60.9",
+    "btu:ez.27.25"
    ]
   },
   "bplace:thebes": {
@@ -32156,6 +34512,9 @@
    "evidence": [
     "ndeib:TIRZA#2"
    ],
+   "mentioned": [
+    "btu:1reg.16.23"
+   ],
    "labels": {
     "btu:1reg.16.18": {
      "as": "designation",
@@ -32231,6 +34590,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:TESSALONICA"
+   ],
+   "mentioned": [
+    "btu:act.17.11",
+    "btu:act.17.13"
    ],
    "labels": {
     "btu:act.17.5": {
@@ -32911,6 +35274,25 @@
    "evidence": [
     "ndeib:TIRO"
    ],
+   "mentioned": [
+    "btu:1mac.5.15",
+    "btu:is.23.1",
+    "btu:is.23.5",
+    "btu:is.23.15",
+    "btu:is.23.17",
+    "btu:ez.26.2",
+    "btu:ez.26.3",
+    "btu:ez.26.4",
+    "btu:ez.26.7",
+    "btu:ez.26.15",
+    "btu:ez.27.2",
+    "btu:ez.27.3",
+    "btu:ez.27.8",
+    "btu:ez.28.2",
+    "btu:ez.28.11",
+    "btu:ez.29.18",
+    "btu:act.21.7"
+   ],
    "labels": {
     "btu:ez.26.17": {
      "as": "designation",
@@ -32984,6 +35366,9 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:ULAI"
+   ],
+   "mentioned": [
+    "btu:dn.8.2"
    ]
   },
   "bplace:ur-chaldaeorum": {
@@ -33542,6 +35927,10 @@
    "qid_status": "unresolved",
    "evidence": [
     "ndeib:ZABULON"
+   ],
+   "mentioned": [
+    "btu:ios.19.27",
+    "btu:ios.19.34"
    ],
    "labels": {
     "btu:mt.4.16": {

@@ -238,3 +238,53 @@ class CuratedEntriesTest(unittest.TestCase):
         e = self.p["bpers:philippus.tetrarcha"]
         self.assertEqual(e["attested"], ["btu:lc.3.1", "btu:mc.6.17"])
         self.assertEqual(e["evidence"], ["ndeib:FILIPPO#2", "ndeib:ERODE#1"])
+
+
+class MentionedTest(unittest.TestCase):
+    ORDER = ["btu:mt.2.1", "btu:mt.14.3", "btu:lc.3.1", "btu:mc.6.17", "btu:est.1.1", "btu:nm.33.20"]
+    PH = "bpers:philippus.tetrarcha"
+
+    @staticmethod
+    def mention(**kw):
+        return dict({"start": 0, "end": 4, "check": "0123abcd"}, **kw)
+
+    def units(self, **by_unit):
+        return {u: {"hash": "a" * 64, "mentions": ms} for u, ms in by_unit.items()}
+
+    def run_build(self, mentions, **kw):
+        out = build(DECISIONS, UNITS, tree={}, mentions=mentions, unit_order=self.ORDER, **kw)
+        return out["persons"]["entries"][self.PH]
+
+    def test_settled_mention_outside_attested_is_mentioned(self):
+        m = self.units(**{"btu:mc.6.17": [self.mention(entry=self.PH)], "btu:mt.2.1": [self.mention(entry=self.PH)]})
+        e = self.run_build(m)
+        self.assertEqual(e["attested"], ["btu:lc.3.1"])
+        self.assertEqual(e["mentioned"], ["btu:mt.2.1", "btu:mc.6.17"])  # CBTUDR order, not the mentions file's
+
+    def test_candidates_add_nothing(self):
+        m = self.units(**{"btu:mc.6.17": [self.mention(candidates=[self.PH, "bpers:herodes-magnus"])]})
+        self.assertNotIn("mentioned", self.run_build(m))
+
+    def test_attested_unit_not_repeated_in_mentioned(self):
+        m = self.units(**{"btu:lc.3.1": [self.mention(entry=self.PH), self.mention(entry=self.PH, start=9, end=12)]})
+        self.assertNotIn("mentioned", self.run_build(m))
+
+    def test_esther_tradition_suffix_dropped(self):
+        m = self.units(**{"btu:est.1.1@HEBREW": [self.mention(entry=self.PH)],
+                          "btu:est.1.1@GREEK": [self.mention(entry=self.PH)]})
+        self.assertEqual(self.run_build(m)["mentioned"], ["btu:est.1.1"])
+
+    def test_unattested_removal_also_removes_mentioned(self):
+        m = self.units(**{"btu:mc.6.17": [self.mention(entry=self.PH)], "btu:nm.33.20": [self.mention(entry=self.PH)]})
+        e = self.run_build(m, removed={self.PH: ["btu:mc.6.17"]})
+        self.assertEqual(e["mentioned"], ["btu:nm.33.20"])
+
+    def test_mentions_need_a_complete_unit_order(self):
+        m = self.units(**{"btu:mc.6.17": [self.mention(entry=self.PH)], "btu:mt.2.1": [self.mention(entry=self.PH)]})
+        with self.assertRaisesRegex(ValueError, "unit_order"):
+            build(DECISIONS, UNITS, tree={}, mentions=m)
+        with self.assertRaisesRegex(ValueError, "btu:mt.2.1"):
+            build(DECISIONS, UNITS, tree={}, mentions=m, unit_order=["btu:mc.6.17"])
+
+    def test_no_mentions_leaves_catalog_unchanged(self):
+        self.assertEqual(build(DECISIONS, UNITS, tree={}), build(DECISIONS, UNITS, tree={}, mentions={}))
