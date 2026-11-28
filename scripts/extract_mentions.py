@@ -12,7 +12,8 @@ Every occurrence in a verse is marked:
 - settled (`entry`): a designation label of the entry for that unit, found once there (a designation
   found more than once is a `candidates` of its entry each time); or exactly one of the form's
   entries attested in the unit; or, outside the units where it is attested, a form of one entry
-  only, that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
+  only, or of several of which exactly one is attested in the unit's book (Eden in Genesis, the
+  garden), that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
   taken from a single word of a multiword name (forms.json's `partial`) and not a stoplist word,
   nor around a nested span settled to another entry attested in the unit (then candidates of both),
   nor in a unit that data/curated/unattested.json removed from the entry on review,
@@ -23,7 +24,9 @@ Every occurrence in a verse is marked:
   and a place included) with none or several attested, or a name whose only catalogued bearer
   belongs to another book (it may be an uncatalogued namesake): a `candidates` of one.
 
-A span inside another is kept; two crossing spans are both dropped and reported. Esther's
+In an Old Testament unit (CBTUDR's data/books.json; deuterocanonical books included) a person candidate
+must be attested somewhere in the Old Testament; a span left with none is not a mention. New Testament
+units are not limited (they name Old Testament persons the sources cite only there), nor are places. A span inside another is kept; two crossing spans are both dropped and reported. Esther's
 `@GREEK`/`@HEBREW` keys are attested as their unit without the suffix. Positions are UTF-16 code
 units of text_plain; `check` is the first 8 hex digits of the SHA-256 of the span's UTF-8 text.
 A private report (counts, unmatched attestations, crossing spans, review cases with their words)
@@ -45,6 +48,7 @@ from typing import Callable
 
 from audit_attested import TEXTS
 from forms import FORMS, load_stoplist
+from units import CBTUDR
 
 ROOT = Path(__file__).resolve().parent.parent
 EDITION = "NVBSE"
@@ -168,18 +172,24 @@ def _none(words: str, id_: str) -> list[str]:
 
 
 def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: set[str],
-            outside: Outside, rivals: Rivals = _none) -> tuple[str, list[str]]:
+            outside: Outside, rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False
+            ) -> tuple[str, list[str]]:
     if len(designated_ids) == 1:
         return "entry", sorted(designated_ids)
     here = ids & attested_here
     if len(here) == 1:
         return "entry", sorted(here)
-    if not here and len(ids) == 1:
-        also = rivals(words, next(iter(ids)))
+    # outside the attested units: the one entry of the form, or the one of its bearers attested in the book
+    bearer = next(iter(ids)) if len(ids) == 1 else None
+    if bearer is None and not here:
+        in_this_book = [id_ for id_ in ids if in_book(id_)]
+        bearer = in_this_book[0] if len(in_this_book) == 1 else None
+    if not here and bearer is not None:
+        also = rivals(words, bearer)
         if also:
             return "candidates", sorted(ids | set(also))
-        if outside(words, next(iter(ids))):
-            return "outside", sorted(ids)
+        if outside(words, bearer):
+            return "outside", [bearer]
     return "candidates", sorted(ids)
 
 
@@ -199,7 +209,7 @@ def _nested_conflicts(decided: dict[tuple[int, int], tuple[str, list[str]]],
 
 def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: frozenset[Hit] | set[Hit] = frozenset(),
             outside: Outside = _never, repeated: frozenset[Hit] | set[Hit] = frozenset(),
-            rivals: Rivals = _none) -> list[dict]:
+            rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False) -> list[dict]:
     """The hits of one verse as mentions (UTF-16 positions), crossing spans left out. `designated` are
     the hits that came from the entry's designation label for this unit, `repeated` those of them whose
     label is found more than once there (each a candidate, never settled); `outside(words, id)` says
@@ -216,7 +226,7 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: fro
         if any((start, end, id_) in repeated for id_ in ids):
             decided[(start, end)] = ("candidates", sorted(ids))
         else:
-            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals)
+            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals, in_book)
     _nested_conflicts(decided, attested_here)
     out = []
     for (start, end), (key, value) in sorted(decided.items()):
@@ -280,7 +290,7 @@ def _crossing_row(key: str, text: str, hits: list[Hit]) -> dict | None:
 class _Run:
     """The accumulating state of one extraction."""
 
-    def __init__(self, forms, catalogs, stop, partial, removed=None):
+    def __init__(self, forms, catalogs, stop, partial, removed=None, testaments=None):
         self.index = _index(name_forms(forms))
         self.stems = {id_: {stem(w) for f in fs for w in f.split()} for id_, fs in forms.items()}
         # lower-case one-word canonical forms ("praetorium"): looked for only where the entry is attested
@@ -293,6 +303,10 @@ class _Run:
             for id_ in ids:
                 self.books.setdefault(id_, set()).add(book(unit))
         self.partial = {id_: set(fs) for id_, fs in (partial or {}).items()}
+        # by book code its Testament (OT, deuterocanonical books included, or NT); None: no limit
+        self.testaments = testaments
+        self.entry_testaments = {id_: {testaments.get(b) for b in bs} for id_, bs in self.books.items()} \
+            if testaments is not None else {}
         self.removed = {id_: {base_unit(u) for u in us} for id_, us in (removed or {}).items()}
         self.stop = {w.lower() for w in stop}
         self.units: dict[str, dict] = {}
@@ -308,6 +322,7 @@ class _Run:
         labels = self.designations.get(unit, {})
         designated = set(_find_indexed(text, _index(labels)))
         hits += [h for h in designated if h not in hits]
+        hits = self.in_testament(hits, unit)
         crossing = _crossing(list(_spans(hits)))
         here = {id_ for start, end, id_ in hits if (start, end) not in crossing}
         self.found.setdefault(unit, set()).update(here)
@@ -316,13 +331,23 @@ class _Run:
         twice = {id_ for id_, ls in labels.items() if len(_find_indexed(text, _index({id_: ls}))) > 1}
         repeated = {h for h in designated if h[2] in twice}
         mentions = resolve(text, hits, self.attested.get(unit, set()), designated,
-                           self.outside(book(unit), unit), repeated, self.rivals(unmatched))
+                           self.outside(book(unit), unit), repeated, self.rivals(unmatched),
+                           lambda id_: book(unit) in self.books.get(id_, ()))
         row_crossing = _crossing_row(key, text, hits)
         if row_crossing:
             self.crossing.append(row_crossing)
         if mentions:
             self.units[key] = {"hash": row["hash"], "mentions": mentions}
             self.review += _review_rows(key, text, mentions)
+
+    def in_testament(self, hits: list[Hit], unit: str) -> list[Hit]:
+        """In an Old Testament unit, the hits but those of a person attested only outside the Old
+        Testament: a name whose only bearers are New Testament persons ("Maria", the seas named in Gn 1:10)
+        is not a candidate there. A New Testament unit keeps every hit (it names Old Testament persons too:
+        Isaias, Melchisedech), and so does a place (Antioch and Cilicia of Maccabees are those of Acts)."""
+        if self.testaments is None or self.testaments.get(book(unit)) != "OT":
+            return hits
+        return [h for h in hits if not h[2].startswith("bpers:") or "OT" in self.entry_testaments.get(h[2], ())]
 
     def outside(self, here: str, unit: str = "") -> Outside:
         """Outside its attested units, a form of one entry settles it only if the entry is attested in
@@ -352,10 +377,12 @@ class _Run:
 
 def extract(texts: dict[str, dict], forms: dict[str, list[str]], catalogs: dict[str, dict],
             stop, partial: dict[str, list[str]] | None = None,
-            removed: dict[str, list[str]] | None = None) -> tuple[dict, dict]:
+            removed: dict[str, list[str]] | None = None,
+            testaments: dict[str, str] | None = None) -> tuple[dict, dict]:
     """The public file's body and the private report; `partial` lists by entry its forms taken from a
-    single word of a multiword name; `removed`, by entry, the units a review says do not refer to it."""
-    run = _Run(forms, catalogs, stop, partial, removed)
+    single word of a multiword name; `removed`, by entry, the units a review says do not refer to it;
+    `testaments`, by book code, its Testament (a candidate must be attested in the unit's)."""
+    run = _Run(forms, catalogs, stop, partial, removed, testaments)
     for key in sorted(texts):
         run.unit(key, texts[key])
     unmatched = run.unmatched()
@@ -392,7 +419,10 @@ def main() -> int:
     forms_doc = json.loads(FORMS.read_text(encoding="utf-8"))
     catalogs = {t: json.loads((ROOT / f"data/{t}.json").read_text(encoding="utf-8")) for t in ("persons", "places")}
     removed = json.loads(REMOVED.read_text(encoding="utf-8"))["entries"] if REMOVED.exists() else {}
-    body, report = extract(texts, forms_doc["forms"], catalogs, load_stoplist(), forms_doc.get("partial", {}), removed)
+    books = json.loads((CBTUDR / "data/books.json").read_text(encoding="utf-8"))["books"]
+    testaments = {b["segment"]: b["testament"] for b in books}
+    body, report = extract(texts, forms_doc["forms"], catalogs, load_stoplist(), forms_doc.get("partial", {}), removed,
+                           testaments)
     _write(OUT, body, 1)
     _write(REPORT, report, 1)
     print(json.dumps(report["counts"]))

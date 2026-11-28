@@ -88,11 +88,12 @@ class ResolveTest(unittest.TestCase):
 
 class ExtractTest(unittest.TestCase):
     def run_one(self, text, forms, persons=None, places=None, stop=frozenset(), key="gn_1_1", partial=None,
-                removed=None):
+                removed=None, testaments=None):
         """Without catalogs, every entry of `forms` is attested elsewhere in the same book (Genesis)."""
         if persons is None and places is None:
             persons = {id_: person("btu:gn.50.1") for id_ in forms}
-        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop, partial, removed)
+        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop, partial, removed,
+                               testaments)
         unit = next(iter(body["units"].values()), None)
         return (unit["mentions"] if unit else []), report
 
@@ -346,6 +347,77 @@ class ExtractTest(unittest.TestCase):
         persons = {"bpers:a": person("btu:gn.50.1"), "bpers:b": person("btu:gn.1.1"), "bpers:c": person("btu:gn.50.2")}
         mentions, _ = self.run_one("Helles Urbs Nova Roma", forms, persons)
         self.assertEqual(mentions[0]["candidates"], ["bpers:a", "bpers:b"])
+
+    TESTAMENTS = {"gn": "OT", "ex": "OT", "idt": "OT", "lc": "NT", "io": "NT", "mt": "NT"}
+
+    def test_candidates_only_from_the_units_testament(self):
+        # a Gen 1:10-like case: a form whose only bearers are attested in the New Testament
+        forms = {"bpers:maria.a": ["Maria"], "bpers:maria.b": ["Maria"]}
+        persons = {"bpers:maria.a": person("btu:lc.1.27"), "bpers:maria.b": person("btu:io.19.25")}
+        mentions, report = self.run_one("vocavit Maria", forms, persons, testaments=self.TESTAMENTS)
+        self.assertEqual(mentions, [])
+        self.assertEqual(report["counts"]["mentions"], 0)
+        # a Miriam-like Old Testament bearer is the only candidate left
+        forms["bpers:maria.soror-moysi"] = ["Maria"]
+        persons["bpers:maria.soror-moysi"] = person("btu:ex.15.20")
+        mentions, _ = self.run_one("vocavit Maria", forms, persons, testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:maria.soror-moysi"])
+        # the New Testament is unchanged: it names Old Testament persons too (Isaias, Melchisedech)
+        mentions, _ = self.run_one("vocavit Maria", forms, persons, key="mt_2_5", testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:maria.a", "bpers:maria.b", "bpers:maria.soror-moysi"])
+        persons = {"bpers:isaias": person("btu:ex.1.1")}
+        mentions, _ = self.run_one("Isaias", {"bpers:isaias": ["Isaias"]}, persons, key="lc_4_17",
+                                   testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:isaias"])
+
+    def test_places_are_not_limited_by_testament(self):
+        # Antioch, Cilicia, Cyprus in Maccabees are the places of Acts
+        places = {"bplace:antiochia": person("btu:act.11.26")}
+        mentions, _ = self.run_one("in Antiochiam", {"bplace:antiochia": ["Antiochiam"]}, places=places,
+                                   key="gn_1_1", testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bplace:antiochia"])
+
+    def test_deuterocanonical_books_are_old_testament(self):
+        persons = {"bpers:holophernes": person("btu:idt.2.4")}
+        mentions, _ = self.run_one("Holophernes", {"bpers:holophernes": ["Holophernes"]}, persons, key="gn_1_1",
+                                   testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:holophernes"])
+
+    def test_outside_settle_needs_the_same_testament(self):
+        persons = {"bpers:susanna": person("btu:lc.8.3")}
+        mentions, _ = self.run_one("Susanna", {"bpers:susanna": ["Susanna"]}, persons, key="io_1_1",
+                                   testaments=self.TESTAMENTS)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:susanna"])  # same Testament, other book
+        mentions, _ = self.run_one("Susanna", {"bpers:susanna": ["Susanna"]}, persons, key="gn_1_1",
+                                   testaments=self.TESTAMENTS)
+        self.assertEqual(mentions, [])  # other Testament: no mention at all
+
+    def test_shared_form_settles_to_its_one_bearer_attested_in_the_book(self):
+        # an Eden-like case: the garden is attested in Genesis, the Levite and the region elsewhere
+        forms = {"bplace:eden.paradisus": ["Eden"], "bplace:eden.region": ["Eden"], "bpers:eden.levita": ["Eden"]}
+        persons = {"bpers:eden.levita": person("btu:2par.29.12")}
+        places = {"bplace:eden.paradisus": person("btu:gn.2.8"), "bplace:eden.region": person("btu:am.1.5")}
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
+        self.assertEqual(mentions[0]["entry"], "bplace:eden.paradisus")
+        places["bplace:eden.region"] = person("btu:gn.10.1")
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:eden.levita", "bplace:eden.paradisus", "bplace:eden.region"])
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="ex_1_1")
+        self.assertEqual(len(mentions[0]["candidates"]), 3)
+
+    def test_shared_form_settle_keeps_the_guards(self):
+        forms = {"bplace:a": ["Sela"], "bpers:b": ["Sela"]}
+        places = {"bplace:a": person("btu:gn.2.8")}
+        persons = {"bpers:b": person("btu:am.1.5")}
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1", stop=frozenset({"sela"}))
+        self.assertIn("candidates", mentions[0])
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1", partial={"bplace:a": ["Sela"]})
+        self.assertIn("candidates", mentions[0])
+        # a same-stem entry attested in the unit but not found is a rival
+        forms["bpers:c"] = ["Selah"]
+        persons["bpers:c"] = person("btu:gn.3.1")
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:b", "bpers:c", "bplace:a"])
 
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
