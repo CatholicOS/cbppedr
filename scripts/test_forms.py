@@ -224,6 +224,14 @@ class PartialTest(unittest.TestCase):
         self.assertEqual(partial, {})
         self.assertEqual(forms, build(catalog(**{"bpers:x": {"names": {"la": "Petrus"}}}), {}))
 
+    def test_build_all_keeps_a_hand_corrected_empty_list(self):
+        # an unnamed character found only by its designations (the Serpent): no global form, kept so
+        cat = catalog(**{"bpers:serpens": {"names": {"la": "Serpens"}}})
+        forms, partial = build_all(cat, {"bpers:serpens": []}, {})
+        self.assertEqual(forms["bpers:serpens"], [])
+        self.assertNotIn("bpers:serpens", partial)
+        self.assertEqual(build_all(cat, {}, {})[0]["bpers:serpens"], ["Serpens"])
+
     def test_build_all_keeps_hand_corrected_partial(self):
         cat = catalog(**{"bpers:x": {"names": {"la": "Simon Petrus"}}})
         forms, partial = build_all(cat, {"bpers:x": ["Simon Petrus", "Simon"]}, {"bpers:x": ["Simon"]})

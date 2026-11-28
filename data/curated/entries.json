@@ -44642,6 +44642,27 @@
     "nv:btu:gn.2.25",
     "nv:btu:gn.3.12"
    ]
+  },
+  "bpers:serpens": {
+   "type": "person",
+   "kind": "individual",
+   "latin": "Serpens",
+   "it": "il Serpente",
+   "en": "the Serpent",
+   "descr_it": "il serpente che sedusse Eva nel giardino",
+   "descr_en": "the serpent that deceived Eve in the garden",
+   "attested": [
+    "btu:gn.3.1",
+    "btu:gn.3.4",
+    "btu:gn.3.13",
+    "btu:gn.3.14"
+   ],
+   "evidence": [
+    "nv:btu:gn.3.1",
+    "nv:btu:gn.3.4",
+    "nv:btu:gn.3.13",
+    "nv:btu:gn.3.14"
+   ]
   }
  }
 }

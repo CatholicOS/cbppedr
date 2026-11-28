@@ -11,7 +11,8 @@ Generated forms that are stoplist words (stoplist_la.txt) are dropped; one that 
 entry's name is kept (a shared form the matcher resolves). A person's multiword name also yields
 the forms of its first and last words (a stoplist word gives none); these partial forms are also
 listed under `partial`, so the matcher settles them only in the entry's attested units. Forms
-already in the file are hand-corrected and kept as they are.
+already in the file are hand-corrected and kept as they are, an empty list included (an unnamed
+character, the Serpent, found only by its designations).
 
 Usage: python forms.py   (reads data/persons.json and data/places.json; writes data/curated/forms.json)
 """
@@ -192,7 +193,7 @@ def build_all(catalogs: dict[str, dict], existing: dict[str, list[str]],
                 forms, part = existing[id_], existing_partial.get(id_, [])
             else:
                 forms, part = _entry_forms(id_, entry, stop, places)
-            if forms:
+            if forms or id_ in existing:  # a hand-corrected empty list: found only by its designations
                 out[id_] = forms
             if forms and part:
                 partial[id_] = part
