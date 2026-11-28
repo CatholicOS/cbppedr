@@ -26315,48 +26315,7 @@
     "it": "Demetrio II Nicatore, re seleucide, figlio di Demetrio I",
     "en": "Demetrius II Nicator, Seleucid king, son of Demetrius I"
    },
-   "attested": [],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:DEMETRIO"
-   ]
-  },
-  "bpers:demetrius.soter": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Demetrius",
-    "it": "Demetrio",
-    "en": "Demetrius"
-   },
-   "description": {
-    "it": "Demetrio I Sotere, re seleucide nemico dei Maccabei",
-    "en": "Demetrius I Soter, Seleucid king opposing the Maccabees"
-   },
    "attested": [
-    "btu:1mac.10.50"
-   ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "ndeib:DEMETRIO"
-   ],
-   "mentioned": [
-    "btu:1mac.7.1",
-    "btu:1mac.7.4",
-    "btu:1mac.8.31",
-    "btu:1mac.9.1",
-    "btu:1mac.10.2",
-    "btu:1mac.10.3",
-    "btu:1mac.10.15",
-    "btu:1mac.10.22",
-    "btu:1mac.10.25",
-    "btu:1mac.10.48",
-    "btu:1mac.10.49",
-    "btu:1mac.10.52",
     "btu:1mac.10.67",
     "btu:1mac.10.69",
     "btu:1mac.11.9",
@@ -26381,8 +26340,59 @@
     "btu:1mac.14.2",
     "btu:1mac.14.3",
     "btu:1mac.14.38",
+    "btu:1mac.15.22",
+    "btu:2mac.1.7"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:DEMETRIO",
+    "reviewer:round2",
+    "nv:btu:1mac.10.67"
+   ]
+  },
+  "bpers:demetrius.soter": {
+   "type": "person",
+   "kind": "individual",
+   "names": {
+    "la": "Demetrius",
+    "it": "Demetrio",
+    "en": "Demetrius"
+   },
+   "description": {
+    "it": "Demetrio I Sotere, re seleucide nemico dei Maccabei",
+    "en": "Demetrius I Soter, Seleucid king opposing the Maccabees"
+   },
+   "attested": [
+    "btu:1mac.10.50",
+    "btu:1mac.7.1",
+    "btu:1mac.7.4",
+    "btu:1mac.8.31",
+    "btu:1mac.9.1",
+    "btu:1mac.10.2",
+    "btu:1mac.10.3",
+    "btu:1mac.10.15",
+    "btu:1mac.10.22",
+    "btu:1mac.10.25",
+    "btu:1mac.10.48",
+    "btu:1mac.10.49",
+    "btu:1mac.10.52",
+    "btu:1mac.10.67",
     "btu:1mac.15.1",
-    "btu:1mac.15.22"
+    "btu:2mac.14.1",
+    "btu:2mac.14.4",
+    "btu:2mac.14.5",
+    "btu:2mac.14.11",
+    "btu:2mac.14.26"
+   ],
+   "relations": [],
+   "qid": null,
+   "qid_status": "unresolved",
+   "evidence": [
+    "ndeib:DEMETRIO",
+    "reviewer:round2",
+    "nv:btu:1mac.7.1"
    ]
   },
   "bpers:deuel": {
