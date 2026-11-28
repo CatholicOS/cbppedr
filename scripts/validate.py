@@ -3,7 +3,7 @@
 - identifiers: bpers:/bplace:/bevent: matching their catalog, lowercase ASCII slug,
   optional "." discriminator, unique across catalogs;
 - every relation target exists; every attested unit exists in CBTUDR;
-- descriptions at most 15 words and 120 characters (our own few words, never source text);
+- descriptions at most 30 words and 220 characters per language (our own words, never source text);
 - names: Italian and English present;
 - evidence: at least one location, each a dictionary sense (ndeib:), the Herodian tree
   (bj:herodian-tree), a Jerusalem Bible note or introduction (bj:note:, bj:intro:), a Nova Vulgata verse
@@ -41,6 +41,7 @@ KINDS = {"person": {"individual", "group", "deity", "extra-biblical"},
 QID = re.compile(r"^Q[1-9][0-9]*$")
 EVIDENCE = re.compile(r"^(ndeib:.+|bj:herodian-tree|bj:(note:[0-9]?[A-Za-z]+\.[^#\s]+|intro:[A-Za-z0-9-]+)(#p\d+)?|nv:btu:\S+)$")
 EDITIONS = {"NVBSE", "VGCL", "CEI2008", "NABRE", "DRB"}
+MAX_DESCRIPTION_WORDS, MAX_DESCRIPTION_CHARS = 30, 220
 ID = re.compile(r"^(bpers|bplace|bevent):[a-z0-9]+(?:-[a-z0-9]+)*(?:\.[a-z0-9]+(?:-[a-z0-9]+)*)?$")
 
 
@@ -84,7 +85,7 @@ def problems(catalogs: dict[str, dict], sources: dict[str, dict] | None = None) 
                 if not (e.get("names") or {}).get(lang):
                     out.append(f"{eid}: no {lang} name")
                 d = (e.get("description") or {}).get(lang) or ""
-                if len(d) > 120 or len(d.split()) > 15:
+                if len(d) > MAX_DESCRIPTION_CHARS or len(d.split()) > MAX_DESCRIPTION_WORDS:
                     out.append(f"{eid}: {lang} description too long ({len(d.split())} words)")
             for u in e.get("attested", []):
                 if u not in units:

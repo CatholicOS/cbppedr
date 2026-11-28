@@ -33,6 +33,15 @@ class ValidateTest(unittest.TestCase):
         self.assertTrue(any("btu:gn.99.1" in x for x in p))
         self.assertTrue(any("description" in x for x in p))
 
+    def test_description_limit_30_words_220_characters(self):
+        def run(d):
+            return problems({"persons": cat({"bpers:levi.iacob-filius": person(description={"it": d, "en": "ok"})}),
+                             "places": cat({}), "events": cat({})})
+        self.assertEqual(run(" ".join(["parola"] * 30)), [])  # 30 words, 209 characters
+        self.assertEqual(len(run(" ".join(["parola"] * 31))), 1)
+        self.assertEqual(len(run("x" * 221)), 1)
+        self.assertEqual(run("x" * 220), [])
+
     def test_same_id_in_two_catalogs(self):
         p = problems({"persons": cat({"bpers:a": person()}), "places": cat({}),
                       "events": cat({"bpers:a": person(type="event")})})
