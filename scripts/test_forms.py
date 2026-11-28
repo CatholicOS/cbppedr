@@ -23,6 +23,11 @@ class ProposeTest(unittest.TestCase):
     def test_ioannes_third_declension(self):
         self.assertEqual(propose("Ioannes"), ["Ioannes", "Ioannis", "Ioanni", "Ioannem", "Ioanne", "Ioannen"])
 
+    def test_simon_third_declension(self):
+        self.assertEqual(propose("Simon"), ["Simon", "Simonis", "Simoni", "Simonem", "Simone"])
+        self.assertIn("Simonis Petri", propose("Simon Petrus", frozenset(), person=True))
+        self.assertEqual(propose("Abraham"), ["Abraham"])
+
     def test_iesus_irregular(self):
         self.assertEqual(propose("Iesus"), ["Iesus", "Iesu", "Iesum"])
 

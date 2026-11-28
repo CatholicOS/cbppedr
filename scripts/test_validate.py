@@ -222,6 +222,31 @@ class MentionsTest(unittest.TestCase):
         self.assertEqual(a["units"]["u1"]["mentions"], [1])
 
 
+class MentionsStrictShapeTest(MentionsTest):
+    def test_trailing_newline_refused_in_hash_check_and_strings(self):
+        from validate import mention_text_problems
+        self.assertTrue(self.check(self.doc(self.m(check="0123abcd\n"))))
+        d = self.doc(self.m())
+        d["units"]["btu:gn.29.34"]["hash"] = self.H + "\n"
+        self.assertTrue(self.check(d))
+        self.assertTrue(mention_text_problems({"edition": "NVBSE\n"}, "t"))
+
+    def test_units_must_be_a_dict(self):
+        self.assertTrue(self.check({"edition": "NVBSE", "units": []}))
+        self.assertTrue(self.check({"edition": "NVBSE"}))
+        self.assertEqual(self.check({"edition": "NVBSE", "units": {}}), [])
+
+    def test_structurally_invalid_input_is_not_merged(self):
+        from validate import mention_docs_problems
+        gen = self.doc(self.m())
+        cur = {"edition": "NVBSE", "units": {"btu:gn.29.34": None}}
+        p = mention_docs_problems(gen, cur, self.IDS, self.UNITS)
+        self.assertTrue(any("malformed" in x for x in p))
+        ok = {"edition": "NVBSE", "units": {"btu:gn.29.34": {"hash": self.H, "mentions": []}}}
+        self.assertEqual(mention_docs_problems(gen, ok, self.IDS, self.UNITS), [])
+        self.assertTrue(mention_docs_problems({"edition": "NVBSE", "units": []}, ok, self.IDS, self.UNITS))
+
+
 class MentionsKeyTextTest(unittest.TestCase):
     def test_text_in_any_property_name_refused(self):
         from validate import mention_text_problems
@@ -248,6 +273,10 @@ class MentionedFieldTest(unittest.TestCase):
         self.assertTrue(self.check(["btu:gn.99.99"]))
         self.assertTrue(self.check(["btu:gn.29.34"]))
         self.assertTrue(self.check(["btu:gn.1.1", "btu:gn.1.1"]))
+
+    def test_malformed_mentioned_is_a_problem_not_an_error(self):
+        for bad in ([["btu:gn.1.1"]], 5, "btu:gn.1.1", [1]):
+            self.assertTrue(self.check(bad), bad)
 
 
 class MentionsNoTextTest(unittest.TestCase):

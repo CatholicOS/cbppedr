@@ -91,7 +91,10 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
                         out.append(f"{eid}: label {u} unknown edition {ed}")
                     if not isinstance(text, str) or not text.strip() or len(text.split()) > 6:
                         out.append(f"{eid}: label {u} {ed} empty, not text, or longer than six words")
-            mentioned = e.get("mentioned") or []
+            mentioned = e.get("mentioned", [])
+            if not isinstance(mentioned, list) or not all(isinstance(u, str) for u in mentioned):
+                out.append(f"{eid}: mentioned is not a list of unit keys")
+                mentioned = []
             if len(set(mentioned)) != len(mentioned):
                 out.append(f"{eid}: mentioned units repeat")
             for u in mentioned:
@@ -228,8 +231,8 @@ def unnamed_problems(unnamed: dict, catalogs: dict[str, dict]) -> list[str]:
     return out
 
 
-HEX64 = re.compile(r"^[0-9a-f]{64}$")
-HEX8 = re.compile(r"^[0-9a-f]{8}$")
+HEX64 = re.compile(r"[0-9a-f]{64}")
+HEX8 = re.compile(r"[0-9a-f]{8}")
 UNIT_KEY = re.compile(r"^(btu:\S+?)(@(?:GREEK|HEBREW))?$")
 TOP_KEYS = frozenset({"$comment", "edition", "units"})
 UNIT_KEYS = frozenset({"hash", "mentions"})
@@ -267,7 +270,7 @@ def _mention_problems(where: str, m: object, ids: set[str]) -> list[str]:
     if not (isinstance(s, int) and isinstance(e, int) and not isinstance(s, bool) and not isinstance(e, bool)
             and 0 <= s < e):
         out.append(f"{where}: span {s}-{e} (need 0 <= start < end)")
-    if not isinstance(m.get("check"), str) or not HEX8.match(m["check"]):
+    if not isinstance(m.get("check"), str) or not HEX8.fullmatch(m["check"]):
         out.append(f"{where}: check {m.get('check')!r} is not 8 lowercase hex digits")
     if ("entry" in m) == ("candidates" in m):
         out.append(f"{where}: needs entry or candidates, not both nor neither")
@@ -284,7 +287,9 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
     if doc.get("edition") != "NVBSE":
         out.append(f"{name}: edition {doc.get('edition')!r}")
     out += _unknown_keys(name, doc, TOP_KEYS)
-    for key, u in (doc.get("units") or {}).items():
+    if not isinstance(doc.get("units"), dict):
+        return out + [f"{name}: units is not an object"]
+    for key, u in doc["units"].items():
         where = f"{name} {key}"
         if not _unit_key_ok(key, units):
             out.append(f"{where}: not a known unit (a tradition suffix only on Esther)")
@@ -292,7 +297,7 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
             out.append(f"{where}: malformed")
             continue
         out += _unknown_keys(where, u, UNIT_KEYS)
-        if not isinstance(u.get("hash"), str) or not HEX64.match(u["hash"]):
+        if not isinstance(u.get("hash"), str) or not HEX64.fullmatch(u["hash"]):
             out.append(f"{where}: hash is not 64 lowercase hex digits")
         if not u["mentions"] and not curated:
             out.append(f"{where}: no mentions")
@@ -301,7 +306,7 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
     return out
 
 
-ALLOWED_STRING = re.compile(r"^(NVBSE|(bpers|bplace):\S+|btu:\S+?(@(GREEK|HEBREW))?|[0-9a-f]+)$")
+ALLOWED_STRING = re.compile(r"NVBSE|(bpers|bplace):\S+|btu:\S+?(@(GREEK|HEBREW))?|[0-9a-f]+")
 
 
 def mention_text_problems(doc: object, name: str, path: str = "") -> list[str]:
@@ -311,7 +316,7 @@ def mention_text_problems(doc: object, name: str, path: str = "") -> list[str]:
     out: list[str] = []
     if isinstance(doc, dict):
         for k, v in doc.items():
-            if path == "/units" and not ALLOWED_STRING.match(str(k)):
+            if path == "/units" and not ALLOWED_STRING.fullmatch(str(k)):
                 out.append(f"{name} {path}: key {str(k)[:20]!r} is not a unit key")
                 continue
             if path != "/units" and k not in TOP_KEYS | UNIT_KEYS | MENTION_KEYS:
@@ -322,7 +327,7 @@ def mention_text_problems(doc: object, name: str, path: str = "") -> list[str]:
     elif isinstance(doc, list):
         for i, v in enumerate(doc):
             out += mention_text_problems(v, name, f"{path}[{i}]")
-    elif isinstance(doc, str) and not ALLOWED_STRING.match(doc):
+    elif isinstance(doc, str) and not ALLOWED_STRING.fullmatch(doc):
         out.append(f"{name} {path}: string {doc[:20]!r} is neither an id, a unit key nor hex")
     return out
 
@@ -336,9 +341,23 @@ def mention_file_problems(ids: set[str]) -> list[str]:
     units = _units()
     gen = json.loads(gen_path.read_text(encoding="utf-8"))
     cur = json.loads(cur_path.read_text(encoding="utf-8")) if cur_path.exists() else {"edition": "NVBSE", "units": {}}
+    return mention_docs_problems(gen, cur, ids, units)
+
+
+def _well_formed(doc: dict) -> bool:
+    units = doc.get("units")
+    return isinstance(units, dict) and all(isinstance(u, dict) and isinstance(u.get("mentions"), list)
+                                           for u in units.values())
+
+
+def mention_docs_problems(gen: dict, cur: dict, ids: set[str], units: set[str] | frozenset[str]) -> list[str]:
+    """The generated and curated mentions files, and their merge when both are well formed (a malformed
+    one is reported, not merged)."""
+    from extract_mentions import merged_mentions
     out = mention_text_problems(gen, "nvbse.json") + mention_text_problems(cur, "nvbse_curated.json")
     out += mention_problems(gen, ids, units, "nvbse.json") + mention_problems(cur, ids, units, "nvbse_curated.json", True)
-    out += mention_problems(merged_mentions(gen, cur), ids, units, "merged")
+    if _well_formed(gen) and _well_formed(cur):
+        out += mention_problems(merged_mentions(gen, cur), ids, units, "merged")
     return out
 
 

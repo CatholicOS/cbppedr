@@ -87,11 +87,12 @@ class ResolveTest(unittest.TestCase):
 
 
 class ExtractTest(unittest.TestCase):
-    def run_one(self, text, forms, persons=None, places=None, stop=frozenset(), key="gn_1_1", partial=None):
+    def run_one(self, text, forms, persons=None, places=None, stop=frozenset(), key="gn_1_1", partial=None,
+                removed=None):
         """Without catalogs, every entry of `forms` is attested elsewhere in the same book (Genesis)."""
         if persons is None and places is None:
             persons = {id_: person("btu:gn.50.1") for id_ in forms}
-        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop, partial)
+        body, report = extract(texts(**{key: text}), forms, catalogs(persons, places), stop, partial, removed)
         unit = next(iter(body["units"].values()), None)
         return (unit["mentions"] if unit else []), report
 
@@ -286,6 +287,36 @@ class ExtractTest(unittest.TestCase):
         self.assertEqual([m.get("candidates") for m in mentions], [["bpers:rex"], ["bpers:rex"]])
         mentions, _ = self.run_one("viderunt regem", {"bpers:rex": ["Sedecias"]}, persons)
         self.assertEqual(mentions[0]["entry"], "bpers:rex")
+
+    def test_outside_settle_refused_when_a_nested_hit_settles_another_attested_entry(self):
+        # a Zin-like case: "desertum Sin" of one wilderness, attested elsewhere in the book, around the
+        # "Sin" of another wilderness that the unit attests
+        forms = {"bplace:desertum-sin": ["desertum Sin"], "bplace:sin.zin": ["Sin"]}
+        places = {"bplace:desertum-sin": person("btu:nm.33.11"), "bplace:sin.zin": person("btu:nm.13.21")}
+        mentions, _ = self.run_one("in desertum Sin", forms, places=places, key="nm_13_21")
+        self.assertEqual([(m.get("entry"), m.get("candidates")) for m in mentions],
+                         [(None, ["bplace:desertum-sin", "bplace:sin.zin"]), ("bplace:sin.zin", None)])
+
+    def test_outside_settle_kept_when_the_nested_hit_is_not_attested_or_the_same_entry(self):
+        forms = {"bplace:desertum-sin": ["desertum Sin", "Sin"], "bplace:sin.zin": ["Sinai"]}
+        places = {"bplace:desertum-sin": person("btu:nm.33.11"), "bplace:sin.zin": person("btu:nm.13.21")}
+        mentions, _ = self.run_one("in desertum Sin", forms, places=places, key="nm_13_21",
+                                   partial={"bplace:desertum-sin": ["Sin"]})
+        self.assertEqual(mentions[0]["entry"], "bplace:desertum-sin")
+        forms = {"bplace:desertum-sin": ["desertum Sin"], "bplace:sin.zin": ["Sin"]}
+        places = {"bplace:desertum-sin": person("btu:nm.33.11"), "bplace:sin.zin": person("btu:nm.13.1")}
+        mentions, _ = self.run_one("in desertum Sin", forms, places=places, key="nm_13_21")
+        self.assertEqual(mentions[0]["entry"], "bplace:desertum-sin")
+
+    def test_reviewed_removal_is_never_settled_outside(self):
+        # an Iudaea-like case: the unit was reviewed as not naming the region (an adjective there)
+        places = {"bplace:iudaea": person("btu:act.26.20")}
+        mentions, _ = self.run_one("mulieris Iudaeae", {"bplace:iudaea": ["Iudaeae"]}, places=places,
+                                   key="act_16_1", removed={"bplace:iudaea": ["btu:act.16.1"]})
+        self.assertEqual(mentions[0]["candidates"], ["bplace:iudaea"])
+        mentions, _ = self.run_one("mulieris Iudaeae", {"bplace:iudaea": ["Iudaeae"]}, places=places,
+                                   key="act_16_2", removed={"bplace:iudaea": ["btu:act.16.1"]})
+        self.assertEqual(mentions[0]["entry"], "bplace:iudaea")
 
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
