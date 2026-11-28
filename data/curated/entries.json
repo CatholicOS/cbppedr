@@ -44632,6 +44632,14 @@
    "evidence": [
     "ndeib:EFRAIM, EFRAIMITI"
    ]
+  },
+  "bpers:eva": {
+   "attested": [
+    "btu:gn.2.25"
+   ],
+   "evidence": [
+    "nv:btu:gn.2.25"
+   ]
   }
  }
 }

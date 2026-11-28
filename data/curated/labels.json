@@ -2497,6 +2497,12 @@
      "NVBSE": "Mulieri",
      "VGCL": "Mulieri"
     }
+   },
+   "btu:gn.2.25": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "uxor eius"
+    }
    }
   },
   "bpers:evilmerodach": {

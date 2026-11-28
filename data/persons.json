@@ -33686,7 +33686,8 @@
     "btu:gn.2.23",
     "btu:gn.3.16",
     "btu:gn.4.1",
-    "btu:1tim.2.13"
+    "btu:1tim.2.13",
+    "btu:gn.2.25"
    ],
    "relations": [
     {
@@ -33714,7 +33715,8 @@
    "qid": "Q830183",
    "qid_status": "auto",
    "evidence": [
-    "ndeib:EVA"
+    "ndeib:EVA",
+    "nv:btu:gn.2.25"
    ],
    "labels": {
     "btu:gn.2.18": {
@@ -33755,6 +33757,12 @@
       "NABRE": "the woman",
       "NVBSE": "Mulieri",
       "VGCL": "Mulieri"
+     }
+    },
+    "btu:gn.2.25": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "uxor eius"
      }
     }
    }
