@@ -114643,7 +114643,7 @@
      "start": 153,
      "end": 160,
      "check": "f1aeffe8",
-     "entry": "bpers:herodes.agrippa-i"
+     "entry": "bpers:herodes.antipas"
     },
     {
      "start": 189,
@@ -118854,7 +118854,7 @@
      "start": 79,
      "end": 86,
      "check": "f1aeffe8",
-     "entry": "bpers:herodes.agrippa-i"
+     "entry": "bpers:herodes.magnus"
     }
    ]
   },
@@ -120693,7 +120693,7 @@
      "start": 89,
      "end": 96,
      "check": "062bdc56",
-     "entry": "bpers:herodes.agrippa-i"
+     "entry": "bpers:herodes.antipas"
     },
     {
      "start": 100,
@@ -244904,7 +244904,7 @@
      "start": 15,
      "end": 22,
      "check": "f1aeffe8",
-     "entry": "bpers:herodes.antipas"
+     "entry": "bpers:herodes.magnus"
     },
     {
      "start": 29,
@@ -256685,12 +256685,7 @@
      "start": 64,
      "end": 70,
      "check": "4861315e",
-     "candidates": [
-      "bpers:herodes.agrippa-i",
-      "bpers:herodes.antipas",
-      "bpers:herodes.magnus",
-      "bpers:herodias"
-     ]
+     "entry": "bpers:herodes.antipas"
     }
    ]
   },
@@ -259915,11 +259910,7 @@
      "start": 24,
      "end": 31,
      "check": "062bdc56",
-     "candidates": [
-      "bpers:herodes.agrippa-i",
-      "bpers:herodes.antipas",
-      "bpers:herodes.magnus"
-     ]
+     "entry": "bpers:herodes.antipas"
     },
     {
      "start": 48,
@@ -260044,11 +260035,7 @@
      "start": 0,
      "end": 7,
      "check": "062bdc56",
-     "candidates": [
-      "bpers:herodes.agrippa-i",
-      "bpers:herodes.antipas",
-      "bpers:herodes.magnus"
-     ]
+     "entry": "bpers:herodes.antipas"
     },
     {
      "start": 20,
@@ -260127,11 +260114,7 @@
      "start": 18,
      "end": 25,
      "check": "f1aeffe8",
-     "candidates": [
-      "bpers:herodes.agrippa-i",
-      "bpers:herodes.antipas",
-      "bpers:herodes.magnus"
-     ]
+     "entry": "bpers:herodes.antipas"
     },
     {
      "start": 35,
@@ -260143,11 +260126,7 @@
      "start": 72,
      "end": 78,
      "check": "4861315e",
-     "candidates": [
-      "bpers:herodes.agrippa-i",
-      "bpers:herodes.antipas",
-      "bpers:herodes.magnus"
-     ]
+     "entry": "bpers:herodes.antipas"
     }
    ]
   },

@@ -13072,10 +13072,29 @@
   },
   "bpers:herodes.antipas": {
    "attested": [
-    "btu:mc.8.15"
+    "btu:mc.8.15",
+    "btu:act.4.27",
+    "btu:act.13.1",
+    "btu:mt.14.1",
+    "btu:mt.14.3",
+    "btu:mt.14.6",
+    "btu:mc.6.20",
+    "btu:mc.6.21",
+    "btu:mc.6.22",
+    "btu:lc.8.3",
+    "btu:lc.9.7",
+    "btu:lc.9.9",
+    "btu:lc.13.31",
+    "btu:lc.23.8",
+    "btu:lc.23.11",
+    "btu:lc.23.12",
+    "btu:lc.23.15"
    ],
    "evidence": [
-    "nv:btu:mc.8.15"
+    "nv:btu:mc.8.15",
+    "reviewer:round3",
+    "nv:btu:act.13.1",
+    "nv:btu:mt.14.1"
    ]
   },
   "bpers:herodion": {
@@ -44709,6 +44728,25 @@
    "evidence": [
     "reviewer:round2",
     "nv:btu:1mac.10.67"
+   ]
+  },
+  "bpers:herodes.magnus": {
+   "attested": [
+    "btu:lc.1.5",
+    "btu:act.23.35",
+    "btu:mt.2.1",
+    "btu:mt.2.3",
+    "btu:mt.2.7",
+    "btu:mt.2.12",
+    "btu:mt.2.13",
+    "btu:mt.2.15",
+    "btu:mt.2.16",
+    "btu:mt.2.19"
+   ],
+   "evidence": [
+    "reviewer:round3",
+    "nv:btu:lc.1.5",
+    "nv:btu:mt.2.1"
    ]
   }
  }
