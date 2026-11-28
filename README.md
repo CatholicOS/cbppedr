@@ -41,7 +41,7 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 |---|---|
 | `data/persons.json`, `data/places.json`, `data/events.json` | the three catalogs |
 | `data/unnamed.json` | persons the Bible mentions but no edition names, kept apart until one does |
-| `data/mentions/nvbse.json` | where the catalogs' persons and places are named in the Nova Vulgata (NVBSE), by CBTUDR unit: 31,585 mentions in 14,641 verses, 21,782 settled and 9,803 under review. Positions, a verse hash and a span check only; the words are never stored (the text is not ours to publish). `nvbse_curated.json` holds hand corrections that win over it |
+| `data/mentions/nvbse.json` | where the catalogs' persons and places are named in the Nova Vulgata (NVBSE), by CBTUDR unit: 31,589 mentions in 14,645 verses, 21,786 settled and 9,803 under review. Positions, a verse hash and a span check only; the words are never stored (the text is not ours to publish). `nvbse_curated.json` holds hand corrections that win over it |
 | `data/curated/` | the reviewed decisions the catalogs are built from: senses, per-entity verse lists and corrections, entries curated by hand, the Herodian tree's relations, Wikidata items |
 | `registry/` | the catalogs as readable tables, generated |
 | `docs/vocabulary.md` | every term the data uses: types and kinds, relations (`same_as`…), labels, conjectures (`possibly_same_as`…), evidence and sources, statuses |
@@ -52,7 +52,7 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 ## Status
 
 Baseline (round 1), built from the dictionary's headwords, the Jerusalem Bible's Herodian tree, and the persons the dictionary covers only in a book's article (the prophets of the Twelve, Ezekiel, Matthew, Judith, Tobit and Tobias), curated by hand. 49 headwords listing many bearers of one name (Shemaiah, Shimei, Hananiah, Jonathan…), whose first review kept only some, were reviewed again for the rest:
-3,185 persons, 1,098 places and 22 events (with round 2 so far), validated with no problems. 1,434 entries have a Wikidata
+3,186 persons, 1,098 places and 22 events (with round 2 so far), validated with no problems. 1,434 entries have a Wikidata
 item: 778 matched by a strict automatic rule (a candidate of the class "human biblical figure", or the only fitting candidate
 whose description is explicitly biblical), 644 adjudicated by a System One model (TypeSafe's Jev) that compares our entry's names,
 relatives and verses with each candidate's Wikidata facts, accepted only when it judges one candidate the same with probability 0.8
