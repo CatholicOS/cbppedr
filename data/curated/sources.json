@@ -81,6 +81,12 @@
    "authority": "non-authoritative",
    "why": "edited academic reference work; peer review not confirmed",
    "url": "https://repository.uwtsd.ac.uk/id/eprint/2651/"
+  },
+  "pub:catechismus-1997": {
+   "title": "Catechismus Catholicae Ecclesiae, editio typica, Libreria Editrice Vaticana 1997 (Catechism of the Catholic Church), cited by paragraph",
+   "authority": "authoritative",
+   "why": "Catholic magisterial reference work",
+   "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
   }
  }
 }

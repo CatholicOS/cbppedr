@@ -7434,6 +7434,30 @@
      "NVBSE": "Diaboli",
      "VGCL": "diaboli"
     }
+   },
+   "btu:gn.3.1": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "serpens"
+    }
+   },
+   "btu:gn.3.4": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "serpens"
+    }
+   },
+   "btu:gn.3.13": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "Serpens"
+    }
+   },
+   "btu:gn.3.14": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "serpentem"
+    }
    }
   },
   "bpers:saul.rex-israel": {
@@ -11678,32 +11702,6 @@
      "NABRE": "the carpenter",
      "NVBSE": "fabri",
      "VGCL": "fabri"
-    }
-   }
-  },
-  "bpers:serpens": {
-   "btu:gn.3.1": {
-    "as": "designation",
-    "editions": {
-     "NVBSE": "serpens"
-    }
-   },
-   "btu:gn.3.4": {
-    "as": "designation",
-    "editions": {
-     "NVBSE": "serpens"
-    }
-   },
-   "btu:gn.3.13": {
-    "as": "designation",
-    "editions": {
-     "NVBSE": "Serpens"
-    }
-   },
-   "btu:gn.3.14": {
-    "as": "designation",
-    "editions": {
-     "NVBSE": "serpentem"
     }
    }
   }
