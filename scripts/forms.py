@@ -3,7 +3,8 @@ catalogs may appear in the Nova Vulgata text, so a reader can find them there.
 
 For each entry: its Latin name (declined by rule), and every NVBSE label of a unit where the
 edition names it differently as a name (a designation is audited for one verse only, so it is
-not a global form). Every declinable word of a name is declined in the same case slot. Names ending
+not a global form). Every declinable word of a name is declined in the same case slot, and so is
+the head of a multiword place name (mons, vallis, mare, desertum: mons Hor, montem Hor). Names ending
 in a consonant, -am, -el, -on, -ath or -is, and stems under three letters, are indeclinable here.
 Generated forms that are stoplist words (stoplist_la.txt) are dropped; one that equals another
 entry's name is kept (a shared form the matcher resolves). A person's multiword name also yields
@@ -35,6 +36,11 @@ RULES = (("us", ("i", "o", "um", "o", "e")), ("es", ("is", "i", "em", "e", "es")
 # genitive and accusative after them
 GREEK_EXTRAS = {"es": ("i", "en")}
 IRREGULAR = {"Iesus": ("Iesu", "Iesu", "Iesum", "Iesu", "Iesu")}
+# the common nouns that head a multiword place name ("mons Hor"), irregular or third declension
+PLACE_HEADS = {"mons": ("montis", "monti", "montem", "monte", "mons"),
+               "vallis": ("vallis", "valli", "vallem", "valle", "vallis"),
+               "mare": ("maris", "mari", "mare", "mari", "mare"),
+               "desertum": ("deserti", "deserto", "desertum", "deserto", "desertum")}
 MIN_STEM = 3
 LIGATURES = (("ae", "æ"), ("Ae", "Æ"), ("oe", "œ"), ("Oe", "Œ"))
 
@@ -59,6 +65,14 @@ def _slots(word: str) -> tuple[str, ...]:
     return (word,) * 5
 
 
+def _head_slots(word: str) -> tuple[str, ...] | None:
+    """A place head's five forms, capitalised as the word is, or None if the word is not a head."""
+    slots = PLACE_HEADS.get(word.lower())
+    if slots is None:
+        return None
+    return tuple(s[:1].upper() + s[1:] for s in slots) if word[:1].isupper() else slots
+
+
 def _other_spelling(form: str) -> str | None:
     if any(a in form for a, _ in LIGATURES):
         for a, lig in LIGATURES:
@@ -79,19 +93,22 @@ def _extras(word: str) -> list[str]:
 
 
 def propose_parts(name: str, stoplist: frozenset[str] | None = None, person: bool = False,
-                  places: frozenset[str] = frozenset()) -> tuple[list[str], list[str]]:
+                  places: frozenset[str] = frozenset(), place: bool = False) -> tuple[list[str], list[str]]:
     """The name's own forms: the name first, then its case forms (every declinable word in the same
     slot), no duplicates; and its partial forms: for a multiword name, the forms of its first word
     (unless that is a stoplist word) and, for a person, of its last word (unless that is a stoplist
     word or the name of a place in `places`), less any of the name's own forms.
     A generated form in the stoplist is dropped; a form with ae/oe or its ligature is followed by the
-    other spelling."""
+    other spelling. In a multiword `place` name, a head mons, vallis, mare or desertum is declined too."""
     name = name.strip()
     if not name:
         return [], []
     stop = load_stoplist() if stoplist is None else stoplist
     words = name.split()
     slots = [_slots(w) for w in words]
+    head = _head_slots(words[0]) if place and len(words) > 1 else None
+    if head:
+        slots[0] = head
     generated = [" ".join(s[i] for s in slots) for i in range(5)]
     if len(words) == 1:
         generated += _extras(words[0])
@@ -120,9 +137,9 @@ def _word_forms(words: list[str], stop: frozenset[str], person: bool, places: fr
 
 
 def propose(name: str, stoplist: frozenset[str] | None = None, person: bool = False,
-            places: frozenset[str] = frozenset()) -> list[str]:
+            places: frozenset[str] = frozenset(), place: bool = False) -> list[str]:
     """All the forms of `propose_parts`: the name's own, then its partial ones."""
-    full, partial = propose_parts(name, stoplist, person, places)
+    full, partial = propose_parts(name, stoplist, person, places, place)
     return full + partial
 
 
@@ -140,7 +157,7 @@ def _entry_forms(id_: str, entry: dict, stop: frozenset[str],
     full: set[str] = set()
     partial: list[str] = []
     for name in names:
-        own, part = propose_parts(name, stop, person, places)
+        own, part = propose_parts(name, stop, person, places, id_.startswith("bplace:"))
         forms += own + part
         full.update(own)
         partial += part

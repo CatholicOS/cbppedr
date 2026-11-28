@@ -810,7 +810,6 @@
     "btu:1reg.8.21",
     "btu:1reg.8.51",
     "btu:1reg.8.53",
-    "btu:1reg.8.65",
     "btu:1reg.9.9",
     "btu:1reg.10.29",
     "btu:1reg.11.17",
@@ -822,13 +821,11 @@
     "btu:2reg.19.24",
     "btu:2reg.21.15",
     "btu:2reg.23.34",
-    "btu:2reg.24.7",
     "btu:2reg.25.26",
     "btu:2par.1.16",
     "btu:2par.1.17",
     "btu:2par.5.10",
     "btu:2par.6.5",
-    "btu:2par.7.8",
     "btu:2par.7.22",
     "btu:2par.9.26",
     "btu:2par.9.28",
@@ -863,7 +860,6 @@
     "btu:is.20.4",
     "btu:is.20.5",
     "btu:is.23.5",
-    "btu:is.27.12",
     "btu:is.27.13",
     "btu:is.30.2",
     "btu:is.30.3",
@@ -10968,7 +10964,9 @@
     "ndeib:SIN, DESERTO DI S"
    ],
    "mentioned": [
+    "btu:nm.13.21",
     "btu:nm.20.1",
+    "btu:nm.27.14",
     "btu:nm.33.36"
    ]
   },
@@ -16991,16 +16989,6 @@
    "evidence": [
     "nv:btu:nm.34.7",
     "nv:btu:nm.34.8"
-   ],
-   "mentioned": [
-    "btu:nm.20.22",
-    "btu:nm.20.23",
-    "btu:nm.20.25",
-    "btu:nm.20.27",
-    "btu:nm.21.4",
-    "btu:nm.33.37",
-    "btu:nm.33.38",
-    "btu:nm.33.41"
    ]
   },
   "bplace:horem": {
@@ -20500,8 +20488,6 @@
     "ndeib:GIUDEA"
    ],
    "mentioned": [
-    "btu:esd.1.2",
-    "btu:esd.1.3",
     "btu:esd.5.1",
     "btu:esd.5.8",
     "btu:esd.7.14",
@@ -20983,7 +20969,6 @@
    "mentioned": [
     "btu:ios.1.4",
     "btu:ios.9.1",
-    "btu:ios.11.17",
     "btu:ios.12.7",
     "btu:ios.13.6",
     "btu:idc.9.15",
@@ -23123,9 +23108,6 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:MEDI, MEDIA"
-   ],
-   "mentioned": [
-    "btu:ier.51.28"
    ]
   },
   "bplace:megbis": {
@@ -27081,7 +27063,6 @@
     "ndeib:BENIAMINO"
    ],
    "mentioned": [
-    "btu:ier.20.2",
     "btu:ier.38.7"
    ]
   },
@@ -31703,7 +31684,6 @@
    "mentioned": [
     "btu:ex.16.1",
     "btu:ex.17.6",
-    "btu:ex.19.1",
     "btu:ex.19.2",
     "btu:ex.19.11",
     "btu:ex.24.16",

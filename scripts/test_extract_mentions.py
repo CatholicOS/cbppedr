@@ -242,6 +242,51 @@ class ExtractTest(unittest.TestCase):
                                    stop=frozenset({"media"}))
         self.assertEqual(mentions[0]["entry"], "bplace:media")
 
+    def test_outside_form_not_settled_where_a_same_stem_entry_is_attested_unmatched(self):
+        # a Hor-like case: the unit attests a mountain whose own form is spelled otherwise there; another
+        # place's one-word form found there is not taken for it
+        forms = {"bplace:hor.a": ["Hor"], "bplace:mons-hor.b": ["mons Hor"]}
+        places = {"bplace:hor.a": person("btu:nm.34.7"), "bplace:mons-hor.b": person("btu:nm.20.22")}
+        mentions, report = self.run_one("venerunt ad montem Hor", forms, places=places, key="nm_20_22")
+        self.assertEqual(mentions[0]["candidates"], ["bplace:hor.a", "bplace:mons-hor.b"])
+        self.assertEqual(report["unmatched"], [{"unit": "btu:nm.20.22", "entry": "bplace:mons-hor.b"}])
+
+    def test_same_stem_guard_folds_case_doubled_letters_and_ligatures(self):
+        # a Helles/Heles-like case: one person's name in the unit where a near-homonym is attested
+        forms = {"bpers:helles.a": ["Helles"], "bpers:heles.b": ["Heles"]}
+        persons = {"bpers:helles.a": person("btu:1par.2.39"), "bpers:heles.b": person("btu:1par.27.10")}
+        mentions, _ = self.run_one("Helles princeps", forms, persons, key="1par_27_10")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:heles.b", "bpers:helles.a"])
+        forms = {"bpers:aeneas.a": ["Aeneas"], "bpers:aenon.b": ["Ænon"]}
+        persons = {"bpers:aeneas.a": person("btu:gn.50.1"), "bpers:aenon.b": person("btu:gn.1.1")}
+        mentions, _ = self.run_one("Aeneas venit", forms, persons)
+        self.assertEqual(mentions[0]["entry"], "bpers:aeneas.a")
+        persons["bpers:aenon.b"] = person("btu:gn.1.1")
+        forms["bpers:aenon.b"] = ["Æneam"]
+        mentions, _ = self.run_one("Aeneas venit", forms, persons)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:aeneas.a", "bpers:aenon.b"])
+
+    def test_same_stem_guard_crosses_persons_and_places_and_needs_an_unmatched_entry(self):
+        # a Gessuraei-like case: a people's name where the land of a near-homonym is attested
+        forms = {"bpers:gessuraei.a": ["Gesuri"], "bplace:gessur.b": ["Gessur"]}
+        persons = {"bpers:gessuraei.a": person("btu:ios.13.2")}
+        places = {"bplace:gessur.b": person("btu:ios.12.5")}
+        mentions, _ = self.run_one("terminos Gesuri", forms, persons, places, key="ios_12_5")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:gessuraei.a", "bplace:gessur.b"])
+        mentions, _ = self.run_one("terminos Gesuri", forms, persons, places, key="ios_12_6")
+        self.assertEqual(mentions[0]["entry"], "bpers:gessuraei.a")
+        forms = {"bplace:hor.a": ["Hor"], "bplace:mons-hor.b": ["mons Hor"]}
+        places = {"bplace:hor.a": person("btu:nm.34.7"), "bplace:mons-hor.b": person("btu:nm.20.22")}
+        mentions, _ = self.run_one("ad mons Hor", forms, places=places, key="nm_20_22")
+        self.assertEqual([m.get("entry") for m in mentions], ["bplace:mons-hor.b", "bplace:hor.a"])
+
+    def test_repeated_designation_is_a_candidate_of_one_each_time(self):
+        persons = {"bpers:rex": person("btu:gn.1.1", labels={"btu:gn.1.1": designation("regem")})}
+        mentions, _ = self.run_one("viderunt regem et duxerunt regem", {"bpers:rex": ["Sedecias"]}, persons)
+        self.assertEqual([m.get("candidates") for m in mentions], [["bpers:rex"], ["bpers:rex"]])
+        mentions, _ = self.run_one("viderunt regem", {"bpers:rex": ["Sedecias"]}, persons)
+        self.assertEqual(mentions[0]["entry"], "bpers:rex")
+
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
         body, _ = extract(texts(est_3_2__GREEK="Aman"), {"bpers:aman": ["Aman"]}, catalogs(persons), frozenset())
