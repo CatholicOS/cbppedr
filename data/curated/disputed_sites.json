@@ -1,0 +1,14 @@
+{
+ "$comment": "Places whose site nobody has identified (wilderness stations of the Exodus, sites known only from the text): details.py gives them no coordinates, whatever Wikidata holds, since a pin would present a guess as a location. Checked by validate.py: place ids of the catalog, each once.",
+ "entries": [
+  "bplace:achor",
+  "bplace:aseroth",
+  "bplace:ceelatha",
+  "bplace:cibrottaava",
+  "bplace:ebrona",
+  "bplace:gareb",
+  "bplace:ietebatha",
+  "bplace:maserephoth",
+  "bplace:phihahiroth"
+ ]
+}

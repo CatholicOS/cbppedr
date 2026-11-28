@@ -1,7 +1,32 @@
 {
- "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor and the Hor inside it name the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged. nm.33.8: Etham there is the wilderness (desertum Etham), which has no entry; the camp bplace:etham.castra is under review. gn.1.10: Maria there is the seas God names, not a person: no mention.",
+ "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor and the Hor inside it name the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged. nm.33.8: Etham there is the wilderness (desertum Etham), which has no entry; the camp bplace:etham.castra is under review. gn.1.10: Maria there is the seas God names, not a person: no mention. 1mac.10.67: Demetrius (II, nicator) son of Demetrius (I, soter): each span settled to its king.",
  "edition": "NVBSE",
  "units": {
+  "btu:1mac.10.67": {
+   "hash": "34efb529fd0997ce8d4a180867ca3d5883fc17d29d8cc82409fc11ada5ce63a4",
+   "mentions": [
+    {
+     "start": 42,
+     "end": 51,
+     "check": "0ba80a9c",
+     "entry": "bpers:demetrius.nicator"
+    },
+    {
+     "start": 59,
+     "end": 67,
+     "check": "68bbd46d",
+     "entry": "bpers:demetrius.soter"
+    },
+    {
+     "start": 70,
+     "end": 75,
+     "check": "a7144d9c",
+     "candidates": [
+      "bplace:creta"
+     ]
+    }
+   ]
+  },
   "btu:act.16.1": {
    "hash": "a86df6096e661ab96ffca78a8c2a2cac5af38859d7c8a1884f53cd6b2e1a402d",
    "mentions": [
