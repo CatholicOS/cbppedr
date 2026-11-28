@@ -279,5 +279,12 @@ class MentionedTest(unittest.TestCase):
         e = self.run_build(m, removed={self.PH: ["btu:mc.6.17"]})
         self.assertEqual(e["mentioned"], ["btu:nm.33.20"])
 
+    def test_mentions_need_a_complete_unit_order(self):
+        m = self.units(**{"btu:mc.6.17": [self.mention(entry=self.PH)], "btu:mt.2.1": [self.mention(entry=self.PH)]})
+        with self.assertRaisesRegex(ValueError, "unit_order"):
+            build(DECISIONS, UNITS, tree={}, mentions=m)
+        with self.assertRaisesRegex(ValueError, "btu:mt.2.1"):
+            build(DECISIONS, UNITS, tree={}, mentions=m, unit_order=["btu:mc.6.17"])
+
     def test_no_mentions_leaves_catalog_unchanged(self):
         self.assertEqual(build(DECISIONS, UNITS, tree={}), build(DECISIONS, UNITS, tree={}, mentions={}))

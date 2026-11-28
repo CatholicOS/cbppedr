@@ -166,12 +166,27 @@ class PartialTest(unittest.TestCase):
                          ["mare Chenereth", "maris Chenereth", "mari Chenereth"])
         self.assertIn("montis Calvi", propose("mons Calvus", frozenset(), place=True))
         self.assertIn("Montem Hor", propose("Mons Hor", frozenset(), place=True))
+        self.assertIn("montem Hor", propose("Mons Hor", frozenset(), place=True))
 
     def test_place_head_declined_in_partial_forms(self):
         self.assertEqual(propose_parts("Mons Hor", frozenset(), place=True)[1],
                          ["Mons", "Montis", "Monti", "Montem", "Monte"])
         self.assertEqual(propose_parts("Mare Rubrum", frozenset({"mare"}), place=True)[1], [])
         self.assertEqual(propose_parts("Mons Hor", frozenset())[1], ["Mons"])
+
+    def test_neuter_adjective_after_a_neuter_head(self):
+        full = propose_parts("mare Rubrum", frozenset(), place=True)[0]
+        self.assertEqual(full, ["mare Rubrum", "maris Rubri", "mari Rubro"])
+        self.assertIn("maris Magni", propose_parts("mare Magnum", frozenset(), place=True)[0])
+        self.assertEqual(propose_parts("Mare Salis", frozenset(), place=True)[0],
+                         ["Mare Salis", "Maris Salis", "Mari Salis", "mare Salis", "maris Salis", "mari Salis"])
+
+    def test_capitalised_place_head_also_lower_case(self):
+        # the text writes the common noun lower-case: mare Rubrum, maris Rubri, mari Rubro
+        full = propose_parts("Mare Rubrum", frozenset(), place=True)[0]
+        self.assertEqual(full, ["Mare Rubrum", "Maris Rubri", "Mari Rubro", "mare Rubrum", "maris Rubri", "mari Rubro"])
+        self.assertNotIn("petrus", " ".join(propose_parts("Simon Petrus", frozenset(), person=True)[0]))
+        self.assertEqual(propose("Capharnaum"), ["Capharnaum"])
 
     def test_place_heads_only_in_multiword_place_names(self):
         self.assertEqual(propose_parts("mons Hor", frozenset())[0], ["mons Hor"])

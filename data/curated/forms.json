@@ -295,7 +295,9 @@
    "Abner"
   ],
   "bpers:abraham": [
-   "Abraham"
+   "Abraham",
+   "Abrahae",
+   "Abrahæ"
   ],
   "bpers:absalom.david-filius": [
    "Absalom"
@@ -520,7 +522,9 @@
    "Adaliam"
   ],
   "bpers:adam": [
-   "Adam"
+   "Adam",
+   "Adae",
+   "Adæ"
   ],
   "bpers:adbeel": [
    "Adbeel"
@@ -1751,7 +1755,8 @@
   ],
   "bpers:assyrii": [
    "Assyrii",
-   "Assur"
+   "Assur",
+   "Assyriis"
   ],
   "bpers:astarthe": [
    "Astharthe",
@@ -2473,7 +2478,8 @@
    "Basluth"
   ],
   "bpers:bathuel.nachor-filius": [
-   "Bathuel"
+   "Bathuel",
+   "Bathuelis"
   ],
   "bpers:bavai.henadad-filius": [
    "Bavai"
@@ -2978,7 +2984,9 @@
   ],
   "bpers:chaldaei": [
    "Chaldaei",
-   "Chaldæi"
+   "Chaldæi",
+   "Chaldaeis",
+   "Chaldæis"
   ],
   "bpers:chaleb.esrom-filius": [
    "Chaleb"
@@ -3355,13 +3363,25 @@
   ],
   "bpers:daniel.david-filius": [
    "Daniel",
-   "Cheleab"
+   "Cheleab",
+   "Danielis",
+   "Danieli",
+   "Danielem",
+   "Daniele"
   ],
   "bpers:daniel.ithamar": [
-   "Daniel"
+   "Daniel",
+   "Danielis",
+   "Danieli",
+   "Danielem",
+   "Daniele"
   ],
   "bpers:daniel.propheta": [
-   "Daniel"
+   "Daniel",
+   "Danielis",
+   "Danieli",
+   "Danielem",
+   "Daniele"
   ],
   "bpers:darcon": [
    "Darcon"
@@ -3756,28 +3776,52 @@
    "Eldad"
   ],
   "bpers:eleazar.aaron-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.abinadab-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.dedicatio-muri": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.dodo-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.eliud-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.filius-pharos": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.moholi-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eleazar.phinees-filius": [
-   "Eleazar"
+   "Eleazar",
+   "Eleazari",
+   "Eleazaro",
+   "Eleazarum"
   ],
   "bpers:eliab.gaddita": [
    "Eliab"
@@ -4631,10 +4675,18 @@
    "Geddiel"
   ],
   "bpers:gedeon": [
-   "Gedeon"
+   "Gedeon",
+   "Gedeonis",
+   "Gedeoni",
+   "Gedeonem",
+   "Gedeone"
   ],
   "bpers:gedeon.abidan-pater": [
-   "Gedeon"
+   "Gedeon",
+   "Gedeonis",
+   "Gedeoni",
+   "Gedeonem",
+   "Gedeone"
   ],
   "bpers:gedor.beniaminita": [
    "Gedor"
@@ -5304,7 +5356,9 @@
   ],
   "bpers:hebraei": [
    "Hebraei",
-   "Hebræi"
+   "Hebræi",
+   "Hebraeis",
+   "Hebræis"
   ],
   "bpers:hebri": [
    "Hebri"
@@ -6086,16 +6140,32 @@
    "Iasiel"
   ],
   "bpers:iason.cognatus-pauli": [
-   "Iason"
+   "Iason",
+   "Iasonis",
+   "Iasoni",
+   "Iasonem",
+   "Iasone"
   ],
   "bpers:iason.cyrenaeus": [
-   "Iason"
+   "Iason",
+   "Iasonis",
+   "Iasoni",
+   "Iasonem",
+   "Iasone"
   ],
   "bpers:iason.eleazari-filius": [
-   "Iason"
+   "Iason",
+   "Iasonis",
+   "Iasoni",
+   "Iasonem",
+   "Iasone"
   ],
   "bpers:iason.thessalonicensis": [
-   "Iason"
+   "Iason",
+   "Iasonis",
+   "Iasoni",
+   "Iasonem",
+   "Iasone"
   ],
   "bpers:iasub.de-filiis-beguai": [
    "Iasub"
@@ -7407,52 +7477,100 @@
    "Iona"
   ],
   "bpers:ionathan.abiathar-filius": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.asahel-filius": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.filius-caree": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.filius-iada": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.filius-oziae": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.filius-sage": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.filius-samma": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.gersam-filius": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.levita-iosaphat": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.pater-ebed": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.pater-zachariae": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.patruus-david": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.sacerdos-milicho": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.sacerdos-semeiae": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.saul-filius": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:ionathan.scriba-sedeciae": [
-   "Ionathan"
+   "Ionathan",
+   "Ionathae",
+   "Ionathæ",
+   "Ionatha"
   ],
   "bpers:iora": [
    "Iora",
@@ -7699,34 +7817,55 @@
   ],
   "bpers:ismael.asel-filius": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:ismael.de-filiis-phassur": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:ismael.filius-abrahae": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:ismael.filius-nathaniae": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:ismael.iohanan-filius": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:ismael.pater-zabadiae": [
    "Ismael",
-   "Ismæl"
+   "Ismæl",
+   "Ismaelis",
+   "Ismaeli",
+   "Ismaelem"
   ],
   "bpers:isod": [
    "Isod"
   ],
   "bpers:israel.populus": [
    "Israel",
-   "Isræl"
+   "Isræl",
+   "Israelis",
+   "Israeli",
+   "Israelem"
   ],
   "bpers:isreela": [
    "Isreela",
@@ -8005,7 +8144,10 @@
    "Levi"
   ],
   "bpers:lia": [
-   "Lia"
+   "Lia",
+   "Liae",
+   "Liæ",
+   "Liam"
   ],
   "bpers:libyes": [
    "Libyes",
@@ -8354,7 +8496,8 @@
   "bpers:madianitae": [
    "Madianitae",
    "Madianitæ",
-   "Madian"
+   "Madian",
+   "Madianitis"
   ],
   "bpers:magdiel": [
    "Magdiel"
@@ -9837,7 +9980,11 @@
    "Nero"
   ],
   "bpers:nicanor.de-septem": [
-   "Nicanor"
+   "Nicanor",
+   "Nicanoris",
+   "Nicanori",
+   "Nicanorem",
+   "Nicanore"
   ],
   "bpers:nicodemus": [
    "Nicodemus",
@@ -10601,7 +10748,9 @@
   ],
   "bpers:pherezaei": [
    "Pherezaei",
-   "Pherezæi"
+   "Pherezæi",
+   "Pherezaeis",
+   "Pherezæis"
   ],
   "bpers:phermesta": [
    "Phermesta",
@@ -10875,7 +11024,8 @@
    "Rabsaris"
   ],
   "bpers:rachel": [
-   "Rachel"
+   "Rachel",
+   "Rachelis"
   ],
   "bpers:raddai": [
    "Raddai"
@@ -11328,7 +11478,11 @@
    "Salomith"
   ],
   "bpers:salomon": [
-   "Salomon"
+   "Salomon",
+   "Salomonis",
+   "Salomoni",
+   "Salomonem",
+   "Salomone"
   ],
   "bpers:salomoth": [
    "Salomoth"
@@ -11545,13 +11699,25 @@
    "Samuam"
   ],
   "bpers:samuel.issachar": [
-   "Samuel"
+   "Samuel",
+   "Samuelis",
+   "Samueli",
+   "Samuelem",
+   "Samuele"
   ],
   "bpers:samuel.propheta": [
-   "Samuel"
+   "Samuel",
+   "Samuelis",
+   "Samueli",
+   "Samuelem",
+   "Samuele"
   ],
   "bpers:samuel.simeonita": [
-   "Samuel"
+   "Samuel",
+   "Samuelis",
+   "Samueli",
+   "Samuelem",
+   "Samuele"
   ],
   "bpers:sanaballat": [
    "Sanaballat"
@@ -11791,19 +11957,35 @@
    "Sasagaz"
   ],
   "bpers:satanas": [
-   "Satan"
+   "Satan",
+   "Satanas",
+   "Satanae",
+   "Satanam",
+   "Satana"
   ],
   "bpers:saul.levita": [
-   "Saul"
+   "Saul",
+   "Saulis",
+   "Sauli",
+   "Saulem"
   ],
   "bpers:saul.rex-edom": [
-   "Saul"
+   "Saul",
+   "Saulis",
+   "Sauli",
+   "Saulem"
   ],
   "bpers:saul.rex-israel": [
-   "Saul"
+   "Saul",
+   "Saulis",
+   "Sauli",
+   "Saulem"
   ],
   "bpers:saul.simeonis-filius": [
-   "Saul"
+   "Saul",
+   "Saulis",
+   "Sauli",
+   "Saulem"
   ],
   "bpers:sceva": [
    "Sceva",
@@ -12566,7 +12748,11 @@
    "Sichem"
   ],
   "bpers:sidon.chanaan-filius": [
-   "Sidon"
+   "Sidon",
+   "Sidonis",
+   "Sidoni",
+   "Sidonem",
+   "Sidone"
   ],
   "bpers:siha.oblatorum-pater": [
    "Siha",
@@ -12593,22 +12779,40 @@
    "Silvane"
   ],
   "bpers:simeon.antenatus-iesu": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simeon.de-filiis-harim": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simeon.iacob-filius": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simeon.ierosolymitanus": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simeon.niger": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simeon.tribus": [
-   "Simeon"
+   "Simeon",
+   "Simeonis",
+   "Simeoni",
+   "Simeonem"
   ],
   "bpers:simon-petrus": [
    "Simon Petrus",
@@ -13295,7 +13499,8 @@
    "Thobia"
   ],
   "bpers:thobis": [
-   "Thobis"
+   "Thobis",
+   "Thobi"
   ],
   "bpers:thogorma": [
    "Thogorma",
@@ -16866,7 +17071,10 @@
   ],
   "bplace:israel.terra": [
    "Israel",
-   "Isræl"
+   "Isræl",
+   "Israelis",
+   "Israeli",
+   "Israelem"
   ],
   "bplace:issachar": [
    "Issachar"
@@ -17182,13 +17390,16 @@
   ],
   "bplace:mare-magnum": [
    "mare Magnum",
-   "maris Magnum",
-   "mari Magnum"
+   "maris Magni",
+   "mari Magno"
   ],
   "bplace:mare-mortuum": [
    "Mare Salis",
    "Maris Salis",
    "Mari Salis",
+   "mare Salis",
+   "maris Salis",
+   "mari Salis",
    "mare Arabæ",
    "mare Arabae",
    "maris Arabæ",
@@ -17198,8 +17409,11 @@
   ],
   "bplace:mare-rubrum": [
    "Mare Rubrum",
-   "Maris Rubrum",
-   "Mari Rubrum"
+   "Maris Rubri",
+   "Mari Rubro",
+   "mare Rubrum",
+   "maris Rubri",
+   "mari Rubro"
   ],
   "bplace:maresa": [
    "Maresa",
@@ -18819,7 +19033,11 @@
    "Sichem"
   ],
   "bplace:sidon": [
-   "Sidon"
+   "Sidon",
+   "Sidonis",
+   "Sidoni",
+   "Sidonem",
+   "Sidone"
   ],
   "bplace:sihorlabanath": [
    "Sihorlabanath"
