@@ -150,6 +150,32 @@ class PartialTest(unittest.TestCase):
         self.assertNotIn("Simon", full)
         self.assertEqual(propose("Simon Petrus", frozenset(), person=True), full + partial)
 
+    def test_place_heads_declined_word_aligned(self):
+        self.assertEqual(propose_parts("mons Hor", frozenset(), place=True)[0],
+                         ["mons Hor", "montis Hor", "monti Hor", "montem Hor", "monte Hor"])
+        self.assertEqual(propose_parts("vallis Raphaim", frozenset(), place=True)[0],
+                         ["vallis Raphaim", "valli Raphaim", "vallem Raphaim", "valle Raphaim"])
+        self.assertEqual(propose_parts("desertum Sin", frozenset(), place=True)[0],
+                         ["desertum Sin", "deserti Sin", "deserto Sin"])
+        self.assertEqual(propose_parts("mare Chenereth", frozenset(), place=True)[0],
+                         ["mare Chenereth", "maris Chenereth", "mari Chenereth"])
+        self.assertIn("montis Calvi", propose("mons Calvus", frozenset(), place=True))
+        self.assertIn("Montem Hor", propose("Mons Hor", frozenset(), place=True))
+
+    def test_place_heads_only_in_multiword_place_names(self):
+        self.assertEqual(propose_parts("mons Hor", frozenset())[0], ["mons Hor"])
+        self.assertEqual(propose("mons", frozenset(), place=True), ["mons"])
+
+    def test_porta_names_keep_their_case_forms(self):
+        full = propose_parts("porta Beniamin superior", frozenset(), place=True)[0]
+        self.assertIn("portam Beniamin superior", full)
+        self.assertIn("porta Beniamin superior", full)
+
+    def test_build_all_declines_place_heads(self):
+        cat = {"persons": {"entries": {}}, "places": {"entries": {"bplace:m": {"names": {"la": "mons Hor"}}}}}
+        forms, _ = build_all(cat, {}, {})
+        self.assertIn("montem Hor", forms["bplace:m"])
+
     def test_one_word_name_has_no_partial(self):
         self.assertEqual(propose_parts("Petrus", frozenset())[1], [])
 
@@ -182,7 +208,7 @@ class StoplistTest(unittest.TestCase):
     def test_numerals_and_cited_common_words(self):
         stop = load_stoplist()
         for w in ("unus", "una", "unum", "duo", "tres", "tria", "quattuor", "decem", "centum", "mille",
-                  "linum", "media", "perge", "sanctum"):
+                  "linum", "media", "perge", "sanctum", "secundum", "absque"):
             self.assertIn(w, stop, w)
 
 
