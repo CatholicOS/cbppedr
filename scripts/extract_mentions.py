@@ -136,6 +136,15 @@ def find(text: str, forms: dict[str, list[str]]) -> list[Hit]:
     return _find_indexed(text, _index(name_forms(forms)))
 
 
+def _longest(hits: list[Hit]) -> list[Hit]:
+    """At each start, only the longest span's hits, whichever source they came from (names, lower-case
+    canonical forms, designations): a designation "rex" inside a name "rex Aegypti" is not kept."""
+    end = {}
+    for s, e, _ in hits:
+        end[s] = max(end.get(s, e), e)
+    return [h for h in hits if h[1] == end[h[0]]]
+
+
 def _spans(hits: list[Hit]) -> dict[tuple[int, int], set[str]]:
     spans: dict[tuple[int, int], set[str]] = {}
     for start, end, id_ in hits:
@@ -333,7 +342,8 @@ class _Run:
         labels = self.designations.get(unit, {})
         designated = set(_find_indexed(text, _index(labels)))
         hits += [h for h in designated if h not in hits]
-        hits = self.in_testament(hits, unit)
+        hits = _longest(self.in_testament(hits, unit))
+        designated &= set(hits)
         crossing = _crossing(list(_spans(hits)))
         here = {id_ for start, end, id_ in hits if (start, end) not in crossing}
         self.found.setdefault(unit, set()).update(here)

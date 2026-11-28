@@ -435,6 +435,17 @@ class ExtractTest(unittest.TestCase):
         mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1")
         self.assertEqual(mentions[0]["candidates"], ["bpers:b", "bpers:c", "bplace:a"])
 
+    def test_longest_span_wins_across_names_and_designations(self):
+        # a canonical "rex Aegypti" and a designation "rex" at the same start: only the longer is kept
+        persons = {"bpers:pharao": person("btu:gn.1.1"),
+                   "bpers:b": person("btu:gn.1.1", labels={"btu:gn.1.1": designation("rex")})}
+        mentions, _ = self.run_one("rex Aegypti venit", {"bpers:pharao": ["rex Aegypti"], "bpers:b": ["Beta"]},
+                                   persons)
+        self.assertEqual([(m["start"], m["end"], m.get("entry")) for m in mentions], [(0, 11, "bpers:pharao")])
+        # a designation alone at its start is still kept and settled
+        mentions, _ = self.run_one("rex venit", {"bpers:pharao": ["rex Aegypti"], "bpers:b": ["Beta"]}, persons)
+        self.assertEqual([m.get("entry") for m in mentions], ["bpers:b"])
+
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
         body, _ = extract(texts(est_3_2__GREEK="Aman"), {"bpers:aman": ["Aman"]}, catalogs(persons), frozenset())

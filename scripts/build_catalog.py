@@ -175,7 +175,9 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
             entry["attested"] = [u for u in entry["attested"] if u not in set(gone)]
 
     if mentions:  # settled mentions in verses the entry does not attest (after removals: a review wins)
-        order = {u: i for i, u in enumerate(unit_order or [])}
+        if unit_order is None:
+            raise ValueError("mentions need unit_order, the CBTUDR order of the units")
+        order = {u: i for i, u in enumerate(unit_order)}
         found: dict[str, set[str]] = {}
         for key, unit in mentions.items():
             u = key.split("@")[0]
@@ -185,8 +187,11 @@ def build(decisions: list[dict], units: dict[str, list[str]], tree: dict | None 
         for eid, units_in in found.items():
             entry = by_id[eid]
             gone = set((removed or {}).get(eid) or [])
-            new = sorted((u for u in units_in if u not in entry["attested"] and u not in gone),
-                         key=lambda u: (order.get(u, len(order)), u))
+            new = [u for u in units_in if u not in entry["attested"] and u not in gone]
+            missing = sorted(u for u in new if u not in order)
+            if missing:
+                raise ValueError(f"unit_order lacks mentioned units: {', '.join(missing[:5])}")
+            new.sort(key=order.__getitem__)
             if new:
                 entry["mentioned"] = new
 

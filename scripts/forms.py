@@ -67,6 +67,10 @@ def _slots(word: str) -> tuple[str, ...]:
     return (word,) * 5
 
 
+NEUTER_HEADS = ("mare", "desertum")
+NEUTER_ADJECTIVE = ("i", "o", "um", "o", "um")  # -um after a neuter head: Rubrum, Rubri, Rubro
+
+
 def _head_slots(word: str) -> tuple[str, ...] | None:
     """A place head's five forms, capitalised as the word is, or None if the word is not a head."""
     slots = PLACE_HEADS.get(word.lower())
@@ -111,7 +115,13 @@ def propose_parts(name: str, stoplist: frozenset[str] | None = None, person: boo
     head = _head_slots(words[0]) if place and len(words) > 1 else None
     if head:
         slots[0] = head
+        if words[0].lower() in NEUTER_HEADS:  # its adjectives agree with it: mari Rubro, not mari Rubrum
+            for i, w in enumerate(words[1:], 1):
+                if w.endswith("um") and len(w) - 2 >= MIN_STEM:
+                    slots[i] = tuple(w[:-2] + e for e in NEUTER_ADJECTIVE)
     generated = [" ".join(s[i] for s in slots) for i in range(5)]
+    if head and words[0][:1].isupper():  # the text writes the head lower-case: mare Rubrum, montem Hor
+        generated += [f[:1].lower() + f[1:] for f in [name] + generated]
     if len(words) == 1:
         generated += _extras(words[0])
     forms = [name] + [f for f in generated if f.lower() not in stop]
