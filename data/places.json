@@ -10959,12 +10959,6 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:SIN, DESERTO DI S"
-   ],
-   "mentioned": [
-    "btu:nm.13.21",
-    "btu:nm.20.1",
-    "btu:nm.27.14",
-    "btu:nm.33.36"
    ]
   },
   "bplace:desertum-sinai": {
@@ -20515,8 +20509,6 @@
     "btu:1mac.16.10",
     "btu:ps.76.2",
     "btu:mc.3.7",
-    "btu:act.16.1",
-    "btu:act.24.24",
     "btu:act.26.20"
    ]
   },
@@ -32137,9 +32129,6 @@
    "qid_status": "adjudicated",
    "evidence": [
     "ndeib:GENEZARET, LAGO DI G"
-   ],
-   "mentioned": [
-    "btu:io.6.1"
    ],
    "labels": {
     "btu:nm.34.11": {

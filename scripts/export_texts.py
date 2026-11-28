@@ -103,6 +103,14 @@ def by_unit(rows: list[list[str]], refs: dict[tuple[int, str], list[str]]) -> tu
     return {u: " ".join(t) for u, t in texts.items()}, unmapped
 
 
+def capture(cmd: list[str], plain: bool) -> str:
+    """The command's standard output. Plain mode reads bytes and decodes UTF-8 itself: text mode would turn
+    a stored CRLF into LF, and the exported hash would no longer be the stored text's."""
+    if plain:
+        return subprocess.run(cmd, capture_output=True, check=True).stdout.decode("utf-8")
+    return subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
+
+
 def main(argv: list[str]) -> int:
     TEXTS.mkdir(parents=True, exist_ok=True)
     plain = "--plain" in argv
@@ -112,8 +120,7 @@ def main(argv: list[str]) -> int:
             return 1
         query = PLAIN_QUERY if plain else QUERY
         flags = ["-AtF", "\t", "-R", RS] if plain else ["-AtF", "\t"]
-        out = subprocess.run(shlex.split(PSQL) + flags + ["-c", query.format(edition)],
-                             capture_output=True, text=True, check=True).stdout
+        out = capture(shlex.split(PSQL) + flags + ["-c", query.format(edition)], plain)
         if plain:
             units, skipped = plain_by_unit(parse_plain(out), maps(edition))
             (TEXTS / f"{edition}-plain.json").write_text(json.dumps(units, ensure_ascii=False), encoding="utf-8")

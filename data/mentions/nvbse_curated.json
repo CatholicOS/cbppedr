@@ -1,5 +1,97 @@
 {
- "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py.",
+ "$comment": "NVBSE mentions: hand corrections, unit by unit; a unit here replaces the generated one in nvbse.json (same shape; \"mentions\": [] removes that unit's mentions). Validated by scripts/validate.py. act.16.1, act.24.24: Iudaeae/Iudaea is the adjective (a Jewish woman), not the region: under review. nm.34.7: montem Hor names the northern Mount Hor, which the catalog holds twice (hor.septentrionalis, mons-hor.libani): under review until they are merged.",
  "edition": "NVBSE",
- "units": {}
+ "units": {
+  "btu:act.16.1": {
+   "hash": "a86df6096e661ab96ffca78a8c2a2cac5af38859d7c8a1884f53cd6b2e1a402d",
+   "mentions": [
+    {
+     "start": 28,
+     "end": 35,
+     "check": "30e29d04",
+     "entry": "bplace:lystra"
+    },
+    {
+     "start": 79,
+     "end": 88,
+     "check": "87e50d0e",
+     "entry": "bpers:timotheus"
+    },
+    {
+     "start": 106,
+     "end": 113,
+     "check": "da97c167",
+     "candidates": [
+      "bplace:iudaea"
+     ]
+    }
+   ]
+  },
+  "btu:act.24.24": {
+   "hash": "2c3c5a3341a9bd8930ef152e4dd080ccef2bd3043ff6d36217b3ba92ede9a337",
+   "mentions": [
+    {
+     "start": 35,
+     "end": 40,
+     "check": "f6b6aad7",
+     "entry": "bpers:felix"
+    },
+    {
+     "start": 45,
+     "end": 53,
+     "check": "d6997279",
+     "entry": "bpers:drusilla"
+    },
+    {
+     "start": 75,
+     "end": 81,
+     "check": "055bbdbc",
+     "candidates": [
+      "bplace:iudaea"
+     ]
+    },
+    {
+     "start": 91,
+     "end": 97,
+     "check": "6310d2ee",
+     "candidates": [
+      "bpers:paulus",
+      "bpers:sergius-paulus"
+     ]
+    },
+    {
+     "start": 136,
+     "end": 144,
+     "check": "8d77f23e",
+     "entry": "bpers:iesus-christus"
+    },
+    {
+     "start": 145,
+     "end": 150,
+     "check": "58ec2c83",
+     "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:nm.34.7": {
+   "hash": "8b703ea941b1de5ae992a57496bfdad7867d9dcb1c88ff57a7af4a7daa70798e",
+   "mentions": [
+    {
+     "start": 85,
+     "end": 95,
+     "check": "42c901fe",
+     "candidates": [
+      "bplace:hor.septentrionalis",
+      "bplace:mons-hor.libani"
+     ]
+    },
+    {
+     "start": 92,
+     "end": 95,
+     "check": "fd44e04a",
+     "entry": "bplace:hor.septentrionalis"
+    }
+   ]
+  }
+ }
 }

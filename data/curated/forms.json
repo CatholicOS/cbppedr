@@ -12608,11 +12608,16 @@
   ],
   "bpers:simon-petrus": [
    "Simon Petrus",
-   "Simon Petri",
-   "Simon Petro",
-   "Simon Petrum",
+   "Simonis Petri",
+   "Simoni Petro",
+   "Simonem Petrum",
+   "Simone Petro",
    "Simon Petre",
    "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone",
    "Petrus",
    "Petri",
    "Petro",
@@ -12625,31 +12630,67 @@
    "Cepha"
   ],
   "bpers:simon.ammonis-pater": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.chananaeus": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.coriarius": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.cyrenaeus": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.frater-domini": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.leprosus": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.magus": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.pater-iudae": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:simon.pharisaeus": [
-   "Simon"
+   "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone"
   ],
   "bpers:sinaeus": [
    "Sinaeus",
@@ -18754,7 +18795,10 @@
    "Sin"
   ],
   "bplace:sin.prope-cades": [
-   "Sin"
+   "Sin",
+   "desertum Sin",
+   "deserti Sin",
+   "deserto Sin"
   ],
   "bplace:sinai": [
    "Sinai",
@@ -19483,6 +19527,10 @@
   ],
   "bpers:simon-petrus": [
    "Simon",
+   "Simonis",
+   "Simoni",
+   "Simonem",
+   "Simone",
    "Petrus",
    "Petri",
    "Petro",

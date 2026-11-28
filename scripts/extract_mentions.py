@@ -13,6 +13,8 @@ Every occurrence in a verse is marked:
   entries attested in the unit; or, outside the units where it is attested, a form of one entry
   only, that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
   taken from a single word of a multiword name (forms.json's `partial`) and not a stoplist word,
+  nor around a nested span settled to another entry attested in the unit (then candidates of both),
+  nor in a unit that data/curated/unattested.json removed from the entry on review,
   nor in a unit that attests, unmatched, an entry (person or place: a people and its land count, Gesuri
   where Gessur is attested) one of whose forms has a word with the form's stem (first 4 letters, case, ligatures and doubled letters folded: the
   attested entry may be the one meant, spelled otherwise: those are candidates of both);
@@ -46,6 +48,7 @@ from forms import FORMS, load_stoplist
 ROOT = Path(__file__).resolve().parent.parent
 EDITION = "NVBSE"
 OUT = ROOT / "data/mentions/nvbse.json"
+REMOVED = ROOT / "data/curated/unattested.json"
 LOCAL = Path(os.environ.get("MENTIONS_LOCAL",
                             Path.home() / "development/BibleGet-I-O/data-local/cbppedr/mentions"))
 REPORT = LOCAL / "nvbse-report.json"
@@ -175,8 +178,22 @@ def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: 
         if also:
             return "candidates", sorted(ids | set(also))
         if outside(words, next(iter(ids))):
-            return "entry", sorted(ids)
+            return "outside", sorted(ids)
     return "candidates", sorted(ids)
+
+
+def _nested_conflicts(decided: dict[tuple[int, int], tuple[str, list[str]]],
+                      attested_here: set[str]) -> None:
+    """An outside settle (`outside`) whose span holds a nested span settled to another entry attested in
+    the unit is not settled: the outer form may mean that entry too ("desertum Sin" around the attested
+    wilderness of Zin's "Sin"), so it becomes candidates of both. Every other outside settle is settled."""
+    for (start, end), (key, value) in decided.items():
+        if key != "outside":
+            continue
+        others = {v[0] for (s, e), (k, v) in decided.items()
+                  if k == "entry" and start <= s and e <= end and (s, e) != (start, end)
+                  and v[0] in attested_here and v[0] not in value}
+        decided[(start, end)] = ("candidates", sorted(set(value) | others)) if others else ("entry", value)
 
 
 def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: frozenset[Hit] | set[Hit] = frozenset(),
@@ -189,16 +206,20 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: fro
     names other entries it may mean (then they are candidates with it)."""
     spans = _spans(hits)
     crossing = _crossing(list(spans))
-    out = []
+    decided: dict[tuple[int, int], tuple[str, list[str]]] = {}
     for (start, end), ids in sorted(spans.items()):
         if (start, end) in crossing:
             continue
         words = text[start:end]
         mine = {id_ for id_ in ids if (start, end, id_) in designated}
         if any((start, end, id_) in repeated for id_ in ids):
-            key, value = "candidates", sorted(ids)
+            decided[(start, end)] = ("candidates", sorted(ids))
         else:
-            key, value = _decide(words, ids, attested_here, mine, outside, rivals)
+            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals)
+    _nested_conflicts(decided, attested_here)
+    out = []
+    for (start, end), (key, value) in sorted(decided.items()):
+        words = text[start:end]
         mention = {"start": utf16(text, start), "end": utf16(text, end), "check": check(words)}
         mention[key] = value[0] if key == "entry" else value
         out.append(mention)
@@ -258,7 +279,7 @@ def _crossing_row(key: str, text: str, hits: list[Hit]) -> dict | None:
 class _Run:
     """The accumulating state of one extraction."""
 
-    def __init__(self, forms, catalogs, stop, partial):
+    def __init__(self, forms, catalogs, stop, partial, removed=None):
         self.index = _index(name_forms(forms))
         self.stems = {id_: {stem(w) for f in fs for w in f.split()} for id_, fs in forms.items()}
         self.attested, self.designations = _attestations(catalogs)
@@ -267,6 +288,7 @@ class _Run:
             for id_ in ids:
                 self.books.setdefault(id_, set()).add(book(unit))
         self.partial = {id_: set(fs) for id_, fs in (partial or {}).items()}
+        self.removed = {id_: {base_unit(u) for u in us} for id_, us in (removed or {}).items()}
         self.stop = {w.lower() for w in stop}
         self.units: dict[str, dict] = {}
         self.found: dict[str, set[str]] = {}
@@ -286,7 +308,7 @@ class _Run:
             per_entry[id_] = per_entry.get(id_, 0) + 1
         repeated = {h for h in designated if per_entry[h[2]] > 1}
         mentions = resolve(text, hits, self.attested.get(unit, set()), designated,
-                           self.outside(book(unit)), repeated, self.rivals(unmatched))
+                           self.outside(book(unit), unit), repeated, self.rivals(unmatched))
         row_crossing = _crossing_row(key, text, hits)
         if row_crossing:
             self.crossing.append(row_crossing)
@@ -294,12 +316,13 @@ class _Run:
             self.units[key] = {"hash": row["hash"], "mentions": mentions}
             self.review += _review_rows(key, text, mentions)
 
-    def outside(self, here: str) -> Outside:
+    def outside(self, here: str, unit: str = "") -> Outside:
         """Outside its attested units, a form of one entry settles it only if the entry is attested in
-        the same book, the form is not one of a single word of a multiword name, nor a stoplist word."""
+        the same book, the form is not one of a single word of a multiword name, nor a stoplist word, and
+        the unit is not one a review removed from the entry (unattested.json: it does not refer to it)."""
         def settles(words: str, id_: str) -> bool:
             return (here in self.books.get(id_, ()) and words not in self.partial.get(id_, ())
-                    and words.lower() not in self.stop)
+                    and words.lower() not in self.stop and unit not in self.removed.get(id_, ()))
         return settles
 
     def rivals(self, unmatched: set[str]) -> Rivals:
@@ -320,10 +343,11 @@ class _Run:
 
 
 def extract(texts: dict[str, dict], forms: dict[str, list[str]], catalogs: dict[str, dict],
-            stop, partial: dict[str, list[str]] | None = None) -> tuple[dict, dict]:
+            stop, partial: dict[str, list[str]] | None = None,
+            removed: dict[str, list[str]] | None = None) -> tuple[dict, dict]:
     """The public file's body and the private report; `partial` lists by entry its forms taken from a
-    single word of a multiword name."""
-    run = _Run(forms, catalogs, stop, partial)
+    single word of a multiword name; `removed`, by entry, the units a review says do not refer to it."""
+    run = _Run(forms, catalogs, stop, partial, removed)
     for key in sorted(texts):
         run.unit(key, texts[key])
     unmatched = run.unmatched()
@@ -359,7 +383,8 @@ def main() -> int:
     texts = json.loads((TEXTS / f"{EDITION}-plain.json").read_text(encoding="utf-8"))
     forms_doc = json.loads(FORMS.read_text(encoding="utf-8"))
     catalogs = {t: json.loads((ROOT / f"data/{t}.json").read_text(encoding="utf-8")) for t in ("persons", "places")}
-    body, report = extract(texts, forms_doc["forms"], catalogs, load_stoplist(), forms_doc.get("partial", {}))
+    removed = json.loads(REMOVED.read_text(encoding="utf-8"))["entries"] if REMOVED.exists() else {}
+    body, report = extract(texts, forms_doc["forms"], catalogs, load_stoplist(), forms_doc.get("partial", {}), removed)
     _write(OUT, body, 1)
     _write(REPORT, report, 1)
     print(json.dumps(report["counts"]))

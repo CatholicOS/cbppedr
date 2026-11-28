@@ -5,7 +5,8 @@ For each entry: its Latin name (declined by rule), and every NVBSE label of a un
 edition names it differently as a name (a designation is audited for one verse only, so it is
 not a global form). Every declinable word of a name is declined in the same case slot, and so is
 the head of a multiword place name (mons, vallis, mare, desertum: mons Hor, montem Hor). Names ending
-in a consonant, -am, -el, -on, -ath or -is, and stems under three letters, are indeclinable here.
+in a consonant, -am, -el, -on, -ath or -is, and stems under three letters, are indeclinable here, but
+for the irregular ones listed (Iesus; Simon, declined in the text as Simonis, Simonem).
 Generated forms that are stoplist words (stoplist_la.txt) are dropped; one that equals another
 entry's name is kept (a shared form the matcher resolves). A person's multiword name also yields
 the forms of its first and last words (a stoplist word gives none); these partial forms are also
@@ -35,7 +36,8 @@ RULES = (("us", ("i", "o", "um", "o", "e")), ("es", ("is", "i", "em", "e", "es")
 # -es names are Greek or third declension: the slots are the third's, a single word adds the Greek
 # genitive and accusative after them
 GREEK_EXTRAS = {"es": ("i", "en")}
-IRREGULAR = {"Iesus": ("Iesu", "Iesu", "Iesum", "Iesu", "Iesu")}
+IRREGULAR = {"Iesus": ("Iesu", "Iesu", "Iesum", "Iesu", "Iesu"),
+             "Simon": ("Simonis", "Simoni", "Simonem", "Simone", "Simon")}
 # the common nouns that head a multiword place name ("mons Hor"), irregular or third declension
 PLACE_HEADS = {"mons": ("montis", "monti", "montem", "monte", "mons"),
                "vallis": ("vallis", "valli", "vallem", "valle", "vallis"),
