@@ -103,11 +103,20 @@ def by_unit(rows: list[list[str]], refs: dict[tuple[int, str], list[str]]) -> tu
     return {u: " ".join(t) for u, t in texts.items()}, unmapped
 
 
+def utf8_client(cmd: list[str]) -> list[str]:
+    """`cmd` passing PGCLIENTENCODING=UTF8 into the container when it runs psql through `docker exec`."""
+    if cmd[:2] == ["docker", "exec"]:
+        return cmd[:2] + ["-e", "PGCLIENTENCODING=UTF8"] + cmd[2:]
+    return cmd
+
+
 def capture(cmd: list[str], plain: bool) -> str:
-    """The command's standard output. Plain mode reads bytes and decodes UTF-8 itself: text mode would turn
-    a stored CRLF into LF, and the exported hash would no longer be the stored text's."""
+    """The command's standard output. Plain mode reads bytes and decodes UTF-8 itself, with psql asked for
+    UTF-8 (PGCLIENTENCODING): text mode would turn a stored CRLF into LF, and the exported hash would no
+    longer be the stored text's."""
     if plain:
-        return subprocess.run(cmd, capture_output=True, check=True).stdout.decode("utf-8")
+        env = {**os.environ, "PGCLIENTENCODING": "UTF8"}
+        return subprocess.run(utf8_client(cmd), capture_output=True, check=True, env=env).stdout.decode("utf-8")
     return subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
 
 

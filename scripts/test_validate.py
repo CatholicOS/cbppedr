@@ -231,6 +231,13 @@ class MentionsStrictShapeTest(MentionsTest):
         self.assertTrue(self.check(d))
         self.assertTrue(mention_text_problems({"edition": "NVBSE\n"}, "t"))
 
+    def test_non_object_documents_are_problems_not_errors(self):
+        from validate import mention_docs_problems
+        for bad in ([], None, "x"):
+            self.assertTrue(self.check(bad))
+            self.assertTrue(mention_docs_problems(bad, {"edition": "NVBSE", "units": {}}, self.IDS, self.UNITS))
+            self.assertTrue(mention_docs_problems(self.doc(self.m()), bad, self.IDS, self.UNITS))
+
     def test_units_must_be_a_dict(self):
         self.assertTrue(self.check({"edition": "NVBSE", "units": []}))
         self.assertTrue(self.check({"edition": "NVBSE"}))

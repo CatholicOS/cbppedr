@@ -318,6 +318,35 @@ class ExtractTest(unittest.TestCase):
                                    key="act_16_2", removed={"bplace:iudaea": ["btu:act.16.1"]})
         self.assertEqual(mentions[0]["entry"], "bplace:iudaea")
 
+    def test_lower_case_canonical_form_matches_only_where_attested(self):
+        places = {"bplace:praetorium": person("btu:io.18.33")}
+        forms = {"bplace:praetorium": ["praetorium"]}
+        mentions, report = self.run_one("intravit in praetorium", forms, places=places, key="io_18_33")
+        self.assertEqual(mentions, [{"start": 12, "end": 22, "check": check("praetorium"),
+                                     "entry": "bplace:praetorium"}])
+        self.assertEqual(report["unmatched"], [])
+        mentions, _ = self.run_one("intravit in praetorium", forms, places=places, key="io_18_34")
+        self.assertEqual(mentions, [])
+
+    def test_lower_case_partial_form_never_matches(self):
+        places = {"bplace:via-maris": person("btu:is.8.23")}
+        mentions, _ = self.run_one("per via", {"bplace:via-maris": ["via Maris", "via"]}, places=places,
+                                   key="is_8_23", partial={"bplace:via-maris": ["via"]})
+        self.assertEqual(mentions, [])
+
+    def test_designation_repeats_counted_before_longest_span(self):
+        persons = {"bpers:a": person("btu:gn.1.1", labels={"btu:gn.1.1": designation("rex")}),
+                   "bpers:b": person("btu:gn.1.1", labels={"btu:gn.1.1": designation("rex Israel")})}
+        mentions, _ = self.run_one("rex Israel et rex", {"bpers:a": ["Alpha"], "bpers:b": ["Beta"]}, persons)
+        self.assertEqual([(m.get("entry"), m.get("candidates")) for m in mentions],
+                         [("bpers:b", None), (None, ["bpers:a"])])
+
+    def test_entry_found_only_in_a_crossing_span_is_still_a_rival(self):
+        forms = {"bpers:a": ["Helles"], "bpers:b": ["Urbs Nova", "Heles"], "bpers:c": ["Nova Roma"]}
+        persons = {"bpers:a": person("btu:gn.50.1"), "bpers:b": person("btu:gn.1.1"), "bpers:c": person("btu:gn.50.2")}
+        mentions, _ = self.run_one("Helles Urbs Nova Roma", forms, persons)
+        self.assertEqual(mentions[0]["candidates"], ["bpers:a", "bpers:b"])
+
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
         body, _ = extract(texts(est_3_2__GREEK="Aman"), {"bpers:aman": ["Aman"]}, catalogs(persons), frozenset())

@@ -283,6 +283,8 @@ def mention_problems(doc: dict, ids: set[str], units: set[str] | frozenset[str],
                      curated: bool = False) -> list[str]:
     """A mentions file: the edition, and per unit key (a CBTUDR unit, with @GREEK/@HEBREW for Esther's
     two texts) its hash and mentions. The text is private, so spans are checked only for their shape."""
+    if not isinstance(doc, dict):
+        return [f"{name}: document is not an object"]
     out = []
     if doc.get("edition") != "NVBSE":
         out.append(f"{name}: edition {doc.get('edition')!r}")
@@ -344,7 +346,9 @@ def mention_file_problems(ids: set[str]) -> list[str]:
     return mention_docs_problems(gen, cur, ids, units)
 
 
-def _well_formed(doc: dict) -> bool:
+def _well_formed(doc: object) -> bool:
+    if not isinstance(doc, dict):
+        return False
     units = doc.get("units")
     return isinstance(units, dict) and all(isinstance(u, dict) and isinstance(u.get("mentions"), list)
                                            for u in units.values())

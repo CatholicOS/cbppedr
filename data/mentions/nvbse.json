@@ -132186,6 +132186,17 @@
     }
    ]
   },
+  "btu:act.5.12": {
+   "hash": "7d3fd10e0761dbc898ae35c2e8f963138c92d4806d8110ce0b44bcf04646f899",
+   "mentions": [
+    {
+     "start": 99,
+     "end": 116,
+     "check": "5b9f0c96",
+     "entry": "bplace:porticus-salomonis"
+    }
+   ]
+  },
   "btu:act.5.15": {
    "hash": "c6814a4d235a0075984395335d6f77bf60c364a3ba980b5dd12ae22d29d0eacf",
    "mentions": [
@@ -232475,6 +232486,12 @@
      "end": 18,
      "check": "f68f93dd",
      "entry": "bpers:iesus-christus"
+    },
+    {
+     "start": 32,
+     "end": 49,
+     "check": "5b9f0c96",
+     "entry": "bplace:porticus-salomonis"
     }
    ]
   },
@@ -234365,6 +234382,18 @@
      "end": 28,
      "check": "b72d6c60",
      "entry": "bpers:caiphas"
+    },
+    {
+     "start": 32,
+     "end": 42,
+     "check": "b528af63",
+     "entry": "bplace:praetorium"
+    },
+    {
+     "start": 88,
+     "end": 98,
+     "check": "b528af63",
+     "entry": "bplace:praetorium"
     }
    ]
   },
@@ -234427,6 +234456,12 @@
   "btu:io.18.33": {
    "hash": "633b56379a0f3c792c40616ca31f067cf45e9c816df048b06d918d60824cada0",
    "mentions": [
+    {
+     "start": 25,
+     "end": 35,
+     "check": "b528af63",
+     "entry": "bplace:praetorium"
+    },
     {
      "start": 36,
      "end": 43,
@@ -235003,6 +235038,12 @@
   "btu:io.19.9": {
    "hash": "ae0c868a1806dfe2c25c37e94dc1dfbb6142e2df863572163aa9ecddcf408e21",
    "mentions": [
+    {
+     "start": 17,
+     "end": 27,
+     "check": "b528af63",
+     "entry": "bplace:praetorium"
+    },
     {
      "start": 47,
      "end": 52,
@@ -244793,6 +244834,7 @@
      "end": 117,
      "check": "1d7bf77c",
      "candidates": [
+      "bpers:baalphegor",
       "bplace:phegor"
      ]
     },
@@ -249825,6 +249867,7 @@
      "end": 34,
      "check": "1d7bf77c",
      "candidates": [
+      "bpers:baalphegor",
       "bplace:phegor"
      ]
     }
@@ -273083,6 +273126,17 @@
      "end": 82,
      "check": "58ec2c83",
      "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:mc.15.16": {
+   "hash": "2219e3cc6f2e424ef73eec76d017cb13a8cd616c1caf53248c2ca4043ee2b164",
+   "mentions": [
+    {
+     "start": 53,
+     "end": 63,
+     "check": "b528af63",
+     "entry": "bplace:praetorium"
     }
    ]
   },
@@ -297023,7 +297077,7 @@
      "start": 72,
      "end": 78,
      "check": "1d7bf77c",
-     "entry": "bplace:phegor"
+     "entry": "bpers:baalphegor"
     },
     {
      "start": 93,
@@ -297045,7 +297099,7 @@
      "start": 181,
      "end": 187,
      "check": "1d7bf77c",
-     "entry": "bplace:phegor"
+     "entry": "bpers:baalphegor"
     }
    ]
   },
@@ -300206,7 +300260,7 @@
      "start": 125,
      "end": 131,
      "check": "1d7bf77c",
-     "entry": "bplace:phegor"
+     "entry": "bpers:baalphegor"
     }
    ]
   },

@@ -167,6 +167,12 @@ class PartialTest(unittest.TestCase):
         self.assertIn("montis Calvi", propose("mons Calvus", frozenset(), place=True))
         self.assertIn("Montem Hor", propose("Mons Hor", frozenset(), place=True))
 
+    def test_place_head_declined_in_partial_forms(self):
+        self.assertEqual(propose_parts("Mons Hor", frozenset(), place=True)[1],
+                         ["Mons", "Montis", "Monti", "Montem", "Monte"])
+        self.assertEqual(propose_parts("Mare Rubrum", frozenset({"mare"}), place=True)[1], [])
+        self.assertEqual(propose_parts("Mons Hor", frozenset())[1], ["Mons"])
+
     def test_place_heads_only_in_multiword_place_names(self):
         self.assertEqual(propose_parts("mons Hor", frozenset())[0], ["mons Hor"])
         self.assertEqual(propose("mons", frozenset(), place=True), ["mons"])

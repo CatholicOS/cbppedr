@@ -26497,10 +26497,6 @@
    "qid_status": "auto",
    "evidence": [
     "ndeib:PEOR#1"
-   ],
-   "mentioned": [
-    "btu:nm.25.18",
-    "btu:nm.31.16"
    ]
   },
   "bplace:phethor": {
