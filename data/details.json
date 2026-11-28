@@ -485,6 +485,7 @@
   "bpers:belial": {
    "image": {
     "file": "Belial.jpg",
+    "author": "Transferred from en.wikipedia to Commons. Transfer was stated to be made by User:Harald Haugland.",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -564,7 +565,7 @@
   "bpers:cainan.arphaxad-filius": {
    "image": {
     "file": "Bartolomeo Gai Caynam filius Arphaxad.png",
-    "author": "Bartolomeo Gajus .mw-parser-output table.commons-file-information-table,.mw-parser-output .fileinfotpl-type-information,.mw-parser-output .fileinfotpl-type-artwork{border:1px solid var(--border-color-base,#a2a9b1);background-color:var(--background-color-interactive-subtle,#f8f9fa);padding:5px;font-size:95%;border-spacing:2px;box-sizing:border-box;margin:0;width:100%;color:inherit}.mw-parser-output table.commons-file-information-table>tbody>tr,.mw-parser-output .fileinfotpl-type-information>tbody>tr,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr{vertical-align:top}.mw-parser-output table.commons-file-information-table>tbody>tr>td,.mw-parser-output table.commons-file-information-table>tbody>tr>th,.mw-parser-output .fileinfotpl-type-information>tbody>tr>td,.mw-parser-output .fileinfotpl-type-information>tbody>tr>th,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr>td,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr>th{padding:4px}.mw-parser-output .fileinfo-paramfield{background:#ccf;text-align:right;padding-right:0.4em;width:15%;font-weight:bold;color:inherit}.mw-parser-output .commons-file-information-table+table.commons-file-information-table,.mw-parser-output .commons-file-information-table+div.commons-file-information-table>table{border-top:0;padding-top:0;margin-top:-8px}@media only screen and (max-width:719px){.mw-parser-output table.commons-file-information-table,.mw-parser-output .commons-file-information-table .fileinfotpl-type-information,.mw-parser-output .commons-file-information-table .fileinfotpl-type-artwork{border-spacing:0;padding:0;word-break:break-word;width:100%!important}.mw-parser-output .commons-file-information-table>tbody,.mw-parser-output .fileinfotpl-type-information>tbody,.mw-parser-output .fileinfotpl-type-artwork>tbody{display:block}.mw-parser-output .commons-file-information-table>tbody>tr>td,.mw-parser-output .commons-file-information-table>tbody>tr>th,.mw-parser-output .fileinfotpl-type-information>tbody>tr>td,.mw-parser-output .fileinfotpl-type-information>tbody>tr>th,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr>td,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr>th{padding:0.2em 0.4em;text-align:left;text-align:start}.mw-parser-output .commons-file-information-table>tbody>tr,.mw-parser-output .fileinfotpl-type-information>tbody>tr,.mw-parser-output .fileinfotpl-type-artwork>tbody>tr{display:flex;flex-direction:column}.mw-parser-output .commons-file-information-table+table.commons-file-information-table,.mw-parser-output .commons-file-information-table+div.commons-file-information-table>table{margin-top:-1px}.mw-parser-output table .fileinfo-paramfield{box-sizing:border-box;flex:1 0 100%;width:100%}}.mw-parser-output table.commons-file-information-table,.mw-parser-output .fileinfotpl-type-information,.mw-parser-output .fileinfotpl-type-artwork,.mw-parser-output .fileinfo-paramfield{color:var(--color-base,#202122)}html.skin-theme-clientpref-night .mw-parser-output .fileinfo-paramfield{background:#2a2a5c;color:white}html.skin-theme-clientpref-night .mw-parser-output .fileinfotpl-type-artwork tbody>tr>th[style*=\"#ccf\"]{background-color:#2a2a5c!important;color:white}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .fileinfo-paramfield{background:#2a2a5c;color:white}html.skin-theme-clientpref-os .mw-parser-output .fileinfotpl-type-artwork tbody>tr>th[style*=\"#ccf\"]{background-color:#2a2a5c!important;color:white}} Bartolomeo Gai Caynam filius Arphaxad Title Bartolomeo Gai Caynam filius Arphaxad Source/Photographer Epitome historico-chronologica",
+    "author": "Bartolomeo Gajus Bartolomeo Gai Caynam filius Arphaxad Title Bartolomeo Gai Caynam filius Arphaxad Source/Photographer Epitome historico-chronologica",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
    },
@@ -757,7 +758,7 @@
   "bpers:eliphaz.esau-filius": {
    "image": {
     "file": "Facial Chronicle - b.01, p.243 - Jacob kills Esau.jpg",
-    "author": "Anonymous Russian manuscript illuminators, 1560-1570s Facial Chronicle (Illustrated Chronicle of Ivan the Terrible) (in 10 volumes: pdf, pdf with translation) Public domain image",
+    "author": "https://runivers.ru/upload/iblock/9ab/Licevoy%20svod.%20Bibl%20ist.%201.pdf",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -1698,7 +1699,7 @@
   "bpers:michael.archangelus": {
    "image": {
     "file": "Mikharkhangel.jpg",
-    "author": "Anonymous Byzantine painter (395-1453 AD) Public domain image",
+    "author": "https://rutracker.org/forum/viewtopic.php?t=3473522",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -2290,7 +2291,7 @@
   "bpers:thogorma": {
    "image": {
     "file": "Thargamos and his sons.jpg",
-    "author": "Public domainPublic domainfalsefalse This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer. You must also include a United States public domain tag to indicate why this work is in the public domain in the United States. This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. https://creativecommons.org/publicdomain/mark/1.0/PDMCreative Commons Public Domain Mark 1.0falsefalse",
+    "author": "Kartlos",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -2389,7 +2390,7 @@
   "bpers:zacharias.filius-addo": {
    "image": {
     "file": "Пророк Захария (Кижи).jpg",
-    "author": "Anonymous Russian icon painter (before 1917) Public domain image (according to PD-Russia-expired)",
+    "author": "Iconostasis of the Church of the Intercession of Most Holy Theotokos, Kizhi, Russia",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -2684,11 +2685,6 @@
    }
   },
   "bplace:asia": {
-   "image": {
-    "file": "Asia SPQR.png",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
    "wikipedia": {
     "la": "Asia (provincia Romana)",
     "it": "Asia (provincia romana)",
@@ -3734,11 +3730,6 @@
    }
   },
   "bplace:lycia": {
-   "image": {
-    "file": "Lycia et Pamphylia SPQR.png",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
    "wikipedia": {
     "la": "Lycia",
     "it": "Licia",
@@ -3931,6 +3922,7 @@
   "bplace:mesopotamia": {
    "image": {
     "file": "Statue Gudea Met 59.2.jpg",
+    "author": "Marie-Lan Nguyen (2011)",
     "license": "CC BY 2.5",
     "license_url": "https://creativecommons.org/licenses/by/2.5"
    },
@@ -4156,11 +4148,6 @@
    }
   },
   "bplace:pamphylia": {
-   "image": {
-    "file": "Lycia et Pamphylia SPQR.png",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
    "wikipedia": {
     "la": "Pamphylia",
     "it": "Panfilia",
@@ -4176,11 +4163,6 @@
    }
   },
   "bplace:paphus": {
-   "image": {
-    "file": "Fort pafos.jpg",
-    "license": "CC BY-SA 2.5",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
-   },
    "wikipedia": {
     "la": "Paphos",
     "it": "Pafo",
@@ -4427,6 +4409,7 @@
   "bplace:samaria": {
    "image": {
     "file": "Ruins of Samaria.jpg",
+    "author": "PALÄSTINA und das OSTOJORDANLAND (Julius Hoffmann, Stuttgart, 1925)",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -4478,7 +4461,6 @@
   "bplace:sarepta": {
    "image": {
     "file": "Sarepta April 27th 1839 - David Roberts, R.A. LCCN2002717517 (cropped).jpg",
-    "author": "Haghe, Louis, 1806-1885, lithographer; Roberts, David, 1796-1864, artist",
     "license": "Public domain"
    },
    "wikipedia": {
