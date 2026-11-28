@@ -13562,7 +13562,10 @@
      "start": 39,
      "end": 48,
      "check": "bf896695",
-     "entry": "bplace:astharoth"
+     "candidates": [
+      "bpers:astarthe",
+      "bplace:astharoth"
+     ]
     },
     {
      "start": 79,
@@ -52820,10 +52823,7 @@
      "start": 112,
      "end": 121,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth"
-     ]
+     "entry": "bpers:astarthe"
     }
    ]
   },
@@ -65927,11 +65927,7 @@
      "start": 33,
      "end": 42,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth",
-      "bplace:templum-astharoth"
-     ]
+     "entry": "bpers:astarthe"
     },
     {
      "start": 82,
@@ -67445,10 +67441,7 @@
      "start": 141,
      "end": 150,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth"
-     ]
+     "entry": "bpers:astarthe"
     },
     {
      "start": 226,
@@ -67475,6 +67468,7 @@
      "end": 49,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     }
@@ -101730,10 +101724,7 @@
      "start": 125,
      "end": 134,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth"
-     ]
+     "entry": "bpers:astarthe"
     },
     {
      "start": 155,
@@ -130678,6 +130669,12 @@
      "end": 78,
      "check": "b98d9c15",
      "entry": "bplace:appii-forum"
+    },
+    {
+     "start": 82,
+     "end": 95,
+     "check": "f2815438",
+     "entry": "bplace:tres-tabernae"
     },
     {
      "start": 115,
@@ -199203,10 +199200,7 @@
      "start": 112,
      "end": 121,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth"
-     ]
+     "entry": "bpers:astarthe"
     },
     {
      "start": 130,
@@ -202737,10 +202731,7 @@
      "start": 38,
      "end": 47,
      "check": "bf896695",
-     "candidates": [
-      "bpers:astarthe",
-      "bplace:astharoth"
-     ]
+     "entry": "bpers:astarthe"
     }
    ]
   },
@@ -205092,6 +205083,7 @@
      "end": 111,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     }
