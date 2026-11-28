@@ -396,18 +396,34 @@ class ExtractTest(unittest.TestCase):
         # an Eden-like case: the garden is attested in Genesis, the Levite and the region elsewhere
         forms = {"bplace:eden.paradisus": ["Eden"], "bplace:eden.region": ["Eden"], "bpers:eden.levita": ["Eden"]}
         persons = {"bpers:eden.levita": person("btu:2par.29.12")}
-        places = {"bplace:eden.paradisus": person("btu:gn.2.8"), "bplace:eden.region": person("btu:am.1.5")}
+        places = {"bplace:eden.paradisus": person("btu:gn.2.8", "btu:gn.2.15", "btu:gn.3.23"),
+                  "bplace:eden.region": person("btu:am.1.5")}
         mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
         self.assertEqual(mentions[0]["entry"], "bplace:eden.paradisus")
-        places["bplace:eden.region"] = person("btu:gn.10.1")
+        places["bplace:eden.region"] = person("btu:gn.3.1")  # a second firm bearer: the chapter
         mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
         self.assertEqual(mentions[0]["candidates"], ["bpers:eden.levita", "bplace:eden.paradisus", "bplace:eden.region"])
         mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="ex_1_1")
         self.assertEqual(len(mentions[0]["candidates"]), 3)
 
+    def test_shared_form_settles_by_book_only_with_the_chapter_or_three_units(self):
+        forms = {"bpers:iason.a": ["Iason"], "bpers:iason.b": ["Iason"]}
+        persons = {"bpers:iason.a": person("btu:2mac.2.23"), "bpers:iason.b": person("btu:1mac.8.17")}
+        mentions, _ = self.run_one("ambiebat Iason", forms, persons, key="2mac_4_7")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:iason.a", "bpers:iason.b"])  # one unit elsewhere
+        mentions, _ = self.run_one("ambiebat Iason", forms, persons, key="2mac_2_24")
+        self.assertEqual(mentions[0]["entry"], "bpers:iason.a")  # same chapter
+        persons["bpers:iason.a"] = person("btu:2mac.1.1", "btu:2mac.2.23", "btu:2mac.9.1")
+        mentions, _ = self.run_one("ambiebat Iason", forms, persons, key="2mac_4_7")
+        self.assertEqual(mentions[0]["entry"], "bpers:iason.a")  # three units in the book
+        # a second bearer cited once in the book still keeps it under review (a Hebron-like case)
+        persons["bpers:iason.b"] = person("btu:2mac.12.1")
+        mentions, _ = self.run_one("ambiebat Iason", forms, persons, key="2mac_4_7")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:iason.a", "bpers:iason.b"])
+
     def test_shared_form_settle_keeps_the_guards(self):
         forms = {"bplace:a": ["Sela"], "bpers:b": ["Sela"]}
-        places = {"bplace:a": person("btu:gn.2.8")}
+        places = {"bplace:a": person("btu:gn.3.5")}
         persons = {"bpers:b": person("btu:am.1.5")}
         mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1", stop=frozenset({"sela"}))
         self.assertIn("candidates", mentions[0])

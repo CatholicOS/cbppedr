@@ -12,8 +12,8 @@ Every occurrence in a verse is marked:
 - settled (`entry`): a designation label of the entry for that unit, found once there (a designation
   found more than once is a `candidates` of its entry each time); or exactly one of the form's
   entries attested in the unit; or, outside the units where it is attested, a form of one entry
-  only, or of several of which exactly one is attested in the unit's book (Eden in Genesis, the
-  garden), that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
+  only, or of several of which exactly one is attested in the unit's book, and in its chapter or in
+  3 or more units of the book (Eden in Genesis, the garden), that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
   taken from a single word of a multiword name (forms.json's `partial`) and not a stoplist word,
   nor around a nested span settled to another entry attested in the unit (then candidates of both),
   nor in a unit that data/curated/unattested.json removed from the entry on review,
@@ -64,6 +64,7 @@ COMMENT = ("Where each person and place of the catalogs is named in the Nova Vul
 
 Hit = tuple[int, int, str]
 FOLDS = (("æ", "ae"), ("œ", "oe"))
+MIN_BOOK_UNITS = 3  # a shared form settles by book to a bearer cited this often there, or in the chapter
 
 
 def utf16(s: str, i: int) -> int:
@@ -172,8 +173,8 @@ def _none(words: str, id_: str) -> list[str]:
 
 
 def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: set[str],
-            outside: Outside, rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False
-            ) -> tuple[str, list[str]]:
+            outside: Outside, rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False,
+            firm: Callable[[str], bool] = lambda id_: True) -> tuple[str, list[str]]:
     if len(designated_ids) == 1:
         return "entry", sorted(designated_ids)
     here = ids & attested_here
@@ -183,7 +184,7 @@ def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: 
     bearer = next(iter(ids)) if len(ids) == 1 else None
     if bearer is None and not here:
         in_this_book = [id_ for id_ in ids if in_book(id_)]
-        bearer = in_this_book[0] if len(in_this_book) == 1 else None
+        bearer = in_this_book[0] if len(in_this_book) == 1 and firm(in_this_book[0]) else None
     if not here and bearer is not None:
         also = rivals(words, bearer)
         if also:
@@ -209,7 +210,8 @@ def _nested_conflicts(decided: dict[tuple[int, int], tuple[str, list[str]]],
 
 def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: frozenset[Hit] | set[Hit] = frozenset(),
             outside: Outside = _never, repeated: frozenset[Hit] | set[Hit] = frozenset(),
-            rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False) -> list[dict]:
+            rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False,
+            firm: Callable[[str], bool] = lambda id_: True) -> list[dict]:
     """The hits of one verse as mentions (UTF-16 positions), crossing spans left out. `designated` are
     the hits that came from the entry's designation label for this unit, `repeated` those of them whose
     label is found more than once there (each a candidate, never settled); `outside(words, id)` says
@@ -226,7 +228,7 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: fro
         if any((start, end, id_) in repeated for id_ in ids):
             decided[(start, end)] = ("candidates", sorted(ids))
         else:
-            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals, in_book)
+            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals, in_book, firm)
     _nested_conflicts(decided, attested_here)
     out = []
     for (start, end), (key, value) in sorted(decided.items()):
@@ -244,6 +246,11 @@ def base_unit(key: str) -> str:
 def book(unit: str) -> str:
     """The book code of a unit key: `btu:1par.24.2@GREEK` is `1par`."""
     return base_unit(unit).removeprefix("btu:").split(".", 1)[0]
+
+
+def chapter(unit: str) -> str:
+    """The book and chapter of a unit key: `btu:1par.24.2@GREEK` is `1par.24`."""
+    return ".".join(base_unit(unit).removeprefix("btu:").split(".")[:2])
 
 
 def _entries(catalogs: dict[str, dict]):
@@ -299,9 +306,13 @@ class _Run:
                       if (low := [f for f in fs if not _is_name_form(f) and f not in part.get(id_, ())])}
         self.attested, self.designations = _attestations(catalogs)
         self.books: dict[str, set[str]] = {}
+        self.book_units: dict[tuple[str, str], int] = {}  # (entry, book) -> attested units there
+        self.chapters: set[tuple[str, str]] = set()  # (entry, "book.chapter")
         for unit, ids in self.attested.items():
             for id_ in ids:
                 self.books.setdefault(id_, set()).add(book(unit))
+                self.book_units[(id_, book(unit))] = self.book_units.get((id_, book(unit)), 0) + 1
+                self.chapters.add((id_, chapter(unit)))
         self.partial = {id_: set(fs) for id_, fs in (partial or {}).items()}
         # by book code its Testament (OT, deuterocanonical books included, or NT); None: no limit
         self.testaments = testaments
@@ -332,7 +343,7 @@ class _Run:
         repeated = {h for h in designated if h[2] in twice}
         mentions = resolve(text, hits, self.attested.get(unit, set()), designated,
                            self.outside(book(unit), unit), repeated, self.rivals(unmatched),
-                           lambda id_: book(unit) in self.books.get(id_, ()))
+                           lambda id_: book(unit) in self.books.get(id_, ()), self.firmly_in_book(unit))
         row_crossing = _crossing_row(key, text, hits)
         if row_crossing:
             self.crossing.append(row_crossing)
@@ -357,6 +368,13 @@ class _Run:
             return (here in self.books.get(id_, ()) and words not in self.partial.get(id_, ())
                     and words.lower() not in self.stop and unit not in self.removed.get(id_, ()))
         return settles
+
+    def firmly_in_book(self, unit: str) -> Callable[[str], bool]:
+        """Whether the one bearer of a shared form attested in the unit's book is attested in the unit's
+        chapter, or in 3 or more units of the book: only then may the shared form settle to it by book (one citation elsewhere in the book is
+        not enough: Jason the high priest of 2 Mc 4:7 is not the Jason of Cyrene cited in 2 Mc 2:23)."""
+        here, chap = book(unit), chapter(unit)
+        return lambda id_: (id_, chap) in self.chapters or self.book_units.get((id_, here), 0) >= MIN_BOOK_UNITS
 
     def rivals(self, unmatched: set[str]) -> Rivals:
         """The entries attested in the unit but not found there, one of whose forms has a word of the
