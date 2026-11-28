@@ -30449,12 +30449,19 @@
     "btu:1tim.1.20",
     "btu:mc.3.26",
     "btu:mt.12.26",
-    "btu:mc.3.23"
+    "btu:mc.3.23",
+    "btu:gn.3.1",
+    "btu:gn.3.4",
+    "btu:gn.3.13",
+    "btu:gn.3.14"
    ],
    "evidence": [
     "nv:btu:1cor.5.5",
     "nv:btu:1tim.1.20",
-    "nv:btu:mc.3.26"
+    "nv:btu:mc.3.26",
+    "reviewer:round2",
+    "nv:btu:apc.12.9",
+    "pub:catechismus-1997#391"
    ]
   },
   "bpers:sceva": {
@@ -44641,27 +44648,6 @@
    "evidence": [
     "nv:btu:gn.2.25",
     "nv:btu:gn.3.12"
-   ]
-  },
-  "bpers:serpens": {
-   "type": "person",
-   "kind": "individual",
-   "latin": "Serpens",
-   "it": "il Serpente",
-   "en": "the Serpent",
-   "descr_it": "il serpente che sedusse Eva nel giardino",
-   "descr_en": "the serpent that deceived Eve in the garden",
-   "attested": [
-    "btu:gn.3.1",
-    "btu:gn.3.4",
-    "btu:gn.3.13",
-    "btu:gn.3.14"
-   ],
-   "evidence": [
-    "nv:btu:gn.3.1",
-    "nv:btu:gn.3.4",
-    "nv:btu:gn.3.13",
-    "nv:btu:gn.3.14"
    ]
   }
  }

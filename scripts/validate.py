@@ -6,7 +6,9 @@
 - descriptions at most 15 words and 120 characters (our own few words, never source text);
 - names: Italian and English present;
 - evidence: at least one location, each a dictionary sense (ndeib:), the Herodian tree
-  (bj:herodian-tree), a Jerusalem Bible note or introduction (bj:note:, bj:intro:), or a Nova Vulgata verse (nv:<CBTUDR unit>, an existing unit);
+  (bj:herodian-tree), a Jerusalem Bible note or introduction (bj:note:, bj:intro:), a Nova Vulgata verse
+  (nv:<CBTUDR unit>, an existing unit), a reviewer's round (reviewer:round2) or a publication listed in
+  data/curated/sources.json (pub:<key>#<locator>);
 - labels: each on an attested unit, `as` name or designation, editions from the known list,
   each label at most six words;
 - conjectures: a known relation and target, a status, opinions with a source from
@@ -50,7 +52,18 @@ def _units() -> frozenset[str]:
     return frozenset(out)
 
 
-def problems(catalogs: dict[str, dict]) -> list[str]:
+def _evidence_ok(ev: str, sources: dict[str, dict] | None) -> bool:
+    """A location (ndeib:, bj:, nv:), or a reviewer's round (reviewer:round2) or a publication listed in
+    sources.json with its authority (pub:catechismus-1997#391): a reviewed identification's sources.
+    Without `sources`, a publication is checked for its form only."""
+    if EVIDENCE.match(ev) or LOCATOR["reviewer"].match(ev):
+        return True
+    if not LOCATOR["pub"].match(ev):
+        return False
+    return sources is None or ev.split("#")[0] in sources
+
+
+def problems(catalogs: dict[str, dict], sources: dict[str, dict] | None = None) -> list[str]:
     out: list[str] = []
     seen: dict[str, str] = {}
     for name, cat in catalogs.items():
@@ -105,7 +118,7 @@ def problems(catalogs: dict[str, dict]) -> list[str]:
             if not e.get("evidence"):
                 out.append(f"{eid}: no evidence")
             for ev in e.get("evidence", []):
-                if not EVIDENCE.match(ev):
+                if not _evidence_ok(ev, sources):
                     out.append(f"{eid}: unknown evidence {ev}")
                 elif ev.startswith("nv:") and ev[3:] not in units:
                     out.append(f"{eid}: evidence verse {ev} is not a unit")
@@ -420,9 +433,9 @@ def detail_problems(doc: dict, entries: dict[str, dict], disputed: set[str] | fr
 
 def main() -> int:
     catalogs = {n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8")) for n in PREFIX}
-    p = problems(catalogs)
     src_path = ROOT / "data/curated/sources.json"
     sources = json.loads(src_path.read_text(encoding="utf-8"))["sources"] if src_path.exists() else {}
+    p = problems(catalogs, sources)
     ids = {eid for cat in catalogs.values() for eid in cat["entries"]}
     attested_of = {eid: e.get("attested", []) for cat in catalogs.values() for eid, e in cat["entries"].items()}
     p += publication_problems(sources)

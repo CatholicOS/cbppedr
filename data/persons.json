@@ -90218,7 +90218,11 @@
     "btu:1tim.1.20",
     "btu:mc.3.26",
     "btu:mt.12.26",
-    "btu:mc.3.23"
+    "btu:mc.3.23",
+    "btu:gn.3.1",
+    "btu:gn.3.4",
+    "btu:gn.3.13",
+    "btu:gn.3.14"
    ],
    "relations": [],
    "qid": null,
@@ -90227,7 +90231,10 @@
     "ndeib:SATANA, DEMONIO, OSSESSIONE#0",
     "nv:btu:1cor.5.5",
     "nv:btu:1tim.1.20",
-    "nv:btu:mc.3.26"
+    "nv:btu:mc.3.26",
+    "reviewer:round2",
+    "nv:btu:apc.12.9",
+    "pub:catechismus-1997#391"
    ],
    "mentioned": [
     "btu:zach.3.2",
@@ -90402,6 +90409,30 @@
       "NABRE": "the accuser of our brothers",
       "NVBSE": "accusator fratrum nostrorum",
       "VGCL": "accusator fratrum nostrorum"
+     }
+    },
+    "btu:gn.3.1": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "serpens"
+     }
+    },
+    "btu:gn.3.4": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "serpens"
+     }
+    },
+    "btu:gn.3.13": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "Serpens"
+     }
+    },
+    "btu:gn.3.14": {
+     "as": "designation",
+     "editions": {
+      "NVBSE": "serpentem"
      }
     }
    }
@@ -94928,60 +94959,6 @@
    "evidence": [
     "nv:btu:1sam.9.1"
    ]
-  },
-  "bpers:serpens": {
-   "type": "person",
-   "kind": "individual",
-   "names": {
-    "la": "Serpens",
-    "it": "il Serpente",
-    "en": "the Serpent"
-   },
-   "description": {
-    "it": "il serpente che sedusse Eva nel giardino",
-    "en": "the serpent that deceived Eve in the garden"
-   },
-   "attested": [
-    "btu:gn.3.1",
-    "btu:gn.3.4",
-    "btu:gn.3.13",
-    "btu:gn.3.14"
-   ],
-   "relations": [],
-   "qid": null,
-   "qid_status": "unresolved",
-   "evidence": [
-    "nv:btu:gn.3.1",
-    "nv:btu:gn.3.4",
-    "nv:btu:gn.3.13",
-    "nv:btu:gn.3.14"
-   ],
-   "labels": {
-    "btu:gn.3.1": {
-     "as": "designation",
-     "editions": {
-      "NVBSE": "serpens"
-     }
-    },
-    "btu:gn.3.4": {
-     "as": "designation",
-     "editions": {
-      "NVBSE": "serpens"
-     }
-    },
-    "btu:gn.3.13": {
-     "as": "designation",
-     "editions": {
-      "NVBSE": "Serpens"
-     }
-    },
-    "btu:gn.3.14": {
-     "as": "designation",
-     "editions": {
-      "NVBSE": "serpentem"
-     }
-    }
-   }
   },
   "bpers:seruch": {
    "type": "person",

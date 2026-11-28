@@ -136,6 +136,16 @@ class EvidenceTest(unittest.TestCase):
     def test_no_evidence(self):
         self.assertEqual(len(self.run_p([])), 1)
 
+    def test_reviewer_and_listed_publication_evidence(self):
+        # a maintainer's identification: the reviewer's round and a published Catholic source
+        sources = {"reviewer": {}, "pub": {}, "pub:catechismus-1997": {"title": "x", "authority": "authoritative"}}
+        run = lambda ev: problems({"persons": cat({"bpers:a": person(evidence=ev)}), "places": cat({}),
+                                   "events": cat({})}, sources)
+        self.assertEqual(run(["reviewer:round2", "pub:catechismus-1997#391", "nv:btu:gn.29.34"]), [])
+        self.assertEqual(len(run(["pub:nemo-2000#1"])), 1)  # not listed in sources.json
+        self.assertEqual(len(run(["pub:Bad Key"])), 1)
+        self.assertEqual(len(self.run_p(["reviewer:round2"])), 0)  # without sources: the form only
+
 
 class MentionsTest(unittest.TestCase):
     H = "a" * 64
