@@ -41,7 +41,7 @@ All identifiers are **drafts pending committee review** until release `v1.0.0`.
 |---|---|
 | `data/persons.json`, `data/places.json`, `data/events.json` | the three catalogs |
 | `data/unnamed.json` | persons the Bible mentions but no edition names, kept apart until one does |
-| `data/mentions/nvbse.json` | where the catalogs' persons and places are named in the Nova Vulgata (NVBSE), by CBTUDR unit: 31,015 mentions in 14,488 verses, 22,513 settled and 8,502 under review. Positions, a verse hash and a span check only; the words are never stored (the text is not ours to publish). `nvbse_curated.json` holds hand corrections that win over it |
+| `data/mentions/nvbse.json` | where the catalogs' persons and places are named in the Nova Vulgata (NVBSE), by CBTUDR unit: 31,583 mentions in 14,641 verses, 21,780 settled and 9,803 under review. Positions, a verse hash and a span check only; the words are never stored (the text is not ours to publish). `nvbse_curated.json` holds hand corrections that win over it |
 | `data/curated/` | the reviewed decisions the catalogs are built from: senses, per-entity verse lists and corrections, entries curated by hand, the Herodian tree's relations, Wikidata items |
 | `registry/` | the catalogs as readable tables, generated |
 | `docs/vocabulary.md` | every term the data uses: types and kinds, relations (`same_as`…), labels, conjectures (`possibly_same_as`…), evidence and sources, statuses |
