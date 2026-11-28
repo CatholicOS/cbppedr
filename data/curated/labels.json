@@ -2503,6 +2503,12 @@
     "editions": {
      "NVBSE": "uxor eius"
     }
+   },
+   "btu:gn.3.12": {
+    "as": "designation",
+    "editions": {
+     "NVBSE": "Mulier"
+    }
    }
   },
   "bpers:evilmerodach": {
