@@ -99,7 +99,6 @@
   "bpers:adonibezec": {
    "image": {
     "file": "Adonibesek’s Limbs are Cut Off.jpg",
-    "author": "unknown illuminator",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -757,7 +756,6 @@
   "bpers:eliphaz.esau-filius": {
    "image": {
     "file": "Facial Chronicle - b.01, p.243 - Jacob kills Esau.jpg",
-    "author": "https://runivers.ru/upload/iblock/9ab/Licevoy%20svod.%20Bibl%20ist.%201.pdf",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -910,7 +908,6 @@
   "bpers:gomer.uxor-osee": {
    "image": {
     "file": "Hosea and Gomer (cropped).jpg",
-    "author": "http://collecties.meermanno.nl/handschriften/showillu?id=10499",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -1033,7 +1030,7 @@
   "bpers:iacobus.zebedaei-filius": {
    "image": {
     "file": "Dijon fine arts museum mg 1626.jpg",
-    "author": "Own work, Rama",
+    "author": "Rama",
     "license": "CC BY-SA 2.0 fr",
     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
    },
@@ -1402,7 +1399,6 @@
   "bpers:lamech.filius-mathusael": {
    "image": {
     "file": "LamechKillingCain.JPG",
-    "author": "http://www.kulturpool.at/plugins/kulturpool/showitem.action?kupoContext=default&itemId=12884940926",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -1697,7 +1693,6 @@
   "bpers:michael.archangelus": {
    "image": {
     "file": "Mikharkhangel.jpg",
-    "author": "https://rutracker.org/forum/viewtopic.php?t=3473522",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -2343,7 +2338,6 @@
   "bpers:titus.socius-pauli": {
    "image": {
     "file": "Saint Titus (Kosovo, 14th c. Pech Patriarch., S. Nicholas church).jpg",
-    "author": "http://www.iconsv.ru/index.php?option=com_joomgallery&func=detail&id=3523&Itemid=3",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -2467,12 +2461,6 @@
    }
   },
   "bplace:abarim": {
-   "image": {
-    "file": "Dead Sea from Mt Nebo.jpg",
-    "author": "Own work",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
    "wikipedia": {
     "it": "Abarim",
     "en": "Abarim",
@@ -2992,7 +2980,7 @@
   "bplace:charran": {
    "image": {
     "file": "Harranruins1.jpg",
-    "author": "No machine-readable author provided. Gerry Lynch~commonswiki assumed (based on copyright claims).",
+    "author": "Gerry Lynch~commonswiki",
     "license": "CC BY-SA 3.0",
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
    },
@@ -3716,7 +3704,6 @@
   "bplace:lystra": {
    "image": {
     "file": "C+B-Galatia-Map.JPG",
-    "author": "no idea - see source",
     "license": "Public domain"
    },
    "wikipedia": {
@@ -3904,12 +3891,6 @@
    }
   },
   "bplace:miletus": {
-   "image": {
-    "file": "The Theater of Miletus.jpg",
-    "author": "https://www.flickr.com/photos/jiuguangw/",
-    "license": "CC BY-SA 2.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
-   },
    "wikipedia": {
     "la": "Miletus",
     "it": "Mileto (Asia Minore)",
@@ -3986,7 +3967,7 @@
   "bplace:nicopolis": {
    "image": {
     "file": "Nicopolis nymphaeum.jpg",
-    "author": "No machine-readable author provided. Marsyas assumed (based on copyright claims).",
+    "author": "Marsyas",
     "license": "CC BY 2.5",
     "license_url": "https://creativecommons.org/licenses/by/2.5"
    },
@@ -4382,7 +4363,7 @@
   "bplace:samothracia": {
    "image": {
     "file": "Samothraki island.jpg",
-    "author": "No machine-readable author provided. Marsyas assumed (based on copyright claims).",
+    "author": "Marsyas",
     "license": "CC BY-SA 3.0",
     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
    },
@@ -4494,7 +4475,7 @@
   "bplace:sepphoris": {
    "image": {
     "file": "Face in mosaic.JPG",
-    "author": "No machine-readable author provided. Bachrach44 assumed (based on copyright claims).",
+    "author": "Bachrach44",
     "license": "Public domain"
    },
    "wikipedia": {
