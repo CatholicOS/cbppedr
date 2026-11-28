@@ -12,7 +12,8 @@ Every occurrence in a verse is marked:
 - settled (`entry`): a designation label of the entry for that unit, found once there (a designation
   found more than once is a `candidates` of its entry each time); or exactly one of the form's
   entries attested in the unit; or, outside the units where it is attested, a form of one entry
-  only, that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
+  only, or of several of which exactly one is attested in the unit's book (Eden in Genesis, the
+  garden), that entry attested (`attested`, not `mentioned`) elsewhere in the same book, the form not
   taken from a single word of a multiword name (forms.json's `partial`) and not a stoplist word,
   nor around a nested span settled to another entry attested in the unit (then candidates of both),
   nor in a unit that data/curated/unattested.json removed from the entry on review,
@@ -171,18 +172,24 @@ def _none(words: str, id_: str) -> list[str]:
 
 
 def _decide(words: str, ids: set[str], attested_here: set[str], designated_ids: set[str],
-            outside: Outside, rivals: Rivals = _none) -> tuple[str, list[str]]:
+            outside: Outside, rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False
+            ) -> tuple[str, list[str]]:
     if len(designated_ids) == 1:
         return "entry", sorted(designated_ids)
     here = ids & attested_here
     if len(here) == 1:
         return "entry", sorted(here)
-    if not here and len(ids) == 1:
-        also = rivals(words, next(iter(ids)))
+    # outside the attested units: the one entry of the form, or the one of its bearers attested in the book
+    bearer = next(iter(ids)) if len(ids) == 1 else None
+    if bearer is None and not here:
+        in_this_book = [id_ for id_ in ids if in_book(id_)]
+        bearer = in_this_book[0] if len(in_this_book) == 1 else None
+    if not here and bearer is not None:
+        also = rivals(words, bearer)
         if also:
             return "candidates", sorted(ids | set(also))
-        if outside(words, next(iter(ids))):
-            return "outside", sorted(ids)
+        if outside(words, bearer):
+            return "outside", [bearer]
     return "candidates", sorted(ids)
 
 
@@ -202,7 +209,7 @@ def _nested_conflicts(decided: dict[tuple[int, int], tuple[str, list[str]]],
 
 def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: frozenset[Hit] | set[Hit] = frozenset(),
             outside: Outside = _never, repeated: frozenset[Hit] | set[Hit] = frozenset(),
-            rivals: Rivals = _none) -> list[dict]:
+            rivals: Rivals = _none, in_book: Callable[[str], bool] = lambda id_: False) -> list[dict]:
     """The hits of one verse as mentions (UTF-16 positions), crossing spans left out. `designated` are
     the hits that came from the entry's designation label for this unit, `repeated` those of them whose
     label is found more than once there (each a candidate, never settled); `outside(words, id)` says
@@ -219,7 +226,7 @@ def resolve(text: str, hits: list[Hit], attested_here: set[str], designated: fro
         if any((start, end, id_) in repeated for id_ in ids):
             decided[(start, end)] = ("candidates", sorted(ids))
         else:
-            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals)
+            decided[(start, end)] = _decide(words, ids, attested_here, mine, outside, rivals, in_book)
     _nested_conflicts(decided, attested_here)
     out = []
     for (start, end), (key, value) in sorted(decided.items()):
@@ -324,7 +331,8 @@ class _Run:
         twice = {id_ for id_, ls in labels.items() if len(_find_indexed(text, _index({id_: ls}))) > 1}
         repeated = {h for h in designated if h[2] in twice}
         mentions = resolve(text, hits, self.attested.get(unit, set()), designated,
-                           self.outside(book(unit), unit), repeated, self.rivals(unmatched))
+                           self.outside(book(unit), unit), repeated, self.rivals(unmatched),
+                           lambda id_: book(unit) in self.books.get(id_, ()))
         row_crossing = _crossing_row(key, text, hits)
         if row_crossing:
             self.crossing.append(row_crossing)

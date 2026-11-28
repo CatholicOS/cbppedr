@@ -348,7 +348,7 @@ class ExtractTest(unittest.TestCase):
         mentions, _ = self.run_one("Helles Urbs Nova Roma", forms, persons)
         self.assertEqual(mentions[0]["candidates"], ["bpers:a", "bpers:b"])
 
-    TESTAMENTS = {"gn": "OT", "ex": "OT", "idt": "OT", "lc": "NT", "io": "NT"}
+    TESTAMENTS = {"gn": "OT", "ex": "OT", "idt": "OT", "lc": "NT", "io": "NT", "mt": "NT"}
 
     def test_candidates_only_from_the_units_testament(self):
         # a Gen 1:10-like case: a form whose only bearers are attested in the New Testament
@@ -363,7 +363,7 @@ class ExtractTest(unittest.TestCase):
         mentions, _ = self.run_one("vocavit Maria", forms, persons, testaments=self.TESTAMENTS)
         self.assertEqual(mentions[0]["candidates"], ["bpers:maria.soror-moysi"])
         # the New Testament is unchanged: it names Old Testament persons too (Isaias, Melchisedech)
-        mentions, _ = self.run_one("vocavit Maria", forms, persons, key="lc_2_5", testaments=self.TESTAMENTS)
+        mentions, _ = self.run_one("vocavit Maria", forms, persons, key="mt_2_5", testaments=self.TESTAMENTS)
         self.assertEqual(mentions[0]["candidates"], ["bpers:maria.a", "bpers:maria.b", "bpers:maria.soror-moysi"])
         persons = {"bpers:isaias": person("btu:ex.1.1")}
         mentions, _ = self.run_one("Isaias", {"bpers:isaias": ["Isaias"]}, persons, key="lc_4_17",
@@ -391,6 +391,33 @@ class ExtractTest(unittest.TestCase):
         mentions, _ = self.run_one("Susanna", {"bpers:susanna": ["Susanna"]}, persons, key="gn_1_1",
                                    testaments=self.TESTAMENTS)
         self.assertEqual(mentions, [])  # other Testament: no mention at all
+
+    def test_shared_form_settles_to_its_one_bearer_attested_in_the_book(self):
+        # an Eden-like case: the garden is attested in Genesis, the Levite and the region elsewhere
+        forms = {"bplace:eden.paradisus": ["Eden"], "bplace:eden.region": ["Eden"], "bpers:eden.levita": ["Eden"]}
+        persons = {"bpers:eden.levita": person("btu:2par.29.12")}
+        places = {"bplace:eden.paradisus": person("btu:gn.2.8"), "bplace:eden.region": person("btu:am.1.5")}
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
+        self.assertEqual(mentions[0]["entry"], "bplace:eden.paradisus")
+        places["bplace:eden.region"] = person("btu:gn.10.1")
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="gn_3_24")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:eden.levita", "bplace:eden.paradisus", "bplace:eden.region"])
+        mentions, _ = self.run_one("ad orientem Eden", forms, persons, places, key="ex_1_1")
+        self.assertEqual(len(mentions[0]["candidates"]), 3)
+
+    def test_shared_form_settle_keeps_the_guards(self):
+        forms = {"bplace:a": ["Sela"], "bpers:b": ["Sela"]}
+        places = {"bplace:a": person("btu:gn.2.8")}
+        persons = {"bpers:b": person("btu:am.1.5")}
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1", stop=frozenset({"sela"}))
+        self.assertIn("candidates", mentions[0])
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1", partial={"bplace:a": ["Sela"]})
+        self.assertIn("candidates", mentions[0])
+        # a same-stem entry attested in the unit but not found is a rival
+        forms["bpers:c"] = ["Selah"]
+        persons["bpers:c"] = person("btu:gn.3.1")
+        mentions, _ = self.run_one("Sela", forms, persons, places, key="gn_3_1")
+        self.assertEqual(mentions[0]["candidates"], ["bpers:b", "bpers:c", "bplace:a"])
 
     def test_esther_book_is_est(self):
         persons = {"bpers:aman": person("btu:est.3.1")}
