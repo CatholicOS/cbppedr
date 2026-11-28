@@ -365,8 +365,13 @@ def detail_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
         if img is not None:
             if "license_url" in img and not re.match(r"^https?://\S+$", str(img["license_url"])):
                 out.append(f"details {eid}: license_url is not http(s)")
-            if re.search(r"<[^>]*>", str(img.get("author", ""))):
+            author = str(img.get("author", ""))
+            if re.search(r"<[^>]*>", author):
                 out.append(f"details {eid}: HTML in author")
+            if len(author) > 200 or re.search(r"[{};]", author):
+                out.append(f"details {eid}: author is not a plain credit")
+            if not author and str(img.get("license", "")).lower().startswith("cc by"):
+                out.append(f"details {eid}: CC BY image without an author")
     return out
 
 

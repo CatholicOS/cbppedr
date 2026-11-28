@@ -23,14 +23,16 @@ import wikidata
 ROOT = Path(__file__).resolve().parent.parent
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 LANGS = ("la", "it", "en", "es", "fr", "de", "pt")
+MAX_AUTHOR = 200
 SETTLED = ("reviewed", "adjudicated")
 TAG = re.compile(r"<[^>]*>")
+BLOCK = re.compile(r"<\s*(style|script)\b.*?<\s*/\s*\1\s*>", re.IGNORECASE | re.DOTALL)
 BREAK = re.compile(r"<\s*/?\s*(br|p|div|li|ul|ol|tr|td)\b[^>]*>", re.IGNORECASE)
 
 
 def plain_text(value: str) -> str:
     """Markup removed: tags dropped, entities unescaped, whitespace collapsed."""
-    return " ".join(html.unescape(TAG.sub("", BREAK.sub(" ", value))).split())
+    return " ".join(html.unescape(TAG.sub("", BREAK.sub(" ", BLOCK.sub(" ", value)))).split())
 
 
 def _first_p18(item: dict) -> str | None:
@@ -51,12 +53,29 @@ def _coords(item: dict) -> dict | None:
     return None
 
 
+def _usable(text: str) -> bool:
+    """Plain credit text, not a licence template's leftovers (CSS, "Public domain" repeated, ...)."""
+    return bool(text) and len(text) <= MAX_AUTHOR and not re.search(r"[{};]", text) and "public domain" not in text.lower()
+
+
+def author_of(meta: dict) -> str:
+    """The credit: the uploader's Artist, else Credit, else Attribution; "" when none is usable."""
+    for key in ("Artist", "Credit", "Attribution"):
+        text = plain_text(meta.get(key, {}).get("value", ""))
+        if _usable(text):
+            return text
+    return ""
+
+
 def _image(name: str, commons: dict | None) -> dict | None:
     meta = commons or {}
     lic = plain_text(meta.get("LicenseShortName", {}).get("value", ""))
     if not lic:
         return None
-    img = {"file": name, "author": plain_text(meta.get("Artist", {}).get("value", "")), "license": lic}
+    author = author_of(meta)
+    if not author and lic.lower().startswith("cc by"):
+        return None  # attribution is the licence's condition: without an author it cannot be met
+    img = {"file": name, "author": author, "license": lic}
     url = meta.get("LicenseUrl", {}).get("value", "").strip()
     if re.match(r"^https?://\S+$", url):
         img["license_url"] = url
@@ -84,8 +103,11 @@ def detail(entity: dict, wikidata_item: dict, commons: dict | None) -> dict | No
 def fetch_items(qids: list[str]) -> dict[str, dict]:
     out: dict[str, dict] = {}
     for i in range(0, len(qids), 50):
-        data = wikidata._call({"action": "wbgetentities", "ids": "|".join(sorted(qids[i:i + 50])),
-                               "props": "claims|sitelinks"})
+        batch = sorted(qids[i:i + 50])
+        params = {"action": "wbgetentities", "ids": "|".join(batch), "props": "claims|sitelinks"}
+        data = wikidata._call(params)
+        if not set(batch) <= set(data.get("entities", {})):  # cache file names are truncated: batches can collide
+            data = wikidata._call(params, refresh=True)
         out.update(data.get("entities", {}))
     return out
 

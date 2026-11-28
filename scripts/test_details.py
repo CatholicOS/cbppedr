@@ -51,6 +51,41 @@ class DetailsTest(unittest.TestCase):
         d = detail(entity(), item({"P18": p18("A.jpg")}), meta)
         self.assertEqual(d["image"]["author"], "Ann, 1900")
 
+    def test_author_style_block_dropped(self):
+        self.assertEqual(plain_text("<style>.a { color: red; }</style><span>Ann</span><script>x()</script>"), "Ann")
+
+    def test_author_boilerplate_falls_back_to_credit(self):
+        meta = {"Artist": {"value": "Public domainPublic domainfalsefalse"}, "Credit": {"value": "<b>Own</b> work"},
+                "LicenseShortName": {"value": "PD"}}
+        self.assertEqual(detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"]["author"], "Own work")
+        meta = {"Artist": {"value": "x" * 300}, "Attribution": {"value": "Bob"}, "LicenseShortName": {"value": "PD"}}
+        self.assertEqual(detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"]["author"], "Bob")
+        meta = {"Artist": {"value": "a { b }"}, "LicenseShortName": {"value": "PD"}}
+        self.assertNotIn("author", detail(entity(), item({"P18": p18("A.jpg")}), meta)["image"])
+
+    def test_cc_by_without_author_omitted(self):
+        it = item({"P18": p18("A.jpg")})
+        for lic in ("CC BY 4.0", "cc by-sa 3.0"):
+            self.assertIsNone(detail(entity(), it, {"LicenseShortName": {"value": lic}}))
+        for lic in ("CC0", "Public domain"):
+            self.assertIn("image", detail(entity(), it, {"LicenseShortName": {"value": lic}}))
+
+    def test_batch_cache_mismatch_refetches(self):
+        import details
+        calls = []
+
+        def fake(params, api=details.wikidata.API, refresh=False):
+            calls.append(refresh)
+            ids = params["ids"].split("|")
+            return {"entities": {i: {} for i in (ids[:1] if not refresh else ids)}}
+
+        real, details.wikidata._call = details.wikidata._call, fake
+        try:
+            self.assertEqual(set(details.fetch_items(["Q1", "Q2"])), {"Q1", "Q2"})
+        finally:
+            details.wikidata._call = real
+        self.assertEqual(calls, [False, True])
+
     def test_two_coordinates_give_none(self):
         self.assertIsNone(detail(entity(), item({"P625": [p625(1, 2), p625(3, 4)]}), None))
         d = detail(entity(), item({"P625": [p625(31.7, 35.2)]}), None)
@@ -91,6 +126,11 @@ class DetailProblemsTest(unittest.TestCase):
         self.assertTrue(self.probs({"bplace:a": {"image": img}}))
         self.assertTrue(self.probs({"bplace:a": {"image": dict(img, license_url="https://x", author="<b>x</b>")}}))
         self.assertEqual(self.probs({"bplace:a": {"image": dict(img, license_url="https://x")}}), [])
+        self.assertTrue(self.probs({"bplace:a": {"image": dict(img, license_url="https://x", author="a { b }")}}))
+        self.assertTrue(self.probs({"bplace:a": {"image": dict(img, license_url="https://x", author="y" * 201)}}))
+        noauth = {"file": "A.jpg", "license": "CC BY-SA 4.0"}
+        self.assertTrue(self.probs({"bplace:a": {"image": noauth}}))
+        self.assertEqual(self.probs({"bplace:a": {"image": dict(noauth, license="CC0")}}), [])
 
 
 if __name__ == "__main__":
