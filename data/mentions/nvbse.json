@@ -944,19 +944,6 @@
     }
    ]
   },
-  "btu:1cor.3.10": {
-   "hash": "e411186aeb772380e54971393e7cd253895496ce3d921bffac0f7e1c1d9af4c6",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:1cor.3.11": {
    "hash": "15760a41fa49d6b058898ae5f833ac6977e2abefb8f4e7fc26b8b57ec37f4deb",
    "mentions": [
@@ -1898,19 +1885,6 @@
     }
    ]
   },
-  "btu:1mac.1.40": {
-   "hash": "66b8738b12f93b09f90a481a237bbe15d92e6d0b2c2b599e9f50d746c541e8dd",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:1mac.1.41": {
    "hash": "22f3783be11d225e39e8d344157cb2af6f6ec3e6240f30c20527f0150462a512",
    "mentions": [
@@ -2012,14 +1986,6 @@
   "btu:1mac.1.51": {
    "hash": "a13c91608d44b518e5d11baeea1f1bf5e67fc79cc44247e273b0000fedd0362b",
    "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 123,
      "end": 128,
@@ -4880,7 +4846,6 @@
      "end": 22,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5695,7 +5660,6 @@
      "end": 19,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5823,7 +5787,6 @@
      "end": 41,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5880,7 +5843,6 @@
      "end": 55,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5927,7 +5889,6 @@
      "end": 38,
      "check": "76a26976",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5945,7 +5906,6 @@
      "end": 26,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5982,7 +5942,6 @@
      "end": 40,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -5996,7 +5955,6 @@
      "end": 49,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -6036,7 +5994,6 @@
      "end": 51,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -6160,13 +6117,17 @@
      "start": 123,
      "end": 138,
      "check": "8f924d13",
-     "entry": "bpers:maccabaei"
+     "candidates": [
+      "bpers:maccabaei"
+     ]
     },
     {
      "start": 161,
      "end": 176,
      "check": "8f924d13",
-     "entry": "bpers:maccabaei"
+     "candidates": [
+      "bpers:maccabaei"
+     ]
     }
    ]
   },
@@ -6197,7 +6158,6 @@
      "end": 34,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -10534,7 +10494,6 @@
      "end": 40,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -10650,19 +10609,6 @@
      "end": 80,
      "check": "4ab4a7c3",
      "entry": "bplace:roma"
-    }
-   ]
-  },
-  "btu:1mac.8.29": {
-   "hash": "c4e0097924703114c754f5c83f1e68e000d50cb315725409dccd2860d5d49a3d",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -11274,7 +11220,6 @@
      "end": 61,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -11314,7 +11259,6 @@
      "end": 35,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -14085,6 +14029,12 @@
      "entry": "bpers:philisthim"
     },
     {
+     "start": 142,
+     "end": 155,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
+    },
+    {
      "start": 148,
      "end": 155,
      "check": "5e304767",
@@ -14992,7 +14942,10 @@
      "start": 31,
      "end": 36,
      "check": "8a69c15b",
-     "entry": "bplace:ierusalem"
+     "candidates": [
+      "bpers:iebusaei",
+      "bplace:ierusalem"
+     ]
     },
     {
      "start": 41,
@@ -16750,6 +16703,12 @@
      "entry": "bpers:philisthim"
     },
     {
+     "start": 43,
+     "end": 56,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
+    },
+    {
      "start": 49,
      "end": 56,
      "check": "5e304767",
@@ -18406,6 +18365,12 @@
       "bpers:esau",
       "bplace:edom"
      ]
+    },
+    {
+     "start": 45,
+     "end": 56,
+     "check": "cb9855c5",
+     "entry": "bplace:vallis-salis"
     }
    ]
   },
@@ -21569,7 +21534,7 @@
      "start": 134,
      "end": 139,
      "check": "55d77a86",
-     "entry": "bpers:rapha.ephraimita"
+     "entry": "bpers:raphaim"
     }
    ]
   },
@@ -21607,7 +21572,7 @@
      "start": 93,
      "end": 98,
      "check": "55d77a86",
-     "entry": "bpers:rapha.ephraimita"
+     "entry": "bpers:raphaim"
     },
     {
      "start": 102,
@@ -25165,7 +25130,7 @@
      "start": 25,
      "end": 31,
      "check": "b19bb761",
-     "entry": "bpers:helles.azariae-filius"
+     "entry": "bpers:heles.phaltites"
     },
     {
      "start": 32,
@@ -28863,7 +28828,10 @@
      "start": 124,
      "end": 128,
      "check": "d63d1102",
-     "entry": "bpers:cham"
+     "candidates": [
+      "bpers:cham",
+      "bplace:terra-cham"
+     ]
     }
    ]
   },
@@ -34330,7 +34298,10 @@
      "start": 17,
      "end": 22,
      "check": "55d77a86",
-     "entry": "bpers:rapha.ephraimita"
+     "candidates": [
+      "bpers:rapha.ephraimita",
+      "bpers:raphaim"
+     ]
     }
    ]
   },
@@ -34520,7 +34491,9 @@
      "start": 13,
      "end": 17,
      "check": "34908e09",
-     "entry": "bpers:elias.thesbites"
+     "candidates": [
+      "bpers:elias.thesbites"
+     ]
     },
     {
      "start": 21,
@@ -38412,6 +38385,7 @@
      "end": 115,
      "check": "30f15fa3",
      "candidates": [
+      "bplace:domus-saltus-libani",
       "bplace:libanus"
      ]
     }
@@ -39547,13 +39521,17 @@
      "start": 9,
      "end": 19,
      "check": "f3520e0b",
-     "entry": "bpers:salomon"
+     "candidates": [
+      "bpers:salomon"
+     ]
     },
     {
      "start": 87,
      "end": 97,
      "check": "f3520e0b",
-     "entry": "bpers:salomon"
+     "candidates": [
+      "bpers:salomon"
+     ]
     }
    ]
   },
@@ -45014,7 +44992,8 @@
      "end": 34,
      "check": "48683221",
      "candidates": [
-      "bpers:sunamitis.hospita-elisaei"
+      "bpers:sunamitis.hospita-elisaei",
+      "bplace:sunam"
      ]
     },
     {
@@ -50154,6 +50133,7 @@
      "end": 38,
      "check": "30f15fa3",
      "candidates": [
+      "bplace:domus-saltus-libani",
       "bplace:libanus"
      ]
     }
@@ -51027,7 +51007,10 @@
      "start": 130,
      "end": 137,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     }
    ]
   },
@@ -52838,6 +52821,7 @@
      "end": 121,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     }
@@ -56610,14 +56594,6 @@
      "end": 35,
      "check": "0773683a",
      "entry": "bpers:eliab.isai-filius"
-    },
-    {
-     "start": 46,
-     "end": 52,
-     "check": "eb359609",
-     "candidates": [
-      "bpers:absque-misericordia"
-     ]
     }
    ]
   },
@@ -56931,6 +56907,12 @@
      ]
     },
     {
+     "start": 44,
+     "end": 60,
+     "check": "1f187fad",
+     "entry": "bplace:vallis-terebinthi"
+    },
+    {
      "start": 80,
      "end": 90,
      "check": "99eacbb0",
@@ -56961,6 +56943,12 @@
       "bpers:israel.populus",
       "bplace:israel.terra"
      ]
+    },
+    {
+     "start": 49,
+     "end": 66,
+     "check": "82891a5a",
+     "entry": "bplace:vallis-terebinthi"
     },
     {
      "start": 109,
@@ -60048,7 +60036,8 @@
      "end": 31,
      "check": "e43bd5db",
      "candidates": [
-      "bpers:paulus"
+      "bpers:paulus",
+      "bpers:saul.rex-israel"
      ]
     }
    ]
@@ -60508,6 +60497,12 @@
      "end": 45,
      "check": "3f483e39",
      "entry": "bpers:goliath"
+    },
+    {
+     "start": 79,
+     "end": 95,
+     "check": "1f187fad",
+     "entry": "bplace:vallis-terebinthi"
     },
     {
      "start": 204,
@@ -65933,7 +65928,9 @@
      "end": 42,
      "check": "bf896695",
      "candidates": [
-      "bplace:astharoth"
+      "bpers:astarthe",
+      "bplace:astharoth",
+      "bplace:templum-astharoth"
      ]
     },
     {
@@ -67449,6 +67446,7 @@
      "end": 150,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     },
@@ -69438,19 +69436,6 @@
     }
    ]
   },
-  "btu:2cor.11.21": {
-   "hash": "beaf5dbe6a5d459d2a0440ef282180667d826bff28ca8f12fc259a4d8b52b0a7",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:2cor.11.22": {
    "hash": "4b317bbc9addbc1dcd9dcc24731e5a88b17e132875acb91fbfcefd48721213e9",
    "mentions": [
@@ -70743,7 +70728,6 @@
      "end": 7,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -72755,7 +72739,6 @@
      "end": 87,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -79227,7 +79210,8 @@
      "end": 29,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     },
     {
@@ -79474,6 +79458,12 @@
   "btu:2par.20.26": {
    "hash": "3ec4951becfe3e805820ab7f9227bf7925a3e8fa283c2563d18db7476d6d7587",
    "mentions": [
+    {
+     "start": 36,
+     "end": 49,
+     "check": "d2817e5f",
+     "entry": "bplace:vallis-baracha"
+    },
     {
      "start": 42,
      "end": 49,
@@ -84457,6 +84447,12 @@
    "hash": "1d4ca3d22e49ce915f23f60204ed06f0d8e9893f97e2120f91a137e545c5d738",
    "mentions": [
     {
+     "start": 26,
+     "end": 43,
+     "check": "3995f228",
+     "entry": "bplace:vallis-filii-ennom"
+    },
+    {
      "start": 140,
      "end": 146,
      "check": "3552ac0c",
@@ -84753,7 +84749,8 @@
      "end": 85,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     },
     {
@@ -87521,6 +87518,17 @@
     }
    ]
   },
+  "btu:2par.33.6": {
+   "hash": "a14bf37e349a71c868cbaeee35959e783305fc0cd8b9d2cf6791456531cc4293",
+   "mentions": [
+    {
+     "start": 43,
+     "end": 60,
+     "check": "3995f228",
+     "entry": "bplace:vallis-filii-ennom"
+    }
+   ]
+  },
   "btu:2par.33.7": {
    "hash": "43e1e1cd3e84d9f559feb2c7449a9dfc4a2d9790f742cc7762420e95a2081955",
    "mentions": [
@@ -87706,7 +87714,8 @@
      "end": 146,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     }
    ]
@@ -90267,7 +90276,10 @@
      "start": 146,
      "end": 153,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     }
    ]
   },
@@ -90690,6 +90702,7 @@
      "end": 126,
      "check": "30f15fa3",
      "candidates": [
+      "bplace:domus-saltus-libani",
       "bplace:libanus"
      ]
     }
@@ -92601,13 +92614,17 @@
      "start": 52,
      "end": 57,
      "check": "9629a8b0",
-     "entry": "bpers:ioas.rex-iudae"
+     "candidates": [
+      "bpers:ioas.rex-iudae"
+     ]
     },
     {
      "start": 110,
      "end": 115,
      "check": "9629a8b0",
-     "entry": "bpers:ioas.rex-iudae"
+     "candidates": [
+      "bpers:ioas.rex-iudae"
+     ]
     }
    ]
   },
@@ -99854,7 +99871,9 @@
      "start": 21,
      "end": 30,
      "check": "9c6883e4",
-     "entry": "bplace:iericho"
+     "candidates": [
+      "bplace:iericho"
+     ]
     },
     {
      "start": 34,
@@ -99866,7 +99885,9 @@
      "start": 60,
      "end": 69,
      "check": "9c6883e4",
-     "entry": "bplace:iericho"
+     "candidates": [
+      "bplace:iericho"
+     ]
     }
    ]
   },
@@ -101710,6 +101731,7 @@
      "end": 134,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     },
@@ -103064,7 +103086,10 @@
      "start": 25,
      "end": 32,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     },
     {
      "start": 75,
@@ -103076,7 +103101,10 @@
      "start": 96,
      "end": 103,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     },
     {
      "start": 121,
@@ -103090,7 +103118,10 @@
      "start": 157,
      "end": 164,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     }
    ]
   },
@@ -103654,13 +103685,17 @@
      "start": 17,
      "end": 22,
      "check": "9629a8b0",
-     "entry": "bpers:sedecias.rex-iudae"
+     "candidates": [
+      "bpers:sedecias.rex-iudae"
+     ]
     },
     {
      "start": 35,
      "end": 40,
      "check": "9629a8b0",
-     "entry": "bpers:sedecias.rex-iudae"
+     "candidates": [
+      "bpers:sedecias.rex-iudae"
+     ]
     },
     {
      "start": 54,
@@ -105621,7 +105656,9 @@
      "start": 6,
      "end": 9,
      "check": "3227fe6b",
-     "entry": "bpers:ioram.filius-achab"
+     "candidates": [
+      "bpers:ioram.filius-achab"
+     ]
     },
     {
      "start": 148,
@@ -105633,7 +105670,9 @@
      "start": 176,
      "end": 179,
      "check": "3227fe6b",
-     "entry": "bpers:ioram.filius-achab"
+     "candidates": [
+      "bpers:ioram.filius-achab"
+     ]
     }
    ]
   },
@@ -112442,7 +112481,10 @@
      "start": 179,
      "end": 189,
      "check": "433b963e",
-     "entry": "bpers:achitophel"
+     "candidates": [
+      "bpers:achimaas.sadoc-filius",
+      "bpers:achitophel"
+     ]
     }
    ]
   },
@@ -112991,6 +113033,12 @@
      "end": 13,
      "check": "45721ff9",
      "entry": "bpers:absalom.david-filius"
+    },
+    {
+     "start": 68,
+     "end": 79,
+     "check": "8e178f19",
+     "entry": "bplace:vallis-regis"
     },
     {
      "start": 203,
@@ -115698,7 +115746,8 @@
      "end": 84,
      "check": "74434600",
      "candidates": [
-      "bpers:abel"
+      "bpers:abel",
+      "bplace:abelbethmaacha"
      ]
     }
    ]
@@ -116544,9 +116593,7 @@
      "start": 31,
      "end": 36,
      "check": "55d77a86",
-     "candidates": [
-      "bpers:rapha.ephraimita"
-     ]
+     "entry": "bpers:raphaim"
     },
     {
      "start": 132,
@@ -116607,9 +116654,7 @@
      "start": 98,
      "end": 103,
      "check": "55d77a86",
-     "candidates": [
-      "bpers:rapha.ephraimita"
-     ]
+     "entry": "bpers:raphaim"
     }
    ]
   },
@@ -116715,9 +116760,7 @@
      "start": 157,
      "end": 162,
      "check": "55d77a86",
-     "candidates": [
-      "bpers:rapha.ephraimita"
-     ]
+     "entry": "bpers:raphaim"
     }
    ]
   },
@@ -116766,9 +116809,7 @@
      "start": 28,
      "end": 33,
      "check": "55d77a86",
-     "candidates": [
-      "bpers:rapha.ephraimita"
-     ]
+     "entry": "bpers:raphaim"
     },
     {
      "start": 37,
@@ -117151,6 +117192,12 @@
      "candidates": [
       "bplace:odollam"
      ]
+    },
+    {
+     "start": 135,
+     "end": 148,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
     },
     {
      "start": 141,
@@ -118678,6 +118725,7 @@
      "end": 50,
      "check": "381c0de1",
      "candidates": [
+      "bpers:phalti.lais-filius",
       "bpers:phaltiel.ozan-filius"
      ]
     },
@@ -120352,6 +120400,12 @@
      "entry": "bpers:philisthim"
     },
     {
+     "start": 43,
+     "end": 56,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
+    },
+    {
      "start": 49,
      "end": 56,
      "check": "5e304767",
@@ -120474,6 +120528,12 @@
      "end": 30,
      "check": "99eacbb0",
      "entry": "bpers:philisthim"
+    },
+    {
+     "start": 65,
+     "end": 78,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
     },
     {
      "start": 71,
@@ -120797,7 +120857,10 @@
      "start": 93,
      "end": 101,
      "check": "099322cf",
-     "entry": "bpers:getthaei"
+     "candidates": [
+      "bpers:getthaei",
+      "bplace:geth"
+     ]
     }
    ]
   },
@@ -120818,7 +120881,10 @@
      "start": 42,
      "end": 50,
      "check": "099322cf",
-     "entry": "bpers:getthaei"
+     "candidates": [
+      "bpers:getthaei",
+      "bplace:geth"
+     ]
     },
     {
      "start": 89,
@@ -121286,14 +121352,6 @@
    "hash": "2c3bf235834b32ed765ead2c2e87d1b311987996fb3bb958faa508643c12161b",
    "mentions": [
     {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 76,
      "end": 82,
      "check": "9770c8d8",
@@ -121690,6 +121748,12 @@
      "candidates": [
       "bplace:idumaea"
      ]
+    },
+    {
+     "start": 68,
+     "end": 79,
+     "check": "cb9855c5",
+     "entry": "bplace:vallis-salis"
     }
    ]
   },
@@ -123494,6 +123558,12 @@
    "hash": "31866ddbd2fcdf5aa6c90209fea1eb79518b5a7043d9b3b157148335d39c76b3",
    "mentions": [
     {
+     "start": 25,
+     "end": 36,
+     "check": "e058aa1a",
+     "entry": "bplace:mons-esau"
+    },
+    {
      "start": 32,
      "end": 36,
      "check": "eba85953",
@@ -123624,6 +123694,12 @@
      ]
     },
     {
+     "start": 48,
+     "end": 59,
+     "check": "e058aa1a",
+     "entry": "bplace:mons-esau"
+    },
+    {
      "start": 55,
      "end": 59,
      "check": "eba85953",
@@ -123662,6 +123738,12 @@
      ]
     },
     {
+     "start": 84,
+     "end": 94,
+     "check": "79eb6ad3",
+     "entry": "bplace:mons-esau"
+    },
+    {
      "start": 90,
      "end": 94,
      "check": "eba85953",
@@ -123683,6 +123765,12 @@
       "bpers:theman",
       "bplace:theman"
      ]
+    },
+    {
+     "start": 56,
+     "end": 66,
+     "check": "79eb6ad3",
+     "entry": "bplace:mons-esau"
     },
     {
      "start": 62,
@@ -123766,7 +123854,6 @@
      "end": 90,
      "check": "344d0aec",
      "candidates": [
-      "bpers:boanerges",
       "bpers:iacobus.alphaei-filius",
       "bpers:iacobus.frater-domini",
       "bpers:iacobus.minor",
@@ -123809,7 +123896,6 @@
      "end": 159,
      "check": "344d0aec",
      "candidates": [
-      "bpers:boanerges",
       "bpers:iacobus.alphaei-filius",
       "bpers:iacobus.frater-domini",
       "bpers:iacobus.minor",
@@ -123851,7 +123937,6 @@
      "end": 200,
      "check": "d5dbae65",
      "candidates": [
-      "bpers:boanerges",
       "bpers:iacobus.alphaei-filius",
       "bpers:iacobus.frater-domini",
       "bpers:iacobus.minor",
@@ -123988,7 +124073,6 @@
      "end": 30,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -124054,7 +124138,6 @@
      "end": 12,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -124541,7 +124624,6 @@
      "end": 58,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -124818,7 +124900,6 @@
      "end": 51,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -124947,7 +125028,6 @@
      "end": 37,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -124971,13 +125051,17 @@
      "start": 117,
      "end": 122,
      "check": "45390165",
-     "entry": "bpers:herodes.agrippa-i"
+     "candidates": [
+      "bpers:herodes.agrippa-i"
+     ]
     },
     {
      "start": 182,
      "end": 187,
      "check": "45390165",
-     "entry": "bpers:herodes.agrippa-i"
+     "candidates": [
+      "bpers:herodes.agrippa-i"
+     ]
     }
    ]
   },
@@ -125018,7 +125102,6 @@
      "end": 86,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -125194,7 +125277,6 @@
      "end": 84,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -125387,7 +125469,6 @@
      "end": 18,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -125414,7 +125495,6 @@
      "end": 26,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -125612,7 +125692,6 @@
      "end": 101,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -126312,7 +126391,6 @@
      "end": 48,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -126946,12 +127024,6 @@
    "hash": "a6c26ecef6b8fdd6f9998c7cd1d92b0b00b547ffe354e663e734b9cbad8c98ff",
    "mentions": [
     {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "entry": "bpers:secundus"
-    },
-    {
      "start": 34,
      "end": 40,
      "check": "0a94e7ea",
@@ -127282,7 +127354,6 @@
      "end": 140,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -130790,7 +130861,6 @@
      "end": 23,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -130816,7 +130886,6 @@
      "end": 35,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -130978,7 +131047,6 @@
      "end": 33,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -131002,7 +131070,6 @@
      "end": 38,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -131122,7 +131189,6 @@
      "end": 22,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -134813,7 +134879,8 @@
      "end": 147,
      "check": "891270f5",
      "candidates": [
-      "bplace:araba"
+      "bplace:araba",
+      "bplace:torrens-arabae"
      ]
     }
    ]
@@ -135404,7 +135471,6 @@
      "end": 155,
      "check": "76a26976",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -135488,7 +135554,6 @@
      "end": 7,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -136103,7 +136168,6 @@
      "end": 14,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -140064,19 +140128,6 @@
     }
    ]
   },
-  "btu:dn.2.45": {
-   "hash": "b5900c2b672391c93dac6ca41f85669ddb76c4b4f344f2952f06f02f0a32f962",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:dn.2.46": {
    "hash": "672227b6528e71ba5509782c82cdb1f0ad9e9171104fdd4da01cc56c832c30ec",
    "mentions": [
@@ -142219,6 +142270,12 @@
      "end": 116,
      "check": "bb5c8446",
      "entry": "bplace:garizim"
+    },
+    {
+     "start": 138,
+     "end": 150,
+     "check": "6759e8b8",
+     "entry": "bplace:mons-hebal"
     }
    ]
   },
@@ -142700,7 +142757,10 @@
      "start": 55,
      "end": 63,
      "check": "3c70e6ea",
-     "entry": "bpers:moabitae"
+     "candidates": [
+      "bpers:moabitae",
+      "bplace:moab"
+     ]
     },
     {
      "start": 78,
@@ -143773,6 +143833,12 @@
    "hash": "57f6167a93d2059bf7f3cdbfb3282eb38ff31b8e3aabfab05cf3aa19102b649c",
    "mentions": [
     {
+     "start": 45,
+     "end": 56,
+     "check": "323cf8e7",
+     "entry": "bplace:mons-hebal"
+    },
+    {
      "start": 58,
      "end": 63,
      "check": "dc46fd96",
@@ -143888,6 +143954,12 @@
      "candidates": [
       "bplace:iordanis"
      ]
+    },
+    {
+     "start": 94,
+     "end": 105,
+     "check": "323cf8e7",
+     "entry": "bplace:mons-hebal"
     }
    ]
   },
@@ -145447,12 +145519,16 @@
      ]
     },
     {
+     "start": 97,
+     "end": 106,
+     "check": "047e79ee",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 103,
      "end": 106,
      "check": "fd44e04a",
-     "candidates": [
-      "bplace:hor.septentrionalis"
-     ]
+     "entry": "bplace:mons-hor.edom"
     }
    ]
   },
@@ -145473,6 +145549,14 @@
      "end": 81,
      "check": "d1a7b03b",
      "entry": "bplace:meriba.cades"
+    },
+    {
+     "start": 82,
+     "end": 93,
+     "check": "61049f80",
+     "candidates": [
+      "bplace:desertum-sin"
+     ]
     },
     {
      "start": 90,
@@ -147381,19 +147465,6 @@
     }
    ]
   },
-  "btu:eccli.10.2": {
-   "hash": "0b009e59c9abc2b4e9f30fa7fc74e3c9d150fb08dd4cd6d0d58b3f6661e96b41",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:eccli.14.2": {
    "hash": "72f229665c3e295065cd95e2a385d35e3f4b879e502451d793b2399101c92cf8",
    "mentions": [
@@ -147618,19 +147689,6 @@
      "check": "fff8bf6b",
      "candidates": [
       "bplace:geon"
-     ]
-    }
-   ]
-  },
-  "btu:eccli.28.12": {
-   "hash": "a9162e03165aea2f816645ad99e5a5e746a5c4e33f50d1f038c49f23c642d66c",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     }
    ]
@@ -149028,19 +149086,6 @@
     }
    ]
   },
-  "btu:eccli.9.21": {
-   "hash": "371d0566bf99e04f826ce7826bec6a738e662c3edd1c4dac501798efe65766b7",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:eph.1.1": {
    "hash": "e52df2bbb5559049b3060d4eccbff2243e5b3eb9cbfdcc01d82b6e0dd3a95c03",
    "mentions": [
@@ -149793,7 +149838,10 @@
      "start": 158,
      "end": 164,
      "check": "055bbdbc",
-     "entry": "bplace:iudaea"
+     "candidates": [
+      "bplace:iuda",
+      "bplace:iudaea"
+     ]
     }
    ]
   },
@@ -149810,7 +149858,10 @@
      "start": 107,
      "end": 113,
      "check": "055bbdbc",
-     "entry": "bplace:iudaea"
+     "candidates": [
+      "bplace:iuda",
+      "bplace:iudaea"
+     ]
     },
     {
      "start": 146,
@@ -150198,7 +150249,9 @@
      "start": 30,
      "end": 34,
      "check": "34908e09",
-     "entry": "bpers:elias.thesbites"
+     "candidates": [
+      "bpers:elias.thesbites"
+     ]
     },
     {
      "start": 38,
@@ -150473,7 +150526,9 @@
      "start": 73,
      "end": 77,
      "check": "34908e09",
-     "entry": "bpers:elias.thesbites"
+     "candidates": [
+      "bpers:elias.thesbites"
+     ]
     }
    ]
   },
@@ -155205,14 +155260,6 @@
    "hash": "3e4496c2c0211ed9cc35071b477fa200adfff0ce4e103a00edb7b8bf910b593b",
    "mentions": [
     {
-     "start": 2,
-     "end": 10,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 36,
      "end": 42,
      "check": "64051e24",
@@ -155229,14 +155276,6 @@
   "btu:est.1.15@HEBREW": {
    "hash": "3e4496c2c0211ed9cc35071b477fa200adfff0ce4e103a00edb7b8bf910b593b",
    "mentions": [
-    {
-     "start": 2,
-     "end": 10,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 36,
      "end": 42,
@@ -161195,7 +161234,9 @@
      "start": 98,
      "end": 102,
      "check": "074af2bf",
-     "entry": "bplace:mare-rubrum"
+     "candidates": [
+      "bplace:mare-rubrum"
+     ]
     },
     {
      "start": 110,
@@ -161207,7 +161248,9 @@
      "start": 161,
      "end": 165,
      "check": "074af2bf",
-     "entry": "bplace:mare-rubrum"
+     "candidates": [
+      "bplace:mare-rubrum"
+     ]
     }
    ]
   },
@@ -162076,6 +162119,12 @@
      ]
     },
     {
+     "start": 53,
+     "end": 64,
+     "check": "91ae219a",
+     "entry": "bplace:desertum-sin"
+    },
+    {
      "start": 61,
      "end": 64,
      "check": "0250af7e",
@@ -162709,7 +162758,10 @@
      "start": 85,
      "end": 90,
      "check": "da201d5c",
-     "entry": "bplace:sinai"
+     "candidates": [
+      "bplace:desertum-sinai",
+      "bplace:sinai"
+     ]
     }
    ]
   },
@@ -162731,13 +162783,17 @@
      "start": 79,
      "end": 85,
      "check": "46d6fd93",
-     "entry": "bplace:sinai"
+     "candidates": [
+      "bplace:sinai"
+     ]
     },
     {
      "start": 134,
      "end": 140,
      "check": "46d6fd93",
-     "entry": "bplace:sinai"
+     "candidates": [
+      "bplace:sinai"
+     ]
     }
    ]
   },
@@ -169015,6 +169071,7 @@
      "end": 39,
      "check": "3ac426b5",
      "candidates": [
+      "bpers:pheltia.banaiae-filius",
       "bpers:pheltia.hananiae-filius"
      ]
     },
@@ -173430,6 +173487,12 @@
    "hash": "b9ef0c491479402c48b503000a730fabdf4e5a479df367fde387423cf45e383c",
    "mentions": [
     {
+     "start": 130,
+     "end": 152,
+     "check": "6533f001",
+     "entry": "bplace:vallis-multitudinis-gog"
+    },
+    {
      "start": 149,
      "end": 152,
      "check": "eb958fe7",
@@ -175260,19 +175323,6 @@
      "candidates": [
       "bpers:israel.populus",
       "bplace:israel.terra"
-     ]
-    }
-   ]
-  },
-  "btu:ez.7.27": {
-   "hash": "6abca90c3ccadffddf9b9cef6df6060a9624b1d2432831c9f441651551a63ec9",
-   "mentions": [
-    {
-     "start": 82,
-     "end": 90,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     }
    ]
@@ -177720,6 +177770,7 @@
      "end": 63,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     },
@@ -177798,6 +177849,7 @@
      "end": 77,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     },
@@ -177907,6 +177959,7 @@
      "end": 57,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     }
@@ -177972,6 +178025,7 @@
      "end": 78,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     }
@@ -178039,6 +178093,7 @@
      "end": 14,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     },
@@ -178693,6 +178748,17 @@
     }
    ]
   },
+  "btu:gn.14.3": {
+   "hash": "ed7c4a18e4363ffe5b25304323e75623547d6c7a798524eb89746dc12669757b",
+   "mentions": [
+    {
+     "start": 24,
+     "end": 37,
+     "check": "85c69b15",
+     "entry": "bplace:vallis-siddim"
+    }
+   ]
+  },
   "btu:gn.14.4": {
    "hash": "916e0b966372921a90f54848adfb4fe27cb768dea137dbef6fe4939c865eca2c",
    "mentions": [
@@ -178822,6 +178888,12 @@
      "end": 107,
      "check": "8741bc02",
      "entry": "bplace:segor"
+    },
+    {
+     "start": 143,
+     "end": 155,
+     "check": "743bc465",
+     "entry": "bplace:vallis-siddim"
     }
    ]
   },
@@ -178889,7 +178961,8 @@
      "end": 98,
      "check": "69b51400",
      "candidates": [
-      "bplace:aegyptus"
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
      ]
     },
     {
@@ -178941,6 +179014,7 @@
      "end": 5,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     },
@@ -179059,6 +179133,7 @@
      "end": 14,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     }
@@ -179072,6 +179147,7 @@
      "end": 111,
      "check": "ae6383c9",
      "candidates": [
+      "bpers:sara.uxor-abrahae",
       "bpers:sarai.de-filiis-bani"
      ]
     }
@@ -180572,7 +180648,9 @@
      "start": 27,
      "end": 32,
      "check": "6f9466af",
-     "entry": "bpers:ismael.filius-abrahae"
+     "candidates": [
+      "bpers:ismael.filius-abrahae"
+     ]
     },
     {
      "start": 57,
@@ -180590,7 +180668,9 @@
      "start": 136,
      "end": 141,
      "check": "6f9466af",
-     "entry": "bpers:ismael.filius-abrahae"
+     "candidates": [
+      "bpers:ismael.filius-abrahae"
+     ]
     }
    ]
   },
@@ -181339,7 +181419,10 @@
      "start": 39,
      "end": 43,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     },
     {
      "start": 58,
@@ -181362,7 +181445,10 @@
      "start": 94,
      "end": 98,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181478,7 +181564,10 @@
      "start": 94,
      "end": 98,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181506,7 +181595,10 @@
      "start": 43,
      "end": 47,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181601,7 +181693,10 @@
      "start": 94,
      "end": 98,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181612,7 +181707,10 @@
      "start": 61,
      "end": 65,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181634,7 +181732,10 @@
      "start": 19,
      "end": 23,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -181651,13 +181752,17 @@
      "start": 89,
      "end": 101,
      "check": "0198ef53",
-     "entry": "bpers:sara.uxor-abrahae"
+     "candidates": [
+      "bpers:sara.uxor-abrahae"
+     ]
     },
     {
      "start": 159,
      "end": 171,
      "check": "0198ef53",
-     "entry": "bpers:sara.uxor-abrahae"
+     "candidates": [
+      "bpers:sara.uxor-abrahae"
+     ]
     }
    ]
   },
@@ -181674,7 +181779,10 @@
      "start": 62,
      "end": 66,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -182290,7 +182398,10 @@
      "start": 21,
      "end": 25,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     },
     {
      "start": 52,
@@ -183837,7 +183948,10 @@
      "start": 69,
      "end": 73,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     },
     {
      "start": 88,
@@ -183852,7 +183966,10 @@
      "start": 113,
      "end": 117,
      "check": "f3d51254",
-     "entry": "bpers:heth"
+     "candidates": [
+      "bpers:heth",
+      "bpers:hetthaei"
+     ]
     }
    ]
   },
@@ -190720,14 +190837,6 @@
      "end": 16,
      "check": "3bc091e1",
      "entry": "bpers:ioseph.iacob-filius"
-    },
-    {
-     "start": 20,
-     "end": 26,
-     "check": "eb359609",
-     "candidates": [
-      "bpers:absque-misericordia"
-     ]
     }
    ]
   },
@@ -191242,14 +191351,6 @@
      "candidates": [
       "bpers:iacob.isaac-filius",
       "bpers:iacob.pater-ioseph"
-     ]
-    },
-    {
-     "start": 21,
-     "end": 27,
-     "check": "eb359609",
-     "candidates": [
-      "bpers:absque-misericordia"
      ]
     },
     {
@@ -196433,14 +196534,6 @@
      "end": 14,
      "check": "cb556898",
      "entry": "bpers:habacuc"
-    },
-    {
-     "start": 26,
-     "end": 34,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -199111,6 +199204,7 @@
      "end": 121,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     },
@@ -201540,6 +201634,12 @@
    "hash": "a03db42cd692a4aa5061410423bd4542834e1c64de706886f98991a7987c9c15",
    "mentions": [
     {
+     "start": 45,
+     "end": 56,
+     "check": "d6ed4ab8",
+     "entry": "bplace:vallis-sorec"
+    },
+    {
      "start": 70,
      "end": 76,
      "check": "36c2656f",
@@ -202638,6 +202738,7 @@
      "end": 47,
      "check": "bf896695",
      "candidates": [
+      "bpers:astarthe",
       "bplace:astharoth"
      ]
     }
@@ -206439,7 +206540,9 @@
      "start": 48,
      "end": 58,
      "check": "cbfa6c31",
-     "entry": "bpers:ioas.pater-gedeonis"
+     "candidates": [
+      "bpers:ioas.pater-gedeonis"
+     ]
     },
     {
      "start": 117,
@@ -206456,7 +206559,9 @@
      "start": 132,
      "end": 142,
      "check": "cbfa6c31",
-     "entry": "bpers:ioas.pater-gedeonis"
+     "candidates": [
+      "bpers:ioas.pater-gedeonis"
+     ]
     }
    ]
   },
@@ -206644,6 +206749,12 @@
      "end": 96,
      "check": "258de3ff",
      "entry": "bplace:iordanis"
+    },
+    {
+     "start": 118,
+     "end": 132,
+     "check": "8d7c6842",
+     "entry": "bplace:vallis-iezrahel"
     },
     {
      "start": 124,
@@ -207314,7 +207425,9 @@
      "start": 29,
      "end": 34,
      "check": "c3d533b5",
-     "entry": "bplace:fons-harad"
+     "candidates": [
+      "bplace:fons-harad"
+     ]
     },
     {
      "start": 53,
@@ -207329,7 +207442,9 @@
      "start": 85,
      "end": 90,
      "check": "c3d533b5",
-     "entry": "bplace:fons-harad"
+     "candidates": [
+      "bplace:fons-harad"
+     ]
     }
    ]
   },
@@ -207533,7 +207648,8 @@
      "end": 59,
      "check": "c297622f",
      "candidates": [
-      "bpers:hares.levita"
+      "bpers:hares.levita",
+      "bplace:ascensus-hares"
      ]
     }
    ]
@@ -208675,6 +208791,7 @@
      "end": 102,
      "check": "5486b08f",
      "candidates": [
+      "bplace:quercus-augurum",
       "bplace:quercus-fletus"
      ]
     }
@@ -209050,7 +209167,6 @@
      "end": 46,
      "check": "d5dbae65",
      "candidates": [
-      "bpers:boanerges",
       "bpers:iacobus.alphaei-filius",
       "bpers:iacobus.frater-domini",
       "bpers:iacobus.minor",
@@ -209289,7 +209405,9 @@
      "start": 98,
      "end": 106,
      "check": "ac8b75dd",
-     "entry": "bpers:arphaxad.sem-filius"
+     "candidates": [
+      "bpers:arphaxad.sem-filius"
+     ]
     }
    ]
   },
@@ -209404,13 +209522,17 @@
      "start": 48,
      "end": 56,
      "check": "ac8b75dd",
-     "entry": "bpers:arphaxad.sem-filius"
+     "candidates": [
+      "bpers:arphaxad.sem-filius"
+     ]
     },
     {
      "start": 131,
      "end": 139,
      "check": "ac8b75dd",
-     "entry": "bpers:arphaxad.sem-filius"
+     "candidates": [
+      "bpers:arphaxad.sem-filius"
+     ]
     }
    ]
   },
@@ -209432,7 +209554,9 @@
      "start": 9,
      "end": 17,
      "check": "ac8b75dd",
-     "entry": "bpers:arphaxad.sem-filius"
+     "candidates": [
+      "bpers:arphaxad.sem-filius"
+     ]
     }
    ]
   },
@@ -209451,7 +209575,9 @@
      "start": 54,
      "end": 62,
      "check": "ac8b75dd",
-     "entry": "bpers:arphaxad.sem-filius"
+     "candidates": [
+      "bpers:arphaxad.sem-filius"
+     ]
     }
    ]
   },
@@ -211187,6 +211313,7 @@
      "end": 120,
      "check": "63217d18",
      "candidates": [
+      "bplace:salem.convallis",
       "bplace:salem.melchisedech"
      ]
     }
@@ -213039,14 +213166,6 @@
    "hash": "33ee6bd33fe1a77081004a07f36a4e04604e6d7f55a67531aed6d56885e20a73",
    "mentions": [
     {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 54,
      "end": 58,
      "check": "d17b6b87",
@@ -214687,7 +214806,10 @@
      "start": 77,
      "end": 91,
      "check": "ab17d4e8",
-     "entry": "bplace:porta-beniamin.urbis"
+     "candidates": [
+      "bplace:porta-beniamin.superior",
+      "bplace:porta-beniamin.urbis"
+     ]
     },
     {
      "start": 83,
@@ -228912,7 +229034,10 @@
      "start": 38,
      "end": 44,
      "check": "9bcb4d87",
-     "entry": "bplace:media"
+     "candidates": [
+      "bpers:medi",
+      "bplace:media"
+     ]
     }
    ]
   },
@@ -229843,13 +229968,17 @@
      "start": 24,
      "end": 29,
      "check": "9629a8b0",
-     "entry": "bpers:sedecias.rex-iudae"
+     "candidates": [
+      "bpers:sedecias.rex-iudae"
+     ]
     },
     {
      "start": 49,
      "end": 54,
      "check": "9629a8b0",
-     "entry": "bpers:sedecias.rex-iudae"
+     "candidates": [
+      "bpers:sedecias.rex-iudae"
+     ]
     },
     {
      "start": 68,
@@ -230617,6 +230746,14 @@
    "hash": "c9497bff2c086aa3a06530ba67605d6401825513a0594c6ad9883f91afe067a9",
    "mentions": [
     {
+     "start": 34,
+     "end": 49,
+     "check": "19e26ce5",
+     "candidates": [
+      "bplace:vallis-iosaphat"
+     ]
+    },
+    {
      "start": 41,
      "end": 49,
      "check": "ef9c27e7",
@@ -230704,7 +230841,8 @@
      "end": 172,
      "check": "544034fc",
      "candidates": [
-      "bplace:settim.castra"
+      "bplace:settim.castra",
+      "bplace:settim.torrens"
      ]
     }
    ]
@@ -230755,6 +230893,14 @@
   "btu:il.4.2": {
    "hash": "8ec31a9dae30f4cddaa891d98d49cbb86a8112ff691eb1a5c3d6e1ccf5922d7d",
    "mentions": [
+    {
+     "start": 42,
+     "end": 57,
+     "check": "19e26ce5",
+     "candidates": [
+      "bplace:vallis-iosaphat"
+     ]
+    },
     {
      "start": 49,
      "end": 57,
@@ -230913,7 +231059,6 @@
      "end": 7,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -230954,7 +231099,6 @@
      "end": 30,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -231033,7 +231177,6 @@
      "end": 21,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -231190,7 +231333,6 @@
      "end": 75,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -231589,7 +231731,6 @@
      "end": 61,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -231607,7 +231748,6 @@
      "end": 47,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -231620,7 +231760,6 @@
      "end": 113,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -232976,19 +233115,6 @@
      "end": 14,
      "check": "f68f93dd",
      "entry": "bpers:iesus-christus"
-    }
-   ]
-  },
-  "btu:io.16.2": {
-   "hash": "8778d6f69ffffd9561cf24b6e4e743c48ab1c0dae3bee719061dee6685da9f9c",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 6,
-     "check": "eb359609",
-     "candidates": [
-      "bpers:absque-misericordia"
-     ]
     }
    ]
   },
@@ -234956,7 +235082,6 @@
      "end": 45,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -234974,7 +235099,6 @@
      "end": 45,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -235026,7 +235150,6 @@
      "end": 17,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -235122,7 +235245,6 @@
      "end": 107,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -235689,7 +235811,6 @@
      "end": 23,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -235707,7 +235828,6 @@
      "end": 40,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -236473,6 +236593,12 @@
      "end": 5,
      "check": "f68f93dd",
      "entry": "bpers:iesus-christus"
+    },
+    {
+     "start": 24,
+     "end": 38,
+     "check": "07dd84be",
+     "entry": "bplace:mons-oliveti"
     }
    ]
   },
@@ -237006,19 +237132,6 @@
      "end": 20,
      "check": "f3485686",
      "entry": "bpers:iob"
-    }
-   ]
-  },
-  "btu:iob.13.2": {
-   "hash": "bc37c24fef454d266f41e1bafe8abee1f31054894bfc591e8db1e09168133b2a",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -239762,6 +239875,12 @@
    "hash": "20a7ba87f77956ebea5a8c52fa3bd1ecea4a0eefbccd0d3e825a2d348b77a457",
    "mentions": [
     {
+     "start": 2,
+     "end": 13,
+     "check": "76a72248",
+     "entry": "bplace:mons-calvus"
+    },
+    {
      "start": 28,
      "end": 32,
      "check": "0ee0b936",
@@ -239777,7 +239896,10 @@
      "start": 60,
      "end": 66,
      "check": "30f15fa3",
-     "entry": "bplace:libanus"
+     "candidates": [
+      "bplace:campus-libani",
+      "bplace:libanus"
+     ]
     },
     {
      "start": 81,
@@ -239919,6 +240041,14 @@
      "end": 84,
      "check": "d5334eea",
      "entry": "bplace:anab"
+    },
+    {
+     "start": 96,
+     "end": 107,
+     "check": "90d1ee37",
+     "candidates": [
+      "bplace:mons-iudae"
+     ]
     },
     {
      "start": 102,
@@ -240623,7 +240753,10 @@
      "start": 88,
      "end": 94,
      "check": "205d9bb9",
-     "entry": "bpers:gessuraei.negeb"
+     "candidates": [
+      "bpers:gessuraei.negeb",
+      "bplace:gessur"
+     ]
     },
     {
      "start": 128,
@@ -240741,6 +240874,12 @@
      "end": 123,
      "check": "30f15fa3",
      "entry": "bplace:libanus"
+    },
+    {
+     "start": 133,
+     "end": 146,
+     "check": "49152aaa",
+     "entry": "bplace:mons-calvus"
     },
     {
      "start": 164,
@@ -240883,7 +241022,10 @@
      "start": 22,
      "end": 28,
      "check": "205d9bb9",
-     "entry": "bpers:gessuraei.negeb"
+     "candidates": [
+      "bpers:gessuraei.negeb",
+      "bplace:gessur"
+     ]
     },
     {
      "start": 58,
@@ -240968,7 +241110,10 @@
      "start": 38,
      "end": 44,
      "check": "205d9bb9",
-     "entry": "bpers:gessuraei.negeb"
+     "candidates": [
+      "bpers:gessuraei.negeb",
+      "bplace:gessur"
+     ]
     },
     {
      "start": 84,
@@ -243248,7 +243393,8 @@
      "end": 64,
      "check": "69b51400",
      "candidates": [
-      "bplace:aegyptus"
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
      ]
     },
     {
@@ -243428,7 +243574,8 @@
      "end": 99,
      "check": "69b51400",
      "candidates": [
-      "bplace:aegyptus"
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
      ]
     },
     {
@@ -245598,7 +245745,10 @@
      "start": 18,
      "end": 23,
      "check": "8a69c15b",
-     "entry": "bplace:ierusalem"
+     "candidates": [
+      "bpers:iebusaei",
+      "bplace:ierusalem"
+     ]
     },
     {
      "start": 34,
@@ -246238,6 +246388,12 @@
       "bpers:zabulon.tribus",
       "bplace:zabulon"
      ]
+    },
+    {
+     "start": 74,
+     "end": 90,
+     "check": "4cae411b",
+     "entry": "bplace:vallis-iephthael"
     },
     {
      "start": 111,
@@ -247285,6 +247441,14 @@
      ]
     },
     {
+     "start": 115,
+     "end": 126,
+     "check": "90d1ee37",
+     "candidates": [
+      "bplace:mons-iudae"
+     ]
+    },
+    {
      "start": 121,
      "end": 126,
      "check": "8df4c8b4",
@@ -247501,6 +247665,14 @@
       "bpers:hebron.caath-filius",
       "bpers:hebron.maresa-filius",
       "bplace:hebron"
+     ]
+    },
+    {
+     "start": 72,
+     "end": 83,
+     "check": "90d1ee37",
+     "candidates": [
+      "bplace:mons-iudae"
      ]
     },
     {
@@ -248228,7 +248400,8 @@
      "end": 37,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     },
     {
@@ -248338,7 +248511,8 @@
      "end": 25,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     },
     {
@@ -251931,13 +252105,17 @@
      "start": 45,
      "end": 53,
      "check": "7f89e19f",
-     "entry": "bplace:hai"
+     "candidates": [
+      "bplace:hai"
+     ]
     },
     {
      "start": 121,
      "end": 129,
      "check": "7f89e19f",
-     "entry": "bplace:hai"
+     "candidates": [
+      "bplace:hai"
+     ]
     }
    ]
   },
@@ -252223,6 +252401,12 @@
       "bpers:israel.populus",
       "bplace:israel.terra"
      ]
+    },
+    {
+     "start": 53,
+     "end": 64,
+     "check": "323cf8e7",
+     "entry": "bplace:mons-hebal"
     }
    ]
   },
@@ -252294,6 +252478,12 @@
      "end": 234,
      "check": "bb5c8446",
      "entry": "bplace:garizim"
+    },
+    {
+     "start": 250,
+     "end": 262,
+     "check": "6759e8b8",
+     "entry": "bplace:mons-hebal"
     },
     {
      "start": 282,
@@ -253191,7 +253381,8 @@
      "end": 86,
      "check": "16693f40",
      "candidates": [
-      "bpers:oreb"
+      "bpers:oreb",
+      "bplace:petra-oreb"
      ]
     },
     {
@@ -254225,6 +254416,12 @@
   "btu:is.17.5": {
    "hash": "b802faa4a9d8e42d0ca67e9baac542bd55ddc1dc3b84131bdb33ce94558253dd",
    "mentions": [
+    {
+     "start": 115,
+     "end": 128,
+     "check": "97f59860",
+     "entry": "bplace:vallis-raphaim"
+    },
     {
      "start": 121,
      "end": 128,
@@ -255405,7 +255602,10 @@
      "start": 75,
      "end": 82,
      "check": "69b51400",
-     "entry": "bplace:aegyptus"
+     "candidates": [
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
+     ]
     },
     {
      "start": 126,
@@ -259164,19 +259364,6 @@
     }
    ]
   },
-  "btu:is.59.18": {
-   "hash": "c8f4f389d4cace6ceee9d87be54161d35ee8097f34a9c51d080459b99ae4bd75",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:is.59.20": {
    "hash": "f8c4f8e5cf7ab677062d0b34e2e15dafeca795b7e39eb7dcbe2976bf52508a11",
    "mentions": [
@@ -261061,7 +261248,6 @@
      "end": 159,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -261642,7 +261828,6 @@
      "end": 66,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -261660,7 +261845,6 @@
      "end": 50,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -261989,7 +262173,6 @@
      "end": 140,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -262335,7 +262518,6 @@
      "end": 33,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -262558,19 +262740,6 @@
      "end": 23,
      "check": "23ea1b1b",
      "entry": "bpers:lot"
-    }
-   ]
-  },
-  "btu:lc.17.30": {
-   "hash": "ab2c0cb0dd32850f00861f3baedb57cd0f75e0103687ca4f3358f567b55f11a8",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -262811,6 +262980,17 @@
      "end": 87,
      "check": "58ec2c83",
      "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:lc.19.37": {
+   "hash": "fb8253ecd8acd4f329f5244a481fc4b4e07f49e29ac33ffc14be14a3c8cfcbcf",
+   "mentions": [
+    {
+     "start": 39,
+     "end": 53,
+     "check": "f7755416",
+     "entry": "bplace:mons-oliveti"
     }
    ]
   },
@@ -263366,7 +263546,6 @@
      "end": 17,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -263426,7 +263605,6 @@
      "end": 89,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -264458,7 +264636,6 @@
      "end": 75,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -264578,7 +264755,6 @@
      "end": 46,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -265523,7 +265699,6 @@
      "end": 37,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -265663,7 +265838,6 @@
      "end": 44,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -265749,7 +265923,10 @@
      "start": 65,
      "end": 83,
      "check": "bb65c2d6",
-     "entry": "bpers:boanerges"
+     "candidates": [
+      "bpers:boanerges",
+      "bpers:iacobus.zebedaei-filius"
+     ]
     },
     {
      "start": 76,
@@ -265889,19 +266066,6 @@
     }
    ]
   },
-  "btu:lc.6.26": {
-   "hash": "475f498423b3fed55bff2b96cb4f4a06af7f3c0090ab26ba0872d9e933270c4c",
-   "mentions": [
-    {
-     "start": 44,
-     "end": 52,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:lc.6.3": {
    "hash": "1f11899646b219d937e4eed6ca7228f313df5632f486143221f3ae8d0a0eef7b",
    "mentions": [
@@ -265959,13 +266123,17 @@
      "start": 32,
      "end": 41,
      "check": "9c6883e4",
-     "entry": "bplace:naim"
+     "candidates": [
+      "bplace:naim"
+     ]
     },
     {
      "start": 128,
      "end": 137,
      "check": "9c6883e4",
-     "entry": "bplace:naim"
+     "candidates": [
+      "bplace:naim"
+     ]
     }
    ]
   },
@@ -265988,7 +266156,6 @@
      "end": 22,
      "check": "76a26976",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266006,7 +266173,6 @@
      "end": 45,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266043,7 +266209,6 @@
      "end": 51,
      "check": "76a26976",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266061,7 +266226,6 @@
      "end": 35,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266075,7 +266239,6 @@
      "end": 60,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266093,7 +266256,6 @@
      "end": 45,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266111,7 +266273,6 @@
      "end": 86,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266446,7 +266607,6 @@
      "end": 81,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266548,7 +266708,6 @@
      "end": 79,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266688,7 +266847,6 @@
      "end": 24,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266744,14 +266902,7 @@
      "start": 41,
      "end": 48,
      "check": "e4c19351",
-     "candidates": [
-      "bpers:boanerges",
-      "bpers:ioannes-baptista",
-      "bpers:ioannes-marcus",
-      "bpers:ioannes.apostolus",
-      "bpers:ioannes.de-genere-sacerdotali",
-      "bpers:marcus"
-     ]
+     "entry": "bpers:ioannes.apostolus"
     }
    ]
   },
@@ -266806,7 +266957,6 @@
      "end": 108,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -266845,7 +266995,6 @@
      "end": 25,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -269521,6 +269670,12 @@
      ]
     },
     {
+     "start": 116,
+     "end": 129,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
+    {
      "start": 124,
      "end": 129,
      "check": "da201d5c",
@@ -270271,7 +270426,6 @@
      "end": 35,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270335,7 +270489,6 @@
      "end": 36,
      "check": "30150311",
      "candidates": [
-      "bpers:boanerges",
       "bpers:iacobus.alphaei-filius",
       "bpers:iacobus.frater-domini",
       "bpers:iacobus.minor",
@@ -270354,7 +270507,6 @@
      "end": 56,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270460,7 +270612,6 @@
      "end": 93,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270549,7 +270700,6 @@
      "end": 15,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270593,7 +270743,6 @@
      "end": 102,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270772,14 +270921,16 @@
      "start": 19,
      "end": 37,
      "check": "927e4abe",
-     "entry": "bpers:boanerges"
+     "candidates": [
+      "bpers:boanerges",
+      "bpers:iacobus.zebedaei-filius"
+     ]
     },
     {
      "start": 30,
      "end": 37,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -270842,7 +270993,6 @@
      "end": 58,
      "check": "005a33a6",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -271096,7 +271246,6 @@
      "end": 17,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -271115,7 +271264,6 @@
      "end": 84,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -271272,19 +271420,6 @@
     }
    ]
   },
-  "btu:mc.12.31": {
-   "hash": "75f22142c3b88e1832ab0464cda7315c9d52c24f04aabc982e90ae4b3b1d74f8",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:mc.12.32": {
    "hash": "257ffa8f806788514fb86f656c67ba8d69d2e69405c137372a5717598abd7152",
    "mentions": [
@@ -271429,7 +271564,6 @@
      "end": 105,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -271592,14 +271726,16 @@
      "start": 21,
      "end": 39,
      "check": "bb65c2d6",
-     "entry": "bpers:boanerges"
+     "candidates": [
+      "bpers:boanerges",
+      "bpers:iacobus.zebedaei-filius"
+     ]
     },
     {
      "start": 32,
      "end": 39,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -272364,7 +272500,6 @@
      "end": 26,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -272378,7 +272513,6 @@
      "end": 102,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -272499,14 +272633,7 @@
      "start": 3,
      "end": 10,
      "check": "30150311",
-     "candidates": [
-      "bpers:boanerges",
-      "bpers:iacobus.alphaei-filius",
-      "bpers:iacobus.frater-domini",
-      "bpers:iacobus.minor",
-      "bpers:iacobus.pater-iudae",
-      "bpers:iacobus.zebedaei-filius"
-     ]
+     "entry": "bpers:iacobus.zebedaei-filius"
     },
     {
      "start": 11,
@@ -272518,27 +272645,13 @@
      "start": 23,
      "end": 30,
      "check": "06c946a2",
-     "candidates": [
-      "bpers:boanerges",
-      "bpers:ioannes-baptista",
-      "bpers:ioannes-marcus",
-      "bpers:ioannes.apostolus",
-      "bpers:ioannes.de-genere-sacerdotali",
-      "bpers:marcus"
-     ]
+     "entry": "bpers:ioannes.apostolus"
     },
     {
      "start": 39,
      "end": 45,
      "check": "d5dbae65",
-     "candidates": [
-      "bpers:boanerges",
-      "bpers:iacobus.alphaei-filius",
-      "bpers:iacobus.frater-domini",
-      "bpers:iacobus.minor",
-      "bpers:iacobus.pater-iudae",
-      "bpers:iacobus.zebedaei-filius"
-     ]
+     "entry": "bpers:iacobus.zebedaei-filius"
     },
     {
      "start": 70,
@@ -272953,7 +273066,6 @@
      "end": 56,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -272977,7 +273089,6 @@
      "end": 41,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -273001,7 +273112,6 @@
      "end": 20,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -273046,7 +273156,6 @@
      "end": 29,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -273539,7 +273648,6 @@
      "end": 59,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -273625,7 +273733,6 @@
      "end": 18,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -274607,14 +274714,6 @@
   "btu:mich.7.15": {
    "hash": "b46d1d8c5b0c42598900aef0663fb41d8336650007e24fd5eb5666576dd42953",
    "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 40,
      "end": 47,
@@ -275816,7 +275915,6 @@
      "end": 44,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -275845,7 +275943,6 @@
      "end": 18,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -275975,7 +276072,6 @@
      "end": 57,
      "check": "76a26976",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -276337,7 +276433,6 @@
      "end": 30,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -276456,7 +276551,6 @@
      "end": 27,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -276513,7 +276607,6 @@
      "end": 25,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -277006,7 +277099,8 @@
      "end": 59,
      "check": "bb65c2d6",
      "candidates": [
-      "bpers:boanerges"
+      "bpers:boanerges",
+      "bpers:iacobus.zebedaei-filius"
      ]
     },
     {
@@ -278026,6 +278120,12 @@
      "entry": "bplace:bethfage"
     },
     {
+     "start": 63,
+     "end": 77,
+     "check": "07dd84be",
+     "entry": "bplace:mons-oliveti"
+    },
+    {
      "start": 84,
      "end": 89,
      "check": "f68f93dd",
@@ -278136,7 +278236,6 @@
      "end": 17,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -278155,7 +278254,6 @@
      "end": 77,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -278206,7 +278304,6 @@
      "end": 25,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -278349,19 +278446,6 @@
      "end": 9,
      "check": "78ace2e8",
      "entry": "bpers:pharisaei"
-    }
-   ]
-  },
-  "btu:mt.22.39": {
-   "hash": "8bbf4d94f9c05ec8e5d47b55d523e1274c342a362fe77b6ee72e41d54ea702ae",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -278553,6 +278637,17 @@
      "end": 95,
      "check": "181d7ee1",
      "entry": "bpers:iesus-christus"
+    }
+   ]
+  },
+  "btu:mt.24.3": {
+   "hash": "d154baaacfcc2fd531c9cfb2ff7c94c4b3904d8293175160fd4bfc7f0af75544",
+   "mentions": [
+    {
+     "start": 23,
+     "end": 37,
+     "check": "07dd84be",
+     "entry": "bplace:mons-oliveti"
     }
    ]
   },
@@ -278800,6 +278895,17 @@
      "end": 113,
      "check": "07789548",
      "entry": "bpers:caiphas"
+    }
+   ]
+  },
+  "btu:mt.26.30": {
+   "hash": "a33426ea7a9bc7da23c560998dcdf618da43d5b3f47b717d4830a25f9f902bae",
+   "mentions": [
+    {
+     "start": 28,
+     "end": 42,
+     "check": "07dd84be",
+     "entry": "bplace:mons-oliveti"
     }
    ]
   },
@@ -279907,7 +280013,6 @@
      "end": 50,
      "check": "06c946a2",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -280047,7 +280152,6 @@
      "end": 31,
      "check": "e4c19351",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -280636,7 +280740,6 @@
      "end": 38,
      "check": "a4411268",
      "candidates": [
-      "bpers:boanerges",
       "bpers:ioannes-baptista",
       "bpers:ioannes-marcus",
       "bpers:ioannes.apostolus",
@@ -280744,19 +280847,6 @@
      "end": 70,
      "check": "f68f93dd",
      "entry": "bpers:iesus-christus"
-    }
-   ]
-  },
-  "btu:mt.9.29": {
-   "hash": "b5de55f4f1828f9563653d6b70ff3fadd4b6aec17079229013432331284a06a0",
-   "mentions": [
-    {
-     "start": 35,
-     "end": 43,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -285744,6 +285834,7 @@
      "end": 6,
      "check": "8497b4b3",
      "candidates": [
+      "bplace:porta-piscium",
       "bplace:porta-vallis"
      ]
     },
@@ -288327,6 +288418,12 @@
      "entry": "bpers:moyses"
     },
     {
+     "start": 36,
+     "end": 49,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
+    {
      "start": 44,
      "end": 49,
      "check": "da201d5c",
@@ -288580,6 +288677,12 @@
      "end": 31,
      "check": "baaf4ff6",
      "entry": "bpers:moyses"
+    },
+    {
+     "start": 53,
+     "end": 66,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
     },
     {
      "start": 61,
@@ -289173,6 +289276,12 @@
       "bpers:israel.populus",
       "bplace:israel.terra"
      ]
+    },
+    {
+     "start": 54,
+     "end": 67,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
     },
     {
      "start": 62,
@@ -290441,6 +290550,12 @@
    "hash": "3532c9542d5deac89fc90b15a3c0bd4a091c6acd587c5d89c5ce13d5c92737be",
    "mentions": [
     {
+     "start": 44,
+     "end": 55,
+     "check": "91ae219a",
+     "entry": "bplace:desertum-sin"
+    },
+    {
      "start": 52,
      "end": 55,
      "check": "0250af7e",
@@ -291260,19 +291375,6 @@
      "end": 29,
      "check": "0037d847",
      "entry": "bpers:moyses"
-    }
-   ]
-  },
-  "btu:nm.15.12": {
-   "hash": "4b3c8216b7f3956068a62b9c446cd3c04f60257e5afa05e6cb4c1a2e74c9a905",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -293484,10 +293586,16 @@
      ]
     },
     {
+     "start": 46,
+     "end": 56,
+     "check": "42c901fe",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 53,
      "end": 56,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     }
    ]
   },
@@ -293507,10 +293615,16 @@
      "entry": "bpers:aaron"
     },
     {
+     "start": 46,
+     "end": 55,
+     "check": "047e79ee",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 52,
      "end": 55,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     },
     {
      "start": 83,
@@ -293554,10 +293668,16 @@
      "entry": "bpers:aaron"
     },
     {
+     "start": 60,
+     "end": 70,
+     "check": "42c901fe",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 67,
      "end": 70,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     }
    ]
   },
@@ -293582,10 +293702,16 @@
      "entry": "bpers:moyses"
     },
     {
+     "start": 56,
+     "end": 66,
+     "check": "42c901fe",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 63,
      "end": 66,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     }
    ]
   },
@@ -294304,10 +294430,16 @@
    "hash": "f2177d3fd1351e7af0f831f3f1e10960067d53256350e32e4ca828cdd5f54052",
    "mentions": [
     {
+     "start": 26,
+     "end": 35,
+     "check": "047e79ee",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 32,
      "end": 35,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     },
     {
      "start": 95,
@@ -297059,19 +297191,6 @@
     }
    ]
   },
-  "btu:nm.26.55": {
-   "hash": "f70d98475617c5e77119918fc89a5f8c03f37605b372273babd7de31ae117be9",
-   "mentions": [
-    {
-     "start": 38,
-     "end": 46,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:nm.26.57": {
    "hash": "d89ba43555433cfc1d057d94704666d36d7502c51fce2ee198a14c6fcfc403de",
    "mentions": [
@@ -297387,6 +297506,12 @@
      "end": 69,
      "check": "324a17d2",
      "entry": "bpers:aaron"
+    },
+    {
+     "start": 73,
+     "end": 86,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
     },
     {
      "start": 81,
@@ -297709,6 +297834,12 @@
    "hash": "f8d269f1b7562003450a8787ee4662d0537ae6fbd05eac22c908736f5495e821",
    "mentions": [
     {
+     "start": 23,
+     "end": 34,
+     "check": "91ae219a",
+     "entry": "bplace:desertum-sin"
+    },
+    {
      "start": 31,
      "end": 34,
      "check": "0250af7e",
@@ -297722,6 +297853,12 @@
      "end": 151,
      "check": "d1a7b03b",
      "entry": "bplace:meriba.cades"
+    },
+    {
+     "start": 152,
+     "end": 163,
+     "check": "61049f80",
+     "entry": "bplace:desertum-sin"
     },
     {
      "start": 160,
@@ -298051,6 +298188,12 @@
      "entry": "bpers:moyses"
     },
     {
+     "start": 36,
+     "end": 49,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
+    {
      "start": 44,
      "end": 49,
      "check": "da201d5c",
@@ -298305,7 +298448,8 @@
      "end": 5,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     }
    ]
@@ -298318,7 +298462,8 @@
      "end": 23,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     }
    ]
@@ -298458,6 +298603,12 @@
      "end": 30,
      "check": "9bb4410d",
      "entry": "bpers:abiu"
+    },
+    {
+     "start": 83,
+     "end": 96,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
     },
     {
      "start": 91,
@@ -300236,6 +300387,12 @@
    "hash": "9d53d8054723d953a80bc53352ef72a66461d40f1c19f3e04cedf7feaf0d238a",
    "mentions": [
     {
+     "start": 21,
+     "end": 32,
+     "check": "91ae219a",
+     "entry": "bplace:desertum-sin"
+    },
+    {
      "start": 29,
      "end": 32,
      "check": "0250af7e",
@@ -300301,6 +300458,12 @@
      "entry": "bplace:raphidim"
     },
     {
+     "start": 45,
+     "end": 58,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
+    {
      "start": 53,
      "end": 58,
      "check": "da201d5c",
@@ -300318,6 +300481,7 @@
      "end": 26,
      "check": "da201d5c",
      "candidates": [
+      "bplace:desertum-sinai",
       "bplace:sinai"
      ]
     },
@@ -300436,9 +300600,26 @@
     }
    ]
   },
+  "btu:nm.33.23": {
+   "hash": "4ed85a88b0cbdcfb10696c4d2f2cae52de37c84506e90a4ab7f7cc087e1402a6",
+   "mentions": [
+    {
+     "start": 35,
+     "end": 47,
+     "check": "f53be7a1",
+     "entry": "bplace:mons-sepher"
+    }
+   ]
+  },
   "btu:nm.33.24": {
    "hash": "9ba15b6e21c3f028f31e9cd21417ada8f819749f19fff95deaf4e932075dc824",
    "mentions": [
+    {
+     "start": 11,
+     "end": 23,
+     "check": "f53be7a1",
+     "entry": "bplace:mons-sepher"
+    },
     {
      "start": 36,
      "end": 41,
@@ -300660,10 +300841,16 @@
      "entry": "bplace:cades.barne"
     },
     {
+     "start": 41,
+     "end": 50,
+     "check": "047e79ee",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 47,
      "end": 50,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     },
     {
      "start": 78,
@@ -300687,10 +300874,16 @@
      "entry": "bpers:aaron"
     },
     {
+     "start": 30,
+     "end": 40,
+     "check": "42c901fe",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 37,
      "end": 40,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     },
     {
      "start": 116,
@@ -300750,10 +300943,16 @@
    "hash": "b10c3e31062b302e25f4bf45eef4677f2b177acd53cd397c760f692cebf68287",
    "mentions": [
     {
+     "start": 15,
+     "end": 24,
+     "check": "047e79ee",
+     "entry": "bplace:mons-hor.edom"
+    },
+    {
      "start": 21,
      "end": 24,
      "check": "fd44e04a",
-     "entry": "bplace:hor.septentrionalis"
+     "entry": "bplace:mons-hor.edom"
     },
     {
      "start": 46,
@@ -301724,7 +301923,8 @@
      "end": 64,
      "check": "69b51400",
      "candidates": [
-      "bplace:aegyptus"
+      "bplace:aegyptus",
+      "bplace:torrens-aegypti"
      ]
     }
    ]
@@ -301732,6 +301932,12 @@
   "btu:nm.34.7": {
    "hash": "8b703ea941b1de5ae992a57496bfdad7867d9dcb1c88ff57a7af4a7daa70798e",
    "mentions": [
+    {
+     "start": 85,
+     "end": 95,
+     "check": "42c901fe",
+     "entry": "bplace:mons-hor.libani"
+    },
     {
      "start": 92,
      "end": 95,
@@ -302490,7 +302696,8 @@
      "end": 32,
      "check": "6b907133",
      "candidates": [
-      "bpers:caath"
+      "bpers:caath",
+      "bpers:caathitae"
      ]
     },
     {
@@ -303859,6 +304066,12 @@
      "entry": "bpers:moyses"
     },
     {
+     "start": 33,
+     "end": 46,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
+    {
      "start": 41,
      "end": 46,
      "check": "da201d5c",
@@ -303980,6 +304193,12 @@
   "btu:nm.9.5": {
    "hash": "ca888172768ac33458bed03193048f21e29c5f313da1a05340bd4fa0f095559c",
    "mentions": [
+    {
+     "start": 65,
+     "end": 78,
+     "check": "1871c184",
+     "entry": "bplace:desertum-sinai"
+    },
     {
      "start": 73,
      "end": 78,
@@ -304255,6 +304474,12 @@
       "bpers:israel.populus",
       "bplace:israel.terra"
      ]
+    },
+    {
+     "start": 40,
+     "end": 54,
+     "check": "8d7c6842",
+     "entry": "bplace:vallis-iezrahel"
     },
     {
      "start": 46,
@@ -305416,19 +305641,6 @@
     }
    ]
   },
-  "btu:os.4.7": {
-   "hash": "c2cd7b5406330ff7977f83a3510527acc11143685084cb9ee333cc610e19ff67",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:os.5.1": {
    "hash": "12ef01743b3192dcae0d2938176c65e5838ed3bbd1c7a4cd7e047313739094c0",
    "mentions": [
@@ -306413,14 +306625,6 @@
      "candidates": [
       "bpers:israel.populus",
       "bplace:israel.terra"
-     ]
-    },
-    {
-     "start": 130,
-     "end": 138,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     }
    ]
@@ -308509,32 +308713,6 @@
     }
    ]
   },
-  "btu:ps.119.88": {
-   "hash": "82215808ecfd6493d04a919d6702716f450948c63944e97cec47a640c4194579",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
-  "btu:ps.119.91": {
-   "hash": "9ad056abd64e4ae9e8ceeb8c74866edeb5213948a5af8a52b3e14760e1c90e41",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:ps.12.1": {
    "hash": "c03177edc967394e9bfb3c0cdc794ce4a29ebd3de92f8bce53f65b76b70527ec",
    "mentions": [
@@ -309865,19 +310043,6 @@
     }
    ]
   },
-  "btu:ps.28.4": {
-   "hash": "d170b01a4b9692a0836b3f06742858dbee9e23265b9cbb2f4f783847570bcda6",
-   "mentions": [
-    {
-     "start": 75,
-     "end": 83,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:ps.29.1": {
    "hash": "3ac2cbb4d6dbc8a9f90e0686e4a577728b0d0e04f6a4ad3107f1712a8e3755ad",
    "mentions": [
@@ -310210,14 +310375,6 @@
    "hash": "883b4ce838356dacdaf45a769aff30b9ca9f2792ba37b5eef86ad5db0165088a",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 48,
      "end": 52,
      "check": "70ea1983",
@@ -310272,14 +310429,6 @@
       "bpers:core.hebron-filius",
       "bpers:core.iemna-filius",
       "bpers:core.isaar-filius"
-     ]
-    },
-    {
-     "start": 31,
-     "end": 39,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     }
    ]
@@ -310368,19 +310517,6 @@
       "bpers:core.hebron-filius",
       "bpers:core.iemna-filius",
       "bpers:core.isaar-filius"
-     ]
-    }
-   ]
-  },
-  "btu:ps.48.11": {
-   "hash": "fdcb1cf89b7be808a7e363887c25f3176a207f1d4e3ba4d53ff6b4c9cec4ed87",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     }
    ]
@@ -310632,14 +310768,6 @@
    "hash": "22d7679e4a990b844f76d20105c9634a302047df152ef9fc0325c643e86031ff",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 46,
      "end": 51,
      "check": "a6b54c20",
@@ -310734,14 +310862,6 @@
    "hash": "e81a9286c2d27dade92023e4d7cb45c158a9125eae7667e7112cd39f37896590",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 49,
      "end": 54,
      "check": "a6b54c20",
@@ -310752,14 +310872,6 @@
   "btu:ps.57.1": {
    "hash": "7ca2196af4f307525f0cf3b67bbeb67ac1983780833062cdc1a77ea7bf3a5f1b",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 45,
      "end": 50,
@@ -310784,14 +310896,6 @@
    "hash": "4ff2a63b156cd7d4b9bde3d10184e1e7e2f1cc46de11229d3c5804589d61ab76",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 45,
      "end": 50,
      "check": "a6b54c20",
@@ -310802,14 +310906,6 @@
   "btu:ps.59.1": {
    "hash": "0c5637ead34f49d0455f0b7f30a2a295a6dca06e3da9df6fa88775c97c75022f",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 45,
      "end": 50,
@@ -310872,14 +310968,6 @@
   "btu:ps.60.1": {
    "hash": "2439a96dca011d1d57bad3e30a2d111419316044c46b202c6593f892608ae930",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 55,
      "end": 60,
@@ -310982,6 +311070,12 @@
       "bpers:esau",
       "bplace:edom"
      ]
+    },
+    {
+     "start": 95,
+     "end": 106,
+     "check": "cb9855c5",
+     "entry": "bplace:vallis-salis"
     }
    ]
   },
@@ -311075,14 +311169,6 @@
   "btu:ps.62.1": {
    "hash": "d5431acebd08fae37199cdcb39f12edcba3b8cfe35034df5f84d00c91e693b92",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 43,
      "end": 48,
@@ -311402,14 +311488,6 @@
    "hash": "653d93e5a41ea2d3ba7c269741de3df63c125428945cb43dda9918bb41292a37",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 39,
      "end": 44,
      "check": "a6b54c20",
@@ -311626,14 +311704,6 @@
    "hash": "488c0d684a7273def7894bfef7b109197f07285bbaff396f25cdd96cc73de02e",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 54,
      "end": 59,
      "check": "582ccad3",
@@ -311728,14 +311798,6 @@
   "btu:ps.77.1": {
    "hash": "63340b9e8f32f43b4c67f19fe42f2915ecc42edc7ffcc725d85719be969f0c13",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 25,
      "end": 32,
@@ -311948,7 +312010,8 @@
      "end": 90,
      "check": "d63d1102",
      "candidates": [
-      "bpers:cham"
+      "bpers:cham",
+      "bplace:terra-cham"
      ]
     }
    ]
@@ -312186,14 +312249,6 @@
    "hash": "8336f7160edb2550ebcaf20c0ecb24eb6eb42590b0f1cd4edb6eae42f0f20497",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 47,
      "end": 52,
      "check": "582ccad3",
@@ -312294,14 +312349,6 @@
   "btu:ps.81.1": {
    "hash": "7ccf27d93fe874581bd49384c1663c95e7b1269423c91866aa711a6f27843577",
    "mentions": [
-    {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 44,
      "end": 49,
@@ -312641,14 +312688,6 @@
    "hash": "e4fdd9ca96bcdcdf8019493ab1a14798bb708413fa6ec59e65fe10bd6c196e3b",
    "mentions": [
     {
-     "start": 16,
-     "end": 24,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
-    {
      "start": 50,
      "end": 54,
      "check": "70ea1983",
@@ -312829,14 +312868,6 @@
       "bpers:core.hebron-filius",
       "bpers:core.iemna-filius",
       "bpers:core.isaar-filius"
-     ]
-    },
-    {
-     "start": 50,
-     "end": 58,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
      ]
     },
     {
@@ -313504,19 +313535,6 @@
     }
    ]
   },
-  "btu:rom.11.28": {
-   "hash": "63a61ebc2b81e382834844ed1f8fbc38c9d98319298d365ffd6f8168828167bc",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:rom.11.4": {
    "hash": "498b2a4cfb61a490cd1b2b2e6a0728d5e99b8139042aeb9d735403ff305bedb7",
    "mentions": [
@@ -313638,6 +313656,7 @@
      "end": 16,
      "check": "be979042",
      "candidates": [
+      "bpers:isai",
       "bpers:isaias.propheta"
      ]
     }
@@ -314264,19 +314283,6 @@
     }
    ]
   },
-  "btu:rom.2.5": {
-   "hash": "70a21e1e9794b5294b49028fc25bec8866471f69a5f84f64c17b00f416d5c767",
-   "mentions": [
-    {
-     "start": 0,
-     "end": 8,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    }
-   ]
-  },
   "btu:rom.2.9": {
    "hash": "871e1ebc094349100059b3fd2060feb11fd0d04eec3ac97b18fb3e07780011b2",
    "mentions": [
@@ -314333,19 +314339,6 @@
      "end": 127,
      "check": "8bea4a2b",
      "entry": "bpers:iesus-christus"
-    }
-   ]
-  },
-  "btu:rom.3.5": {
-   "hash": "82749db7d3898a12bc6ec01eb51b2c2b66fd749234998e402100cc2c71c2d44a",
-   "mentions": [
-    {
-     "start": 106,
-     "end": 114,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
     }
    ]
   },
@@ -314497,13 +314490,17 @@
      "start": 46,
      "end": 51,
      "check": "889ad6c8",
-     "entry": "bpers:adam"
+     "candidates": [
+      "bpers:adam"
+     ]
     },
     {
      "start": 121,
      "end": 126,
      "check": "889ad6c8",
-     "entry": "bpers:adam"
+     "candidates": [
+      "bpers:adam"
+     ]
     },
     {
      "start": 135,
@@ -315092,14 +315089,6 @@
   "btu:rom.9.9": {
    "hash": "455a9546227ac74b0caf7b8baa79dd51ac47dbb7712dc7f566911c5b1fc1e797",
    "mentions": [
-    {
-     "start": 36,
-     "end": 44,
-     "check": "5aba9fe8",
-     "candidates": [
-      "bpers:secundus"
-     ]
-    },
     {
      "start": 72,
      "end": 77,
@@ -320578,14 +320567,6 @@
   "btu:zach.2.8": {
    "hash": "655d494ab561d66e55644570f9a7d75906b9f3118b58d705e00c7d4fea57bf07",
    "mentions": [
-    {
-     "start": 57,
-     "end": 63,
-     "check": "eb359609",
-     "candidates": [
-      "bpers:absque-misericordia"
-     ]
-    },
     {
      "start": 82,
      "end": 91,

@@ -312,7 +312,6 @@
    "Absque misericordiae",
    "Absque misericordiæ",
    "Absque misericordiam",
-   "Absque",
    "misericordia",
    "misericordiae",
    "misericordiæ",
@@ -2780,18 +2779,7 @@
    "Iacobo et Ioanni",
    "Iacobum et Ioannem",
    "Iacobo et Ioanne",
-   "Iacobe et Ioannes",
-   "Iacobus",
-   "Iacobi",
-   "Iacobo",
-   "Iacobum",
-   "Iacobe",
-   "Ioannes",
-   "Ioannis",
-   "Ioanni",
-   "Ioannem",
-   "Ioanne",
-   "Ioannen"
+   "Iacobe et Ioannes"
   ],
   "bpers:bocci.iogli-filius": [
    "Bocci"
@@ -5406,7 +5394,8 @@
    "Heli",
    "Helem",
    "Hele",
-   "Helen"
+   "Helen",
+   "Helles"
   ],
   "bpers:heli.pater-ioseph": [
    "Heli"
@@ -10959,7 +10948,8 @@
    "Raphaiam"
   ],
   "bpers:raphaim": [
-   "Raphaim"
+   "Raphaim",
+   "Rapha"
   ],
   "bpers:raphu": [
    "Raphu"
@@ -11938,7 +11928,6 @@
    "Secundus",
    "Secundi",
    "Secundo",
-   "Secundum",
    "Secunde"
   ],
   "bpers:sedecias.chanaanae-filius": [
@@ -15791,10 +15780,14 @@
   ],
   "bplace:desertum-sin": [
    "desertum Sin",
+   "deserti Sin",
+   "deserto Sin",
    "desertum"
   ],
   "bplace:desertum-sinai": [
    "desertum Sinai",
+   "deserti Sinai",
+   "deserto Sinai",
    "desertum"
   ],
   "bplace:dibon.iudae": [
@@ -17138,15 +17131,25 @@
    "Maram"
   ],
   "bplace:mare-magnum": [
-   "mare Magnum"
+   "mare Magnum",
+   "maris Magnum",
+   "mari Magnum"
   ],
   "bplace:mare-mortuum": [
    "Mare Salis",
+   "Maris Salis",
+   "Mari Salis",
    "mare Arabæ",
-   "mare Arabae"
+   "mare Arabae",
+   "maris Arabæ",
+   "maris Arabae",
+   "mari Arabæ",
+   "mari Arabae"
   ],
   "bplace:mare-rubrum": [
-   "Mare Rubrum"
+   "Mare Rubrum",
+   "Maris Rubrum",
+   "Mari Rubrum"
   ],
   "bplace:maresa": [
    "Maresa",
@@ -17355,41 +17358,75 @@
   ],
   "bplace:mons-calvus": [
    "mons Calvus",
-   "mons Calvi",
-   "mons Calvo",
-   "mons Calvum",
+   "montis Calvi",
+   "monti Calvo",
+   "montem Calvum",
+   "monte Calvo",
    "mons Calve",
    "mons"
   ],
   "bplace:mons-esau": [
    "mons Esau",
+   "montis Esau",
+   "monti Esau",
+   "montem Esau",
+   "monte Esau",
    "mons"
   ],
   "bplace:mons-hebal": [
    "mons Hebal",
+   "montis Hebal",
+   "monti Hebal",
+   "montem Hebal",
+   "monte Hebal",
    "mons"
   ],
   "bplace:mons-hor.edom": [
    "mons Hor",
-   "mons"
+   "montis Hor",
+   "monti Hor",
+   "montem Hor",
+   "monte Hor",
+   "mons",
+   "Hor"
   ],
   "bplace:mons-hor.libani": [
    "mons Hor",
+   "montis Hor",
+   "monti Hor",
+   "montem Hor",
+   "monte Hor",
    "mons"
   ],
   "bplace:mons-iudae": [
    "mons Iudae",
    "mons Iudæ",
+   "montis Iudae",
+   "montis Iudæ",
+   "monti Iudae",
+   "monti Iudæ",
+   "montem Iudae",
+   "montem Iudæ",
+   "monte Iudae",
+   "monte Iudæ",
    "mons"
   ],
   "bplace:mons-oliveti": [
    "mons Oliveti",
+   "montis Oliveti",
+   "monti Oliveti",
+   "montem Oliveti",
+   "monte Oliveti",
    "mons",
    "montis Perditionis",
    "montis"
   ],
   "bplace:mons-sepher": [
    "mons Sepher",
+   "montis Sepher",
+   "monti Sepher",
+   "montem Sepher",
+   "monte Sepher",
    "mons"
   ],
   "bplace:montes-bether": [
@@ -18771,9 +18808,16 @@
    "maris",
    "Chenereth",
    "mare Chenereth",
+   "mari Chenereth",
    "mare Galilææ",
    "mare Galilaeae",
-   "mare Tiberiadis"
+   "maris Galilææ",
+   "maris Galilaeae",
+   "mari Galilææ",
+   "mari Galilaeae",
+   "mare Tiberiadis",
+   "maris Tiberiadis",
+   "mari Tiberiadis"
   ],
   "bplace:sual.terra": [
    "terra Sual",
@@ -19133,53 +19177,92 @@
    "vallis Baracha",
    "vallis Barachae",
    "vallis Barachæ",
-   "vallis Baracham",
+   "valli Barachae",
+   "valli Barachæ",
+   "vallem Baracham",
+   "valle Baracha",
    "vallis"
   ],
   "bplace:vallis-filii-ennom": [
    "vallis filii Ennom",
+   "valli filii Ennom",
+   "vallem filii Ennom",
+   "valle filii Ennom",
    "vallis",
    "Topheth"
   ],
   "bplace:vallis-iephthael": [
    "vallis Iephthael",
    "vallis Iephthæl",
+   "valli Iephthael",
+   "valli Iephthæl",
+   "vallem Iephthael",
+   "vallem Iephthæl",
+   "valle Iephthael",
+   "valle Iephthæl",
    "vallis"
   ],
   "bplace:vallis-iezrahel": [
    "vallis Iezrahel",
+   "valli Iezrahel",
+   "vallem Iezrahel",
+   "valle Iezrahel",
    "vallis"
   ],
   "bplace:vallis-iosaphat": [
    "vallis Iosaphat",
+   "valli Iosaphat",
+   "vallem Iosaphat",
+   "valle Iosaphat",
    "vallis"
   ],
   "bplace:vallis-multitudinis-gog": [
    "vallis Multitudinis Gog",
+   "valli Multitudinis Gog",
+   "vallem Multitudinis Gog",
+   "valle Multitudinis Gog",
    "vallis"
   ],
   "bplace:vallis-raphaim": [
    "vallis Raphaim",
+   "valli Raphaim",
+   "vallem Raphaim",
+   "valle Raphaim",
    "vallis"
   ],
   "bplace:vallis-regis": [
    "vallis Regis",
+   "valli Regis",
+   "vallem Regis",
+   "valle Regis",
    "vallis"
   ],
   "bplace:vallis-salis": [
    "vallis Salis",
+   "valli Salis",
+   "vallem Salis",
+   "valle Salis",
    "vallis"
   ],
   "bplace:vallis-siddim": [
    "vallis Siddim",
+   "valli Siddim",
+   "vallem Siddim",
+   "valle Siddim",
    "vallis"
   ],
   "bplace:vallis-sorec": [
    "vallis Sorec",
+   "valli Sorec",
+   "vallem Sorec",
+   "valle Sorec",
    "vallis"
   ],
   "bplace:vallis-terebinthi": [
    "vallis Terebinthi",
+   "valli Terebinthi",
+   "vallem Terebinthi",
+   "valle Terebinthi",
    "vallis"
   ],
   "bplace:via-regia": [
@@ -19240,7 +19323,6 @@
  },
  "partial": {
   "bpers:absque-misericordia": [
-   "Absque",
    "misericordia",
    "misericordiae",
    "misericordiæ",
@@ -19248,19 +19330,6 @@
   ],
   "bpers:ammonitae": [
    "filios"
-  ],
-  "bpers:boanerges": [
-   "Iacobus",
-   "Iacobi",
-   "Iacobo",
-   "Iacobum",
-   "Iacobe",
-   "Ioannes",
-   "Ioannis",
-   "Ioanni",
-   "Ioannem",
-   "Ioanne",
-   "Ioannen"
   ],
   "bpers:caligula": [
    "Gaius",
