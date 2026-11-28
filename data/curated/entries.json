@@ -44635,10 +44635,12 @@
   },
   "bpers:eva": {
    "attested": [
-    "btu:gn.2.25"
+    "btu:gn.2.25",
+    "btu:gn.3.12"
    ],
    "evidence": [
-    "nv:btu:gn.2.25"
+    "nv:btu:gn.2.25",
+    "nv:btu:gn.3.12"
    ]
   }
  }
