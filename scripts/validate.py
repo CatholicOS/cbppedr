@@ -342,8 +342,24 @@ def mention_file_problems(ids: set[str]) -> list[str]:
     return out
 
 
-def detail_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
-    """data/details.json: ids exist and are reviewed or adjudicated; ranges; plain-text credits; no coords for a person."""
+def disputed_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
+    """data/curated/disputed_sites.json: a list of place ids that exist, each once."""
+    ids = doc.get("entries")
+    if not isinstance(ids, list):
+        return ["disputed_sites: entries is not a list"]
+    out = [f"disputed_sites {i}: listed twice" for i in sorted({i for i in ids if ids.count(i) > 1})]
+    for i in dict.fromkeys(ids):
+        e = entries.get(i) if isinstance(i, str) else None
+        if e is None:
+            out.append(f"disputed_sites {i}: no such entry")
+        elif e.get("type") != "place":
+            out.append(f"disputed_sites {i}: a {e.get('type')}, not a place")
+    return out
+
+
+def detail_problems(doc: dict, entries: dict[str, dict], disputed: set[str] | frozenset[str] = frozenset()) -> list[str]:
+    """data/details.json: ids exist and are reviewed or adjudicated; ranges; plain-text credits, no placeholder;
+    no coords for a person or a disputed site."""
     out: list[str] = []
     for eid, d in doc.get("entries", {}).items():
         e = entries.get(eid)
@@ -354,6 +370,8 @@ def detail_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
             out.append(f"details {eid}: qid_status {e.get('qid_status')!r} is not reviewed or adjudicated")
         c = d.get("coords")
         if c is not None:
+            if eid in disputed:
+                out.append(f"details {eid}: coordinates on a disputed site")
             if e.get("type") != "place":
                 out.append(f"details {eid}: coordinates on a {e.get('type')}")
             lat, lon = c.get("lat"), c.get("lon")
@@ -368,6 +386,8 @@ def detail_problems(doc: dict, entries: dict[str, dict]) -> list[str]:
             author = str(img.get("author", ""))
             if re.search(r"<[^>]*>", author):
                 out.append(f"details {eid}: HTML in author")
+            if re.fullmatch(r"(?i)(unknown author|unknown artist|anonymous|\s)+", author):
+                out.append(f"details {eid}: placeholder author")
             if len(author) > 200 or re.search(r"[{};]", author):
                 out.append(f"details {eid}: author is not a plain credit")
             if not author and str(img.get("license", "")).lower().startswith("cc by"):
@@ -390,10 +410,16 @@ def main() -> int:
     if u_path.exists():
         p += unnamed_problems(json.loads(u_path.read_text(encoding="utf-8"))["entries"], catalogs)
     p += mention_file_problems(ids)
+    all_entries = {eid: e for cat in catalogs.values() for eid, e in cat["entries"].items()}
+    ds_path = ROOT / "data/curated/disputed_sites.json"
+    disputed: set[str] = set()
+    if ds_path.exists():
+        ds = json.loads(ds_path.read_text(encoding="utf-8"))
+        p += disputed_problems(ds, all_entries)
+        disputed = {i for i in ds.get("entries") or [] if isinstance(i, str)}
     d_path = ROOT / "data/details.json"
     if d_path.exists():
-        p += detail_problems(json.loads(d_path.read_text(encoding="utf-8")),
-                             {eid: e for cat in catalogs.values() for eid, e in cat["entries"].items()})
+        p += detail_problems(json.loads(d_path.read_text(encoding="utf-8")), all_entries, disputed)
     for x in p:
         print(x)
     print(f"{sum(len(c['entries']) for c in catalogs.values())} entries, {len(p)} problems")
